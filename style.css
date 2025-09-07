@@ -8,7 +8,7 @@ body {
 .header-container {
     position: relative;
     text-align: center;
-    margin-bottom: 0; /* Eliminado margen inferior para que los botones estén pegados */
+    margin-bottom: 0; /* Sin espacio debajo del header */
 }
 
 .header-img {
@@ -21,24 +21,24 @@ body {
 
 .button-container {
     text-align: left;
-    padding: 10px 20px; /* Espacio interno */
+    padding: 0 20px; /* Sin padding superior, solo lateral para alinear a la izquierda */
     background-color: #f0f0f0; /* Mismo fondo que el body */
 }
 
 .header-button {
-    background-color: #008CBA;
+    background-color: #0e0eec; /* Color solicitado */
     color: white;
-    padding: 10px 20px;
+    padding: 8px 15px; /* Más pequeños */
     border: none;
     cursor: pointer;
-    text-decoration: none; /* Quitar subrayado de enlace */
-    display: inline-block; /* Para alinear en línea */
+    text-decoration: none;
+    display: inline-block;
     margin-right: 10px; /* Espacio entre botones */
-    font-size: 1rem;
+    font-size: 0.9rem; /* Texto más pequeño */
 }
 
 .header-button:hover {
-    background-color: #005f73;
+    background-color: #0a0a99; /* Tono más oscuro para hover */
 }
 
 main {
@@ -243,11 +243,11 @@ footer {
         padding-bottom: 50px;
     }
     .button-container {
-        padding: 10px; /* Menos padding en mobile */
+        padding: 0 10px; /* Menos padding en mobile */
     }
     .header-button {
-        padding: 8px 15px; /* Botones más pequeños en mobile */
-        font-size: 0.9rem;
+        padding: 6px 12px; /* Aún más pequeños en mobile */
+        font-size: 0.8rem;
         margin-right: 5px;
     }
 }
