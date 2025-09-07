@@ -26,7 +26,7 @@ h1 {
     transform: translate(-50%, -50%);
     margin: 0;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Para visibilidad sobre imagen */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     font-size: 2rem;
 }
 
@@ -58,7 +58,7 @@ footer {
     position: absolute;
     cursor: pointer;
     left: 8px;
-    top: 8px; /* Ajustado para mejor visibilidad */
+    top: 8px;
     background: #0e0eec;
     width: 38px;
     height: 38px;
@@ -126,7 +126,7 @@ footer {
     transform: scale(1);
 }
 .menu-header-image img {
-    max-width: 100px; /* Aumentado para mejor visibilidad */
+    max-width: 100px;
     height: auto;
     margin: 0 auto;
 }
@@ -254,13 +254,13 @@ footer {
         left: 0;
         position: fixed;
         width: 300px;
-        transition: none; /* Sin slide en desktop */
+        transition: none;
     }
     #bun {
-        display: none; /* Ocultar hamburguesa en desktop */
+        display: none;
     }
     body {
-        padding-left: 320px; /* Espacio para sidebar */
+        padding-left: 320px;
     }
     .nav-item {
         transform: scale(1);
