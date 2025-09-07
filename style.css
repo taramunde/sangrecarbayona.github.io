@@ -244,7 +244,7 @@ footer {
         padding-bottom: 50px;
     }
     .button-container {
-        padding: 0;
+        display: none; /* Ocultar botones en móvil */
     }
     .header-button {
         padding: 5px 10px;
@@ -278,5 +278,6 @@ footer {
         transform: scale(1);
     }
 }
+
 
 
