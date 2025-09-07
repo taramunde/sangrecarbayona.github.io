@@ -21,7 +21,7 @@ body {
 
 .button-container {
     text-align: left;
-    padding: 0 5px;
+    padding: 0 3px;
     background-color: #f0f0f0;
 }
 
@@ -244,7 +244,7 @@ footer {
         padding-bottom: 50px;
     }
     .button-container {
-        padding: 0 2px;
+        padding: 0 1px;
     }
     .header-button {
         padding: 5px 10px;
@@ -278,3 +278,4 @@ footer {
         transform: scale(1);
     }
 }
+
