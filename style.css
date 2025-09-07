@@ -8,7 +8,7 @@ body {
 .header-container {
     position: relative;
     text-align: center;
-    margin-bottom: 0; /* Sin espacio debajo del header */
+    margin-bottom: 0;
 }
 
 .header-img {
@@ -21,24 +21,24 @@ body {
 
 .button-container {
     text-align: left;
-    padding: 0 20px; /* Sin padding superior, solo lateral para alinear a la izquierda */
-    background-color: #f0f0f0; /* Mismo fondo que el body */
+    padding: 0 20px;
+    background-color: #f0f0f0;
 }
 
 .header-button {
-    background-color: #0e0eec; /* Color solicitado */
+    background-color: #0e0eec;
     color: white;
-    padding: 8px 15px; /* Más pequeños */
+    padding: 6px 12px; /* Más pequeños (antes: 8px 15px) */
     border: none;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
-    margin-right: 10px; /* Espacio entre botones */
-    font-size: 0.9rem; /* Texto más pequeño */
+    margin-right: 10px;
+    font-size: 0.8rem; /* Texto más pequeño (antes: 0.9rem) */
 }
 
 .header-button:hover {
-    background-color: #0a0a99; /* Tono más oscuro para hover */
+    background-color: #0a0a99;
 }
 
 main {
@@ -243,11 +243,11 @@ footer {
         padding-bottom: 50px;
     }
     .button-container {
-        padding: 0 10px; /* Menos padding en mobile */
+        padding: 0 10px;
     }
     .header-button {
-        padding: 6px 12px; /* Aún más pequeños en mobile */
-        font-size: 0.8rem;
+        padding: 5px 10px; /* Más pequeños en mobile (antes: 6px 12px) */
+        font-size: 0.7rem; /* Texto más pequeño en mobile (antes: 0.8rem) */
         margin-right: 5px;
     }
 }
@@ -276,3 +276,4 @@ footer {
         transform: scale(1);
     }
 }
+
