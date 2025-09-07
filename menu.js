@@ -2,17 +2,19 @@ $(document).ready(function() {
     var originalTop = $('#bun').css('top');
     var originalLeft = $('#bun').css('left');
     
-    // Configurar delays de animación
-    var delay = 300;
-    $('.nav-item').each(function() {
-        $(this).css('transition-delay', delay + 'ms');
-        delay = delay + 100;
-    });
+    // Configurar delays de animación solo si no es desktop
+    if ($(window).width() <= 768) {
+        var delay = 300;
+        $('.nav-item').each(function() {
+            $(this).css('transition-delay', delay + 'ms');
+            delay = delay + 100;
+        });
+    }
     
     // Marcar elementos con submenú
     $('.nav-item.has-submenu').addClass('arrowed');
     
-    // Botón de menú
+    // Botón de menú (solo relevante en mobile)
     $('#bun').click(function() {
         var $this = $(this);
         
