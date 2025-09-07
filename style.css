@@ -277,7 +277,12 @@ footer {
         opacity: 1;
         transform: scale(1);
     }
+
+    .desktop-hidden {
+        display: none; /* Ocultar ítems con clase desktop-hidden en desktop */
+    }
 }
+
 
 
 
