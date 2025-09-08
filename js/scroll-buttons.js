@@ -9,7 +9,7 @@ function scrollElementToBottom(elem) {
 // Comprueba si el menú lateral está abierto (ajusta el selector de clase si es necesario)
 function isMenuOpen() {
   var sidebar = document.getElementById('sidebar');
-  return sidebar && sidebar.classList.contains('open');
+  return sidebar && sidebar.classList.contains('nav-slide');  // Cambia 'open' por 'nav-slide'
 }
 
 document.getElementById('scroll-up').onclick = function() {
