@@ -22,11 +22,14 @@
 .scroll-buttons button:hover {
   background: #4a4aff;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .scroll-buttons {
     right: 10px;
     bottom: 10px;
   }
+  body.menu-open .scroll-buttons {
+        display: none !important;
+    }
   .scroll-buttons button {
     width: 40px;
     height: 40px;
