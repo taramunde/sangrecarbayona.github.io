@@ -271,6 +271,14 @@ footer {
         font-size: 0.7rem;
         margin-right: 5px;
     }
+    body:not(.menu-open) .scroll-buttons {
+        display: none;
+    }
+    
+    body.menu-open .scroll-buttons {
+        display: block;
+        z-index: 1001; /* Para que aparezcan sobre el menú */
+    }
 }
 
 /* Responsividad: Desktop */
