@@ -19,31 +19,11 @@
     line-height: 1.5;
 }
 
-.social-links {
-    margin-top: 15px;
-}
-
-.social-links a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: #cccccc;
-}
-
 /* Ajuste para móviles */
 @media screen and (max-width: 768px) {
     .footer-container {
         padding: 15px;
         font-size: 0.8rem;
-    }
-    .social-links a {
-        margin: 0 10px;
-        font-size: 0.9rem;
     }
 }
 
