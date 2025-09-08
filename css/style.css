@@ -268,6 +268,9 @@ footer {
         font-size: 0.7rem;
         margin-right: 5px;
     }
+    body.menu-open .scroll-buttons {
+        display: none !important;
+    }
 }
 
 /* Responsividad: Desktop */
