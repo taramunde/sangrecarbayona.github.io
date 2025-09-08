@@ -245,9 +245,11 @@ footer {
 
 /* Responsividad: Mobile */
 @media screen and (max-width: 768px) {
-    body.menu-open .scroll-button {
-    display: none !important;
-  }
+    /* Los botones siempre visibles en móvil */
+    .scroll-buttons {
+        display: block !important;
+        z-index: 1003; /* Mayor que el menú (1002) */
+    }
     #sidebar {
         width: 100%;
         left: -100%;
