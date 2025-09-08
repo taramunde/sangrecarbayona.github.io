@@ -16,31 +16,33 @@ $(document).ready(function() {
     
     // Botón de menú (solo relevante en mobile)
     $('#bun').click(function() {
-        var $this = $(this);
-        
-        if (!$this.hasClass('menu-open')) {
-            // Abrir menú
-            $this.addClass('menu-open');
-            setTimeout(function() {
-                $('.menu-header-image').addClass('show');
-            }, 300);
-        } else {
-            // Cerrar menú
-            $('.menu-header-image').removeClass('show');
-            $('.sub-nav').hide(); // Ocultar todos los submenús
-            $('.nav-item').removeClass('selected'); // Quitar selección
-            setTimeout(function() {
-                $this.removeClass('menu-open');
-                $this.css({
-                    'top': originalTop,
-                    'left': originalLeft
-                });
-            }, 300);
-        }
+    var $this = $(this);
+    
+    if (!$this.hasClass('menu-open')) {
+        // Abrir menú
+        $this.addClass('menu-open');
+        $('body').addClass('menu-open'); // Agregar esta línea
+        setTimeout(function() {
+            $('.menu-header-image').addClass('show');
+        }, 300);
+    } else {
+        // Cerrar menú
+        $('.menu-header-image').removeClass('show');
+        $('.sub-nav').hide();
+        $('.nav-item').removeClass('selected');
+        $('body').removeClass('menu-open'); // Agregar esta línea
+        setTimeout(function() {
+            $this.removeClass('menu-open');
+            $this.css({
+                'top': originalTop,
+                'left': originalLeft
+            });
+        }, 300);
+    }
         
         $('#sidebar').toggleClass('nav-slide');
-        $('.nav-item').toggleClass('item-slide');
-    });
+    $('.nav-item').toggleClass('item-slide');
+});
     
     // Manejo de submenús
     $('.nav-item.has-submenu').click(function(e) {
