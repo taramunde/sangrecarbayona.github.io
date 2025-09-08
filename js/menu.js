@@ -21,6 +21,7 @@ $(document).ready(function() {
         if (!$this.hasClass('menu-open')) {
             // Abrir menú
             $this.addClass('menu-open');
+            $('body').addClass('menu-opened');
             setTimeout(function() {
                 $('.menu-header-image').addClass('show');
             }, 300);
@@ -35,6 +36,7 @@ $(document).ready(function() {
                     'top': originalTop,
                     'left': originalLeft
                 });
+                $('body').removeClass('menu-opened');
             }, 300);
         }
         
@@ -69,4 +71,15 @@ $(document).ready(function() {
     $('.sub-nav').click(function(e) {
         e.stopPropagation();
     });
-});
+
+    // Botones de scroll del menú lateral (solo móvil)
+    $('#sidebar-scroll-up').click(function(e) {
+        e.stopPropagation();
+        var nav = $('#mobile-nav ul');
+        nav.animate({ scrollTop: nav.scrollTop() - 100 }, 200);
+    });
+    $('#sidebar-scroll-down').click(function(e) {
+        e.stopPropagation();
+        var nav = $('#mobile-nav ul');
+        nav.animate({ scrollTop: nav.scrollTop() + 100 }, 200);
+    });
