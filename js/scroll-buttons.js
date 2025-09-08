@@ -6,7 +6,7 @@ function scrollElementToBottom(elem) {
   elem.scrollTo({ top: elem.scrollHeight, behavior: 'smooth' });
 }
 
-// Comprueba si el menú lateral está abierto (ajusta el selector de clase si es necesario)
+// Función corregida para detectar si el menú está abierto
 function isMenuOpen() {
   var sidebar = document.getElementById('sidebar');
   return sidebar && sidebar.classList.contains('nav-slide');
@@ -14,18 +14,22 @@ function isMenuOpen() {
 
 document.getElementById('scroll-up').onclick = function() {
   if(isMenuOpen()) {
-    var menu = document.getElementById('sidebar');
+    // Hacer scroll en el contenido del menú lateral
+    var menu = document.getElementById('mobile-nav');
     if(menu) scrollElementToTop(menu);
   } else {
+    // Hacer scroll en la página principal
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 };
 
 document.getElementById('scroll-down').onclick = function() {
   if(isMenuOpen()) {
-    var menu = document.getElementById('sidebar');
+    // Hacer scroll en el contenido del menú lateral
+    var menu = document.getElementById('mobile-nav');
     if(menu) scrollElementToBottom(menu);
   } else {
+    // Hacer scroll en la página principal
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
   }
 };
