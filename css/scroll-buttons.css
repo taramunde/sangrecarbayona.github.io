@@ -20,7 +20,7 @@
   transition: background 0.2s;
 }
 .scroll-buttons button:hover {
-  background: #555;
+  background: #4a4aff;
 }
 @media (max-width: 600px) {
   .scroll-buttons {
