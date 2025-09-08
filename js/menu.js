@@ -70,3 +70,24 @@ $(document).ready(function() {
         e.stopPropagation();
     });
 });
+
+  // Espera que el DOM esté listo por si el script está en <head>
+document.addEventListener('DOMContentLoaded', function() {
+  const openMenuBtn = document.getElementById('open-menu');
+  const closeMenuBtn = document.getElementById('close-menu');
+  const sideMenu = document.getElementById('side-menu');
+  
+  if (openMenuBtn && sideMenu) {
+    openMenuBtn.addEventListener('click', function() {
+      document.body.classList.add('menu-open');
+      sideMenu.style.display = 'block';
+    });
+  }
+
+  if (closeMenuBtn && sideMenu) {
+    closeMenuBtn.addEventListener('click', function() {
+      document.body.classList.remove('menu-open');
+      sideMenu.style.display = 'none';
+    });
+  }
+});
