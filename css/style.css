@@ -268,6 +268,25 @@ footer {
         font-size: 0.7rem;
         margin-right: 5px;
     }
+    /* Oculta los botones de scroll principales cuando el menú lateral está abierto */
+    .menu-opened .scroll-buttons {
+        display: none !important;
+        /* Por defecto, los botones de scroll del menú lateral están ocultos */
+    .sidebar-scroll-buttons {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Solo se muestran en móvil (pantallas de 768px o menos) */
+@media (max-width: 768px) {
+    .sidebar-scroll-buttons {
+        display: block;
+    }
+}
+}
 }
 
 /* Responsividad: Desktop */
