@@ -53,27 +53,65 @@
     font-size: 1em;
 }
 
-/* Responsividad */
-@media (max-width: 600px) {
+/* Móviles pequeños (≤ 400px) */
+@media (max-width: 400px) {
     .hero-container {
-        margin: 10px auto; /* Menos margen en móvil */
-        min-height: 150px; /* Altura más pequeña en móvil */
+        margin: 8px auto;
+        min-height: 120px; /* Más pequeño para pantallas pequeñas */
     }
     .hero-content {
-        padding: 10px; /* Menos padding en móvil */
+        padding: 8px;
     }
     .hero-content h1 {
-        font-size: 1.5em; /* Título más pequeño en móvil */
+        font-size: 1.2em;
     }
     .hero-text {
-        font-size: 0.8em; /* Texto más pequeño en móvil */
+        font-size: 0.7em;
     }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+/* Móviles estándar (401px–600px) */
+@media (min-width: 401px) and (max-width: 600px) {
+    .hero-container {
+        margin: 10px auto;
+        min-height: 150px;
+    }
+    .hero-content {
+        padding: 10px;
+    }
+    .hero-content h1 {
+        font-size: 1.5em;
+    }
+    .hero-text {
+        font-size: 0.8em;
+    }
+}
+
+/* Tablets pequeñas o móviles grandes (601px–768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .hero-container {
+        margin: 12px auto;
+        min-height: 160px;
+    }
+    .hero-content {
+        padding: 12px;
+    }
+    .hero-content h1 {
+        font-size: 1.8em;
+    }
+    .hero-text {
+        font-size: 0.85em;
+    }
+}
+
+/* Tablets estándar (769px–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
     .hero-container {
         margin: 15px auto;
         min-height: 180px;
+    }
+    .hero-content {
+        padding: 15px;
     }
     .hero-content h1 {
         font-size: 2em;
@@ -83,10 +121,27 @@
     }
 }
 
-@media (min-width: 1025px) {
+/* Escritorios pequeños (1025px–1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
     .hero-container {
-        margin-left: 340px; /* Espacio para el menú lateral fijo (320px + 20px) */
+        margin-left: 340px;
         margin-right: 20px;
+        min-height: 190px;
+    }
+    .hero-content h1 {
+        font-size: 2.2em;
+    }
+    .hero-text {
+        font-size: 0.95em;
+    }
+}
+
+/* Escritorios grandes y ultraanchos (≥ 1201px) */
+@media (min-width: 1201px) {
+    .hero-container {
+        margin-left: 340px;
+        margin-right: 20px;
+        min-height: 200px;
     }
     .hero-content h1 {
         font-size: 2.5em;
