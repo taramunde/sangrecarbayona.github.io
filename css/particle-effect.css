@@ -32,6 +32,8 @@
     flex-wrap: nowrap;
     font-family: 'Wordwalker', 'Arial', sans-serif;
     font-size: clamp(2rem, 5vw, 3rem); /* Base adaptable */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .letter-container {
