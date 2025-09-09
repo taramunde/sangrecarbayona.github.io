@@ -1,3 +1,12 @@
+/* Cargar la fuente Wordwalker */
+@font-face {
+    font-family: 'Wordwalker';
+    src: url('../Fonts/Wordwalker.woff2') format('woff2'),
+         url('../Fonts/Wordwalker.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Estilos para Título Real Oviedo Partículas */
 #arena-effect-container {
     position: relative;
@@ -23,7 +32,7 @@
     line-height: 1;
     max-width: 100%;
     flex-wrap: nowrap;
-    font-family: 'Arial', sans-serif; /* Fuente de respaldo hasta cargar Wordwalker */
+    font-family: 'Wordwalker', 'Arial', sans-serif; /* Usa Wordwalker con respaldo */
 }
 
 .letter-container {
