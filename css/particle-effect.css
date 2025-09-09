@@ -1,12 +1,10 @@
-/* Cargar la fuente Wordwalker */
+/* Cargar la fuente Wordwalker desde GitHub */
 @font-face {
     font-family: 'Wordwalker';
-    src: url('../Fonts/Wordwalker.woff2') format('woff2'),
-         url('../Fonts/Wordwalker.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/taramunde/sangrecarbayona.github.io/main/Fonts/Wordwalker%20Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 /* Estilos para Título Real Oviedo Partículas */
 #arena-effect-container {
     position: relative;
