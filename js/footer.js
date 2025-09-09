@@ -1,9 +1,8 @@
-$(document).ready(function() {
-    // Cargar el footer dinámicamente, evitando caché
-    const nocache = new Date().getTime(); // cambia cada vez que recargas
-    $('#footer-placeholder').load('footer.html?nocache=' + nocache, function() {
-        // Actualizar el año actual dinámicamente después de cargar el footer
-        const currentYear = new Date().getFullYear();
-        $('#current-year').text(currentYear);
-    });
-});
+document.getElementById('footer-placeholder').innerHTML = `
+    <div class="footer-container">
+        <div class="footer-content">
+            <p>© 2025 Sangre Carbayona. Todos los derechos reservados.</p>
+            <p>Contacto: info@sangrecarbayona.com | Síguenos en <a href="https://twitter.com/sangrecarbayona">X</a></p>
+        </div>
+    </div>
+`;
