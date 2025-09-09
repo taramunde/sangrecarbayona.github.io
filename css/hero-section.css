@@ -1,1 +1,97 @@
+/* Estilos para Portada Santi Cazorla con Título */
+.hero-container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto; /* Espacio arriba y abajo, centrado horizontalmente */
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    z-index: 10; /* Por debajo del menú lateral (z-index: 1000) */
+}
 
+.hero-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-content h1 {
+    color: white;
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Wordwalker', 'Arial', sans-serif; /* Usa la misma fuente que el efecto de partículas */
+    text-transform: uppercase;
+}
+
+.hero-text {
+    color: white;
+    margin: 10px 0 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .hero-container {
+        margin: 10px auto; /* Menos margen en móvil */
+        min-height: 150px; /* Altura más pequeña en móvil */
+    }
+    .hero-content {
+        padding: 10px; /* Menos padding en móvil */
+    }
+    .hero-content h1 {
+        font-size: 1.5em; /* Título más pequeño en móvil */
+    }
+    .hero-text {
+        font-size: 0.8em; /* Texto más pequeño en móvil */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .hero-container {
+        margin: 15px auto;
+        min-height: 180px;
+    }
+    .hero-content h1 {
+        font-size: 2em;
+    }
+    .hero-text {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hero-container {
+        margin-left: 340px; /* Espacio para el menú lateral fijo (320px + 20px) */
+        margin-right: 20px;
+    }
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+    .hero-text {
+        font-size: 1em;
+    }
+}
