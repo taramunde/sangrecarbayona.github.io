@@ -27,6 +27,7 @@
     width: 100%;
     display: block;
     object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
+    image-rendering: -webkit-optimize-contrast; /* Mejora nitidez en WebKit */
 }
 
 @keyframes fadeIn {
