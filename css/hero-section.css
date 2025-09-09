@@ -144,7 +144,7 @@
 /* Escritorios grandes y ultraanchos (≥ 1201px) */
 @media (min-width: 1201px) {
     .hero-container {
-        margin-left: clamp(320px, 25vw, 340px);
+        margin-left: clamp(320px, 25vw, 400px);
         margin-right: clamp(15px, 2vw, 20px);
         min-height: clamp(190px, 25vh, 200px);
     }
