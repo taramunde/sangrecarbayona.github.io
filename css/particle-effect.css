@@ -188,7 +188,7 @@
 /* Escritorios grandes y ultraanchos (≥ 1201px) */
 @media (min-width: 1201px) {
     #arena-effect-container {
-        margin-left: 320px;
+         margin-left: clamp(320px, 25vw, 400px); /* Proporcional al ancho */
         padding: 20px;
     }
     #text-container {
