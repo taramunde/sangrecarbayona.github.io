@@ -31,6 +31,6 @@
 @media (min-width: 769px) {
     #sidebar .video-container {
         margin: 15px 10px;
-        max-width: 300px; /* Reducido de 400px a 300px para desktop */
+        max-width: 200px; /* Reducido de 400px a 300px para desktop */
     }
 }
