@@ -1,17 +1,17 @@
 /* css/style.css o css/video-player.css */
 .video-container {
-    margin: 20px auto;
-    padding: 10px;
+    margin: 15px auto; /* Reducido de 20px a 15px para un look más compacto */
+    padding: 8px; /* Reducido de 10px a 8px */
     width: 100%;
-    max-width: 600px; /* Ajusta según el diseño */
+    max-width: 400px; /* Reducido de 600px a 400px para desktop */
     text-align: center;
 }
 
 .video-player {
     width: 100%;
     height: auto;
-    border-radius: 8px; /* Para un look moderno */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos responsivos */
