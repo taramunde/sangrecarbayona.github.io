@@ -3,7 +3,7 @@
     margin: 15px auto; /* Reducido de 20px a 15px para un look más compacto */
     padding: 8px; /* Reducido de 10px a 8px */
     width: 100%;
-    max-width: 400px; /* Reducido de 600px a 400px para desktop */
+    max-width: 200px; /* Reducido de 600px a 400px para desktop */
     text-align: center;
 }
 
