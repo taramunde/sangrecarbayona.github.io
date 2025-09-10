@@ -1,9 +1,9 @@
 /* css/style.css o css/video-player.css */
 .video-container {
-    margin: 15px auto; /* Reducido de 20px a 15px para un look más compacto */
-    padding: 8px; /* Reducido de 10px a 8px */
+    margin: 15px auto;
+    padding: 8px;
     width: 100%;
-    max-width: 200px; /* Reducido de 600px a 400px para desktop */
+    max-width: 300px; /* Más pequeño */
     text-align: center;
 }
 
@@ -18,7 +18,7 @@
 @media (max-width: 768px) {
     .video-container {
         padding: 5px;
-        max-width: 80%; /* Reducido de 90% a 80% para móviles */
+        max-width: 70%; /* Más pequeño en móviles */
     }
 }
 
@@ -30,7 +30,7 @@
 /* Ajustes para desktop */
 @media (min-width: 769px) {
     #sidebar .video-container {
-        margin: 15px 10px; /* Reducido de 20px a 15px */
-        max-width: 400px; /* Consistente con el tamaño en desktop */
+        margin: 15px 10px;
+        max-width: 300px; /* Consistente con desktop */
     }
 }
