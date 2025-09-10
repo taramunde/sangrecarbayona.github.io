@@ -4,18 +4,18 @@
     margin: 20px auto;
     padding: 10px;
     max-width: 90%;
-    background-color: #f5f6f5; /* Gris claro, coherente con collapsible-content */
+    background-color: #f5f6f5;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .blink-text {
-    color: #003087; /* Azul del Real Oviedo */
+    color: #003087;
     font-size: 28px;
     font-weight: bold;
-    text-decoration: none; /* Sin subrayado */
+    text-decoration: none;
     display: inline-block;
-    animation: blink 1.5s ease-in-out infinite; /* Parpadeo suave */
+    animation: blink 1.5s ease-in-out infinite;
 }
 
 @keyframes blink {
@@ -29,7 +29,6 @@
     }
 }
 
-/* Respetar preferencias de accesibilidad (sin animaciones) */
 @media (prefers-reduced-motion: reduce) {
     .blink-text {
         animation: none;
@@ -38,7 +37,6 @@
     }
 }
 
-/* Responsividad para móviles */
 @media screen and (max-width: 768px) {
     .blinking-sign {
         margin: 15px auto;
@@ -50,7 +48,6 @@
     }
 }
 
-/* Pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
     .blink-text {
         font-size: 18px;
