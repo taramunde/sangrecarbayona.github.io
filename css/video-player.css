@@ -1,6 +1,6 @@
 /* css/style.css o css/video-player.css */
 .video-container {
-    margin: 30px auto 15px; /* Aumentado margin-top de 15px a 30px para más separación */
+    margin: 40px auto 15px; /* Aumentado margin-top de 15px a 30px para más separación */
     padding: 8px;
     width: 100%;
     max-width: 400px;
@@ -19,7 +19,7 @@
     .video-container {
         padding: 5px;
         max-width: 80%;
-        margin: 25px auto 15px; /* Ligeramente menos en móviles para mantener proporciones */
+        margin: 30px auto 15px; /* Ligeramente menos en móviles para mantener proporciones */
     }
 }
 
@@ -31,7 +31,7 @@
 /* Ajustes para desktop con mayor especificidad */
 @media (min-width: 769px) {
     #mobile-nav .video-container {
-        margin: 30px auto 15px !important; /* Aumentado margin-top a 30px */
+        margin: 40px auto 15px !important; /* Aumentado margin-top a 30px */
         max-width: 250px !important; /* Mantiene el tamaño reducido para desktop */
     }
 }
