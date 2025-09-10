@@ -14,11 +14,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos responsivos */
+/* Estilos responsivos para móviles */
 @media (max-width: 768px) {
     .video-container {
         padding: 5px;
-        max-width: 90%; /* Más pequeño en móviles */
+        max-width: 80%; /* Reducido de 90% a 80% para móviles */
     }
 }
 
@@ -27,9 +27,10 @@
     display: block;
 }
 
-/* Ajustes para desktop si el menú lateral está visible */
+/* Ajustes para desktop */
 @media (min-width: 769px) {
     #sidebar .video-container {
-        margin: 20px 10px;
+        margin: 15px 10px; /* Reducido de 20px a 15px */
+        max-width: 400px; /* Consistente con el tamaño en desktop */
     }
 }
