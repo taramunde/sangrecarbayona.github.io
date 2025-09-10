@@ -1,1 +1,35 @@
+/* css/style.css o css/video-player.css */
+.video-container {
+    margin: 20px auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px; /* Ajusta según el diseño */
+    text-align: center;
+}
 
+.video-player {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Para un look moderno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .video-container {
+        padding: 5px;
+        max-width: 90%; /* Más pequeño en móviles */
+    }
+}
+
+/* Asegurar que el video no desborde en el menú lateral */
+#sidebar .video-container {
+    display: block;
+}
+
+/* Ajustes para desktop si el menú lateral está visible */
+@media (min-width: 769px) {
+    #sidebar .video-container {
+        margin: 20px 10px;
+    }
+}
