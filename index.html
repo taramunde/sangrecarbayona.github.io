@@ -16,7 +16,17 @@
     <link rel="stylesheet" href="css/jornada-section.css?nocache=20251231v12">
     <link rel="stylesheet" href="css/legacy-compatibility.css?nocache=20251231v1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+// Detectar IE y añadir clase CSS
+(function() {
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    var isIE8 = isIE && document.documentMode < 9;
     
+    if (isIE8) {
+        document.documentElement.className += ' ie8';
+    }
+})();
+    </script>
 </head>
 <body>
     <!-- Menú lateral aquí -->
@@ -395,6 +405,7 @@
     <script src="js/jornada-section.js?nocache=20251231v11"></script>
 </body>
 </html>
+
 
 
 
