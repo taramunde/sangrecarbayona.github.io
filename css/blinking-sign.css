@@ -1,24 +1,24 @@
 /* css/blinking-sign.css */
-.blinking-sign .blink-text {
-    color: #003087 !important;
-    font-size: 28px;
-    font-weight: bold;
-    text-decoration: none !important;
-    display: inline-block;
-    animation: blink 1.5s ease-in-out infinite !important;
-    animation-fill-mode: both !important;
+.blinking-sign {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 90%;
+    background-color: #f5f6f5; /* Gris claro, coherente con collapsible-content */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-main .blinking-sign .blink-text {
+.blink-text {
     color: #003087; /* Azul del Real Oviedo */
     font-size: 28px;
     font-weight: bold;
-    text-decoration: none !important; /* Sin subrayado */
+    text-decoration: underline;
+    text-decoration-color: #0040b3; /* Azul más claro para la subraya */
     display: inline-block;
-    animation: blink 1.5s ease-in-out infinite !important; /* Parpadeo forzado */
+    animation: blink 1.5s ease-in-out infinite; /* Parpadeo suave */
 }
 
-/* Animación de parpadeo */
 @keyframes blink {
     0%, 100% {
         color: #003087;
@@ -30,10 +30,16 @@ main .blinking-sign .blink-text {
     }
 }
 
-/* Desactivar animación si el usuario prefiere menos movimiento */
+.blink-text:hover {
+    text-decoration-color: #ffffff;
+    color: #0040b3;
+    transition: color 0.3s ease;
+}
+
+/* Respetar preferencias de accesibilidad (sin animaciones) */
 @media (prefers-reduced-motion: reduce) {
-    main .blinking-sign .blink-text {
-        animation: none !important;
+    .blink-text {
+        animation: none;
         color: #003087;
         opacity: 1;
     }
@@ -41,19 +47,19 @@ main .blinking-sign .blink-text {
 
 /* Responsividad para móviles */
 @media screen and (max-width: 768px) {
-    main .blinking-sign {
+    .blinking-sign {
         margin: 15px auto;
         padding: 8px;
     }
 
-    main .blinking-sign .blink-text {
+    .blink-text {
         font-size: 20px;
     }
 }
 
 /* Pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
-    main .blinking-sign .blink-text {
+    .blink-text {
         font-size: 18px;
     }
 }
