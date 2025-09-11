@@ -119,6 +119,9 @@
         font-size: 50%;
         top: 40px;
     }
+    .container {
+        margin: 15px auto 40px auto; /* Reduce a 40px en tabletas */
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -138,6 +141,9 @@
         font-size: 40%;
         top: 30px;
     }
+    .container {
+        margin: 15px auto 30px auto; /* Reduce a 30px en móviles pequeños */
+        }
 }
 
 /* Fixes para IE8 (Windows XP) */
