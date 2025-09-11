@@ -17,8 +17,8 @@
 /* Reset para evitar desplazamientos */
 .container {
     width: 100%;
-    max-width: 1200px; /* Limita ancho en desktop */
-    margin: 20px auto; /* Centra horizontalmente */
+    max-width: 1200px;
+    margin: 20px auto 60px auto; /* Aumenta margin-bottom a 60px */
     padding: 0 10px;
     display: flex;
     justify-content: center;
