@@ -1,12 +1,12 @@
 /* css/blinking-sign.css */
-main .blinking-sign {
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    max-width: 90%;
-    background-color: #f5f6f5; /* Gris claro */
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.blinking-sign .blink-text {
+    color: #003087 !important;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none !important;
+    display: inline-block;
+    animation: blink 1.5s ease-in-out infinite !important;
+    animation-fill-mode: both !important;
 }
 
 main .blinking-sign .blink-text {
