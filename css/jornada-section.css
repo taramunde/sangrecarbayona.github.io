@@ -6,9 +6,9 @@
 }
 
 .jornada-text {
-    font-size: 24px;
+    font-size: 32px; /* Aumentado de 24px a 32px */
     font-weight: bold;
-    color: #1e3a8a; /* Color azul similar al de tu sitio */
+    color: #0e0eec; /* Color azul similar al de tu sitio */
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
