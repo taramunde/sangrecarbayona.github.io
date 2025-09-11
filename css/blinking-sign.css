@@ -1,23 +1,24 @@
 /* css/blinking-sign.css */
-.blinking-sign {
+main .blinking-sign {
     text-align: center;
     margin: 20px auto;
     padding: 10px;
     max-width: 90%;
-    background-color: #f5f6f5; /* Gris claro, coherente con collapsible-content */
+    background-color: #f5f6f5; /* Gris claro */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.blink-text {
+main .blinking-sign .blink-text {
     color: #003087; /* Azul del Real Oviedo */
     font-size: 28px;
     font-weight: bold;
-    text-decoration: none; /* Sin subrayado */
+    text-decoration: none !important; /* Sin subrayado */
     display: inline-block;
-    animation: blink 1.5s ease-in-out infinite; /* Parpadeo suave */
+    animation: blink 1.5s ease-in-out infinite !important; /* Parpadeo forzado */
 }
 
+/* Animación de parpadeo */
 @keyframes blink {
     0%, 100% {
         color: #003087;
@@ -29,10 +30,10 @@
     }
 }
 
-/* Respetar preferencias de accesibilidad (sin animaciones) */
+/* Desactivar animación si el usuario prefiere menos movimiento */
 @media (prefers-reduced-motion: reduce) {
-    .blink-text {
-        animation: none;
+    main .blinking-sign .blink-text {
+        animation: none !important;
         color: #003087;
         opacity: 1;
     }
@@ -40,23 +41,19 @@
 
 /* Responsividad para móviles */
 @media screen and (max-width: 768px) {
-    .blinking-sign {
+    main .blinking-sign {
         margin: 15px auto;
         padding: 8px;
     }
 
-    .blink-text {
+    main .blinking-sign .blink-text {
         font-size: 20px;
     }
 }
 
 /* Pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
-    .blink-text {
+    main .blinking-sign .blink-text {
         font-size: 18px;
     }
-}
-/* Forzar el parpadeo */
-body main .blinking-sign .blink-text {
-    animation: blink 1.5s ease-in-out infinite !important;
 }
