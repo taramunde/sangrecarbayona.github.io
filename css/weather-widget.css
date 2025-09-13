@@ -1,7 +1,7 @@
 /* css/weather-widget.css */
 .weather-widget {
   background: #fff;
-  max-width: 250px; /* Más pequeño en desktop (antes 280px) */
+  max-width: 200px; /* Más pequeño en desktop (antes 280px) */
   margin: 20px auto;
   padding: 12px 10px 10px 10px; /* Padding reducido para compactar */
   border-radius: 12px;
