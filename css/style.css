@@ -243,6 +243,10 @@ footer {
     opacity: 1 !important;
 }
 
+.container {
+  margin-bottom: 20px !important;
+}
+
 /* Responsividad: Mobile */
 @media screen and (max-width: 768px) {
     #sidebar {
