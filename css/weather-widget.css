@@ -1,1 +1,156 @@
+/* css/weather-widget.css */
+.weather-widget {
+  background: #fff;
+  max-width: 280px; /* Compacto para el menú lateral */
+  margin: 20px auto;
+  padding: 16px 12px 12px 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 48, 135, 0.15); /* Sombra azul suave */
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
 
+.weather-widget h2 {
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
+  color: #003087; /* Azul del Real Oviedo */
+  letter-spacing: 0.3px;
+}
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.weather-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  font-size: 2rem; /* Para iconos emoji */
+}
+
+.temp {
+  font-size: 2rem;
+  color: #003087;
+  font-weight: 600;
+}
+
+.description {
+  text-transform: capitalize;
+  color: #395886;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.location {
+  color: #678ab5;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+.details {
+  color: #3e5a7f;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+.error {
+  color: #c0392b;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background: #003087; /* Azul del Real Oviedo */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #0040b3; /* Azul más claro en hover */
+}
+
+button:disabled {
+  background: #a9c6f2;
+  cursor: not-allowed;
+}
+
+input[type="text"] {
+  margin-top: 8px;
+  padding: 6px 8px;
+  border: 1px solid #bfd7f7;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  width: 70%;
+}
+
+.loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #003087; /* Azul del Real Oviedo */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+  display: none;
+}
+
+.loading .loading-spinner {
+  display: block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsividad para móviles (menú lateral estrecho) */
+@media screen and (max-width: 768px) {
+  .weather-widget {
+    max-width: 250px;
+    margin: 15px auto;
+    padding: 12px 10px;
+  }
+
+  .weather-widget h2 {
+    font-size: 1rem;
+  }
+
+  .temp {
+    font-size: 1.8rem;
+  }
+
+  .weather-icon {
+    font-size: 1.8rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  .description, .location, .details {
+    font-size: 0.85rem;
+  }
+
+  input[type="text"] {
+    width: 65%;
+  }
+}
+
+/* Pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+  .weather-widget {
+    max-width: 220px;
+    padding: 10px 8px;
+  }
+
+  .temp {
+    font-size: 1.6rem;
+  }
+}
