@@ -325,7 +325,22 @@
         <source src="https://www.dropbox.com/s/o3qqibxatohkzoz/Himno%20Real%20Oviedo.mp4?raw=1" type="video/mp4">
         Tu navegador no soporta el elemento de video.
     </video>
-         </div>   
+         </div> 
+
+         <!-- Widget de Tiempo -->
+      <div class="weather-widget" id="weather-widget">
+        <h2>Pronóstico del Tiempo</h2>
+        <div id="weather-content"></div>
+        <div class="loading-spinner"></div>
+        <button id="backToOviedoBtn" style="display: none;">Volver a Oviedo</button>
+        <form id="cityForm">
+          <input type="text" id="cityInput" placeholder="Busca otra ciudad...">
+          <button type="submit" id="citySearchBtn">Buscar</button>
+        </form>
+        <div class="error" id="error"></div>
+        <div class="details" id="credit">Fuente: <a href="https://open-meteo.com/" target="_blank">Open-Meteo</a></div>
+      </div>
+            
         </nav>
     </aside>
     <!-- Fin menú lateral -->
@@ -414,6 +429,7 @@
     <script src="js/goalscorers.js?nocache=20251231v4"></script>
 </body>
 </html>
+
 
 
 
