@@ -9,14 +9,14 @@
     gap: 5px;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Distancia de 20px encima del goleadores */
+    margin-top: 20px; /* Espacio de 20px encima del goleadores */
 }
 
 .card-container {
     width: 200px;
     height: 300px;
     perspective: 1000px;
-    display: flex !important; /* Forzar visibilidad */
+    display: flex !important;
 }
 
 .card {
@@ -197,14 +197,14 @@
 }
 
 .oculta {
-    display: none !important; /* Oculta con máxima prioridad */
+    display: none !important;
 }
 
 /* Responsividad para móviles */
 @media screen and (max-width: 768px) {
     .cards-wrapper {
         gap: 3px;
-        margin-top: 15px; /* Menos distancia en móviles */
+        margin-top: 15px; /* Menos espacio en móviles */
     }
 
     .card-container {
@@ -212,57 +212,4 @@
         height: 240px;
     }
 
-    .player-image-container {
-        width: 120px;
-        height: 120px;
-    }
-
-    .player-number {
-        font-size: 20px;
-    }
-
-    .player-name {
-        font-size: 12px;
-        margin-top: 20px;
-    }
-
-    .team-name, .team-name2 {
-        font-size: 16px;
-        margin-top: 28px;
-    }
-
-    .player-name-back {
-        font-size: 10px;
-    }
-
-    .stat {
-        font-size: 8px;
-    }
-
-    .link-button {
-        font-size: 8px;
-        padding: 4px 8px;
-    }
-
-    .no-goals-text {
-        width: 120px;
-        height: 120px;
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .card-container {
-        width: 140px;
-        height: 210px;
-    }
-
-    .player-image-container {
-        width: 100px;
-        height: 100px;
-    }
-
-    .team-name, .team-name2 {
-        font-size: 14px;
-    }
-}
+   
