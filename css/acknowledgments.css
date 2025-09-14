@@ -3,43 +3,43 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-top: 30px; /* Más espacio (30px) encima del Card Slide */
+    margin-top: 30px;
     width: 100%;
-    max-width: 1000px; /* Reducido para que las columnas sean más estrechas */
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .section-column {
-    max-width: 300px; /* Columnas más estrechas en desktop */
-    margin: 0 5px; /* Menos margen para que quepan */
+    max-width: 300px;
+    margin: 0 5px;
 }
 
 .collapsible {
-    background-color: #0e0eec; /* Azul Oviedo */
+    background-color: #0e0eec;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
     font-size: 16px;
     width: 100%;
-    text-align: center; /* Texto centrado */
+    text-align: center;
     margin-bottom: 10px;
     font-family: Arial, sans-serif;
     transition: background-color 0.3s;
 }
 
 .collapsible:hover {
-    background-color: #3531ff; /* Azul más claro al hover */
+    background-color: #3531ff;
 }
 
 .collapsible:after {
-    content: '\25BC'; /* Flecha hacia abajo */
+    content: '\25BC';
     float: right;
 }
 
 .collapsible.active:after {
-    content: '\25B2'; /* Flecha hacia arriba */
+    content: '\25B2';
 }
 
 .collapsible-content {
@@ -47,28 +47,28 @@
     position: absolute;
     top: 40px;
     left: 50%;
-    transform: translateX(-50%); /* Centrar contenido */
+    transform: translateX(-50%);
     background-color: #f9f9f9;
     padding: 15px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     width: 90%;
-    max-height: 400px; /* Evita desbordamiento */
-    overflow-y: auto; /* Scroll si hay mucho contenido */
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 .collapsible-content ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: center; /* Texto centrado */
+    text-align: center;
 }
 
 .collapsible-content li {
     font-family: Arial, sans-serif;
     font-size: 14px;
     margin-bottom: 8px;
-    color: #3531FF; /* Azul para texto */
+    color: #3531FF;
     font-weight: bold;
 }
 
@@ -82,40 +82,39 @@
     text-decoration: underline;
 }
 
-/* Responsividad para móviles */
 @media screen and (max-width: 768px) {
     .sections {
-        flex-direction: column; /* Columnas apiladas */
-        margin-top: 20px; /* Menos espacio en móviles */
-        max-width: 100%; /* Ocupa todo el ancho */
+        flex-direction: column;
+        margin-top: 20px;
+        max-width: 100%;
     }
 
     .section-column {
-        max-width: 100%; /* Columnas ocupan todo el ancho */
+        max-width: 100%;
         margin: 0 5px;
     }
 
     .collapsible {
-        font-size: 14px; /* Botón más pequeño */
+        font-size: 14px;
         padding: 8px;
     }
 
     .collapsible-content {
-        width: 95%; /* Más ajustado */
+        width: 95%;
         padding: 10px;
         top: 35px;
         max-height: 300px;
     }
 
     .collapsible-content li {
-        font-size: 12px; /* Texto más pequeño */
+        font-size: 12px;
         margin-bottom: 6px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .collapsible {
-        font-size: 12px; /* Aún más pequeño */
+        font-size: 12px;
         padding: 6px;
     }
 
