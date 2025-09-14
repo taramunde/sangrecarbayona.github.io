@@ -4,12 +4,6 @@
     src: url('https://cdn.jsdelivr.net/gh/taramunde1974/Sangre-Carbayona@main/Wordwalker%20Regular.ttf') format('truetype');
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .cards-wrapper {
     display: flex;
     gap: 5px;
@@ -22,6 +16,7 @@
     width: 200px;
     height: 300px;
     perspective: 1000px;
+    display: flex !important; /* Forzar visibilidad */
 }
 
 .card {
@@ -202,7 +197,7 @@
 }
 
 .oculta {
-    display: none !important; /* Oculta con prioridad alta para evitar conflictos */
+    display: none !important; /* Oculta con máxima prioridad */
 }
 
 /* Responsividad para móviles */
@@ -256,7 +251,6 @@
     }
 }
 
-/* Pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
     .card-container {
         width: 140px;
