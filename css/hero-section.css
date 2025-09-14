@@ -7,7 +7,7 @@
     min-height: clamp(120px, 20vh, 200px);
     box-sizing: border-box;
     z-index: 10;
-    margin-top: 20px; /* Espacio debajo del header */
+    
 }
 
 .hero-content {
