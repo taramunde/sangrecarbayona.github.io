@@ -25,6 +25,7 @@
     width: 100%;
     max-width: 1200px; /* Igual que el marcador para coherencia */
     box-sizing: border-box;
+    margin-top: 20px; /* Espacio debajo del header */
 }
 
 /* Texto de goleadores */
