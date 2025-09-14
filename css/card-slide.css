@@ -1,286 +1,274 @@
 /* css/card-slide.css */
 @font-face {
-  font-family: 'Wordwalker';
-  src: url('https://cdn.jsdelivr.net/gh/taramunde1974/Sangre-Carbayona@main/Wordwalker%20Regular.ttf') format('truetype');
+    font-family: 'Wordwalker';
+    src: url('https://cdn.jsdelivr.net/gh/taramunde1974/Sangre-Carbayona@main/Wordwalker%20Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .cards-wrapper {
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; /* Espacio entre goleadores y tarjetas (ajusta si quieres más/menos) */
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Distancia de 20px encima del goleadores */
 }
 
 .card-container {
-  width: 200px;
-  height: 300px;
-  perspective: 1000px;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
 }
 
 .card {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 0.5s ease;
-  cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+    cursor: pointer;
 }
 
 .card:hover, .card.flipped {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .front, .back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 8px;
-  overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .front {
-  background: linear-gradient(45deg, #0e0eec, #85a2ed); /* Gradiente azul del Real Oviedo */
-  padding: 10px;
+    background: linear-gradient(45deg, #0e0eec, #85a2ed);
+    padding: 10px;
 }
 
 .back {
-  background: linear-gradient(45deg, #0e0eec, #85a2ed);
-  transform: rotateY(180deg);
-  padding: 10px;
+    background: linear-gradient(45deg, #0e0eec, #85a2ed);
+    transform: rotateY(180deg);
+    padding: 10px;
 }
 
 .team-crest {
-  position: absolute;
-  top: 145px;
-  right: 15px;
-  width: 25px;
-  height: 40px;
-  z-index: 2;
+    position: absolute;
+    top: 145px;
+    right: 15px;
+    width: 25px;
+    height: 40px;
+    z-index: 2;
 }
 
 .player-image-container {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  margin: 15px auto 0;
-  border-radius: 50%;
-  background: white;
-  border: 3px solid white;
-  overflow: hidden;
-  z-index: 1;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 15px auto 0;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid white;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .player-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  position: relative;
-  left: -2.5%;
-  top: 1%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    left: -2.5%;
+    top: 1%;
 }
 
 .nation-country {
-  position: absolute;
-  top: 10px;
-  right: 8px;
-  width: 40px;
-  height: 40px;
-  background: white;
-  border-radius: 50%;
-  z-index: 2;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    z-index: 2;
 }
 
 .player-number {
-  position: absolute;
-  top: 8px;
-  left: 10px;
-  font-size: 25px;
-  color: white;
-  font-weight: bold;
-  z-index: 2;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
 }
 
 .player-name {
-  text-align: center;
-  color: white;
-  font-size: 14px;
-  margin-top: 25px;
-  font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: bold;
 }
 
 .team-name {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  margin-top: 35px;
-  font-weight: bold;
-  font-family: 'Wordwalker', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: 'Wordwalker', sans-serif;
 }
 
 .team-name2 {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  margin-top: 77px;
-  font-weight: bold;
-  font-family: 'Wordwalker', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 77px;
+    font-weight: bold;
+    font-family: 'Wordwalker', sans-serif;
 }
 
 .player-name-back {
-  text-align: center;
-  color: white;
-  font-size: 12px;
-  margin-top: 5px;
-  font-weight: bold;
-  text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .temp-name {
-  text-align: center;
-  color: white;
-  font-size: 9px;
-  margin-top: 5px;
-  font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 .stats {
-  color: white;
-  margin-top: 20px;
+    color: white;
+    margin-top: 20px;
 }
 
 .stat {
-  display: flex;
-  justify-content: space-between;
-  margin: 5px 0;
-  font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 10px;
 }
 
 .link-button {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 5px 10px;
-  background: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  text-decoration: none;
-  color: #0048ff;
-  font-weight: bold;
-  font-size: 10px;
-  transition: all 0.3s;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0048ff;
+    font-weight: bold;
+    font-size: 10px;
+    transition: all 0.3s;
 }
 
 .link-button:hover {
-  background: #ff8c00;
-  color: white;
+    background: #ff8c00;
+    color: white;
 }
 
 .no-goals-text {
-  width: 150px;
-  height: 150px;
-  margin: 15px auto 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  border-radius: 50%;
-  color: #0048ff;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 15px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    color: #0048ff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
 }
 
 .oculta {
-  display: none;
+    display: none !important; /* Oculta con prioridad alta para evitar conflictos */
 }
 
 /* Responsividad para móviles */
 @media screen and (max-width: 768px) {
-  .cards-wrapper {
-    flex-direction: column; /* Apila tarjetas verticalmente en móviles */
-    gap: 10px;
-    margin-top: 15px; /* Espacio reducido entre goleadores y tarjetas en móviles */
-  }
+    .cards-wrapper {
+        gap: 3px;
+        margin-top: 15px; /* Menos distancia en móviles */
+    }
 
-  .card-container {
-    width: 180px; /* Más pequeño en móviles */
-    height: 270px;
-  }
+    .card-container {
+        width: 160px;
+        height: 240px;
+    }
 
-  .player-image-container {
-    width: 130px;
-    height: 130px;
-  }
+    .player-image-container {
+        width: 120px;
+        height: 120px;
+    }
 
-  .team-crest {
-    width: 20px;
-    height: 35px;
-    top: 130px;
-  }
+    .player-number {
+        font-size: 20px;
+    }
 
-  .player-number {
-    font-size: 20px;
-  }
+    .player-name {
+        font-size: 12px;
+        margin-top: 20px;
+    }
 
-  .player-name {
-    font-size: 12px;
-    margin-top: 20px;
-  }
+    .team-name, .team-name2 {
+        font-size: 16px;
+        margin-top: 28px;
+    }
 
-  .team-name, .team-name2 {
-    font-size: 18px;
-  }
+    .player-name-back {
+        font-size: 10px;
+    }
 
-  .player-name-back {
-    font-size: 10px;
-  }
+    .stat {
+        font-size: 8px;
+    }
 
-  .temp-name {
-    font-size: 8px;
-  }
+    .link-button {
+        font-size: 8px;
+        padding: 4px 8px;
+    }
 
-  .stat {
-    font-size: 9px;
-  }
-
-  .link-button {
-    font-size: 9px;
-    padding: 4px 8px;
-  }
-
-  .no-goals-text {
-    width: 130px;
-    height: 130px;
-    font-size: 16px;
-  }
+    .no-goals-text {
+        width: 120px;
+        height: 120px;
+        font-size: 16px;
+    }
 }
 
 /* Pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
-  .cards-wrapper {
-    margin-top: 10px; /* Aún menos espacio en móviles pequeños */
-  }
+    .card-container {
+        width: 140px;
+        height: 210px;
+    }
 
-  .card-container {
-    width: 160px;
-    height: 250px;
-  }
+    .player-image-container {
+        width: 100px;
+        height: 100px;
+    }
 
-  .player-image-container {
-    width: 120px;
-    height: 120px;
-  }
-
-  .team-name, .team-name2 {
-    font-size: 16px;
-  }
-
-  .stat {
-    font-size: 8px;
-  }
+    .team-name, .team-name2 {
+        font-size: 14px;
+    }
 }
