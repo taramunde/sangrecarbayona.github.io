@@ -16,7 +16,7 @@
     padding: 20px;
     box-sizing: border-box;
     z-index: 10; /* Por debajo del menú lateral (z-index: 1000) */
-    margin-top: 20px; /* Espacio debajo del header */
+    
 }
 
 #text-container {
