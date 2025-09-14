@@ -3,16 +3,16 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-top: 20px; /* Espacio de 20px encima del Card Slide */
+    margin-top: 30px; /* Más espacio (30px) encima del Card Slide */
     width: 100%;
-    max-width: 1200px; /* Limita ancho en desktop */
+    max-width: 1000px; /* Reducido para que las columnas sean más estrechas */
     margin-left: auto;
     margin-right: auto;
 }
 
 .section-column {
-    flex: 1;
-    margin: 0 10px;
+    max-width: 300px; /* Columnas más estrechas en desktop */
+    margin: 0 5px; /* Menos margen para que quepan */
 }
 
 .collapsible {
@@ -23,7 +23,7 @@
     cursor: pointer;
     font-size: 16px;
     width: 100%;
-    text-align: left;
+    text-align: center; /* Texto centrado */
     margin-bottom: 10px;
     font-family: Arial, sans-serif;
     transition: background-color 0.3s;
@@ -46,7 +46,8 @@
     display: none;
     position: absolute;
     top: 40px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centrar contenido */
     background-color: #f9f9f9;
     padding: 15px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -60,6 +61,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center; /* Texto centrado */
 }
 
 .collapsible-content li {
@@ -84,11 +86,13 @@
 @media screen and (max-width: 768px) {
     .sections {
         flex-direction: column; /* Columnas apiladas */
-        margin-top: 15px; /* Menos espacio en móviles */
+        margin-top: 20px; /* Menos espacio en móviles */
+        max-width: 100%; /* Ocupa todo el ancho */
     }
 
     .section-column {
-        margin: 0 5px; /* Menos margen lateral */
+        max-width: 100%; /* Columnas ocupan todo el ancho */
+        margin: 0 5px;
     }
 
     .collapsible {
@@ -100,7 +104,7 @@
         width: 95%; /* Más ajustado */
         padding: 10px;
         top: 35px;
-        max-height: 300px; /* Menor altura */
+        max-height: 300px;
     }
 
     .collapsible-content li {
