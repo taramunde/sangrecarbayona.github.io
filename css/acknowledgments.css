@@ -1,1 +1,127 @@
+/* css/acknowledgments.css */
+.sections {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20px; /* Espacio de 20px encima del Card Slide */
+    width: 100%;
+    max-width: 1200px; /* Limita ancho en desktop */
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.section-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.collapsible {
+    background-color: #0e0eec; /* Azul Oviedo */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.collapsible:hover {
+    background-color: #3531ff; /* Azul más claro al hover */
+}
+
+.collapsible:after {
+    content: '\25BC'; /* Flecha hacia abajo */
+    float: right;
+}
+
+.collapsible.active:after {
+    content: '\25B2'; /* Flecha hacia arriba */
+}
+
+.collapsible-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 90%;
+    max-height: 400px; /* Evita desbordamiento */
+    overflow-y: auto; /* Scroll si hay mucho contenido */
+}
+
+.collapsible-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.collapsible-content li {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #3531FF; /* Azul para texto */
+    font-weight: bold;
+}
+
+.collapsible-content a:link,
+.collapsible-content a:visited {
+    color: #3531FF;
+    text-decoration: none;
+}
+
+.collapsible-content a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividad para móviles */
+@media screen and (max-width: 768px) {
+    .sections {
+        flex-direction: column; /* Columnas apiladas */
+        margin-top: 15px; /* Menos espacio en móviles */
+    }
+
+    .section-column {
+        margin: 0 5px; /* Menos margen lateral */
+    }
+
+    .collapsible {
+        font-size: 14px; /* Botón más pequeño */
+        padding: 8px;
+    }
+
+    .collapsible-content {
+        width: 95%; /* Más ajustado */
+        padding: 10px;
+        top: 35px;
+        max-height: 300px; /* Menor altura */
+    }
+
+    .collapsible-content li {
+        font-size: 12px; /* Texto más pequeño */
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .collapsible {
+        font-size: 12px; /* Aún más pequeño */
+        padding: 6px;
+    }
+
+    .collapsible-content {
+        padding: 8px;
+        top: 30px;
+        max-height: 250px;
+    }
+
+    .collapsible-content li {
+        font-size: 10px;
+    }
+}
