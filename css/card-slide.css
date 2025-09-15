@@ -231,7 +231,7 @@
     .team-crest {
         width: 20px; /* Tamaño más pequeño */
         height: 32px;
-        right: 18px; /* Mover ligeramente a la derecha */
+        right: 15px; /* Mover ligeramente a la derecha */
     }
 }
 
