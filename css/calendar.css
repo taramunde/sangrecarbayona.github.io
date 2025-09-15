@@ -1,6 +1,6 @@
 /* css/calendar.css */
 #calendario-container .calendar {
-    font-family: 'Wordwalker', sans-serif; /* Coincide con Card Slide y temporizador */
+    font-family: Wordwalker, 'sans-serif'; /* Coincide con Card Slide y temporizador */
     display: flex;
     flex-direction: column;
     align-items: center;
