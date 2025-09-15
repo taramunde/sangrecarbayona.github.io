@@ -78,6 +78,35 @@
     color: #0040b3;
 }
 
+/* Separador entre Card Slide y Tabla de Agradecimientos */
+.spacer {
+    height: 40px; /* Ajusta este valor según la separación deseada */
+}
+
+/* Estilos específicos para la tabla de agradecimientos */
+.sections.acknowledgments {
+    margin-top: 20px; /* Margen superior adicional para separación */
+}
+
+/* Ajustar el color de los enlaces en la tabla de agradecimientos para que coincida con el tema */
+.sections.acknowledgments .collapsible-content li a {
+    color: #003087; /* Azul del Real Oviedo, igual que en .alignment-section */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sections.acknowledgments .collapsible-content li a:hover {
+    text-decoration: underline;
+    color: #0040b3; /* Azul más claro al pasar el ratón */
+}
+
+/* Ajustar el texto de la bibliografía (que no usa <a>) */
+.sections.acknowledgments .collapsible-content li span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
 /* Responsividad para móviles */
 @media screen and (max-width: 768px) {
     .alignment-section {
@@ -102,6 +131,19 @@
     .collapsible-content li a {
         font-size: 13px;
     }
+
+    .spacer {
+        height: 30px; /* Menos separación en móviles */
+    }
+
+    .sections.acknowledgments {
+        margin-top: 15px;
+    }
+
+    .sections.acknowledgments .collapsible-content li a,
+    .sections.acknowledgments .collapsible-content li span {
+        font-size: 13px; /* Tamaño de fuente más pequeño en móviles */
+    }
 }
 
 /* Ajuste para pantallas muy pequeñas */
@@ -113,5 +155,14 @@
     .alignment-button {
         font-size: 13px;
         padding: 10px 12px;
+    }
+
+    .spacer {
+        height: 20px; /* Aún menos separación en pantallas muy pequeñas */
+    }
+
+    .sections.acknowledgments .collapsible-content li a,
+    .sections.acknowledgments .collapsible-content li span {
+        font-size: 12px; /* Tamaño de fuente más pequeño */
     }
 }
