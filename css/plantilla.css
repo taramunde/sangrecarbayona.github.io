@@ -34,14 +34,16 @@
     margin-left: 10px;
     font-size: 16px;
 }
+.season-container-wrapper {
+    position: relative;
+    margin-top: 10px;
+}
 .season-container {
     display: none;
-    position: relative;
     background-color: #f5f5f5;
     border: 2px solid #0e0eec;
     border-radius: 10px;
-    padding: 40px 20px 20px 20px; /* Espacio arriba para el botón fijo */
-    margin-top: 10px;
+    padding: 20px;
     max-height: 300px;
     overflow-y: auto;
 }
@@ -49,7 +51,7 @@
     display: block;
 }
 .close-button {
-    position: absolute; /* Cambiado de sticky a absolute */
+    position: absolute;
     top: 10px;
     right: 10px;
     background-color: #0e0eec;
