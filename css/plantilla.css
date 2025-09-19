@@ -1,89 +1,95 @@
 .plantilla-title {
-    text-align: center;
-    padding: 20px;
-    font-family: 'Wordwalker', sans-serif;
-    color: #0e0eec;
+ text-align: center;
+ padding: 20px;
+ font-family: 'Wordwalker', sans-serif;
+ color: #0e0eec;
 }
 .spacer {
-    height: 20px;
+ height: 20px;
 }
 .season-selector {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 20px;
 }
 .season-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: #0e0eec;
-    font-family: 'Wordwalker', sans-serif;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: 2px solid #0e0eec;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: white;
+ color: #0e0eec;
+ font-family: 'Wordwalker', sans-serif;
+ font-size: 18px;
+ padding: 10px 20px;
+ border: 2px solid #0e0eec;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: background-color 0.3s, color 0.3s;
 }
 .season-button:hover {
-    background-color: #0e0eec;
-    color: white;
+ background-color: #0e0eec;
+ color: white;
 }
 .season-button .arrow {
-    margin-left: 10px;
-    font-size: 16px;
+ margin-left: 10px;
+ font-size: 16px;
 }
 .season-container-wrapper {
-    position: relative;
-    margin-top: 10px;
+ position: relative;
+ margin-top: 10px;
 }
 .season-container {
-    display: none;
-    background-color: #f5f5f5;
-    border: 2px solid #0e0eec;
-    border-radius: 10px;
-    padding: 20px;
-    max-height: 300px;
-    overflow-y: auto;
+ display: none;
+ background-color: #f5f5f5;
+ border: 2px solid #0e0eec;
+ border-radius: 10px;
+ padding: 20px;
+ max-height: 300px;
+ overflow-y: auto;
 }
 .season-container.open {
-    display: block;
+ display: block;
 }
 .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #0e0eec;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    z-index: 10;
+ display: none; /* Ocultar por defecto */
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ background-color: #0e0eec;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ width: 30px;
+ height: 30px;
+ font-size: 16px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+ z-index: 10;
+}
+.season-container-wrapper .season-container.open ~ .close-button,
+.season-container.open + .close-button,
+.close-button.open { /* Mostrar cuando el contenedor esté abierto */
+ display: block;
 }
 .close-button:hover {
-    background-color: #1a1aff;
+ background-color: #1a1aff;
 }
 .season-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ text-align: left;
 }
 .season-list li {
-    margin: 5px 0;
+ margin: 5px 0;
 }
 .season-list a {
-    text-decoration: none;
-    color: #0e0eec;
-    font-family: 'Wordwalker', sans-serif;
-    font-size: 16px;
+ text-decoration: none;
+ color: #0e0eec;
+ font-family: 'Wordwalker', sans-serif;
+ font-size: 16px;
 }
 .season-list a:hover {
-    text-decoration: underline;
-    color: #1a1aff;
+ text-decoration: underline;
+ color: #1a1aff;
 }
