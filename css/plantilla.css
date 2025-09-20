@@ -2,7 +2,7 @@
 .plantilla-title {
     text-align: center;
     padding: 20px;
-    font-family: 'Wordwalker', Arial, sans-serif; /* Fuente de respaldo */
+    font-family: 'Wordwalker', Arial, sans-serif;
     color: #0e0eec;
     font-size: 2.5rem; /* 40px */
     margin: 0;
@@ -16,11 +16,11 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    box-sizing: border-box; /* Evita desbordes */
+    box-sizing: border-box;
 }
 
 .season-button {
-    display: -webkit-box; /* Compatibilidad con navegadores antiguos */
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
@@ -165,8 +165,9 @@
 /* Móviles (320px - 767px) */
 @media (max-width: 767px) {
     .plantilla-title {
-        font-size: 1.5rem; /* 24px */
+        font-size: 1.2rem; /* 19.2px, reducido para que quepa en una línea */
         padding: 10px;
+        line-height: 1.2; /* Evita división en varias líneas */
     }
 
     .spacer {
@@ -179,14 +180,17 @@
     }
 
     .season-button {
-        font-size: 14px;
-        padding: 6px 12px;
-        width: 100%; /* Ocupa todo el ancho */
-        box-sizing: border-box;
+        font-size: 13px; /* Tamaño de fuente más pequeño */
+        padding: 6px 8px; /* Menos padding lateral para reducir espacios */
+        -webkit-box-pack: start; /* Alinear a la izquierda */
+        -ms-flex-pack: start;
+        justify-content: flex-start; /* Alinear a la izquierda */
+        width: auto; /* Ancho basado en contenido */
+        min-width: 120px; /* Mínimo para accesibilidad */
     }
 
     .season-button .arrow {
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 8px;
     }
 
@@ -211,13 +215,14 @@
 /* Móviles muy pequeños (menor a 360px, por ejemplo, iPhone 4) */
 @media (max-width: 360px) {
     .plantilla-title {
-        font-size: 1.2rem; /* 19.2px */
+        font-size: 1.1rem; /* 17.6px, aún más pequeño */
         padding: 8px;
     }
 
     .season-button {
         font-size: 12px;
-        padding: 5px 10px;
+        padding: 5px 6px; /* Aún menos padding */
+        min-width: 100px;
     }
 
     .season-container {
