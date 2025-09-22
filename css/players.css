@@ -1,1 +1,95 @@
+/* css/players.css */
+.players-section {
+    text-align: center;
+    margin: 20px 0;
+}
 
+.players-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #0e0eec, #4b4bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0 15px 0;
+}
+
+.players-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.nav-button {
+    background: #0e0eec;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.nav-button:hover:not(:disabled) {
+    background: #4b4bff;
+}
+
+.nav-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.players-counter {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0e0eec;
+}
+
+.players-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.players-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #0e0eec;
+}
+
+.players-gallery .faded {
+    opacity: 0.3;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+    .players-title {
+        font-size: 20px;
+    }
+    .players-gallery img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .players-title {
+        font-size: 18px;
+    }
+    .players-gallery img {
+        width: 100px;
+        height: 100px;
+    }
+    .players-nav {
+        gap: 5px;
+    }
+    .nav-button {
+        padding: 3px 8px;
+        font-size: 14px;
+    }
+  }
