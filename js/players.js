@@ -31,10 +31,15 @@ const currentIndices = {
 
 function updatePlayerGallery(position) {
     const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
+    if (!gallery) {
+        console.error(`No se encontró .players-gallery para ${position}`);
+        return;
+    }
+
     const players = playersData[position];
     const currentIndex = currentIndices[position];
 
-    // Generar HTML para la imagen principal y la siguiente
+    // Generar HTML para la imagen principal
     let mainPlayerHTML = `
         <div class="player-card">
             <img class="main-player" data-position="${position}" src="${players[currentIndex].src}" alt="${players[currentIndex].alt}">
@@ -48,6 +53,7 @@ function updatePlayerGallery(position) {
         </div>
     `;
 
+    // Generar HTML para la imagen siguiente (difuminada)
     let nextPlayerHTML = '';
     if (currentIndex < players.length - 1) {
         nextPlayerHTML = `
@@ -69,16 +75,17 @@ function updatePlayerGallery(position) {
 
     // Actualizar contador
     const counter = document.querySelector(`.players-counter[data-position="${position}"]`);
-    counter.textContent = `${currentIndex + 1}/${players.length}`;
+    if (counter) {
+        counter.textContent = `${currentIndex + 1}/${players.length}`;
+    }
 
     // Habilitar/deshabilitar botones
     const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
     const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
-    prevButton.disabled = currentIndex === 0;
-    nextButton.disabled = currentIndex === players.length - 1;
+    if (prevButton) prevButton.disabled = currentIndex === 0;
+    if (nextButton) nextButton.disabled = currentIndex === players.length - 1;
 }
 
-// Inicializar todas las galerías
 function initGalleries() {
     Object.keys(playersData).forEach(position => {
         const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
@@ -88,20 +95,25 @@ function initGalleries() {
         }
         gallery.setAttribute('data-position', position);
         updatePlayerGallery(position);
-        document.querySelector(`.prev-button[data-position="${position}"]`).addEventListener("click", () => {
-            if (currentIndices[position] > 0) {
-                currentIndices[position]--;
-                updatePlayerGallery(position);
-            }
-        });
-        document.querySelector(`.next-button[data-position="${position}"]`).addEventListener("click", () => {
-            if (currentIndices[position] < playersData[position].length - 1) {
-                currentIndices[position]++;
-                updatePlayerGallery(position);
-            }
-        });
+        const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
+        const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
+        if (prevButton) {
+            prevButton.addEventListener("click", () => {
+                if (currentIndices[position] > 0) {
+                    currentIndices[position]--;
+                    updatePlayerGallery(position);
+                }
+            });
+        }
+        if (nextButton) {
+            nextButton.addEventListener("click", () => {
+                if (currentIndices[position] < playersData[position].length - 1) {
+                    currentIndices[position]++;
+                    updatePlayerGallery(position);
+                }
+            });
+        }
     });
 }
 
-// Ejecutar al cargar la página
 document.addEventListener("DOMContentLoaded", initGalleries);
