@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    max-width: 350px; /* Ajustado para dos imágenes más altas */
+    max-width: 350px;
     margin: 0 auto;
 }
 
@@ -67,18 +67,19 @@
     max-width: 150px;
     aspect-ratio: 3 / 4; /* Más alta que ancha */
     object-fit: cover;
-    border-radius: 10px 10px 0 0; /* Redondeado solo en la parte superior */
+    border-radius: 10px 10px 0 0;
     border: 2px solid #0e0eec;
-    border-bottom: none; /* Sin borde inferior para conectar con la prolongación */
+    border-bottom: none;
+    transition: opacity 0.3s ease; /* Transición suave para el difuminado */
 }
 
 .player-info {
     width: 100%;
-    max-width: 150px; /* Igual que la imagen */
-    background: white; /* Fondo blanco para la prolongación */
+    max-width: 150px;
+    background: white;
     border: 2px solid #0e0eec;
-    border-top: none; /* Sin borde superior para conectar con la imagen */
-    border-radius: 0 0 10px 10px; /* Redondeado solo en la parte inferior */
+    border-top: none;
+    border-radius: 0 0 10px 10px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -106,7 +107,7 @@
     background: #0e0eec;
     color: white;
     border: none;
-    border-radius: 20px; /* Botón redondeado */
+    border-radius: 20px;
     padding: 8px 16px;
     font-size: 14px;
     cursor: pointer;
@@ -115,6 +116,15 @@
 
 .player-button:hover {
     background: #4b4bff;
+}
+
+.players-gallery .faded {
+    opacity: 0.3; /* Difuminado para next-player */
+}
+
+/* Asegurar que la prolongación no se vea afectada por .faded */
+.players-gallery .faded .player-info {
+    opacity: 1; /* La prolongación permanece nítida */
 }
 
 /* Responsividad */
