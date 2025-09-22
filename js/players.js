@@ -2,23 +2,23 @@
 const playersData = {
     goalkeepers: [
         { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Aarón", number: "13", name: "Aarón", link: "https://sangrecarbayona.blogspot.com/aaron-ficha" },
-        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Moldovan", number: "1", name: "Moldovan", link: "https://sangrecarbayona.blogspot.com/juan-perez-ficha" },
-        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Narváez", number: "-", name: "Narváez", link: "https://sangrecarbayona.blogspot.com/carlos-gomez-ficha" }
+        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Moldovan", number: "1", name: "Moldovan", link: "https://sangrecarbayona.blogspot.com/moldovan-ficha" },
+        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Narváez", number: "-", name: "Narváez", link: "https://sangrecarbayona.blogspot.com/narvaez-ficha" }
     ],
     defenders: [
-        { src: "https://i.postimg.cc/YOUR_URL/defensa1.jpg", alt: "Nombre Defensa 1", number: "2", name: "Nombre Defensa 1", link: "https://sangrecarbayona.blogspot.com/defensa1-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/defensa2.jpg", alt: "Nombre Defensa 2", number: "3", name: "Nombre Defensa 2", link: "https://sangrecarbayona.blogspot.com/defensa2-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/defensa3.jpg", alt: "Nombre Defensa 3", number: "4", name: "Nombre Defensa 3", link: "https://sangrecarbayona.blogspot.com/defensa3-ficha" }
+        { src: "https://i.postimg.cc/EXAMPLE_URL/defensa1.webp", alt: "Defensa 1", number: "2", name: "Defensa 1", link: "https://sangrecarbayona.blogspot.com/defensa1-ficha" },
+        { src: "https://i.postimg.cc/EXAMPLE_URL/defensa2.webp", alt: "Defensa 2", number: "3", name: "Defensa 2", link: "https://sangrecarbayona.blogspot.com/defensa2-ficha" },
+        { src: "https://i.postimg.cc/EXAMPLE_URL/defensa3.webp", alt: "Defensa 3", number: "4", name: "Defensa 3", link: "https://sangrecarbayona.blogspot.com/defensa3-ficha" }
     ],
     midfielders: [
-        { src: "https://i.postimg.cc/YOUR_URL/centrocampista1.jpg", alt: "Nombre Centrocampista 1", number: "5", name: "Nombre Centrocampista 1", link: "https://sangrecarbayona.blogspot.com/centrocampista1-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/centrocampista2.jpg", alt: "Nombre Centrocampista 2", number: "6", name: "Nombre Centrocampista 2", link: "https://sangrecarbayona.blogspot.com/centrocampista2-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/centrocampista3.jpg", alt: "Nombre Centrocampista 3", number: "7", name: "Nombre Centrocampista 3", link: "https://sangrecarbayona.blogspot.com/centrocampista3-ficha" }
+        { src: "https://i.postimg.cc/EXAMPLE_URL/centrocampista1.webp", alt: "Centrocampista 1", number: "5", name: "Centrocampista 1", link: "https://sangrecarbayona.blogspot.com/centrocampista1-ficha" },
+        { src: "https://i.postimg.cc/EXAMPLE_URL/centrocampista2.webp", alt: "Centrocampista 2", number: "6", name: "Centrocampista 2", link: "https://sangrecarbayona.blogspot.com/centrocampista2-ficha" },
+        { src: "https://i.postimg.cc/EXAMPLE_URL/centrocampista3.webp", alt: "Centrocampista 3", number: "7", name: "Centrocampista 3", link: "https://sangrecarbayona.blogspot.com/centrocampista3-ficha" }
     ],
     forwards: [
-        { src: "https://i.postimg.cc/YOUR_URL/delanteros1.jpg", alt: "Nombre Delantero 1", number: "9", name: "Nombre Delantero 1", link: "https://sangrecarbayona.blogspot.com/delantero1-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/delanteros2.jpg", alt: "Nombre Delantero 2", number: "10", name: "Nombre Delantero 2", link: "https://sangrecarbayona.blogspot.com/delantero2-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/delanteros3.jpg", alt: "Nombre Delantero 3", number: "11", name: "Nombre Delantero 3", link: "https://sangrecarbayona.blogspot.com/delantero3-ficha" }
+        { src: "https://i.postimg.cc/EXAMPLE_URL/delantero1.webp", alt: "Delantero 1", number: "9", name: "Delantero 1", link: "https://sangrecarbayona.blogspot.com/delantero1-ficha" },
+        { src: "https://i.postimg.cc/EXAMPLE_URL/delantero2.webp", alt: "Delantero 2", number: "10", name: "Delantero 2", link: "https://sangrecarbayona.blogspot.com/delantero2-ficha" },
+        { src: "https://i.postimg.cc/EXAMPLE_URL/delantero3.webp", alt: "Delantero 3", number: "11", name: "Delantero 3", link: "https://sangrecarbayona.blogspot.com/delantero3-ficha" }
     ]
 };
 
@@ -45,6 +45,12 @@ function updatePlayerGallery(position) {
     const players = playersData[position];
     const currentIndex = currentIndices[position];
 
+    // Verificar que los elementos existen
+    if (!mainPlayer || !mainNumber || !mainName || !mainButton || !counter || !prevButton || !nextButton) {
+        console.error(`Elementos no encontrados para la posición: ${position}`);
+        return;
+    }
+
     // Actualizar imagen principal
     mainPlayer.src = players[currentIndex].src;
     mainPlayer.alt = players[currentIndex].alt;
@@ -53,7 +59,7 @@ function updatePlayerGallery(position) {
     mainButton.href = players[currentIndex].link;
 
     // Actualizar imagen secundaria
-    if (currentIndex < players.length - 1) {
+    if (currentIndex < players.length - 1 && nextPlayer && nextNumber && nextName && nextButton) {
         nextPlayer.src = players[currentIndex + 1].src;
         nextPlayer.alt = players[currentIndex + 1].alt;
         nextNumber.textContent = players[currentIndex + 1].number;
@@ -61,7 +67,7 @@ function updatePlayerGallery(position) {
         nextButton.href = players[currentIndex + 1].link;
         nextPlayer.parentElement.style.display = "block";
     } else {
-        nextPlayer.parentElement.style.display = "none";
+        if (nextPlayer) nextPlayer.parentElement.style.display = "none";
     }
 
     // Actualizar contador
@@ -76,20 +82,29 @@ function updatePlayerGallery(position) {
 function initGalleries() {
     Object.keys(playersData).forEach(position => {
         updatePlayerGallery(position);
-        document.querySelector(`.prev-button[data-position="${position}"]`).addEventListener("click", () => {
-            if (currentIndices[position] > 0) {
-                currentIndices[position]--;
-                updatePlayerGallery(position);
-            }
-        });
-        document.querySelector(`.next-button[data-position="${position}"]`).addEventListener("click", () => {
-            if (currentIndices[position] < playersData[position].length - 1) {
-                currentIndices[position]++;
-                updatePlayerGallery(position);
-            }
-        });
+        const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
+        const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
+        if (prevButton) {
+            prevButton.addEventListener("click", () => {
+                if (currentIndices[position] > 0) {
+                    currentIndices[position]--;
+                    updatePlayerGallery(position);
+                }
+            });
+        }
+        if (nextButton) {
+            nextButton.addEventListener("click", () => {
+                if (currentIndices[position] < playersData[position].length - 1) {
+                    currentIndices[position]++;
+                    updatePlayerGallery(position);
+                }
+            });
+        }
     });
 }
 
 // Ejecutar al cargar la página
-document.addEventListener("DOMContentLoaded", initGalleries);
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Iniciando galerías...");
+    initGalleries();
+});
