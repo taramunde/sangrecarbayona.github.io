@@ -2,8 +2,8 @@
 const playersData = {
     goalkeepers: [
         { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Aarón", number: "13", name: "Aarón", link: "https://sangrecarbayona.blogspot.com/aaron-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/portero2.jpg", alt: "Juan Pérez", number: "1", name: "Juan Pérez", link: "https://sangrecarbayona.blogspot.com/juan-perez-ficha" },
-        { src: "https://i.postimg.cc/YOUR_URL/portero3.jpg", alt: "Carlos Gómez", number: "12", name: "Carlos Gómez", link: "https://sangrecarbayona.blogspot.com/carlos-gomez-ficha" }
+        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Moldovan", number: "1", name: "Moldovan", link: "https://sangrecarbayona.blogspot.com/juan-perez-ficha" },
+        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Narváez", number: "-", name: "Narváez", link: "https://sangrecarbayona.blogspot.com/carlos-gomez-ficha" }
     ],
     defenders: [
         { src: "https://i.postimg.cc/YOUR_URL/defensa1.jpg", alt: "Nombre Defensa 1", number: "2", name: "Nombre Defensa 1", link: "https://sangrecarbayona.blogspot.com/defensa1-ficha" },
