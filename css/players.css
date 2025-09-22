@@ -2,7 +2,7 @@
 .players-section {
     text-align: left;
     margin: 20px 0 20px 20px;
-    max-width: 700px; /* Aumentado para imágenes más grandes */
+    max-width: 720px; /* 200px + 200px + 20px gap + margen */
 }
 
 .players-title {
@@ -55,9 +55,15 @@
     gap: 20px;
 }
 
+.players-gallery .player-container {
+    position: relative;
+    width: 200px;
+    height: 300px; /* Rectangular: más alto que ancho */
+}
+
 .players-gallery img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 300px;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid #0e0eec;
@@ -67,32 +73,118 @@
     opacity: 0.3;
 }
 
+/* Difuminado en la parte inferior */
+.players-gallery .player-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Altura del difuminado */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
+    pointer-events: none; /* Evita que el difuminado interfiera con clics */
+}
+
+/* Contenedor para número, nombre y botón */
+.player-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+/* Número del jugador */
+.player-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0e0eec; /* Azul */
+    margin-right: 10px;
+}
+
+/* Nombre del jugador */
+.player-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000; /* Negro */
+}
+
+/* Botón Ver Ficha */
+.player-button {
+    display: block;
+    margin-top: 5px;
+    background: #0e0eec; /* Fondo azul */
+    color: #fff; /* Letras blancas */
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 12px; /* Bordes redondeados */
+    font-size: 14px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.player-button:hover {
+    background: #4b4bff; /* Azul más claro al pasar el ratón */
+}
+
 /* Responsividad */
 @media screen and (max-width: 768px) {
     .players-section {
         margin-left: 15px;
-        max-width: 550px;
+        max-width: 620px; /* 175px + 175px + 20px gap + margen */
     }
     .players-title {
         font-size: 20px;
     }
+    .players-gallery .player-container {
+        width: 175px;
+        height: 262.5px; /* Mantener proporción 2:3 */
+    }
     .players-gallery img {
-        width: 200px;
-        height: 200px;
+        width: 175px;
+        height: 262.5px;
+    }
+    .player-number {
+        font-size: 16px;
+    }
+    .player-name {
+        font-size: 14px;
+    }
+    .player-button {
+        font-size: 12px;
+        padding: 4px 8px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .players-section {
         margin-left: 10px;
-        max-width: 400px;
+        max-width: 520px; /* 150px + 150px + 20px gap + margen */
     }
     .players-title {
         font-size: 18px;
     }
+    .players-gallery .player-container {
+        width: 150px;
+        height: 225px; /* Mantener proporción 2:3 */
+    }
     .players-gallery img {
         width: 150px;
-        height: 150px;
+        height: 225px;
+    }
+    .player-number {
+        font-size: 14px;
+    }
+    .player-name {
+        font-size: 12px;
+    }
+    .player-button {
+        font-size: 10px;
+        padding: 3px 6px;
     }
     .players-nav {
         gap: 5px;
