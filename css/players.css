@@ -52,11 +52,14 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    max-width: 350px; /* Ajustado para imágenes más altas */
+    margin: 0 auto;
 }
 
 .players-gallery img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    max-width: 150px;
+    aspect-ratio: 3 / 4; /* Más alta que ancha */
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid #0e0eec;
@@ -72,8 +75,8 @@
         font-size: 20px;
     }
     .players-gallery img {
-        width: 120px;
-        height: 120px;
+        max-width: 120px;
+        aspect-ratio: 3 / 4;
     }
 }
 
@@ -82,8 +85,8 @@
         font-size: 18px;
     }
     .players-gallery img {
-        width: 100px;
-        height: 100px;
+        max-width: 100px;
+        aspect-ratio: 3 / 4;
     }
     .players-nav {
         gap: 5px;
