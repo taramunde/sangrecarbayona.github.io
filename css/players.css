@@ -123,8 +123,8 @@
     background: #4b4bff;
 }
 
-.players-gallery .faded {
-    opacity: 0.3;
+.player-card.faded {
+    opacity: 0.3 !important;
 }
 
 /* Responsividad */
