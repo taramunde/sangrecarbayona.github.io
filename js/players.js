@@ -1,24 +1,24 @@
 // js/players.js
 const playersData = {
     goalkeepers: [
-        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Aarón" },
-        { src: "https://i.postimg.cc/your-image/portero2.jpg", alt: "Nombre Portero 2" },
-        { src: "https://i.postimg.cc/your-image/portero3.jpg", alt: "Nombre Portero 3" }
+        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero 1" },
+        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Portero 2" },
+        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Portero 3" }
     ],
     defenders: [
-        { src: "https://i.postimg.cc/your-image/defensa1.jpg", alt: "Nombre Defensa 1" },
-        { src: "https://i.postimg.cc/your-image/defensa2.jpg", alt: "Nombre Defensa 2" },
-        { src: "https://i.postimg.cc/your-image/defensa3.jpg", alt: "Nombre Defensa 3" }
+        { src: "https://i.postimg.cc/placeholder/defensa1.jpg", alt: "Defensa 1" },
+        { src: "https://i.postimg.cc/placeholder/defensa2.jpg", alt: "Defensa 2" },
+        { src: "https://i.postimg.cc/placeholder/defensa3.jpg", alt: "Defensa 3" }
     ],
     midfielders: [
-        { src: "https://i.postimg.cc/your-image/centrocampista1.jpg", alt: "Nombre Centrocampista 1" },
-        { src: "https://i.postimg.cc/your-image/centrocampista2.jpg", alt: "Nombre Centrocampista 2" },
-        { src: "https://i.postimg.cc/your-image/centrocampista3.jpg", alt: "Nombre Centrocampista 3" }
+        { src: "https://i.postimg.cc/placeholder/centrocampista1.jpg", alt: "Centrocampista 1" },
+        { src: "https://i.postimg.cc/placeholder/centrocampista2.jpg", alt: "Centrocampista 2" },
+        { src: "https://i.postimg.cc/placeholder/centrocampista3.jpg", alt: "Centrocampista 3" }
     ],
     forwards: [
-        { src: "https://i.postimg.cc/your-image/delanteros1.jpg", alt: "Nombre Delantero 1" },
-        { src: "https://i.postimg.cc/your-image/delanteros2.jpg", alt: "Nombre Delantero 2" },
-        { src: "https://i.postimg.cc/your-image/delanteros3.jpg", alt: "Nombre Delantero 3" }
+        { src: "https://i.postimg.cc/placeholder/delanteros1.jpg", alt: "Delantero 1" },
+        { src: "https://i.postimg.cc/placeholder/delanteros2.jpg", alt: "Delantero 2" },
+        { src: "https://i.postimg.cc/placeholder/delanteros3.jpg", alt: "Delantero 3" }
     ]
 };
 
