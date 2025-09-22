@@ -82,7 +82,8 @@
     border-radius: 0 0 10px 10px;
     padding: 10px;
     box-sizing: border-box;
-    min-height: 80px; /* Altura mínima para uniformidad */
+    height: 80px; /* Altura fija para uniformidad */
+    overflow: hidden; /* Oculta contenido que desborda */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -105,10 +106,7 @@
     color: black;
     font-size: 16px;
     font-weight: bold;
-    white-space: nowrap; /* Evita que el texto se envuelva */
-    overflow: hidden; /* Oculta el texto que desborda */
-    text-overflow: ellipsis; /* Añade puntos suspensivos para nombres largos */
-    max-width: 100px; /* Limita el ancho del nombre */
+    flex: 1; /* Ocupa el espacio disponible */
 }
 
 .player-button {
@@ -148,14 +146,13 @@
     .player-name {
         font-size: 14px;
         font-weight: bold;
-        max-width: 80px; /* Ajustar ancho para nombres largos */
     }
     .player-button {
         font-size: 12px;
         padding: 6px 12px;
     }
     .player-info {
-        min-height: 70px; /* Altura mínima ajustada */
+        height: 70px; /* Altura fija ajustada */
     }
 }
 
@@ -172,14 +169,13 @@
     .player-name {
         font-size: 12px;
         font-weight: bold;
-        max-width: 60px; /* Ajustar ancho para nombres largos */
     }
     .player-button {
         font-size: 10px;
         padding: 5px 10px;
     }
     .player-info {
-        min-height: 60px; /* Altura mínima ajustada */
+        height: 60px; /* Altura fija ajustada */
     }
     .players-nav {
         gap: 5px;
