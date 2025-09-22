@@ -1,8 +1,8 @@
 /* css/players.css */
 .players-section {
-    text-align: left; /* Cambiar de center a left */
-    margin: 20px 0 20px 20px; /* Margen izquierdo para alinearse con el botón */
-    max-width: 600px; /* Limita el ancho para mantener la alineación */
+    text-align: left;
+    margin: 20px 0 20px 20px;
+    max-width: 700px; /* Aumentado para imágenes más grandes */
 }
 
 .players-title {
@@ -17,7 +17,7 @@
 
 .players-nav {
     display: flex;
-    justify-content: flex-start; /* Alinear a la izquierda */
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
@@ -35,6 +35,73 @@
 }
 
 .nav-button:hover:not(:disabled) {
+    background: #4b4bff;
+}
+
+.nav-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.players-counter {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0e0eec;
+}
+
+.players-gallery {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.players-gallery img {
+    width: 250px; /* Aumentado de 150px */
+    height: 250px; /* Aumentado de 150px */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #0e0eec;
+}
+
+.players-gallery .faded {
+    opacity: 0.3;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+    .players-section {
+        margin-left: 15px;
+        max-width: 550px; /* Ajustado para imágenes más grandes */
+    }
+    .players-title {
+        font-size: 20px;
+    }
+    .players-gallery img {
+        width: 200px; /* Aumentado de 120px */
+        height: 200px; /* Aumentado de 120px */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .players-section {
+        margin-left: 10px;
+        max-width: 400px; /* Ajustado para imágenes más grandes */
+    }
+    .players-title {
+        font-size: 18px;
+    }
+    .players-gallery img {
+        width: 150px; /* Aumentado de 100px */
+        height: 150px; /* Aumentado de 100px */
+    }
+    .players-nav {
+        gap: 5px;
+    }
+    .nav-button {
+        padding: 3px 8px;
+        font-size: 14px;
+    }
+}.nav-button:hover:not(:disabled) {
     background: #4b4bff;
 }
 
