@@ -3,12 +3,14 @@ const playersData = {
     goalkeepers: [
         { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero 1", number: "13", name: "Aarón", url: "#" },
         { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Portero 2", number: "1", name: "Moldovan", url: "#" },
-        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Portero 3", number: "31", name: "Narváez", url: "#" }
+        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Portero 3", number: "26", name: "Narváez", url: "#" }
     ],
     defenders: [
-        { src: "https://i.postimg.cc/placeholder/defensa1.jpg", alt: "Defensa 1", number: "4", name: "Defensa 1", url: "#" },
-        { src: "https://i.postimg.cc/placeholder/defensa2.jpg", alt: "Defensa 2", number: "5", name: "Defensa 2", url: "#" },
-        { src: "https://i.postimg.cc/placeholder/defensa3.jpg", alt: "Defensa 3", number: "6", name: "Defensa 3", url: "#" }
+        { src: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", alt: "Defensa 1", number: "2", name: "Bailly", url: "#" },
+        { src: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", alt: "Defensa 2", number: "3", name: "Rahim", url: "#" },
+        { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
+        { src: "https://i.postimg.cc/Wb0spKY0/Dani-Calvo-PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
+        { src: "https://i.postimg.cc/YqQmcd1s/Luengo-PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
     ],
     midfielders: [
         { src: "https://i.postimg.cc/placeholder/centrocampista1.jpg", alt: "Centrocampista 1", number: "8", name: "Centrocampista 1", url: "#" },
