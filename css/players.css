@@ -3,6 +3,8 @@
     text-align: left;
     margin: 20px 0 20px 20px;
     max-width: 720px; /* 200px + 200px + 20px gap + margen */
+    position: relative;
+    z-index: 1; /* Evitar que otros elementos lo cubran */
 }
 
 .players-title {
@@ -59,14 +61,16 @@
     position: relative;
     width: 200px;
     height: 300px; /* Rectangular: más alto que ancho */
+    overflow: hidden; /* Evitar desbordamiento */
 }
 
 .players-gallery img {
-    width: 200px;
-    height: 300px;
+    width: 200px !important; /* Aumentar especificidad */
+    height: 300px !important;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid #0e0eec;
+    display: block; /* Asegurar visibilidad */
 }
 
 .players-gallery .faded {
@@ -82,7 +86,7 @@
     width: 100%;
     height: 80px; /* Altura del difuminado */
     background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
-    pointer-events: none; /* Evita que el difuminado interfiera con clics */
+    pointer-events: none;
 }
 
 /* Contenedor para número, nombre y botón */
@@ -96,6 +100,7 @@
     align-items: flex-end;
     color: #000;
     font-family: Arial, sans-serif;
+    z-index: 2; /* Asegurar que esté sobre el difuminado */
 }
 
 /* Número del jugador */
@@ -145,8 +150,8 @@
         height: 262.5px; /* Mantener proporción 2:3 */
     }
     .players-gallery img {
-        width: 175px;
-        height: 262.5px;
+        width: 175px !important;
+        height: 262.5px !important;
     }
     .player-number {
         font-size: 16px;
@@ -173,8 +178,8 @@
         height: 225px; /* Mantener proporción 2:3 */
     }
     .players-gallery img {
-        width: 150px;
-        height: 225px;
+        width: 150px !important;
+        height: 225px !important;
     }
     .player-number {
         font-size: 14px;
