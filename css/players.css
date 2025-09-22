@@ -65,7 +65,7 @@
 .players-gallery img {
     width: 100%;
     max-width: 150px;
-    aspect-ratio: 3 / 4; /* Más alta que ancha */
+    aspect-ratio: 3 / 4;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     border: 2px solid #0e0eec;
@@ -82,6 +82,10 @@
     border-radius: 0 0 10px 10px;
     padding: 10px;
     box-sizing: border-box;
+    min-height: 80px; /* Altura mínima para uniformidad */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .player-details {
@@ -100,7 +104,11 @@
 .player-name {
     color: black;
     font-size: 16px;
-    font-weight: bold; /* Cambiado a negrita */
+    font-weight: bold;
+    white-space: nowrap; /* Evita que el texto se envuelva */
+    overflow: hidden; /* Oculta el texto que desborda */
+    text-overflow: ellipsis; /* Añade puntos suspensivos para nombres largos */
+    max-width: 100px; /* Limita el ancho del nombre */
 }
 
 .player-button {
@@ -139,11 +147,15 @@
     }
     .player-name {
         font-size: 14px;
-        font-weight: bold; /* Mantener negrita */
+        font-weight: bold;
+        max-width: 80px; /* Ajustar ancho para nombres largos */
     }
     .player-button {
         font-size: 12px;
         padding: 6px 12px;
+    }
+    .player-info {
+        min-height: 70px; /* Altura mínima ajustada */
     }
 }
 
@@ -159,11 +171,15 @@
     }
     .player-name {
         font-size: 12px;
-        font-weight: bold; /* Mantener negrita */
+        font-weight: bold;
+        max-width: 60px; /* Ajustar ancho para nombres largos */
     }
     .player-button {
         font-size: 10px;
         padding: 5px 10px;
+    }
+    .player-info {
+        min-height: 60px; /* Altura mínima ajustada */
     }
     .players-nav {
         gap: 5px;
