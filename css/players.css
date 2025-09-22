@@ -52,8 +52,14 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    max-width: 350px; /* Ajustado para imágenes más altas */
+    max-width: 350px; /* Ajustado para dos imágenes más altas */
     margin: 0 auto;
+}
+
+.player-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .players-gallery img {
@@ -61,12 +67,54 @@
     max-width: 150px;
     aspect-ratio: 3 / 4; /* Más alta que ancha */
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0; /* Redondeado solo en la parte superior */
     border: 2px solid #0e0eec;
+    border-bottom: none; /* Sin borde inferior para conectar con la prolongación */
 }
 
-.players-gallery .faded {
-    opacity: 0.3;
+.player-info {
+    width: 100%;
+    max-width: 150px; /* Igual que la imagen */
+    background: white; /* Fondo blanco para la prolongación */
+    border: 2px solid #0e0eec;
+    border-top: none; /* Sin borde superior para conectar con la imagen */
+    border-radius: 0 0 10px 10px; /* Redondeado solo en la parte inferior */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.player-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.player-number {
+    color: #0e0eec;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.player-name {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.player-button {
+    background: #0e0eec;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Botón redondeado */
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.player-button:hover {
+    background: #4b4bff;
 }
 
 /* Responsividad */
@@ -74,9 +122,18 @@
     .players-title {
         font-size: 20px;
     }
-    .players-gallery img {
+    .players-gallery img, .player-info {
         max-width: 120px;
-        aspect-ratio: 3 / 4;
+    }
+    .player-number {
+        font-size: 16px;
+    }
+    .player-name {
+        font-size: 14px;
+    }
+    .player-button {
+        font-size: 12px;
+        padding: 6px 12px;
     }
 }
 
@@ -84,9 +141,18 @@
     .players-title {
         font-size: 18px;
     }
-    .players-gallery img {
+    .players-gallery img, .player-info {
         max-width: 100px;
-        aspect-ratio: 3 / 4;
+    }
+    .player-number {
+        font-size: 14px;
+    }
+    .player-name {
+        font-size: 12px;
+    }
+    .player-button {
+        font-size: 10px;
+        padding: 5px 10px;
     }
     .players-nav {
         gap: 5px;
