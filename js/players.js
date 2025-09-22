@@ -1,7 +1,7 @@
 // js/players.js
 const playersData = {
     goalkeepers: [
-        { src: "https://i.postimg.cc/placeholder/portero1.jpg", alt: "Portero 1" },
+        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Aarón" },
         { src: "https://i.postimg.cc/placeholder/portero2.jpg", alt: "Portero 2" },
         { src: "https://i.postimg.cc/placeholder/portero3.jpg", alt: "Portero 3" }
     ],
