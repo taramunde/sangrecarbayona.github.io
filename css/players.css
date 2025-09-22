@@ -70,7 +70,7 @@
     border-radius: 10px 10px 0 0;
     border: 2px solid #0e0eec;
     border-bottom: none;
-    transition: opacity 0.3s ease; /* Transición suave para el difuminado */
+    transition: opacity 0.3s ease;
 }
 
 .player-info {
@@ -100,7 +100,7 @@
 .player-name {
     color: black;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bold; /* Cambiado a negrita */
 }
 
 .player-button {
@@ -119,12 +119,11 @@
 }
 
 .players-gallery .faded {
-    opacity: 0.3; /* Difuminado para next-player */
+    opacity: 0.3;
 }
 
-/* Asegurar que la prolongación no se vea afectada por .faded */
 .players-gallery .faded .player-info {
-    opacity: 1; /* La prolongación permanece nítida */
+    opacity: 1;
 }
 
 /* Responsividad */
@@ -140,6 +139,7 @@
     }
     .player-name {
         font-size: 14px;
+        font-weight: bold; /* Mantener negrita */
     }
     .player-button {
         font-size: 12px;
@@ -159,6 +159,7 @@
     }
     .player-name {
         font-size: 12px;
+        font-weight: bold; /* Mantener negrita */
     }
     .player-button {
         font-size: 10px;
