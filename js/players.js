@@ -1,24 +1,24 @@
 // js/players.js
 const playersData = {
     goalkeepers: [
-        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero 1" },
-        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Portero 2" },
-        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Portero 3" }
+        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero 1", number: "13", name: "Aarón", url: "#" },
+        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Portero 2", number: "1", name: "Moldovan", url: "#" },
+        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Portero 3", number: "31", name: "Narváez", url: "#" }
     ],
     defenders: [
-        { src: "https://i.postimg.cc/placeholder/defensa1.jpg", alt: "Defensa 1" },
-        { src: "https://i.postimg.cc/placeholder/defensa2.jpg", alt: "Defensa 2" },
-        { src: "https://i.postimg.cc/placeholder/defensa3.jpg", alt: "Defensa 3" }
+        { src: "https://i.postimg.cc/placeholder/defensa1.jpg", alt: "Defensa 1", number: "4", name: "Defensa 1", url: "#" },
+        { src: "https://i.postimg.cc/placeholder/defensa2.jpg", alt: "Defensa 2", number: "5", name: "Defensa 2", url: "#" },
+        { src: "https://i.postimg.cc/placeholder/defensa3.jpg", alt: "Defensa 3", number: "6", name: "Defensa 3", url: "#" }
     ],
     midfielders: [
-        { src: "https://i.postimg.cc/placeholder/centrocampista1.jpg", alt: "Centrocampista 1" },
-        { src: "https://i.postimg.cc/placeholder/centrocampista2.jpg", alt: "Centrocampista 2" },
-        { src: "https://i.postimg.cc/placeholder/centrocampista3.jpg", alt: "Centrocampista 3" }
+        { src: "https://i.postimg.cc/placeholder/centrocampista1.jpg", alt: "Centrocampista 1", number: "8", name: "Centrocampista 1", url: "#" },
+        { src: "https://i.postimg.cc/placeholder/centrocampista2.jpg", alt: "Centrocampista 2", number: "10", name: "Centrocampista 2", url: "#" },
+        { src: "https://i.postimg.cc/placeholder/centrocampista3.jpg", alt: "Centrocampista 3", number: "11", name: "Centrocampista 3", url: "#" }
     ],
     forwards: [
-        { src: "https://i.postimg.cc/placeholder/delanteros1.jpg", alt: "Delantero 1" },
-        { src: "https://i.postimg.cc/placeholder/delanteros2.jpg", alt: "Delantero 2" },
-        { src: "https://i.postimg.cc/placeholder/delanteros3.jpg", alt: "Delantero 3" }
+        { src: "https://i.postimg.cc/placeholder/delanteros1.jpg", alt: "Delantero 1", number: "9", name: "Delantero 1", url: "#" },
+        { src: "https://i.postimg.cc/placeholder/delanteros2.jpg", alt: "Delantero 2", number: "7", name: "Delantero 2", url: "#" },
+        { src: "https://i.postimg.cc/placeholder/delanteros3.jpg", alt: "Delantero 3", number: "19", name: "Delantero 3", url: "#" }
     ]
 };
 
@@ -30,31 +30,50 @@ const currentIndices = {
 };
 
 function updatePlayerGallery(position) {
-    const mainPlayer = document.querySelector(`.main-player[data-position="${position}"]`);
-    const nextPlayer = document.querySelector(`.next-player[data-position="${position}"]`);
-    const counter = document.querySelector(`.players-counter[data-position="${position}"]`);
-    const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
-    const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
-
+    const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
     const players = playersData[position];
     const currentIndex = currentIndices[position];
 
-    // Actualizar imágenes
-    mainPlayer.src = players[currentIndex].src;
-    mainPlayer.alt = players[currentIndex].alt;
+    // Generar HTML para la imagen principal y la siguiente
+    let mainPlayerHTML = `
+        <div class="player-card">
+            <img class="main-player" data-position="${position}" src="${players[currentIndex].src}" alt="${players[currentIndex].alt}">
+            <div class="player-info">
+                <div class="player-details">
+                    <span class="player-number">${players[currentIndex].number}</span>
+                    <span class="player-name">${players[currentIndex].name}</span>
+                </div>
+                <button class="player-button" onclick="window.location.href='${players[currentIndex].url}'">Ver Ficha</button>
+            </div>
+        </div>
+    `;
 
+    let nextPlayerHTML = '';
     if (currentIndex < players.length - 1) {
-        nextPlayer.src = players[currentIndex + 1].src;
-        nextPlayer.alt = players[currentIndex + 1].alt;
-        nextPlayer.style.display = "block";
-    } else {
-        nextPlayer.style.display = "none";
+        nextPlayerHTML = `
+            <div class="player-card">
+                <img class="next-player faded" data-position="${position}" src="${players[currentIndex + 1].src}" alt="${players[currentIndex + 1].alt}">
+                <div class="player-info">
+                    <div class="player-details">
+                        <span class="player-number">${players[currentIndex + 1].number}</span>
+                        <span class="player-name">${players[currentIndex + 1].name}</span>
+                    </div>
+                    <button class="player-button" onclick="window.location.href='${players[currentIndex + 1].url}'">Ver Ficha</button>
+                </div>
+            </div>
+        `;
     }
 
+    // Actualizar la galería
+    gallery.innerHTML = mainPlayerHTML + nextPlayerHTML;
+
     // Actualizar contador
+    const counter = document.querySelector(`.players-counter[data-position="${position}"]`);
     counter.textContent = `${currentIndex + 1}/${players.length}`;
 
     // Habilitar/deshabilitar botones
+    const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
+    const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
     prevButton.disabled = currentIndex === 0;
     nextButton.disabled = currentIndex === players.length - 1;
 }
@@ -62,6 +81,12 @@ function updatePlayerGallery(position) {
 // Inicializar todas las galerías
 function initGalleries() {
     Object.keys(playersData).forEach(position => {
+        const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
+        if (!gallery) {
+            console.error(`No se encontró .players-gallery para ${position}`);
+            return;
+        }
+        gallery.setAttribute('data-position', position);
         updatePlayerGallery(position);
         document.querySelector(`.prev-button[data-position="${position}"]`).addEventListener("click", () => {
             if (currentIndices[position] > 0) {
