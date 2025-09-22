@@ -2,8 +2,8 @@
 const playersData = {
     goalkeepers: [
         { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Aarón" },
-        { src: "https://i.postimg.cc/placeholder/portero2.jpg", alt: "Portero 2" },
-        { src: "https://i.postimg.cc/placeholder/portero3.jpg", alt: "Portero 3" }
+        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Moldovan" },
+        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Narváez" }
     ],
     defenders: [
         { src: "https://i.postimg.cc/placeholder/defensa1.jpg", alt: "Defensa 1" },
