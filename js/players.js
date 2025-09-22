@@ -41,7 +41,6 @@ function updatePlayerGallery(position) {
     const players = playersData[position];
     const currentIndex = currentIndices[position];
 
-    // Generar HTML para la imagen principal
     let mainPlayerHTML = `
         <div class="player-card">
             <img class="main-player" data-position="${position}" src="${players[currentIndex].src}" alt="${players[currentIndex].alt}">
@@ -55,7 +54,6 @@ function updatePlayerGallery(position) {
         </div>
     `;
 
-    // Generar HTML para la imagen siguiente (difuminada)
     let nextPlayerHTML = '';
     if (currentIndex < players.length - 1) {
         nextPlayerHTML = `
@@ -72,16 +70,13 @@ function updatePlayerGallery(position) {
         `;
     }
 
-    // Actualizar la galería
     gallery.innerHTML = mainPlayerHTML + nextPlayerHTML;
 
-    // Actualizar contador
     const counter = document.querySelector(`.players-counter[data-position="${position}"]`);
     if (counter) {
         counter.textContent = `${currentIndex + 1}/${players.length}`;
     }
 
-    // Habilitar/deshabilitar botones
     const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
     const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
     if (prevButton) prevButton.disabled = currentIndex === 0;
