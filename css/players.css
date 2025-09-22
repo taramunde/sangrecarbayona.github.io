@@ -1,7 +1,8 @@
 /* css/players.css */
 .players-section {
-    text-align: center;
-    margin: 20px 0;
+    text-align: left; /* Cambiar de center a left */
+    margin: 20px 0 20px 20px; /* Margen izquierdo para alinearse con el botón */
+    max-width: 600px; /* Limita el ancho para mantener la alineación */
 }
 
 .players-title {
@@ -16,7 +17,7 @@
 
 .players-nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Alinear a la izquierda */
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
@@ -35,6 +36,70 @@
 
 .nav-button:hover:not(:disabled) {
     background: #4b4bff;
+}
+
+.nav-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.players-counter {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0e0eec;
+}
+
+.players-gallery {
+    display: flex;
+    justify-content: flex-start; /* Alinear a la izquierda */
+    gap: 20px;
+}
+
+.players-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #0e0eec;
+}
+
+.players-gallery .faded {
+    opacity: 0.3;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+    .players-section {
+        margin-left: 15px; /* Menos margen en tablets */
+    }
+    .players-title {
+        font-size: 20px;
+    }
+    .players-gallery img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .players-section {
+        margin-left: 10px; /* Menos margen en móviles */
+    }
+    .players-title {
+        font-size: 18px;
+    }
+    .players-gallery img {
+        width: 100px;
+        height: 100px;
+    }
+    .players-nav {
+        gap: 5px;
+    }
+    .nav-button {
+        padding: 3px 8px;
+        font-size: 14px;
+    }
+}    background: #4b4bff;
 }
 
 .nav-button:disabled {
