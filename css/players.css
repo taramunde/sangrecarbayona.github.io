@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    max-width: 400px;
+    max-width: 400px; /* Aumentado para tarjetas más anchas */
     margin: 0 auto;
 }
 
@@ -64,7 +64,7 @@
 
 .players-gallery img {
     width: 100%;
-    max-width: 180px;
+    max-width: 180px; /* Tarjetas más anchas */
     aspect-ratio: 3 / 4;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -75,14 +75,14 @@
 
 .player-info {
     width: 100%;
-    max-width: 180px;
+    max-width: 180px; /* Tarjetas más anchas */
     background: white;
     border: 2px solid #0e0eec;
     border-top: none;
     border-radius: 0 0 10px 10px;
     padding: 10px;
     box-sizing: border-box;
-    min-height: 80px;
+    min-height: 80px; /* Altura mínima para uniformidad */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -103,9 +103,9 @@
 
 .player-name {
     color: black;
-    font-size: 14px;
+    font-size: 14px; /* Tamaño de letra reducido */
     font-weight: bold;
-    flex: 1;
+    flex: 1; /* Ocupa el espacio disponible */
 }
 
 .player-button {
@@ -123,13 +123,12 @@
     background: #4b4bff;
 }
 
-.players-gallery .player-card.faded {
-    opacity: 0.3 !important;
+.players-gallery .faded {
+    opacity: 0.3;
 }
 
-.players-gallery .player-card.faded img,
-.players-gallery .player-card.faded .player-info {
-    opacity: 0.3 !important;
+.players-gallery .faded .player-info {
+    opacity: 1;
 }
 
 /* Responsividad */
@@ -138,13 +137,13 @@
         font-size: 20px;
     }
     .players-gallery img, .player-info {
-        max-width: 150px;
+        max-width: 150px; /* Ajustado para pantallas medianas */
     }
     .player-number {
         font-size: 16px;
     }
     .player-name {
-        font-size: 12px;
+        font-size: 12px; /* Tamaño de letra reducido */
         font-weight: bold;
     }
     .player-button {
@@ -152,10 +151,10 @@
         padding: 6px 12px;
     }
     .player-info {
-        min-height: 70px;
+        min-height: 70px; /* Altura mínima ajustada */
     }
     .players-gallery {
-        max-width: 340px;
+        max-width: 340px; /* Ajustado para tarjetas más anchas */
     }
 }
 
@@ -164,13 +163,13 @@
         font-size: 18px;
     }
     .players-gallery img, .player-info {
-        max-width: 120px;
+        max-width: 120px; /* Ajustado para pantallas pequeñas */
     }
     .player-number {
         font-size: 14px;
     }
     .player-name {
-        font-size: 11px;
+        font-size: 11px; /* Tamaño de letra reducido */
         font-weight: bold;
     }
     .player-button {
@@ -178,10 +177,10 @@
         padding: 5px 10px;
     }
     .player-info {
-        min-height: 60px;
+        min-height: 60px; /* Altura mínima ajustada */
     }
     .players-gallery {
-        max-width: 280px;
+        max-width: 280px; /* Ajustado para tarjetas más anchas */
     }
     .players-nav {
         gap: 5px;
