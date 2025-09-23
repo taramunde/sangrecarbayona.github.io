@@ -11,9 +11,9 @@ const playersData = {
         { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
         { src: "https://i.postimg.cc/Wb0spKY0/Dani-Calvo-PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
         { src: "https://i.postimg.cc/YqQmcd1s/Luengo-PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
-        { src: "https://i.postimg.cc/ZqxmPdzn/Carmo-PNG-2.webp", alt: "Defensa 6", number: "16", name: "Carmo", url: "#" },
+        { src: "https://i.postimg.cc/yN4Q1Q53/Pomares-PNG.webp", alt: "Defensa 6", number: "21", name: "Pomares", url: "#" },
         { src: "https://i.postimg.cc/cLHZ7H4B/Nacho-Vidal-PNG-3.webp", alt: "Defensa 7", number: "22", name: "Nacho Vidal", url: "#" },
-        { src: "https://i.postimg.cc/W4GZMX4Z/Javi-L-pez-PNG.webp", alt: "Defensa 8", number: "25", name: "Javi López", url: "#" },
+        { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Defensa 8", number: "24", name: "Lucas", url: "#" },
         { src: "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp", alt: "Defensa 9", number: "29", name: "Omar Falah", url: "#" },
         { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 10", number: "30", name: "Marco Esteban", url: "#" },
         { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 11", number: "32", name: "Adri Lopes", url: "#" }
