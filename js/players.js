@@ -25,7 +25,7 @@ const playersData = {
     ],
     forwards: [
         { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 1", number: "7", name: "Ilyas", url: "#" },
-        { src: "https://i.postimg.cc/placeholder/delanteros2.jpg", alt: "Delantero 2", number: "7", name: "Delantero 2", url: "#" },
+        { src: "https://i.postimg.cc/mZywx37V/Fede-Vi-as-PNG-3.webp", alt: "Delantero 2", number: "9", name: "Fede Viñas", url: "#" },
         { src: "https://i.postimg.cc/placeholder/delanteros3.jpg", alt: "Delantero 3", number: "19", name: "Delantero 3", url: "#" }
     ]
 };
