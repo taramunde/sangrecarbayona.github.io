@@ -24,12 +24,15 @@ const playersData = {
         { src: "https://i.postimg.cc/6qQmv7tk/Santi-Cazorla-PNG.webp", alt: "Centrocampista 3", number: "8", name: "Santi Cazorla", url: "#" },
         { src: "https://i.postimg.cc/R08GqPNz/Colombatto-PNG.webp", alt: "Centrocampista 4", number: "11", name: "Colombatto", url: "#" },
         { src: "https://i.postimg.cc/BbxX2vpC/Ovi_Ejaria_PNG_(2).webp", alt: "Centrocampista 5", number: "14", name: "Ejaria", url: "#" },
-        { src: "https://i.postimg.cc/v82kfvkD/Borja-S-nchez-PNG.webp", alt: "Centrocampista 6", number: "16", name: "Borja Sánchez", url: "#" }
+        { src: "https://i.postimg.cc/v82kfvkD/Borja-S-nchez-PNG.webp", alt: "Centrocampista 6", number: "16", name: "Borja Sánchez", url: "#" },
+        { src: "https://i.postimg.cc/rpTPMZ0Z/Brandon_Dominguès_PNG.webp", alt: "Centrocampista 7", number: "17", name: "Brandon Dominguès", url: "#" }
     ],
     forwards: [
         { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 1", number: "7", name: "Ilyas", url: "#" },
         { src: "https://i.postimg.cc/mZywx37V/Fede-Vi-as-PNG-3.webp", alt: "Delantero 2", number: "9", name: "Fede Viñas", url: "#" },
-        { src: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", alt: "Delantero 3", number: "10", name: "Hassan", url: "#" }
+        { src: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", alt: "Delantero 3", number: "10", name: "Hassan", url: "#" },
+        { src: "https://i.postimg.cc/9MxvJ3Xw/Brekalo_PNG_(2).webp", alt: "Delantero 4", number: "18", name: "Brekalo", url: "#" },
+        { src: "https://i.postimg.cc/FshL02dV/lex-For-s-PNG.webp", alt: "Delantero 5", number: "19", name: "Álex Forés", url: "#" }
     ]
 };
 
