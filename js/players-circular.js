@@ -2,7 +2,8 @@
 
 const playersData = {
     "goalkeepers-2024-2025": [
-        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" }
+        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" },
+        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" },
     ],
     "defenders-2024-2025": [
         { src: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", alt: "Defensa de prueba", number: "2", name: "Defensa 24/25", url: "#" }
