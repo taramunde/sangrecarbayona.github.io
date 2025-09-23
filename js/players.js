@@ -19,7 +19,7 @@ const playersData = {
         { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 11", number: "-", name: "Adri Lopes", url: "#" }
     ],
     midfielders: [
-        { src: "https://i.postimg.cc/placeholder/centrocampista1.jpg", alt: "Centrocampista 1", number: "8", name: "Centrocampista 1", url: "#" },
+        { src: "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp", alt: "Centrocampista 1", number: "5", name: "Alberto Reina", url: "#" },
         { src: "https://i.postimg.cc/placeholder/centrocampista2.jpg", alt: "Centrocampista 2", number: "10", name: "Centrocampista 2", url: "#" },
         { src: "https://i.postimg.cc/placeholder/centrocampista3.jpg", alt: "Centrocampista 3", number: "11", name: "Centrocampista 3", url: "#" }
     ],
