@@ -1,30 +1,67 @@
 // js/players-circular.js
-
 const playersData = {
+    // Datos de la temporada actual (ejemplo si quieres tenerlos también en este archivo)
     "goalkeepers-2024-2025": [
-        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" },
-        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" },
+        { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero 1", number: "13", name: "Aarón", url: "#" },
+        { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Portero 2", number: "1", name: "Moldovan", url: "#" },
+        { src: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", alt: "Portero 3", number: "26", name: "Narváez", url: "#" }
+    ],
+    defenders: [
+        { src: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", alt: "Defensa 1", number: "2", name: "Bailly", url: "#" },
+        { src: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", alt: "Defensa 2", number: "3", name: "Rahim", url: "#" },
+        { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
+        { src: "https://i.postimg.cc/hGv5D208/Dani-Calvo-PNG.webp", alt: "Defensa 4", number: "6", name: "Dani Calvo", url: "#" },
+        { src: "https://i.postimg.cc/XJqjJ04r/Viti-PNG.webp", alt: "Defensa 5", number: "7", name: "Viti", url: "#" },
+        { src: "https://i.postimg.cc/k47NnC2T/Jimmy-PNG.webp", alt: "Defensa 6", number: "8", name: "Jimmy", url: "#" },
+        { src: "https://i.postimg.cc/85z1NqJk/Borja-Sanchez-PNG-Alineaci-n.webp", alt: "Defensa 7", number: "10", name: "Borja Sánchez", url: "#" },
+        { src: "https://i.postimg.cc/44rD52b5/Luengo-PNG-Alineaci-n.webp", alt: "Defensa 8", number: "12", name: "Luengo", url: "#" },
+        { src: "https://i.postimg.cc/6qH6sQvH/Oier-PNG.webp", alt: "Defensa 9", number: "15", name: "Oier Luengo", url: "#" },
+        { src: "https://i.postimg.cc/XJPtXp4G/Paulino-PNG.webp", alt: "Defensa 10", number: "17", name: "Paulino", url: "#" },
+        { src: "https://i.postimg.cc/Xvm6n6tP/Lucas-Ahijado-PNG.webp", alt: "Defensa 11", number: "20", name: "Lucas Ahijado", url: "#" },
+        { src: "https://i.postimg.cc/vBC1p51q/Bretones-PNG.webp", alt: "Defensa 12", number: "22", name: "Abel Bretones", url: "#" }
+    ],
+    midfielders: [
+        { src: "https://i.postimg.cc/763k44Wp/Sebas-Moyano-PNG.webp", alt: "Medio 1", number: "5", name: "Sebas Moyano", url: "#" },
+        { src: "https://i.postimg.cc/xT0d207t/Alemao-PNG.webp", alt: "Medio 2", number: "9", name: "Alemao", url: "#" },
+        { src: "https://i.postimg.cc/4xb7878g/Masca-PNG.webp", alt: "Medio 3", number: "11", name: "Masca", url: "#" },
+        { src: "https://i.postimg.cc/PqjNf1sF/Mier-PNG.webp", alt: "Medio 4", number: "14", name: "Santi Cazorla", url: "#" },
+        { src: "https://i.postimg.cc/k4qV1yvJ/Cardero-PNG.webp", alt: "Medio 5", number: "18", name: "Cardero", url: "#" },
+        { src: "https://i.postimg.cc/T1917Q9n/Yayo-PNG.webp", alt: "Medio 6", number: "19", name: "Yayo", url: "#" },
+        { src: "https://i.postimg.cc/Y9D922w0/Viti-PNG.webp", alt: "Medio 7", number: "21", name: "Jaime Seoane", url: "#" },
+        { src: "https://i.postimg.cc/50t0V6fK/Koba-PNG-Alineaci-n.webp", alt: "Medio 8", number: "24", name: "Koba Lein", url: "#" },
+        { src: "https://i.postimg.cc/Xvm6n6tP/Lucas-Ahijado-PNG.webp", alt: "Medio 9", number: "27", name: "Lucas Ahijado", url: "#" }
+    ],
+    forwards: [
+        { src: "https://i.postimg.cc/gj1gB44d/Bast-n-PNG.webp", alt: "Delantero 1", number: "16", name: "Bastón", url: "#" }
+    ],
+    coaches: [
+        { src: "https://i.postimg.cc/tCJB09vS/Luis-Carri-n-PNG.webp", alt: "Entrenador", number: "N/A", name: "Luis Carrión", url: "#" }
+    ],
+
+    // Datos de la temporada 2024/2025
+    "goalkeepers-2024-2025": [
+        { src: "URL_IMAGEN_PORTERO_24_25.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" }
     ],
     "defenders-2024-2025": [
-        { src: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", alt: "Defensa de prueba", number: "2", name: "Defensa 24/25", url: "#" }
+        { src: "URL_IMAGEN_DEFENSA_24_25.webp", alt: "Defensa de prueba", number: "2", name: "Defensa 24/25", url: "#" }
     ],
     "midfielders-2024-2025": [
-        { src: "https://i.postimg.cc/763k44Wp/Sebas-Moyano-PNG.webp", alt: "Medio de prueba", number: "8", name: "Medio 24/25", url: "#" }
+        { src: "URL_IMAGEN_MEDIO_24_25.webp", alt: "Medio de prueba", number: "8", name: "Medio 24/25", url: "#" }
     ],
     "forwards-2024-2025": [
-        { src: "https://i.postimg.cc/gj1gB44d/Bast-n-PNG.webp", alt: "Delantero de prueba", number: "9", name: "Delantero 24/25", url: "#" }
+        { src: "URL_IMAGEN_DELANTERO_24_25.webp", alt: "Delantero de prueba", number: "9", name: "Delantero 24/25", url: "#" }
     ],
     "coaches-2024-2025": [
-        { src: "https://i.postimg.cc/tCJB09vS/Luis-Carri-n-PNG.webp", alt: "Entrenador de prueba", number: "N/A", name: "Entrenador 24/25", url: "#" }
-    ]
+        { src: "URL_IMAGEN_ENTRENADOR_24_25.webp", alt: "Entrenador de prueba", number: "N/A", name: "Entrenador 24/25", url: "#" }
+    ],
+
+    // ... y así sucesivamente para las demás temporadas
+
 };
 
 const currentIndices = {
     "goalkeepers-2024-2025": 0,
-    "defenders-2024-2025": 0,
-    "midfielders-2024-2025": 0,
-    "forwards-2024-2025": 0,
-    "coaches-2024-2025": 0
+    // ... agrega el resto de las posiciones
 };
 
 function createPlayerCard(player) {
@@ -70,18 +107,28 @@ function updatePlayerGallery(position) {
     const players = playersData[position];
     const currentIndex = currentIndices[position];
 
-    if (!gallery || !players) {
+    if (!gallery || !players || players.length === 0) {
+        gallery.innerHTML = '';
+        counter.textContent = `0/0`;
+        const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
+        const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
+        if (prevButton) prevButton.disabled = true;
+        if (nextButton) nextButton.disabled = true;
         return;
     }
-
+    
     gallery.innerHTML = '';
-    const player = players[currentIndex];
-    if (player) {
-        gallery.appendChild(createPlayerCard(player));
-        counter.textContent = `${currentIndex + 1}/${players.length}`;
-    } else {
-        counter.textContent = "0/0";
+    const playerOne = createPlayerCard(players[currentIndex]);
+    gallery.appendChild(playerOne);
+
+    if (players.length > 1) {
+        const nextIndex = (currentIndex + 1) % players.length;
+        const playerTwo = createPlayerCard(players[nextIndex]);
+        playerTwo.classList.add('faded');
+        gallery.appendChild(playerTwo);
     }
+
+    counter.textContent = `${currentIndex + 1}/${players.length}`;
 
     const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
     const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
