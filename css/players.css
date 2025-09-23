@@ -123,7 +123,12 @@
     background: #4b4bff;
 }
 
-.player-card.faded {
+.players-gallery .player-card.faded {
+    opacity: 0.3 !important;
+}
+
+.players-gallery .player-card.faded img,
+.players-gallery .player-card.faded .player-info {
     opacity: 0.3 !important;
 }
 
