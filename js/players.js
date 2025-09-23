@@ -41,6 +41,10 @@ const playersData = {
         { src: "https://i.postimg.cc/9MxvJ3Xw/Brekalo_PNG_(2).webp", alt: "Delantero 4", number: "18", name: "Brekalo", url: "#" },
         { src: "https://i.postimg.cc/FshL02dV/lex-For-s-PNG.webp", alt: "Delantero 5", number: "19", name: "Álex Forés", url: "#" },
         { src: "https://i.postimg.cc/m2XZ5qk4/Rond-n-PNG-2.webp", alt: "Delantero 6", number: "23", name: "Rondón", url: "#" }
+    ],
+    coaches: [
+        { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 1", number: "-", name: "Paunović", url: "#" }
+        
     ]
 };
 
@@ -48,7 +52,8 @@ const currentIndices = {
     goalkeepers: 0,
     defenders: 0,
     midfielders: 0,
-    forwards: 0
+    forwards: 0,
+    coaches: 0
 };
 
 function updatePlayerGallery(position) {
