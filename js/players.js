@@ -21,7 +21,8 @@ const playersData = {
     midfielders: [
         { src: "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp", alt: "Centrocampista 1", number: "5", name: "Alberto Reina", url: "#" },
         { src: "https://i.postimg.cc/gjJYNwFR/Sibo-PNG-Alineaci-n.webp", alt: "Centrocampista 2", number: "6", name: "Sibo", url: "#" },
-        { src: "https://i.postimg.cc/6qQmv7tk/Santi-Cazorla-PNG.webp", alt: "Centrocampista 3", number: "8", name: "Santi Cazorla", url: "#" }
+        { src: "https://i.postimg.cc/6qQmv7tk/Santi-Cazorla-PNG.webp", alt: "Centrocampista 3", number: "8", name: "Santi Cazorla", url: "#" },
+        { src: "https://i.postimg.cc/R08GqPNz/Colombatto-PNG.webp", alt: "Centrocampista 4", number: "11", name: "Colombatto", url: "#" }
     ],
     forwards: [
         { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 1", number: "7", name: "Ilyas", url: "#" },
