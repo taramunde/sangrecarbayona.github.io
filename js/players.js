@@ -13,10 +13,12 @@ const playersData = {
         { src: "https://i.postimg.cc/YqQmcd1s/Luengo-PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
         { src: "https://i.postimg.cc/ZqxmPdzn/Carmo-PNG-2.webp", alt: "Defensa 6", number: "16", name: "Carmo", url: "#" },
         { src: "https://i.postimg.cc/cLHZ7H4B/Nacho-Vidal-PNG-3.webp", alt: "Defensa 7", number: "22", name: "Nacho Vidal", url: "#" },
-        { src: "https://i.postimg.cc/W4GZMX4Z/Javi-L-pez-PNG.webp", alt: "Defensa 8", number: "25", name: "Javi López", url: "#" },
-        { src: "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp", alt: "Defensa 9", number: "29", name: "Omar Falah", url: "#" },
-        { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 10", number: "30", name: "Marco Esteban", url: "#" },
-        { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 11", number: "32", name: "Adri Lopes", url: "#" }
+        { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Defensa 8", number: "24", name: "Lucas", url: "#" },
+        { src: "https://i.postimg.cc/W4GZMX4Z/Javi-L-pez-PNG.webp", alt: "Defensa 9", number: "25", name: "Javi López", url: "#" },
+        { src: "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp", alt: "Defensa 10", number: "29", name: "Omar Falah", url: "#" },
+        { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 11", number: "30", name: "Marco Esteban", url: "#" },
+        { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 12", number: "32", name: "Adri Lopes", url: "#" },
+        { src: "https://i.postimg.cc/j2R8rDDW/Lamine-PNG.webp", alt: "Defensa 13", number: "28", name: "Lamine", url: "#" }
     ],
     midfielders: [
         { src: "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp", alt: "Centrocampista 1", number: "5", name: "Alberto Reina", url: "#" },
@@ -30,7 +32,7 @@ const playersData = {
         { src: "https://i.postimg.cc/K8bYhFN6/Ili-PNG.webp", alt: "Centrocampista 9", number: "21", name: "Ilić", url: "#" },
         { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Centrocampista 10", number: "24", name: "Lucas", url: "#" },
         { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 11", number: "27", name: "Álex Cardero", url: "#" },
-        { src: "https://i.postimg.cc/j2R8rDDW/Lamine-PNG.webp", alt: "Centrocampista 12", number: "28", name: "Lamine", url: "#" },
+        
         { src: "https://i.postimg.cc/KYYs1kft/Cheli-PNG.webp", alt: "Centrocampista 13", number: "31", name: "Cheli", url: "#" },
         { src: "https://i.postimg.cc/mgPHhTMt/Diego_Tejón_PNG.webp", alt: "Centrocampista 14", number: "34", name: "Diego Tejón", url: "#" }
     ],
