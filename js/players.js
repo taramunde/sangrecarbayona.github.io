@@ -9,42 +9,48 @@ const playersData = {
         { src: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", alt: "Defensa 1", number: "2", name: "Bailly", url: "#" },
         { src: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", alt: "Defensa 2", number: "3", name: "Rahim", url: "#" },
         { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
-        { src: "https://i.postimg.cc/Wb0spKY0/Dani-Calvo-PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
-        { src: "https://i.postimg.cc/YqQmcd1s/Luengo-PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
-        { src: "https://i.postimg.cc/ZqxmPdzn/Carmo-PNG-2.webp", alt: "Defensa 6", number: "16", name: "Carmo", url: "#" },
-        { src: "https://i.postimg.cc/cLHZ7H4B/Nacho-Vidal-PNG-3.webp", alt: "Defensa 7", number: "22", name: "Nacho Vidal", url: "#" },
-        { src: "https://i.postimg.cc/W4GZMX4Z/Javi-L-pez-PNG.webp", alt: "Defensa 8", number: "25", name: "Javi López", url: "#" },
-        { src: "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp", alt: "Defensa 9", number: "29", name: "Omar Falah", url: "#" },
-        { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 10", number: "30", name: "Marco Esteban", url: "#" },
-        { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 11", number: "32", name: "Adri Lopes", url: "#" }
+        { src: "https://i.postimg.cc/hGv5D208/Dani-Calvo-PNG.webp", alt: "Defensa 4", number: "6", name: "Dani Calvo", url: "#" },
+        { src: "https://i.postimg.cc/XJqjJ04r/Viti-PNG.webp", alt: "Defensa 5", number: "7", name: "Viti", url: "#" },
+        { src: "https://i.postimg.cc/k47NnC2T/Jimmy-PNG.webp", alt: "Defensa 6", number: "8", name: "Jimmy", url: "#" },
+        { src: "https://i.postimg.cc/85z1NqJk/Borja-Sanchez-PNG-Alineaci-n.webp", alt: "Defensa 7", number: "10", name: "Borja Sánchez", url: "#" },
+        { src: "https://i.postimg.cc/44rD52b5/Luengo-PNG-Alineaci-n.webp", alt: "Defensa 8", number: "12", name: "Luengo", url: "#" },
+        { src: "https://i.postimg.cc/6qH6sQvH/Oier-PNG.webp", alt: "Defensa 9", number: "15", name: "Oier Luengo", url: "#" },
+        { src: "https://i.postimg.cc/XJPtXp4G/Paulino-PNG.webp", alt: "Defensa 10", number: "17", name: "Paulino", url: "#" },
+        { src: "https://i.postimg.cc/Xvm6n6tP/Lucas-Ahijado-PNG.webp", alt: "Defensa 11", number: "20", name: "Lucas Ahijado", url: "#" },
+        { src: "https://i.postimg.cc/vBC1p51q/Bretones-PNG.webp", alt: "Defensa 12", number: "22", name: "Abel Bretones", url: "#" }
     ],
     midfielders: [
-        { src: "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp", alt: "Centrocampista 1", number: "5", name: "Alberto Reina", url: "#" },
-        { src: "https://i.postimg.cc/gjJYNwFR/Sibo-PNG-Alineaci-n.webp", alt: "Centrocampista 2", number: "6", name: "Sibo", url: "#" },
-        { src: "https://i.postimg.cc/6qQmv7tk/Santi-Cazorla-PNG.webp", alt: "Centrocampista 3", number: "8", name: "Santi Cazorla", url: "#" },
-        { src: "https://i.postimg.cc/R08GqPNz/Colombatto-PNG.webp", alt: "Centrocampista 4", number: "11", name: "Colombatto", url: "#" },
-        { src: "https://i.postimg.cc/BbxX2vpC/Ovi_Ejaria_PNG_(2).webp", alt: "Centrocampista 5", number: "14", name: "Ejaria", url: "#" },
-        { src: "https://i.postimg.cc/v82kfvkD/Borja-S-nchez-PNG.webp", alt: "Centrocampista 6", number: "16", name: "Borja Sánchez", url: "#" },
-        { src: "https://i.postimg.cc/rpTPMZ0Z/Brandon_Dominguès_PNG.webp", alt: "Centrocampista 7", number: "17", name: "Brandon Dominguès", url: "#" },
-        { src: "https://i.postimg.cc/8cTvCWBS/Dendoncker-PNG-2.webp", alt: "Centrocampista 8", number: "20", name: "Dendoncker", url: "#" },
-        { src: "https://i.postimg.cc/K8bYhFN6/Ili-PNG.webp", alt: "Centrocampista 9", number: "21", name: "Ilić", url: "#" },
-        { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Centrocampista 10", number: "24", name: "Lucas", url: "#" },
-        { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 11", number: "27", name: "Álex Cardero", url: "#" },
-        { src: "https://i.postimg.cc/j2R8rDDW/Lamine-PNG.webp", alt: "Centrocampista 12", number: "28", name: "Lamine", url: "#" },
-        { src: "https://i.postimg.cc/KYYs1kft/Cheli-PNG.webp", alt: "Centrocampista 13", number: "31", name: "Cheli", url: "#" },
-        { src: "https://i.postimg.cc/mgPHhTMt/Diego_Tejón_PNG.webp", alt: "Centrocampista 14", number: "34", name: "Diego Tejón", url: "#" }
+        { src: "https://i.postimg.cc/763k44Wp/Sebas-Moyano-PNG.webp", alt: "Medio 1", number: "5", name: "Sebas Moyano", url: "#" },
+        { src: "https://i.postimg.cc/xT0d207t/Alemao-PNG.webp", alt: "Medio 2", number: "9", name: "Alemao", url: "#" },
+        { src: "https://i.postimg.cc/4xb7878g/Masca-PNG.webp", alt: "Medio 3", number: "11", name: "Masca", url: "#" },
+        { src: "https://i.postimg.cc/PqjNf1sF/Mier-PNG.webp", alt: "Medio 4", number: "14", name: "Santi Cazorla", url: "#" },
+        { src: "https://i.postimg.cc/k4qV1yvJ/Cardero-PNG.webp", alt: "Medio 5", number: "18", name: "Cardero", url: "#" },
+        { src: "https://i.postimg.cc/T1917Q9n/Yayo-PNG.webp", alt: "Medio 6", number: "19", name: "Yayo", url: "#" },
+        { src: "https://i.postimg.cc/Y9D922w0/Viti-PNG.webp", alt: "Medio 7", number: "21", name: "Jaime Seoane", url: "#" },
+        { src: "https://i.postimg.cc/50t0V6fK/Koba-PNG-Alineaci-n.webp", alt: "Medio 8", number: "24", name: "Koba Lein", url: "#" },
+        { src: "https://i.postimg.cc/Xvm6n6tP/Lucas-Ahijado-PNG.webp", alt: "Medio 9", number: "27", name: "Lucas Ahijado", url: "#" }
     ],
     forwards: [
-        { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 1", number: "7", name: "Ilyas", url: "#" },
-        { src: "https://i.postimg.cc/mZywx37V/Fede-Vi-as-PNG-3.webp", alt: "Delantero 2", number: "9", name: "Fede Viñas", url: "#" },
-        { src: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", alt: "Delantero 3", number: "10", name: "Hassan", url: "#" },
-        { src: "https://i.postimg.cc/9MxvJ3Xw/Brekalo_PNG_(2).webp", alt: "Delantero 4", number: "18", name: "Brekalo", url: "#" },
-        { src: "https://i.postimg.cc/FshL02dV/lex-For-s-PNG.webp", alt: "Delantero 5", number: "19", name: "Álex Forés", url: "#" },
-        { src: "https://i.postimg.cc/m2XZ5qk4/Rond-n-PNG-2.webp", alt: "Delantero 6", number: "23", name: "Rondón", url: "#" }
+        { src: "https://i.postimg.cc/gj1gB44d/Bast-n-PNG.webp", alt: "Delantero 1", number: "16", name: "Bastón", url: "#" }
     ],
     coaches: [
-        { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 1", number: "-", name: "Paunović", url: "#" }
-        
+        { src: "https://i.postimg.cc/tCJB09vS/Luis-Carri-n-PNG.webp", alt: "Entrenador", number: "N/A", name: "Luis Carrión", url: "#" }
+    ],
+    // --- NUEVA SECCIÓN DE DATOS PARA LA TEMPORADA 2024/2025 ---
+    "goalkeepers-2024-2025": [
+        { src: "URL_IMAGEN_PORTERO.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" }
+    ],
+    "defenders-2024-2025": [
+        { src: "URL_IMAGEN_DEFENSA.webp", alt: "Defensa de prueba", number: "2", name: "Defensa 24/25", url: "#" }
+    ],
+    "midfielders-2024-2025": [
+        { src: "URL_IMAGEN_MEDIO.webp", alt: "Medio de prueba", number: "8", name: "Medio 24/25", url: "#" }
+    ],
+    "forwards-2024-2025": [
+        { src: "URL_IMAGEN_DELANTERO.webp", alt: "Delantero de prueba", number: "9", name: "Delantero 24/25", url: "#" }
+    ],
+    "coaches-2024-2025": [
+        { src: "URL_IMAGEN_ENTRENADOR.webp", alt: "Entrenador de prueba", number: "N/A", name: "Entrenador 24/25", url: "#" }
     ]
 };
 
@@ -53,53 +59,69 @@ const currentIndices = {
     defenders: 0,
     midfielders: 0,
     forwards: 0,
-    coaches: 0
+    coaches: 0,
+    // Añade los índices para las nuevas temporadas
+    "goalkeepers-2024-2025": 0,
+    "defenders-2024-2025": 0,
+    "midfielders-2024-2025": 0,
+    "forwards-2024-2025": 0,
+    "coaches-2024-2025": 0
 };
+
+function createPlayerCard(player) {
+    const playerCard = document.createElement("div");
+    playerCard.className = "player-card";
+
+    const image = document.createElement("img");
+    image.src = player.src;
+    image.alt = player.alt;
+
+    const info = document.createElement("div");
+    info.className = "player-info";
+
+    const details = document.createElement("div");
+    details.className = "player-details";
+
+    const number = document.createElement("span");
+    number.className = "player-number";
+    number.textContent = player.number;
+
+    const name = document.createElement("span");
+    name.className = "player-name";
+    name.textContent = player.name;
+
+    const button = document.createElement("a");
+    button.href = player.url;
+    button.className = "player-button";
+    button.textContent = "Ver más";
+
+    details.appendChild(number);
+    details.appendChild(name);
+    info.appendChild(details);
+    info.appendChild(button);
+    playerCard.appendChild(image);
+    playerCard.appendChild(info);
+
+    return playerCard;
+}
 
 function updatePlayerGallery(position) {
     const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
-    if (!gallery) {
-        console.error(`No se encontró .players-gallery para ${position}`);
-        return;
-    }
-
+    const counter = document.querySelector(`.players-counter[data-position="${position}"]`);
     const players = playersData[position];
     const currentIndex = currentIndices[position];
 
-    let mainPlayerHTML = `
-        <div class="player-card">
-            <img class="main-player" data-position="${position}" src="${players[currentIndex].src}" alt="${players[currentIndex].alt}">
-            <div class="player-info">
-                <div class="player-details">
-                    <span class="player-number">${players[currentIndex].number}</span>
-                    <span class="player-name">${players[currentIndex].name}</span>
-                </div>
-                <button class="player-button" onclick="window.location.href='${players[currentIndex].url}'">Ver Ficha</button>
-            </div>
-        </div>
-    `;
-
-    let nextPlayerHTML = '';
-    if (currentIndex < players.length - 1) {
-        nextPlayerHTML = `
-            <div class="player-card">
-                <img class="next-player faded" data-position="${position}" src="${players[currentIndex + 1].src}" alt="${players[currentIndex + 1].alt}">
-                <div class="player-info">
-                    <div class="player-details">
-                        <span class="player-number">${players[currentIndex + 1].number}</span>
-                        <span class="player-name">${players[currentIndex + 1].name}</span>
-                    </div>
-                    <button class="player-button" onclick="window.location.href='${players[currentIndex + 1].url}'">Ver Ficha</button>
-                </div>
-            </div>
-        `;
+    if (!gallery || !players) {
+        return;
     }
 
-    gallery.innerHTML = mainPlayerHTML + nextPlayerHTML;
-
-    const counter = document.querySelector(`.players-counter[data-position="${position}"]`);
-    if (counter) {
+    gallery.innerHTML = '';
+    const player = players[currentIndex];
+    if (player) {
+        gallery.appendChild(createPlayerCard(player));
         counter.textContent = `${currentIndex + 1}/${players.length}`;
+    } else {
+        counter.textContent = "0/0";
     }
 
     const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
