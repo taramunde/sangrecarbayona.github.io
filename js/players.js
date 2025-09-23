@@ -38,7 +38,7 @@ const playersData = {
         { src: "https://i.postimg.cc/tCJB09vS/Luis-Carri-n-PNG.webp", alt: "Entrenador", number: "N/A", name: "Luis Carrión", url: "#" }
     ],
 
-    // Datos de la temporada 2024/2025 (ejemplo)
+    // Datos de la temporada 2024/2025
     "goalkeepers-2024-2025": [
         { src: "URL_IMAGEN_PORTERO_24_25.webp", alt: "Portero de prueba", number: "1", name: "Portero 24/25", url: "#" }
     ],
@@ -55,7 +55,7 @@ const playersData = {
         { src: "URL_IMAGEN_ENTRENADOR_24_25.webp", alt: "Entrenador de prueba", number: "N/A", name: "Entrenador 24/25", url: "#" }
     ],
 
-    // Datos de la temporada 2023/2024 (ejemplo)
+    // Datos de la temporada 2023/2024
     "goalkeepers-2023-2024": [
         { src: "URL_IMAGEN_PORTERO_23_24.webp", alt: "Portero de prueba", number: "1", name: "Portero 23/24", url: "#" }
     ],
@@ -72,7 +72,7 @@ const playersData = {
         { src: "URL_IMAGEN_ENTRENADOR_23_24.webp", alt: "Entrenador de prueba", number: "N/A", name: "Entrenador 23/24", url: "#" }
     ],
 
-    // Datos de la temporada 2022/2023 (ejemplo)
+    // Datos de la temporada 2022/2023
     "goalkeepers-2022-2023": [
         { src: "URL_IMAGEN_PORTERO_22_23.webp", alt: "Portero de prueba", number: "1", name: "Portero 22/23", url: "#" }
     ],
@@ -89,7 +89,7 @@ const playersData = {
         { src: "URL_IMAGEN_ENTRENADOR_22_23.webp", alt: "Entrenador de prueba", number: "N/A", name: "Entrenador 22/23", url: "#" }
     ],
 
-    // Datos de la temporada 2021/2022 (ejemplo)
+    // Datos de la temporada 2021/2022
     "goalkeepers-2021-2022": [
         { src: "URL_IMAGEN_PORTERO_21_22.webp", alt: "Portero de prueba", number: "1", name: "Portero 21/22", url: "#" }
     ],
@@ -106,7 +106,7 @@ const playersData = {
         { src: "URL_IMAGEN_ENTRENADOR_21_22.webp", alt: "Entrenador de prueba", number: "N/A", name: "Entrenador 21/22", url: "#" }
     ],
     
-    // Datos de la temporada 2020/2021 (ejemplo)
+    // Datos de la temporada 2020/2021
     "goalkeepers-2020-2021": [
         { src: "URL_IMAGEN_PORTERO_20_21.webp", alt: "Portero de prueba", number: "1", name: "Portero 20/21", url: "#" }
     ],
@@ -200,18 +200,28 @@ function updatePlayerGallery(position) {
     const players = playersData[position];
     const currentIndex = currentIndices[position];
 
-    if (!gallery || !players) {
+    if (!gallery || !players || players.length === 0) {
+        gallery.innerHTML = '';
+        counter.textContent = `0/0`;
+        const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
+        const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
+        if (prevButton) prevButton.disabled = true;
+        if (nextButton) nextButton.disabled = true;
         return;
     }
-
+    
     gallery.innerHTML = '';
-    const player = players[currentIndex];
-    if (player) {
-        gallery.appendChild(createPlayerCard(player));
-        counter.textContent = `${currentIndex + 1}/${players.length}`;
-    } else {
-        counter.textContent = "0/0";
+    const playerOne = createPlayerCard(players[currentIndex]);
+    gallery.appendChild(playerOne);
+
+    if (players.length > 1) {
+        const nextIndex = (currentIndex + 1) % players.length;
+        const playerTwo = createPlayerCard(players[nextIndex]);
+        playerTwo.classList.add('faded');
+        gallery.appendChild(playerTwo);
     }
+
+    counter.textContent = `${currentIndex + 1}/${players.length}`;
 
     const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
     const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
