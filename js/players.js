@@ -29,7 +29,10 @@ const playersData = {
         { src: "https://i.postimg.cc/8cTvCWBS/Dendoncker-PNG-2.webp", alt: "Centrocampista 8", number: "20", name: "Dendoncker", url: "#" },
         { src: "https://i.postimg.cc/K8bYhFN6/Ili-PNG.webp", alt: "Centrocampista 9", number: "21", name: "Ilić", url: "#" },
         { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Centrocampista 10", number: "24", name: "Lucas", url: "#" },
-        { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 11", number: "27", name: "Álex Cardero", url: "#" }
+        { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 11", number: "27", name: "Álex Cardero", url: "#" },
+        { src: "https://i.postimg.cc/j2R8rDDW/Lamine-PNG.webp", alt: "Centrocampista 12", number: "28", name: "Lamine", url: "#" },
+        { src: "https://i.postimg.cc/KYYs1kft/Cheli-PNG.webp", alt: "Centrocampista 13", number: "31", name: "Cheli", url: "#" },
+        { src: "https://i.postimg.cc/mgPHhTMt/Diego_Tejón_PNG.webp", alt: "Centrocampista 14", number: "34", name: "Diego Tejón", url: "#" }
     ],
     forwards: [
         { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 1", number: "7", name: "Ilyas", url: "#" },
