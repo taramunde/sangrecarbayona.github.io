@@ -31,18 +31,18 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/v82kfvkD/Borja-S-nchez-PNG.webp", alt: "Centrocampista 6", number: "16", name: "Borja Sánchez", url: "#" },
             { src: "https://i.postimg.cc/rpTPMZ0Z/Brandon_Dominguès_PNG.webp", alt: "Centrocampista 7", number: "17", name: "Brandon Dominguès", url: "#" },
             { src: "https://i.postimg.cc/8cTvCWBS/Dendoncker-PNG-2.webp", alt: "Centrocampista 8", number: "20", name: "Dendoncker", url: "#" },
-            { src: "https://i.postimg.cc/K8bYhFN6/Ili-PNG.webp", alt: "Centrocampista 9", number: "21", name: "Ilić", url: "#" },
-            { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 10", number: "27", name: "Álex Cardero", url: "#" },
-            { src: "https://i.postimg.cc/KYYs1kft/Cheli-PNG.webp", alt: "Centrocampista 11", number: "31", name: "Cheli", url: "#" },
-            { src: "https://i.postimg.cc/mgPHhTMt/Diego_Tejón_PNG.webp", alt: "Centrocampista 12", number: "34", name: "Diego Tejón", url: "#" }
+            { src: "https://i.postimg.cc/9MxvJ3Xw/Brekalo_PNG_(2).webp", alt: "Centrocampista 9", number: "18", name: "Brekalo", url: "#" },
+            { src: "https://i.postimg.cc/K8bYhFN6/Ili-PNG.webp", alt: "Centrocampista 10", number: "21", name: "Ilić", url: "#" },
+            { src: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", alt: "Centrocampista 11", number: "10", name: "Hassan", url: "#" },
+            { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 12", number: "27", name: "Álex Cardero", url: "#" },
+            { src: "https://i.postimg.cc/KYYs1kft/Cheli-PNG.webp", alt: "Centrocampista 13", number: "31", name: "Cheli", url: "#" },
+            { src: "https://i.postimg.cc/mgPHhTMt/Diego_Tejón_PNG.webp", alt: "Centrocampista 14", number: "34", name: "Diego Tejón", url: "#" }
         ],
         forwards: [
             { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 1", number: "7", name: "Ilyas", url: "#" },
             { src: "https://i.postimg.cc/mZywx37V/Fede-Vi-as-PNG-3.webp", alt: "Delantero 2", number: "9", name: "Fede Viñas", url: "#" },
-            { src: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", alt: "Delantero 3", number: "10", name: "Hassan", url: "#" },
-            { src: "https://i.postimg.cc/9MxvJ3Xw/Brekalo_PNG_(2).webp", alt: "Delantero 4", number: "18", name: "Brekalo", url: "#" },
-            { src: "https://i.postimg.cc/FshL02dV/lex-For-s-PNG.webp", alt: "Delantero 5", number: "19", name: "Álex Forés", url: "#" },
-            { src: "https://i.postimg.cc/m2XZ5qk4/Rond-n-PNG-2.webp", alt: "Delantero 6", number: "23", name: "Rondón", url: "#" }
+            { src: "https://i.postimg.cc/FshL02dV/lex-For-s-PNG.webp", alt: "Delantero 3", number: "19", name: "Álex Forés", url: "#" },
+            { src: "https://i.postimg.cc/m2XZ5qk4/Rond-n-PNG-2.webp", alt: "Delantero 4", number: "23", name: "Rondón", url: "#" }
         ],
         coaches: [
             { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 1", number: "-", name: "Paunović", url: "#" }
