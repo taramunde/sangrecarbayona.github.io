@@ -64,7 +64,12 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/YqQmcd1s/Luengo-PNG.webp", alt: "Defensa 6", number: "15", name: "Luengo", url: "#" },
             { src: "https://i.postimg.cc/yN4Q1Q53/Pomares-PNG.webp", alt: "Defensa 7", number: "21", name: "Pomares", url: "#" },
             { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Defensa 8", number: "24", name: "Lucas", url: "#" },
-            
+            { src: "https://i.postimg.cc/mDSQG8f4/Jaime-V-zquez-PNG.webp", alt: "Defensa 9", number: "29", name: "Jaime Vázquez", url: "#" },
+            { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 10", number: "30", name: "Marco Esteban", url: "#" },
+            { src: "https://i.postimg.cc/j2zBKVq5/Eze-PNG.webp", alt: "Defensa 11", number: "31", name: "Eze", url: "#" },
+            { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 12", number: "32", name: "Adri Lopes", url: "#" },
+            { src: "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp", alt: "Defensa 13", number: "35", name: "Omar Falah", url: "#" },
+            { src: "https://i.postimg.cc/j2R8rDDW/Lamine-PNG.webp", alt: "Defensa 14", number: "36", name: "Lamine", url: "#" }
         ],
         midfielders: [
             { src: "https://i.postimg.cc/636yNz5d/Alberto-del-Moral-PNG-Alineaci-n.webp", alt: "Centrocampista 1", number: "5", name: "Alberto del Moral", url: "#" },
@@ -80,6 +85,9 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/gcwFM5v3/Carlos-Dotor-PNG.webp", alt: "Centrocampista 11", number: "22", name: "Dotor", url: "#" },
             { src: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", alt: "Centrocampista 12", number: "23", name: "Hassan", url: "#" },
             { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 13", number: "27", name: "Álex Cardero", url: "#" },
+            { src: "https://i.postimg.cc/V6J7fxgw/Valdera_PNG.webp", alt: "Centrocampista 14", number: "33", name: "Valdera", url: "#" },
+            { src: "https://i.postimg.cc/mgPHhTMt/Diego-Tej-n-PNG.webp", alt: "Centrocampista 15", number: "34", name: "Diego Tejón", url: "#" },
+            { src: "https://i.postimg.cc/Y0FPt53V/Castri-PNG.webp", alt: "Centrocampista 16", number: "-", name: "Castri", url: "#" }
         ],
         forwards: [
             { src: "https://i.postimg.cc/KcPTkZzY/Alem-o-PNG.webp", alt: "Delantero 1", number: "9", name: "Alemão", url: "#" },
@@ -88,10 +96,11 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/R0tYw3y8/Masca-PNG.webp", alt: "Delantero 4", number: "17", name: "Masca", url: "#" },
             { src: "https://i.postimg.cc/6pm4JqHM/lex-Mill-n-PNG.webp", alt: "Delantero 5", number: "19", name: "Álex Millán", url: "#" },
             { src: "https://i.postimg.cc/mZywx37V/Fede-Vi-as-PNG-3.webp", alt: "Delantero 6", number: "19", name: "Fede Viñas", url: "#" },
-            { src: "https://i.postimg.cc/0Q0PdXFL/Santi-Migu-lez-PNG.webp", alt: "Delantero 7", number: "28", name: "Santi Miguélez", url: "#" },
+            { src: "https://i.postimg.cc/0Q0PdXFL/Santi-Migu-lez-PNG.webp", alt: "Delantero 7", number: "28", name: "Santi Miguélez", url: "#" }
         ],
         coaches: [
-            { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 1", number: "-", name: "Paunović", url: "#" }
+            { src: "https://i.postimg.cc/fLnY0kQ8/Javi-Calleja-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Javi Calleja", url: "#" },
+            { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 2", number: "-", name: "Paunović", url: "#" }
         ]
     }
 };
