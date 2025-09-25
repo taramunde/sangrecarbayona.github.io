@@ -5,8 +5,8 @@
     max-width: 800px;
     margin: 50px auto;
     display: flex;
-    align-items: flex-start; /* Alinea los elementos en la parte superior */
-    gap: 10px; /* Reducido aún más para acercar el texto a la imagen */
+    align-items: flex-start; /* Cambiado para alinear los elementos en la parte superior */
+    gap: 20px; /* Reducido para acercar los elementos */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -28,14 +28,14 @@
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 80px; /* Reducido de 100px a 80px para acercar la imagen al número y al texto */
+    margin-left: 100px; /* Ajustado para dejar espacio al número */
 }
 
 .player-info {
     flex: 1;
     color: white;
-    margin-left: 0; /* Asegura que no haya margen adicional a la izquierda */
-    margin-top: 20px; /* Alinea verticalmente con el número */
+    margin-left: 0; /* Eliminado para acercar el texto a la imagen */
+    margin-top: 20px; /* Alineado verticalmente con el número */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -62,7 +62,6 @@
         flex-direction: column;
         text-align: center;
         padding: 20px;
-        gap: 20px; /* Restaurado para mantener el diseño móvil original */
     }
     
     .player-image {
@@ -83,6 +82,6 @@
     
     .player-info {
         margin-left: 0;
-        margin-top: 0; /* Restaurado para la vista móvil */
+        margin-top: 0; /* Restablecido para la vista móvil */
     }
 }
