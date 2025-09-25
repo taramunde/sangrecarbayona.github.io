@@ -157,7 +157,7 @@ const allPlayersData = {
         ],
         coaches: [
             { src: "https://i.postimg.cc/dQZzYx5v/lvaro-Cervera-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Álvaro Cervera", url: "#" },
-            { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 2", number: "-", name: "Paunović", url: "#" }
+            { src: "https://i.postimg.cc/9fT7VVwZ/Luis-Carri-n-entrenador-PNG.webp", alt: "Entrenador 2", number: "-", name: "Luis Carrión", url: "#" }
         ]
     }
 };
