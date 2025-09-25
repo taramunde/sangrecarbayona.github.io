@@ -152,7 +152,8 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/R0tYw3y8/Masca-PNG.webp", alt: "Delantero 4", number: "20", name: "Masca", url: "#" },
             { src: "https://i.postimg.cc/R02PFM0R/Dubasin-PNG.webp", alt: "Delantero 5", number: "22", name: "Dubasin", url: "#" },
             { src: "https://i.postimg.cc/TYQCbjwh/Enol-PNG.webp", alt: "Delantero 6", number: "27", name: "Enol", url: "#" },
-            { src: "https://i.postimg.cc/2y305Pxm/Ses-PNG.webp", alt: "Delantero 7", number: "28", name: "Sesé", url: "#" }
+            { src: "https://i.postimg.cc/2y305Pxm/Ses-PNG.webp", alt: "Delantero 7", number: "28", name: "Sesé", url: "#" },
+            { src: "https://i.postimg.cc/kXjLCPWj/Mario-Fuente-PNG.webp", alt: "Delantero 8", number: "-", name: "Mario Fuente", url: "#" }
         ],
         coaches: [
             { src: "https://i.postimg.cc/fLnY0kQ8/Javi-Calleja-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Javi Calleja", url: "#" },
