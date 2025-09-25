@@ -34,7 +34,7 @@
 .player-info {
     flex: 1;
     color: white;
-    margin-left: 0; /* Eliminado para acercar el texto a la imagen */
+    margin-left: -10px; /* Eliminado para acercar el texto a la imagen */
     margin-top: 20px; /* Alineado verticalmente con el número */
     display: flex;
     flex-direction: column;
