@@ -156,7 +156,7 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/kXjLCPWj/Mario-Fuente-PNG.webp", alt: "Delantero 8", number: "-", name: "Mario Fuente", url: "#" }
         ],
         coaches: [
-            { src: "https://i.postimg.cc/fLnY0kQ8/Javi-Calleja-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Javi Calleja", url: "#" },
+            { src: "https://i.postimg.cc/dQZzYx5v/lvaro-Cervera-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Álvaro Cervera", url: "#" },
             { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 2", number: "-", name: "Paunović", url: "#" }
         ]
     }
