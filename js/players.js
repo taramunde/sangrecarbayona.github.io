@@ -143,7 +143,7 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/v82kfvkD/Borja_Sánchez_PNG.webp", alt: "Centrocampista 14", number: "25", name: "Borja Sánchez", url: "#" },
             { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 15", number: "32", name: "Álex Cardero", url: "#" },
             { src: "https://i.postimg.cc/d3P8M3Vb/Yayo-PNG.webp", alt: "Centrocampista 16", number: "34", name: "Yayo", url: "#" },
-            { src: "https://i.postimg.cc/d3P8M3Vb/Yayo-PNG.webp", alt: "Centrocampista 17", number: "36", name: "Dieguito", url: "#" }
+            { src: "https://i.postimg.cc/c44YyRL7/Diego-Men-ndez-Dieguito-PNG.webp", alt: "Centrocampista 17", number: "36", name: "Dieguito", url: "#" }
         ],
         forwards: [
             { src: "https://i.postimg.cc/KcPTkZzY/Alem-o-PNG.webp", alt: "Delantero 1", number: "9", name: "Alemão", url: "#" },
