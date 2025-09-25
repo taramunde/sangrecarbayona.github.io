@@ -102,6 +102,61 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/fLnY0kQ8/Javi-Calleja-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Javi Calleja", url: "#" },
             { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 2", number: "-", name: "Paunović", url: "#" }
         ]
+    },
+
+    "2023-24": { // Temporada 2023-24
+        goalkeepers: [
+            { src: "https://i.postimg.cc/wxsLQXj0/Quentin-Braat-PNG.webp", alt: "Portero 1", number: "1", name: "Quentin Braat", url: "#" },
+            { src: "https://i.postimg.cc/mDmMpjF5/Leo_Román_PNG.webp", alt: "Portero 2", number: "31", name: "Leo Román", url: "#" },
+            { src: "https://i.postimg.cc/yxJJQHKD/Marco_PNG.webp", alt: "Portero 3", number: "-", name: "Marco", url: "#" },
+            { src: "https://i.postimg.cc/tRh7g2TQ/Victor-Egboh-PNG.webp", alt: "Portero 4", number: "-", name: "Victor Egboh", url: "#" }
+        ],
+        defenders: [
+            { src: "https://i.postimg.cc/LsWsgPtP/Mario_Hernández_PNG.webp", alt: "Defensa 1", number: "2", name: "Mario Hernández", url: "#" },
+            { src: "https://i.postimg.cc/SQvGQ1YQ/Rodri_Tarín_PNG.webp", alt: "Defensa 2", number: "3", name: "Rodri Tarín", url: "#" },
+            { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
+            { src: "https://i.postimg.cc/Wb0spKY0/Dani_Calvo_PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
+            { src: "https://i.postimg.cc/YqQmcd1s/Luengo_PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
+            { src: "https://i.postimg.cc/yN4Q1Q53/Pomares_PNG.webp", alt: "Defensa 6", number: "21", name: "Pomares", url: "#" },
+            { src: "https://i.postimg.cc/7LbTGw25/Abel-Bretones-PNG.webp", alt: "Defensa 7", number: "23", name: "Abel Bretones", url: "#" },
+            { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Defensa 8", number: "24", name: "Lucas", url: "#" },
+            { src: "https://i.postimg.cc/KjdChGhC/Charbel-PNG.webp", alt: "Defensa 9", number: "29", name: "Charbel", url: "#" },
+            { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 10", number: "30", name: "Marco Esteban", url: "#" },
+            { src: "https://i.postimg.cc/fbJ7mx9j/Aimar-Collante-PNG.webp", alt: "Defensa 11", number: "33", name: "Aimar Collante", url: "#" },
+            { src: "https://i.postimg.cc/mDSQG8f4/Jaime-V-zquez-PNG.webp", alt: "Defensa 12", number: "35", name: "Jaime Vázquez", url: "#" },
+            { src: "https://i.postimg.cc/2SMp47tC/Osky-PNG.webp", alt: "Defensa 13", number: "-", name: "Osky", url: "#" }
+        ],
+        midfielders: [
+            { src: "https://i.postimg.cc/636yNz5d/Alberto-del-Moral-PNG-Alineaci-n.webp", alt: "Centrocampista 1", number: "5", name: "Alberto del Moral", url: "#" },
+            { src: "https://i.postimg.cc/gjJYNwFR/Sibo-PNG-Alineaci-n.webp", alt: "Centrocampista 2", number: "6", name: "Sibo", url: "#" },
+            { src: "https://i.postimg.cc/GhV54hNf/Sebas-Moyano-PNG.webp", alt: "Centrocampista 3", number: "7", name: "Sebas Moyano", url: "#" },
+            { src: "https://i.postimg.cc/6qQmv7tk/Santi-Cazorla-PNG.webp", alt: "Centrocampista 4", number: "8", name: "Santi Cazorla", url: "#" },
+            { src: "https://i.postimg.cc/v82kfvkD/Borja-S-nchez-PNG.webp", alt: "Centrocampista 5", number: "10", name: "Borja Sánchez", url: "#" },
+            { src: "https://i.postimg.cc/br8zc90Q/Portillo-PNG-3.webp", alt: "Centrocampista 6", number: "10", name: "Portillo", url: "#" },
+            { src: "https://i.postimg.cc/R08GqPNz/Colombatto-PNG.webp", alt: "Centrocampista 7", number: "11", name: "Colombatto", url: "#" },
+            { src: "https://i.postimg.cc/Z5nr38kY/De-La-Hoz-PNG-3.webp", alt: "Centrocampista 8", number: "17", name: "De La Hoz", url: "#" },
+            { src: "https://i.postimg.cc/SxkLgnn3/Paulino-PNG.webp", alt: "Centrocampista 9", number: "18", name: "Paulino", url: "#" },
+            { src: "https://i.postimg.cc/HLCvtvT4/Seoane-PNG.webp", alt: "Centrocampista 10", number: "20", name: "Seoane", url: "#" },
+            { src: "https://i.postimg.cc/gcwFM5v3/Carlos-Dotor-PNG.webp", alt: "Centrocampista 11", number: "22", name: "Dotor", url: "#" },
+            { src: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", alt: "Centrocampista 12", number: "23", name: "Hassan", url: "#" },
+            { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 13", number: "27", name: "Álex Cardero", url: "#" },
+            { src: "https://i.postimg.cc/V6J7fxgw/Valdera_PNG.webp", alt: "Centrocampista 14", number: "33", name: "Valdera", url: "#" },
+            { src: "https://i.postimg.cc/mgPHhTMt/Diego-Tej-n-PNG.webp", alt: "Centrocampista 15", number: "34", name: "Diego Tejón", url: "#" },
+            { src: "https://i.postimg.cc/Y0FPt53V/Castri-PNG.webp", alt: "Centrocampista 16", number: "-", name: "Castri", url: "#" }
+        ],
+        forwards: [
+            { src: "https://i.postimg.cc/KcPTkZzY/Alem-o-PNG.webp", alt: "Delantero 1", number: "9", name: "Alemão", url: "#" },
+            { src: "https://i.postimg.cc/vTn7N9LF/Paraschiv-PNG-3.webp", alt: "Delantero 2", number: "14", name: "Paraschiv", url: "#" },
+            { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 3", number: "16", name: "Ilyas", url: "#" },
+            { src: "https://i.postimg.cc/R0tYw3y8/Masca-PNG.webp", alt: "Delantero 4", number: "17", name: "Masca", url: "#" },
+            { src: "https://i.postimg.cc/6pm4JqHM/lex-Mill-n-PNG.webp", alt: "Delantero 5", number: "19", name: "Álex Millán", url: "#" },
+            { src: "https://i.postimg.cc/mZywx37V/Fede-Vi-as-PNG-3.webp", alt: "Delantero 6", number: "19", name: "Fede Viñas", url: "#" },
+            { src: "https://i.postimg.cc/0Q0PdXFL/Santi-Migu-lez-PNG.webp", alt: "Delantero 7", number: "28", name: "Santi Miguélez", url: "#" }
+        ],
+        coaches: [
+            { src: "https://i.postimg.cc/fLnY0kQ8/Javi-Calleja-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Javi Calleja", url: "#" },
+            { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 2", number: "-", name: "Paunović", url: "#" }
+        ]
     }
 };
 
