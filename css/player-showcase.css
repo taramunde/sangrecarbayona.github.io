@@ -1,19 +1,26 @@
-/* Estilos para la sección principal del jugador */
+/* Estilos Globales para la página */
+body, main {
+    /* Asegura que el contenido del body y main comience justo después del header */
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* 1. SECCIÓN PRINCIPAL: Controla el espacio superior e inferior. */
 .player-showcase {
     display: flex;
     justify-content: center;
-    /* Alineamos al inicio (arriba) para subir la tarjeta */
+    /* Subimos la tarjeta al inicio de la sección para pegarla al header */
     align-items: flex-start; 
-    /* Quitamos el padding vertical para eliminar espacio innecesario, solo mantenemos el horizontal */
-    padding: 0 20px; 
-    /* Eliminamos el margen superior para acercarlo al header */
-    margin-top: 5px; 
+    /* Elimina el padding vertical y solo mantiene 10px a los lados */
+    padding: 10px 10px 0 10px !important; 
+    /* Elimina el margen superior que deja espacio en blanco */
+    margin-top: 0 !important; 
     min-height: 350px; 
 }
 
-/* Contenedor principal con el degradado azul */
+/* 2. RECTÁNGULO DEGRADADO: Ancho completo y diseño Flex */
 .player-card-gradient {
-    /* Degradado de más a menos azul (el degradado de #0e0eec a #4f4fe2 ya es "degradado de más a menos") */
+    /* Degradado de más a menos azul */
     background: linear-gradient(to right, #0e0eec, #4f4fe2); 
     border-radius: 15px; 
     padding: 20px;
@@ -21,21 +28,21 @@
     align-items: center; 
     gap: 30px; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
-    /* Usamos un max-width más amplio para que ocupe más espacio en desktop */
+    /* Max-width amplio para ocupar más espacio en desktop */
     max-width: 1200px; 
-    /* Aseguramos que ocupe el 100% del espacio disponible en todos los dispositivos */
+    /* Ocupa el 100% del espacio del contenedor player-showcase */
     width: 100%;
     position: relative; 
     overflow: hidden; 
 }
 
-/* Contenedor de la imagen del jugador */
+/* 3. IMAGEN DEL JUGADOR: Sin efectos circulares ni desplazamientos */
 .player-image-container {
     width: 250px; 
     height: auto;
     flex-shrink: 0; 
     position: relative;
-    /* QUITAMOS el desplazamiento negativo que hacía que la imagen se saliera del padding del div */
+    /* QUITAMOS cualquier desplazamiento */
     left: 0; 
 }
 
@@ -44,11 +51,11 @@
     height: auto;
     display: block;
     object-fit: contain; 
-    /* Se confirma que NO hay ningún 'border-radius: 50%' u otra propiedad que cree un círculo */
+    /* Confirmamos que no hay border-radius: 50% ni nada similar */
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); 
 }
 
-/* Contenedor para los detalles del jugador (número, nombre, rol) */
+/* 4. TEXTO */
 .player-details {
     display: flex;
     flex-direction: column; 
@@ -58,7 +65,6 @@
     z-index: 1; 
 }
 
-/* Estilo para el número del jugador */
 .player-number {
     font-size: 4em; 
     font-weight: bold;
@@ -67,14 +73,12 @@
     margin-bottom: 5px; 
 }
 
-/* Contenedor para el nombre y el rol */
 .player-name-role {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-/* Estilo para el rol del jugador (PORTERO) */
 .player-role {
     font-size: 1.2em; 
     font-weight: normal;
@@ -83,7 +87,6 @@
     margin-bottom: 2px; 
 }
 
-/* Estilo para el nombre del jugador (Aarón) */
 .player-name {
     font-size: 3em; 
     font-weight: bold;
@@ -91,11 +94,10 @@
     line-height: 1; 
 }
 
-/* Media Queries para responsividad */
+/* Media Queries */
 @media (max-width: 768px) {
     .player-showcase {
-        padding: 0 10px; 
-        margin-top: 0;
+        padding: 5px !important; 
         min-height: 300px;
     }
     .player-card-gradient {
@@ -107,50 +109,22 @@
 
     .player-image-container {
         width: 180px; 
-        left: 0; 
-        /* Restauramos el margen para que la imagen no se superponga al texto */
-        margin-bottom: 0; 
-    }
-    
-    .player-image-container img {
-        filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.5));
     }
 
     .player-details {
         align-items: center; 
         padding-left: 0;
     }
-
-    .player-number {
-        font-size: 3em;
-    }
-
-    .player-name {
-        font-size: 2.2em;
-    }
-
-    .player-role {
-        font-size: 1em;
-    }
 }
 
 @media (max-width: 480px) {
     .player-showcase {
-        padding: 0 5px;
+        padding: 5px !important;
     }
     .player-card-gradient {
         padding: 10px;
     }
     .player-image-container {
         width: 150px;
-    }
-    .player-number {
-        font-size: 2.5em;
-    }
-    .player-name {
-        font-size: 1.8em;
-    }
-    .player-role {
-        font-size: 0.9em;
     }
 }
