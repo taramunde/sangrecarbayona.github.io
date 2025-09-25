@@ -5,8 +5,8 @@
     max-width: 800px;
     margin: 50px auto;
     display: flex;
-    align-items: flex-start; /* Cambiado para alinear los elementos en la parte superior */
-    gap: 20px; /* Reducido para acercar los elementos */
+    align-items: flex-start;
+    gap: 20px; /* Reducido de 30px a 20px */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -34,8 +34,8 @@
 .player-info {
     flex: 1;
     color: white;
-    margin-left: 0; /* Eliminado para acercar el texto a la imagen */
-    margin-top: 20px; /* Alineado verticalmente con el número */
+    margin-left: 0; /* Esto elimina el margen izquierdo que separaba el texto de la imagen */
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
