@@ -146,7 +146,7 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/c44YyRL7/Diego-Men-ndez-Dieguito-PNG.webp", alt: "Centrocampista 17", number: "36", name: "Dieguito", url: "#" }
         ],
         forwards: [
-            { src: "https://i.postimg.cc/KcPTkZzY/Alem-o-PNG.webp", alt: "Delantero 1", number: "9", name: "Alemão", url: "#" },
+            { src: "https://i.postimg.cc/3rfTZGWf/Borja-Bast-n-PNG.webp", alt: "Delantero 1", number: "9", name: "Borja Bastón", url: "#" },
             { src: "https://i.postimg.cc/vTn7N9LF/Paraschiv-PNG-3.webp", alt: "Delantero 2", number: "14", name: "Paraschiv", url: "#" },
             { src: "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-3.webp", alt: "Delantero 3", number: "16", name: "Ilyas", url: "#" },
             { src: "https://i.postimg.cc/R0tYw3y8/Masca-PNG.webp", alt: "Delantero 4", number: "17", name: "Masca", url: "#" },
