@@ -150,7 +150,7 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/KcPTkZzY/Alem-o-PNG.webp", alt: "Delantero 2", number: "14", name: "Alemão", url: "#" },
             { src: "https://i.postimg.cc/6pm4JqHM/lex-Mill-n-PNG.webp", alt: "Delantero 3", number: "19", name: "Álex Millán", url: "#" },
             { src: "https://i.postimg.cc/R0tYw3y8/Masca-PNG.webp", alt: "Delantero 4", number: "20", name: "Masca", url: "#" },
-            { src: "https://i.postimg.cc/6pm4JqHM/lex-Mill-n-PNG.webp", alt: "Delantero 5", number: "19", name: "Álex Millán", url: "#" },
+            { src: "https://i.postimg.cc/R02PFM0R/Dubasin-PNG.webp", alt: "Delantero 5", number: "22", name: "Dubasin", url: "#" },
             { src: "https://i.postimg.cc/mZywx37V/Fede-Vi-as-PNG-3.webp", alt: "Delantero 6", number: "19", name: "Fede Viñas", url: "#" },
             { src: "https://i.postimg.cc/0Q0PdXFL/Santi-Migu-lez-PNG.webp", alt: "Delantero 7", number: "28", name: "Santi Miguélez", url: "#" }
         ],
