@@ -92,7 +92,7 @@ main .player-section .player-full-name-container {
 
 /* Nombre completo (Aarón Escandell Banacloche) */
 main .player-section .player-full-name {
-    font-size: 10px; /* Mucho más pequeño que player-position (18px) */
+    font-size: 14px; /* Aumentado, pero más pequeño que player-position (18px) */
     color: white !important; /* Texto blanco explícitamente */
     margin: 0 !important; /* Sin márgenes */
     padding: 0 !important; /* Sin padding */
@@ -113,7 +113,7 @@ main .player-section .player-card .player-card-logo-container {
 
 /* Imagen adicional (logo) */
 main .player-section .player-card .player-card-logo {
-    width: 120px; /* 80% de 150px (imagen del jugador) */
+    width: 90px; /* Reducido: 60% de 150px (imagen del jugador) */
     height: auto;
     display: block;
     background: transparent !important; /* Forzar transparencia */
@@ -155,7 +155,7 @@ main .player-section .player-card .player-card-logo {
         border-radius: 0 0 12px 12px; /* Bordes inferiores redondeados */
     }
     main .player-section .player-full-name {
-        font-size: 9px; /* Mucho más pequeño que player-position (16px) */
+        font-size: 13px; /* Aumentado, pero más pequeño que player-position (16px) */
         color: white !important; /* Texto blanco explícitamente */
     }
     main .player-section .player-card .player-card-image-container {
@@ -168,7 +168,7 @@ main .player-section .player-card .player-card-logo {
         z-index: 1;
     }
     main .player-section .player-card .player-card-logo {
-        width: 96px; /* 80% de 120px (imagen del jugador) */
+        width: 72px; /* Reducido: 60% de 120px (imagen del jugador) */
     }
 }
 
@@ -232,7 +232,7 @@ main .player-section .player-card .player-card-logo {
         border-radius: 0 0 10px 10px; /* Bordes inferiores redondeados */
     }
     main .player-section .player-full-name {
-        font-size: 10px; /* Mucho más pequeño que player-position (18px) */
+        font-size: 14px; /* Aumentado, pero más pequeño que player-position (18px) */
         color: white !important; /* Texto blanco explícitamente */
     }
     main .player-section .player-card .player-card-logo-container {
@@ -242,7 +242,7 @@ main .player-section .player-card .player-card-logo {
         z-index: 1; /* Asegurar que esté sobre otros elementos */
     }
     main .player-section .player-card .player-card-logo {
-        width: 88px; /* 80% de 110px (imagen del jugador) */
+        width: 66px; /* Reducido: 60% de 110px (imagen del jugador) */
         height: auto;
     }
 }
