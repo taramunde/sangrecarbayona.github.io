@@ -6,7 +6,7 @@
     margin: 50px auto;
     display: flex;
     align-items: center; /* Alinea verticalmente todos los elementos al centro */
-    gap: 15px; /* Espacio base entre la imagen y el texto */
+    gap: 15px; /* Controla todo el espacio desde aquí */    
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -28,19 +28,16 @@
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    /* Cambio clave para Desktop: Empujamos la imagen a la derecha para respetar el espacio del número */
-    margin-left: 70px; 
 }
 
 .player-info {
     flex: 1;
     color: white;
-    /* Cambio clave para Desktop: Eliminar cualquier margen izquierdo no deseado para pegarlo a la imagen */
-    margin-left: 0; 
     margin-top: 0; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra verticalmente el texto con la imagen */
+    justify-content: center;
+    margin-left: 0; /* Eliminamos el margen para que 'gap' sea el único que controle el espacio */
 }
 
 .player-position {
@@ -71,7 +68,7 @@
         flex-direction: column;
         text-align: center;
         padding: 20px;
-        gap: 10px; /* Espacio entre la imagen y el texto en móvil */
+        gap: 0; /* Reduce el espacio al mínimo, la imagen y el texto estarán más juntos */
     }
     
     .player-image {
