@@ -102,7 +102,7 @@ main .player-section .player-card .player-name {
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
 @media (max-width: 599px) {
     main .player-section .player-card {
-        flex-direction: row; /* Mantener layout horizontal como en desktop */
+        flex-direction: row; /* Layout horizontal: imagen a la izquierda, texto a la derecha */
         align-items: center; /* Centrado vertical */
         justify-content: flex-start; /* Alineado a la izquierda */
         padding: 15px;
@@ -110,19 +110,20 @@ main .player-section .player-card .player-name {
     }
     main .player-section .player-card .player-card-image-container {
         margin-right: 15px; /* Espacio a la derecha de la imagen */
-        margin-bottom: 0; /* Quitar margen inferior */
+        margin-bottom: 0; /* Sin margen inferior */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
+        flex-shrink: 0; /* Evita que se encoja */
     }
     main .player-section .player-card .player-image {
-        width: 120px; /* Aumentar tamaño de imagen en móvil (antes 100px) */
+        width: 120px; /* Tamaño más grande en móvil */
         height: auto;
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
     }
     main .player-section .player-card .player-card-number {
         top: -5px;
-        left: -5px; /* Mantener número a la izquierda */
+        left: -5px; /* Número a la izquierda de la imagen */
         font-size: 20px; /* Ligeramente más pequeño en móvil */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
@@ -130,13 +131,18 @@ main .player-section .player-card .player-name {
         outline: none !important; /* Sin contorno */
     }
     main .player-section .player-card .player-info {
-        text-align: left; /* Texto a la derecha de la imagen, alineado a la izquierda */
+        display: flex;
+        flex-direction: column; /* Apilar "Portero" y "Aarón" verticalmente */
+        text-align: left; /* Asegurar alineación a la izquierda */
         flex: 1; /* Ocupa el espacio restante */
+        margin-left: 0; /* Sin margen adicional para evitar desplazamiento */
     }
     main .player-section .player-card .player-position {
-        font-size: 18px; /* Aumentar tamaño (antes 16px) */
+        font-size: 18px; /* Tamaño más grande */
+        margin-bottom: 5px; /* Espacio entre "Portero" y "Aarón" */
     }
     main .player-section .player-card .player-name {
-        font-size: 24px; /* Aumentar tamaño (antes 22px) */
+        font-size: 24px; /* Tamaño más grande */
+        margin: 0; /* Sin márgenes adicionales */
     }
 }
