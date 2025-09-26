@@ -1,3 +1,4 @@
+/* Estilos base para la ficha del jugador */
 .player-card {
     background: linear-gradient(to right, #001f3f, #007bff); /* Degradado azul (azul marino a azul Oviedo) */
     border-radius: 15px; /* Bordes redondeados */
@@ -12,7 +13,7 @@
     overflow: hidden; /* Evita desbordes */
 }
 
-/* Contenedor de la imagen (agregado para posicionar el número y alinear a la izquierda) */
+/* Contenedor de la imagen */
 .player-image-container {
     position: relative; /* Para posicionar el número absolutamente */
     margin-right: 20px; /* Espacio a la derecha de la imagen */
@@ -25,6 +26,7 @@
     height: auto;
     border-radius: 10px; /* Bordes redondeados */
     display: block;
+    background: transparent; /* Asegura que la imagen no tenga fondo */
 }
 
 /* Número del jugador (arriba y a la izquierda, sin fondo blanco) */
@@ -32,8 +34,8 @@
     position: absolute;
     top: -10px; /* Arriba de la imagen */
     left: -10px; /* A la izquierda */
-    background-color: transparent; /* Fondo transparente, quitado el blanco */
-    color: #ffffff; /* Color blanco para contraste, o ajusta a #001f3f si prefieres */
+    background-color: transparent; /* Fondo transparente, sin blanco */
+    color: #ffffff; /* Color blanco para contraste */
     font-size: 24px;
     font-weight: bold;
     padding: 5px 10px;
@@ -66,6 +68,7 @@
 @media (min-width: 600px) and (max-width: 1024px) {
     .player-image {
         width: 120px; /* Reduce tamaño de imagen */
+        background: transparent; /* Asegura transparencia */
     }
     .player-number {
         font-size: 20px; /* Reduce tamaño del número */
@@ -98,6 +101,7 @@
     }
     .player-image {
         width: 100px; /* Más pequeña en móvil */
+        background: transparent; /* Asegura transparencia */
     }
     .player-number {
         top: -5px;
