@@ -6,7 +6,7 @@
     margin: 50px auto;
     display: flex;
     align-items: center; /* Alinea verticalmente todos los elementos al centro */
-    gap: 15px; /* Controla todo el espacio desde aquí */    
+    gap: 1px; /* Controla todo el espacio desde aquí */    
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
