@@ -29,22 +29,22 @@ main .player-card .player-image {
     border-radius: 10px; /* Bordes redondeados */
     display: block;
     background: transparent !important; /* Forzar transparencia */
-    border: 1px solid red; /* Borde rojo temporal para depuración */
+    border: none !important; /* Eliminar cualquier borde */
 }
 
-/* Número del jugador (arriba y a la izquierda, sin fondo blanco) */
+/* Número del jugador (arriba y a la izquierda, sin fondo ni borde blanco) */
 main .player-card .player-number {
     position: absolute;
     top: -10px; /* Arriba de la imagen */
     left: -10px; /* A la izquierda */
-    background-color: transparent !important; /* Fondo transparente, forzado */
+    background-color: transparent !important; /* Fondo transparente */
     color: #ffffff; /* Color blanco para contraste */
     font-size: 24px;
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 50%; /* Círculo */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 1px solid red; /* Borde rojo temporal para depuración */
+    border: none !important; /* Eliminar cualquier borde blanco */
+    box-shadow: none !important; /* Eliminar sombra que pueda parecer un borde */
 }
 
 /* Información del jugador */
@@ -73,12 +73,13 @@ main .player-card .player-name {
     main .player-card .player-image {
         width: 120px; /* Reduce tamaño de imagen */
         background: transparent !important; /* Forzar transparencia */
-        border: 1px solid red; /* Borde rojo temporal */
+        border: none !important; /* Sin borde */
     }
     main .player-card .player-number {
         font-size: 20px; /* Reduce tamaño del número */
         background: transparent !important; /* Forzar transparencia */
-        border: 1px solid red; /* Borde rojo temporal */
+        border: none !important; /* Sin borde */
+        box-shadow: none !important; /* Sin sombra */
     }
     main .player-card .player-position {
         font-size: 16px;
@@ -110,14 +111,15 @@ main .player-card .player-name {
     main .player-card .player-image {
         width: 100px; /* Más pequeña en móvil */
         background: transparent !important; /* Forzar transparencia */
-        border: 1px solid red; /* Borde rojo temporal */
+        border: none !important; /* Sin borde */
     }
     main .player-card .player-number {
         top: -5px;
         left: 10px; /* Ajusta posición para no salirse */
         font-size: 18px;
         background: transparent !important; /* Forzar transparencia */
-        border: 1px solid red; /* Borde rojo temporal */
+        border: none !important; /* Sin borde */
+        box-shadow: none !important; /* Sin sombra */
     }
     main .player-card .player-position {
         font-size: 16px;
