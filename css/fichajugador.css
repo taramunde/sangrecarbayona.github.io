@@ -1,12 +1,12 @@
-.player-card {
+    .player-card {
     background: linear-gradient(135deg, #0e0eec 0%, rgba(14, 14, 236, 0.3) 100%);
     border-radius: 15px;
     padding: 30px;
     max-width: 800px;
     margin: 50px auto;
     display: flex;
-    align-items: flex-start;
-    gap: 10px; /* Reducido de 20px a 10px para acercar los elementos */
+    align-items: center; /* Alinea verticalmente todos los elementos al centro */
+    gap: 5px; /* Mínimo espacio entre la imagen y el texto */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -28,17 +28,17 @@
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 80px; /* Reducido de 100px a 80px para acercar la imagen al número */
+    margin-left: 70px; /* Reducido para dejar espacio al número, pero acercar la imagen */
 }
 
 .player-info {
     flex: 1;
     color: white;
-    margin-left: 0; /* Eliminado el margen negativo para acercar el texto a la imagen */
-    margin-top: 0; /* Ajustado para alinear el texto más cerca del borde superior de la imagen */
+    margin-left: 5px; /* Mínimo margen para acercar el texto a la imagen */
+    margin-top: 0; /* Sin margen superior para alinear con la imagen */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center; /* Centra verticalmente el texto con la imagen */
 }
 
 .player-position {
@@ -48,7 +48,7 @@
     letter-spacing: 1px;
     margin-bottom: 5px;
     font-weight: 500;
-    margin-left: 5px; /* Reducido de 10px a 5px para acercar más el texto */
+    margin-left: 0; /* Eliminado para acercar el texto */
 }
 
 .player-name {
@@ -63,6 +63,7 @@
         flex-direction: column;
         text-align: center;
         padding: 20px;
+        gap: 10px; /* Ajustado para móvil */
     }
     
     .player-image {
@@ -85,4 +86,4 @@
         margin-left: 0;
         margin-top: 0;
     }
-}
+    }
