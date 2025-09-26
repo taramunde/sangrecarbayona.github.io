@@ -1,4 +1,3 @@
-/* Estilos base para la ficha del jugador */
 .player-card {
     background: linear-gradient(to right, #001f3f, #007bff); /* Degradado azul (azul marino a azul Oviedo) */
     border-radius: 15px; /* Bordes redondeados */
@@ -13,6 +12,12 @@
     overflow: hidden; /* Evita desbordes */
 }
 
+/* Contenedor de la imagen (agregado para posicionar el número y alinear a la izquierda) */
+.player-image-container {
+    position: relative; /* Para posicionar el número absolutamente */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+    flex-shrink: 0; /* Evita que se encoja */
+}
 
 /* Imagen del jugador */
 .player-image {
@@ -22,13 +27,13 @@
     display: block;
 }
 
-/* Número del jugador (arriba y a la izquierda) */
+/* Número del jugador (arriba y a la izquierda, sin fondo blanco) */
 .player-number {
     position: absolute;
     top: -10px; /* Arriba de la imagen */
     left: -10px; /* A la izquierda */
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
-    color: #001f3f; /* Color azul oscuro */
+    background-color: transparent; /* Fondo transparente, quitado el blanco */
+    color: #ffffff; /* Color blanco para contraste, o ajusta a #001f3f si prefieres */
     font-size: 24px;
     font-weight: bold;
     padding: 5px 10px;
@@ -40,6 +45,8 @@
 .player-info {
     display: flex;
     flex-direction: column; /* Posición y nombre apilados verticalmente */
+    justify-content: center; /* Centrado vertical si es necesario */
+    text-align: left; /* Asegura alineación a la izquierda */
 }
 
 /* Posición (Portero) */
@@ -72,6 +79,9 @@
     .player-card {
         padding: 15px; /* Menos padding */
     }
+    .player-image-container {
+        margin-right: 15px; /* Ajusta espacio */
+    }
 }
 
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
@@ -100,4 +110,7 @@
     .player-name {
         font-size: 22px;
     }
-  }
+    .player-info {
+        text-align: center; /* Centrado en móvil */
+    }
+}
