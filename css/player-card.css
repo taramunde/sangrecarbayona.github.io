@@ -54,7 +54,7 @@ main .player-section .player-card .player-card-number {
 /* Información del jugador */
 main .player-section .player-card .player-info {
     display: flex;
-    flex-direction: column; /* Posición y nombre apilados verticalmente */
+    flex-direction: column; /* Posición, nombre y nombre completo apilados verticalmente */
     justify-content: center; /* Centrado vertical si es necesario */
     text-align: left; /* Asegura alineación a la izquierda */
     flex: 1; /* Ocupa el espacio restante */
@@ -78,6 +78,15 @@ main .player-section .player-card .player-name {
     font-weight: bold;
 }
 
+/* Nombre completo (Aarón Escandell Banacloche) */
+main .player-section .player-card .player-full-name {
+    font-size: 16px; /* Ligeramente menor que player-position (18px) */
+    margin: 0 !important; /* Sin márgenes */
+    padding: 0 !important; /* Sin padding */
+    text-align: left !important; /* Forzar alineación a la izquierda */
+    color: white; /* Color blanco para contraste */
+}
+
 /* Contenedor de la imagen adicional (logo) */
 main .player-section .player-card .player-card-logo-container {
     position: absolute;
@@ -91,7 +100,7 @@ main .player-section .player-card .player-card-logo-container {
 
 /* Imagen adicional (logo) */
 main .player-section .player-card .player-card-logo {
-    width: 100px; /* Tamaño base para el logo */
+    width: 120px; /* 80% de 150px (imagen del jugador) */
     height: auto;
     display: block;
     background: transparent !important; /* Forzar transparencia */
@@ -122,6 +131,12 @@ main .player-section .player-card .player-card-logo {
         padding: 0 !important;
         text-align: left !important;
     }
+    main .player-section .player-card .player-full-name {
+        font-size: 14px; /* Ligeramente menor que player-position (16px) */
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: left !important;
+    }
     main .player-section .player-card {
         padding: 15px; /* Menos padding */
     }
@@ -132,7 +147,7 @@ main .player-section .player-card .player-card-logo {
         right: 15px; /* Ajustar para tablets */
     }
     main .player-section .player-card .player-card-logo {
-        width: 80px; /* Reducir tamaño del logo */
+        width: 96px; /* 80% de 120px (imagen del jugador) */
     }
 }
 
@@ -171,7 +186,7 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-card .player-info {
         display: flex;
-        flex-direction: column; /* Apilar "Portero" y "Aarón" verticalmente */
+        flex-direction: column; /* Apilar "Portero", "Aarón" y nombre completo verticalmente */
         text-align: left; /* Asegurar alineación a la izquierda */
         flex: 1; /* Ocupa el espacio restante */
         margin: 0 !important; /* Sin márgenes */
@@ -179,12 +194,18 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-card .player-position {
         font-size: 18px; /* Tamaño más grande */
-        margin-bottom: 5px; /* Espacio entre "Portero" y "Aarón" */
+        margin-bottom: 5px; /* Espacio debajo */
         margin-right: 0 !important; /* Evitar desplazamiento */
         padding: 0 !important; /* Sin padding */
     }
     main .player-section .player-card .player-name {
         font-size: 24px; /* Tamaño más grande */
+        margin: 0 !important; /* Sin márgenes */
+        padding: 0 !important; /* Sin padding */
+        text-align: left !important; /* Forzar alineación a la izquierda */
+    }
+    main .player-section .player-card .player-full-name {
+        font-size: 16px; /* Igual que en desktop, menor que player-position (18px) */
         margin: 0 !important; /* Sin márgenes */
         padding: 0 !important; /* Sin padding */
         text-align: left !important; /* Forzar alineación a la izquierda */
@@ -195,7 +216,7 @@ main .player-section .player-card .player-card-logo {
         transform: translateY(-50%); /* Alinear a la altura del centro */
     }
     main .player-section .player-card .player-card-logo {
-        width: 60px; /* Tamaño más pequeño para móvil */
+        width: 88px; /* 80% de 110px (imagen del jugador) */
         height: auto;
     }
 }
