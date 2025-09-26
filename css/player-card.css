@@ -1,10 +1,10 @@
 /* Estilos base para la ficha del jugador (desktop) */
 main .player-section .player-card {
     background: linear-gradient(to right, #001f3f, #007bff); /* Degradado azul (azul marino a azul Oviedo) */
-    border-radius: 15px 15px 0 0; /* Bordes redondeados solo en la parte superior */
-    padding: 20px 20px 40px 20px; /* Más padding en la parte inferior para la prolongación */
+    border-radius: 15px; /* Bordes redondeados completos */
+    padding: 20px; /* Padding estándar */
     max-width: 800px; /* Ancho máximo para desktops */
-    margin: 20px auto 0 auto; /* Centrado horizontal, sin margen inferior */
+    margin: 20px auto; /* Centrado horizontal */
     display: flex; /* Layout horizontal */
     align-items: center; /* Centrado vertical */
     justify-content: space-between; /* Espacio entre elementos, logo a la derecha */
@@ -13,7 +13,7 @@ main .player-section .player-card {
     overflow: hidden; /* Evita desbordes */
     background-color: transparent !important; /* Forzar transparencia del contenedor */
     border: none !important; /* Sin borde */
-    position: relative; /* Para posicionar el logo y la prolongación */
+    position: relative; /* Para posicionar el logo */
 }
 
 /* Contenedor de la imagen del jugador */
@@ -78,15 +78,16 @@ main .player-section .player-card .player-name {
     font-weight: bold;
 }
 
-/* Contenedor del nombre completo (prolongación) */
-main .player-section .player-card .player-full-name-container {
+/* Contenedor del nombre completo (prolongación debajo de la tarjeta) */
+main .player-section .player-full-name-container {
     background: linear-gradient(to right, #001f3f, #007bff); /* Mismo degradado */
     border-radius: 0 0 15px 15px; /* Bordes redondeados solo en la parte inferior */
     padding: 8px 0; /* Espacio vertical para el texto */
     margin-top: 5px; /* Desplazamiento hacia abajo */
+    margin-left: auto; /* Centrado horizontal */
+    margin-right: auto;
+    max-width: 800px; /* Mismo ancho que la tarjeta */
     text-align: center; /* Centrar el texto horizontalmente */
-    position: relative;
-    width: 100%; /* Ocupa todo el ancho de la tarjeta */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
     box-sizing: border-box;
 }
@@ -103,7 +104,7 @@ main .player-section .player-card .player-full-name {
 /* Contenedor de la imagen adicional (logo) */
 main .player-section .player-card .player-card-logo-container {
     position: absolute;
-    top: 50%; /* Centrado verticalmente respecto a la tarjeta principal (sin incluir prolongación) */
+    top: 50%; /* Centrado verticalmente respecto a la tarjeta */
     right: 20px; /* Pegado a la derecha */
     transform: translateY(-50%); /* Alinear a la altura del centro de la imagen del jugador */
     flex-shrink: 0; /* Evita que se encoja */
@@ -124,9 +125,8 @@ main .player-section .player-card .player-card-logo {
 /* Responsive: Para pantallas medianas (tablets, 600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-card {
-        border-radius: 15px 15px 0 0; /* Bordes superiores redondeados */
-        padding: 15px 15px 30px 15px; /* Menos padding, más en la parte inferior */
-        margin: 15px auto 0 auto; /* Ajustar márgenes */
+        padding: 15px; /* Menos padding */
+        margin: 15px auto; /* Ajustar márgenes */
     }
     main .player-section .player-card .player-image {
         width: 120px; /* Reduce tamaño de imagen */
@@ -150,9 +150,12 @@ main .player-section .player-card .player-card-logo {
         padding: 0 !important;
         text-align: left !important;
     }
-    main .player-section .player-card .player-full-name-container {
+    main .player-section .player-full-name-container {
         padding: 6px 0; /* Menos espacio vertical */
         margin-top: 4px; /* Menos desplazamiento hacia abajo */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 770px; /* Ajustado al ancho de la tarjeta (800px - padding) */
         border-radius: 0 0 12px 12px; /* Bordes inferiores redondeados */
     }
     main .player-section .player-card .player-full-name {
@@ -178,9 +181,8 @@ main .player-section .player-card .player-card-logo {
         flex-direction: row; /* Layout horizontal: imagen a la izquierda, texto a la derecha */
         align-items: center; /* Centrado vertical */
         justify-content: space-between; /* Espacio entre elementos */
-        padding: 10px 10px 25px 10px; /* Reducir padding, más en la parte inferior */
-        border-radius: 15px 15px 0 0; /* Bordes superiores redondeados */
-        margin: 10px auto 0 auto; /* Ajustar márgenes */
+        padding: 10px; /* Reducir padding */
+        margin: 10px auto; /* Ajustar márgenes */
         width: 100%; /* Asegurar que ocupe todo el ancho */
         box-sizing: border-box; /* Evitar desbordes */
     }
@@ -202,7 +204,7 @@ main .player-section .player-card .player-card-logo {
         left: -5px; /* Número a la izquierda de la imagen */
         font-size: 18px; /* Ligeramente más pequeño en móvil */
         background: transparent !important; /* Forzar transparencia */
-        border: none !important; /* Sin borde */
+ acresol: none !important; /* Sin borde */
         box-shadow: none !important; /* Sin sombra */
         outline: none !important; /* Sin contorno */
     }
@@ -226,9 +228,12 @@ main .player-section .player-card .player-card-logo {
         padding: 0 !important; /* Sin padding */
         text-align: left !important; /* Forzar alineación a la izquierda */
     }
-    main .player-section .player-card .player-full-name-container {
+    main .player-section .player-full-name-container {
         padding: 5px 0; /* Menos espacio vertical */
         margin-top: 3px; /* Menos desplazamiento hacia abajo */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: calc(100% - 20px); /* Ajustado al ancho de la tarjeta en móviles */
         border-radius: 0 0 10px 10px; /* Bordes inferiores redondeados */
     }
     main .player-section .player-card .player-full-name {
@@ -236,7 +241,7 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-card .player-card-logo-container {
         right: 10px; /* Pegado a la derecha en móvil */
-        top: 50%; /* Centrado verticalmente respecto a la tarjeta principal */
+        top: 50%; /* Centrado verticalmente respecto a la tarjeta */
         transform: translateY(-50%); /* Alinear a la altura del centro */
         z-index: 1; /* Asegurar que esté sobre otros elementos */
     }
