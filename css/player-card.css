@@ -81,7 +81,7 @@ main .player-section .player-card .player-name {
 /* Contenedor del nombre completo (prolongación debajo de la tarjeta) */
 main .player-section .player-full-name-container {
     background: linear-gradient(to right, #001f3f, #007bff); /* Mismo degradado */
-    border-radius: 0 0 15px 15px; /* Bordes redondeados solo en la parte inferior */
+    border-radius: 0; /* Elimina los bordes redondeados */
     padding: 8px 0; /* Espacio vertical para el texto */
     margin: 5px auto 20px auto; /* Desplazamiento hacia abajo y centrado horizontal */
     max-width: 800px; /* Mismo ancho que la tarjeta */
