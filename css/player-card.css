@@ -1,4 +1,4 @@
-/* Estilos base para la ficha del jugador */
+/* Estilos base para la ficha del jugador (desktop) */
 main .player-section .player-card {
     background: linear-gradient(to right, #001f3f, #007bff); /* Degradado azul (azul marino a azul Oviedo) */
     border-radius: 15px; /* Bordes redondeados */
@@ -102,38 +102,41 @@ main .player-section .player-card .player-name {
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
 @media (max-width: 599px) {
     main .player-section .player-card {
-        flex-direction: column; /* Apila verticalmente: imagen arriba, info abajo */
-        align-items: center; /* Centrado todo */
-        text-align: center; /* Texto centrado */
+        flex-direction: row; /* Mantener layout horizontal como en desktop */
+        align-items: center; /* Centrado vertical */
+        justify-content: flex-start; /* Alineado a la izquierda */
         padding: 15px;
+        text-align: left; /* Alinear texto a la izquierda */
     }
     main .player-section .player-card .player-card-image-container {
-        margin-right: 0; /* Quita margen derecho */
-        margin-bottom: 15px; /* Espacio abajo */
+        margin-right: 15px; /* Espacio a la derecha de la imagen */
+        margin-bottom: 0; /* Quitar margen inferior */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
     }
     main .player-section .player-card .player-image {
-        width: 100px; /* Más pequeña en móvil */
+        width: 120px; /* Aumentar tamaño de imagen en móvil (antes 100px) */
+        height: auto;
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
     }
     main .player-section .player-card .player-card-number {
         top: -5px;
-        left: 10px; /* Ajusta posición para no salirse */
-        font-size: 18px;
+        left: -5px; /* Mantener número a la izquierda */
+        font-size: 20px; /* Ligeramente más pequeño en móvil */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
         box-shadow: none !important; /* Sin sombra */
         outline: none !important; /* Sin contorno */
     }
+    main .player-section .player-card .player-info {
+        text-align: left; /* Texto a la derecha de la imagen, alineado a la izquierda */
+        flex: 1; /* Ocupa el espacio restante */
+    }
     main .player-section .player-card .player-position {
-        font-size: 16px;
+        font-size: 18px; /* Aumentar tamaño (antes 16px) */
     }
     main .player-section .player-card .player-name {
-        font-size: 22px;
-    }
-    main .player-section .player-card .player-info {
-        text-align: center; /* Centrado en móvil */
+        font-size: 24px; /* Aumentar tamaño (antes 22px) */
     }
 }
