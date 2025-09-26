@@ -1,1 +1,108 @@
+/* Estilos base para la ficha del jugador */
+.player-card {
+    background: linear-gradient(to right, #001f3f, #007bff); /* Degradado azul (azul marino a azul Oviedo) */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px;
+    max-width: 800px; /* Ancho máximo para desktops */
+    margin: 20px auto; /* Centrado horizontal */
+    display: flex; /* Layout horizontal */
+    align-items: center; /* Centrado vertical */
+    justify-content: flex-start; /* Alineado a la izquierda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    color: white; /* Texto blanco para contraste */
+    overflow: hidden; /* Evita desbordes */
+}
 
+/* Contenedor de la imagen */
+.player-image-container {
+    position: relative; /* Para posicionar el número absolutamente */
+    margin-right: 20px; /* Espacio a la derecha */
+}
+
+/* Imagen del jugador */
+.player-image {
+    width: 150px; /* Tamaño base */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    display: block;
+}
+
+/* Número del jugador (arriba y a la izquierda) */
+.player-number {
+    position: absolute;
+    top: -10px; /* Arriba de la imagen */
+    left: -10px; /* A la izquierda */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    color: #001f3f; /* Color azul oscuro */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%; /* Círculo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Información del jugador */
+.player-info {
+    display: flex;
+    flex-direction: column; /* Posición y nombre apilados verticalmente */
+}
+
+/* Posición (Portero) */
+.player-position {
+    font-size: 18px;
+    margin-bottom: 5px; /* Espacio debajo */
+}
+
+/* Nombre (Aarón, más grande) */
+.player-name {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Responsive: Para pantallas medianas (tablets, 600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .player-image {
+        width: 120px; /* Reduce tamaño de imagen */
+    }
+    .player-number {
+        font-size: 20px; /* Reduce tamaño del número */
+    }
+    .player-position {
+        font-size: 16px;
+    }
+    .player-name {
+        font-size: 24px;
+    }
+    .player-card {
+        padding: 15px; /* Menos padding */
+    }
+}
+
+/* Responsive: Para pantallas pequeñas (móviles, <600px) */
+@media (max-width: 599px) {
+    .player-card {
+        flex-direction: column; /* Apila verticalmente: imagen arriba, info abajo */
+        align-items: center; /* Centrado todo */
+        text-align: center; /* Texto centrado */
+        padding: 15px;
+    }
+    .player-image-container {
+        margin-right: 0; /* Quita margen derecho */
+        margin-bottom: 15px; /* Espacio abajo */
+    }
+    .player-image {
+        width: 100px; /* Más pequeña en móvil */
+    }
+    .player-number {
+        top: -5px;
+        left: 10px; /* Ajusta posición para no salirse */
+        font-size: 18px;
+    }
+    .player-position {
+        font-size: 16px;
+    }
+    .player-name {
+        font-size: 22px;
+    }
+  }
