@@ -80,7 +80,7 @@ main .player-section .player-card .player-name {
 
 /* Nombre completo (Aarón Escandell Banacloche) */
 main .player-section .player-card .player-full-name {
-    font-size: 16px; /* Ligeramente menor que player-position (18px) */
+    font-size: 12px; /* Bastante más pequeño que player-position (18px) */
     margin: 0 !important; /* Sin márgenes */
     padding: 0 !important; /* Sin padding */
     text-align: left !important; /* Forzar alineación a la izquierda */
@@ -96,6 +96,7 @@ main .player-section .player-card .player-card-logo-container {
     flex-shrink: 0; /* Evita que se encoja */
     background: transparent !important; /* Forzar transparencia */
     border: none !important; /* Sin borde */
+    z-index: 1; /* Asegurar que esté sobre otros elementos */
 }
 
 /* Imagen adicional (logo) */
@@ -132,7 +133,7 @@ main .player-section .player-card .player-card-logo {
         text-align: left !important;
     }
     main .player-section .player-card .player-full-name {
-        font-size: 14px; /* Ligeramente menor que player-position (16px) */
+        font-size: 11px; /* Bastante más pequeño que player-position (16px) */
         margin: 0 !important;
         padding: 0 !important;
         text-align: left !important;
@@ -145,6 +146,8 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-card .player-card-logo-container {
         right: 15px; /* Ajustar para tablets */
+        top: 50%; /* Mantener centrado verticalmente */
+        transform: translateY(-50%);
     }
     main .player-section .player-card .player-card-logo {
         width: 96px; /* 80% de 120px (imagen del jugador) */
@@ -205,7 +208,7 @@ main .player-section .player-card .player-card-logo {
         text-align: left !important; /* Forzar alineación a la izquierda */
     }
     main .player-section .player-card .player-full-name {
-        font-size: 16px; /* Igual que en desktop, menor que player-position (18px) */
+        font-size: 12px; /* Bastante más pequeño que player-position (18px) */
         margin: 0 !important; /* Sin márgenes */
         padding: 0 !important; /* Sin padding */
         text-align: left !important; /* Forzar alineación a la izquierda */
@@ -214,6 +217,7 @@ main .player-section .player-card .player-card-logo {
         right: 10px; /* Pegado a la derecha en móvil */
         top: 50%; /* Centrado verticalmente */
         transform: translateY(-50%); /* Alinear a la altura del centro */
+        z-index: 1; /* Asegurar que esté sobre otros elementos */
     }
     main .player-section .player-card .player-card-logo {
         width: 88px; /* 80% de 110px (imagen del jugador) */
