@@ -6,7 +6,7 @@
     margin: 50px auto;
     display: flex;
     align-items: center; /* Alinea verticalmente todos los elementos al centro */
-    gap: 5px; /* Mínimo espacio entre la imagen y el texto */
+    gap: 15px; /* Aumentado a 15px para un espaciado base más limpio */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -28,13 +28,14 @@
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 70px; /* Reducido para dejar espacio al número, pero acercar la imagen */
+    margin-left: 0; /* ¡Cambiado! Eliminamos el margin-left innecesario. */
+    /* La imagen se colocará inmediatamente después del espacio que deja el 'gap' del .player-card */
 }
 
 .player-info {
     flex: 1;
     color: white;
-    margin-left: 5px; /* Mínimo margen para acercar el texto a la imagen */
+    margin-left: 0; /* ¡Cambiado! Eliminamos el margin-left de 5px. */
     margin-top: 0; /* Sin margen superior para alinear con la imagen */
     display: flex;
     flex-direction: column;
@@ -48,7 +49,7 @@
     letter-spacing: 1px;
     margin-bottom: 5px;
     font-weight: 500;
-    margin-left: 0; /* Eliminado para acercar el texto */
+    margin-left: 0; /* Confirmamos que no tiene margen izquierdo */
 }
 
 .player-name {
@@ -58,10 +59,14 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-main .player-card .player-info {
-    margin-left: 5px !important;
+/* Esta regla era muy específica y probablemente la causa de tu problema.
+   La elimino ya que hemos fijado los márgenes de .player-info en la regla de arriba. 
+   Si se necesita mantener la especificidad, la reescribiríamos: */
+/* main .player-card .player-info {
+    margin-left: 0 !important; /* ¡Cambiado! */
     margin-top: 0 !important;
-}
+} */
+/* Para más limpieza, puedes eliminar completamente las 4 líneas de arriba si borras las reglas específicas en .player-info */
 
 @media (max-width: 768px) {
     .player-card {
@@ -91,4 +96,4 @@ main .player-card .player-info {
         margin-left: 0;
         margin-top: 0;
     }
-    }
+}
