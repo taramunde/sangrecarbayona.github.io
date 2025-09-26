@@ -1,5 +1,5 @@
 /* Estilos base para la ficha del jugador */
-main .player-card {
+main .player-section .player-card {
     background: linear-gradient(to right, #001f3f, #007bff); /* Degradado azul (azul marino a azul Oviedo) */
     border-radius: 15px; /* Bordes redondeados */
     padding: 20px;
@@ -12,28 +12,30 @@ main .player-card {
     color: white; /* Texto blanco para contraste */
     overflow: hidden; /* Evita desbordes */
     background-color: transparent !important; /* Forzar transparencia del contenedor */
+    border: none !important; /* Sin borde */
 }
 
 /* Contenedor de la imagen */
-main .player-card .player-image-container {
+main .player-section .player-card .player-card-image-container {
     position: relative; /* Para posicionar el número absolutamente */
     margin-right: 20px; /* Espacio a la derecha de la imagen */
     flex-shrink: 0; /* Evita que se encoja */
     background: transparent !important; /* Forzar transparencia */
+    border: none !important; /* Sin borde */
 }
 
 /* Imagen del jugador */
-main .player-card .player-image {
+main .player-section .player-card .player-image {
     width: 150px; /* Tamaño base */
     height: auto;
     border-radius: 10px; /* Bordes redondeados */
     display: block;
     background: transparent !important; /* Forzar transparencia */
-    border: none !important; /* Eliminar cualquier borde */
+    border: none !important; /* Sin borde */
 }
 
 /* Número del jugador (arriba y a la izquierda, sin fondo ni borde blanco) */
-main .player-card .player-number {
+main .player-section .player-card .player-card-number {
     position: absolute;
     top: -10px; /* Arriba de la imagen */
     left: -10px; /* A la izquierda */
@@ -44,11 +46,12 @@ main .player-card .player-number {
     padding: 5px 10px;
     border-radius: 50%; /* Círculo */
     border: none !important; /* Eliminar cualquier borde blanco */
-    box-shadow: none !important; /* Eliminar sombra que pueda parecer un borde */
+    box-shadow: none !important; /* Eliminar sombra */
+    outline: none !important; /* Eliminar cualquier contorno */
 }
 
 /* Información del jugador */
-main .player-card .player-info {
+main .player-section .player-card .player-info {
     display: flex;
     flex-direction: column; /* Posición y nombre apilados verticalmente */
     justify-content: center; /* Centrado vertical si es necesario */
@@ -56,13 +59,13 @@ main .player-card .player-info {
 }
 
 /* Posición (Portero) */
-main .player-card .player-position {
+main .player-section .player-card .player-position {
     font-size: 18px;
     margin-bottom: 5px; /* Espacio debajo */
 }
 
 /* Nombre (Aarón, más grande) */
-main .player-card .player-name {
+main .player-section .player-card .player-name {
     font-size: 28px;
     margin: 0;
     font-weight: bold;
@@ -70,64 +73,67 @@ main .player-card .player-name {
 
 /* Responsive: Para pantallas medianas (tablets, 600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
-    main .player-card .player-image {
+    main .player-section .player-card .player-image {
         width: 120px; /* Reduce tamaño de imagen */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
     }
-    main .player-card .player-number {
+    main .player-section .player-card .player-card-number {
         font-size: 20px; /* Reduce tamaño del número */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
         box-shadow: none !important; /* Sin sombra */
+        outline: none !important; /* Sin contorno */
     }
-    main .player-card .player-position {
+    main .player-section .player-card .player-position {
         font-size: 16px;
     }
-    main .player-card .player-name {
+    main .player-section .player-card .player-name {
         font-size: 24px;
     }
-    main .player-card {
+    main .player-section .player-card {
         padding: 15px; /* Menos padding */
     }
-    main .player-card .player-image-container {
+    main .player-section .player-card .player-card-image-container {
         margin-right: 15px; /* Ajusta espacio */
     }
 }
 
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
 @media (max-width: 599px) {
-    main .player-card {
+    main .player-section .player-card {
         flex-direction: column; /* Apila verticalmente: imagen arriba, info abajo */
         align-items: center; /* Centrado todo */
         text-align: center; /* Texto centrado */
         padding: 15px;
     }
-    main .player-card .player-image-container {
+    main .player-section .player-card .player-card-image-container {
         margin-right: 0; /* Quita margen derecho */
         margin-bottom: 15px; /* Espacio abajo */
         background: transparent !important; /* Forzar transparencia */
+        border: none !important; /* Sin borde */
     }
-    main .player-card .player-image {
+    main .player-section .player-card .player-image {
         width: 100px; /* Más pequeña en móvil */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
     }
-    main .player-card .player-number {
+    main .player-section .player-card .player-card-number {
         top: -5px;
         left: 10px; /* Ajusta posición para no salirse */
         font-size: 18px;
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
         box-shadow: none !important; /* Sin sombra */
+        outline: none !important; /* Sin contorno */
     }
-    main .player-card .player-position {
+    main .player-section .player-card .player-position {
         font-size: 16px;
     }
-    main .player-card .player-name {
+    main .player-section .player-card .player-name {
         font-size: 22px;
     }
-    main .player-card .player-info {
+    main .player-section .player-card .player-info {
         text-align: center; /* Centrado en móvil */
     }
 }
