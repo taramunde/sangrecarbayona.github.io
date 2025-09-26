@@ -13,11 +13,6 @@
     overflow: hidden; /* Evita desbordes */
 }
 
-/* Contenedor de la imagen */
-.player-image-container {
-    position: relative; /* Para posicionar el número absolutamente */
-    margin-right: 20px; /* Espacio a la derecha */
-}
 
 /* Imagen del jugador */
 .player-image {
