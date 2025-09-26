@@ -152,7 +152,7 @@ main .player-section .player-card .player-card-logo {
         padding: 6px 0; /* Menos espacio vertical */
         margin: 4px auto 15px auto; /* Ajustar desplazamiento y márgenes */
         max-width: 770px; /* Ajustado al ancho de la tarjeta (800px - padding) */
-        border-radius: 0 0 12px 12px; /* Bordes inferiores redondeados */
+        border-radius: 0; /* Elimina los bordes redondeados */
     }
     main .player-section .player-full-name {
         font-size: 13px; /* Aumentado, pero más pequeño que player-position (16px) */
@@ -229,7 +229,7 @@ main .player-section .player-card .player-card-logo {
         padding: 5px 0; /* Menos espacio vertical */
         margin: 3px auto 10px auto; /* Ajustar desplazamiento y márgenes */
         max-width: calc(100% - 20px); /* Ajustado al ancho de la tarjeta en móviles */
-        border-radius: 0 0 10px 10px; /* Bordes inferiores redondeados */
+        border-radius: 0; /* Elimina los bordes redondeados */
     }
     main .player-section .player-full-name {
         font-size: 14px; /* Aumentado, pero más pequeño que player-position (18px) */
