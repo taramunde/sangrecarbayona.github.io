@@ -6,7 +6,7 @@
     margin: 50px auto;
     display: flex;
     align-items: center; /* Alinea verticalmente todos los elementos al centro */
-    gap: 15px; /* Aumentado a 15px para un espaciado base más limpio */
+    gap: 15px; /* Espacio base entre la imagen y el texto */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -28,15 +28,16 @@
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    margin-left: 0; /* ¡Cambiado! Eliminamos el margin-left innecesario. */
-    /* La imagen se colocará inmediatamente después del espacio que deja el 'gap' del .player-card */
+    /* Cambio clave para Desktop: Empujamos la imagen a la derecha para respetar el espacio del número */
+    margin-left: 70px; 
 }
 
 .player-info {
     flex: 1;
     color: white;
-    margin-left: 0; /* ¡Cambiado! Eliminamos el margin-left de 5px. */
-    margin-top: 0; /* Sin margen superior para alinear con la imagen */
+    /* Cambio clave para Desktop: Eliminar cualquier margen izquierdo no deseado para pegarlo a la imagen */
+    margin-left: 0; 
+    margin-top: 0; 
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centra verticalmente el texto con la imagen */
@@ -49,7 +50,7 @@
     letter-spacing: 1px;
     margin-bottom: 5px;
     font-weight: 500;
-    margin-left: 0; /* Confirmamos que no tiene margen izquierdo */
+    margin-left: 0; /* Aseguramos que no tenga margen */
 }
 
 .player-name {
@@ -59,33 +60,32 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Esta regla era muy específica y probablemente la causa de tu problema.
-   La elimino ya que hemos fijado los márgenes de .player-info en la regla de arriba. 
-   Si se necesita mantener la especificidad, la reescribiríamos: */
+/* Esta regla ya no es necesaria si .player-info tiene margin-left: 0; */
 /* main .player-card .player-info {
-    margin-left: 0 !important; /* ¡Cambiado! */
+    margin-left: 5px !important;
     margin-top: 0 !important;
 } */
-/* Para más limpieza, puedes eliminar completamente las 4 líneas de arriba si borras las reglas específicas en .player-info */
 
 @media (max-width: 768px) {
     .player-card {
         flex-direction: column;
         text-align: center;
         padding: 20px;
-        gap: 10px; /* Ajustado para móvil */
+        gap: 10px; /* Espacio entre la imagen y el texto en móvil */
     }
     
     .player-image {
+        /* Cambio clave para Móvil: Quitamos el margen de 70px que solo era para desktop */
         margin-left: 0;
         width: 150px;
         height: 180px;
     }
     
     .player-number {
-        position: static;
+        position: static; /* Cambio clave: Vuelve al flujo normal para centrarse */
         font-size: 3rem;
         margin-bottom: 10px;
+        left: auto; /* Anulamos la posición izquierda */
     }
     
     .player-name {
@@ -93,7 +93,13 @@
     }
     
     .player-info {
+        /* Aseguramos que el texto esté centrado y sin márgenes forzados */
         margin-left: 0;
         margin-top: 0;
+        align-items: center; /* Centra el texto dentro de este contenedor en modo columna */
+    }
+
+    .player-position {
+        margin-left: 0; /* Aseguramos que la posición esté alineada al centro */
     }
 }
