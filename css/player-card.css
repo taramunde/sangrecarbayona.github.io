@@ -7,15 +7,16 @@ main .player-section .player-card {
     margin: 20px auto; /* Centrado horizontal */
     display: flex; /* Layout horizontal */
     align-items: center; /* Centrado vertical */
-    justify-content: flex-start; /* Alineado a la izquierda */
+    justify-content: space-between; /* Espacio entre elementos, logo a la derecha */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
     color: white; /* Texto blanco para contraste */
     overflow: hidden; /* Evita desbordes */
     background-color: transparent !important; /* Forzar transparencia del contenedor */
     border: none !important; /* Sin borde */
+    position: relative; /* Para posicionar el logo absolutamente */
 }
 
-/* Contenedor de la imagen */
+/* Contenedor de la imagen del jugador */
 main .player-section .player-card .player-card-image-container {
     position: relative; /* Para posicionar el número absolutamente */
     margin-right: 15px; /* Espacio a la derecha de la imagen */
@@ -57,6 +58,8 @@ main .player-section .player-card .player-info {
     justify-content: center; /* Centrado vertical si es necesario */
     text-align: left; /* Asegura alineación a la izquierda */
     flex: 1; /* Ocupa el espacio restante */
+    margin: 0 !important; /* Sin márgenes */
+    padding: 0 !important; /* Sin padding */
 }
 
 /* Posición (Portero) */
@@ -73,6 +76,26 @@ main .player-section .player-card .player-name {
     padding: 0 !important; /* Sin padding */
     text-align: left !important; /* Forzar alineación a la izquierda */
     font-weight: bold;
+}
+
+/* Contenedor de la imagen adicional (logo) */
+main .player-section .player-card .player-card-logo-container {
+    position: absolute;
+    top: 50%; /* Centrado verticalmente respecto a la tarjeta */
+    right: 20px; /* Pegado a la derecha */
+    transform: translateY(-50%); /* Alinear a la altura del centro de la imagen del jugador */
+    flex-shrink: 0; /* Evita que se encoja */
+    background: transparent !important; /* Forzar transparencia */
+    border: none !important; /* Sin borde */
+}
+
+/* Imagen adicional (logo) */
+main .player-section .player-card .player-card-logo {
+    width: 100px; /* Tamaño base para el logo */
+    height: auto;
+    display: block;
+    background: transparent !important; /* Forzar transparencia */
+    border: none !important; /* Sin borde */
 }
 
 /* Responsive: Para pantallas medianas (tablets, 600px - 1024px) */
@@ -105,6 +128,12 @@ main .player-section .player-card .player-name {
     main .player-section .player-card .player-card-image-container {
         margin-right: 15px; /* Ajusta espacio */
     }
+    main .player-section .player-card .player-card-logo-container {
+        right: 15px; /* Ajustar para tablets */
+    }
+    main .player-section .player-card .player-card-logo {
+        width: 80px; /* Reducir tamaño del logo */
+    }
 }
 
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
@@ -112,21 +141,21 @@ main .player-section .player-card .player-name {
     main .player-section .player-card {
         flex-direction: row; /* Layout horizontal: imagen a la izquierda, texto a la derecha */
         align-items: center; /* Centrado vertical */
-        justify-content: flex-start; /* Alineado a la izquierda */
-        padding: 10px; /* Reducir padding para más espacio */
+        justify-content: space-between; /* Espacio entre elementos */
+        padding: 10px; /* Reducir padding */
         text-align: left; /* Alinear texto a la izquierda */
         width: 100%; /* Asegurar que ocupe todo el ancho */
         box-sizing: border-box; /* Evitar desbordes */
     }
     main .player-section .player-card .player-card-image-container {
-        margin-right: 10px; /* Reducir espacio a la derecha */
+        margin-right: 10px; /* Espacio a la derecha */
         margin-bottom: 0; /* Sin margen inferior */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
         flex-shrink: 0; /* Evita que se encoja */
     }
     main .player-section .player-card .player-image {
-        width: 110px; /* Reducir ligeramente (antes 120px) para más espacio */
+        width: 110px; /* Tamaño ajustado para móvil */
         height: auto;
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
@@ -159,5 +188,14 @@ main .player-section .player-card .player-name {
         margin: 0 !important; /* Sin márgenes */
         padding: 0 !important; /* Sin padding */
         text-align: left !important; /* Forzar alineación a la izquierda */
+    }
+    main .player-section .player-card .player-card-logo-container {
+        right: 10px; /* Pegado a la derecha en móvil */
+        top: 50%; /* Centrado verticalmente */
+        transform: translateY(-50%); /* Alinear a la altura del centro */
+    }
+    main .player-section .player-card .player-card-logo {
+        width: 60px; /* Tamaño más pequeño para móvil */
+        height: auto;
     }
 }
