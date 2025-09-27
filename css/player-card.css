@@ -233,8 +233,8 @@ main .player-section .player-card .player-card-logo {
     main .player-section .player-full-name-container {
         padding: 5px 0;
         margin: 0 auto 10px auto !important;
-        max-width: 100%; /* Cambia a 100% */
-        width: calc(100% - 20px); /* Ajusta el ancho efectivo */
+        width: 100%; /* Ocupa el 100% del contenedor padre */
+        max-width: calc(100% - 20px); /* Ajusta al ancho interno de .player-card */
         box-sizing: border-box; /* Incluye padding en el cálculo */
         border-radius: 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
