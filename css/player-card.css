@@ -176,6 +176,7 @@ main .player-section .player-card .player-card-logo {
 @media (max-width: 599px) {
     main .player-section .player-card {
         flex-direction: row; /* Layout horizontal: imagen a la izquierda, texto a la derecha */
+        border-radius: 10px 10px 0 0 
         align-items: center; /* Centrado vertical */
         justify-content: space-between; /* Espacio entre elementos */
         padding: 10px; /* Reducir padding */
