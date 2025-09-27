@@ -178,10 +178,15 @@ main .player-section .player-card .player-card-logo {
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
 @media (max-width: 599px) {
     main .player-section .player-card {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         padding: 10px;
-        margin: 10px auto 0 auto; /* Elimina margin-bottom */
+        margin: 10px auto 0 auto;
+        width: 100%;
+        box-sizing: border-box;
         border-radius: 10px 10px 0 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     main .player-section .player-card .player-card-image-container {
         margin-right: 10px; /* Espacio a la derecha */
@@ -227,10 +232,12 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-full-name-container {
         padding: 5px 0;
-        margin: 0 auto 10px auto !important; /* Forzar margin-top a 0 */
-        max-width: calc(100% - 20px);
+        margin: 0 auto 10px auto !important;
+        max-width: 100%; /* Cambia a 100% */
+        width: calc(100% - 20px); /* Ajusta el ancho efectivo */
+        box-sizing: border-box; /* Incluye padding en el cálculo */
         border-radius: 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     main .player-section .player-full-name {
         font-size: 14px; /* Aumentado, pero más pequeño que player-position (18px) */
