@@ -177,6 +177,7 @@ main .player-section .player-card .player-card-logo {
 
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
 @media (max-width: 599px) {
+@media (max-width: 599px) {
     main .player-section .player-card {
         flex-direction: row;
         align-items: center;
@@ -189,68 +190,68 @@ main .player-section .player-card .player-card-logo {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     main .player-section .player-card .player-card-image-container {
-        margin-right: 10px; /* Espacio a la derecha */
-        margin-bottom: 0; /* Sin margen inferior */
-        background: transparent !important; /* Forzar transparencia */
-        border: none !important; /* Sin borde */
-        flex-shrink: 0; /* Evita que se encoja */
+        margin-right: 10px;
+        margin-bottom: 0;
+        background: transparent !important;
+        border: none !important;
+        flex-shrink: 0;
     }
     main .player-section .player-card .player-image {
-        width: 110px; /* Tamaño ajustado para móvil */
+        width: 110px;
         height: auto;
-        background: transparent !important; /* Forzar transparencia */
-        border: none !important; /* Sin borde */
+        background: transparent !important;
+        border: none !important;
     }
     main .player-section .player-card .player-card-number {
         top: -5px;
-        left: -5px; /* Número a la izquierda de la imagen */
-        font-size: 18px; /* Ligeramente más pequeño en móvil */
-        background: transparent !important; /* Forzar transparencia */
-        border: none !important; /* Sin borde */
-        box-shadow: none !important; /* Sin sombra */
-        outline: none !important; /* Sin contorno */
+        left: -5px;
+        font-size: 18px;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        outline: none !important;
     }
     main .player-section .player-card .player-info {
         display: flex;
-        flex-direction: column; /* Apilar "Portero" y "Aarón" verticalmente */
-        text-align: left; /* Asegurar alineación a la izquierda */
-        flex: 1; /* Ocupa el espacio restante */
-        margin: 0 !important; /* Sin márgenes */
-        padding: 0 !important; /* Sin padding */
+        flex-direction: column;
+        text-align: left;
+        flex: 1;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     main .player-section .player-card .player-position {
-        font-size: 18px; /* Tamaño más grande */
-        margin-bottom: 5px; /* Espacio debajo */
-        margin-right: 0 !important; /* Evitar desplazamiento */
-        padding: 0 !important; /* Sin padding */
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-right: 0 !important;
+        padding: 0 !important;
     }
     main .player-section .player-card .player-name {
-        font-size: 24px; /* Tamaño más grande */
-        margin: 0 !important; /* Sin márgenes */
-        padding: 0 !important; /* Sin padding */
-        text-align: left !important; /* Forzar alineación a la izquierda */
+        font-size: 24px;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: left !important;
     }
     main .player-section .player-full-name-container {
         padding: 5px 0;
-        margin: 0 auto 10px auto !important;
-        width: 110%; /* Ocupa el 100% del contenedor padre */
+        margin: 0 auto 10px auto !important; /* Mantener alineación vertical */
+        width: 100%; /* Corrige de 110% a 100% */
         max-width: calc(100% - 20px); /* Ajusta al ancho interno de .player-card */
         box-sizing: border-box; /* Incluye padding en el cálculo */
         border-radius: 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     main .player-section .player-full-name {
-        font-size: 14px; /* Aumentado, pero más pequeño que player-position (18px) */
-        color: white !important; /* Texto blanco explícitamente */
+        font-size: 14px;
+        color: white !important;
     }
     main .player-section .player-card .player-card-logo-container {
-        right: 10px; /* Pegado a la derecha en móvil */
-        top: 50%; /* Centrado verticalmente respecto a la tarjeta */
-        transform: translateY(-50%); /* Alinear a la altura del centro */
-        z-index: 1; /* Asegurar que esté sobre otros elementos */
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
     }
     main .player-section .player-card .player-card-logo {
-        width: 66px; /* Reducido: 60% de 110px (imagen del jugador) */
+        width: 66px;
         height: auto;
     }
 }
