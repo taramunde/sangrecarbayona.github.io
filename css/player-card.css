@@ -1,7 +1,7 @@
 /* Estilos base para la ficha del jugador (desktop) */
 main .player-section .player-card {
     background: linear-gradient(to right, #001f3f, #007bff); /* Degradado azul (azul marino a azul Oviedo) */
-    border-radius: 15px; /* Bordes redondeados completos */
+    border-radius: 15px 15px 0 0; /* Redondeado solo en la parte superior */
     padding: 20px; /* Padding estándar */
     max-width: 800px; /* Ancho máximo para desktops */
     margin: 20px auto; /* Centrado horizontal */
