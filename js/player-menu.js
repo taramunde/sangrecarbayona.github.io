@@ -1,300 +1,346 @@
-$(document).ready(function() {
-    // Obtener jugador desde la URL
-    function getPlayerFromURL() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('player') || 'aaron';
-    }
+// Fixed player-menu.js
+document.addEventListener('DOMContentLoaded', function() {
+    // Tab switching functionality
+    const tabs = document.querySelectorAll('.menu-tab');
+    const tabContents = document.querySelectorAll('.tab-content');
     
-    let currentPlayer = getPlayerFromURL(); // CAMBIO: ahora obtiene de la URL
-    let selectedSeason = '2024/25';
-    let selectedCompetition = 'oficiales';
-    
-    // Verificar si el jugador existe
-    if (!playersData[currentPlayer]) {
-        console.error('Jugador no encontrado:', currentPlayer);
-        currentPlayer = 'aaron'; // fallback
-    }
-    
-    // NUEVA FUNCIÓN: Actualizar información del jugador en la página
-    function updatePlayerInfo() {
-    const player = playersData[currentPlayer];
-    if (!player) return;
-    
-    // Actualizar imagen
-    $('.player-image').attr('src', player.image);
-    $('.player-image').attr('alt', player.footballName + ' - ' + player.position);
-    
-    // Actualizar nombres - CAMBIO AQUÍ
-    $('.player-name').text(player.footballName); // Usar footballName en lugar del primer nombre
-    $('.player-full-name').text(player.name); // El nombre completo sigue igual
-    
-    // Actualizar posición
-    $('.player-position').text(player.position);
-    
-    // Actualizar número (si existe)
-    if (player.number) {
-        $('.player-card-number').text(player.number).show();
-    } else {
-        $('.player-card-number').hide(); // Para entrenadores
-    }
-}
-    
-    // Cargar datos del jugador actual
-updatePlayerInfo();
-loadPlayerSeasons();
-generateStatsHTML();
-updateStats(); // Esto ya actualiza los botones con los valores iniciales
-    
-    // Resto de funciones exactamente como las tienes...
-    $('.menu-tab').on('click', function() {
-        $('.menu-tab').removeClass('active');
-        $('.tab-content').removeClass('active');
-        $(this).addClass('active');
-        $('#' + $(this).data('tab')).addClass('active');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            const targetTab = this.getAttribute('data-tab');
+            
+            // Remove active class from all tabs and contents
+            tabs.forEach(t => t.classList.remove('active'));
+            tabContents.forEach(tc => tc.classList.remove('active'));
+            
+            // Add active class to clicked tab and corresponding content
+            this.classList.add('active');
+            document.getElementById(targetTab).classList.add('active');
+        });
     });
+
+    // Initialize stats based on player role
+    initializeStats();
     
-    $('.menu-tab[data-tab="stats"]').addClass('active');
-    $('#stats').addClass('active');
+    // Dropdown functionality
+    setupDropdowns();
+});
+
+function initializeStats() {
+    // Get player name from the page (you'll need to determine this based on your setup)
+    const playerNameElement = document.querySelector('.player-name');
+    if (!playerNameElement) return;
     
-    function loadPlayerSeasons() {
-        const player = playersData[currentPlayer];
-        if (!player || !player.stats) return;
-        
-        const seasonsMenu = $('.seasons-menu');
-        const seasons = Object.keys(player.stats).sort().reverse();
-        
-        seasonsMenu.find('.dropdown-option').remove();
-        
-        seasons.forEach(season => {
-            seasonsMenu.append(`<a href="#" class="dropdown-option" data-season="${season}">${season}</a>`);
+    const playerKey = playerNameElement.textContent.toLowerCase();
+    
+    // Try to find the player in the data
+    let currentPlayer = null;
+    for (const key in playersData) {
+        if (playersData[key].footballName.toLowerCase() === playerKey || 
+            playersData[key].name.toLowerCase().includes(playerKey.toLowerCase())) {
+            currentPlayer = playersData[key];
+            break;
+        }
+    }
+    
+    if (!currentPlayer) {
+        console.error('Player data not found for:', playerKey);
+        return;
+    }
+    
+    // Generate seasons dropdown based on available data
+    generateSeasonsDropdown(currentPlayer);
+    
+    // Display initial stats
+    displayStats(currentPlayer, 'oficiales');
+}
+
+function generateSeasonsDropdown(player) {
+    const seasonsMenu = document.querySelector('.seasons-menu');
+    if (!seasonsMenu) return;
+    
+    // Clear existing content except close button
+    seasonsMenu.innerHTML = '<button class="close-btn"><span class="close-x">×</span></button>';
+    
+    // Add seasons from player data
+    const seasons = Object.keys(player.stats);
+    seasons.forEach(season => {
+        const seasonLink = document.createElement('a');
+        seasonLink.href = '#';
+        seasonLink.className = 'dropdown-option';
+        seasonLink.setAttribute('data-season', season);
+        seasonLink.textContent = season;
+        seasonsMenu.appendChild(seasonLink);
+    });
+}
+
+function setupDropdowns() {
+    // Seasons dropdown
+    const seasonsBtn = document.getElementById('seasons-btn');
+    const seasonsMenu = document.querySelector('.seasons-menu');
+    
+    // Competitions dropdown
+    const competitionsBtn = document.getElementById('competitions-btn');
+    const competitionsMenu = document.querySelector('.competitions-menu');
+    
+    if (seasonsBtn && seasonsMenu) {
+        seasonsBtn.addEventListener('click', function() {
+            seasonsMenu.style.display = seasonsMenu.style.display === 'block' ? 'none' : 'block';
+            competitionsMenu.style.display = 'none'; // Close other dropdown
         });
         
-        if (seasons.length > 0) {
-            selectedSeason = seasons[0];
+        // Close button for seasons
+        const seasonsCloseBtn = seasonsMenu.querySelector('.close-btn');
+        if (seasonsCloseBtn) {
+            seasonsCloseBtn.addEventListener('click', function() {
+                seasonsMenu.style.display = 'none';
+            });
         }
     }
     
-    function generateStatsHTML() {
-        const player = playersData[currentPlayer];
-        if (!player) return;
+    if (competitionsBtn && competitionsMenu) {
+        competitionsBtn.addEventListener('click', function() {
+            competitionsMenu.style.display = competitionsMenu.style.display === 'block' ? 'none' : 'block';
+            seasonsMenu.style.display = 'none'; // Close other dropdown
+        });
         
-        const statsDisplay = $('#stats-display');
-        let html = '';
-        
-        if (player.role === 'portero') {
-            html = `
-                <div class="stat-card">
-                    <h4>Partidos Oficiales</h4>
-                    <span class="stat-number" id="partidos-count">0</span>
-                </div>
-                <div class="stat-card">
-                    <h4>Goles Encajados</h4>
-                    <span class="stat-number" id="goles-count">0</span>
-                </div>
-                <div class="stat-card">
-                    <h4>Tarjetas</h4>
-                    <div class="tarjetas-container">
-                        <span class="tarjeta amarilla" id="amarillas-count">0</span>
-                        <span class="tarjeta roja" id="rojas-count">0</span>
-                    </div>
-                </div>
-            `;
-        } else if (player.role === 'jugador') {
-            html = `
-                <div class="stat-card">
-                    <h4>Partidos Oficiales</h4>
-                    <span class="stat-number" id="partidos-count">0</span>
-                </div>
-                <div class="stat-card">
-                    <h4>Goles Marcados</h4>
-                    <span class="stat-number" id="goles-count">0</span>
-                </div>
-                <div class="stat-card">
-                    <h4>Tarjetas</h4>
-                    <div class="tarjetas-container">
-                        <span class="tarjeta amarilla" id="amarillas-count">0</span>
-                        <span class="tarjeta roja" id="rojas-count">0</span>
-                    </div>
-                </div>
-            `;
-        } else if (player.role === 'entrenador') {
-            html = `
-                <div class="stat-card">
-                    <h4>Partidos Entrenados</h4>
-                    <span class="stat-number" id="partidos-count">0</span>
-                </div>
-                <div class="stat-card">
-                    <h4>Victorias</h4>
-                    <span class="stat-number" id="victorias-count">0</span>
-                </div>
-                <div class="stat-card">
-                    <h4>Empates</h4>
-                    <span class="stat-number" id="empates-count">0</span>
-                </div>
-                <div class="stat-card">
-                    <h4>Derrotas</h4>
-                    <span class="stat-number" id="derrotas-count">0</span>
-                </div>
-            `;
+        // Close button for competitions
+        const competitionsCloseBtn = competitionsMenu.querySelector('.close-btn');
+        if (competitionsCloseBtn) {
+            competitionsCloseBtn.addEventListener('click', function() {
+                competitionsMenu.style.display = 'none';
+            });
         }
         
-        statsDisplay.html(html);
+        // Competition selection
+        const competitionOptions = competitionsMenu.querySelectorAll('.dropdown-option');
+        competitionOptions.forEach(option => {
+            option.addEventListener('click', function(e) {
+                e.preventDefault();
+                const competition = this.getAttribute('data-competition');
+                
+                // Get current player
+                const playerNameElement = document.querySelector('.player-name');
+                if (!playerNameElement) return;
+                
+                const playerKey = playerNameElement.textContent.toLowerCase();
+                let currentPlayer = null;
+                
+                for (const key in playersData) {
+                    if (playersData[key].footballName.toLowerCase() === playerKey || 
+                        playersData[key].name.toLowerCase().includes(playerKey.toLowerCase())) {
+                        currentPlayer = playersData[key];
+                        break;
+                    }
+                }
+                
+                if (currentPlayer) {
+                    displayStats(currentPlayer, competition);
+                }
+                
+                competitionsMenu.style.display = 'none';
+            });
+        });
     }
     
-    function calculateStats(season, competition) {
-        const player = playersData[currentPlayer];
-        if (!player || !player.stats || !player.stats[season]) {
-            if (player.role === 'portero') {
-                return { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-            } else if (player.role === 'jugador') {
-                return { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-            } else if (player.role === 'entrenador') {
-                return { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 };
+    // Season selection (will be added dynamically)
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('dropdown-option') && e.target.getAttribute('data-season')) {
+            e.preventDefault();
+            const season = e.target.getAttribute('data-season');
+            
+            // Get current player and display stats for selected season
+            const playerNameElement = document.querySelector('.player-name');
+            if (!playerNameElement) return;
+            
+            const playerKey = playerNameElement.textContent.toLowerCase();
+            let currentPlayer = null;
+            
+            for (const key in playersData) {
+                if (playersData[key].footballName.toLowerCase() === playerKey || 
+                    playersData[key].name.toLowerCase().includes(playerKey.toLowerCase())) {
+                    currentPlayer = playersData[key];
+                    break;
+                }
             }
+            
+            if (currentPlayer) {
+                displayStatsBySeason(currentPlayer, season);
+            }
+            
+            seasonsMenu.style.display = 'none';
         }
-        
-        const seasonData = player.stats[season];
-        let totalStats = {};
-        
-        if (player.role === 'portero') {
-            totalStats = { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-        } else if (player.role === 'jugador') {
-            totalStats = { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-        } else if (player.role === 'entrenador') {
-            totalStats = { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 };
+    });
+    
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.stats-buttons')) {
+            seasonsMenu.style.display = 'none';
+            competitionsMenu.style.display = 'none';
         }
+    });
+}
+
+function displayStats(player, competition) {
+    const statsDisplay = document.getElementById('stats-display');
+    if (!statsDisplay) return;
+    
+    let totalStats = {
+        partidos: 0,
+        goles: 0,
+        asistencias: 0,
+        goles_encajados: 0,
+        tarjetas_amarillas: 0,
+        tarjetas_rojas: 0
+    };
+    
+    // Aggregate stats across all seasons for the specified competition
+    Object.keys(player.stats).forEach(season => {
+        const seasonStats = player.stats[season];
         
         if (competition === 'oficiales') {
-            Object.keys(seasonData).forEach(comp => {
-                if (comp !== 'amistosos') {
-                    const compData = seasonData[comp];
-                    Object.keys(totalStats).forEach(key => {
-                        totalStats[key] += compData[key] || 0;
+            // Sum all competitions except amistosos
+            ['liga', 'copa', 'uefa'].forEach(comp => {
+                if (seasonStats[comp]) {
+                    Object.keys(totalStats).forEach(stat => {
+                        if (seasonStats[comp][stat] !== undefined) {
+                            totalStats[stat] += seasonStats[comp][stat];
+                        }
                     });
                 }
             });
-        } else if (seasonData[competition]) {
-            totalStats = seasonData[competition];
+        } else if (seasonStats[competition]) {
+            // Sum specific competition
+            Object.keys(totalStats).forEach(stat => {
+                if (seasonStats[competition][stat] !== undefined) {
+                    totalStats[stat] += seasonStats[competition][stat];
+                }
+            });
         }
-        
-        return totalStats;
-    }
+    });
     
-    function updateStats() {
-    const player = playersData[currentPlayer];
-    const stats = calculateStats(selectedSeason, selectedCompetition);
-    
-    // Actualizar texto de los botones
-    $('#seasons-btn').text(selectedSeason);
-    $('#competitions-btn').text(getCompetitionDisplayName(selectedCompetition));
+    // Generate HTML based on player role
+    let html = '<div class="stats-grid">';
     
     if (player.role === 'portero') {
-        $('#partidos-count').text(stats.partidos);
-        $('#goles-count').text(stats.goles_encajados);
-        $('#amarillas-count').text(stats.tarjetas_amarillas);
-        $('#rojas-count').text(stats.tarjetas_rojas);
-    } else if (player.role === 'jugador') {
-        $('#partidos-count').text(stats.partidos);
-        $('#goles-count').text(stats.goles_marcados);
-        $('#amarillas-count').text(stats.tarjetas_amarillas);
-        $('#rojas-count').text(stats.tarjetas_rojas);
-    } else if (player.role === 'entrenador') {
-        $('#partidos-count').text(stats.partidos_entrenados);
-        $('#victorias-count').text(stats.victorias);
-        $('#empates-count').text(stats.empates);
-        $('#derrotas-count').text(stats.derrotas);
+        html += `
+            <div class="stat-item">
+                <span class="stat-label">Partidos:</span>
+                <span class="stat-value">${totalStats.partidos}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Goles Encajados:</span>
+                <span class="stat-value">${totalStats.goles_encajados}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Tarjetas Amarillas:</span>
+                <span class="stat-value">${totalStats.tarjetas_amarillas}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Tarjetas Rojas:</span>
+                <span class="stat-value">${totalStats.tarjetas_rojas}</span>
+            </div>
+        `;
+    } else {
+        // For field players (defensa, centrocampista, delantero)
+        html += `
+            <div class="stat-item">
+                <span class="stat-label">Partidos:</span>
+                <span class="stat-value">${totalStats.partidos}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Goles:</span>
+                <span class="stat-value">${totalStats.goles}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Asistencias:</span>
+                <span class="stat-value">${totalStats.asistencias}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Tarjetas Amarillas:</span>
+                <span class="stat-value">${totalStats.tarjetas_amarillas}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Tarjetas Rojas:</span>
+                <span class="stat-value">${totalStats.tarjetas_rojas}</span>
+            </div>
+        `;
     }
+    
+    html += '</div>';
+    statsDisplay.innerHTML = html;
 }
 
-    // Función para convertir IDs de competición a nombres legibles
-function getCompetitionDisplayName(competition) {
-    const names = {
-        'oficiales': 'Oficiales',
-        'liga': 'Liga',
-        'copa': 'Copa del Rey',
-        'uefa': 'UEFA',
-        'amistosos': 'Amistosos'
-    };
-    return names[competition] || competition;
-}
+function displayStatsBySeason(player, season) {
+    const statsDisplay = document.getElementById('stats-display');
+    if (!statsDisplay) return;
     
-    $(document).on('click', '.seasons-menu .dropdown-option', function(e) {
-        e.preventDefault();
-        selectedSeason = $(this).data('season');
-        updateStats();
-        $('.seasons-menu').hide();
-    });
+    const seasonData = player.stats[season];
+    if (!seasonData) return;
     
-    $(document).on('click', '.competitions-menu .dropdown-option', function(e) {
-        e.preventDefault();
-        selectedCompetition = $(this).data('competition');
-        updateStats();
-        $('.competitions-menu').hide();
-    });
+    let html = `<h4>Temporada ${season}</h4>`;
     
-    // Agregar función para móvil
-    function isMobile() {
-        return window.innerWidth <= 599;
-    }
-    
-    function hasSpaceBelow(button, menuHeight) {
-        const buttonRect = button.getBoundingClientRect();
-        const windowHeight = window.innerHeight;
-        const footerHeight = 100;
-        const spaceBelow = windowHeight - buttonRect.bottom - footerHeight;
-        return spaceBelow >= menuHeight + 20;
-    }
-    
-    function positionDropdownMenu(menu, button) {
-        if (isMobile()) {
-            return; // No hacer nada en móvil
-        }
-        
-        const menuHeight = 200;
-        const $menu = $(menu);
-        
-        if (hasSpaceBelow(button, menuHeight)) {
-            $menu.css({
-                'top': '100%',
-                'bottom': 'auto'
-            }).removeClass('dropdown-up');
-        } else {
-            $menu.css({
-                'top': 'auto',
-                'bottom': '100%'
-            }).addClass('dropdown-up');
-        }
-    }
-    
-    $('.dropdown-btn').on('click', function() {
-        const menu = $(this).next('.dropdown-menu');
-        $('.dropdown-menu').not(menu).hide();
-        
-        if (menu.is(':visible')) {
-            menu.hide();
-        } else {
-            menu.show();
-            positionDropdownMenu(menu[0], this);
-        }
-    });
-    
-    $('.close-btn').on('click', function() {
-        $(this).parent('.dropdown-menu').hide();
-    });
-    
-    $(document).on('click', function(e) {
-        if (!$(e.target).closest('.stats-buttons').length) {
-            $('.dropdown-menu').hide();
-        }
-    });
-    
-    $(window).on('resize', function() {
-        $('.dropdown-menu:visible').each(function() {
-            const menu = this;
-            const button = $(this).prev('.dropdown-btn')[0];
-            if (button) {
-                positionDropdownMenu(menu, button);
+    // Display stats for each competition in that season
+    ['liga', 'copa', 'uefa', 'amistosos'].forEach(competition => {
+        if (seasonData[competition]) {
+            const compData = seasonData[competition];
+            const compName = {
+                liga: 'Liga',
+                copa: 'Copa del Rey',
+                uefa: 'UEFA',
+                amistosos: 'Amistosos'
+            };
+            
+            html += `<div class="season-competition">
+                <h5>${compName[competition]}</h5>
+                <div class="stats-grid">`;
+            
+            if (player.role === 'portero') {
+                html += `
+                    <div class="stat-item">
+                        <span class="stat-label">Partidos:</span>
+                        <span class="stat-value">${compData.partidos || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Goles Encajados:</span>
+                        <span class="stat-value">${compData.goles_encajados || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Tarjetas Amarillas:</span>
+                        <span class="stat-value">${compData.tarjetas_amarillas || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Tarjetas Rojas:</span>
+                        <span class="stat-value">${compData.tarjetas_rojas || 0}</span>
+                    </div>
+                `;
+            } else {
+                html += `
+                    <div class="stat-item">
+                        <span class="stat-label">Partidos:</span>
+                        <span class="stat-value">${compData.partidos || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Goles:</span>
+                        <span class="stat-value">${compData.goles || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Asistencias:</span>
+                        <span class="stat-value">${compData.asistencias || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Tarjetas Amarillas:</span>
+                        <span class="stat-value">${compData.tarjetas_amarillas || 0}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Tarjetas Rojas:</span>
+                        <span class="stat-value">${compData.tarjetas_rojas || 0}</span>
+                    </div>
+                `;
             }
-        });
+            
+            html += '</div></div>';
+        }
     });
-});
+    
+    statsDisplay.innerHTML = html;
+}
