@@ -40,10 +40,10 @@ $(document).ready(function() {
 }
     
     // Cargar datos del jugador actual
-    updatePlayerInfo(); // NUEVA LÍNEA: Actualizar info del jugador
-    loadPlayerSeasons();
-    generateStatsHTML();
-    updateStats();
+updatePlayerInfo();
+loadPlayerSeasons();
+generateStatsHTML();
+updateStats(); // Esto ya actualiza los botones con los valores iniciales
     
     // Resto de funciones exactamente como las tienes...
     $('.menu-tab').on('click', function() {
@@ -204,6 +204,17 @@ $(document).ready(function() {
         $('#empates-count').text(stats.empates);
         $('#derrotas-count').text(stats.derrotas);
     }
+}
+
+    // Función para convertir IDs de competición a nombres legibles
+function getCompetitionDisplayName(competition) {
+    const names = {
+        'oficiales': 'Oficiales',
+        'liga': 'Liga',
+        'copa': 'Copa/UEFA',
+        'amistosos': 'Amistosos'
+    };
+    return names[competition] || competition;
 }
     
     $(document).on('click', '.seasons-menu .dropdown-option', function(e) {
