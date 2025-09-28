@@ -28,11 +28,13 @@ main .player-section .player-card .player-card-image-container {
 /* Imagen del jugador */
 main .player-section .player-card .player-image {
     width: 150px; /* Tamaño base */
-    height: auto;
+    height: 200px; /* ALTURA FIJA para consistencia */
     border-radius: 10px; /* Bordes redondeados */
     display: block;
     background: transparent !important; /* Forzar transparencia */
     border: none !important; /* Sin borde */
+    object-fit: contain; /* NUEVO: mantiene proporciones sin deformar */
+    object-position: center; /* NUEVO: centra la imagen */
 }
 
 /* Número del jugador (arriba y a la izquierda, sin fondo ni borde blanco) */
@@ -131,8 +133,11 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-card .player-image {
         width: 120px; /* Reduce tamaño de imagen */
-        background: transparent !important; /* Forzar transparencia */
-        border: none !important; /* Sin borde */
+    height: 160px; /* ALTURA FIJA para tablets */
+    background: transparent !important; /* Forzar transparencia */
+    border: none !important; /* Sin borde */
+    object-fit: contain; /* NUEVO */
+    object-position: center; /* NUEVO */
     }
     main .player-section .player-card .player-card-number {
         font-size: 20px; /* Reduce tamaño del número */
@@ -199,9 +204,11 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-card .player-image {
         width: 110px;
-        height: auto;
-        background: transparent !important;
-        border: none !important;
+    height: 140px; /* ALTURA FIJA para móviles */
+    background: transparent !important;
+    border: none !important;
+    object-fit: contain; /* NUEVO */
+    object-position: center; /* NUEVO */
     }
     main .player-section .player-card .player-card-number {
         top: -5px;
