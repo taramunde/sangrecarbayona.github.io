@@ -82,31 +82,42 @@ main .player-section .dropdown-btn:hover {
 
 main .player-section .dropdown-menu {
     position: absolute;
-    background: #ffffff; /* Quitamos el fondo azul oscuro (#001f3f) y usamos blanco */
-    border: 1px solid #4a4a4a; /* Borde gris oscuro para contraste */
+    background: #ffffff; /* Fondo blanco */
+    border: 1px solid #4a4a4a; /* Borde gris oscuro */
     border-radius: 3px;
     padding: 10px;
     z-index: 10;
-    color: #4a4a4a; /* Texto gris oscuro para legibilidad */
+    color: #4a4a4a; /* Texto gris oscuro */
     min-width: 150px;
     max-height: 300px; /* Limitamos la altura máxima */
     overflow-y: auto; /* Barra de desplazamiento si hay muchas opciones */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alineación a la izquierda */
 }
 
 main .player-section .dropdown-menu .close-btn {
-    background: none;
+    background: #0e0eec; /* Fondo azul para el botón de cerrar */
     border: none;
-    color: #ff4444;
+    color: white;
     cursor: pointer;
-    width: 100%;
-    text-align: left;
-    padding: 5px 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 0;
     margin-bottom: 5px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main .player-section .dropdown-menu .close-btn:hover {
-    color: #ff6666;
+    background: #0c0cca; /* Azul más oscuro al hover */
+}
+
+main .player-section .dropdown-menu .close-btn .close-x {
+    font-size: 14px;
+    line-height: 1;
 }
 
 main .player-section .dropdown-menu .dropdown-option {
@@ -114,6 +125,7 @@ main .player-section .dropdown-menu .dropdown-option {
     color: #4a4a4a;
     padding: 5px 0;
     text-decoration: none;
+    text-align: left; /* Alineación a la izquierda */
 }
 
 main .player-section .dropdown-menu .dropdown-option:hover {
@@ -154,6 +166,14 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     main .player-section .dropdown-menu {
         min-width: 120px;
         max-height: 250px; /* Ajuste para tablets */
+        text-align: left; /* Alineación a la izquierda */
+    }
+    main .player-section .dropdown-menu .close-btn {
+        width: 18px;
+        height: 18px;
+    }
+    main .player-section .dropdown-menu .close-btn .close-x {
+        font-size: 12px;
     }
 }
 
@@ -203,5 +223,13 @@ main .player-section .dropdown-menu .dropdown-option:hover {
         margin-top: 5px;
         max-height: 200px; /* Ajuste para móviles */
         overflow-y: auto;
+        text-align: left; /* Alineación a la izquierda */
+    }
+    main .player-section .dropdown-menu .close-btn {
+        width: 18px;
+        height: 18px;
+    }
+    main .player-section .dropdown-menu .close-btn .close-x {
+        font-size: 12px;
     }
 }
