@@ -1,8 +1,7 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 20px auto; /* Cambiamos a un margin-top más alto */
-    margin-top: -50px; /* Subimos el menú 50px para dar más espacio */
+    margin: 0 auto 100px auto; /* Aumentamos margin-bottom a 100px para más espacio hacia abajo en desktop */
     border-radius: 0 0 0 0; /* Sin redondeado de abajo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -96,6 +95,8 @@ main .player-section .dropdown-menu {
     overflow-y: auto; /* Barra de desplazamiento si hay muchas opciones */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left; /* Alineación a la izquierda */
+    /* Ajuste para que no se extienda más allá del viewport */
+    max-height: calc(100vh - 200px); /* Limita la altura según la ventana menos un margen */
 }
 
 main .player-section .dropdown-menu .close-btn {
@@ -142,7 +143,7 @@ main .player-section .dropdown-menu .dropdown-option:hover {
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
         max-width: 770px;
-        margin-top: -40px; /* Ajuste menor para tablets */
+        margin: 0 auto 80px auto; /* Ajuste de margin-bottom para tablets */
     }
     main .player-section .menu-tabs {
         padding: 5px 15px;
@@ -174,6 +175,7 @@ main .player-section .dropdown-menu .dropdown-option:hover {
         min-width: 120px;
         max-height: 250px; /* Ajuste para tablets */
         text-align: left; /* Alineación a la izquierda */
+        max-height: calc(100vh - 150px); /* Ajuste dinámico para tablets */
     }
     main .player-section .dropdown-menu .close-btn {
         width: 18px;
@@ -188,8 +190,7 @@ main .player-section .dropdown-menu .dropdown-option:hover {
 @media (max-width: 599px) {
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
-        margin: 0 auto 10px auto;
-        margin-top: -30px; /* Ajuste menor para móviles */
+        margin: 0 auto 60px auto; /* Ajuste de margin-bottom para móviles */
         border-radius: 0 0 0 0;
     }
     main .player-section .menu-tabs {
@@ -232,6 +233,7 @@ main .player-section .dropdown-menu .dropdown-option:hover {
         max-height: 200px; /* Ajuste para móviles */
         overflow-y: auto;
         text-align: left; /* Alineación a la izquierda */
+        max-height: calc(100vh - 100px); /* Ajuste dinámico para móviles */
     }
     main .player-section .dropdown-menu .close-btn {
         width: 18px;
