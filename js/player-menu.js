@@ -181,26 +181,30 @@ $(document).ready(function() {
     }
     
     function updateStats() {
-        const player = playersData[currentPlayer];
-        const stats = calculateStats(selectedSeason, selectedCompetition);
-        
-        if (player.role === 'portero') {
-            $('#partidos-count').text(stats.partidos);
-            $('#goles-count').text(stats.goles_encajados);
-            $('#amarillas-count').text(stats.tarjetas_amarillas);
-            $('#rojas-count').text(stats.tarjetas_rojas);
-        } else if (player.role === 'jugador') {
-            $('#partidos-count').text(stats.partidos);
-            $('#goles-count').text(stats.goles_marcados);
-            $('#amarillas-count').text(stats.tarjetas_amarillas);
-            $('#rojas-count').text(stats.tarjetas_rojas);
-        } else if (player.role === 'entrenador') {
-            $('#partidos-count').text(stats.partidos_entrenados);
-            $('#victorias-count').text(stats.victorias);
-            $('#empates-count').text(stats.empates);
-            $('#derrotas-count').text(stats.derrotas);
-        }
+    const player = playersData[currentPlayer];
+    const stats = calculateStats(selectedSeason, selectedCompetition);
+    
+    // Actualizar texto de los botones
+    $('#seasons-btn').text(selectedSeason);
+    $('#competitions-btn').text(getCompetitionDisplayName(selectedCompetition));
+    
+    if (player.role === 'portero') {
+        $('#partidos-count').text(stats.partidos);
+        $('#goles-count').text(stats.goles_encajados);
+        $('#amarillas-count').text(stats.tarjetas_amarillas);
+        $('#rojas-count').text(stats.tarjetas_rojas);
+    } else if (player.role === 'jugador') {
+        $('#partidos-count').text(stats.partidos);
+        $('#goles-count').text(stats.goles_marcados);
+        $('#amarillas-count').text(stats.tarjetas_amarillas);
+        $('#rojas-count').text(stats.tarjetas_rojas);
+    } else if (player.role === 'entrenador') {
+        $('#partidos-count').text(stats.partidos_entrenados);
+        $('#victorias-count').text(stats.victorias);
+        $('#empates-count').text(stats.empates);
+        $('#derrotas-count').text(stats.derrotas);
     }
+}
     
     $(document).on('click', '.seasons-menu .dropdown-option', function(e) {
         e.preventDefault();
