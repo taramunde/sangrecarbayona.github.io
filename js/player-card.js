@@ -1,11 +1,16 @@
-// Espera a que el DOM cargue
-document.addEventListener('DOMContentLoaded', function() {
-    const playerCard = document.querySelector('.player-card');
-    if (playerCard) {
-        playerCard.style.opacity = 0; // Empieza invisible
-        playerCard.style.transition = 'opacity 0.5s ease-in-out'; // Animación suave
-        setTimeout(() => {
-            playerCard.style.opacity = 1; // Aparece
-        }, 100); // Pequeño delay
-    }
+$(document).ready(function() {
+    // Manejar clics en las pestañas
+    $('.menu-tab').on('click', function() {
+        // Remover clase active de todas las pestañas y contenidos
+        $('.menu-tab').removeClass('active');
+        $('.tab-content').removeClass('active');
+
+        // Añadir clase active al elemento clicado y su contenido
+        $(this).addClass('active');
+        $('#' + $(this).data('tab')).addClass('active');
+    });
+
+    // Por defecto, activar Estadísticas
+    $('.menu-tab[data-tab="stats"]').addClass('active');
+    $('#stats').addClass('active');
 });
