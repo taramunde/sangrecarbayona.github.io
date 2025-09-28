@@ -77,7 +77,7 @@ const playersData = {
                 amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
-    },
+    }
 
     
     
