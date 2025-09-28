@@ -15,7 +15,7 @@ const playersData = {
             "2024/25": {
                 liga: { partidos: 45, goles_encajados: 44, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 8, goles_encajados: 5, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
