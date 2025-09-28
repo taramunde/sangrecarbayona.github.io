@@ -1,7 +1,7 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 100px auto; /* Aumentamos margin-bottom a 100px para más espacio hacia abajo en desktop */
+    margin: 0 auto 400px auto; /* Aumentamos margin-bottom a 100px para más espacio hacia abajo en desktop */
     border-radius: 0 0 0 0; /* Sin redondeado de abajo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
