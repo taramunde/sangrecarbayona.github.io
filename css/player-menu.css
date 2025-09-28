@@ -1,10 +1,13 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 20px auto; /* Cambiamos a un margin-top más alto */
+    margin-top: -50px; /* Subimos el menú 50px para dar más espacio */
     border-radius: 0 0 0 0; /* Sin redondeado de abajo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    position: relative; /* Aseguramos posicionamiento relativo */
+    z-index: 5; /* Para que esté por encima de otros elementos */
 }
 
 main .player-section .menu-tabs {
@@ -139,6 +142,7 @@ main .player-section .dropdown-menu .dropdown-option:hover {
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
         max-width: 770px;
+        margin-top: -40px; /* Ajuste menor para tablets */
     }
     main .player-section .menu-tabs {
         padding: 5px 15px;
@@ -185,6 +189,7 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
         margin: 0 auto 10px auto;
+        margin-top: -30px; /* Ajuste menor para móviles */
         border-radius: 0 0 0 0;
     }
     main .player-section .menu-tabs {
