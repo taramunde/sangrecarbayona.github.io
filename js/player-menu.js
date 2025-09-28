@@ -17,27 +17,27 @@ $(document).ready(function() {
     
     // NUEVA FUNCIÓN: Actualizar información del jugador en la página
     function updatePlayerInfo() {
-        const player = playersData[currentPlayer];
-        if (!player) return;
-        
-        // Actualizar imagen
-        $('.player-image').attr('src', player.image);
-        $('.player-image').attr('alt', player.name + ' - ' + player.position);
-        
-        // Actualizar nombres
-        $('.player-name').text(player.name.split(' ')[0]); // Primer nombre
-        $('.player-full-name').text(player.name);
-        
-        // Actualizar posición
-        $('.player-position').text(player.position);
-        
-        // Actualizar número (si existe)
-        if (player.number) {
-            $('.player-card-number').text(player.number).show();
-        } else {
-            $('.player-card-number').hide(); // Para entrenadores
-        }
+    const player = playersData[currentPlayer];
+    if (!player) return;
+    
+    // Actualizar imagen
+    $('.player-image').attr('src', player.image);
+    $('.player-image').attr('alt', player.footballName + ' - ' + player.position);
+    
+    // Actualizar nombres - CAMBIO AQUÍ
+    $('.player-name').text(player.footballName); // Usar footballName en lugar del primer nombre
+    $('.player-full-name').text(player.name); // El nombre completo sigue igual
+    
+    // Actualizar posición
+    $('.player-position').text(player.position);
+    
+    // Actualizar número (si existe)
+    if (player.number) {
+        $('.player-card-number').text(player.number).show();
+    } else {
+        $('.player-card-number').hide(); // Para entrenadores
     }
+}
     
     // Cargar datos del jugador actual
     updatePlayerInfo(); // NUEVA LÍNEA: Actualizar info del jugador
