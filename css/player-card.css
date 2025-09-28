@@ -236,7 +236,7 @@ main .player-section .player-card .player-card-logo {
         padding: 5px 0;
         margin: 0 auto 10px auto !important; /* Mantener alineación vertical */
         width: 100%; /* Ya estaba correcto */
-        max-width: calc(100% - 10px); /* Ajusta al ancho interno de .player-card */
+        max-width: calc(100% - 5px); /* Ajusta al ancho interno de .player-card */
         box-sizing: border-box; /* Incluye padding en el cálculo */
         border-radius: 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
