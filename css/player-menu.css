@@ -96,28 +96,31 @@ main .player-section .dropdown-menu {
 }
 
 main .player-section .dropdown-menu .close-btn {
-    background: #0e0eec; /* Fondo azul para el botón de cerrar */
-    border: none;
-    color: white;
+    background: none;
+    border: 1px solid #0e0eec; /* Cuadradito azul como borde */
+    color: white; /* X en blanco */
     cursor: pointer;
     width: 20px;
     height: 20px;
     text-align: center;
     padding: 0;
     margin-bottom: 5px;
-    border-radius: 3px;
+    border-radius: 3px; /* Cuadradito */
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-color: #0e0eec; /* Fondo azul dentro del cuadradito */
 }
 
 main .player-section .dropdown-menu .close-btn:hover {
-    background: #0c0cca; /* Azul más oscuro al hover */
+    background-color: #0c0cca; /* Azul más oscuro al hover */
+    border-color: #0c0cca;
 }
 
 main .player-section .dropdown-menu .close-btn .close-x {
     font-size: 14px;
     line-height: 1;
+    color: white; /* Aseguramos que la X sea blanca */
 }
 
 main .player-section .dropdown-menu .dropdown-option {
