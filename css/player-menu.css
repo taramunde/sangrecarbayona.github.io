@@ -1,7 +1,7 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 30px auto; /* Reducido de 400px a 30px */
+    margin: 0 auto 150px auto;
     border-radius: 0 0 0 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: visible;
@@ -65,7 +65,7 @@ main .player-section .stats-buttons {
     display: flex;
     align-items: center;
     gap: 10px;
-    position: relative; /* Importante para el positioning de los dropdowns */
+    position: relative;
 }
 
 main .player-section .dropdown-btn {
@@ -76,7 +76,7 @@ main .player-section .dropdown-btn {
     cursor: pointer;
     transition: all 0.3s;
     border-radius: 3px;
-    position: relative; /* Para que los menús se posicionen respecto al botón */
+    position: relative;
 }
 
 main .player-section .dropdown-btn:hover {
@@ -91,15 +91,14 @@ main .player-section .dropdown-menu {
     background: #ffffff;
     border: 1px solid #4a4a4a;
     border-radius: 3px;
-    padding: 5px 0; /* Menos padding */
+    padding: 5px 0;
     z-index: 1000;
     color: #4a4a4a;
     min-width: 150px;
-    max-height: 200px; /* Más pequeño: de 300px a 200px */
+    max-height: 300px;
     overflow-y: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     text-align: left;
-    /* Mejor scroll */
     scrollbar-width: thin;
     scrollbar-color: #0e0eec #f1f1f1;
 }
@@ -126,7 +125,7 @@ main .player-section .dropdown-menu::-webkit-scrollbar-thumb:hover {
 main .player-section .dropdown-menu.dropdown-up {
     top: auto !important;
     bottom: 100% !important;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15); /* Sombra hacia arriba */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15);
 }
 
 main .player-section .dropdown-menu .close-btn {
@@ -134,11 +133,11 @@ main .player-section .dropdown-menu .close-btn {
     border: 1px solid #0e0eec;
     color: white;
     cursor: pointer;
-    width: 16px; /* Más pequeño */
+    width: 16px;
     height: 16px;
     text-align: center;
     padding: 0;
-    margin: 3px 8px 5px 8px; /* Ajuste de márgenes */
+    margin: 3px 8px 5px 8px;
     border-radius: 2px;
     display: inline-flex;
     align-items: center;
@@ -147,12 +146,12 @@ main .player-section .dropdown-menu .close-btn {
 }
 
 main .player-section .dropdown-menu .close-btn:hover {
-    background-color: #0c0cca; /* Azul más oscuro al hover */
+    background-color: #0c0cca;
     border-color: #0c0cca;
 }
 
 main .player-section .dropdown-menu .close-btn .close-x {
-    font-size: 10px; /* Más pequeño */
+    font-size: 10px;
     line-height: 1;
     color: white;
 }
@@ -160,63 +159,64 @@ main .player-section .dropdown-menu .close-btn .close-x {
 main .player-section .dropdown-menu .dropdown-option {
     display: block;
     color: #4a4a4a;
-    padding: 3px 8px; /* Más compacto: de 5px 0 a 3px 8px */
+    padding: 3px 8px;
     text-decoration: none;
     text-align: left;
-    font-size: 14px; /* Texto ligeramente más pequeño */
+    font-size: 14px;
     line-height: 1.2;
 }
 
 main .player-section .dropdown-menu .dropdown-option:hover {
     color: #0e0eec;
-    background-color: #f8f8f8; /* Fondo sutil al hover */
+    background-color: #f8f8f8;
 }
 
+/* Estilos para la cuadrícula de estadísticas */
+main .player-section .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+main .player-section .stat-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    color: #333;
+}
+
+main .player-section .stat-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #0e0eec;
+}
+
+main .player-section .stat-card .stat-value {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
         max-width: 770px;
-        margin: 0 auto 80px auto; /* Ajuste de margin-bottom para tablets */
+        margin: 0 auto 80px auto;
     }
-    main .player-section .menu-tabs {
-        padding: 5px 15px;
+    main .player-section .stats-grid {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en tablets */
+        gap: 10px;
     }
-    main .player-section .menu-tab {
-        font-size: 14px;
-        padding: 5px 10px;
-        margin-right: 10px;
-        color: #4a4a4a;
+    main .player-section .stat-card {
+        padding: 10px;
     }
-    main .player-section .menu-tab:hover {
-        color: #0e0eec;
-    }
-    main .player-section .menu-tab.active {
-        color: #0e0eec;
-    }
-    main .player-section .menu-tab.active::after {
-        height: 3px;
-    }
-    main .player-section .menu-content {
-        padding: 12px;
-        border-radius: 0;
-    }
-    main .player-section .dropdown-btn {
-        padding: 4px 8px;
+    main .player-section .stat-card h3 {
         font-size: 14px;
     }
-    main .player-section .dropdown-menu {
-        min-width: 120px;
-        max-height: 250px; /* Ajuste para tablets */
-        text-align: left; /* Alineación a la izquierda */
-        max-height: calc(100vh - 150px); /* Ajuste dinámico para tablets */
-    }
-    main .player-section .dropdown-menu .close-btn {
-        width: 18px;
-        height: 18px;
-    }
-    main .player-section .dropdown-menu .close-btn .close-x {
-        font-size: 12px;
+    main .player-section .stat-card .stat-value {
+        font-size: 18px;
     }
 }
 
@@ -224,56 +224,19 @@ main .player-section .dropdown-menu .dropdown-option:hover {
 @media (max-width: 599px) {
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
-        margin: 0 auto 60px auto; /* Ajuste de margin-bottom para móviles */
-        border-radius: 0 0 0 0;
+        margin: 0 auto 60px auto;
     }
-    main .player-section .menu-tabs {
-        flex-direction: column;
-        padding: 5px 15px;
+    main .player-section .stats-grid {
+        grid-template-columns: 1fr; /* Una columna en móviles */
+        gap: 10px;
     }
-    main .player-section .menu-tab {
-        font-size: 14px;
-        padding: 5px 0;
-        margin-bottom: 5px;
-        color: #4a4a4a;
-    }
-    main .player-section .menu-tab:hover {
-        color: #0e0eec;
-    }
-    main .player-section .menu-tab.active {
-        color: #0e0eec;
-    }
-    main .player-section .menu-tab.active::after {
-        width: 100%;
-        height: 3px;
-    }
-    main .player-section .menu-content {
+    main .player-section .stat-card {
         padding: 10px;
-        border-radius: 0;
     }
-    main .player-section .stats-buttons {
-        flex-direction: column;
-        gap: 5px;
-    }
-    main .player-section .dropdown-btn {
-        width: 100%;
-        padding: 5px;
+    main .player-section .stat-card h3 {
         font-size: 14px;
     }
-    main .player-section .dropdown-menu {
-        position: static;
-        width: 100%;
-        margin-top: 5px;
-        max-height: 200px; /* Ajuste para móviles */
-        overflow-y: auto;
-        text-align: left; /* Alineación a la izquierda */
-        max-height: calc(100vh - 100px); /* Ajuste dinámico para móviles */
-    }
-    main .player-section .dropdown-menu .close-btn {
-        width: 18px;
-        height: 18px;
-    }
-    main .player-section .dropdown-menu .close-btn .close-x {
-        font-size: 12px;
+    main .player-section .stat-card .stat-value {
+        font-size: 16px;
     }
 }
