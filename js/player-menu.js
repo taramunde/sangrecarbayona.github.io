@@ -29,4 +29,25 @@ $(document).ready(function() {
             $('.dropdown-menu').hide();
         }
     });
+
+    // Función para detectar si hay espacio suficiente abajo
+function hasSpaceBelow(button, menuHeight) {
+    const buttonRect = button.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    const spaceBelow = windowHeight - buttonRect.bottom;
+    return spaceBelow >= menuHeight + 20; // 20px de margen
+}
+
+// Modifica la función de mostrar menús para ajustar posición
+function positionDropdownMenu(menu, button) {
+    const menuHeight = 300; // altura máxima del menú
+    
+    if (hasSpaceBelow(button, menuHeight)) {
+        menu.style.top = '100%';
+        menu.style.bottom = 'auto';
+    } else {
+        menu.style.top = 'auto';
+        menu.style.bottom = '100%';
+    }
+}
 });
