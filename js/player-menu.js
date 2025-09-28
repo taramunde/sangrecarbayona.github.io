@@ -211,7 +211,8 @@ function getCompetitionDisplayName(competition) {
     const names = {
         'oficiales': 'Oficiales',
         'liga': 'Liga',
-        'copa': 'Copa/UEFA',
+        'copa': 'Copa del Rey',
+        'uefa': 'UEFA',
         'amistosos': 'Amistosos'
     };
     return names[competition] || competition;
