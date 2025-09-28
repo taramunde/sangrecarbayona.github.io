@@ -84,7 +84,8 @@ main .player-section .player-full-name-container {
     border-radius: 0;
     padding: 8px 0;
     margin: 0 auto 20px auto !important; /* Forzar margin-top a 0 */
-    max-width: 800px;
+    width: 100%; /* Cambiar de max-width a width */
+    max-width: 800px; /* Mantener el límite máximo */
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra inferior */
     box-sizing: border-box;
@@ -153,7 +154,8 @@ main .player-section .player-card .player-card-logo {
     main .player-section .player-full-name-container {
         padding: 6px 0;
         margin: 0 auto 15px auto !important; /* Forzar margin-top a 0 */
-        max-width: 770px;
+        width: 100%; /* Cambiar de max-width a width */
+        max-width: 770px; /* Mantener el límite máximo */
         border-radius: 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra */
     }
@@ -176,7 +178,6 @@ main .player-section .player-card .player-card-logo {
 }
 
 /* Responsive: Para pantallas pequeñas (móviles, <600px) */
-@media (max-width: 599px) {
 @media (max-width: 599px) {
     main .player-section .player-card {
         flex-direction: row;
@@ -234,7 +235,7 @@ main .player-section .player-card .player-card-logo {
     main .player-section .player-full-name-container {
         padding: 5px 0;
         margin: 0 auto 10px auto !important; /* Mantener alineación vertical */
-        width: 100%; /* Corrige de 110% a 100% */
+        width: 100%; /* Ya estaba correcto */
         max-width: calc(100% - 20px); /* Ajusta al ancho interno de .player-card */
         box-sizing: border-box; /* Incluye padding en el cálculo */
         border-radius: 0;
