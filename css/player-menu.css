@@ -2,8 +2,8 @@
 main .player-section .player-menu {
     max-width: 800px;
     margin: 0 auto 20px auto;
-    /* Quitamos el fondo azul: background: #001f3f; */
-    border-radius: 0 0 15px 15px; /* Mantener el borde redondeado */
+    /* Fondo azul ya quitado anteriormente */
+    border-radius: 0 0 0 0; /* Quitamos el redondeado de abajo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -12,13 +12,13 @@ main .player-section .menu-tabs {
     display: flex;
     justify-content: flex-start; /* Alinea a la izquierda */
     padding: 5px 20px; /* Reducimos padding superior para acercar al texto */
-    /* Quitamos el fondo azul: background: #007bff; */
+    /* Fondo azul ya quitado anteriormente */
 }
 
 main .player-section .menu-tab {
     background: none;
     border: none;
-    color: #808080; /* Gris por defecto */
+    color: #4a4a4a; /* Gris más oscuro (anteriormente #808080) */
     font-size: 16px;
     cursor: pointer;
     padding: 5px 15px;
@@ -28,11 +28,11 @@ main .player-section .menu-tab {
 }
 
 main .player-section .menu-tab:hover {
-    color: #007bff; /* Azul al interactuar */
+    color: #0e0eec; /* Azul cambiado a #0e0eec */
 }
 
 main .player-section .menu-tab.active {
-    color: #007bff; /* Azul cuando está activo */
+    color: #0e0eec; /* Azul cambiado a #0e0eec */
     position: relative;
 }
 
@@ -43,12 +43,13 @@ main .player-section .menu-tab.active::after {
     left: 0;
     width: 100%; /* Línea azul cubre todo el ancho del elemento */
     height: 3px; /* Línea azul mínima de 3px */
-    background: #007bff;
+    background: #0e0eec; /* Azul cambiado a #0e0eec */
 }
 
 main .player-section .menu-content {
     padding: 15px;
     color: white;
+    border-radius: 0; /* Quitamos el redondeado de la parte de abajo */
 }
 
 main .player-section .tab-content {
@@ -71,19 +72,20 @@ main .player-section .tab-content.active {
         font-size: 14px;
         padding: 5px 10px;
         margin-right: 10px;
-        color: #808080; /* Gris por defecto */
+        color: #4a4a4a; /* Gris más oscuro */
     }
     main .player-section .menu-tab:hover {
-        color: #007bff; /* Azul al interactuar */
+        color: #0e0eec; /* Azul cambiado a #0e0eec */
     }
     main .player-section .menu-tab.active {
-        color: #007bff; /* Azul cuando está activo */
+        color: #0e0eec; /* Azul cambiado a #0e0eec */
     }
     main .player-section .menu-tab.active::after {
         height: 3px;
     }
     main .player-section .menu-content {
         padding: 12px;
+        border-radius: 0; /* Quitamos el redondeado */
     }
 }
 
@@ -92,7 +94,7 @@ main .player-section .tab-content.active {
     main .player-section .player-menu {
         max-width: calc(100% - 20px); /* Ajusta al ancho interno de .player-card */
         margin: 0 auto 10px auto;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 0 0 0; /* Quitamos el redondeado de abajo */
     }
     main .player-section .menu-tabs {
         flex-direction: column;
@@ -102,13 +104,13 @@ main .player-section .tab-content.active {
         font-size: 14px;
         padding: 5px 0;
         margin-bottom: 5px; /* Espacio vertical entre elementos */
-        color: #808080; /* Gris por defecto */
+        color: #4a4a4a; /* Gris más oscuro */
     }
     main .player-section .menu-tab:hover {
-        color: #007bff; /* Azul al interactuar */
+        color: #0e0eec; /* Azul cambiado a #0e0eec */
     }
     main .player-section .menu-tab.active {
-        color: #007bff; /* Azul cuando está activo */
+        color: #0e0eec; /* Azul cambiado a #0e0eec */
     }
     main .player-section .menu-tab.active::after {
         width: 100%; /* Línea azul cubre todo el ancho en móvil */
@@ -116,5 +118,6 @@ main .player-section .tab-content.active {
     }
     main .player-section .menu-content {
         padding: 10px;
+        border-radius: 0; /* Quitamos el redondeado */
     }
 }
