@@ -2,37 +2,35 @@
 main .player-section .player-menu {
     max-width: 800px;
     margin: 0 auto 20px auto;
-    /* Fondo azul ya quitado anteriormente */
-    border-radius: 0 0 0 0; /* Quitamos el redondeado de abajo */
+    border-radius: 0 0 0 0; /* Sin redondeado de abajo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 main .player-section .menu-tabs {
     display: flex;
-    justify-content: flex-start; /* Alinea a la izquierda */
-    padding: 5px 20px; /* Reducimos padding superior para acercar al texto */
-    /* Fondo azul ya quitado anteriormente */
+    justify-content: flex-start;
+    padding: 5px 20px;
 }
 
 main .player-section .menu-tab {
     background: none;
     border: none;
-    color: #4a4a4a; /* Gris más oscuro (anteriormente #808080) */
+    color: #4a4a4a;
     font-size: 16px;
     cursor: pointer;
     padding: 5px 15px;
-    margin-right: 15px; /* Espacio entre elementos */
+    margin-right: 15px;
     transition: color 0.3s;
-    text-decoration: none; /* Elimina subrayado si lo hubiera */
+    text-decoration: none;
 }
 
 main .player-section .menu-tab:hover {
-    color: #0e0eec; /* Azul cambiado a #0e0eec */
+    color: #0e0eec;
 }
 
 main .player-section .menu-tab.active {
-    color: #0e0eec; /* Azul cambiado a #0e0eec */
+    color: #0e0eec;
     position: relative;
 }
 
@@ -41,15 +39,15 @@ main .player-section .menu-tab.active::after {
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 100%; /* Línea azul cubre todo el ancho del elemento */
-    height: 3px; /* Línea azul mínima de 3px */
-    background: #0e0eec; /* Azul cambiado a #0e0eec */
+    width: 100%;
+    height: 3px;
+    background: #0e0eec;
 }
 
 main .player-section .menu-content {
     padding: 15px;
     color: white;
-    border-radius: 0; /* Quitamos el redondeado de la parte de abajo */
+    border-radius: 0;
 }
 
 main .player-section .tab-content {
@@ -58,6 +56,66 @@ main .player-section .tab-content {
 
 main .player-section .tab-content.active {
     display: block;
+}
+
+/* Estilos para los botones y menús desplegables */
+main .player-section .stats-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre botones */
+}
+
+main .player-section .dropdown-btn {
+    background: none;
+    border: 1px solid #4a4a4a;
+    color: #4a4a4a;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 3px;
+}
+
+main .player-section .dropdown-btn:hover {
+    color: #0e0eec;
+    border-color: #0e0eec;
+}
+
+main .player-section .dropdown-menu {
+    position: absolute;
+    background: #001f3f;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    padding: 10px;
+    z-index: 10;
+    color: white;
+    min-width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main .player-section .dropdown-menu .close-btn {
+    background: none;
+    border: none;
+    color: #ff4444;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+main .player-section .dropdown-menu .close-btn:hover {
+    color: #ff6666;
+}
+
+main .player-section .dropdown-menu .dropdown-option {
+    display: block;
+    color: white;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+main .player-section .dropdown-menu .dropdown-option:hover {
+    color: #0e0eec;
 }
 
 /* Responsive: Tablets (600px - 1024px) */
@@ -72,29 +130,36 @@ main .player-section .tab-content.active {
         font-size: 14px;
         padding: 5px 10px;
         margin-right: 10px;
-        color: #4a4a4a; /* Gris más oscuro */
+        color: #4a4a4a;
     }
     main .player-section .menu-tab:hover {
-        color: #0e0eec; /* Azul cambiado a #0e0eec */
+        color: #0e0eec;
     }
     main .player-section .menu-tab.active {
-        color: #0e0eec; /* Azul cambiado a #0e0eec */
+        color: #0e0eec;
     }
     main .player-section .menu-tab.active::after {
         height: 3px;
     }
     main .player-section .menu-content {
         padding: 12px;
-        border-radius: 0; /* Quitamos el redondeado */
+        border-radius: 0;
+    }
+    main .player-section .dropdown-btn {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+    main .player-section .dropdown-menu {
+        min-width: 120px;
     }
 }
 
 /* Responsive: Móviles (<600px) */
 @media (max-width: 599px) {
     main .player-section .player-menu {
-        max-width: calc(100% - 20px); /* Ajusta al ancho interno de .player-card */
+        max-width: calc(100% - 20px);
         margin: 0 auto 10px auto;
-        border-radius: 0 0 0 0; /* Quitamos el redondeado de abajo */
+        border-radius: 0 0 0 0;
     }
     main .player-section .menu-tabs {
         flex-direction: column;
@@ -103,21 +168,35 @@ main .player-section .tab-content.active {
     main .player-section .menu-tab {
         font-size: 14px;
         padding: 5px 0;
-        margin-bottom: 5px; /* Espacio vertical entre elementos */
-        color: #4a4a4a; /* Gris más oscuro */
+        margin-bottom: 5px;
+        color: #4a4a4a;
     }
     main .player-section .menu-tab:hover {
-        color: #0e0eec; /* Azul cambiado a #0e0eec */
+        color: #0e0eec;
     }
     main .player-section .menu-tab.active {
-        color: #0e0eec; /* Azul cambiado a #0e0eec */
+        color: #0e0eec;
     }
     main .player-section .menu-tab.active::after {
-        width: 100%; /* Línea azul cubre todo el ancho en móvil */
+        width: 100%;
         height: 3px;
     }
     main .player-section .menu-content {
         padding: 10px;
-        border-radius: 0; /* Quitamos el redondeado */
+        border-radius: 0;
+    }
+    main .player-section .stats-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+    main .player-section .dropdown-btn {
+        width: 100%;
+        padding: 5px;
+        font-size: 14px;
+    }
+    main .player-section .dropdown-menu {
+        position: static; /* Cambiado a estático para móviles */
+        width: 100%;
+        margin-top: 5px;
     }
 }
