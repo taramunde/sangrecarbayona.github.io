@@ -2,8 +2,8 @@
 main .player-section .player-menu {
     max-width: 800px;
     margin: 0 auto 20px auto;
-    background: #001f3f;
-    border-radius: 0 0 15px 15px; /* Continúa el diseño de .player-card */
+    /* Quitamos el fondo azul: background: #001f3f; */
+    border-radius: 0 0 15px 15px; /* Mantener el borde redondeado */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -11,14 +11,14 @@ main .player-section .player-menu {
 main .player-section .menu-tabs {
     display: flex;
     justify-content: flex-start; /* Alinea a la izquierda */
-    padding: 10px 20px; /* Añade padding lateral */
-    background: #007bff;
+    padding: 5px 20px; /* Reducimos padding superior para acercar al texto */
+    /* Quitamos el fondo azul: background: #007bff; */
 }
 
 main .player-section .menu-tab {
     background: none;
     border: none;
-    color: white;
+    color: #808080; /* Gris por defecto */
     font-size: 16px;
     cursor: pointer;
     padding: 5px 15px;
@@ -28,11 +28,11 @@ main .player-section .menu-tab {
 }
 
 main .player-section .menu-tab:hover {
-    color: #00ccff;
+    color: #007bff; /* Azul al interactuar */
 }
 
 main .player-section .menu-tab.active {
-    color: #00ccff;
+    color: #007bff; /* Azul cuando está activo */
     position: relative;
 }
 
@@ -43,7 +43,7 @@ main .player-section .menu-tab.active::after {
     left: 0;
     width: 100%; /* Línea azul cubre todo el ancho del elemento */
     height: 3px; /* Línea azul mínima de 3px */
-    background: #00ccff;
+    background: #007bff;
 }
 
 main .player-section .menu-content {
@@ -65,12 +65,19 @@ main .player-section .tab-content.active {
         max-width: 770px;
     }
     main .player-section .menu-tabs {
-        padding: 10px 15px;
+        padding: 5px 15px;
     }
     main .player-section .menu-tab {
         font-size: 14px;
         padding: 5px 10px;
         margin-right: 10px;
+        color: #808080; /* Gris por defecto */
+    }
+    main .player-section .menu-tab:hover {
+        color: #007bff; /* Azul al interactuar */
+    }
+    main .player-section .menu-tab.active {
+        color: #007bff; /* Azul cuando está activo */
     }
     main .player-section .menu-tab.active::after {
         height: 3px;
@@ -95,6 +102,13 @@ main .player-section .tab-content.active {
         font-size: 14px;
         padding: 5px 0;
         margin-bottom: 5px; /* Espacio vertical entre elementos */
+        color: #808080; /* Gris por defecto */
+    }
+    main .player-section .menu-tab:hover {
+        color: #007bff; /* Azul al interactuar */
+    }
+    main .player-section .menu-tab.active {
+        color: #007bff; /* Azul cuando está activo */
     }
     main .player-section .menu-tab.active::after {
         width: 100%; /* Línea azul cubre todo el ancho en móvil */
