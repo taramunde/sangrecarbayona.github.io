@@ -151,4 +151,32 @@ $(document).ready(function() {
             }
         });
     });
+  
+    // Función específica para móvil - desactivar posicionamiento inteligente
+function isMobile() {
+    return window.innerWidth <= 599;
+}
+
+// Modificar la función existente de posicionamiento
+function positionDropdownMenu(menu, button) {
+    // En móvil, siempre usar posición estática
+    if (isMobile()) {
+        return; // No hacer nada en móvil
+    }
+    
+    const menuHeight = 200;
+    const $menu = $(menu);
+    
+    if (hasSpaceBelow(button, menuHeight)) {
+        $menu.css({
+            'top': '100%',
+            'bottom': 'auto'
+        }).removeClass('dropdown-up');
+    } else {
+        $menu.css({
+            'top': 'auto',
+            'bottom': '100%'
+        }).addClass('dropdown-up');
+    }
+} 
 });
