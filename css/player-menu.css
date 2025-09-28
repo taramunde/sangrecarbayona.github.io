@@ -172,6 +172,61 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     background-color: #f8f8f8; /* Fondo sutil al hover */
 }
 
+/* Estilos para la visualización de estadísticas */
+main .player-section .stats-display {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+main .player-section .stat-card {
+    background: rgba(14, 14, 236, 0.1);
+    border: 1px solid #0e0eec;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+}
+
+main .player-section .stat-card h4 {
+    margin: 0 0 10px 0;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+main .player-section .stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e0eec;
+    display: block;
+}
+
+main .player-section .tarjetas-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .player-section .tarjeta {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main .player-section .tarjeta.amarilla {
+    background: #ffd700;
+    color: #000;
+}
+
+main .player-section .tarjeta.roja {
+    background: #dc3545;
+    color: #fff;
+}
+
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
@@ -275,4 +330,12 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     main .player-section .dropdown-menu .close-btn .close-x {
         font-size: 12px;
     }
+    main .player-section .stats-display {
+        flex-direction: column;
+    }
+    
+    main .player-section .stat-card {
+        min-width: 100%;
+    }
+    
 }
