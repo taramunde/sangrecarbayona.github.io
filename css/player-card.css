@@ -1,258 +1,120 @@
-/* Estilos base para la ficha del jugador (desktop) */
-main .player-section .player-card {
-    background: linear-gradient(to right, #001f3f, #007bff);
-    border-radius: 15px 15px 0 0; /* Redondeado solo arriba */
-    padding: 20px;
+/* Menú del jugador */
+main .player-section .player-menu {
     max-width: 800px;
-    margin: 20px auto 0 auto; /* Forzar margin-bottom a 0 */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra inferior */
-    color: white;
+    margin: 0 auto 20px auto;
+    /* Quitamos el fondo azul: background: #001f3f; */
+    border-radius: 0 0 15px 15px; /* Mantener el borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    background-color: transparent !important;
-    border: none !important;
+}
+
+main .player-section .menu-tabs {
+    display: flex;
+    justify-content: flex-start; /* Alinea a la izquierda */
+    padding: 5px 20px; /* Reducimos padding superior para acercar al texto */
+    /* Quitamos el fondo azul: background: #007bff; */
+}
+
+main .player-section .menu-tab {
+    background: none;
+    border: none;
+    color: #808080; /* Gris por defecto */
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-right: 15px; /* Espacio entre elementos */
+    transition: color 0.3s;
+    text-decoration: none; /* Elimina subrayado si lo hubiera */
+}
+
+main .player-section .menu-tab:hover {
+    color: #007bff; /* Azul al interactuar */
+}
+
+main .player-section .menu-tab.active {
+    color: #007bff; /* Azul cuando está activo */
     position: relative;
 }
 
-/* Contenedor de la imagen del jugador */
-main .player-section .player-card .player-card-image-container {
-    position: relative; /* Para posicionar el número absolutamente */
-    margin-right: 15px; /* Espacio a la derecha de la imagen */
-    flex-shrink: 0; /* Evita que se encoja */
-    background: transparent !important; /* Forzar transparencia */
-    border: none !important; /* Sin borde */
-}
-
-/* Imagen del jugador */
-main .player-section .player-card .player-image {
-    width: 150px; /* Tamaño base */
-    height: auto;
-    border-radius: 10px; /* Bordes redondeados */
-    display: block;
-    background: transparent !important; /* Forzar transparencia */
-    border: none !important; /* Sin borde */
-}
-
-/* Número del jugador (arriba y a la izquierda, sin fondo ni borde blanco) */
-main .player-section .player-card .player-card-number {
+main .player-section .menu-tab.active::after {
+    content: '';
     position: absolute;
-    top: -10px; /* Arriba de la imagen */
-    left: -10px; /* A la izquierda */
-    background-color: transparent !important; /* Fondo transparente */
-    color: #ffffff; /* Color blanco para contraste */
-    font-size: 24px;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 50%; /* Círculo */
-    border: none !important; /* Eliminar cualquier borde blanco */
-    box-shadow: none !important; /* Eliminar sombra */
-    outline: none !important; /* Eliminar cualquier contorno */
+    bottom: -5px;
+    left: 0;
+    width: 100%; /* Línea azul cubre todo el ancho del elemento */
+    height: 3px; /* Línea azul mínima de 3px */
+    background: #007bff;
 }
 
-/* Información del jugador */
-main .player-section .player-card .player-info {
-    display: flex;
-    flex-direction: column; /* Posición y nombre apilados verticalmente */
-    justify-content: center; /* Centrado vertical si es necesario */
-    text-align: left; /* Asegura alineación a la izquierda */
-    flex: 1; /* Ocupa el espacio restante */
-    margin: 0 !important; /* Sin márgenes */
-    padding: 0 !important; /* Sin padding */
+main .player-section .menu-content {
+    padding: 15px;
+    color: white;
 }
 
-/* Posición (Portero) */
-main .player-section .player-card .player-position {
-    font-size: 18px;
-    margin-bottom: 5px; /* Espacio debajo */
-    margin-right: 0 !important; /* Evitar desplazamiento */
+main .player-section .tab-content {
+    display: none;
 }
 
-/* Nombre (Aarón, más grande) */
-main .player-section .player-card .player-name {
-    font-size: 28px;
-    margin: 0 !important; /* Sin márgenes */
-    padding: 0 !important; /* Sin padding */
-    text-align: left !important; /* Forzar alineación a la izquierda */
-    font-weight: bold;
-}
-
-/* Contenedor del nombre completo (prolongación debajo de la tarjeta) */
-main .player-section .player-full-name-container {
-    background: linear-gradient(to right, #001f3f, #007bff);
-    border-radius: 0;
-    padding: 8px 0;
-    margin: 0 auto 20px auto !important; /* Forzar margin-top a 0 */
-    width: 100%; /* Cambiar de max-width a width */
-    max-width: 800px; /* Mantener el límite máximo */
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra inferior */
-    box-sizing: border-box;
-}
-
-/* Nombre completo (Aarón Escandell Banacloche) */
-main .player-section .player-full-name {
-    font-size: 14px; /* Aumentado, pero más pequeño que player-position (18px) */
-    color: white !important; /* Texto blanco explícitamente */
-    margin: 0 !important; /* Sin márgenes */
-    padding: 0 !important; /* Sin padding */
-    display: block; /* Asegura que sea un bloque */
-}
-
-/* Contenedor de la imagen adicional (logo) */
-main .player-section .player-card .player-card-logo-container {
-    position: absolute;
-    top: 50%; /* Centrado verticalmente respecto a la tarjeta */
-    right: 20px; /* Pegado a la derecha */
-    transform: translateY(-50%); /* Alinear a la altura del centro de la imagen del jugador */
-    flex-shrink: 0; /* Evita que se encoja */
-    background: transparent !important; /* Forzar transparencia */
-    border: none !important; /* Sin borde */
-    z-index: 1; /* Asegurar que esté sobre otros elementos */
-}
-
-/* Imagen adicional (logo) */
-main .player-section .player-card .player-card-logo {
-    width: 90px; /* Reducido: 60% de 150px (imagen del jugador) */
-    height: auto;
+main .player-section .tab-content.active {
     display: block;
-    background: transparent !important; /* Forzar transparencia */
-    border: none !important; /* Sin borde */
 }
 
-/* Responsive: Para pantallas medianas (tablets, 600px - 1024px) */
+/* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
-    main .player-section .player-card {
-        padding: 15px;
-        margin: 15px auto 0 auto; /* Elimina margin-bottom */
-        border-radius: 12px 12px 0 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra */
+    main .player-section .player-menu {
+        max-width: 770px;
     }
-    main .player-section .player-card .player-image {
-        width: 120px; /* Reduce tamaño de imagen */
-        background: transparent !important; /* Forzar transparencia */
-        border: none !important; /* Sin borde */
+    main .player-section .menu-tabs {
+        padding: 5px 15px;
     }
-    main .player-section .player-card .player-card-number {
-        font-size: 20px; /* Reduce tamaño del número */
-        background: transparent !important; /* Forzar transparencia */
-        border: none !important; /* Sin borde */
-        box-shadow: none !important; /* Sin sombra */
-        outline: none !important; /* Sin contorno */
+    main .player-section .menu-tab {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        color: #808080; /* Gris por defecto */
     }
-    main .player-section .player-card .player-position {
-        font-size: 16px;
-        margin-right: 0 !important;
+    main .player-section .menu-tab:hover {
+        color: #007bff; /* Azul al interactuar */
     }
-    main .player-section .player-card .player-name {
-        font-size: 24px;
-        margin: 0 !important;
-        padding: 0 !important;
-        text-align: left !important;
+    main .player-section .menu-tab.active {
+        color: #007bff; /* Azul cuando está activo */
     }
-    main .player-section .player-full-name-container {
-        padding: 6px 0;
-        margin: 0 auto 15px auto !important; /* Forzar margin-top a 0 */
-        width: 100%; /* Cambiar de max-width a width */
-        max-width: 770px; /* Mantener el límite máximo */
-        border-radius: 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra */
+    main .player-section .menu-tab.active::after {
+        height: 3px;
     }
-    main .player-section .player-full-name {
-        font-size: 13px; /* Aumentado, pero más pequeño que player-position (16px) */
-        color: white !important; /* Texto blanco explícitamente */
-    }
-    main .player-section .player-card .player-card-image-container {
-        margin-right: 15px; /* Ajusta espacio */
-    }
-    main .player-section .player-card .player-card-logo-container {
-        right: 15px; /* Ajustar para tablets */
-        top: 50%; /* Mantener centrado verticalmente */
-        transform: translateY(-50%);
-        z-index: 1;
-    }
-    main .player-section .player-card .player-card-logo {
-        width: 72px; /* Reducido: 60% de 120px (imagen del jugador) */
+    main .player-section .menu-content {
+        padding: 12px;
     }
 }
 
-/* Responsive: Para pantallas pequeñas (móviles, <600px) */
+/* Responsive: Móviles (<600px) */
 @media (max-width: 599px) {
-    main .player-section .player-card {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px;
-        margin: 10px auto 0 auto;
-        width: 100%;
-        box-sizing: border-box;
-        border-radius: 10px 10px 0 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    main .player-section .player-menu {
+        max-width: calc(100% - 20px); /* Ajusta al ancho interno de .player-card */
+        margin: 0 auto 10px auto;
+        border-radius: 0 0 10px 10px;
     }
-    main .player-section .player-card .player-card-image-container {
-        margin-right: 10px;
-        margin-bottom: 0;
-        background: transparent !important;
-        border: none !important;
-        flex-shrink: 0;
-    }
-    main .player-section .player-card .player-image {
-        width: 110px;
-        height: auto;
-        background: transparent !important;
-        border: none !important;
-    }
-    main .player-section .player-card .player-card-number {
-        top: -5px;
-        left: -5px;
-        font-size: 18px;
-        background: transparent !important;
-        border: none !important;
-        box-shadow: none !important;
-        outline: none !important;
-    }
-    main .player-section .player-card .player-info {
-        display: flex;
+    main .player-section .menu-tabs {
         flex-direction: column;
-        text-align: left;
-        flex: 1;
-        margin: 0 !important;
-        padding: 0 !important;
+        padding: 5px 15px;
     }
-    main .player-section .player-card .player-position {
-        font-size: 18px;
-        margin-bottom: 5px;
-        margin-right: 0 !important;
-        padding: 0 !important;
-    }
-    main .player-section .player-card .player-name {
-        font-size: 24px;
-        margin: 0 !important;
-        padding: 0 !important;
-        text-align: left !important;
-    }
-    main .player-section .player-full-name-container {
-        padding: 5px 0;
-        margin: 0 auto 10px auto !important; /* Mantener alineación vertical */
-        width: 100%; /* Ya estaba correcto */
-        max-width: calc(100% - 0); /* Ajusta al ancho interno de .player-card */
-        box-sizing: border-box; /* Incluye padding en el cálculo */
-        border-radius: 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    main .player-section .player-full-name {
+    main .player-section .menu-tab {
         font-size: 14px;
-        color: white !important;
+        padding: 5px 0;
+        margin-bottom: 5px; /* Espacio vertical entre elementos */
+        color: #808080; /* Gris por defecto */
     }
-    main .player-section .player-card .player-card-logo-container {
-        right: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 1;
+    main .player-section .menu-tab:hover {
+        color: #007bff; /* Azul al interactuar */
     }
-    main .player-section .player-card .player-card-logo {
-        width: 66px;
-        height: auto;
+    main .player-section .menu-tab.active {
+        color: #007bff; /* Azul cuando está activo */
+    }
+    main .player-section .menu-tab.active::after {
+        width: 100%; /* Línea azul cubre todo el ancho en móvil */
+        height: 3px;
+    }
+    main .player-section .menu-content {
+        padding: 10px;
     }
 }
