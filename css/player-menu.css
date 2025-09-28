@@ -1,10 +1,10 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 60px auto; /* Reducido de 400px a 60px */
+    margin: 0 auto 30px auto; /* Reducido de 400px a 30px */
     border-radius: 0 0 0 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: visible; /* Cambiar de hidden a visible para que se vean los dropdowns */
+    overflow: visible;
     position: relative;
     z-index: 5;
 }
@@ -86,38 +86,60 @@ main .player-section .dropdown-btn:hover {
 
 main .player-section .dropdown-menu {
     position: absolute;
-    top: 100%; /* Se posiciona justo debajo del botón */
+    top: 100%;
     left: 0;
     background: #ffffff;
     border: 1px solid #4a4a4a;
     border-radius: 3px;
-    padding: 10px;
-    z-index: 1000; /* Z-index más alto */
+    padding: 5px 0; /* Menos padding */
+    z-index: 1000;
     color: #4a4a4a;
-    min-width: 200px; /* Ancho mínimo más amplio */
-    max-height: 300px;
+    min-width: 150px;
+    max-height: 200px; /* Más pequeño: de 300px a 200px */
     overflow-y: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     text-align: left;
-    /* Prevenir que se extienda fuera del viewport */
-    max-width: calc(100vw - 40px);
+    /* Mejor scroll */
+    scrollbar-width: thin;
+    scrollbar-color: #0e0eec #f1f1f1;
 }
+
+/* Webkit scrollbar para mejor apariencia */
+main .player-section .dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+main .player-section .dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+main .player-section .dropdown-menu::-webkit-scrollbar-thumb {
+    background: #0e0eec;
+    border-radius: 3px;
+}
+
+main .player-section .dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #0c0cca;
+}
+
+
 
 main .player-section .dropdown-menu .close-btn {
     background: none;
-    border: 1px solid #0e0eec; /* Cuadradito azul como borde */
-    color: white; /* X en blanco */
+    border: 1px solid #0e0eec;
+    color: white;
     cursor: pointer;
-    width: 20px;
-    height: 20px;
+    width: 16px; /* Más pequeño */
+    height: 16px;
     text-align: center;
     padding: 0;
-    margin-bottom: 5px;
-    border-radius: 3px; /* Cuadradito */
+    margin: 3px 8px 5px 8px; /* Ajuste de márgenes */
+    border-radius: 2px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #0e0eec; /* Fondo azul dentro del cuadradito */
+    background-color: #0e0eec;
 }
 
 main .player-section .dropdown-menu .close-btn:hover {
@@ -126,21 +148,24 @@ main .player-section .dropdown-menu .close-btn:hover {
 }
 
 main .player-section .dropdown-menu .close-btn .close-x {
-    font-size: 14px;
+    font-size: 10px; /* Más pequeño */
     line-height: 1;
-    color: white; /* Aseguramos que la X sea blanca */
+    color: white;
 }
 
 main .player-section .dropdown-menu .dropdown-option {
     display: block;
     color: #4a4a4a;
-    padding: 5px 0;
+    padding: 3px 8px; /* Más compacto: de 5px 0 a 3px 8px */
     text-decoration: none;
-    text-align: left; /* Alineación a la izquierda */
+    text-align: left;
+    font-size: 14px; /* Texto ligeramente más pequeño */
+    line-height: 1.2;
 }
 
 main .player-section .dropdown-menu .dropdown-option:hover {
     color: #0e0eec;
+    background-color: #f8f8f8; /* Fondo sutil al hover */
 }
 
 main .player-section .dropdown-menu.dropdown-up {
