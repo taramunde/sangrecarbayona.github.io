@@ -1,6 +1,7 @@
 const playersData = {
     "aaron": {
         name: "Aarón Escandell Banacloche",
+        footballName: "Aarón",
         position: "Portero",
         role: "portero",
         number: 13,
@@ -20,6 +21,7 @@ const playersData = {
     },
     "moldovan": {
         name: "Horațiu Alexandru Moldovan",
+        footballName: "Moldovan",
         position: "Portero",
         role: "portero",
         number: 1,
@@ -34,6 +36,7 @@ const playersData = {
     },
     "narváez": {
         name: "Miguel de Jesús Narváez López",
+        footballName: "Narváez",
         position: "Portero",
         role: "portero",
         number: 26,
