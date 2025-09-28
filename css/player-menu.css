@@ -1,1 +1,101 @@
+/* Menú del jugador */
+main .player-section .player-menu {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    background: #001f3f;
+    border-radius: 0 0 15px 15px; /* Continúa el diseño de .player-card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
 
+main .player-section .menu-tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: #007bff;
+}
+
+main .player-section .menu-tab {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s;
+}
+
+main .player-section .menu-tab:hover {
+    color: #00ccff;
+}
+
+main .player-section .menu-tab.active {
+    color: #00ccff;
+    position: relative;
+}
+
+main .player-section .menu-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px; /* Línea azul mínima de 3px */
+    background: #00ccff;
+}
+
+main .player-section .menu-content {
+    padding: 15px;
+    color: white;
+}
+
+main .player-section .tab-content {
+    display: none;
+}
+
+main .player-section .tab-content.active {
+    display: block;
+}
+
+/* Responsive: Tablets (600px - 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    main .player-section .player-menu {
+        max-width: 770px;
+    }
+    main .player-section .menu-tab {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    main .player-section .menu-tab.active::after {
+        height: 3px;
+    }
+    main .player-section .menu-content {
+        padding: 12px;
+    }
+}
+
+/* Responsive: Móviles (<600px) */
+@media (max-width: 599px) {
+    main .player-section .player-menu {
+        max-width: calc(100% - 20px); /* Ajusta al ancho interno de .player-card */
+        margin: 0 auto 10px auto;
+        border-radius: 0 0 10px 10px;
+    }
+    main .player-section .menu-tabs {
+        flex-direction: column;
+        padding: 5px 0;
+    }
+    main .player-section .menu-tab {
+        font-size: 14px;
+        padding: 5px 0;
+        text-align: center;
+    }
+    main .player-section .menu-tab.active::after {
+        width: 40%; /* Reduce el ancho de la línea en móvil */
+        height: 3px;
+    }
+    main .player-section .menu-content {
+        padding: 10px;
+    }
+}
