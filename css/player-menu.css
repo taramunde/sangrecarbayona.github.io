@@ -1,12 +1,12 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 150px auto;
-    border-radius: 0 0 0 0;
+    margin: 0 auto 400px auto; /* Aumentamos margin-bottom a 100px para más espacio hacia abajo en desktop */
+    border-radius: 0 0 0 0; /* Sin redondeado de abajo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: visible;
-    position: relative;
-    z-index: 5;
+    overflow: hidden;
+    position: relative; /* Aseguramos posicionamiento relativo */
+    z-index: 5; /* Para que esté por encima de otros elementos */
 }
 
 main .player-section .menu-tabs {
@@ -64,8 +64,7 @@ main .player-section .tab-content.active {
 main .player-section .stats-buttons {
     display: flex;
     align-items: center;
-    gap: 10px;
-    position: relative;
+    gap: 10px; /* Espacio entre botones */
 }
 
 main .player-section .dropdown-btn {
@@ -76,7 +75,6 @@ main .player-section .dropdown-btn {
     cursor: pointer;
     transition: all 0.3s;
     border-radius: 3px;
-    position: relative;
 }
 
 main .player-section .dropdown-btn:hover {
@@ -86,137 +84,105 @@ main .player-section .dropdown-btn:hover {
 
 main .player-section .dropdown-menu {
     position: absolute;
-    top: 100%;
-    left: 0;
-    background: #ffffff;
-    border: 1px solid #4a4a4a;
+    background: #ffffff; /* Fondo blanco */
+    border: 1px solid #4a4a4a; /* Borde gris oscuro */
     border-radius: 3px;
-    padding: 5px 0;
-    z-index: 1000;
-    color: #4a4a4a;
+    padding: 10px;
+    z-index: 10;
+    color: #4a4a4a; /* Texto gris oscuro */
     min-width: 150px;
-    max-height: 300px;
-    overflow-y: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    text-align: left;
-    scrollbar-width: thin;
-    scrollbar-color: #0e0eec #f1f1f1;
-}
-
-/* Webkit scrollbar para mejor apariencia */
-main .player-section .dropdown-menu::-webkit-scrollbar {
-    width: 6px;
-}
-
-main .player-section .dropdown-menu::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 3px;
-}
-
-main .player-section .dropdown-menu::-webkit-scrollbar-thumb {
-    background: #0e0eec;
-    border-radius: 3px;
-}
-
-main .player-section .dropdown-menu::-webkit-scrollbar-thumb:hover {
-    background: #0c0cca;
-}
-
-main .player-section .dropdown-menu.dropdown-up {
-    top: auto !important;
-    bottom: 100% !important;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15);
+    max-height: 300px; /* Limitamos la altura máxima */
+    overflow-y: auto; /* Barra de desplazamiento si hay muchas opciones */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alineación a la izquierda */
+    /* Ajuste para que no se extienda más allá del viewport */
+    max-height: calc(100vh - 200px); /* Limita la altura según la ventana menos un margen */
 }
 
 main .player-section .dropdown-menu .close-btn {
     background: none;
-    border: 1px solid #0e0eec;
-    color: white;
+    border: 1px solid #0e0eec; /* Cuadradito azul como borde */
+    color: white; /* X en blanco */
     cursor: pointer;
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     text-align: center;
     padding: 0;
-    margin: 3px 8px 5px 8px;
-    border-radius: 2px;
+    margin-bottom: 5px;
+    border-radius: 3px; /* Cuadradito */
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #0e0eec;
+    background-color: #0e0eec; /* Fondo azul dentro del cuadradito */
 }
 
 main .player-section .dropdown-menu .close-btn:hover {
-    background-color: #0c0cca;
+    background-color: #0c0cca; /* Azul más oscuro al hover */
     border-color: #0c0cca;
 }
 
 main .player-section .dropdown-menu .close-btn .close-x {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1;
-    color: white;
+    color: white; /* Aseguramos que la X sea blanca */
 }
 
 main .player-section .dropdown-menu .dropdown-option {
     display: block;
     color: #4a4a4a;
-    padding: 3px 8px;
+    padding: 5px 0;
     text-decoration: none;
-    text-align: left;
-    font-size: 14px;
-    line-height: 1.2;
+    text-align: left; /* Alineación a la izquierda */
 }
 
 main .player-section .dropdown-menu .dropdown-option:hover {
     color: #0e0eec;
-    background-color: #f8f8f8;
-}
-
-/* Estilos para la cuadrícula de estadísticas */
-main .player-section .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin-top: 20px;
-}
-
-main .player-section .stat-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    text-align: center;
-    color: #333;
-}
-
-main .player-section .stat-card h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #0e0eec;
-}
-
-main .player-section .stat-card .stat-value {
-    font-size: 20px;
-    font-weight: bold;
 }
 
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
         max-width: 770px;
-        margin: 0 auto 80px auto;
+        margin: 0 auto 80px auto; /* Ajuste de margin-bottom para tablets */
     }
-    main .player-section .stats-grid {
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas en tablets */
-        gap: 10px;
+    main .player-section .menu-tabs {
+        padding: 5px 15px;
     }
-    main .player-section .stat-card {
-        padding: 10px;
+    main .player-section .menu-tab {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        color: #4a4a4a;
     }
-    main .player-section .stat-card h3 {
+    main .player-section .menu-tab:hover {
+        color: #0e0eec;
+    }
+    main .player-section .menu-tab.active {
+        color: #0e0eec;
+    }
+    main .player-section .menu-tab.active::after {
+        height: 3px;
+    }
+    main .player-section .menu-content {
+        padding: 12px;
+        border-radius: 0;
+    }
+    main .player-section .dropdown-btn {
+        padding: 4px 8px;
         font-size: 14px;
     }
-    main .player-section .stat-card .stat-value {
-        font-size: 18px;
+    main .player-section .dropdown-menu {
+        min-width: 120px;
+        max-height: 250px; /* Ajuste para tablets */
+        text-align: left; /* Alineación a la izquierda */
+        max-height: calc(100vh - 150px); /* Ajuste dinámico para tablets */
+    }
+    main .player-section .dropdown-menu .close-btn {
+        width: 18px;
+        height: 18px;
+    }
+    main .player-section .dropdown-menu .close-btn .close-x {
+        font-size: 12px;
     }
 }
 
@@ -224,19 +190,56 @@ main .player-section .stat-card .stat-value {
 @media (max-width: 599px) {
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
-        margin: 0 auto 60px auto;
+        margin: 0 auto 60px auto; /* Ajuste de margin-bottom para móviles */
+        border-radius: 0 0 0 0;
     }
-    main .player-section .stats-grid {
-        grid-template-columns: 1fr; /* Una columna en móviles */
-        gap: 10px;
+    main .player-section .menu-tabs {
+        flex-direction: column;
+        padding: 5px 15px;
     }
-    main .player-section .stat-card {
+    main .player-section .menu-tab {
+        font-size: 14px;
+        padding: 5px 0;
+        margin-bottom: 5px;
+        color: #4a4a4a;
+    }
+    main .player-section .menu-tab:hover {
+        color: #0e0eec;
+    }
+    main .player-section .menu-tab.active {
+        color: #0e0eec;
+    }
+    main .player-section .menu-tab.active::after {
+        width: 100%;
+        height: 3px;
+    }
+    main .player-section .menu-content {
         padding: 10px;
+        border-radius: 0;
     }
-    main .player-section .stat-card h3 {
+    main .player-section .stats-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+    main .player-section .dropdown-btn {
+        width: 100%;
+        padding: 5px;
         font-size: 14px;
     }
-    main .player-section .stat-card .stat-value {
-        font-size: 16px;
+    main .player-section .dropdown-menu {
+        position: static;
+        width: 100%;
+        margin-top: 5px;
+        max-height: 200px; /* Ajuste para móviles */
+        overflow-y: auto;
+        text-align: left; /* Alineación a la izquierda */
+        max-height: calc(100vh - 100px); /* Ajuste dinámico para móviles */
+    }
+    main .player-section .dropdown-menu .close-btn {
+        width: 18px;
+        height: 18px;
+    }
+    main .player-section .dropdown-menu .close-btn .close-x {
+        font-size: 12px;
     }
 }
