@@ -1,12 +1,12 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 400px auto; /* Aumentamos margin-bottom a 100px para más espacio hacia abajo en desktop */
-    border-radius: 0 0 0 0; /* Sin redondeado de abajo */
+    margin: 0 auto 60px auto; /* Reducido de 400px a 60px */
+    border-radius: 0 0 0 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    position: relative; /* Aseguramos posicionamiento relativo */
-    z-index: 5; /* Para que esté por encima de otros elementos */
+    overflow: visible; /* Cambiar de hidden a visible para que se vean los dropdowns */
+    position: relative;
+    z-index: 5;
 }
 
 main .player-section .menu-tabs {
@@ -64,7 +64,8 @@ main .player-section .tab-content.active {
 main .player-section .stats-buttons {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espacio entre botones */
+    gap: 10px;
+    position: relative; /* Importante para el positioning de los dropdowns */
 }
 
 main .player-section .dropdown-btn {
@@ -75,6 +76,7 @@ main .player-section .dropdown-btn {
     cursor: pointer;
     transition: all 0.3s;
     border-radius: 3px;
+    position: relative; /* Para que los menús se posicionen respecto al botón */
 }
 
 main .player-section .dropdown-btn:hover {
@@ -84,19 +86,21 @@ main .player-section .dropdown-btn:hover {
 
 main .player-section .dropdown-menu {
     position: absolute;
-    background: #ffffff; /* Fondo blanco */
-    border: 1px solid #4a4a4a; /* Borde gris oscuro */
+    top: 100%; /* Se posiciona justo debajo del botón */
+    left: 0;
+    background: #ffffff;
+    border: 1px solid #4a4a4a;
     border-radius: 3px;
     padding: 10px;
-    z-index: 10;
-    color: #4a4a4a; /* Texto gris oscuro */
-    min-width: 150px;
-    max-height: 300px; /* Limitamos la altura máxima */
-    overflow-y: auto; /* Barra de desplazamiento si hay muchas opciones */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Alineación a la izquierda */
-    /* Ajuste para que no se extienda más allá del viewport */
-    max-height: calc(100vh - 200px); /* Limita la altura según la ventana menos un margen */
+    z-index: 1000; /* Z-index más alto */
+    color: #4a4a4a;
+    min-width: 200px; /* Ancho mínimo más amplio */
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    text-align: left;
+    /* Prevenir que se extienda fuera del viewport */
+    max-width: calc(100vw - 40px);
 }
 
 main .player-section .dropdown-menu .close-btn {
@@ -138,6 +142,8 @@ main .player-section .dropdown-menu .dropdown-option {
 main .player-section .dropdown-menu .dropdown-option:hover {
     color: #0e0eec;
 }
+
+
 
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
