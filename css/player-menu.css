@@ -123,7 +123,11 @@ main .player-section .dropdown-menu::-webkit-scrollbar-thumb:hover {
     background: #0c0cca;
 }
 
-
+main .player-section .dropdown-menu.dropdown-up {
+    top: auto !important;
+    bottom: 100% !important;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15); /* Sombra hacia arriba */
+}
 
 main .player-section .dropdown-menu .close-btn {
     background: none;
@@ -168,10 +172,6 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     background-color: #f8f8f8; /* Fondo sutil al hover */
 }
 
-main .player-section .dropdown-menu.dropdown-up {
-    top: auto !important;
-    bottom: 100% !important;
-}
 
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
