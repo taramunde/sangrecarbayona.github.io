@@ -1,7 +1,7 @@
 /* Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
-    margin: 0 auto 30px auto; /* Reducido de 400px a 30px */
+    margin: 0 auto 30px auto;
     border-radius: 0 0 0 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: visible;
@@ -13,6 +13,7 @@ main .player-section .menu-tabs {
     display: flex;
     justify-content: flex-start;
     padding: 5px 20px;
+    flex-wrap: wrap;
 }
 
 main .player-section .menu-tab {
@@ -23,8 +24,10 @@ main .player-section .menu-tab {
     cursor: pointer;
     padding: 5px 15px;
     margin-right: 15px;
+    margin-bottom: 5px;
     transition: color 0.3s;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 main .player-section .menu-tab:hover {
@@ -50,6 +53,7 @@ main .player-section .menu-content {
     padding: 15px;
     color: white;
     border-radius: 0;
+    background: rgba(0, 0, 0, 0.05);
 }
 
 main .player-section .tab-content {
@@ -65,7 +69,9 @@ main .player-section .stats-buttons {
     display: flex;
     align-items: center;
     gap: 10px;
-    position: relative; /* Importante para el positioning de los dropdowns */
+    position: relative;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 main .player-section .dropdown-btn {
@@ -76,7 +82,9 @@ main .player-section .dropdown-btn {
     cursor: pointer;
     transition: all 0.3s;
     border-radius: 3px;
-    position: relative; /* Para que los menús se posicionen respecto al botón */
+    position: relative;
+    min-width: 100px;
+    font-size: 14px;
 }
 
 main .player-section .dropdown-btn:hover {
@@ -91,20 +99,18 @@ main .player-section .dropdown-menu {
     background: #ffffff;
     border: 1px solid #4a4a4a;
     border-radius: 3px;
-    padding: 5px 0; /* Menos padding */
+    padding: 5px 0;
     z-index: 1000;
     color: #4a4a4a;
     min-width: 150px;
-    max-height: 200px; /* Más pequeño: de 300px a 200px */
+    max-height: 200px;
     overflow-y: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     text-align: left;
-    /* Mejor scroll */
     scrollbar-width: thin;
     scrollbar-color: #0e0eec #f1f1f1;
 }
 
-/* Webkit scrollbar para mejor apariencia */
 main .player-section .dropdown-menu::-webkit-scrollbar {
     width: 6px;
 }
@@ -126,33 +132,32 @@ main .player-section .dropdown-menu::-webkit-scrollbar-thumb:hover {
 main .player-section .dropdown-menu.dropdown-up {
     top: auto !important;
     bottom: 100% !important;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15); /* Sombra hacia arriba */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15);
 }
 
 main .player-section .dropdown-menu .close-btn {
-    background: none;
+    background: #0e0eec;
     border: 1px solid #0e0eec;
     color: white;
     cursor: pointer;
-    width: 16px; /* Más pequeño */
+    width: 16px;
     height: 16px;
     text-align: center;
     padding: 0;
-    margin: 3px 8px 5px 8px; /* Ajuste de márgenes */
+    margin: 3px 8px 5px 8px;
     border-radius: 2px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #0e0eec;
 }
 
 main .player-section .dropdown-menu .close-btn:hover {
-    background-color: #0c0cca; /* Azul más oscuro al hover */
+    background-color: #0c0cca;
     border-color: #0c0cca;
 }
 
 main .player-section .dropdown-menu .close-btn .close-x {
-    font-size: 10px; /* Más pequeño */
+    font-size: 10px;
     line-height: 1;
     color: white;
 }
@@ -160,16 +165,16 @@ main .player-section .dropdown-menu .close-btn .close-x {
 main .player-section .dropdown-menu .dropdown-option {
     display: block;
     color: #4a4a4a;
-    padding: 3px 8px; /* Más compacto: de 5px 0 a 3px 8px */
+    padding: 3px 8px;
     text-decoration: none;
     text-align: left;
-    font-size: 14px; /* Texto ligeramente más pequeño */
+    font-size: 14px;
     line-height: 1.2;
 }
 
 main .player-section .dropdown-menu .dropdown-option:hover {
     color: #0e0eec;
-    background-color: #f8f8f8; /* Fondo sutil al hover */
+    background-color: #f8f8f8;
 }
 
 /* Estilos para la visualización de estadísticas */
@@ -195,6 +200,7 @@ main .player-section .stat-card h4 {
     margin: 0 0 10px 0;
     color: #4a4a4a;
     font-size: 14px;
+    font-weight: bold;
 }
 
 main .player-section .stat-number {
@@ -230,47 +236,57 @@ main .player-section .tarjeta.roja {
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
-        max-width: 770px;
-        margin: 0 auto 80px auto; /* Ajuste de margin-bottom para tablets */
+        max-width: 95%;
+        margin: 0 auto 60px auto;
     }
+    
     main .player-section .menu-tabs {
         padding: 5px 15px;
+        justify-content: center;
     }
+    
     main .player-section .menu-tab {
         font-size: 14px;
-        padding: 5px 10px;
-        margin-right: 10px;
-        color: #4a4a4a;
+        padding: 8px 12px;
+        margin-right: 8px;
+        margin-bottom: 8px;
     }
-    main .player-section .menu-tab:hover {
-        color: #0e0eec;
-    }
-    main .player-section .menu-tab.active {
-        color: #0e0eec;
-    }
-    main .player-section .menu-tab.active::after {
-        height: 3px;
-    }
+    
     main .player-section .menu-content {
         padding: 12px;
-        border-radius: 0;
     }
+    
+    main .player-section .stats-buttons {
+        justify-content: center;
+        gap: 8px;
+    }
+    
     main .player-section .dropdown-btn {
-        padding: 4px 8px;
+        padding: 8px 12px;
         font-size: 14px;
-    }
-    main .player-section .dropdown-menu {
         min-width: 120px;
-        max-height: 250px; /* Ajuste para tablets */
-        text-align: left; /* Alineación a la izquierda */
-        max-height: calc(100vh - 150px); /* Ajuste dinámico para tablets */
     }
-    main .player-section .dropdown-menu .close-btn {
-        width: 18px;
-        height: 18px;
+    
+    main .player-section .dropdown-menu {
+        min-width: 140px;
+        max-height: calc(50vh);
     }
-    main .player-section .dropdown-menu .close-btn .close-x {
-        font-size: 12px;
+    
+    main .player-section .stats-display {
+        gap: 12px;
+    }
+    
+    main .player-section .stat-card {
+        min-width: 140px;
+        padding: 12px;
+    }
+    
+    main .player-section .stat-card h4 {
+        font-size: 13px;
+    }
+    
+    main .player-section .stat-number {
+        font-size: 22px;
     }
 }
 
@@ -278,64 +294,112 @@ main .player-section .tarjeta.roja {
 @media (max-width: 599px) {
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
-        margin: 0 auto 60px auto; /* Ajuste de margin-bottom para móviles */
-        border-radius: 0 0 0 0;
+        margin: 0 auto 40px auto;
     }
+    
     main .player-section .menu-tabs {
         flex-direction: column;
-        padding: 5px 15px;
+        padding: 10px 15px;
+        align-items: stretch;
     }
+    
     main .player-section .menu-tab {
-        font-size: 14px;
-        padding: 5px 0;
-        margin-bottom: 5px;
-        color: #4a4a4a;
+        font-size: 16px;
+        padding: 12px 0;
+        margin-right: 0;
+        margin-bottom: 8px;
+        text-align: center;
+        border-bottom: 1px solid #eee;
     }
-    main .player-section .menu-tab:hover {
-        color: #0e0eec;
+    
+    main .player-section .menu-tab:last-child {
+        border-bottom: none;
     }
-    main .player-section .menu-tab.active {
-        color: #0e0eec;
-    }
+    
     main .player-section .menu-tab.active::after {
-        width: 100%;
-        height: 3px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
     }
+    
     main .player-section .menu-content {
-        padding: 10px;
-        border-radius: 0;
+        padding: 15px 10px;
     }
+    
     main .player-section .stats-buttons {
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
+        align-items: stretch;
     }
+    
     main .player-section .dropdown-btn {
         width: 100%;
-        padding: 5px;
-        font-size: 14px;
+        padding: 12px;
+        font-size: 16px;
+        min-width: auto;
+        text-align: center;
     }
+    
     main .player-section .dropdown-menu {
-        position: static;
+        position: static !important;
         width: 100%;
         margin-top: 5px;
-        max-height: 200px; /* Ajuste para móviles */
-        overflow-y: auto;
-        text-align: left; /* Alineación a la izquierda */
-        max-height: calc(100vh - 100px); /* Ajuste dinámico para móviles */
+        max-height: 150px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
+    
+    main .player-section .dropdown-menu.dropdown-up {
+        position: static !important;
+        top: auto !important;
+        bottom: auto !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
     main .player-section .dropdown-menu .close-btn {
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
+        margin: 5px 10px;
     }
+    
     main .player-section .dropdown-menu .close-btn .close-x {
         font-size: 12px;
     }
+    
+    main .player-section .dropdown-menu .dropdown-option {
+        padding: 8px 15px;
+        font-size: 16px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    
+    main .player-section .dropdown-menu .dropdown-option:last-child {
+        border-bottom: none;
+    }
+    
     main .player-section .stats-display {
         flex-direction: column;
+        gap: 10px;
     }
     
     main .player-section .stat-card {
         min-width: 100%;
+        padding: 15px;
     }
     
+    main .player-section .stat-card h4 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    
+    main .player-section .stat-number {
+        font-size: 28px;
+    }
+    
+    main .player-section .tarjetas-container {
+        gap: 15px;
+    }
+    
+    main .player-section .tarjeta {
+        padding: 8px 12px;
+        font-size: 18px;
+    }
 }
