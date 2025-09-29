@@ -295,6 +295,7 @@ main .player-section .tarjeta.roja {
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
         margin: 0 auto 40px auto;
+        padding: 0 5px;
     }
     
     main .player-section .menu-tabs {
@@ -323,7 +324,7 @@ main .player-section .tarjeta.roja {
     }
     
     main .player-section .menu-content {
-        padding: 15px 10px;
+        padding: 10px 5px;
     }
     
     main .player-section .stats-buttons {
@@ -378,11 +379,13 @@ main .player-section .tarjeta.roja {
     main .player-section .stats-display {
         flex-direction: column;
         gap: 10px;
+        padding: 0 5px;
     }
     
     main .player-section .stat-card {
         min-width: 100%;
-        padding: 15px;
+        padding: 12px 10px;
+        box-sizing: border-box;
     }
     
     main .player-section .stat-card h4 {
