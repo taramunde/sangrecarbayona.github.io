@@ -13,7 +13,8 @@ const playersData = {
             { season: "2022/23", team: "F.C. Cartagena", category: "Segunda División" },
             { season: "2019/20 - 2021/22", team: "Granada C.F.", category: "Primera División" },
             { season: "2017/18 - 2018/19", team: "Granada C.F.", category: "Segunda División" },
-            { season: "2017/18", team: "Recreativo Granada", category: "Segunda División B" }
+            { season: "2017/18", team: "Recreativo Granada", category: "Segunda División B" },
+            { season: "2016/17", team: "At. Malagueño", "Málaga C.F., category: "Tercera División", "Primera División" }
         ],
         stats: {
             "2025/26": {
