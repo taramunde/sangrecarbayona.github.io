@@ -233,6 +233,47 @@ main .player-section .tarjeta.roja {
     color: #fff;
 }
 
+/* Estilos para la sección de trayectoria */
+main .player-section .career-timeline {
+    margin-top: 15px;
+}
+
+main .player-section .career-item {
+    background: rgba(14, 14, 236, 0.05);
+    border-left: 3px solid #0e0eec;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.3s;
+}
+
+main .player-section .career-item:hover {
+    background: rgba(14, 14, 236, 0.1);
+    transform: translateX(5px);
+}
+
+main .player-section .career-season {
+    font-weight: bold;
+    color: #0e0eec;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+main .player-section .career-team {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    display: block;
+}
+
+main .player-section .career-category {
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+}
+
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
@@ -292,6 +333,24 @@ main .player-section .tarjeta.roja {
 
 /* Responsive: Móviles (<600px) */
 @media (max-width: 599px) {
+
+    main .player-section .career-item {
+        padding: 10px 12px;
+        margin-bottom: 8px;
+    }
+    
+    main .player-section .career-season {
+        font-size: 13px;
+    }
+    
+    main .player-section .career-team {
+        font-size: 15px;
+    }
+    
+    main .player-section .career-category {
+        font-size: 12px;
+    }
+    
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
         margin: 0 auto 40px auto;
