@@ -99,7 +99,7 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
                     </div>
                 </div>
             `;
-        } else if (player.role === 'jugador') {
+        } else if (player.role === 'defensa') {
             html = `
                 <div class="stat-card">
                     <h4>Partidos Oficiales</h4>
