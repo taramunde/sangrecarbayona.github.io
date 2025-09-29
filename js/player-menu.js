@@ -43,7 +43,6 @@ $(document).ready(function() {
 updatePlayerInfo();
 loadPlayerSeasons();
 generateStatsHTML();
-generateCareerTable(); // <-- AÑADE ESTA LÍNEA    
 updateStats(); // Esto ya actualiza los botones con los valores iniciales
     
     // Resto de funciones exactamente como las tienes...
@@ -244,60 +243,6 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
     }
 }
 
-     // --- AÑADIR ESTA NUEVA FUNCIÓN ---
-function generateCareerTable() {
-    const player = playersData[currentPlayer];
-    const container = $('#career-table-container');
-
-    // Comprobar si existen datos de trayectoria
-    if (!player.career || player.career.length === 0) {
-        container.html('<p>No hay datos de trayectoria disponibles.</p>');
-        return;
-    }
-
-    // Determinar el encabezado de la última columna (Goles o G. Encajados)
-    const goalHeader = player.role === 'portero' ? 'G. Encajados' : 'Goles';
-
-    // Construir el HTML de la tabla
-    let tableHTML = `
-        <table class="career-table">
-            <thead>
-                <tr>
-                    <th>Temporada</th>
-                    <th>Equipo</th>
-                    <th>Categoría</th>
-                    <th>Partidos</th>
-                    <th>${goalHeader}</th>
-                </tr>
-            </thead>
-            <tbody>
-    `;
-
-    // Añadir una fila por cada entrada en la trayectoria
-    player.career.forEach(entry => {
-        // Para la última celda, buscar 'goals' o 'goals_conceded'
-        const goals = entry.goals_conceded !== undefined ? entry.goals_conceded : entry.goals;
-        
-        tableHTML += `
-            <tr>
-                <td>${entry.season}</td>
-                <td>${entry.team}</td>
-                <td>${entry.division}</td>
-                <td>${entry.matches}</td>
-                <td>${goals}</td>
-            </tr>
-        `;
-    });
-
-    tableHTML += `
-            </tbody>
-        </table>
-    `;
-
-    // Insertar la tabla en el contenedor
-    container.html(tableHTML);
-}
-    
     // Función para convertir IDs de competición a nombres legibles
 function getCompetitionDisplayName(competition) {
     const names = {
