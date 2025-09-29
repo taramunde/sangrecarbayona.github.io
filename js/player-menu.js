@@ -198,14 +198,21 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
     $('#competitions-btn').text(getCompetitionDisplayName(selectedCompetition));
 
        // --- CÓDIGO A AÑADIR ---
-    if (player.role === 'portero' || player.role === 'jugador') {
-        const titleElement = $('#partidos-count').siblings('h4');
-        if (selectedCompetition === 'amistosos') {
-            titleElement.text('Partidos Amistosos');
-        } else {
-            titleElement.text('Partidos Oficiales');
+    // Comprueba el rol para cambiar el título dinámicamente
+        if (player.role === 'portero' || player.role === 'jugador') {
+            const titleElement = $('#partidos-count').siblings('h4');
+            
+            // Si la competición es 'amistosos'
+            if (selectedCompetition === 'amistosos') {
+                titleElement.text('Partidos Amistosos');
+            // Si es 'todos', muestra ambos
+            } else if (selectedCompetition === 'todos') {
+                titleElement.text('Oficiales y Amistosos');
+            // Para el resto de casos ('oficiales', 'liga', etc.)
+            } else {
+                titleElement.text('Partidos Oficiales');
+            }
         }
-    }
     // --- FIN DEL CÓDIGO A AÑADIR --- 
     
     if (player.role === 'portero') {
