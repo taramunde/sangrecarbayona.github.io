@@ -213,7 +213,8 @@ function getCompetitionDisplayName(competition) {
         'liga': 'Liga',
         'copa': 'Copa del Rey',
         'uefa': 'UEFA',
-        'amistosos': 'Amistosos'
+        'amistosos': 'Amistosos',
+        'todos': 'Todos'
     };
     return names[competition] || competition;
 }
