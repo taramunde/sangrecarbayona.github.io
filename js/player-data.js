@@ -66,7 +66,7 @@ const playersData = {
         name: "Miguel de Jesús Narváez López",
         footballName: "Bailly",
         position: "Defensa",
-        role: "defensa",
+        role: "portero",
         number: 26,
         image: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", 
         stats: {
