@@ -165,17 +165,26 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
         }
         
         if (competition === 'oficiales') {
-            Object.keys(seasonData).forEach(comp => {
-                if (comp !== 'amistosos') {
-                    const compData = seasonData[comp];
-                    Object.keys(totalStats).forEach(key => {
-                        totalStats[key] += compData[key] || 0;
-                    });
-                }
+    // Sumar liga, copa y uefa (excluir amistosos)
+    Object.keys(seasonData).forEach(comp => {
+        if (comp !== 'amistosos') {
+            const compData = seasonData[comp];
+            Object.keys(totalStats).forEach(key => {
+                totalStats[key] += compData[key] || 0;
             });
-        } else if (seasonData[competition]) {
-            totalStats = seasonData[competition];
         }
+    });
+} else if (competition === 'todos') {
+    // NUEVO: Sumar TODAS las competiciones (incluye amistosos)
+    Object.keys(seasonData).forEach(comp => {
+        const compData = seasonData[comp];
+        Object.keys(totalStats).forEach(key => {
+            totalStats[key] += compData[key] || 0;
+        });
+    });
+} else if (seasonData[competition]) {
+    totalStats = seasonData[competition];
+}
         
         return totalStats;
     }
