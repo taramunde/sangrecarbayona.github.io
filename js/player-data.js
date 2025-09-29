@@ -7,12 +7,13 @@ const playersData = {
         number: 13,
         image: "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
         career: [  // NUEVO CAMPO
-            { season: "2024/25 - Actualidad", team: "Real Oviedo", category: "Segunda División" },
-            { season: "2022/23 - 2023/24", team: "Real Oviedo", category: "Segunda División" },
-            { season: "2021/22", team: "AD Alcorcón", category: "Segunda División" },
-            { season: "2020/21", team: "CD Lugo", category: "Segunda División" },
-            { season: "2019/20", team: "Atlético Levante UD", category: "Tercera División" },
-            { season: "2018/19", team: "Valencia CF Mestalla", category: "Segunda División B" }
+            { season: "2025/26", team: "Real Oviedo", category: "Primera División" },
+            { season: "2024/25", team: "Real Oviedo", category: "Segunda División" },
+            { season: "2023/24", team: "U.D. Las Palmas", category: "Primera División" },
+            { season: "2022/23", team: "F.C. Cartagena", category: "Segunda División" },
+            { season: "2019/20 - 2021/22", team: "Granada C.F.", category: "Primera División" },
+            { season: "2017/18 - 2018/19", team: "Granada C.F.", category: "Segunda División" },
+            { season: "2017/18", team: "Recreativo Granada", category: "Segunda División B" }
         ],
         stats: {
             "2025/26": {
