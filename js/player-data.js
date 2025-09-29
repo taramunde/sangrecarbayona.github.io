@@ -21,7 +21,16 @@ const playersData = {
             }
         }
     },
-    
+
+                career: [
+            { season: "2024/25", team: "Real Oviedo", division: "1ª División", matches: 45, goals_conceded: 44 },
+            { season: "2023/24", team: "UD Las Palmas", division: "1ª División", matches: 15, goals_conceded: 19 },
+            { season: "2022/23", team: "FC Cartagena", division: "2ª División", matches: 41, goals_conceded: 42 },
+            { season: "2021/22", team: "Granada CF", division: "1ª División", matches: 8, goals_conceded: 16 },
+            { season: "2020/21", team: "Granada CF", division: "1ª División", matches: 2, goals_conceded: 4 }
+        ]
+
+
     "moldovan": {
         name: "Horațiu Alexandru Moldovan",
         footballName: "Moldovan",
@@ -100,7 +109,16 @@ const playersData = {
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 5, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
-        }
+        },
+         // 2. EL ARRAY "career" SE MUEVE AQUÍ DENTRO
+        career: [
+            { season: "2024/25", team: "Real Oviedo", division: "1ª División", matches: 45, goals_conceded: 44 },
+            { season: "2023/24", team: "UD Las Palmas", division: "1ª División", matches: 15, goals_conceded: 19 },
+            { season: "2022/23", team: "FC Cartagena", division: "2ª División", matches: 41, goals_conceded: 42 },
+            { season: "2021/22", team: "Granada CF", division: "1ª División", matches: 8, goals_conceded: 16 },
+            { season: "2020/21", team: "Granada CF", division: "1ª División", matches: 2, goals_conceded: 4 }
+        ]
+    }
     }
     
 
