@@ -6,6 +6,14 @@ const playersData = {
         role: "portero",
         number: 13,
         image: "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
+        career: [  // NUEVO CAMPO
+            { season: "2024/25 - Actualidad", team: "Real Oviedo", category: "Segunda División" },
+            { season: "2022/23 - 2023/24", team: "Real Oviedo", category: "Segunda División" },
+            { season: "2021/22", team: "AD Alcorcón", category: "Segunda División" },
+            { season: "2020/21", team: "CD Lugo", category: "Segunda División" },
+            { season: "2019/20", team: "Atlético Levante UD", category: "Tercera División" },
+            { season: "2018/19", team: "Valencia CF Mestalla", category: "Segunda División B" }
+        ],
         stats: {
             "2025/26": {
                 liga: { partidos: 6, goles_encajados: 11, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -29,6 +37,12 @@ const playersData = {
         role: "portero",
         number: 1,
         image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
+        career: [  // NUEVO CAMPO
+            { season: "2025/26 - Actualidad", team: "Real Oviedo", category: "Segunda División" },
+            { season: "2024/25", team: "Atlético de Madrid", category: "Primera División" },
+            { season: "2023/24", team: "Atlético de Madrid", category: "Primera División" },
+            { season: "2022/23", team: "Rapid Bucarest", category: "Liga I (Rumanía)" }
+        ],
         stats: {
             "2025/26": {
                 liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
