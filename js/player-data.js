@@ -8,14 +8,22 @@ const playersData = {
         image: "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
         career: [  // NUEVO CAMPO
             { season: "2025/26", team: "Real Oviedo", category: "Primera División" },
-            { season: "2024/25", team: "Real Oviedo", category: "Segunda División" },
-            { season: "2023/24", team: "U.D. Las Palmas", category: "Primera División" },
-            { season: "2022/23", team: "F.C. Cartagena", category: "Segunda División" },
-            { season: "2019/20 - 2021/22", team: "Granada C.F.", category: "Primera División" },
-            { season: "2017/18 - 2018/19", team: "Granada C.F.", category: "Segunda División" },
+            { season: "2024/25", team: "Real Oviedo", category: "Segunda División - Segunda Play Offs Ascenso" },
+            { season: "2023/24", team: "U.D. Las Palmas", category: "Primera División - Copa del Rey" },
+            { season: "2022/23", team: "F.C. Cartagena", category: "Segunda División - Copa del Rey" },
+            { season: "2021/22", team: "Granada C.F.", category: "Primera División - Copa del Rey" },
+            { season: "2020/21", team: "Granada C.F.", category: "Primera División - Europa League - Copa del Rey" },
+            { season: "2019/20", team: "Granada C.F.", category: "Primera División - Copa del Rey" },
+            { season: "2018/19", team: "Granada C.F.", category: "Segunda División - Copa del Rey" },
+            { season: "2017/18", team: "Granada C.F.", category: "Segunda División" },
             { season: "2017/18", team: "Recreativo Granada", category: "Segunda División B" },
-            { season: "2013/14 - 2016/17", team: "At. Malagueño - Málaga C.F.", category: "Tercera División - Primera División" }
-            
+            { season: "2016/17", team: "Málaga C.F.", category: "Primera División - Copa del Rey" },
+            { season: "2016/17", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" },
+            { season: "2015/16", team: "Málaga C.F.", category: "Primera División - Copa del Rey" },
+            { season: "2015/16", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" },
+            { season: "2014/15", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" },
+            { season: "2013/14", team: "Málaga C.F.", category: "Primera División" },
+            { season: "2013/14", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" }
         ],
         stats: {
             "2025/26": {
