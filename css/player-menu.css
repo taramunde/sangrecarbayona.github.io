@@ -233,6 +233,46 @@ main .player-section .tarjeta.roja {
     color: #fff;
 }
 
+/* --- Estilos para la tabla de Trayectoria --- */
+
+.career-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.career-table thead tr {
+    background-color: #0073e6; /* Color azul corporativo */
+    color: #ffffff;
+    text-align: left;
+}
+
+.career-table th,
+.career-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.career-table tbody tr {
+    background-color: #f3f3f3;
+}
+
+.career-table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.career-table tbody tr:last-of-type {
+    border-bottom: 2px solid #0073e6;
+}
+
+#career-table-container p {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
