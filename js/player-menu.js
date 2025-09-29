@@ -196,6 +196,17 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
     // Actualizar texto de los botones
     $('#seasons-btn').text(selectedSeason);
     $('#competitions-btn').text(getCompetitionDisplayName(selectedCompetition));
+
+       // --- CÓDIGO A AÑADIR ---
+    if (player.role === 'portero' || player.role === 'jugador') {
+        const titleElement = $('#partidos-count').siblings('h4');
+        if (selectedCompetition === 'amistosos') {
+            titleElement.text('Partidos Amistosos');
+        } else {
+            titleElement.text('Partidos Oficiales');
+        }
+    }
+    // --- FIN DEL CÓDIGO A AÑADIR --- 
     
     if (player.role === 'portero') {
         $('#partidos-count').text(stats.partidos);
