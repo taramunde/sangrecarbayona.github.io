@@ -43,6 +43,7 @@ $(document).ready(function() {
 updatePlayerInfo();
 loadPlayerSeasons();
 generateStatsHTML();
+generateCareerTable(); // <-- AÑADE ESTA LÍNEA    
 updateStats(); // Esto ya actualiza los botones con los valores iniciales
     
     // Resto de funciones exactamente como las tienes...
