@@ -9,7 +9,7 @@ const allPlayersData = {
         ],
         defenders: [
             { src: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", alt: "Defensa 1", number: "2", name: "Bailly", url: "fichajugador.html?player=bailly" },
-            { src: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", alt: "Defensa 2", number: "3", name: "Rahim", url: "#" },
+            { src: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", alt: "Defensa 2", number: "3", name: "Rahim", url: "fichajugador.html?player=rahim" },
             { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
             { src: "https://i.postimg.cc/Wb0spKY0/Dani-Calvo-PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
             { src: "https://i.postimg.cc/YqQmcd1s/Luengo-PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
