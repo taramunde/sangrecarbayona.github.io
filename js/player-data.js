@@ -7,23 +7,23 @@ const playersData = {
         number: 13,
         image: "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
         career: [  // NUEVO CAMPO
-            { season: "2025/26", team: "Real Oviedo", category: "Primera División" },
-            { season: "2024/25", team: "Real Oviedo", category: "Segunda División - Segunda Play Offs Ascenso" },
-            { season: "2023/24", team: "U.D. Las Palmas", category: "Primera División - Copa del Rey" },
-            { season: "2022/23", team: "F.C. Cartagena", category: "Segunda División - Copa del Rey" },
-            { season: "2021/22", team: "Granada C.F.", category: "Primera División - Copa del Rey" },
-            { season: "2020/21", team: "Granada C.F.", category: "Primera División - Europa League - Copa del Rey" },
-            { season: "2019/20", team: "Granada C.F.", category: "Primera División - Copa del Rey" },
-            { season: "2018/19", team: "Granada C.F.", category: "Segunda División - Copa del Rey" },
-            { season: "2017/18", team: "Granada C.F.", category: "Segunda División" },
-            { season: "2017/18", team: "Recreativo Granada", category: "Segunda División B" },
-            { season: "2016/17", team: "Málaga C.F.", category: "Primera División - Copa del Rey" },
-            { season: "2016/17", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" },
-            { season: "2015/16", team: "Málaga C.F.", category: "Primera División - Copa del Rey" },
-            { season: "2015/16", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" },
-            { season: "2014/15", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" },
-            { season: "2013/14", team: "Málaga C.F.", category: "Primera División" },
-            { season: "2013/14", team: "At. Malagueño", category: "Tercera División - Tercera Play Offs Ascenso" }
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
+            { season: "2023/24", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Granada C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2019/20", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Granada C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Granada C.F.", category: "2ª Div." },
+            { season: "2017/18", team: "Recreativo Granada", category: "2ª Div. B" },
+            { season: "2016/17", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" },
+            { season: "2015/16", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" },
+            { season: "2014/15", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" },
+            { season: "2013/14", team: "Málaga C.F.", category: "1ª Div." },
+            { season: "2013/14", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" }
         ],
         stats: {
             "2025/26": {
@@ -49,20 +49,20 @@ const playersData = {
         number: 1,
         image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
         career: [  // NUEVO CAMPO
-            { season: "2025/26", team: "Real Oviedo", category: "Primera División" },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª División" },
             { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
-            { season: "2024/25", team: "Atlético de Madrid", category: "Primera División" },
-            { season: "2023/24", team: "Atlético de Madrid", category: "Primera División - Champions League - Copa del Rey" },
+            { season: "2024/25", team: "Atlético de Madrid", category: "1ª División" },
+            { season: "2023/24", team: "Atlético de Madrid", category: "1ª División - Champions League - Copa del Rey" },
             { season: "2023/24", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
             { season: "2022/23", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
             { season: "2021/22", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2020/21", team: "F.C. Rapid Bucuresti", category: "Segunda Rumanía" },
+            { season: "2020/21", team: "F.C. Rapid Bucuresti", category: "2ª Rumanía" },
             { season: "2020/21", team: "F.C. UTA Arad", category: "Liga Rumana" },
-            { season: "2019/20", team: "F.C. Ripensia Timisoara ", category: "Segunda Rumanía" },
+            { season: "2019/20", team: "F.C. Ripensia Timisoara ", category: "2ª Rumanía" },
             { season: "2019/20", team: "A.C.S. Sepsi", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2018/19", team: "F.C. Ripensia Timisoara", category: "Segunda Rumanía" },
-            { season: "2018/19", team: "A.C.S. Energeticianul", category: "Segunda Rumanía - Copa Rumanía" },
-            { season: "2017/18", team: "F.C. Hermannstadt", category: "Segunda Rumanía - Copa Rumanía" }
+            { season: "2018/19", team: "F.C. Ripensia Timisoara", category: "2ª Rumanía" },
+            { season: "2018/19", team: "A.C.S. Energeticianul", category: "2ª Rumanía - Copa Rumanía" },
+            { season: "2017/18", team: "F.C. Hermannstadt", category: "2ª Rumanía - Copa Rumanía" }
             
         ],
         stats: {
@@ -82,6 +82,22 @@ const playersData = {
         role: "portero",
         number: 26,
         image: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", 
+        career: [  // NUEVO CAMPO
+            { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "C.D. Badajoz", category: "2ª Federación" },
+            { season: "2022/23", team: "C.D. Badajoz", category: "1ª Federación" },
+            { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación" },
+            { season: "2021/22", team: "C.D. Badajoz B", category: "Copa Federación Fase Autonómica - 3ª Federación" },
+            { season: "2020/21", team: "C.D. Badajoz U19", category: "División de Honor" },
+            { season: "2020/21", team: "C.D. Badajoz ", category: "2ª Div. B - 2ª Div. B Play Offs Ascenso - 2ª Div. B 2ª Fase Ascenso a 2ª" },
+            { season: "2020/21", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" },
+            { season: "2019/20", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" }
+            
+            
+        ],
         stats: {
             "2025/26": {
                 liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
