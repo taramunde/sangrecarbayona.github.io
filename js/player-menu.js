@@ -57,22 +57,27 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
     $('#stats').addClass('active');
     
     function loadPlayerSeasons() {
-        const player = playersData[currentPlayer];
-        if (!player || !player.stats) return;
-        
-        const seasonsMenu = $('.seasons-menu');
-        const seasons = Object.keys(player.stats).sort().reverse();
-        
-        seasonsMenu.find('.dropdown-option').remove();
-        
-        seasons.forEach(season => {
-            seasonsMenu.append(`<a href="#" class="dropdown-option" data-season="${season}">${season}</a>`);
-        });
-        
-        if (seasons.length > 0) {
-            selectedSeason = seasons[0];
-        }
+    const player = playersData[currentPlayer];
+    if (!player || !player.stats) return;
+
+    const seasonsMenu = $('.seasons-menu');
+    const seasons = Object.keys(player.stats).sort().reverse();
+
+    seasonsMenu.find('.dropdown-option').remove();
+
+    // --- CÓDIGO AÑADIDO ---
+    // Añade la opción para ver todas las temporadas juntas
+    seasonsMenu.append(`<a href="#" class="dropdown-option" data-season="Todos">Todas</a>`);
+    // --- FIN DEL CÓDIGO AÑADIDO ---
+
+    seasons.forEach(season => {
+        seasonsMenu.append(`<a href="#" class="dropdown-option" data-season="${season}">${season}</a>`);
+    });
+
+    if (seasons.length > 0) {
+        selectedSeason = seasons[0];
     }
+}
     
     function generateStatsHTML() {
         const player = playersData[currentPlayer];
@@ -142,52 +147,57 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
     }
     
     function calculateStats(season, competition) {
-        const player = playersData[currentPlayer];
-        if (!player || !player.stats || !player.stats[season]) {
-            if (player.role === 'portero') {
-                return { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-            } else if (player.role === 'jugador') {
-                return { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-            } else if (player.role === 'entrenador') {
-                return { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 };
-            }
-        }
-        
-        const seasonData = player.stats[season];
-        let totalStats = {};
-        
-        if (player.role === 'portero') {
-            totalStats = { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-        } else if (player.role === 'jugador') {
-            totalStats = { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
-        } else if (player.role === 'entrenador') {
-            totalStats = { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 };
-        }
-        
+    const player = playersData[currentPlayer];
+    if (!player || !player.stats) {
+        // Devuelve un objeto vacío si no hay datos
+        if (player.role === 'portero') return { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
+        if (player.role === 'jugador') return { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
+        if (player.role === 'entrenador') return { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 };
+    }
+
+    // Inicializa el objeto de estadísticas totales
+    let totalStats = {};
+    if (player.role === 'portero') {
+        totalStats = { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
+    } else if (player.role === 'jugador') {
+        totalStats = { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 };
+    } else if (player.role === 'entrenador') {
+        totalStats = { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 };
+    }
+
+    // --- LÓGICA MODIFICADA ---
+    const seasonsToCalculate = season === 'Todos' ? Object.keys(player.stats) : [season];
+
+    seasonsToCalculate.forEach(currentSeason => {
+        const seasonData = player.stats[currentSeason];
+        if (!seasonData) return; // Continúa si la temporada no existe en los datos
+
         if (competition === 'oficiales') {
-    // Sumar liga, copa y uefa (excluir amistosos)
-    Object.keys(seasonData).forEach(comp => {
-        if (comp !== 'amistosos') {
-            const compData = seasonData[comp];
+            Object.keys(seasonData).forEach(comp => {
+                if (comp !== 'amistosos') {
+                    const compData = seasonData[comp];
+                    Object.keys(totalStats).forEach(key => {
+                        totalStats[key] += compData[key] || 0;
+                    });
+                }
+            });
+        } else if (competition === 'todos') {
+            Object.keys(seasonData).forEach(comp => {
+                const compData = seasonData[comp];
+                Object.keys(totalStats).forEach(key => {
+                    totalStats[key] += compData[key] || 0;
+                });
+            });
+        } else if (seasonData[competition]) {
             Object.keys(totalStats).forEach(key => {
-                totalStats[key] += compData[key] || 0;
+                totalStats[key] += seasonData[competition][key] || 0;
             });
         }
     });
-} else if (competition === 'todos') {
-    // NUEVO: Sumar TODAS las competiciones (incluye amistosos)
-    Object.keys(seasonData).forEach(comp => {
-        const compData = seasonData[comp];
-        Object.keys(totalStats).forEach(key => {
-            totalStats[key] += compData[key] || 0;
-        });
-    });
-} else if (seasonData[competition]) {
-    totalStats = seasonData[competition];
+    // --- FIN DE LA LÓGICA MODIFICADA ---
+
+    return totalStats;
 }
-        
-        return totalStats;
-    }
     
     function updateStats() {
     const player = playersData[currentPlayer];
