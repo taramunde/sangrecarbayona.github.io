@@ -177,76 +177,15 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     background-color: #f8f8f8;
 }
 
-/* NUEVOS ESTILOS PARA ESTADÍSTICAS - REEMPLAZA LA SECCIÓN ANTERIOR DE stats-display */
+/* Estilos para la visualización de estadísticas */
 main .player-section .stats-display {
     margin-top: 20px;
-    color: #4a4a4a;
-}
-
-main .player-section .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    margin: 20px 0;
-}
-
-main .player-section .stat-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 12px 16px;
-    background: rgba(14, 14, 236, 0.05);
-    border-radius: 8px;
-    border: 1px solid rgba(14, 14, 236, 0.2);
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-main .player-section .stat-label {
-    font-weight: 500;
-    color: #4a4a4a;
-    font-size: 14px;
-}
-
-main .player-section .stat-value {
-    font-weight: bold;
-    color: #0e0eec;
-    font-size: 16px;
-    background: rgba(14, 14, 236, 0.1);
-    padding: 4px 12px;
-    border-radius: 20px;
-    min-width: 40px;
-    text-align: center;
-    border: 1px solid #0e0eec;
-}
-
-main .player-section .season-competition {
-    margin: 25px 0;
-    padding: 20px;
-    background: rgba(14, 14, 236, 0.02);
-    border-radius: 12px;
-    border: 1px solid rgba(14, 14, 236, 0.1);
-}
-
-main .player-section .season-competition h4,
-main .player-section .season-competition h5 {
-    color: #4a4a4a;
-    margin: 0 0 15px 0;
-    font-weight: 600;
-}
-
-main .player-section .season-competition h4 {
-    font-size: 18px;
-    border-bottom: 2px solid rgba(14, 14, 236, 0.2);
-    padding-bottom: 10px;
-    color: #0e0eec;
-}
-
-main .player-section .season-competition h5 {
-    font-size: 16px;
-    color: #4a4a4a;
-    margin-bottom: 12px;
-}
-
-/* Mantener estilos legacy para compatibilidad */
 main .player-section .stat-card {
     background: rgba(14, 14, 236, 0.1);
     border: 1px solid #0e0eec;
@@ -334,11 +273,6 @@ main .player-section .tarjeta.roja {
     }
     
     main .player-section .stats-display {
-        gap: 12px;
-    }
-    
-    main .player-section .stats-grid {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         gap: 12px;
     }
     
@@ -443,11 +377,6 @@ main .player-section .tarjeta.roja {
     
     main .player-section .stats-display {
         flex-direction: column;
-        gap: 10px;
-    }
-    
-    main .player-section .stats-grid {
-        grid-template-columns: 1fr;
         gap: 10px;
     }
     
