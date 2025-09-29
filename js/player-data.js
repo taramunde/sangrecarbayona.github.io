@@ -66,7 +66,7 @@ const playersData = {
         name: "Eric Bertrand Bailly",
         footballName: "Bailly",
         position: "Defensa",
-        role: "defensa",
+        role: "jugador",
         number: 2,
         image: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", 
         stats: {
