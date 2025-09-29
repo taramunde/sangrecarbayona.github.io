@@ -40,10 +40,11 @@ $(document).ready(function() {
 }
     
     // Cargar datos del jugador actual
-updatePlayerInfo();
-loadPlayerSeasons();
-generateStatsHTML();
-updateStats(); // Esto ya actualiza los botones con los valores iniciales
+    updatePlayerInfo();
+    loadPlayerSeasons();
+    generateStatsHTML();
+    updateStats(); 
+    loadCareerInfo();    
     
     // Resto de funciones exactamente como las tienes...
     $('.menu-tab').on('click', function() {
@@ -55,6 +56,31 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
     
     $('.menu-tab[data-tab="stats"]').addClass('active');
     $('#stats').addClass('active');
+
+    // Nueva función para cargar la trayectoria
+function loadCareerInfo() {
+    const player = playersData[currentPlayer];
+    if (!player || !player.career) {
+        $('#career').html('<p>No hay información de trayectoria disponible.</p>');
+        return;
+    }
+    
+    let careerHTML = '<div class="career-timeline">';
+    
+    player.career.forEach(item => {
+        careerHTML += `
+            <div class="career-item">
+                <span class="career-season">${item.season}</span>
+                <span class="career-team">${item.team}</span>
+                <span class="career-category">${item.category}</span>
+            </div>
+        `;
+    });
+    
+    careerHTML += '</div>';
+    
+    $('#career').html(careerHTML);
+}
     
     function loadPlayerSeasons() {
     const player = playersData[currentPlayer];
