@@ -203,8 +203,8 @@ updateStats(); // Esto ya actualiza los botones con los valores iniciales
     const player = playersData[currentPlayer];
     const stats = calculateStats(selectedSeason, selectedCompetition);
     
-    // Actualizar texto de los botones
-    $('#seasons-btn').text(selectedSeason);
+    // Actualizar texto de los botones (con lógica para "Todas")
+    $('#seasons-btn').text(selectedSeason === 'Todos' ? 'Todas' : selectedSeason);
     $('#competitions-btn').text(getCompetitionDisplayName(selectedCompetition));
 
        // --- CÓDIGO A AÑADIR ---
