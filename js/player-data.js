@@ -60,28 +60,11 @@ const playersData = {
                 amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
-    },
-    
-    "bailly": {
-        name: "Eric Bertrand Bailly",
-        footballName: "Bailly",
-        position: "Defensa",
-        role: "defensa",
-        number: 2,
-        image: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", 
-        stats: {
-            "2025/26": {
-                liga: { partidos: 6, goles: 0, asistencias: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles: 0, asistencias: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles: 0, asistencias: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 0, goles: 0, asistencias: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2024/25": {
-                liga: { partidos: 30, goles: 2, asistencias: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
-                copa: { partidos: 2, goles: 0, asistencias: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles: 0, asistencias: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 3, goles: 1, asistencias: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            }
-        }
     }
+
+    
+
+    
+    
 };
+
