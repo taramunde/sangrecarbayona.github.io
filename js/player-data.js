@@ -49,10 +49,21 @@ const playersData = {
         number: 1,
         image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
         career: [  // NUEVO CAMPO
-            { season: "2025/26 - Actualidad", team: "Real Oviedo", category: "Segunda División" },
+            { season: "2025/26", team: "Real Oviedo", category: "Primera División" },
+            { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
             { season: "2024/25", team: "Atlético de Madrid", category: "Primera División" },
-            { season: "2023/24", team: "Atlético de Madrid", category: "Primera División" },
-            { season: "2022/23", team: "Rapid Bucarest", category: "Liga I (Rumanía)" }
+            { season: "2023/24", team: "Atlético de Madrid", category: "Primera División - Champions League - Copa del Rey" },
+            { season: "2023/24", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2022/23", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2021/22", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2020/21", team: "F.C. Rapid Bucuresti", category: "Segunda Rumanía" },
+            { season: "2020/21", team: "F.C. UTA Arad", category: "Liga Rumana" },
+            { season: "2019/20", team: "F.C. Ripensia Timisoara ", category: "Segunda Rumanía" },
+            { season: "2019/20", team: "A.C.S. Sepsi", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2018/19", team: "F.C. Ripensia Timisoara", category: "Segunda Rumanía" },
+            { season: "2018/19", team: "A.C.S. Energeticianul", category: "Segunda Rumanía - Copa Rumanía" },
+            { season: "2017/18", team: "F.C. Hermannstadt", category: "Segunda Rumanía - Copa Rumanía" }
+            
         ],
         stats: {
             "2025/26": {
