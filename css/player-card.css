@@ -123,6 +123,31 @@ main .player-section .player-card .player-card-logo {
     border: none !important; /* Sin borde */
 }
 
+.player-card-crepe {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 60px;
+    background: linear-gradient(180deg, #1a1a1a 0%, #000 100%);
+    border: 2px solid #333;
+    border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    z-index: 5;
+    opacity: 0.9;
+}
+
+.player-card-crepe::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 2px;
+    background: #666;
+}
+
 /* Responsive: Para pantallas medianas (tablets, 600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-card {
