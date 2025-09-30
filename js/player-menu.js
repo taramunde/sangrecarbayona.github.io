@@ -395,18 +395,20 @@ function getCompetitionDisplayName(competition) {
     }
 
     const data = player.personalData;
-    let personalDataHTML = '<ul>';
+    // Usaremos un div contenedor para tener más control sobre el estilo
+    let personalDataHTML = '<div class="personal-data-grid">';
 
-    if (data.fullName) personalDataHTML += `<li><strong>Nombre completo:</strong> ${data.fullName}</li>`;
-    if (data.nickname) personalDataHTML += `<li><strong>Apodo:</strong> ${data.nickname}</li>`;
-    if (data.birthPlace) personalDataHTML += `<li><strong>Lugar de Nacimiento:</strong> ${data.birthPlace}</li>`;
-    if (data.country) personalDataHTML += `<li><strong>País:</strong> ${data.country}</li>`;
-    if (data.nationality) personalDataHTML += `<li><strong>Nacionalidad:</strong> ${data.nationality}</li>`;
-    if (data.height) personalDataHTML += `<li><strong>Altura:</strong> ${data.height}</li>`;
-    if (data.birthDate) personalDataHTML += `<li><strong>Fecha de Nacimiento:</strong> ${data.birthDate}</li>`;
-    if (data.deathDate) personalDataHTML += `<li><strong>Fecha de Fallecimiento:</strong> ${data.deathDate}</li>`;
+    // Cada dato será un 'data-item' con una etiqueta y un valor
+    if (data.fullName) personalDataHTML += `<div class="data-item"><span class="data-label">Nombre completo</span><span class="data-value">${data.fullName}</span></div>`;
+    if (data.nickname) personalDataHTML += `<div class="data-item"><span class="data-label">Apodo</span><span class="data-value">${data.nickname}</span></div>`;
+    if (data.birthPlace) personalDataHTML += `<div class="data-item"><span class="data-label">Lugar de Nacimiento</span><span class="data-value">${data.birthPlace}</span></div>`;
+    if (data.country) personalDataHTML += `<div class="data-item"><span class="data-label">País</span><span class="data-value">${data.country}</span></div>`;
+    if (data.nationality) personalDataHTML += `<div class="data-item"><span class="data-label">Nacionalidad</span><span class="data-value">${data.nationality}</span></div>`;
+    if (data.height) personalDataHTML += `<div class="data-item"><span class="data-label">Altura</span><span class="data-value">${data.height}</span></div>`;
+    if (data.birthDate) personalDataHTML += `<div class="data-item"><span class="data-label">F. Nacimiento</span><span class="data-value">${data.birthDate}</span></div>`;
+    if (data.deathDate) personalDataHTML += `<div class="data-item"><span class="data-label">F. Fallecimiento</span><span class="data-value">${data.deathDate}</span></div>`;
 
-    personalDataHTML += '</ul>';
+    personalDataHTML += '</div>';
     $('#personal-data').html(personalDataHTML);
 }
 });
