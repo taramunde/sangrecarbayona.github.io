@@ -274,6 +274,25 @@ main .player-section .career-category {
     font-style: italic;
 }
 
+/* Estilos para trayectoria con selección nacional */
+main .player-section .national-team-item {
+    background: rgba(128, 0, 32, 0.05);  /* Fondo granate suave */
+    border-left: 3px solid #800020;  /* Borde granate */
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.3s;
+}
+
+main .player-section .national-team-item:hover {
+    background: rgba(128, 0, 32, 0.1);
+    transform: translateX(5px);
+}
+
+main .player-section .national-team-item .career-season {
+    color: #800020;  /* Color granate para la temporada */
+}
+
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
@@ -349,6 +368,11 @@ main .player-section .career-category {
     
     main .player-section .career-category {
         font-size: 12px;
+    }
+
+    main .player-section .national-team-item {
+        padding: 10px 12px;
+        margin-bottom: 8px;
     }
     
     main .player-section .player-menu {
