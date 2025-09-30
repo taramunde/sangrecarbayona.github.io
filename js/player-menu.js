@@ -377,4 +377,27 @@ function getCompetitionDisplayName(competition) {
             }
         });
     });
+
+    function loadPersonalData() {
+    const player = playersData[currentPlayer];
+    if (!player || !player.personalData) {
+        $('#personal-data').html('<p>No hay datos personales disponibles.</p>');
+        return;
+    }
+
+    const data = player.personalData;
+    let personalDataHTML = '<ul>';
+
+    if (data.fullName) personalDataHTML += `<li><strong>Nombre completo:</strong> ${data.fullName}</li>`;
+    if (data.nickname) personalDataHTML += `<li><strong>Apodo:</strong> ${data.nickname}</li>`;
+    if (data.birthPlace) personalDataHTML += `<li><strong>Lugar de Nacimiento:</strong> ${data.birthPlace}</li>`;
+    if (data.country) personalDataHTML += `<li><strong>País:</strong> ${data.country}</li>`;
+    if (data.nationality) personalDataHTML += `<li><strong>Nacionalidad:</strong> ${data.nationality}</li>`;
+    if (data.height) personalDataHTML += `<li><strong>Altura:</strong> ${data.height}</li>`;
+    if (data.birthDate) personalDataHTML += `<li><strong>Fecha de Nacimiento:</strong> ${data.birthDate}</li>`;
+    if (data.deathDate) personalDataHTML += `<li><strong>Fecha de Fallecimiento:</strong> ${data.deathDate}</li>`;
+
+    personalDataHTML += '</ul>';
+    $('#personal-data').html(personalDataHTML);
+}
 });
