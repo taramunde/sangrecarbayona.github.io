@@ -97,6 +97,78 @@ function loadCareerInfo() {
     
     $('#career').html(careerHTML);
 }
+
+    // Cargar datos personales
+loadPersonalData();
+
+// Función para cargar datos personales
+function loadPersonalData() {
+    const player = playersData[currentPlayer];
+    if (!player || !player.personalData) {
+        $('#personal').html('<p>No hay información personal disponible.</p>');
+        return;
+    }
+    
+    const data = player.personalData;
+    let html = '<div class="personal-data-container">';
+    
+    html += `<div class="personal-item">
+        <span class="personal-label">Nombre completo:</span>
+        <span class="personal-value">${data.fullName}</span>
+    </div>`;
+    
+    if (data.nickname) {
+        html += `<div class="personal-item">
+            <span class="personal-label">Apodo:</span>
+            <span class="personal-value">${data.nickname}</span>
+        </div>`;
+    }
+    
+    if (data.birthPlace) {
+        html += `<div class="personal-item">
+            <span class="personal-label">Lugar de nacimiento:</span>
+            <span class="personal-value">${data.birthPlace}</span>
+        </div>`;
+    }
+    
+    if (data.country) {
+        html += `<div class="personal-item">
+            <span class="personal-label">País:</span>
+            <span class="personal-value">${data.country}</span>
+        </div>`;
+    }
+    
+    if (data.nationalities && data.nationalities.length > 0) {
+        html += `<div class="personal-item">
+            <span class="personal-label">Nacionalidad${data.nationalities.length > 1 ? 'es' : ''}:</span>
+            <span class="personal-value">${data.nationalities.join(', ')}</span>
+        </div>`;
+    }
+    
+    if (data.height) {
+        html += `<div class="personal-item">
+            <span class="personal-label">Altura:</span>
+            <span class="personal-value">${data.height}</span>
+        </div>`;
+    }
+    
+    if (data.birthDate) {
+        html += `<div class="personal-item">
+            <span class="personal-label">Fecha de nacimiento:</span>
+            <span class="personal-value">${data.birthDate}</span>
+        </div>`;
+    }
+    
+    if (data.deceased && data.deathDate) {
+        html += `<div class="personal-item deceased">
+            <span class="personal-label">Fecha de fallecimiento:</span>
+            <span class="personal-value">${data.deathDate} ✝</span>
+        </div>`;
+    }
+    
+    html += '</div>';
+    $('#personal').html(html);
+}
     
     function loadPlayerSeasons() {
     const player = playersData[currentPlayer];
