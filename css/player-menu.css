@@ -293,6 +293,36 @@ main .player-section .national-team-item .career-season {
     color: #800020;  /* Color granate para la temporada */
 }
 
+.personal-data-container {
+    padding: 20px;
+}
+
+.personal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0, 65, 166, 0.2);
+}
+
+.personal-item:last-child {
+    border-bottom: none;
+}
+
+.personal-label {
+    font-weight: 600;
+    color: #0041a6;
+}
+
+.personal-value {
+    text-align: right;
+    color: #333;
+}
+
+.personal-item.deceased .personal-value {
+    color: #666;
+    font-style: italic;
+}
+
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
