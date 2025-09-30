@@ -1,8 +1,7 @@
 // js/players.js
 
-// El objeto allPlayersData se mantiene exactamente igual que lo tenías
 const allPlayersData = {
-    "2025-26": {
+    "2025-26": { // Temporada actual
         goalkeepers: [
             { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero 1", number: "13", name: "Aarón", url: "fichajugador.html?player=aaron" },
             { src: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", alt: "Portero 2", number: "1", name: "Moldovan", url: "fichajugador.html?player=moldovan" },
@@ -49,7 +48,8 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 1", number: "-", name: "Paunović", url: "#" }
         ]
     },
-    "2024-25": {
+    
+    "2024-25": { // Temporada 2024-25
         goalkeepers: [
             { src: "https://i.postimg.cc/wxsLQXj0/Quentin-Braat-PNG.webp", alt: "Portero 1", number: "1", name: "Quentin Braat", url: "#" },
             { src: "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp", alt: "Portero 2", number: "13", name: "Aarón", url: "#" },
@@ -103,7 +103,8 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp", alt: "Entrenador 2", number: "-", name: "Paunović", url: "#" }
         ]
     },
-    "2023-24": {
+
+    "2023-24": { // Temporada 2023-24
         goalkeepers: [
             { src: "https://i.postimg.cc/wxsLQXj0/Quentin-Braat-PNG.webp", alt: "Portero 1", number: "1", name: "Quentin Braat", url: "#" },
             { src: "https://i.postimg.cc/mDmMpjF5/Leo_Román_PNG.webp", alt: "Portero 2", number: "31", name: "Leo Román", url: "#" },
@@ -114,7 +115,7 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/LsWsgPtP/Mario_Hernández_PNG.webp", alt: "Defensa 1", number: "2", name: "Mario Hernández", url: "#" },
             { src: "https://i.postimg.cc/SQvGQ1YQ/Rodri_Tarín_PNG.webp", alt: "Defensa 2", number: "3", name: "Rodri Tarín", url: "#" },
             { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
-            { src: "https://i.postimg.cc/Wb0spKY0/Dani-Calvo-PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
+            { src: "https://i.postimg.cc/Wb0spKY0/Dani_Calvo_PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
             { src: "https://i.postimg.cc/YqQmcd1s/Luengo_PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
             { src: "https://i.postimg.cc/yN4Q1Q53/Pomares_PNG.webp", alt: "Defensa 6", number: "21", name: "Pomares", url: "#" },
             { src: "https://i.postimg.cc/7LbTGw25/Abel-Bretones-PNG.webp", alt: "Defensa 7", number: "23", name: "Abel Bretones", url: "#" },
@@ -130,14 +131,14 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/qMxTnKsF/Jimmy_PNG.webp", alt: "Centrocampista 2", number: "6", name: "Jimmy", url: "#" },
             { src: "https://i.postimg.cc/3rDLPHWC/Viti_PNG.webp", alt: "Centrocampista 3", number: "7", name: "Viti", url: "#" },
             { src: "https://i.postimg.cc/sxFrP9Hk/Javi_Mier_PNG.webp", alt: "Centrocampista 4", number: "8", name: "Javi Mier", url: "#" },
-            { src: "https://i.postimg.cc/6qQmv7tk/Santi_Cazorla-PNG.webp", alt: "Centrocampista 5", number: "8", name: "Santi Cazorla", url: "#" },
+            { src: "https://i.postimg.cc/6qQmv7tk/Santi_Cazorla_PNG.webp", alt: "Centrocampista 5", number: "8", name: "Santi Cazorla", url: "#" },
             { src: "https://i.postimg.cc/zfq09L69/Camarasa_PNG.webp", alt: "Centrocampista 6", number: "10", name: "Camarasa", url: "#" },
             { src: "https://i.postimg.cc/j51VxQrW/Hugo_Rama_PNG.webp", alt: "Centrocampista 7", number: "11", name: "Hugo Rama", url: "#" },
-            { src: "https://i.postimg.cc/R08GqPNz/Colombatto-PNG.webp", alt: "Centrocampista 8", number: "11", name: "Colombatto", url: "#" },
+            { src: "https://i.postimg.cc/R08GqPNz/Colombatto_PNG.webp", alt: "Centrocampista 8", number: "11", name: "Colombatto", url: "#" },
             { src: "https://i.postimg.cc/Tw1MvNBM/Homenchenko_PNG.webp", alt: "Centrocampista 9", number: "13", name: "Homenchenko", url: "#" },
             { src: "https://i.postimg.cc/HLCvtvT4/Seoane-PNG.webp", alt: "Centrocampista 10", number: "16", name: "Seoane", url: "#" },
-            { src: "https://i.postimg.cc/GhV54hNf/Sebas_Moyano-PNG.webp", alt: "Centrocampista 11", number: "17", name: "Sebas Moyano", url: "#" },
-            { src: "https://i.postimg.cc/SxkLgnn3/Paulino-PNG.webp", alt: "Centrocampista 12", number: "18", name: "Paulino", url: "#" },
+            { src: "https://i.postimg.cc/GhV54hNf/Sebas_Moyano_PNG.webp", alt: "Centrocampista 11", number: "17", name: "Sebas Moyano", url: "#" },
+            { src: "https://i.postimg.cc/SxkLgnn3/Paulino_PNG.webp", alt: "Centrocampista 12", number: "18", name: "Paulino", url: "#" },
             { src: "https://i.postimg.cc/4dQDtkt9/Romario_Ibarra_PNG.webp", alt: "Centrocampista 13", number: "22", name: "Romario Ibarra", url: "#" },
             { src: "https://i.postimg.cc/v82kfvkD/Borja_Sánchez_PNG.webp", alt: "Centrocampista 14", number: "25", name: "Borja Sánchez", url: "#" },
             { src: "https://i.postimg.cc/dV30nntX/lex-Cardero-PNG.webp", alt: "Centrocampista 15", number: "32", name: "Álex Cardero", url: "#" },
@@ -181,15 +182,6 @@ function updatePlayerGallery(position) {
     const players = allPlayersData[currentSeason][position];
     const currentIndex = currentIndices[position];
 
-    if (!players || players.length === 0) {
-        // Ocultar la sección si no hay jugadores
-        document.querySelector(`.players-section[data-position="${position}"]`).style.display = 'none';
-        return;
-    } else {
-        // Asegurarse de que la sección esté visible si hay jugadores
-        document.querySelector(`.players-section[data-position="${position}"]`).style.display = 'block';
-    }
-
     let mainPlayerHTML = `
         <div class="player-card">
             <img class="main-player" data-position="${position}" src="${players[currentIndex].src}" alt="${players[currentIndex].alt}">
@@ -229,35 +221,20 @@ function updatePlayerGallery(position) {
     const prevButton = document.querySelector(`.prev-button[data-position="${position}"]`);
     const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
     if (prevButton) prevButton.disabled = currentIndex === 0;
-    if (nextButton) nextButton.disabled = currentIndex >= players.length - 1;
+    if (nextButton) nextButton.disabled = currentIndex === players.length - 1;
 }
 
 function initGalleries() {
-    // 1. OBTENER LA TEMPORADA DESDE LA URL
-    const urlParams = new URLSearchParams(window.location.search);
-    let seasonFromUrl = urlParams.get('season'); // ej: "2024-25"
-
-    // Si no hay temporada en la URL o no existe en los datos, usar la primera como defecto
-    const defaultSeason = Object.keys(allPlayersData)[0];
-    currentSeason = (seasonFromUrl && allPlayersData[seasonFromUrl]) ? seasonFromUrl : defaultSeason;
-
-    // 2. ACTUALIZAR TÍTULOS EN LA PÁGINA
-    const seasonDisplay = currentSeason.replace('-', '/');
-    const titleElement = document.querySelector('.plantilla-title h1');
-    const buttonElement = document.getElementById('season-button');
-
-    if (titleElement) {
-        titleElement.textContent = seasonDisplay;
-    }
-    if (buttonElement) {
-        buttonElement.innerHTML = `${seasonDisplay} <span class="arrow">▼</span>`;
+    // Obtener la temporada del atributo data-season del body
+    const body = document.body;
+    currentSeason = body.getAttribute('data-season');
+    
+    if (!currentSeason || !allPlayersData[currentSeason]) {
+        console.error('No se ha especificado una temporada válida en el body de la página.');
+        return;
     }
 
-    // 3. INICIALIZAR GALERÍAS Y NAVEGACIÓN
-    Object.keys(allPlayersData[defaultSeason]).forEach(position => {
-        // Reiniciar índices al cambiar de temporada
-        currentIndices[position] = 0;
-        
+    Object.keys(allPlayersData[currentSeason]).forEach(position => {
         const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
         if (!gallery) {
             console.error(`No se encontró .players-gallery para ${position}`);
@@ -270,9 +247,7 @@ function initGalleries() {
         const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
         
         if (prevButton) {
-            // Eliminar listeners antiguos para evitar duplicados
-            prevButton.replaceWith(prevButton.cloneNode(true));
-            document.querySelector(`.prev-button[data-position="${position}"]`).addEventListener("click", () => {
+            prevButton.addEventListener("click", () => {
                 if (currentIndices[position] > 0) {
                     currentIndices[position]--;
                     updatePlayerGallery(position);
@@ -280,9 +255,7 @@ function initGalleries() {
             });
         }
         if (nextButton) {
-            // Eliminar listeners antiguos
-            nextButton.replaceWith(nextButton.cloneNode(true));
-            document.querySelector(`.next-button[data-position="${position}"]`).addEventListener("click", () => {
+            nextButton.addEventListener("click", () => {
                 if (currentIndices[position] < allPlayersData[currentSeason][position].length - 1) {
                     currentIndices[position]++;
                     updatePlayerGallery(position);
