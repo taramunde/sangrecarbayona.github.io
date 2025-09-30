@@ -7,16 +7,6 @@ const playersData = {
         role: "portero",
         number: 13,
         image: "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
-    personalData: {
-        fullName: "Aarón Escandell Banacloche",
-        nickname: "Aarón",
-        birthPlace: "Carcagente - Valencia",
-        country: "España",
-        nationalities: ["Española"],
-        height: "1,84 m",
-        birthDate: "27/09/1995",
-        deceased: false
-    },
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
