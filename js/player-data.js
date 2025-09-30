@@ -111,6 +111,16 @@ const playersData = {
         role: "portero",
         number: 26,
         image: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", 
+    personalData: {
+        fullName: "Miguel de Jesús Narváez López",
+        nickname: "Narváez",
+        birthPlace: "Badajoz, Badajoz",
+        country: "España",
+        nationality: "Española",
+        height: "1,88 m",
+        birthDate: "29/04/2002",
+        deathDate: null // Poner null si el jugador está vivo
+    },
         career: [  
             { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
