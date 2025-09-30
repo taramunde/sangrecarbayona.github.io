@@ -123,6 +123,21 @@ main .player-section .player-card .player-card-logo {
     border: none !important; /* Sin borde */
 }
 
+/* Estilos para el crespón negro */
+main .player-section .player-card .black-ribbon-container {
+    position: absolute;
+    top: 50%;
+    right: 120px; /* Ajusta este valor para colocarlo a la izquierda del logo */
+    transform: translateY(-50%);
+    z-index: 2; /* Por encima del logo */
+    display: none; /* Oculto por defecto */
+}
+
+main .player-section .player-card .black-ribbon-img {
+    width: 45px; /* Tamaño del crespón */
+    height: auto;
+}
+
 /* Responsive: Para pantallas medianas (tablets, 600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-card {
@@ -179,6 +194,13 @@ main .player-section .player-card .player-card-logo {
     }
     main .player-section .player-card .player-card-logo {
         width: 72px; /* Reducido: 60% de 120px (imagen del jugador) */
+    }
+
+    main .player-section .player-card .black-ribbon-container {
+        right: 95px; /* Ajuste para tablets */
+    }
+    main .player-section .player-card .black-ribbon-img {
+        width: 36px;
     }
 }
 
@@ -261,5 +283,12 @@ main .player-section .player-card .player-card-logo {
     main .player-section .player-card .player-card-logo {
         width: 66px;
         height: auto;
+    }
+
+    main .player-section .player-card .black-ribbon-container {
+        right: 80px; /* Ajuste para móviles */
+    }
+    main .player-section .player-card .black-ribbon-img {
+        width: 33px;
     }
 }
