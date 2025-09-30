@@ -65,6 +65,14 @@ const playersData = {
             { season: "2017/18", team: "F.C. Hermannstadt", category: "2ª Rumanía - Copa Rumanía" }
             
         ],
+        nationalTeam: [
+            { season: "2025", team: "Rumanía", category: "Clasificación Mundial Europa - Amistosos" },
+            { season: "2024", team: "Rumanía", category: "Eurocopa - Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2023", team: "Rumanía", category: "Clasificación Eurocopa" },
+            { season: "2022", team: "Rumanía", category: "Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2021", team: "Rumanía", category: "Clasificación Mundial Europa" },
+            { season: "2023", team: "Rumanía Sub-21", category: "Clasificación Europeo U21" }
+        ],    
         stats: {
             "2025/26": {
                 liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
