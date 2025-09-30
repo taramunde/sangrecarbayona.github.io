@@ -60,22 +60,38 @@ $(document).ready(function() {
     // Nueva función para cargar la trayectoria
 function loadCareerInfo() {
     const player = playersData[currentPlayer];
-    if (!player || !player.career) {
+    if (!player || (!player.career && !player.nationalTeam)) {
         $('#career').html('<p>No hay información de trayectoria disponible.</p>');
         return;
     }
     
     let careerHTML = '<div class="career-timeline">';
     
-    player.career.forEach(item => {
-        careerHTML += `
-            <div class="career-item">
-                <span class="career-season">${item.season}</span>
-                <span class="career-team">${item.team}</span>
-                <span class="career-category">${item.category}</span>
-            </div>
-        `;
-    });
+    // Cargar trayectoria de clubes
+    if (player.career && player.career.length > 0) {
+        player.career.forEach(item => {
+            careerHTML += `
+                <div class="career-item">
+                    <span class="career-season">${item.season}</span>
+                    <span class="career-team">${item.team}</span>
+                    <span class="career-category">${item.category}</span>
+                </div>
+            `;
+        });
+    }
+    
+    // Cargar trayectoria con selección nacional
+    if (player.nationalTeam && player.nationalTeam.length > 0) {
+        player.nationalTeam.forEach(item => {
+            careerHTML += `
+                <div class="career-item national-team-item">
+                    <span class="career-season">${item.season}</span>
+                    <span class="career-team">${item.team}</span>
+                    <span class="career-category">${item.category}</span>
+                </div>
+            `;
+        });
+    }
     
     careerHTML += '</div>';
     
