@@ -37,6 +37,14 @@ $(document).ready(function() {
     } else {
         $('.player-card-number').hide(); // Para entrenadores
     }
+
+    // LÓGICA AÑADIDA PARA EL CRESPÓN
+    if (player.personalData && player.personalData.deathDate) {
+    $('.black-ribbon-container').show();
+    } else {
+    $('.black-ribbon-container').hide();
+   }
+
 }
     
     // Cargar datos del jugador actual
@@ -44,7 +52,8 @@ $(document).ready(function() {
     loadPlayerSeasons();
     generateStatsHTML();
     updateStats(); 
-    loadCareerInfo();    
+    loadCareerInfo(); 
+    loadPersonalData();
     
     // Resto de funciones exactamente como las tienes...
     $('.menu-tab').on('click', function() {
