@@ -37,6 +37,12 @@ $(document).ready(function() {
     } else {
         $('.player-card-number').hide(); // Para entrenadores
     }
+        
+}
+    // Mostrar u ocultar crespón
+$('.player-card-crepe').remove(); // Eliminar si existe
+if (player.personalData && player.personalData.deceased) {
+    $('.player-card-logo-container').before('<div class="player-card-crepe"></div>');
 }
     
     // Cargar datos del jugador actual
