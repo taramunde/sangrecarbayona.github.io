@@ -59,6 +59,16 @@ const playersData = {
         role: "portero",
         number: 1,
         image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
+    personalData: {
+        fullName: "Horațiu Alexandru Moldovan",
+        nickname: "Moldovan",
+        birthPlace: "Cluj-Napoca, Transilvania",
+        country: "Rumanía",
+        nationality: "Rumana",
+        height: "1,86 m",
+        birthDate: "20/01/1998",
+        deathDate: null // Poner null si el jugador está vivo
+    },
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª División" },
             { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
