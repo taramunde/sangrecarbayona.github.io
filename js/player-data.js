@@ -13,7 +13,7 @@ const playersData = {
         birthPlace: "Carcagente, Valencia",
         country: "España",
         nationality: "Española",
-        height: "1,88 m",
+        height: "1,84 m",
         birthDate: "27/09/1995",
         deathDate: null // Poner null si el jugador está vivo
     },
