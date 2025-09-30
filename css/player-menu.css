@@ -293,6 +293,37 @@ main .player-section .national-team-item .career-season {
     color: #800020;  /* Color granate para la temporada */
 }
 
+/* Estilos para la sección de Datos Personales */
+main .player-section .personal-data-grid {
+    padding: 10px 5px;
+}
+
+main .player-section .data-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(14, 14, 236, 0.15); /* Línea divisoria sutil con el color del tema */
+    font-size: 15px;
+}
+
+main .player-section .data-item:last-child {
+    border-bottom: none; /* Quitar la línea del último elemento */
+}
+
+main .player-section .data-label {
+    font-weight: bold;
+    color: #4a4a4a; /* Color principal del texto */
+    margin-right: 15px;
+    flex-shrink: 0; /* Evita que la etiqueta se comprima si el valor es largo */
+}
+
+main .player-section .data-value {
+    color: #0e0eec; /* Color azul del tema para el valor */
+    text-align: right;
+    font-weight: 500;
+}
+
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
@@ -348,6 +379,8 @@ main .player-section .national-team-item .career-season {
     main .player-section .stat-number {
         font-size: 22px;
     }
+
+    
 }
 
 /* Responsive: Móviles (<600px) */
@@ -487,5 +520,16 @@ main .player-section .national-team-item .career-season {
     main .player-section .tarjeta {
         padding: 8px 12px;
         font-size: 18px;
+    }
+
+    main .player-section .data-item {
+        flex-direction: column; /* En móvil, la etiqueta se pone encima del valor */
+        align-items: flex-start; /* Alineamos todo a la izquierda */
+        gap: 4px; /* Pequeño espacio entre etiqueta y valor */
+        padding: 12px 0;
+    }
+
+    main .player-section .data-value {
+        text-align: left; /* Alineamos el valor a la izquierda también */
     }
 }
