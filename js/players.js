@@ -108,7 +108,7 @@ const allPlayersData = {
         goalkeepers: [
             { src: "https://i.postimg.cc/wxsLQXj0/Quentin-Braat-PNG.webp", alt: "Portero 1", number: "1", name: "Quentin Braat", url: "fichajugador.html?player=quentinbraat" },
             { src: "https://i.postimg.cc/mDmMpjF5/Leo_Román_PNG.webp", alt: "Portero 2", number: "31", name: "Leo Román", url: "fichajugador.html?player=leoroman" },
-            { src: "https://i.postimg.cc/yxJJQHKD/Marco_PNG.webp", alt: "Portero 3", number: "-", name: "Marco", url: "fichajugador.html?player=marco" },
+            { src: "https://i.postimg.cc/yxJJQHKD/Marco_PNG.webp", alt: "Portero 3", number: "26", name: "Marco", url: "fichajugador.html?player=marco" },
             { src: "https://i.postimg.cc/tRh7g2TQ/Victor-Egboh-PNG.webp", alt: "Portero 4", number: "-", name: "Victor Egboh", url: "fichajugador.html?player=victoregboh" }
         ],
         defenders: [
@@ -165,19 +165,18 @@ const allPlayersData = {
     "2022-23": { // Temporada 2022-23
         goalkeepers: [
             { src: "https://i.postimg.cc/wxsLQXj0/Quentin-Braat-PNG.webp", alt: "Portero 1", number: "1", name: "Quentin Braat", url: "#" },
-            { src: "https://i.postimg.cc/mDmMpjF5/Leo_Román_PNG.webp", alt: "Portero 2", number: "31", name: "Leo Román", url: "#" },
-            { src: "https://i.postimg.cc/yxJJQHKD/Marco_PNG.webp", alt: "Portero 3", number: "-", name: "Marco", url: "#" },
-            { src: "https://i.postimg.cc/tRh7g2TQ/Victor-Egboh-PNG.webp", alt: "Portero 4", number: "-", name: "Victor Egboh", url: "#" }
+            { src: "https://i.postimg.cc/FK81Y63m/Tomeu-Nadal-PNG.webp", alt: "Portero 2", number: "13", name: "Tomeu Nadal", url: "#" },
+            { src: "https://i.postimg.cc/yxJJQHKD/Marco_PNG.webp", alt: "Portero 3", number: "26", name: "Marco", url: "#" }
         ],
         defenders: [
-            { src: "https://i.postimg.cc/LsWsgPtP/Mario_Hernández_PNG.webp", alt: "Defensa 1", number: "2", name: "Mario Hernández", url: "#" },
+            { src: "https://i.postimg.cc/Wzwj8qkX/Miguel-n-PNG.webp", alt: "Defensa 1", number: "2", name: "Miguelón", url: "#" },
             { src: "https://i.postimg.cc/SQvGQ1YQ/Rodri_Tarín_PNG.webp", alt: "Defensa 2", number: "3", name: "Rodri Tarín", url: "#" },
             { src: "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp", alt: "Defensa 3", number: "4", name: "David Costas", url: "#" },
             { src: "https://i.postimg.cc/Wb0spKY0/Dani_Calvo_PNG.webp", alt: "Defensa 4", number: "12", name: "Dani Calvo", url: "#" },
             { src: "https://i.postimg.cc/YqQmcd1s/Luengo_PNG.webp", alt: "Defensa 5", number: "15", name: "Luengo", url: "#" },
-            { src: "https://i.postimg.cc/yN4Q1Q53/Pomares_PNG.webp", alt: "Defensa 6", number: "21", name: "Pomares", url: "#" },
-            { src: "https://i.postimg.cc/7LbTGw25/Abel-Bretones-PNG.webp", alt: "Defensa 7", number: "23", name: "Abel Bretones", url: "#" },
-            { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Defensa 8", number: "24", name: "Lucas", url: "#" },
+            { src: "https://i.postimg.cc/7Pg33Pfc/Alonso-Aceves-PNG.webp", alt: "Defensa 6", number: "17", name: "Alonso Aceves", url: "#" },
+            { src: "https://i.postimg.cc/yN4Q1Q53/Pomares-PNG.webp", alt: "Defensa 7", number: "21", name: "Pomares", url: "#" },
+            { src: "https://i.postimg.cc/dthTWq1w/Jorge-Mier-PNG.webp", alt: "Defensa 8", number: "22", name: "Jorge Mier", url: "#" },
             { src: "https://i.postimg.cc/KjdChGhC/Charbel-PNG.webp", alt: "Defensa 9", number: "29", name: "Charbel", url: "#" },
             { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 10", number: "30", name: "Marco Esteban", url: "#" },
             { src: "https://i.postimg.cc/fbJ7mx9j/Aimar-Collante-PNG.webp", alt: "Defensa 11", number: "33", name: "Aimar Collante", url: "#" },
