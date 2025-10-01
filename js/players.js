@@ -204,18 +204,20 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/9FZGBm0K/Nnoshiri-PNG.webp", alt: "Centrocampista 17", number: "-", name: "Nnoshiri", url: "#" }
         ],
         forwards: [
-            { src: "https://i.postimg.cc/3rfTZGWf/Borja-Bast-n-PNG.webp", alt: "Delantero 1", number: "9", name: "Borja Bastón", url: "#" },
-            { src: "https://i.postimg.cc/KcPTkZzY/Alem-o-PNG.webp", alt: "Delantero 2", number: "14", name: "Alemão", url: "#" },
-            { src: "https://i.postimg.cc/6pm4JqHM/lex-Mill-n-PNG.webp", alt: "Delantero 3", number: "19", name: "Álex Millán", url: "#" },
-            { src: "https://i.postimg.cc/R0tYw3y8/Masca-PNG.webp", alt: "Delantero 4", number: "20", name: "Masca", url: "#" },
-            { src: "https://i.postimg.cc/R02PFM0R/Dubasin-PNG.webp", alt: "Delantero 5", number: "22", name: "Dubasin", url: "#" },
-            { src: "https://i.postimg.cc/TYQCbjwh/Enol-PNG.webp", alt: "Delantero 6", number: "27", name: "Enol", url: "#" },
-            { src: "https://i.postimg.cc/2y305Pxm/Ses-PNG.webp", alt: "Delantero 7", number: "28", name: "Sesé", url: "#" },
-            { src: "https://i.postimg.cc/kXjLCPWj/Mario-Fuente-PNG.webp", alt: "Delantero 8", number: "-", name: "Mario Fuente", url: "#" }
+            { src: "https://i.postimg.cc/858qYdLN/Manu-Vallejo-PNG.webp", alt: "Delantero 1", number: "8", name: "Manu Vallejo", url: "#" },
+            { src: "https://i.postimg.cc/3rfTZGWf/Borja-Bast-n-PNG.webp", alt: "Delantero 2", number: "9", name: "Borja Bastón", url: "#" },
+            { src: "https://i.postimg.cc/Sx688kVd/Obeng-PNG.webp", alt: "Delantero 3", number: "16", name: "Obeng", url: "#" },
+            { src: "https://i.postimg.cc/8PDTcGJN/Leo-Sequeira-PNG.webp", alt: "Delantero 4", number: "17", name: "Leo Sequeira", url: "#" },
+            { src: "https://i.postimg.cc/tJgQdqhx/Sergi-Enrich-PNG.webp", alt: "Delantero 5", number: "23", name: "Sergi Enrich", url: "#" },
+            { src: "https://i.postimg.cc/kXjLCPWj/Mario-Fuente-PNG.webp", alt: "Delantero 6", number: "33", name: "Mario Fuente", url: "#" },
+            { src: "https://i.postimg.cc/2y305Pxm/Ses-PNG.webp", alt: "Delantero 7", number: "37", name: "Sesé", url: "#" },
+            { src: "https://i.postimg.cc/R0tYw3y8/Masca-PNG.webp", alt: "Delantero 8", number: "38", name: "Masca", url: "#" },
+            { src: "https://i.postimg.cc/TYQCbjwh/Enol-PNG.webp", alt: "Delantero 8", number: "39", name: "Enol", url: "#" },
+            { src: "https://i.postimg.cc/qM9XymrJ/Moro_PNG.webp", alt: "Delantero 8", number: "40", name: "Moro", url: "#" }
         ],
         coaches: [
-            { src: "https://i.postimg.cc/dQZzYx5v/lvaro-Cervera-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Álvaro Cervera", url: "#" },
-            { src: "https://i.postimg.cc/9fT7VVwZ/Luis-Carri-n-entrenador-PNG.webp", alt: "Entrenador 2", number: "-", name: "Luis Carrión", url: "#" }
+            { src: "https://i.postimg.cc/dQZzYx5v/lvaro-Cervera-entrenador-PNG.webp", alt: "Entrenador 1", number: "-", name: "Bolo", url: "#" },
+            { src: "https://i.postimg.cc/9fT7VVwZ/Luis-Carri-n-entrenador-PNG.webp", alt: "Entrenador 2", number: "-", name: "Álvaro Cervera", url: "#" }
         ]
     }
     
