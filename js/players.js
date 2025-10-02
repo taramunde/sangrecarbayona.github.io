@@ -361,7 +361,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=marcoesteban"
             },
             {
-                "src": "https://i.postimg.cc/j2zBKVq5/Eze-PNG.webp",
+                "src": "https://i.postimg.cc/KYsb7466/Eze-PNG-1.webp",
                 "alt": "Defensa 11",
                 "number": "31",
                 "name": "Eze",
