@@ -17,10 +17,11 @@ const allPlayersData = {
             { src: "https://i.postimg.cc/cLHZ7H4B/Nacho-Vidal-PNG-3.webp", alt: "Defensa 7", number: "22", name: "Nacho Vidal", url: "fichajugador.html?player=nachovidal" },
             { src: "https://i.postimg.cc/yYdPX4cz/Lucas-PNG.webp", alt: "Defensa 8", number: "24", name: "Lucas", url: "fichajugador.html?player=lucas" },
             { src: "https://i.postimg.cc/W4GZMX4Z/Javi-L-pez-PNG.webp", alt: "Defensa 9", number: "25", name: "Javi López", url: "fichajugador.html?player=javilopez" },
-            { src: "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp", alt: "Defensa 10", number: "29", name: "Omar Falah", url: "fichajugador.html?player=omarfalah" },
-            { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 11", number: "30", name: "Marco Esteban", url: "fichajugador.html?player=marcoesteban" },
-            { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 12", number: "32", name: "Adri Lopes", url: "fichajugador.html?player=adrilopes" },
-            { src: "https://i.postimg.cc/j2R8rDDW/Lamine-PNG.webp", alt: "Defensa 13", number: "28", name: "Lamine", url: "fichajugador.html?player=lamine" }
+            { src: "https://i.postimg.cc/XYDdjpzZ/lvaro-Lemos-PNG-3.webp", alt: "Defensa 10", number: "-", name: "Álvaro Lemos", url: "fichajugador.html?player=alvarolemos" },
+            { src: "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp", alt: "Defensa 11", number: "29", name: "Omar Falah", url: "fichajugador.html?player=omarfalah" },
+            { src: "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp", alt: "Defensa 12", number: "30", name: "Marco Esteban", url: "fichajugador.html?player=marcoesteban" },
+            { src: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", alt: "Defensa 13", number: "32", name: "Adri Lopes", url: "fichajugador.html?player=adrilopes" },
+            { src: "https://i.postimg.cc/j2R8rDDW/Lamine-PNG.webp", alt: "Defensa 14", number: "28", name: "Lamine", url: "fichajugador.html?player=lamine" }
         ],
         midfielders: [
             { src: "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp", alt: "Centrocampista 1", number: "5", name: "Alberto Reina", url: "fichajugador.html?player=albertoreina" },
