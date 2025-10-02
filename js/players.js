@@ -890,7 +890,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=luiscarrion"
             }
         ]
-    }
+    
 };
 
 const currentIndices = {
