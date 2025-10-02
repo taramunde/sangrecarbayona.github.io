@@ -890,11 +890,18 @@ const allPlayersData = {
         ],
         "coaches": [
             {
-                "src": "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp",
+                "src": "https://i.postimg.cc/L6M0M6qB/Bolo-entrenador-PNG.webp",
                 "alt": "Entrenador 1",
                 "number": "-",
-                "name": "Paunović",
-                "url": "fichajugador.html?player=paunovic"
+                "name": "Bolo",
+                "url": "fichajugador.html?player=bolo"
+            },
+            {
+                "src": "https://i.postimg.cc/dQZzYx5v/lvaro-Cervera-entrenador-PNG.webp",
+                "alt": "Entrenador 2",
+                "number": "-",
+                "name": "Álvaro Cervera",
+                "url": "fichajugador.html?player=alvarocervera"
             }
         ]
     }
