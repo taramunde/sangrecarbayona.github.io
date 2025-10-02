@@ -888,35 +888,13 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=moro"
             }
         ],
-        "coaches": []
-    },
-    "2023-25": {
-        "goalkeepers": [],
-        "defenders": [],
-        "midfielders": [],
-        "forwards": [],
         "coaches": [
             {
-                "src": "https://i.postimg.cc/L6M0M6qB/Bolo-entrenador-PNG.webp",
+                "src": "https://i.postimg.cc/9FK0fKhp/Paunović_(3)_(entrenador).webp",
                 "alt": "Entrenador 1",
                 "number": "-",
-                "name": "Bolo",
-                "url": "fichajugador.html?player=bolo"
-            }
-        ]
-    },
-    "2023-26": {
-        "goalkeepers": [],
-        "defenders": [],
-        "midfielders": [],
-        "forwards": [],
-        "coaches": [
-            {
-                "src": "https://i.postimg.cc/dQZzYx5v/lvaro-Cervera-entrenador-PNG.webp",
-                "alt": "Entrenador 1",
-                "number": "-",
-                "name": "Álvaro Cervera",
-                "url": "fichajugador.html?player=alvarocervera"
+                "name": "Paunović",
+                "url": "fichajugador.html?player=paunovic"
             }
         ]
     }
