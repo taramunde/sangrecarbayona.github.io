@@ -104,7 +104,7 @@ const playersData = {
         }
     },
     
-    "narváez": {
+    "narvaez": {
         name: "Miguel de Jesús Narváez López",
         footballName: "Narváez",
         position: "Portero",
