@@ -210,6 +210,23 @@ const playersData = {
         role: "jugador",
         number: 3,
         image: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
+            { season: "2023/24", team: "Real Club Recreativo de Huelva", category: "1ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Rayo Majadahonda", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "Gimnástica Segoviana", category: "2ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Rayo Majadahonda U19", category: "División de Honor" },
+            { season: "2020/21", team: "Rayo Majadahonda", category: "2ª Div. B - 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "México F.C.", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2025", team: "Níger", category: "Clasificación Mundial África - Amistosos" },
+            { season: "2024", team: "Níger", category: "Clasificación Copa África - Amistosos" },
+            { season: "2023", team: "Níger Sub-23", category: "Copa África U23" },
+            { season: "2023", team: "Níger", category: "Clasificación Mundial África - Clasificación Copa África - Amistosos" },
+            { season: "2022", team: "Níger", category: "Clasificación Copa África - Amistosos" }
+         ], 
         stats: {
             "2025/26": {
                 liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
