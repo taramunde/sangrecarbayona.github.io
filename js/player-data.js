@@ -158,6 +158,16 @@ const playersData = {
         role: "jugador",
         number: 2,
         image: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", 
+    personalData: {
+        fullName: "Eric Bertrand Bailly",
+        nickname: "Bailly",
+        birthPlace: "Bingerville, Lagunes",
+        country: "Costa de Marfil",
+        nationality: "Costamarfileña",
+        height: "1,87 m",
+        birthDate: "12/04/1994",
+        deathDate: null // Poner null si el jugador está vivo
+    },
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
             { season: "2024/25", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
@@ -210,6 +220,16 @@ const playersData = {
         role: "jugador",
         number: 3,
         image: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", 
+    personalData: {
+        fullName: "Rahim Alhassane",
+        nickname: "Rahim",
+        birthPlace: "Abuya, Territorio de la Capital Federal",
+        country: "Costa de Marfil",
+        nationality: "Costamarfileña",
+        height: "1,87 m",
+        birthDate: "12/04/1994",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
