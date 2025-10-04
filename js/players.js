@@ -220,7 +220,7 @@ const allPlayersData = {
             {
                 "src": "https://i.postimg.cc/mgPHhTMt/Diego_Tejón_PNG.webp",
                 "alt": "Centrocampista 14",
-                "number": "34",
+                "number": "-",
                 "name": "Diego Tejón",
                 "url": "fichajugador.html?player=diegotejon"
             }
@@ -590,7 +590,7 @@ const allPlayersData = {
             {
                 "src": "https://i.postimg.cc/yxJJQHKD/Marco-PNG.webp",
                 "alt": "Portero 3",
-                "number": "26",
+                "number": "-",
                 "name": "Marco",
                 "url": "fichajugador.html?player=marco"
             },
