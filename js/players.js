@@ -1247,8 +1247,8 @@ const allPlayersData = {
                 "src": "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
                 "alt": "Portero 3",
                 "number": "26",
-                "name": "Borja Hórreo",
-                "url": "fichajugador.html?player=borjahorreo"
+                "name": "Berto Hórreo",
+                "url": "fichajugador.html?player=bertohorreo"
             }
         ],
         "defenders": [
@@ -1551,8 +1551,8 @@ const allPlayersData = {
                 "src": "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
                 "alt": "Portero 3",
                 "number": "34",
-                "name": "Borja Hórreo",
-                "url": "fichajugador.html?player=borjahorreo"
+                "name": "Berto Hórreo",
+                "url": "fichajugador.html?player=bertohorreo"
             }
         ],
         "defenders": [
