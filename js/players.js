@@ -4,21 +4,21 @@ const allPlayersData = {
     "2025-26": {
         "goalkeepers": [
             {
-                "src": "https://i.postimg.cc/s2YhzvPR/Aar-n-PNG-Alineaci-n.webp",
+                "src": "https://i.postimg.cc/v8VvkWnP/resized-Aar-n-PNG-3.png",
                 "alt": "Portero 1",
                 "number": "13",
                 "name": "Aarón",
                 "url": "fichajugador.html?player=aaron"
             },
             {
-                "src": "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp",
+                "src": "https://i.postimg.cc/vB6WRs4Z/resized_Moldovan_PNG_(2).png",
                 "alt": "Portero 2",
                 "number": "1",
                 "name": "Moldovan",
                 "url": "fichajugador.html?player=moldovan"
             },
             {
-                "src": "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp",
+                "src": "https://i.postimg.cc/xCbKr2Xk/resized_Narváez_PNG.png",
                 "alt": "Portero 3",
                 "number": "26",
                 "name": "Narváez",
