@@ -1516,7 +1516,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=mariofuente"
             },
             {
-                "src": "https://i.postimg.cc/FzYCs7yD/Vanderson-PNG.webp",
+                "src": "https://i.postimg.cc/vB6S0CMj/resized_Vanderson_PNG.png",
                 "alt": "Delantero 6",
                 "number": "-",
                 "name": "Vanderson",
