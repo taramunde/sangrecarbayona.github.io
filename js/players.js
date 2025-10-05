@@ -2367,7 +2367,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=joselu"
             },
             {
-                "src": "https://i.postimg.cc/g2h9HB6N/Steven-PNG.webp",
+                "src": "https://i.postimg.cc/Pq7RzdGp/resized_Steven_PNG.png",
                 "alt": "Delantero 6",
                 "number": "32",
                 "name": "Steven",
