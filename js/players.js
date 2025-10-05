@@ -1716,7 +1716,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=borjavalle"
             },
             {
-                "src": "https://i.postimg.cc/rss30hkG/Ton-Ripoll-PNG.webp",
+                "src": "https://i.postimg.cc/q7F5XpfX/resized_Ton_Ripoll_PNG.png",
                 "alt": "Centrocampista 13",
                 "number": "27",
                 "name": "Ton Ripoll",
