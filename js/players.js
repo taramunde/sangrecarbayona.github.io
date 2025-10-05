@@ -2288,7 +2288,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=viti"
             },
             {
-                "src": "https://i.postimg.cc/Wb3BDy4d/Sandoval-PNG.webp",
+                "src": "https://i.postimg.cc/tJY8G7hx/resized_Sandoval_PNG.png",
                 "alt": "Centrocampista 8",
                 "number": "29",
                 "name": "Sandoval",
