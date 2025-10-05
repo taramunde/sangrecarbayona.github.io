@@ -2202,7 +2202,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=mossa"
             },
             {
-                "src": "https://i.postimg.cc/nL4dCKbR/Prendes-PNG.webp",
+                "src": "https://i.postimg.cc/kXjDyH4P/resized_Prendes_PNG.png",
                 "alt": "Defensa 8",
                 "number": "28",
                 "name": "Prendes",
