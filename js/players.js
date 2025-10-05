@@ -1337,18 +1337,21 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=reneperez"
             },
             {
+                "src": "https://i.postimg.cc/dthTWq1w/Jorge-Mier-PNG.webp",
                 "alt": "Defensa 13",
                 "number": "-",
                 "name": "Jorge Mier",
                 "url": "fichajugador.html?player=jorgemier"
             },
             {
+                "src": "https://i.postimg.cc/1RnqBm4P/Lucas-Laso-PNG.webp",
                 "alt": "Defensa 14",
                 "number": "-",
                 "name": "Lucas Laso",
                 "url": "fichajugador.html?player=lucaslaso"
             },
             {
+                "src": "https://i.postimg.cc/2SMp47tC/Osky_PNG.webp",
                 "alt": "Defensa 15",
                 "number": "-",
                 "name": "Osky",
