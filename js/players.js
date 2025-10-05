@@ -1244,7 +1244,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=tomeunadal"
             },
             {
-                "src": "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
+                "src": "https://i.postimg.cc/GhnjCHJn/resized-Berto-H-rreo-PNG.png",
                 "alt": "Portero 3",
                 "number": "26",
                 "name": "Berto Hórreo",
@@ -1548,7 +1548,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=brazao"
             },
             {
-                "src": "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
+                "src": "https://i.postimg.cc/GhnjCHJn/resized-Berto-H-rreo-PNG.png",
                 "alt": "Portero 3",
                 "number": "34",
                 "name": "Berto Hórreo",
