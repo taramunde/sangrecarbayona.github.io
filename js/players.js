@@ -2223,7 +2223,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=jorgemier"
             },
             {
-                "src": "https://i.postimg.cc/Px6P4cnC/Jos-n-PNG.webp",
+                "src": "https://i.postimg.cc/50cXCFt6/resized_Josín_PNG.png",
                 "alt": "Defensa 11",
                 "number": "37",
                 "name": "Josín",
