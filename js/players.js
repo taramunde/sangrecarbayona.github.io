@@ -1795,7 +1795,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=javicueto"
             },
             {
-                "src": "https://i.postimg.cc/FzYCs7yD/Vanderson-PNG.webp",
+                "src": "https://i.postimg.cc/vB6S0CMj/resized_Vanderson_PNG.png",
                 "alt": "Delantero 6",
                 "number": "-",
                 "name": "Vanderson",
@@ -2095,7 +2095,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=obeng"
             },
             {
-                "src": "https://i.postimg.cc/FzYCs7yD/Vanderson-PNG.webp",
+                "src": "https://i.postimg.cc/vB6S0CMj/resized_Vanderson_PNG.png",
                 "alt": "Delantero 10",
                 "number": "34",
                 "name": "Vanderson",
