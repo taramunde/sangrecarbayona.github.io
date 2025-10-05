@@ -4,21 +4,21 @@ const allPlayersData = {
     "2025-26": {
         "goalkeepers": [
             {
-                "src": "https://i.ibb.co/KzXvYLdJ/resized-Aar-n-PNG-3.png",
+                "src": "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
                 "alt": "Portero 1",
                 "number": "13",
                 "name": "Aarón",
                 "url": "fichajugador.html?player=aaron"
             },
             {
-                "src": "https://i.ibb.co/Gf0QWfz0/resized-Moldovan-PNG-2.png",
+                "src": "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp",
                 "alt": "Portero 2",
                 "number": "1",
                 "name": "Moldovan",
                 "url": "fichajugador.html?player=moldovan"
             },
             {
-                "src": "https://i.ibb.co/FqkFcQdv/resized-Narv-ez-PNG.png",
+                "src": "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp",
                 "alt": "Portero 3",
                 "number": "26",
                 "name": "Narváez",
@@ -27,98 +27,98 @@ const allPlayersData = {
         ],
         "defenders": [
             {
-                "src": "https://i.ibb.co/mFHfpg02/resized-Bailly-PNG-2.png",
+                "src": "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp",
                 "alt": "Defensa 1",
                 "number": "2",
                 "name": "Bailly",
                 "url": "fichajugador.html?player=bailly"
             },
             {
-                "src": "https://i.ibb.co/QvPQDxj6/resized-Rahim-PNG.png",
+                "src": "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp",
                 "alt": "Defensa 2",
                 "number": "3",
                 "name": "Rahim",
                 "url": "fichajugador.html?player=rahim"
             },
             {
-                "src": "https://i.ibb.co/hqSCBWq/resized-David-Costas-PNG.png",
+                "src": "https://i.postimg.cc/V6ScxHbr/David-Costas-PNG.webp",
                 "alt": "Defensa 3",
                 "number": "4",
                 "name": "David Costas",
                 "url": "fichajugador.html?player=davidcostas"
             },
             {
-                "src": "https://i.ibb.co/1ft2bg4H/resized-Dani-Calvo-PNG.png",
+                "src": "https://i.postimg.cc/Wb0spKY0/Dani-Calvo-PNG.webp",
                 "alt": "Defensa 4",
                 "number": "12",
                 "name": "Dani Calvo",
                 "url": "fichajugador.html?player=danicalvo"
             },
             {
-                "src": "https://i.ibb.co/1J6RL6QD/resized-Luengo-PNG.png",
+                "src": "https://i.postimg.cc/YqQmcd1s/Luengo-PNG.webp",
                 "alt": "Defensa 5",
                 "number": "15",
                 "name": "Luengo",
                 "url": "fichajugador.html?player=luengo"
             },
             {
-                "src": "https://i.ibb.co/9kj19Bwg/resized-Carmo-PNG-2.png",
+                "src": "https://i.postimg.cc/ZqxmPdzn/Carmo-PNG-2.webp",
                 "alt": "Defensa 6",
                 "number": "16",
                 "name": "Carmo",
                 "url": "fichajugador.html?player=carmo"
             },
             {
-                "src": "https://i.ibb.co/hF0K1nps/resized-Nacho-Vidal-PNG-3.png",
+                "src": "https://i.postimg.cc/cLHZ7H4B/Nacho-Vidal-PNG-3.webp",
                 "alt": "Defensa 7",
                 "number": "22",
                 "name": "Nacho Vidal",
                 "url": "fichajugador.html?player=nachovidal"
             },
             {
-                "src": "https://i.ibb.co/XZSzK1WJ/resized-Lucas-PNG.png",
+                "src": "https://i.postimg.cc/yYdPX4cz/Lucas_PNG.webp",
                 "alt": "Defensa 8",
                 "number": "24",
                 "name": "Lucas",
                 "url": "fichajugador.html?player=lucas"
             },
             {
-                "src": "https://i.ibb.co/d8ZSs4r/resized-Javi-L-pez-PNG.png",
+                "src": "https://i.postimg.cc/W4GZMX4Z/Javi-L-pez-PNG.webp",
                 "alt": "Defensa 9",
                 "number": "25",
                 "name": "Javi López",
                 "url": "fichajugador.html?player=javilopez"
             },
             {
-                "src": "https://i.ibb.co/dJPHM366/resized-lvaro-Lemos-PNG-3.png",
+                "src": "https://i.postimg.cc/XYDdjpzZ/lvaro-Lemos-PNG-3.webp",
                 "alt": "Defensa 10",
                 "number": "-",
                 "name": "Álvaro Lemos",
                 "url": "fichajugador.html?player=alvarolemos"
             },
             {
-                "src": "https://i.ibb.co/0bjBw4Z/resized-Omar-Falah-PNG.png",
+                "src": "https://i.postimg.cc/FsFQmRcX/Omar-Falah-PNG.webp",
                 "alt": "Defensa 11",
                 "number": "29",
                 "name": "Omar Falah",
                 "url": "fichajugador.html?player=omarfalah"
             },
             {
-                "src": "https://i.ibb.co/prrNnNHX/resized-Marco-Esteban-PNG.png",
+                "src": "https://i.postimg.cc/PqJxqywh/Marco-Esteban-PNG.webp",
                 "alt": "Defensa 12",
                 "number": "30",
                 "name": "Marco Esteban",
                 "url": "fichajugador.html?player=marcoesteban"
             },
             {
-                "src": "https://i.ibb.co/ksT2Sp2s/resized-Adri-Lopes-PNG.png",
+                "src": "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp",
                 "alt": "Defensa 13",
                 "number": "32",
                 "name": "Adri Lopes",
                 "url": "fichajugador.html?player=adrilopes"
             },
             {
-                "src": "https://i.ibb.co/svjzcypM/resized-Lamine-PNG.png",
+                "src": "https://i.postimg.cc/j2R8rDDW/Lamine_PNG.webp",
                 "alt": "Defensa 14",
                 "number": "28",
                 "name": "Lamine",
@@ -127,7 +127,7 @@ const allPlayersData = {
         ],
         "midfielders": [
             {
-                "src": "https://i.postimg.cc/TPnRBNRm/resized-Alberto-Reina-PNG.png",
+                "src": "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp",
                 "alt": "Centrocampista 1",
                 "number": "5",
                 "name": "Alberto Reina",
