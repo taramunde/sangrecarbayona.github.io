@@ -2074,7 +2074,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=ibra"
             },
             {
-                "src": "https://i.postimg.cc/g2h9HB6N/Steven-PNG.webp",
+                "src": "https://i.postimg.cc/Pq7RzdGp/resized_Steven_PNG.png",
                 "alt": "Delantero 7",
                 "number": "27",
                 "name": "Steven",
