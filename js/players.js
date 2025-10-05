@@ -1867,7 +1867,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=arribas"
             },
             {
-                "src": "https://i.postimg.cc/V6wjT2h4/Javi-Fern-ndez-PNG.webp",
+                "src": "https://i.postimg.cc/HkhcTNDF/resized_Javi_Fernández_PNG.png",
                 "alt": "Defensa 4",
                 "number": "5",
                 "name": "Javi Fernández",
