@@ -1744,7 +1744,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=alexcardero"
             },
             {
-                "src": "https://i.postimg.cc/Wb3BDy4d/Sandoval-PNG.webp",
+                "src": "https://i.postimg.cc/tJY8G7hx/resized_Sandoval_PNG.png",
                 "alt": "Centrocampista 17",
                 "number": "33",
                 "name": "Sandoval",
