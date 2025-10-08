@@ -165,24 +165,27 @@
         font-size: 18px;
     }
     .players-gallery img, .player-info {
-        max-width: 120px; /* Ajustado para pantallas pequeñas */
+        max-width: 140px; /* AUMENTADO de 120px a 140px */
     }
     .player-number {
         font-size: 14px;
     }
     .player-name {
-        font-size: 11px; /* Tamaño de letra reducido */
+        font-size: 11px;
         font-weight: bold;
+        overflow: hidden; /* AÑADE ESTA LÍNEA */
+        text-overflow: ellipsis; /* AÑADE ESTA LÍNEA */
+        white-space: nowrap; /* AÑADE ESTA LÍNEA */
     }
     .player-button {
         font-size: 10px;
         padding: 5px 10px;
     }
     .player-info {
-        min-height: 60px; /* Altura mínima ajustada */
+        min-height: 70px; /* AUMENTADO de 60px a 70px para más espacio */
     }
     .players-gallery {
-        max-width: 280px; /* Ajustado para tarjetas más anchas */
+        max-width: 320px; /* AUMENTADO de 280px a 320px */
     }
     .players-nav {
         gap: 5px;
