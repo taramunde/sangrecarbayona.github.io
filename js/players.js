@@ -2455,6 +2455,9 @@ function updatePlayerGallery(position) {
     const nextButton = document.querySelector(`.next-button[data-position="${position}"]`);
     if (prevButton) prevButton.disabled = currentIndex === 0;
     if (nextButton) nextButton.disabled = currentIndex === players.length - 1;
+    
+    // AÑADE ESTA LÍNEA AL FINAL:
+    preloadImages(position);
 }
 
 function initGalleries() {
@@ -2466,6 +2469,9 @@ function initGalleries() {
         console.error('No se ha especificado una temporada válida en el body de la página.');
         return;
     }
+
+    // AÑADE ESTA LÍNEA: Precargar todas las imágenes de la temporada actual
+    preloadAllImagesForSeason(currentSeason);
 
     Object.keys(allPlayersData[currentSeason]).forEach(position => {
         const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
@@ -2495,6 +2501,31 @@ function initGalleries() {
                 }
             });
         }
+    });
+}
+
+// Función para precargar imágenes
+function preloadImages(position) {
+    const players = allPlayersData[currentSeason][position];
+    const currentIndex = currentIndices[position];
+    
+    // Precargar la imagen actual y las 2 siguientes
+    for (let i = currentIndex; i < Math.min(currentIndex + 3, players.length); i++) {
+        const img = new Image();
+        img.src = players[i].src;
+    }
+}
+
+// Función para precargar todas las imágenes de una temporada
+function preloadAllImagesForSeason(season) {
+    if (!allPlayersData[season]) return;
+    
+    Object.keys(allPlayersData[season]).forEach(position => {
+        const players = allPlayersData[season][position];
+        players.forEach(player => {
+            const img = new Image();
+            img.src = player.src;
+        });
     });
 }
 
