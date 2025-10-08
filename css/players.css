@@ -165,7 +165,7 @@
         font-size: 18px;
     }
     .players-gallery img, .player-info {
-        max-width: 140px; /* AUMENTADO de 120px a 140px */
+        max-width: 160px; /* AUMENTADO de 140px a 160px */
     }
     .player-number {
         font-size: 14px;
