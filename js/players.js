@@ -262,6 +262,13 @@ const allPlayersData = {
                 "number": "-",
                 "name": "Paunović",
                 "url": "fichajugador.html?player=paunovic"
+            },
+            {
+                "src": "https://i.postimg.cc/9fT7VVwZ/Luis-Carri-n-entrenador-PNG.webp",
+                "alt": "Entrenador 2",
+                "number": "-",
+                "name": "Luis Carrión",
+                "url": "fichajugador.html?player=luiscarrion"
             }
         ]
     },
