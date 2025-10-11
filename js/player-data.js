@@ -5,7 +5,7 @@ const playersData = {
         footballName: "Aarón",
         position: "Portero",
         role: "portero",
-        number: 13,
+        number: -,
         image: "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
     personalData: {
         fullName: "Aarón Escandell Banacloche",
@@ -57,7 +57,7 @@ const playersData = {
         footballName: "Moldovan",
         position: "Portero",
         role: "portero",
-        number: 1,
+        number: -,
         image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
     personalData: {
         fullName: "Horațiu Alexandru Moldovan",
@@ -109,7 +109,7 @@ const playersData = {
         footballName: "Narváez",
         position: "Portero",
         role: "portero",
-        number: 26,
+        number: -,
         image: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", 
     personalData: {
         fullName: "Miguel de Jesús Narváez López",
@@ -156,7 +156,7 @@ const playersData = {
         footballName: "Bailly",
         position: "Defensa",
         role: "jugador",
-        number: 2,
+        number: -,
         image: "https://i.postimg.cc/qRHtqnX7/Bailly-PNG-2.webp", 
     personalData: {
         fullName: "Eric Bertrand Bailly",
@@ -218,7 +218,7 @@ const playersData = {
         footballName: "Rahim",
         position: "Defensa",
         role: "jugador",
-        number: 3,
+        number: -,
         image: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", 
     personalData: {
         fullName: "Rahim Alhassane",
