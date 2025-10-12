@@ -2651,15 +2651,22 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=ernesto"
             },
             {
-                "src": "https://i.postimg.cc/Wb3BDy4d/Sandoval_PNG.webp",
+                "src": "https://i.postimg.cc/gcK4Lr2y/Juan-2017-PNG.webp",
                 "alt": "Centrocampista 17",
+                "number": "-",
+                "name": "Juan",
+                "url": "fichajugador.html?player=juan"
+            },
+            {
+                "src": "https://i.postimg.cc/Wb3BDy4d/Sandoval_PNG.webp",
+                "alt": "Centrocampista 18",
                 "number": "-",
                 "name": "Sandoval",
                 "url": "fichajugador.html?player=sandoval"
             },
             {
                 "src": "https://i.postimg.cc/J0yLZYQc/Guille_PNG.webp",
-                "alt": "Centrocampista 18",
+                "alt": "Centrocampista 19",
                 "number": "-",
                 "name": "Guille",
                 "url": "fichajugador.html?player=guille"
