@@ -64,10 +64,9 @@
 }
 
 .players-gallery img {
-    width: 100%;
-    max-width: 180px; /* Aumentado para tarjetas más anchas */
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
+    width: 180px;      /* Ancho fijo */
+    height: 240px;     /* Altura fija (para mantener la proporción 3:4) */
+    object-fit: cover; /* Esta es la línea clave que ya tenías */
     border-radius: 10px 10px 0 0;
     border: 2px solid #0e0eec;
     border-bottom: none;
@@ -139,7 +138,8 @@
         font-size: 20px;
     }
     .players-gallery img, .player-info {
-        max-width: 150px; /* Ajustado para pantallas medianas */
+        width: 150px;     /* Añadir ancho fijo */
+        height: 200px;    /* Añadir altura fija (proporción 3:4) */
     }
     .player-number {
         font-size: 16px;
@@ -165,7 +165,8 @@
         font-size: 18px;
     }
     .players-gallery img, .player-info {
-        max-width: 160px; /* AUMENTADO de 140px a 160px */
+        width: 160px;     /* Añadir ancho fijo */
+        height: 213px;    /* Añadir altura fija (proporción 3:4) */
     }
     .player-number {
         font-size: 14px;
