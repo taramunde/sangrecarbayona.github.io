@@ -137,36 +137,44 @@
     .players-title {
         font-size: 20px;
     }
-    .players-gallery img, .player-info {
-        width: 150px;     /* Añadir ancho fijo */
-        height: 200px;    /* Añadir altura fija (proporción 3:4) */
+    .players-gallery img {
+        width: 150px;
+        height: 200px;
+    }
+    .player-info {
+        width: 150px;     /* AÑADE esta línea */
+        height: auto;     /* CAMBIA de 200px a auto */
+        padding: 10px;    /* AÑADE esta línea si no la tiene */
+        box-sizing: border-box;  /* AÑADE esta línea si no la tiene */
     }
     .player-number {
         font-size: 16px;
     }
     .player-name {
-        font-size: 12px; /* Tamaño de letra reducido */
+        font-size: 12px;
         font-weight: bold;
     }
     .player-button {
         font-size: 12px;
         padding: 6px 12px;
     }
-    .player-info {
-        min-height: 70px; /* Altura mínima ajustada */
-    }
     .players-gallery {
-        max-width: 340px; /* Ajustado para tarjetas más anchas */
+        max-width: 340px;
     }
 }
-
 @media screen and (max-width: 480px) {
     .players-title {
         font-size: 18px;
     }
-    .players-gallery img, .player-info {
-        width: 160px;     /* Añadir ancho fijo */
-        height: 213px;    /* Añadir altura fija (proporción 3:4) */
+    .players-gallery img {
+        width: 160px;
+        height: 213px;
+    }
+    .player-info {
+        width: 160px;     /* AÑADE esta línea */
+        height: auto;     /* CAMBIA de 213px a auto */
+        padding: 10px;    /* AÑADE esta línea si no la tiene */
+        box-sizing: border-box;  /* AÑADE esta línea si no la tiene */
     }
     .player-number {
         font-size: 14px;
@@ -174,19 +182,16 @@
     .player-name {
         font-size: 11px;
         font-weight: bold;
-        overflow: hidden; /* AÑADE ESTA LÍNEA */
-        text-overflow: ellipsis; /* AÑADE ESTA LÍNEA */
-        white-space: nowrap; /* AÑADE ESTA LÍNEA */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     .player-button {
         font-size: 10px;
         padding: 5px 10px;
     }
-    .player-info {
-        min-height: 70px; /* AUMENTADO de 60px a 70px para más espacio */
-    }
     .players-gallery {
-        max-width: 320px; /* AUMENTADO de 280px a 320px */
+        max-width: 320px;
     }
     .players-nav {
         gap: 5px;
