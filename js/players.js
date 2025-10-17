@@ -3331,7 +3331,7 @@ const allPlayersData = {
             },
             {
                 "src": "https://i.postimg.cc/qqmLn0Lg/Gorka_Magunazelaia_PNG.webp",
-                "alt": "Portero 3",
+                "alt": "Portero 2",
                 "number": "-",
                 "name": "Gorka Magunazelaia",
                 "url": "fichajugador.html?player=gorkamagunazelaia"
