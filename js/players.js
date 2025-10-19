@@ -5010,7 +5010,7 @@ const allPlayersData = {
             },
             {
                 "src": "https://i.postimg.cc/Kzn58BwG/Fabinho_PNG.webp",
-                "alt": "Delantero 6",
+                "alt": "Delantero 7",
                 "number": "-",
                 "name": "Fabinho",
                 "url": "fichajugador.html?player=fabinho"
