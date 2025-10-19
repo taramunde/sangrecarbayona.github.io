@@ -4988,7 +4988,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=matias"
             },
             {
-                "src": "https://i.postimg.cc/RZFJDKT3/lex-Garc-a-PNG.%IMAGE_EXT%",
+                "src": "https://i.postimg.cc/RZFJDKT3/lex-Garc-a-PNG.webp",
                 "alt": "Delantero 4",
                 "number": "-",
                 "name": "Álex García",
