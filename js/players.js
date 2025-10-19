@@ -2081,7 +2081,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=ibra"
             },
             {
-                "src": "https://i.postimg.cc/Pq7RzdGp/resized_Steven_PNG.png",
+                "src": "https://i.postimg.cc/g2h9HB6N/Steven_PNG.webp",
                 "alt": "Delantero 7",
                 "number": "-",
                 "name": "Steven",
@@ -2374,7 +2374,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=joselu"
             },
             {
-                "src": "https://i.postimg.cc/Pq7RzdGp/resized_Steven_PNG.png",
+                "src": "https://i.postimg.cc/g2h9HB6N/Steven_PNG.webp",
                 "alt": "Delantero 6",
                 "number": "-",
                 "name": "Steven",
@@ -2488,7 +2488,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=mossa"
             },
             {
-                "src": "https://i.postimg.cc/nL4dCKbR/Prendes_PNG.webpp",
+                "src": "https://i.postimg.cc/nL4dCKbR/Prendes_PNG.webp",
                 "alt": "Defensa 10",
                 "number": "-",
                 "name": "Prendes",
@@ -2516,15 +2516,22 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=josin"
             },
             {
-                "src": "https://i.postimg.cc/dthTWq1w/Jorge_Mier_PNG.webpp",
+                "src": "https://i.postimg.cc/dthTWq1w/Jorge_Mier_PNG.webp",
                 "alt": "Defensa 14",
                 "number": "-",
                 "name": "Jorge Mier",
                 "url": "fichajugador.html?player=jorgemier"
             },
             {
-                "src": "https://i.postimg.cc/FKBMVgn9/Emilio_Morilla_PNG.webp",
+                "src": "https://i.postimg.cc/htZy2X2f/Gabri-PNG-Gabriel-Sebasti-n-Cardozo-Tom-s-2017.webp",
                 "alt": "Defensa 15",
+                "number": "-",
+                "name": "Gabri",
+                "url": "fichajugador.html?player=gabri"
+            },
+            {
+                "src": "https://i.postimg.cc/FKBMVgn9/Emilio_Morilla_PNG.webp",
+                "alt": "Defensa 16",
                 "number": "-",
                 "name": "Emilio Morilla",
                 "url": "fichajugador.html?player=emiliomorilla"
