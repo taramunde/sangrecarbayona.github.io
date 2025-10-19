@@ -2523,15 +2523,8 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=jorgemier"
             },
             {
-                "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
-                "alt": "Defensa 15",
-                "number": "-",
-                "name": "Gabri",
-                "url": "fichajugador.html?player=gabri"
-            },
-            {
                 "src": "https://i.postimg.cc/FKBMVgn9/Emilio_Morilla_PNG.webp",
-                "alt": "Defensa 16",
+                "alt": "Defensa 15",
                 "number": "-",
                 "name": "Emilio Morilla",
                 "url": "fichajugador.html?player=emiliomorilla"
