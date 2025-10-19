@@ -4887,7 +4887,7 @@ const allPlayersData = {
             },
             {
                 "src": "https://i.postimg.cc/15BDdW0r/lvaro-Costa-PNG.webp",
-                "alt": "Defensa 9",
+                "alt": "Defensa 10",
                 "number": "-",
                 "name": "Álvaro Costa",
                 "url": "fichajugador.html?player=alvarocosta"
