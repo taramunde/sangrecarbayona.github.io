@@ -1251,7 +1251,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=tomeunadal"
             },
             {
-                "src": "https://i.postimg.cc/GhnjCHJn/resized-Berto-H-rreo-PNG.png",
+                "src": "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
                 "alt": "Portero 3",
                 "number": "-",
                 "name": "Berto Hórreo",
@@ -1523,7 +1523,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=mariofuente"
             },
             {
-                "src": "https://i.postimg.cc/vB6S0CMj/resized_Vanderson_PNG.png",
+                "src": "https://i.postimg.cc/FzYCs7yD/Vanderson_PNG.webp",
                 "alt": "Delantero 6",
                 "number": "-",
                 "name": "Vanderson",
@@ -1558,7 +1558,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=brazao"
             },
             {
-                "src": "https://i.postimg.cc/GhnjCHJn/resized-Berto-H-rreo-PNG.png",
+                "src": "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
                 "alt": "Portero 3",
                 "number": "-",
                 "name": "Berto Hórreo",
@@ -1723,7 +1723,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=borjavalle"
             },
             {
-                "src": "https://i.postimg.cc/q7F5XpfX/resized_Ton_Ripoll_PNG.png",
+                "src": "https://i.postimg.cc/rss30hkG/Ton_Ripoll_PNG.webp",
                 "alt": "Centrocampista 13",
                 "number": "-",
                 "name": "Ton Ripoll",
