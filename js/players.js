@@ -6507,7 +6507,228 @@ const allPlayersData = {
             }
        ]
     }
-
+    "2001-02": {
+        "goalkeepers": [
+            {
+                "src": "https://i.postimg.cc/fT22S725/Esteban-PNG.webp",
+                "alt": "Portero 1",
+                "number": "-",
+                "name": "Esteban",
+                "url": "fichajugador.html?player=esteban"
+            },
+            {
+                "src": "https://i.postimg.cc/KcL3Mm0W/Segura_PNG.webp",
+                "alt": "Portero 2",
+                "number": "-",
+                "name": "Segura",
+                "url": "fichajugador.html?player=segura"
+            },
+            {
+                "src": "https://i.postimg.cc/wjMrw4yS/Dorronsoro-PNG.webp",
+                "alt": "Portero 3",
+                "number": "-",
+                "name": "Dorronsoro",
+                "url": "fichajugador.html?player=dorronsoro"
+            }
+        ],
+        "defenders": [
+            {
+                "src": "https://i.postimg.cc/fyDQVWrX/Óscar_Álvarez_PNG.webp",
+                "alt": "Defensa 1",
+                "number": "-",
+                "name": "Óscar Álvarez",
+                "url": "fichajugador.html?player=oscaralvarez"
+            },
+            {
+                "src": "https://i.postimg.cc/nc30mVWx/Gurrutxaga_PNG.webp",
+                "alt": "Defensa 2",
+                "number": "-",
+                "name": "Gurrutxaga",
+                "url": "fichajugador.html?player=gurrutxaga"
+            },
+            {
+                "src": "https://i.postimg.cc/90FQwB4c/Boris-PNG.webp",
+                "alt": "Defensa 3",
+                "number": "-",
+                "name": "Boris",
+                "url": "fichajugador.html?player=boris"
+            },
+            {
+                "src": "https://i.postimg.cc/3N15mMsq/Onopko_PNG.webp",
+                "alt": "Defensa 4",
+                "number": "-",
+                "name": "Onopko",
+                "url": "fichajugador.html?player=onopko"
+            },
+            {
+                "src": "https://i.postimg.cc/MTYrr79M/Pepe_Saavedra_PNG.webp",
+                "alt": "Defensa 5",
+                "number": "-",
+                "name": "Pepe Saavedra",
+                "url": "fichajugador.html?player=pepesaavedra"
+            },
+            {
+                "src": "https://i.postimg.cc/rsctnWKH/ngel-PNG.webp",
+                "alt": "Defensa 6",
+                "number": "-",
+                "name": "Ángel",
+                "url": "fichajugador.html?player=angel"
+            },
+            {
+                "src": "https://i.postimg.cc/76zgQwX5/Alberto-Saavedra-PNG.webp",
+                "alt": "Defensa 7",
+                "number": "-",
+                "name": "Alberto Saavedra",
+                "url": "fichajugador.html?player=albertosaavedra"
+            },
+            {
+                "src": "https://i.postimg.cc/9MSLDcFb/Tomás_PNG.webp",
+                "alt": "Defensa 8",
+                "number": "-",
+                "name": "Tomás",
+                "url": "fichajugador.html?player=tomas"
+            },
+            {
+                "src": "https://i.postimg.cc/HWBQZZ94/Javi_Paredes_PNG.webp",
+                "alt": "Defensa 9",
+                "number": "-",
+                "name": "Javi Paredes",
+                "url": "fichajugador.html?player=javiparedes"
+            },
+            {
+                "src": "https://i.postimg.cc/44LW7Nqg/Raúl_PNG.webp",
+                "alt": "Defensa 10",
+                "number": "-",
+                "name": "Raúl",
+                "url": "fichajugador.html?player=raul"
+            }
+        ],
+        "midfielders": [
+            {
+                "src": "https://i.postimg.cc/LX5tkjg3/Tomic_PNG.webp",
+                "alt": "Centrocampista 1",
+                "number": "-",
+                "name": "Tomić",
+                "url": "fichajugador.html?player=tomic"
+            },
+            {
+                "src": "https://i.postimg.cc/W11dCTS5/Albert-Nadj-PNG.webp",
+                "alt": "Centrocampista 2",
+                "number": "-",
+                "name": "Albert Nadj",
+                "url": "fichajugador.html?player=albertnadj"
+            },
+            {
+                "src": "https://i.postimg.cc/MZjZcXrk/Jaime_Jordán_PNG.webp",
+                "alt": "Centrocampista 3",
+                "number": "-",
+                "name": "Jaime",
+                "url": "fichajugador.html?player=jaime"
+            },
+            {
+                "src": "https://i.postimg.cc/wjrjrJ1B/Amieva-PNG.webp",
+                "alt": "Centrocampista 4",
+                "number": "-",
+                "name": "Amieva",
+                "url": "fichajugador.html?player=amieva"
+            },
+            {
+                "src": "https://i.postimg.cc/3NrPFSCb/Rubén_Reyes_PNG.webp",
+                "alt": "Centrocampista 5",
+                "number": "-",
+                "name": "Rubén Reyes",
+                "url": "fichajugador.html?player=rubenreyes"
+            },
+            {
+                "src": "https://i.postimg.cc/k51MSSmC/Iván_Ania_PNG.webp",
+                "alt": "Centrocampista 6",
+                "number": "-",
+                "name": "Iván Ania",
+                "url": "fichajugador.html?player=ivanania"
+            },
+            {
+                "src": "https://i.postimg.cc/G2dNb7Nh/Santamaría_PNG.webp",
+                "alt": "Centrocampista 7",
+                "number": "-",
+                "name": "Santamaría",
+                "url": "fichajugador.html?player=santamaria"
+            },
+            {
+                "src": "https://i.postimg.cc/ZK8ddwDh/Óscar_Pérez_PNG.webp",
+                "alt": "Centrocampista 8",
+                "number": "-",
+                "name": "Óscar Pérez",
+                "url": "fichajugador.html?player=oscarperez"
+            },
+            {
+                "src": "https://i.postimg.cc/cHv3tZPD/Oliver_PNG.webp",
+                "alt": "Centrocampista 9",
+                "number": "-",
+                "name": "Óliver",
+                "url": "fichajugador.html?player=oliver"
+            },
+            {
+                "src": "https://i.postimg.cc/hGjzNc4S/Pablo_Díaz_PNG.webp",
+                "alt": "Centrocampista 10",
+                "number": "-",
+                "name": "Pablo Díaz",
+                "url": "fichajugador.html?player=pablodiaz"
+            }
+        ],
+        "forwards": [
+            {
+                "src": "https://i.postimg.cc/D0wb3GKY/Geni_PNG.webp",
+                "alt": "Delantero 1",
+                "number": "-",
+                "name": "Geni",
+                "url": "fichajugador.html?player=geni"
+            },
+            {
+                "src": "https://i.postimg.cc/fbMdfprN/Oli_PNG.webp",
+                "alt": "Delantero 2",
+                "number": "-",
+                "name": "Oli",
+                "url": "fichajugador.html?player=oli"
+            },
+            {
+                "src": "https://i.postimg.cc/SRGFCX2q/Losada_PNG.webp",
+                "alt": "Delantero 3",
+                "number": "-",
+                "name": "Losada",
+                "url": "fichajugador.html?player=losada"
+            },
+            {
+                "src": "https://i.postimg.cc/vBJH36ZV/Juanchi_González_PNG.webp",
+                "alt": "Delantero 4",
+                "number": "-",
+                "name": "Juanchi",
+                "url": "fichajugador.html?player=juanchi"
+            },
+            {
+                "src": "https://i.postimg.cc/8cTk2gLp/Rubén_Suárez_PNG.webp",
+                "alt": "Delantero 5",
+                "number": "-",
+                "name": "Rubén Suárez",
+                "url": "fichajugador.html?player=rubensuarez"
+            },
+            {
+                "src": "https://i.postimg.cc/y8ZjbMj3/Moller_PNG.webp",
+                "alt": "Delantero 5",
+                "number": "-",
+                "name": "Möller",
+                "url": "fichajugador.html?player=moller"
+            }
+        ],
+        "coaches": [
+            {
+                "src": "https://i.postimg.cc/bJ9SDTTv/Marigil-entrenador-PNG.webp",
+                "alt": "Entrenador 1",
+                "number": "-",
+                "name": "Quique Marigil",
+                "url": "fichajugador.html?player=quiquemarigil"
+            }
+       ]
+    }
     
     
 };
