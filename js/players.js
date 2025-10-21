@@ -6713,7 +6713,7 @@ const allPlayersData = {
             },
             {
                 "src": "https://i.postimg.cc/y8ZjbMj3/Moller_PNG.webp",
-                "alt": "Delantero 5",
+                "alt": "Delantero 6",
                 "number": "-",
                 "name": "Möller",
                 "url": "fichajugador.html?player=moller"
