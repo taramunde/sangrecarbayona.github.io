@@ -6433,7 +6433,7 @@ const allPlayersData = {
             },
             {
                 "src": "https://i.postimg.cc/5231LzV0/Dani-L-pez-PNG.webp",
-                "alt": "Centrocampista 14",
+                "alt": "Centrocampista 15",
                 "number": "-",
                 "name": "Dani López",
                 "url": "fichajugador.html?player=danilopez"
