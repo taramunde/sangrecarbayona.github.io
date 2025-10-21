@@ -6506,7 +6506,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=rivas"
             }
        ]
-    }
+    },
     "2001-02": {
         "goalkeepers": [
             {
