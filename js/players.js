@@ -7304,7 +7304,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=boris"
             },
             {
-                "src": "https://i.postimg.cc/90FQwB4c/Boris-PNG.webp",
+                "src": "https://i.postimg.cc/MTYrr79M/Pepe_Saavedra_PNG.webp",
                 "alt": "Defensa 9",
                 "number": "-",
                 "name": "Pepe Saavedra",
