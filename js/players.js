@@ -7059,9 +7059,8 @@ function updatePlayerGallery(position) {
     if (nextButton) nextButton.disabled = currentIndex === players.length - 1;
     
     // AÑADE ESTA LÍNEA AL FINAL:
-    preloadImages(position);
+    
 }
-
 function initGalleries() {
     // Obtener la temporada del atributo data-season del body
     const body = document.body;
@@ -7072,8 +7071,8 @@ function initGalleries() {
         return;
     }
 
-    // AÑADE ESTA LÍNEA: Precargar todas las imágenes de la temporada actual
-    preloadAllImagesForSeason(currentSeason);
+    // ELIMINA ESTA LÍNEA:
+    // preloadAllImagesForSeason(currentSeason);
 
     Object.keys(allPlayersData[currentSeason]).forEach(position => {
         const gallery = document.querySelector(`.players-gallery[data-position="${position}"]`);
