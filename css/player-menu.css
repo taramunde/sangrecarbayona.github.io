@@ -1,4 +1,4 @@
-/* Menú del jugador */
+Menú del jugador */
 main .player-section .player-menu {
     max-width: 800px;
     margin: 0 auto 30px auto;
@@ -177,15 +177,76 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     background-color: #f8f8f8;
 }
 
-/* Estilos para la visualización de estadísticas */
+/* NUEVOS ESTILOS PARA ESTADÍSTICAS - REEMPLAZA LA SECCIÓN ANTERIOR DE stats-display */
 main .player-section .stats-display {
     margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    flex-wrap: wrap;
+    color: #4a4a4a;
 }
 
+main .player-section .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+main .player-section .stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: rgba(14, 14, 236, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 236, 0.2);
+}
+
+main .player-section .stat-label {
+    font-weight: 500;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+main .player-section .stat-value {
+    font-weight: bold;
+    color: #0e0eec;
+    font-size: 16px;
+    background: rgba(14, 14, 236, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+    min-width: 40px;
+    text-align: center;
+    border: 1px solid #0e0eec;
+}
+
+main .player-section .season-competition {
+    margin: 25px 0;
+    padding: 20px;
+    background: rgba(14, 14, 236, 0.02);
+    border-radius: 12px;
+    border: 1px solid rgba(14, 14, 236, 0.1);
+}
+
+main .player-section .season-competition h4,
+main .player-section .season-competition h5 {
+    color: #4a4a4a;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+main .player-section .season-competition h4 {
+    font-size: 18px;
+    border-bottom: 2px solid rgba(14, 14, 236, 0.2);
+    padding-bottom: 10px;
+    color: #0e0eec;
+}
+
+main .player-section .season-competition h5 {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 12px;
+}
+
+/* Mantener estilos legacy para compatibilidad */
 main .player-section .stat-card {
     background: rgba(14, 14, 236, 0.1);
     border: 1px solid #0e0eec;
@@ -233,97 +294,6 @@ main .player-section .tarjeta.roja {
     color: #fff;
 }
 
-/* Estilos para la sección de trayectoria */
-main .player-section .career-timeline {
-    margin-top: 15px;
-}
-
-main .player-section .career-item {
-    background: rgba(14, 14, 236, 0.05);
-    border-left: 3px solid #0e0eec;
-    padding: 12px 15px;
-    margin-bottom: 10px;
-    border-radius: 0 5px 5px 0;
-    transition: all 0.3s;
-}
-
-main .player-section .career-item:hover {
-    background: rgba(14, 14, 236, 0.1);
-    transform: translateX(5px);
-}
-
-main .player-section .career-season {
-    font-weight: bold;
-    color: #0e0eec;
-    font-size: 14px;
-    margin-bottom: 5px;
-    display: block;
-}
-
-main .player-section .career-team {
-    color: #4a4a4a;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 3px;
-    display: block;
-}
-
-main .player-section .career-category {
-    color: #666;
-    font-size: 13px;
-    font-style: italic;
-}
-
-/* Estilos para trayectoria con selección nacional */
-main .player-section .national-team-item {
-    background: rgba(128, 0, 32, 0.05);  /* Fondo granate suave */
-    border-left: 3px solid #800020;  /* Borde granate */
-    padding: 12px 15px;
-    margin-bottom: 10px;
-    border-radius: 0 5px 5px 0;
-    transition: all 0.3s;
-}
-
-main .player-section .national-team-item:hover {
-    background: rgba(128, 0, 32, 0.1);
-    transform: translateX(5px);
-}
-
-main .player-section .national-team-item .career-season {
-    color: #800020;  /* Color granate para la temporada */
-}
-
-/* Estilos para la sección de Datos Personales */
-main .player-section .personal-data-grid {
-    padding: 10px 5px;
-}
-
-main .player-section .data-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(14, 14, 236, 0.15); /* Línea divisoria sutil con el color del tema */
-    font-size: 15px;
-}
-
-main .player-section .data-item:last-child {
-    border-bottom: none; /* Quitar la línea del último elemento */
-}
-
-main .player-section .data-label {
-    font-weight: bold;
-    color: #4a4a4a; /* Color principal del texto */
-    margin-right: 15px;
-    flex-shrink: 0; /* Evita que la etiqueta se comprima si el valor es largo */
-}
-
-main .player-section .data-value {
-    color: #0e0eec; /* Color azul del tema para el valor */
-    text-align: right;
-    font-weight: 500;
-}
-
 /* Responsive: Tablets (600px - 1024px) */
 @media (min-width: 600px) and (max-width: 1024px) {
     main .player-section .player-menu {
@@ -367,6 +337,11 @@ main .player-section .data-value {
         gap: 12px;
     }
     
+    main .player-section .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 12px;
+    }
+    
     main .player-section .stat-card {
         min-width: 140px;
         padding: 12px;
@@ -379,39 +354,13 @@ main .player-section .data-value {
     main .player-section .stat-number {
         font-size: 22px;
     }
-
-    
 }
 
 /* Responsive: Móviles (<600px) */
 @media (max-width: 599px) {
-
-    main .player-section .career-item {
-        padding: 10px 12px;
-        margin-bottom: 8px;
-    }
-    
-    main .player-section .career-season {
-        font-size: 13px;
-    }
-    
-    main .player-section .career-team {
-        font-size: 15px;
-    }
-    
-    main .player-section .career-category {
-        font-size: 12px;
-    }
-
-    main .player-section .national-team-item {
-        padding: 10px 12px;
-        margin-bottom: 8px;
-    }
-    
     main .player-section .player-menu {
         max-width: calc(100% - 20px);
         margin: 0 auto 40px auto;
-        padding: 0 5px;
     }
     
     main .player-section .menu-tabs {
@@ -440,7 +389,7 @@ main .player-section .data-value {
     }
     
     main .player-section .menu-content {
-        padding: 10px 5px;
+        padding: 15px 10px;
     }
     
     main .player-section .stats-buttons {
@@ -495,13 +444,16 @@ main .player-section .data-value {
     main .player-section .stats-display {
         flex-direction: column;
         gap: 10px;
-        padding: 0 5px;
+    }
+    
+    main .player-section .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
     
     main .player-section .stat-card {
         min-width: 100%;
-        padding: 12px 10px;
-        box-sizing: border-box;
+        padding: 15px;
     }
     
     main .player-section .stat-card h4 {
@@ -520,16 +472,5 @@ main .player-section .data-value {
     main .player-section .tarjeta {
         padding: 8px 12px;
         font-size: 18px;
-    }
-
-    main .player-section .data-item {
-        flex-direction: column; /* En móvil, la etiqueta se pone encima del valor */
-        align-items: flex-start; /* Alineamos todo a la izquierda */
-        gap: 4px; /* Pequeño espacio entre etiqueta y valor */
-        padding: 12px 0;
-    }
-
-    main .player-section .data-value {
-        text-align: left; /* Alineamos el valor a la izquierda también */
     }
 }
