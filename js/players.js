@@ -6418,7 +6418,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=serrano"
             },
             {
-                "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+                "src": "https://i.postimg.cc/6QZcBk7r/Hernán_PNG.webp",
                 "alt": "Centrocampista 13",
                 "number": "-",
                 "name": "Hernán",
