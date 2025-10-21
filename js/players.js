@@ -6729,7 +6729,6 @@ const allPlayersData = {
             }
        ]
     },
-    ,
     "2000-01": {
         "goalkeepers": [
             {
