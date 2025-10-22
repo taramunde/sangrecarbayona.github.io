@@ -8137,7 +8137,7 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=ivanbrizc"
             }
        ]
-    }
+    },
     "1994-95": {
         "goalkeepers": [
             {
