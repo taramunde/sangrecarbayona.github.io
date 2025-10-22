@@ -53,7 +53,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    max-width: 400px; /* Aumentado para tarjetas más anchas */
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -61,12 +61,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 180px; /* AÑADIDO: ancho fijo para la tarjeta */
 }
 
 .players-gallery img {
-    width: 100%;
-    max-width: 180px; /* Aumentado para tarjetas más anchas */
-    aspect-ratio: 3 / 4;
+    width: 180px; /* CAMBIADO: ancho fijo en lugar de 100% */
+    height: 240px; /* AÑADIDO: altura fija para todas las imágenes */
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     border: 2px solid #0e0eec;
@@ -76,15 +76,14 @@
 }
 
 .player-info {
-    width: 100%;
-    max-width: 180px; /* Tarjetas más anchas */
+    width: 180px; /* CAMBIADO: ancho fijo igual a la imagen */
     background: white;
     border: 2px solid #0e0eec;
     border-top: none;
     border-radius: 0 0 10px 10px;
     padding: 10px;
     box-sizing: border-box;
-    min-height: 80px; /* Altura mínima para uniformidad */
+    min-height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -105,9 +104,9 @@
 
 .player-name {
     color: black;
-    font-size: 14px; /* Tamaño de letra reducido */
+    font-size: 14px;
     font-weight: bold;
-    flex: 1; /* Ocupa el espacio disponible */
+    flex: 1;
 }
 
 .player-button {
@@ -138,25 +137,34 @@
     .players-title {
         font-size: 20px;
     }
-    .players-gallery img, .player-info {
-        max-width: 150px; /* Ajustado para pantallas medianas */
+    
+    .player-card {
+        width: 150px; /* AÑADIDO */
     }
+    
+    .players-gallery img {
+        width: 150px; /* CAMBIADO */
+        height: 200px; /* AÑADIDO */
+    }
+    
+    .player-info {
+        width: 150px; /* CAMBIADO */
+        min-height: 70px;
+    }
+    
     .player-number {
         font-size: 16px;
     }
     .player-name {
-        font-size: 12px; /* Tamaño de letra reducido */
+        font-size: 12px;
         font-weight: bold;
     }
     .player-button {
         font-size: 12px;
         padding: 6px 12px;
     }
-    .player-info {
-        min-height: 70px; /* Altura mínima ajustada */
-    }
     .players-gallery {
-        max-width: 340px; /* Ajustado para tarjetas más anchas */
+        max-width: 340px;
     }
 }
 
@@ -164,28 +172,37 @@
     .players-title {
         font-size: 18px;
     }
-    .players-gallery img, .player-info {
-        max-width: 160px; /* AUMENTADO de 140px a 160px */
+    
+    .player-card {
+        width: 160px; /* AÑADIDO */
     }
+    
+    .players-gallery img {
+        width: 160px; /* CAMBIADO */
+        height: 213px; /* AÑADIDO: mantiene proporción 3:4 */
+    }
+    
+    .player-info {
+        width: 160px; /* CAMBIADO */
+        min-height: 70px;
+    }
+    
     .player-number {
         font-size: 14px;
     }
     .player-name {
         font-size: 11px;
         font-weight: bold;
-        overflow: hidden; /* AÑADE ESTA LÍNEA */
-        text-overflow: ellipsis; /* AÑADE ESTA LÍNEA */
-        white-space: nowrap; /* AÑADE ESTA LÍNEA */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     .player-button {
         font-size: 10px;
         padding: 5px 10px;
     }
-    .player-info {
-        min-height: 70px; /* AUMENTADO de 60px a 70px para más espacio */
-    }
     .players-gallery {
-        max-width: 320px; /* AUMENTADO de 280px a 320px */
+        max-width: 320px;
     }
     .players-nav {
         gap: 5px;
@@ -195,4 +212,3 @@
         font-size: 14px;
     }
 }
-
