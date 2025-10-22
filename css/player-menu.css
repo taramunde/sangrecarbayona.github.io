@@ -69,22 +69,11 @@ main .player-section #career {
     color: #4a4a4a;
 }
 
-main .player-section .career-section {
-    margin-bottom: 30px;
-}
-
-main .player-section .career-section h3 {
-    color: #0e0eec;
-    font-size: 20px;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid rgba(14, 14, 236, 0.3);
-}
-
-main .player-section .career-list {
+main .player-section .career-timeline {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin-top: 10px;
 }
 
 main .player-section .career-item {
@@ -103,11 +92,26 @@ main .player-section .career-item:hover {
     transform: translateX(5px);
 }
 
+/* Estilo especial para selección nacional */
+main .player-section .career-item.national-team-item {
+    border-left-color: #28a745;
+    background: rgba(40, 167, 69, 0.05);
+}
+
+main .player-section .career-item.national-team-item:hover {
+    background: rgba(40, 167, 69, 0.1);
+}
+
 main .player-section .career-season {
     font-weight: bold;
     color: #0e0eec;
     font-size: 14px;
     min-width: 80px;
+    flex-shrink: 0;
+}
+
+main .player-section .career-item.national-team-item .career-season {
+    color: #28a745;
 }
 
 main .player-section .career-team {
@@ -115,6 +119,7 @@ main .player-section .career-team {
     color: #4a4a4a;
     font-size: 14px;
     margin: 0 15px;
+    font-weight: 500;
 }
 
 main .player-section .career-category {
@@ -122,6 +127,7 @@ main .player-section .career-category {
     font-size: 13px;
     font-style: italic;
     text-align: right;
+    flex-shrink: 0;
 }
 
 /* ========== ESTILOS PARA DATOS PERSONALES ========== */
@@ -136,33 +142,36 @@ main .player-section .personal-data-grid {
     margin-top: 20px;
 }
 
-main .player-section .personal-data-item {
+main .player-section .data-item {
     display: flex;
     flex-direction: column;
     padding: 15px;
     background: rgba(14, 14, 236, 0.05);
     border-radius: 8px;
     border: 1px solid rgba(14, 14, 236, 0.2);
+    transition: all 0.3s;
 }
 
-main .player-section .personal-data-label {
+main .player-section .data-item:hover {
+    background: rgba(14, 14, 236, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main .player-section .data-label {
     font-weight: 600;
     color: #0e0eec;
-    font-size: 13px;
-    margin-bottom: 5px;
+    font-size: 12px;
+    margin-bottom: 8px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-main .player-section .personal-data-value {
+main .player-section .data-value {
     color: #4a4a4a;
     font-size: 16px;
     font-weight: 500;
-}
-
-/* Estilo especial para jugadores fallecidos */
-main .player-section .personal-data-item.deceased .personal-data-value {
-    color: #666;
+    line-height: 1.4;
 }
 
 /* Estilos para los botones y menús desplegables */
@@ -282,6 +291,10 @@ main .player-section .dropdown-menu .dropdown-option:hover {
 main .player-section .stats-display {
     margin-top: 20px;
     color: #4a4a4a;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 main .player-section .stats-grid {
@@ -347,7 +360,7 @@ main .player-section .season-competition h5 {
     margin-bottom: 12px;
 }
 
-/* Mantener estilos legacy para compatibilidad */
+/* Estilos para las tarjetas de estadísticas */
 main .player-section .stat-card {
     background: rgba(14, 14, 236, 0.1);
     border: 1px solid #0e0eec;
@@ -356,6 +369,12 @@ main .player-section .stat-card {
     text-align: center;
     flex: 1;
     min-width: 120px;
+    transition: all 0.3s;
+}
+
+main .player-section .stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(14, 14, 236, 0.2);
 }
 
 main .player-section .stat-card h4 {
@@ -461,8 +480,25 @@ main .player-section .tarjeta.roja {
         gap: 12px;
     }
     
+    main .player-section .data-item {
+        padding: 12px;
+    }
+    
     main .player-section .career-item {
         padding: 10px 14px;
+    }
+    
+    main .player-section .career-season {
+        min-width: 70px;
+        font-size: 13px;
+    }
+    
+    main .player-section .career-team {
+        font-size: 13px;
+    }
+    
+    main .player-section .career-category {
+        font-size: 12px;
     }
 }
 
@@ -589,8 +625,20 @@ main .player-section .tarjeta.roja {
         gap: 10px;
     }
     
-    main .player-section .personal-data-item {
+    main .player-section .data-item {
         padding: 12px;
+    }
+    
+    main .player-section .data-label {
+        font-size: 11px;
+    }
+    
+    main .player-section .data-value {
+        font-size: 15px;
+    }
+    
+    main .player-section .career-timeline {
+        gap: 10px;
     }
     
     main .player-section .career-item {
