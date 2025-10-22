@@ -1,0 +1,156 @@
+/* css/weather-widget.css */
+.weather-widget {
+  background: #fff;
+  max-width: 200px; /* Más pequeño en desktop (antes 280px) */
+  margin: 20px auto;
+  padding: 12px 10px 10px 10px; /* Padding reducido para compactar */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 48, 135, 0.15); /* Sombra azul suave */
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.weather-widget h2 {
+  margin: 0 0 12px 0;
+  font-size: 1rem; /* Ligeramente más pequeño (antes 1.1rem) */
+  color: #003087; /* Azul del Real Oviedo */
+  letter-spacing: 0.3px;
+}
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.weather-icon {
+  width: 44px; /* Más pequeño (antes 48px) */
+  height: 44px;
+  margin-right: 8px;
+  font-size: 1.8rem; /* Para iconos emoji */
+}
+
+.temp {
+  font-size: 1.8rem; /* Más pequeño (antes 2rem) */
+  color: #003087;
+  font-weight: 600;
+}
+
+.description {
+  text-transform: capitalize;
+  color: #395886;
+  font-size: 0.9rem; /* Ligeramente más pequeño (antes 0.95rem) */
+  margin-bottom: 6px;
+}
+
+.location {
+  color: #678ab5;
+  font-size: 0.85rem; /* Más pequeño (antes 0.9rem) */
+  margin-bottom: 6px;
+}
+
+.details {
+  color: #3e5a7f;
+  font-size: 0.8rem; /* Más pequeño (antes 0.85rem) */
+  margin-bottom: 4px;
+}
+
+.error {
+  color: #c0392b;
+  font-size: 0.85rem; /* Más pequeño (antes 0.9rem) */
+  margin-top: 8px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 5px 10px; /* Padding reducido */
+  background: #003087; /* Azul del Real Oviedo */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem; /* Más pequeño (antes 0.9rem) */
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #0040b3; /* Azul más claro en hover */
+}
+
+button:disabled {
+  background: #a9c6f2;
+  cursor: not-allowed;
+}
+
+input[type="text"] {
+  margin-top: 8px;
+  padding: 5px 8px; /* Padding reducido */
+  border: 1px solid #bfd7f7;
+  border-radius: 6px;
+  font-size: 0.85rem; /* Más pequeño (antes 0.9rem) */
+  width: 70%;
+}
+
+.loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #003087; /* Azul del Real Oviedo */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+  display: none;
+}
+
+.loading .loading-spinner {
+  display: block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsividad para móviles (menú lateral estrecho) */
+@media screen and (max-width: 768px) {
+  .weather-widget {
+    max-width: 250px; /* Mantiene el mismo para móviles */
+    margin: 15px auto;
+    padding: 12px 10px;
+  }
+
+  .weather-widget h2 {
+    font-size: 0.95rem; /* Ajuste para móviles */
+  }
+
+  .temp {
+    font-size: 1.6rem;
+  }
+
+  .weather-icon {
+    font-size: 1.6rem;
+    width: 36px;
+    height: 36px;
+  }
+
+  .description, .location, .details {
+    font-size: 0.8rem;
+  }
+
+  input[type="text"] {
+    width: 65%;
+  }
+}
+
+/* Pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+  .weather-widget {
+    max-width: 220px;
+    padding: 10px 8px;
+  }
+
+  .temp {
+    font-size: 1.4rem;
+  }
+}

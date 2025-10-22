@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Wordwalker';
+    src: url('https://cdn.jsdelivr.net/gh/taramunde1974/Sangre-Carbayona@main/Wordwalker%20Regular.ttf') format('truetype');
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espacio de 20px encima del goleadores (mantenido del original) */
+}
+
+.card-container {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    display: flex !important;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.card:hover, .card.flipped {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.front {
+    background: linear-gradient(45deg, #0e0eec, #85a2ed);
+    padding: 10px;
+}
+
+.back {
+    background: linear-gradient(45deg, #0e0eec, #85a2ed);
+    transform: rotateY(180deg);
+    padding: 10px;
+}
+
+.team-crest {
+    position: absolute;
+    top: 145px;
+    right: 15px;
+    width: 25px;
+    height: 40px;
+    z-index: 2;
+}
+
+.player-image-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 15px auto 0;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid white;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.player-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    left: -2.5%;
+    top: 1%;
+}
+
+.nation-country {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.player-number {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.player-name {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.team-name {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: 'Wordwalker', sans-serif;
+}
+
+.team-name2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 77px;
+    font-weight: bold;
+    font-family: 'Wordwalker', sans-serif;
+}
+
+.player-name-back {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.temp-name {
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.stats {
+    color: white;
+    margin-top: 20px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 10px;
+}
+
+.link-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0048ff;
+    font-weight: bold;
+    font-size: 10px;
+    transition: all 0.3s;
+}
+
+.link-button:hover {
+    background: #ff8c00;
+    color: white;
+}
+
+.no-goals-text {
+    width: 150px;
+    height: 150px;
+    margin: 15px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    color: #0048ff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.oculta {
+    display: none !important;
+}
+
+/* Añadir separación de 40px encima del letrero de goleadores */
+.goalscorers {
+    margin-top: 40px; /* Separación de 40px entre el letrero y el Card Slide */
+}
+
+/* Responsividad para móviles */
+@media screen and (max-width: 768px) {
+    .cards-wrapper {
+        gap: 3px;
+        margin-top: 15px; /* Mantenido del original */
+    }
+
+    .card-container {
+        width: 160px;
+        height: 240px;
+    }
+
+    .goalscorers {
+        margin-top: 30px; /* Menos separación en móviles */
+    }
+
+    /* Reducir tamaño de la bandera y moverla a la derecha */
+    .nation-country {
+        width: 32px; /* Tamaño más pequeño */
+        height: 32px;
+        right: 12px; /* Mover ligeramente a la derecha */
+    }
+
+    /* Reducir tamaño del escudo y moverlo a la derecha */
+    .team-crest {
+        width: 20px; /* Tamaño más pequeño */
+        height: 32px;
+        right: 15px; /* Mover ligeramente a la derecha */
+    }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+    .goalscorers {
+        margin-top: 20px; /* Aún menos separación */
+    }
+
+    /* Tamaño aún más pequeño para bandera y escudo */
+    .nation-country {
+        width: 28px;
+        height: 28px;
+        right: 10px; /* Ajuste más sutil a la derecha */
+    }
+
+    .team-crest {
+        width: 18px;
+        height: 28px;
+        right: 16px;
+    }
+}
+   
