@@ -64,6 +64,107 @@ main .player-section .tab-content.active {
     display: block;
 }
 
+/* ========== ESTILOS PARA TRAYECTORIA ========== */
+main .player-section #career {
+    color: #4a4a4a;
+}
+
+main .player-section .career-section {
+    margin-bottom: 30px;
+}
+
+main .player-section .career-section h3 {
+    color: #0e0eec;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(14, 14, 236, 0.3);
+}
+
+main .player-section .career-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+main .player-section .career-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: rgba(14, 14, 236, 0.05);
+    border-radius: 8px;
+    border-left: 4px solid #0e0eec;
+    transition: all 0.3s;
+}
+
+main .player-section .career-item:hover {
+    background: rgba(14, 14, 236, 0.1);
+    transform: translateX(5px);
+}
+
+main .player-section .career-season {
+    font-weight: bold;
+    color: #0e0eec;
+    font-size: 14px;
+    min-width: 80px;
+}
+
+main .player-section .career-team {
+    flex: 1;
+    color: #4a4a4a;
+    font-size: 14px;
+    margin: 0 15px;
+}
+
+main .player-section .career-category {
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+    text-align: right;
+}
+
+/* ========== ESTILOS PARA DATOS PERSONALES ========== */
+main .player-section #personal-data {
+    color: #4a4a4a;
+}
+
+main .player-section .personal-data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+main .player-section .personal-data-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: rgba(14, 14, 236, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 236, 0.2);
+}
+
+main .player-section .personal-data-label {
+    font-weight: 600;
+    color: #0e0eec;
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+main .player-section .personal-data-value {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Estilo especial para jugadores fallecidos */
+main .player-section .personal-data-item.deceased .personal-data-value {
+    color: #666;
+}
+
 /* Estilos para los botones y menús desplegables */
 main .player-section .stats-buttons {
     display: flex;
@@ -177,7 +278,7 @@ main .player-section .dropdown-menu .dropdown-option:hover {
     background-color: #f8f8f8;
 }
 
-/* NUEVOS ESTILOS PARA ESTADÍSTICAS - REEMPLAZA LA SECCIÓN ANTERIOR DE stats-display */
+/* ESTILOS PARA ESTADÍSTICAS */
 main .player-section .stats-display {
     margin-top: 20px;
     color: #4a4a4a;
@@ -354,6 +455,15 @@ main .player-section .tarjeta.roja {
     main .player-section .stat-number {
         font-size: 22px;
     }
+    
+    main .player-section .personal-data-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 12px;
+    }
+    
+    main .player-section .career-item {
+        padding: 10px 14px;
+    }
 }
 
 /* Responsive: Móviles (<600px) */
@@ -472,5 +582,36 @@ main .player-section .tarjeta.roja {
     main .player-section .tarjeta {
         padding: 8px 12px;
         font-size: 18px;
+    }
+    
+    main .player-section .personal-data-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    main .player-section .personal-data-item {
+        padding: 12px;
+    }
+    
+    main .player-section .career-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px;
+        gap: 5px;
+    }
+    
+    main .player-section .career-season {
+        min-width: auto;
+        font-size: 15px;
+    }
+    
+    main .player-section .career-team {
+        margin: 0;
+        font-size: 13px;
+    }
+    
+    main .player-section .career-category {
+        text-align: left;
+        font-size: 12px;
     }
 }
