@@ -8683,7 +8683,7 @@ const allPlayersData = {
                 "src": "https://i.postimg.cc/LsR2wTH2/Gracan_PNG.webp",
                 "alt": "Centrocampista 5",
                 "number": "-",
-                "name": "Gracan",
+                "name": "Gračan",
                 "url": "fichajugador.html?player=gracan"
             },
             {
@@ -8755,14 +8755,14 @@ const allPlayersData = {
                 "src": "https://i.postimg.cc/SN7NfRFn/Lacatus_PNG.webp",
                 "alt": "Delantero 3",
                 "number": "-",
-                "name": "Lacatus",
+                "name": "Lăcătuș",
                 "url": "fichajugador.html?player=lacatus"
             },
             {
                 "src": "https://i.postimg.cc/RFDvqJHY/Jankovic_PNG.webp",
                 "alt": "Delantero 4",
                 "number": "-",
-                "name": "Jankovic",
+                "name": "Janković",
                 "url": "fichajugador.html?player=jankovic"
             },
             {
@@ -8799,7 +8799,7 @@ const allPlayersData = {
                 "src": "https://i.postimg.cc/284MqBpK/Antic-entrenador-PNG.webp",
                 "alt": "Entrenador 3",
                 "number": "-",
-                "name": "Antic",
+                "name": "Antić",
                 "url": "fichajugador.html?player=antic"
             }
        ]
