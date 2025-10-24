@@ -223,6 +223,13 @@ const allPlayersData = {
                 "number": "-",
                 "name": "Diego Tejón",
                 "url": "fichajugador.html?player=diegotejon"
+            },
+            {
+                "src": "https://i.postimg.cc/R08HJS5Y/Agudin-PNG.webp",
+                "alt": "Centrocampista 15",
+                "number": "-",
+                "name": "Agudín",
+                "url": "fichajugador.html?player=agudin"
             }
         ],
         "forwards": [
