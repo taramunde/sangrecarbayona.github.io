@@ -8345,6 +8345,221 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=antic"
             }
        ]
+    },
+    "1993-94": {
+        "goalkeepers": [
+            {
+                "src": "https://i.postimg.cc/L625gLYq/Viti_PNG.webp",
+                "alt": "Portero 1",
+                "number": "-",
+                "name": "Viti",
+                "url": "fichajugador.html?player=viti"
+            },
+            {
+                "src": "https://i.postimg.cc/DzB87ZyW/Mora_PNG.webp",
+                "alt": "Portero 2",
+                "number": "-",
+                "name": "Mora",
+                "url": "fichajugador.html?player=mora"
+            },
+            {
+                "src": "https://i.postimg.cc/7Y87s5CD/Rafa_PNG.webp",
+                "alt": "Portero 3",
+                "number": "-",
+                "name": "Rafa",
+                "url": "fichajugador.html?player=rafa"
+            }
+        ],
+        "defenders": [
+            {
+                "src": "https://i.postimg.cc/gJ3ZH4kR/Andres-PNG.webp",
+                "alt": "Defensa 1",
+                "number": "-",
+                "name": "Andrés",
+                "url": "fichajugador.html?player=andres"
+            },
+            {
+                "src": "https://i.postimg.cc/pybc1sDH/Cristóbal_PNG.webp",
+                "alt": "Defensa 2",
+                "number": "-",
+                "name": "Cristóbal",
+                "url": "fichajugador.html?player=cristobal"
+            },
+            {
+                "src": "https://i.postimg.cc/fbnXt6MZ/Jerkan_PNG.webp",
+                "alt": "Defensa 3",
+                "number": "-",
+                "name": "Jerkan",
+                "url": "fichajugador.html?player=jerkan"
+            },
+            {
+                "src": "https://i.postimg.cc/C5XCvdpn/Rivas_PNG.webp",
+                "alt": "Defensa 4",
+                "number": "-",
+                "name": "Rivas",
+                "url": "fichajugador.html?player=rivas"
+            },
+            {
+                "src": "https://i.postimg.cc/2Swby39d/Luis_Manuel_PNG.webp",
+                "alt": "Defensa 5",
+                "number": "-",
+                "name": "Luis Manuel",
+                "url": "fichajugador.html?player=luismanuel"
+            },
+            {
+                "src": "https://i.postimg.cc/jqm154DT/Sietes_PNG.webp",
+                "alt": "Defensa 6",
+                "number": "-",
+                "name": "Sietes",
+                "url": "fichajugador.html?player=sietes"
+            },
+            {
+                "src": "https://i.postimg.cc/L5RNtJR9/Gorriarán_PNG.webp",
+                "alt": "Defensa 7",
+                "number": "-",
+                "name": "Gorriarán",
+                "url": "fichajugador.html?player=gorriaran"
+            },
+            {
+                "src": "https://i.postimg.cc/HxSCR1xC/Carreras_PNG.webp",
+                "alt": "Defensa 8",
+                "number": "-",
+                "name": "Carreras",
+                "url": "fichajugador.html?player=carreras"
+            },
+            {
+                "src": "https://i.postimg.cc/HxjSWrHj/Tista_PNG.webp",
+                "alt": "Defensa 9",
+                "number": "-",
+                "name": "Tista",
+                "url": "fichajugador.html?player=tista"
+            }
+        ],
+        "midfielders": [
+            {
+                "src": "https://i.postimg.cc/8kh5KjdR/Pedro_Alberto_PNG.webp",
+                "alt": "Centrocampista 1",
+                "number": "-",
+                "name": "Pedro Alberto",
+                "url": "fichajugador.html?player=pedroalberto"
+            },
+            {
+                "src": "https://i.postimg.cc/xC3Y9b1M/Armando-PNG.webp",
+                "alt": "Centrocampista 2",
+                "number": "-",
+                "name": "Armando",
+                "url": "fichajugador.html?player=armando"
+            },
+            {
+                "src": "https://i.postimg.cc/jdmV0h4B/Berto-PNG.webp",
+                "alt": "Centrocampista 3",
+                "number": "-",
+                "name": "Berto",
+                "url": "fichajugador.html?player=berto"
+            },
+            {
+                "src": "https://i.postimg.cc/nLk2GHRp/Suárez_PNG.webp",
+                "alt": "Centrocampista 4",
+                "number": "-",
+                "name": "Suárez",
+                "url": "fichajugador.html?player=suarez"
+            },
+            {
+                "src": "https://i.postimg.cc/CxMV4KJx/Jokanovic_PNG.webp",
+                "alt": "Centrocampista 5",
+                "number": "-",
+                "name": "Jokanović",
+                "url": "fichajugador.html?player=jokanovic"
+            },
+            {
+                "src": "https://i.postimg.cc/fLcWkrB3/Andrades-PNG.webp",
+                "alt": "Centrocampista 6",
+                "number": "-",
+                "name": "Andrades",
+                "url": "fichajugador.html?player=andrades"
+            },
+            {
+                "src": "https://i.postimg.cc/XvMpJd4z/Elcacho_PNG.webp",
+                "alt": "Centrocampista 7",
+                "number": "-",
+                "name": "Elcacho",
+                "url": "fichajugador.html?player=elcacho"
+            },
+            {
+                "src": "https://i.postimg.cc/BbDMD2Rw/Viñals_PNG.webp",
+                "alt": "Centrocampista 8",
+                "number": "-",
+                "name": "Vinyals",
+                "url": "fichajugador.html?player=vinyals"
+            },
+            {
+                "src": "https://i.postimg.cc/ryhGpnbZ/Manel_PNG.webp",
+                "alt": "Centrocampista 9",
+                "number": "-",
+                "name": "Manel",
+                "url": "fichajugador.html?player=manel"
+            },
+            {
+                "src": "https://i.postimg.cc/WprDB9VJ/Paco_PNG.webp",
+                "alt": "Centrocampista 10",
+                "number": "-",
+                "name": "Paco",
+                "url": "fichajugador.html?player=paco"
+            }
+        ],
+        "forwards": [
+            {
+                "src": "https://i.postimg.cc/SNskCrrv/Sarriugarte_PNG.webp",
+                "alt": "Delantero 1",
+                "number": "-",
+                "name": "Sarriugarte",
+                "url": "fichajugador.html?player=sarriugarte"
+            },
+            {
+                "src": "https://i.postimg.cc/0jTXBPTj/Carlos_PNG.webp",
+                "alt": "Delantero 2",
+                "number": "-",
+                "name": "Carlos",
+                "url": "fichajugador.html?player=carlos"
+            },
+            {
+                "src": "https://i.postimg.cc/vBWpw1v9/Maqueda-PNG.webp",
+                "alt": "Delantero 3",
+                "number": "-",
+                "name": "Maqueda",
+                "url": "fichajugador.html?player=maqueda"
+            },
+            {
+                "src": "https://i.postimg.cc/RFDvqJHY/Jankovic_PNG.webp",
+                "alt": "Delantero 4",
+                "number": "-",
+                "name": "Janković",
+                "url": "fichajugador.html?player=jankovic"
+            },
+            {
+                "src": "https://i.postimg.cc/fbMdfprN/Oli_PNG.webp",
+                "alt": "Delantero 5",
+                "number": "-",
+                "name": "Oli",
+                "url": "fichajugador.html?player=oli"
+            },
+            {
+                "src": "https://i.postimg.cc/RVqXc6nR/Miguélez_PNG.webp",
+                "alt": "Delantero 6",
+                "number": "-",
+                "name": "Miguélez",
+                "url": "fichajugador.html?player=miguelez"
+            }
+        ],
+        "coaches": [
+            {
+                "src": "https://i.postimg.cc/284MqBpK/Antic-entrenador-PNG.webp",
+                "alt": "Entrenador 1",
+                "number": "-",
+                "name": "Antić",
+                "url": "fichajugador.html?player=antic"
+            }
+       ]
     }
     
     
