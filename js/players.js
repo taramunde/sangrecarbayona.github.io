@@ -8876,7 +8876,7 @@ const allPlayersData = {
                 "alt": "Defensa 7",
                 "number": "-",
                 "name": "Sañudo",
-                "url": "fichajugador.html?player=sañudo"
+                "url": "fichajugador.html?player=sanudo"
             },
             {
                 "src": "https://i.postimg.cc/gJ3ZH4kR/Andres-PNG.webp",
@@ -9077,7 +9077,7 @@ const allPlayersData = {
                 "alt": "Defensa 7",
                 "number": "-",
                 "name": "Sañudo",
-                "url": "fichajugador.html?player=sañudo"
+                "url": "fichajugador.html?player=sanudo"
             },
             {
                 "src": "https://i.postimg.cc/43DccjZs/Angel-Luis-PNG.webp",
@@ -9271,7 +9271,7 @@ const allPlayersData = {
                 "alt": "Defensa 7",
                 "number": "-",
                 "name": "Sañudo",
-                "url": "fichajugador.html?player=sañudo"
+                "url": "fichajugador.html?player=sanudo"
             },
             {
                 "src": "https://i.postimg.cc/2SFjGJ4C/Lito_PNG.webp",
@@ -9465,7 +9465,7 @@ const allPlayersData = {
                 "alt": "Defensa 7",
                 "number": "-",
                 "name": "Sañudo",
-                "url": "fichajugador.html?player=sañudo"
+                "url": "fichajugador.html?player=sanudo"
             },
             {
                 "src": "https://i.postimg.cc/nzxzpxpj/Bolanos-PNG.webp",
@@ -9607,7 +9607,8 @@ const allPlayersData = {
                 "url": "fichajugador.html?player=vicentemiera"
             }
        ]
-    }
+    },
+    
     
     
 
