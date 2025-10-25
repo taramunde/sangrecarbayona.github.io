@@ -65,8 +65,8 @@ const allPlayersData = {
                 "src": "https://i.postimg.cc/ZqxmPdzn/Carmo-PNG-2.webp",
                 "alt": "Defensa 6",
                 "number": "-",
-                "name": "Carmo",
-                "url": "fichajugador.html?player=carmo"
+                "name": "David Carmo",
+                "url": "fichajugador.html?player=davidcarmo"
             },
             {
                 "src": "https://i.postimg.cc/cLHZ7H4B/Nacho-Vidal-PNG-3.webp",
