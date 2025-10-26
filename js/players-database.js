@@ -30,6 +30,356 @@ const playersDatabase = {
         "name": "Quentin Braat",
         "url": "fichajugador.html?player=quentinbraat"
     },
+    "leoroman": {
+        "src": "https://i.postimg.cc/mDmMpjF5/Leo-Rom-n-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Leo Román",
+        "url": "fichajugador.html?player=leoroman"
+    },
+    "marco": {
+        "src": "https://i.postimg.cc/yxJJQHKD/Marco-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Marco",
+        "url": "fichajugador.html?player=marco"
+    },
+    "victoregboh": {
+        "src": "https://i.postimg.cc/tRh7g2TQ/Victor-Egboh-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Victor Egboh",
+        "url": "fichajugador.html?player=victoregboh"
+    },
+    "tomeunadal": {
+        "src": "https://i.postimg.cc/FK81Y63m/Tomeu-Nadal-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Tomeu Nadal",
+        "url": "fichajugador.html?player=tomeunadal"
+    },
+    "femenias": {
+        "src": "https://i.postimg.cc/pXXcdcZp/Femen-as-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Femenías",
+        "url": "fichajugador.html?player=femenias"
+    },
+    "bertohorreo": {
+        "src": "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Berto Hórreo",
+        "url": "fichajugador.html?player=bertohorreo"
+    },
+    "brazao": {
+        "src": "https://i.postimg.cc/CLs032K5/Braz-o-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Brazão",
+        "url": "fichajugador.html?player=brazao"
+    },
+    "alfonsoherrero": {
+        "src": "https://i.postimg.cc/T2WY4Qm5/Alfonso-Herrero-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Alfonso Herrero",
+        "url": "fichajugador.html?player=alfonsoherrero"
+    },
+    "champagne": {
+        "src": "https://i.postimg.cc/L5S7vHLT/Champagne-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Champagne",
+        "url": "fichajugador.html?player=champagne"
+    },
+    "lunin": {
+        "src": "https://i.postimg.cc/qv2KH43n/Lunin-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Lunin",
+        "url": "fichajugador.html?player=lunin"
+    },
+    "gorkagiralt": {
+        "src": "https://i.postimg.cc/7Y6X4GHz/Gorka-Giralt-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Gorka Giralt",
+        "url": "fichajugador.html?player=gorkagiralt"
+    },
+    "juancarlos": {
+        "src": "https://i.postimg.cc/d1sr9pDC/Juan-Carlos-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Juan Carlos",
+        "url": "fichajugador.html?player=juancarlos"
+    },
+    "esteban": {
+        "src": "https://i.postimg.cc/fT22S725/Esteban-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Esteban",
+        "url": "fichajugador.html?player=esteban"
+    },
+    "rubenmino": {
+        "src": "https://i.postimg.cc/k5pRxGr0/Rubén_Miño_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Ruben Miño",
+        "url": "fichajugador.html?player=rubenmino"
+    },
+    "gorkamagunazelaia": {
+        "src": "https://i.postimg.cc/qqmLn0Lg/Gorka_Magunazelaia_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Gorka Magunazelaia",
+        "url": "fichajugador.html?player=gorkamagunazelaia"
+    },
+    "orlandoquintana": {
+        "src": "https://i.postimg.cc/qBtXZfjc/Orlando_Quintana_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Orlando Quintana",
+        "url": "fichajugador.html?player=orlandoquintana"
+    },
+    "polfreixanet": {
+        "src": "https://i.postimg.cc/43LVBwcF/Pol_Freixanet_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Pol Freixanet",
+        "url": "fichajugador.html?player=polfreixanet"
+    },
+    "marcos": {
+        "src": "https://i.postimg.cc/Y9CLFFyf/Marcos_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Marcos",
+        "url": "fichajugador.html?player=marcos"
+    },
+    "danibarrio": {
+        "src": "https://i.postimg.cc/1zNjQgKB/Dani-Barrio-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Dani Barrio",
+        "url": "fichajugador.html?player=danibarrio"
+    },
+    "marioruyales": {
+        "src": "https://i.postimg.cc/1XL8bjRJ/Mario_Ruyales_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Mario Ruyales",
+        "url": "fichajugador.html?player=marioruyales"
+    },
+    "lledo": {
+        "src": "https://i.postimg.cc/7PQ0gB4C/Lledó_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Lledó",
+        "url": "fichajugador.html?player=lledo"
+    },
+    "adrian": {
+        "src": "https://i.postimg.cc/tgSCLM2W/Adri-n-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Adrián",
+        "url": "fichajugador.html?player=adrian"
+    },
+    "aulestia": {
+        "src": "https://i.postimg.cc/mD1RK2cW/Aulestia-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Aulestia",
+        "url": "fichajugador.html?player=aulestia"
+    },
+    "javimartinez": {
+        "src": "https://i.postimg.cc/QN6kf8Qd/Javi_Martínez_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Javi Martínez",
+        "url": "fichajugador.html?player=javimartinez"
+    },
+    "alberto": {
+        "src": "https://i.postimg.cc/W3xp4JR4/Alberto-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Alberto",
+        "url": "fichajugador.html?player=alberto"
+    },
+    "ivanserrano": {
+        "src": "https://i.postimg.cc/26GFRmgT/Iván_Serrano_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Iván Serrano",
+        "url": "fichajugador.html?player=ivanserrano"
+    },
+    "limones": {
+        "src": "https://i.postimg.cc/26GFRmgT/Iván_Serrano_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Limones",
+        "url": "fichajugador.html?player=limones"
+    },
+    "eneko": {
+        "src": "https://i.postimg.cc/T1T7gtvN/Eneko-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Eneko",
+        "url": "fichajugador.html?player=eneko"
+    },
+    "damian": {
+        "src": "https://i.postimg.cc/RVX8QxF7/Dami-n-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Damián",
+        "url": "fichajugador.html?player=damian"
+    },
+    "javidiaz": {
+        "src": "https://i.postimg.cc/C56G57hq/Javi_Díaz_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Javi Díaz",
+        "url": "fichajugador.html?player=javidiaz"
+    },
+    "gastonpezzuti": {
+        "src": "https://i.postimg.cc/brYgsd1K/Gastón_Pezzuti_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Gastón Pezzuti",
+        "url": "fichajugador.html?player=gastonpezzuti"
+    },
+    "javiporron": {
+        "src": "https://i.postimg.cc/X7pKhRLc/Javi_Porrón_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Javi Porrón",
+        "url": "fichajugador.html?player=javiporron"
+    },
+    "ivancosio": {
+        "src": "https://i.postimg.cc/FRNgB1C7/Iván_Cosío_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Iván Cosío",
+        "url": "fichajugador.html?player=ivancosio"
+    },
+    "rafaponzo": {
+        "src": "https://i.postimg.cc/rF14vqW4/Rafa_Ponzo_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Rafa Ponzo",
+        "url": "fichajugador.html?player=rafaponzo"
+    },
+    "chavipascual": {
+        "src": "https://i.postimg.cc/Gtjf5Zj1/Chavi-Pascual-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Chavi Pascual",
+        "url": "fichajugador.html?player=chavipascual"
+    },
+    "rafa": {
+        "src": "https://i.postimg.cc/7Y87s5CD/Rafa_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Rafa",
+        "url": "fichajugador.html?player=rafa"
+    },
+    "roberto": {
+        "src": "https://i.postimg.cc/HLx7c5N0/Roberto_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Roberto",
+        "url": "fichajugador.html?player=roberto"
+    },
+    "yoyo": {
+        "src": "https://i.postimg.cc/DwzzBhcn/Yoyo_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Yoyo",
+        "url": "fichajugador.html?player=yoyo"
+    },
+    "robertogomez": {
+        "src": "https://i.postimg.cc/MptQpt9K/Roberto_Gómez_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Roberto Gómez",
+        "url": "fichajugador.html?player=robertogomez"
+    },
+    "dorronsoro": {
+        "src": "https://i.postimg.cc/wjMrw4yS/Dorronsoro-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Dorronsoro",
+        "url": "fichajugador.html?player=dorronsoro"
+    },
+    "jonathan": {
+        "src": "https://i.postimg.cc/13FGRDL8/Jonathan_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Jonathan",
+        "url": "fichajugador.html?player=jonathan"
+    },
+    "calleja": {
+        "src": "https://i.postimg.cc/Y9FKbnVp/Calleja-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Calleja",
+        "url": "fichajugador.html?player=calleja"
+    },
+    "segura": {
+        "src": "https://i.postimg.cc/KcL3Mm0W/Segura_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Segura",
+        "url": "fichajugador.html?player=segura"
+    },
+    "unzue": {
+        "src": "https://i.postimg.cc/0jqQfJVB/Unzué_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Unzué",
+        "url": "fichajugador.html?player=unzue"
+    },
+    "bernardo": {
+        "src": "https://i.postimg.cc/WzRjVLrF/Bernardo-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Bernardo",
+        "url": "fichajugador.html?player=bernardo"
+    },
+    "stephanelucas": {
+        "src": "https://i.postimg.cc/8zk79MT8/Stéphane_Lucas_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Stephane Lucas",
+        "url": "fichajugador.html?player=stephanelucas"
+    },
+    "mora": {
+        "src": "https://i.postimg.cc/DzB87ZyW/Mora_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Mora",
+        "url": "fichajugador.html?player=mora"
+    },
+    "buljubasich": {
+        "src": "https://i.postimg.cc/tgYHVCNn/Buljubasich-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Buljubasich",
+        "url": "fichajugador.html?player=buljubasich"
+    },
+    "cano": {
+        "src": "https://i.postimg.cc/HsdD9ttg/Cano-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Cano",
+        "url": "fichajugador.html?player=cano"
+    },
+    "guillermo": {
+        "src": "https://i.postimg.cc/xT451f84/Guillermo_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Guillermo",
+        "url": "fichajugador.html?player=guillermo"
+    },
     "viti": {
         "src": "https://i.postimg.cc/L625gLYq/Viti_PNG.webp",
         "alt": "Portero",
@@ -37,6 +387,77 @@ const playersDatabase = {
         "name": "Viti",
         "url": "fichajugador.html?player=viti"
     },
+    "chimpi": {
+        "src": "https://i.postimg.cc/SNy3MxyQ/Chimpi-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Chimpi",
+        "url": "fichajugador.html?player=chimpi"
+    },
+    "miguelangel": {
+        "src": "https://i.postimg.cc/K8hKNwHY/Miguel_Ángel_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Miguel Ángel",
+        "url": "fichajugador.html?player=miguelangel"
+    },
+    "zubeldia": {
+        "src": "https://i.postimg.cc/9034nkQ1/Sabino_Zubeldia_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Zubeldia",
+        "url": "fichajugador.html?player=zubeldia"
+    },
+    "calleja1991": {
+        "src": "https://i.postimg.cc/yNtCh4LQ/Calleja-1991-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Calleja",
+        "url": "fichajugador.html?player=calleja1991"
+    },
+    "jesus": {
+        "src": "https://i.postimg.cc/DyHQKxYV/Jesús_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Jesús",
+        "url": "fichajugador.html?player=jesus"
+    },
+    "heres": {
+        "src": "https://i.postimg.cc/8C8bLZhd/Heres_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Heres",
+        "url": "fichajugador.html?player=heres"
+    },
+    "etxeberria": {
+        "src": "https://i.postimg.cc/j50kdsgb/Echevarria-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Etxeberría",
+        "url": "fichajugador.html?player=etxeberria"
+    },
+    "tallos": {
+        "src": "https://i.postimg.cc/25VV8Yq2/Tallos_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Tallos",
+        "url": "fichajugador.html?player=tallos"
+    },
+    "pernas": {
+        "src": "https://i.postimg.cc/s2D5YbMh/Pernas_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Pernas",
+        "url": "fichajugador.html?player=pernas"
+    },
+    "orlando": {
+        "src": "https://i.postimg.cc/vBKT6Nnb/Orlando_(2)_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Orlando",
+        "url": "fichajugador.html?player=orlando"
+    },
+    
     
     // DEFENSAS
     "bailly": {
