@@ -457,7 +457,41 @@ const playersDatabase = {
         "name": "Orlando",
         "url": "fichajugador.html?player=orlando"
     },
-    
+    "balan": {
+        "src": "https://i.ibb.co/YFjMLSPX/Bal-n-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Balán",
+        "url": "fichajugador.html?player=balan"
+    },
+    "camuel": {
+        "src": "https://i.ibb.co/CpZLdzrd/Camuel-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Camuel",
+        "url": "fichajugador.html?player=camuel"
+    },
+    "iglesias1981": {
+        "src": "https://i.ibb.co/gbN6hw8j/Iglesias-PNG-1981.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Iglesias",
+        "url": "fichajugador.html?player=iglesias1981"
+    },
+    "manuelvicente": {
+        "src": "https://i.ibb.co/qYvW1jPC/Manuel-Vicente-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Manuel Vicente",
+        "url": "fichajugador.html?player=manuelvicente"
+    },
+    "seoanepor": {
+        "src": "https://i.ibb.co/Nd7YjbRY/Seoane-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Seoane",
+        "url": "fichajugador.html?player=seoanepor"
+    },
     
     // DEFENSAS
     "bailly": {
