@@ -458,35 +458,35 @@ const playersDatabase = {
         "url": "fichajugador.html?player=orlando"
     },
     "balan": {
-        "src": "https://i.ibb.co/YFjMLSPX/Bal-n-PNG.webp",
+        "src": "https://i.postimg.cc/VN6zBFm6/Balan-PNG.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Balán",
         "url": "fichajugador.html?player=balan"
     },
     "camuel": {
-        "src": "https://i.ibb.co/CpZLdzrd/Camuel-PNG.webp",
+        "src": "https://i.postimg.cc/J0cwWyMv/Camuel-PNG.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Camuel",
         "url": "fichajugador.html?player=camuel"
     },
     "iglesias1981": {
-        "src": "https://i.ibb.co/gbN6hw8j/Iglesias-PNG-1981.webp",
+        "src": "https://i.postimg.cc/TY8CrS4d/Iglesias_PNG_1981.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Iglesias",
         "url": "fichajugador.html?player=iglesias1981"
     },
     "manuelvicente": {
-        "src": "https://i.ibb.co/qYvW1jPC/Manuel-Vicente-PNG.webp",
+        "src": "https://i.postimg.cc/xCpJ3dwr/Manuel_Vicente_PNG.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Manuel Vicente",
         "url": "fichajugador.html?player=manuelvicente"
     },
     "seoanepor": {
-        "src": "https://i.ibb.co/Nd7YjbRY/Seoane-PNG.webp",
+        "src": "https://i.postimg.cc/Y014Kx47/Seoane_PNG.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Seoane",
