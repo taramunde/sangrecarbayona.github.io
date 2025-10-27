@@ -697,6 +697,83 @@ const playersDatabase = {
         "name": "Lucas Laso",
         "url": "fichajugador.html?player=lucaslaso"
     },
+    "grippo": {
+        "src": "https://i.postimg.cc/5y3pnfNw/Grippo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Grippo",
+        "url": "fichajugador.html?player=grippo"
+    },
+    "arribas": {
+        "src": "https://i.postimg.cc/VkT0y2Jn/Arribas-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Arribas",
+        "url": "fichajugador.html?player=arribas"
+    },
+    "bolano": {
+        "src": "https://i.postimg.cc/0NDQTjR1/Bolano-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Bolaño",
+        "url": "fichajugador.html?player=bolano"
+    },
+    "carlosisaac": {
+        "src": "https://i.postimg.cc/0NDQTjR1/Bolano-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Carlos Isaac",
+        "url": "fichajugador.html?player=carlosisaac"
+    },
+    "pierrecornud": {
+        "src": "https://i.postimg.cc/mkXpTbfT/Pierre_Cornud_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Pierre Cornud",
+        "url": "fichajugador.html?player=pierrecornud"
+    },
+    "mossa": {
+        "src": "https://i.postimg.cc/tC99TkKf/Mossa_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Mossa",
+        "url": "fichajugador.html?player=mossa"
+    },
+    "reneperez": {
+        "src": "https://i.postimg.cc/CxD7QC1h/René_Pérez_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "René Pérez",
+        "url": "fichajugador.html?player=reneperez"
+    },
+    "carloshernandez": {
+        "src": "https://i.postimg.cc/J761dZDB/Carlos_Hernández_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Carlos Hernández",
+        "url": "fichajugador.html?player=carloshernandez"
+    },
+    "johannesson": {
+        "src": "https://i.postimg.cc/hv5QSY2k/Johannesson_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Johannesson",
+        "url": "fichajugador.html?player=johannesson"
+    },
+    "juanjonieto": {
+        "src": "https://i.postimg.cc/MKfv7dPG/Juanjo_Nieto_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Juanjo Nieto",
+        "url": "fichajugador.html?player=juanjonieto"
+    },
+    "ugarte": {
+        "src": "https://i.postimg.cc/zfG7pyyp/Ugarte_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ugarte",
+        "url": "fichajugador.html?player=ugarte"
+    },
     
     // CENTROCAMPISTAS
     "santicazorla": {
