@@ -1957,6 +1957,160 @@ const playersDatabase = {
         "name": "Carlos Mario",
         "url": "fichajugador.html?player=carlosmario"
     },
+    "antuna": {
+        "src": "https://i.postimg.cc/ryC4dhH2/Antuna-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Antuña",
+        "url": "fichajugador.html?player=antuna"
+    },
+    "lonardi": {
+        "src": "https://i.postimg.cc/FzLNLnr5/Lonardi_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Lonardi",
+        "url": "fichajugador.html?player=lonardi"
+    },
+    "garciasiani": {
+        "src": "https://i.postimg.cc/rpBhphPt/García_Siani_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "García Siani",
+        "url": "fichajugador.html?player=garciasiani"
+    },
+    "agustin": {
+        "src": "https://i.postimg.cc/NGT4d7Pd/Agustin-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Agustín",
+        "url": "fichajugador.html?player=agustin"
+    },
+    "josemanuel": {
+        "src": "https://i.postimg.cc/DZfS1hHV/José_Manuel_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "José Manuel",
+        "url": "fichajugador.html?player=josemanuel"
+    },
+    "ondina": {
+        "src": "https://i.postimg.cc/v8tdp94v/Ondina_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ondina",
+        "url": "fichajugador.html?player=ondina"
+    },
+    "peruena": {
+        "src": "https://i.postimg.cc/4yNFCY08/Peruena_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Peruena",
+        "url": "fichajugador.html?player=peruena"
+    },
+    "luisito": {
+        "src": "https://i.postimg.cc/g02wZd1C/Luisito_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Luisito",
+        "url": "fichajugador.html?player=luisito"
+    },
+    "majo": {
+        "src": "https://i.postimg.cc/KcM1L0s8/Majó_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Majó",
+        "url": "fichajugador.html?player=majo"
+    },
+    "naves": {
+        "src": "https://i.postimg.cc/fL4Nhf78/Naves_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Naves",
+        "url": "fichajugador.html?player=naves"
+    },
+    "castro": {
+        "src": "https://i.postimg.cc/hPQqywRH/Castro_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Castro",
+        "url": "fichajugador.html?player=castro"
+    },
+    "paulino": {
+        "src": "https://i.postimg.cc/tCv8jzpF/Paulino_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Paulino",
+        "url": "fichajugador.html?player=paulino"
+    },
+    "paulino": {
+        "src": "https://i.postimg.cc/tCv8jzpF/Paulino_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Paulino",
+        "url": "fichajugador.html?player=paulino"
+    },
+    "vicente": {
+        "src": "https://i.postimg.cc/MpWmKnmx/Vicente_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Vicente",
+        "url": "fichajugador.html?player=vicente"
+    },
+    "samos": {
+        "src": "https://i.postimg.cc/43PzDWTg/Samós_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Samos",
+        "url": "fichajugador.html?player=samos"
+    },
+    "cueto": {
+        "src": "https://i.postimg.cc/J0BdqfHx/Cueto_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Cueto",
+        "url": "fichajugador.html?player=cueto"
+    },
+    "esteban1979": {
+        "src": "https://i.postimg.cc/kGrLkMmz/Esteban_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Esteban",
+        "url": "fichajugador.html?player=esteban1979"
+    },
+    "astrain": {
+        "src": "https://i.postimg.cc/QMT9jS7P/Astrain-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Astrain",
+        "url": "fichajugador.html?player=astrain"
+    },
+    "santacatalina": {
+        "src": "https://i.postimg.cc/k4hW4D4Y/Santacatalina_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Santacatalina",
+        "url": "fichajugador.html?player=santacatalina"
+    },
+    "franciscogalan": {
+        "src": "https://i.postimg.cc/sfpLMryf/Francisco_Galán_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Francisco Galán",
+        "url": "fichajugador.html?player=franciscogalan"
+    },
+    "laguna": {
+        "src": "https://i.postimg.cc/Gt8hjmjf/Laguna_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Laguna",
+        "url": "fichajugador.html?player=laguna"
+    },
+    "toniiii": {
+        "src": "https://i.postimg.cc/5NGCXnyc/Toni_III.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Toni III",
+        "url": "fichajugador.html?player=toniiii"
+    },
     
     // CENTROCAMPISTAS
     "santicazorla": {
