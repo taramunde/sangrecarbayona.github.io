@@ -2113,19 +2113,299 @@ const playersDatabase = {
     },
     
     // CENTROCAMPISTAS
+    "albertoreina": {
+        "src": "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Alberto Reina",
+        "url": "fichajugador.html?player=albertoreina"
+    },
+    "sibo": {
+        "src": "https://i.postimg.cc/gjJYNwFR/Sibo-PNG-Alineaci-n.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sibo",
+        "url": "fichajugador.html?player=sibo"
+    },
     "santicazorla": {
-        "src": "https://i.postimg.cc/6qQmv7tk/Santi-Cazorla-PNG.webp",
+        "src": "https://i.postimg.cc/6qQmv7tk/Santi_Cazorla_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Santi Cazorla",
         "url": "fichajugador.html?player=santicazorla"
     },
+    "hassan": {
+        "src": "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Hassan",
+        "url": "fichajugador.html?player=hassan"
+    },
+    "colombatto": {
+        "src": "https://i.postimg.cc/R08GqPNz/Colombatto_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Colombatto",
+        "url": "fichajugador.html?player=colombatto"
+    },
+    "ejaria": {
+        "src": "https://i.postimg.cc/BbxX2vpC/Ovi_Ejaria_PNG_(2).webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ejaria",
+        "url": "fichajugador.html?player=ejaria"
+    },
     "borjasanchez": {
-        "src": "https://i.postimg.cc/v82kfvkD/Borja-S-nchez-PNG.webp",
+        "src": "https://i.postimg.cc/v82kfvkD/Borja_Sánchez_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Borja Sánchez",
         "url": "fichajugador.html?player=borjasanchez"
+    },
+    "brandondomingues": {
+        "src": "https://i.postimg.cc/rpTPMZ0Z/Brandon-Domingues-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Brandon Dominguès",
+        "url": "fichajugador.html?player=brandondomingues"
+    },
+    "brekalo": {
+        "src": "https://i.postimg.cc/9MxvJ3Xw/Brekalo_PNG_(2).webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Brekalo",
+        "url": "fichajugador.html?player=brekalo"
+    },
+    "dendoncker": {
+        "src": "https://i.postimg.cc/8cTvCWBS/Dendoncker_PNG(2).webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Dendoncker",
+        "url": "fichajugador.html?player=dendoncker"
+    },
+    "ilic": {
+        "src": "https://i.postimg.cc/K8bYhFN6/Ilić_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ilić",
+        "url": "fichajugador.html?player=ilic"
+    },
+    "alexcardero": {
+        "src": "https://i.postimg.cc/dV30nntX/Alex-Cardero-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Álex Cardero",
+        "url": "fichajugador.html?player=alexcardero"
+    },
+    "cheli": {
+        "src": "https://i.postimg.cc/KYYs1kft/Cheli_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Cheli",
+        "url": "fichajugador.html?player=cheli"
+    },
+    "diegotejon": {
+        "src": "https://i.postimg.cc/mgPHhTMt/Diego_Tejón_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Diego Tejón",
+        "url": "fichajugador.html?player=diegotejon"
+    },
+    "dieguito": {
+        "src": "https://i.postimg.cc/c44YyRL7/Diego_Menéndez_(Dieguito)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Dieguito",
+        "url": "fichajugador.html?player=dieguito"
+    },
+    "agudin": {
+        "src": "https://i.postimg.cc/R08HJS5Y/Agudin-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Agudín",
+        "url": "fichajugador.html?player=agudin"
+    },
+    "albertodelmoral": {
+        "src": "https://i.postimg.cc/HkvrCRhd/Alberto-del-Moral-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Alberto del Moral",
+        "url": "fichajugador.html?player=albertodelmoral"
+    },
+    "sebasmoyano": {
+        "src": "https://i.postimg.cc/GhV54hNf/Sebas_Moyano_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sebas Moyano",
+        "url": "fichajugador.html?player=sebasmoyano"
+    },
+    "portillo": {
+        "src": "https://i.postimg.cc/br8zc90Q/Portillo_PNG_(3).webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Portillo",
+        "url": "fichajugador.html?player=portillo"
+    },
+    "delahoz": {
+        "src": "https://i.postimg.cc/Z5nr38kY/De_La_Hoz_PNG_(3).webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "De La Hoz",
+        "url": "fichajugador.html?player=delahoz"
+    },
+    "paulino2024": {
+        "src": "https://i.postimg.cc/SxkLgnn3/Paulino_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Paulino",
+        "url": "fichajugador.html?player=paulino2024"
+    },
+    "seoane2024": {
+        "src": "https://i.postimg.cc/HLCvtvT4/Seoane_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Seoane",
+        "url": "fichajugador.html?player=seoane2024"
+    },
+    "dotor": {
+        "src": "https://i.postimg.cc/gcwFM5v3/Carlos_Dotor_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Dotor",
+        "url": "fichajugador.html?player=dotor"
+    },
+    "valdera": {
+        "src": "https://i.postimg.cc/V6J7fxgw/Valdera_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Valdera",
+        "url": "fichajugador.html?player=valdera"
+    },
+    "castri": {
+        "src": "https://i.postimg.cc/Y0FPt53V/Castri_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Castri",
+        "url": "fichajugador.html?player=castri"
+    },
+    "luismi2023": {
+        "src": "https://i.postimg.cc/ydshDwst/Luismi_(casco)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Luismi",
+        "url": "fichajugador.html?player=luismi2023"
+    },
+    "jimmy": {
+        "src": "https://i.postimg.cc/qMxTnKsF/Jimmy_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jimmy",
+        "url": "fichajugador.html?player=jimmy"
+    },
+    "viti2023": {
+        "src": "https://i.postimg.cc/3rDLPHWC/Viti_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Viti",
+        "url": "fichajugador.html?player=viti2023"
+    },
+    "javimier": {
+        "src": "https://i.postimg.cc/sxFrP9Hk/Javi_Mier_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Javi Mier",
+        "url": "fichajugador.html?player=javimier"
+    },
+    "camarasa": {
+        "src": "https://i.postimg.cc/zfq09L69/Camarasa_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Camarasa",
+        "url": "fichajugador.html?player=camarasa"
+    },
+    "hugorama": {
+        "src": "https://i.postimg.cc/j51VxQrW/Hugo_Rama_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Hugo Rama",
+        "url": "fichajugador.html?player=hugorama"
+    },
+    "homenchenko": {
+        "src": "https://i.postimg.cc/Tw1MvNBM/Homenchenko_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Homenchenko",
+        "url": "fichajugador.html?player=homenchenko"
+    },
+    "romarioibarra": {
+        "src": "https://i.postimg.cc/4dQDtkt9/Romario_Ibarra_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Romario Ibarra",
+        "url": "fichajugador.html?player=romarioibarra"
+    },
+    "yayo": {
+        "src": "https://i.postimg.cc/d3P8M3Vb/Yayo-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Yayo",
+        "url": "fichajugador.html?player=yayo"
+    },
+    "sangalli": {
+        "src": "https://i.postimg.cc/854YcdQd/Sangalli_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sangalli",
+        "url": "fichajugador.html?player=sangalli"
+    },
+    "jirka": {
+        "src": "https://i.postimg.cc/y6DZjFvk/Jirka-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jirka",
+        "url": "fichajugador.html?player=jirka"
+    },
+    "marceloflores": {
+        "src": "https://i.postimg.cc/MGbVJdVD/Marcelo_Flores_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Marcelo Flores",
+        "url": "fichajugador.html?player=marceloflores"
+    },
+    "kobalein": {
+        "src": "https://i.postimg.cc/Z5QDyYMg/Koba_Leïn_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Koba Leïn",
+        "url": "fichajugador.html?player=kobalein"
+    },
+    "montoro": {
+        "src": "https://i.postimg.cc/MKQc898Q/Montoro_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Montoro",
+        "url": "fichajugador.html?player=montoro"
+    },
+    "mangel": {
+        "src": "https://i.postimg.cc/PJF1FJYn/Mangel_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Mángel",
+        "url": "fichajugador.html?player=mangel"
+    },
+    "victorblanco": {
+        "src": "https://i.postimg.cc/K85pJrj6/Víctor_Blanco_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Víctor Blanco",
+        "url": "fichajugador.html?player=victorblanco"
+    },
+    "nnoshiri": {
+        "src": "https://i.postimg.cc/9FZGBm0K/Nnoshiri_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Nnoshiri",
+        "url": "fichajugador.html?player=nnoshiri"
     },
     
     // DELANTEROS
