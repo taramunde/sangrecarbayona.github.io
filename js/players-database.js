@@ -1859,7 +1859,104 @@ const playersDatabase = {
         "name": "Bolaños",
         "url": "fichajugador.html?player=bolanos"
     },
-    
+    "herrero": {
+        "src": "https://i.postimg.cc/YSW3T6C2/Herrero_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Herrero",
+        "url": "fichajugador.html?player=herrero"
+    },
+    "juanito": {
+        "src": "https://i.postimg.cc/6psTYngf/Juanito_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Juanito",
+        "url": "fichajugador.html?player=juanito"
+    },
+    "segundo": {
+        "src": "https://i.postimg.cc/wTNDqqdF/Segundo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Segundo",
+        "url": "fichajugador.html?player=segundo"
+    },
+    "joaquinarguelles": {
+        "src": "https://i.postimg.cc/50pFryLN/Joaquín_Argüelles_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Joaquín Argüelles",
+        "url": "fichajugador.html?player=joaquinarguelles"
+    },
+    "bobes": {
+        "src": "https://i.postimg.cc/NjWFCTnx/Bobes-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Bobes",
+        "url": "fichajugador.html?player=bobes"
+    },
+    "carneiro": {
+        "src": "https://i.postimg.cc/mrsRFSqK/Carneiro_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Carneiro",
+        "url": "fichajugador.html?player=carneiro"
+    },
+    "prados": {
+        "src": "https://i.postimg.cc/yd7L9J7V/Prados_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Prados",
+        "url": "fichajugador.html?player=prados"
+    },
+    "camano": {
+        "src": "https://i.postimg.cc/50fxDmS8/Camano-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Camaño",
+        "url": "fichajugador.html?player=camano"
+    },
+    "delriego": {
+        "src": "https://i.postimg.cc/DfXT5HTR/Del_Riego_(1981)_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Del Riego",
+        "url": "fichajugador.html?player=delriego"
+    },
+    "oscarmeneses": {
+        "src": "https://i.postimg.cc/jjDxTjpS/Meneses_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Óscar Meneses",
+        "url": "fichajugador.html?player=oscarmeneses"
+    },
+    "valentinichile": {
+        "src": "https://i.postimg.cc/cCwB6Yz1/Valentini_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Valentini",
+        "url": "fichajugador.html?player=valentinichile"
+    },
+    "inaquimarigil": {
+        "src": "https://i.postimg.cc/KjJrtQJf/Iñaki_Marigil.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Iñaqui Marigil",
+        "url": "fichajugador.html?player=inaquimarigil"
+    },
+    "cruz": {
+        "src": "https://i.postimg.cc/LXWbj95h/Cruz_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Cruz",
+        "url": "fichajugador.html?player=cruz"
+    },
+    "carlosmario": {
+        "src": "https://i.postimg.cc/yYDVqxcp/Carlos_Mario_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Carlos Mario",
+        "url": "fichajugador.html?player=carlosmario"
+    },
     
     // CENTROCAMPISTAS
     "santicazorla": {
