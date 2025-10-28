@@ -1397,7 +1397,188 @@ const playersDatabase = {
         "name": "Julián",
         "url": "fichajugador.html?player=julian"
     },
-    
+    "zamora": {
+        "src": "https://i.postimg.cc/XvPf8QS7/Zamora_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Zamora",
+        "url": "fichajugador.html?player=zamora"
+    },
+    "borja": {
+        "src": "https://i.postimg.cc/NFJf6rTm/Borja-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Borja",
+        "url": "fichajugador.html?player=borja"
+    },
+    "paul": {
+        "src": "https://i.postimg.cc/tR5LrjcS/Paul_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Borja",
+        "url": "fichajugador.html?player=paul"
+    },
+    "lusarreta": {
+        "src": "https://i.postimg.cc/sXBvTmjK/Lusarreta_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Lusarreta",
+        "url": "fichajugador.html?player=lusarreta"
+    },
+    "nachofradejas": {
+        "src": "https://i.postimg.cc/KvQxgLFY/Nacho_Fradejas_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Nacho Fradejas",
+        "url": "fichajugador.html?player=nachofradejas"
+    },
+    "mora2005": {
+        "src": "https://i.postimg.cc/MZ7WqNFV/Mora_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Mora",
+        "url": "fichajugador.html?player=mora2005"
+    },
+    "queipo": {
+        "src": "https://i.postimg.cc/rmgQ98p5/Queipo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Queipo",
+        "url": "fichajugador.html?player=queipo"
+    },
+    "dariogalan": {
+        "src": "https://i.postimg.cc/HLkm2LYt/Darío_Galán_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Darío Galán",
+        "url": "fichajugador.html?player=dariogalan"
+    },
+    "manoloaparicio": {
+        "src": "https://i.postimg.cc/76pbdzb4/Manolo_Aparicio_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Manolo Aparicio",
+        "url": "fichajugador.html?player=manoloaparicio"
+    },
+    "urizar": {
+        "src": "https://i.postimg.cc/K8NQnP8R/Urízar_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Urízar",
+        "url": "fichajugador.html?player=urizar"
+    },
+    "luismi2004": {
+        "src": "https://i.postimg.cc/q7DNcSTz/Luismi_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Luismi",
+        "url": "fichajugador.html?player=luismi2004"
+    },
+    "luis2004": {
+        "src": "https://i.postimg.cc/JzmHRjx4/Luis_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Luismi",
+        "url": "fichajugador.html?player=luis2004"
+    },
+    "manu": {
+        "src": "https://i.postimg.cc/MKJvY1hb/Manu_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Manu",
+        "url": "fichajugador.html?player=manu"
+    },
+    "merino": {
+        "src": "https://i.postimg.cc/zBWqLcXm/Merino_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Merino",
+        "url": "fichajugador.html?player=merino"
+    },
+    "alaez": {
+        "src": "https://i.postimg.cc/Gm3xh03f/Alaez-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Alaez",
+        "url": "fichajugador.html?player=alaez"
+    },
+    "ibanperez": {
+        "src": "https://i.postimg.cc/cL6TByqn/Ibán_Pérez_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ibán Pérez",
+        "url": "fichajugador.html?player=ibanperez"
+    },
+    "raul": {
+        "src": "https://i.postimg.cc/44LW7Nqg/Raúl_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Raúl",
+        "url": "fichajugador.html?player=raul"
+    },
+    "sarasua": {
+        "src": "https://i.postimg.cc/QC91WsK8/Sarasúa_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Sarasúa",
+        "url": "fichajugador.html?player=sarasua"
+    },
+    "gurrutxaga": {
+        "src": "https://i.postimg.cc/nc30mVWx/Gurrutxaga_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Gurrutxaga",
+        "url": "fichajugador.html?player=gurrutxaga"
+    },
+    "pepesaavedra": {
+        "src": "https://i.postimg.cc/MTYrr79M/Pepe_Saavedra_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Pepe Saavedra",
+        "url": "fichajugador.html?player=pepesaavedra"
+    },
+    "fran2002": {
+        "src": "https://i.postimg.cc/SR713WVY/Fran_FIGUEROA_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Fran",
+        "url": "fichajugador.html?player=fran2002"
+    },
+    "angel2002": {
+        "src": "https://i.postimg.cc/rsctnWKH/Angel-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ángel",
+        "url": "fichajugador.html?player=angel2002"
+    },
+    "yago": {
+        "src": "https://i.postimg.cc/N0F8mZnz/Yago_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Yago",
+        "url": "fichajugador.html?player=yago"
+    },
+    "javiparedes": {
+        "src": "https://i.postimg.cc/HWBQZZ94/Javi_Paredes_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Javi Paredes",
+        "url": "fichajugador.html?player=javiparedes"
+    },
+    "albertosaavedra": {
+        "src": "https://i.postimg.cc/76zgQwX5/Alberto-Saavedra-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Alberto Saavedra",
+        "url": "fichajugador.html?player=albertosaavedra"
+    },
+    "sergio": {
+        "src": "https://i.postimg.cc/T3qmbt1D/Sergio_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Sergio",
+        "url": "fichajugador.html?player=sergio"
+    },
     
     // CENTROCAMPISTAS
     "santicazorla": {
