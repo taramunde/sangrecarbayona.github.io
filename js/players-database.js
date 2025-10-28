@@ -1719,6 +1719,146 @@ const playersDatabase = {
         "name": "Tobe",
         "url": "fichajugador.html?player=tobe"
     },
+    "andres": {
+        "src": "https://i.postimg.cc/gJ3ZH4kR/Andres-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Andrés",
+        "url": "fichajugador.html?player=andres"
+    },
+    "jerkan": {
+        "src": "https://i.postimg.cc/fbnXt6MZ/Jerkan_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Jerkan",
+        "url": "fichajugador.html?player=jerkan"
+    },
+    "emilio": {
+        "src": "https://i.postimg.cc/xjHwLmG2/Emilio_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Emilio",
+        "url": "fichajugador.html?player=emilio"
+    },
+    "helio": {
+        "src": "https://i.postimg.cc/JzgxT6md/Helio_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Helio",
+        "url": "fichajugador.html?player=helio"
+    },
+    "ivancasquero": {
+        "src": "https://i.postimg.cc/28SxCRSK/Iván_Casquero_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Iván Casquero",
+        "url": "fichajugador.html?player=ivancasquero"
+    },
+    "cristobal": {
+        "src": "https://i.postimg.cc/pybc1sDH/Cristóbal_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Cristóbal",
+        "url": "fichajugador.html?player=cristobal"
+    },
+    "luismanuel": {
+        "src": "https://i.postimg.cc/2Swby39d/Luis_Manuel_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Luis Manuel",
+        "url": "fichajugador.html?player=luismanuel"
+    },
+    "sietes": {
+        "src": "https://i.postimg.cc/jqm154DT/Sietes_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Sietes",
+        "url": "fichajugador.html?player=sietes"
+    },
+    "gorriaran": {
+        "src": "https://i.postimg.cc/L5RNtJR9/Gorriarán_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Gorriarán",
+        "url": "fichajugador.html?player=gorriaran"
+    },
+    "carreras": {
+        "src": "https://i.postimg.cc/HxSCR1xC/Carreras_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Carreras",
+        "url": "fichajugador.html?player=carreras"
+    },
+    "tista": {
+        "src": "https://i.postimg.cc/HxjSWrHj/Tista_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Tista",
+        "url": "fichajugador.html?player=tista"
+    },
+    "gaspar1992": {
+        "src": "https://i.postimg.cc/ZKHDLxC1/Gaspar_(Rguez)_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Gaspar",
+        "url": "fichajugador.html?player=gaspar1992"
+    },
+    "zuñiga": {
+        "src": "https://i.postimg.cc/7h3Sq4Cf/Zúñiga_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Zúñiga",
+        "url": "fichajugador.html?player=zuñiga"
+    },
+    "sañudo": {
+        "src": "https://i.postimg.cc/T2FrvyBp/Sañudo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Sañudo",
+        "url": "fichajugador.html?player=sañudo"
+    },
+    "angelluis": {
+        "src": "https://i.postimg.cc/T2FrvyBp/Sañudo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ángel Luis",
+        "url": "fichajugador.html?player=angelluis"
+    },
+    "murua": {
+        "src": "https://i.postimg.cc/XYzWsbrS/Murua_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Murúa",
+        "url": "fichajugador.html?player=murua"
+    },
+    "lito": {
+        "src": "https://i.postimg.cc/2SFjGJ4C/Lito_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Lito",
+        "url": "fichajugador.html?player=lito"
+    },
+    "vili": {
+        "src": "https://i.postimg.cc/mDFQ6CB3/Vili_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Vili",
+        "url": "fichajugador.html?player=vili"
+    },
+    "javier1988": {
+        "src": "https://i.postimg.cc/YqPQkvVv/Javier_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Javier",
+        "url": "fichajugador.html?player=javier1988"
+    },
+    "bolanos": {
+        "src": "https://i.postimg.cc/nzxzpxpj/Bolanos-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Bolaños",
+        "url": "fichajugador.html?player=bolanos"
+    },
     
     
     // CENTROCAMPISTAS
