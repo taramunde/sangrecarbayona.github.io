@@ -2729,6 +2729,293 @@ const playersDatabase = {
         "name": "Lula",
         "url": "fichajugador.html?player=lula"
     },
+    "hectorfont": {
+        "src": "https://i.postimg.cc/QdgrQTcP/Héctor_Font_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Héctor Font",
+        "url": "fichajugador.html?player=hectorfont"
+    },
+    "borjavalle": {
+        "src": "https://i.postimg.cc/yYwGr8VH/Borja_Valle_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Borja Valle",
+        "url": "fichajugador.html?player=borjavalle"
+    },
+    "aguirre": {
+        "src": "https://i.postimg.cc/gjbwThBh/Aguirre-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Aguirre",
+        "url": "fichajugador.html?player=aguirre"
+    },
+    "omgba": {
+        "src": "https://i.postimg.cc/05Jm8kYj/Omgba_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Omgba",
+        "url": "fichajugador.html?player=omgba"
+    },
+    "michel": {
+        "src": "https://i.postimg.cc/fbZSCmp0/Míchel_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Míchel",
+        "url": "fichajugador.html?player=michel"
+    },
+    "generelo": {
+        "src": "https://i.postimg.cc/02T8dvF6/Generelo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Generelo",
+        "url": "fichajugador.html?player=generelo"
+    },
+    "hervias": {
+        "src": "https://i.postimg.cc/6Q9xYp0Q/Hervías_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Hervías",
+        "url": "fichajugador.html?player=hervias"
+    },
+    "christianrivera": {
+        "src": "https://i.postimg.cc/vT50JW8w/Christian_Rivera_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Christian Rivera",
+        "url": "fichajugador.html?player=christianrivera"
+    },
+    "dominguez": {
+        "src": "https://i.postimg.cc/NjrJxDFg/Domínguez_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Domínguez",
+        "url": "fichajugador.html?player=dominguez"
+    },
+    "ibarra": {
+        "src": "https://i.postimg.cc/1XVkfn9v/Ibarra_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ibarra",
+        "url": "fichajugador.html?player=ibarra"
+    },
+    "capelete": {
+        "src": "https://i.postimg.cc/yddn8MVj/Capelete_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Capelete",
+        "url": "fichajugador.html?player=capelete"
+    },
+    "josepsene": {
+        "src": "https://i.postimg.cc/cHwjWqTz/Josep_Señé_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Josep Señé",
+        "url": "fichajugador.html?player=josepsene"
+    },
+    "eneko": {
+        "src": "https://i.postimg.cc/Dw4SnBkG/Eneko_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Eneko",
+        "url": "fichajugador.html?player=eneko"
+    },
+    "rojas": {
+        "src": "https://i.postimg.cc/0yL11CPb/Rojas_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Rojas",
+        "url": "fichajugador.html?player=rojas"
+    },
+    "salvarivas": {
+        "src": "https://i.postimg.cc/mg1KjFCR/Salva_Rivas_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Salva Rivas",
+        "url": "fichajugador.html?player=salvarivas"
+    },
+    "ivanrubio": {
+        "src": "https://i.postimg.cc/j5Bsgr2k/Iván_Rubio_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Iván Rubio",
+        "url": "fichajugador.html?player=ivanrubio"
+    },
+    "hectorsimon": {
+        "src": "https://i.postimg.cc/NfHt0VFQ/Héctor_Simón_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Héctor Simón",
+        "url": "fichajugador.html?player=hectorsimon"
+    },
+    "belar": {
+        "src": "https://i.postimg.cc/QtmL2Gfq/Belar-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Belar",
+        "url": "fichajugador.html?player=belar"
+    },
+    "coutado": {
+        "src": "https://i.postimg.cc/NF8xJBbg/Coutado_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Coutado",
+        "url": "fichajugador.html?player=coutado"
+    },
+    "jordi": {
+        "src": "https://i.postimg.cc/3rg55Gcw/Jordi_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jordi",
+        "url": "fichajugador.html?player=jordi"
+    },
+    "aitorsanz": {
+        "src": "https://i.postimg.cc/ncZjKvmb/Aitor-Sanz-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Aitor Sanz",
+        "url": "fichajugador.html?player=aitorsanz"
+    },
+    "ikeralegre": {
+        "src": "https://i.postimg.cc/jdPj1Cz6/Iker_Alegre_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Iker Alegre",
+        "url": "fichajugador.html?player=ikeralegre"
+    },
+    "pascual": {
+        "src": "https://i.postimg.cc/s2qX8W0c/Pascual_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pascual",
+        "url": "fichajugador.html?player=pascual"
+    },
+    "casares": {
+        "src": "https://i.postimg.cc/7Y0v42t6/Casares_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Casares",
+        "url": "fichajugador.html?player=casares"
+    },
+    "xavimore": {
+        "src": "https://i.postimg.cc/c4yDW5nq/Xavi_Moré_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Xavi Moré",
+        "url": "fichajugador.html?player=xavimore"
+    },
+    "cerrajeria": {
+        "src": "https://i.postimg.cc/9F3SLfXj/Cerrajería_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Cerrajería",
+        "url": "fichajugador.html?player=cerrajeria"
+    },
+    "diegorua": {
+        "src": "https://i.postimg.cc/qMbKkNNP/Diego_Rúa_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Diego Rúa",
+        "url": "fichajugador.html?player=diegorua"
+    },
+    "adrianllano": {
+        "src": "https://i.postimg.cc/N0V2RS6p/Adrian-Llano-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Adrián Llano",
+        "url": "fichajugador.html?player=adrianllano"
+    },
+    "pelayo": {
+        "src": "https://i.postimg.cc/SR7xJvQT/Pelayo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pelayo",
+        "url": "fichajugador.html?player=pelayo"
+    },
+    "abasolo": {
+        "src": "https://i.postimg.cc/L6MfycrW/Abasolo-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Abasolo",
+        "url": "fichajugador.html?player=abasolo"
+    },
+    "falcon": {
+        "src": "https://i.postimg.cc/J7T0X9RJ/Falcón_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Falcón",
+        "url": "fichajugador.html?player=falcon"
+    },
+    "teo": {
+        "src": "https://i.postimg.cc/ncD1wKRd/Teo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Teo",
+        "url": "fichajugador.html?player=teo"
+    },
+    "nano": {
+        "src": "https://i.postimg.cc/6TJp3NNG/Nano_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Nano",
+        "url": "fichajugador.html?player=nano"
+    },
+    "chamorro": {
+        "src": "https://i.postimg.cc/jdz1mrCn/Chamorro_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chamorro",
+        "url": "fichajugador.html?player=chamorro"
+    },
+    "davidgonzalez": {
+        "src": "https://i.postimg.cc/B6H5b4rx/David_González_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "David González",
+        "url": "fichajugador.html?player=davidgonzalez"
+    },
+    "pabloespina": {
+        "src": "https://i.postimg.cc/SKv2h3jc/Pablo_Espina_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pablo Espina",
+        "url": "fichajugador.html?player=pabloespina"
+    },
+    "jandro": {
+        "src": "https://i.postimg.cc/fLSs0gC7/Jandro_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "jandro",
+        "url": "fichajugador.html?player=jandro"
+    },
+    "marccastells": {
+        "src": "https://i.postimg.cc/Qd7c0XMv/Marc_Castells_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Marc Castells",
+        "url": "fichajugador.html?player=marccastells"
+    },
+    "jony": {
+        "src": "https://i.postimg.cc/BbfrPZXs/Jony_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jony",
+        "url": "fichajugador.html?player=jony"
+    },
+    "prosi": {
+        "src": "https://i.postimg.cc/kGc7nRwL/Prosi_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Prosi",
+        "url": "fichajugador.html?player=prosi"
+    },
+    "yosu": {
+        "src": "https://i.postimg.cc/FKRppM2S/Yosu_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Yosu",
+        "url": "fichajugador.html?player=yosu"
+    },
     
     // DELANTEROS
     "oli": {
