@@ -2652,6 +2652,83 @@ const playersDatabase = {
         "name": "Guille",
         "url": "fichajugador.html?player=guille"
     },
+    "jonathanvila": {
+        "src": "https://i.postimg.cc/cJ2yZBWv/Jonathan_Vila_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jonathan Vila",
+        "url": "fichajugador.html?player=jonathanvila"
+    },
+    "jonerice": {
+        "src": "https://i.postimg.cc/0yt1XqHd/Jon_Erice_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jon Erice",
+        "url": "fichajugador.html?player=jonerice"
+    },
+    "susaeta": {
+        "src": "https://i.postimg.cc/wvjVWSZJ/Susaeta_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Susaeta",
+        "url": "fichajugador.html?player=susaeta"
+    },
+    "hectornespral": {
+        "src": "https://i.postimg.cc/bYM8p8z6/Héctor_Nespral_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Héctor Nespral",
+        "url": "fichajugador.html?player=hectornespral"
+    },
+    "lucastorro": {
+        "src": "https://i.postimg.cc/Dw4PHrxj/Lucas_Torró_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Lucas Torró",
+        "url": "fichajugador.html?player=lucastorro"
+    },
+    "alaniz": {
+        "src": "https://i.postimg.cc/yYPJLkhJ/Alaniz-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Alaniz",
+        "url": "fichajugador.html?player=alaniz"
+    },
+    "nando": {
+        "src": "https://i.postimg.cc/DZNz9Xj6/Nando_García_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Nando",
+        "url": "fichajugador.html?player=nando"
+    },
+    "edubedia": {
+        "src": "https://i.postimg.cc/FzPYs6Hy/Edu_Bedia_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Edu Bedia",
+        "url": "fichajugador.html?player=edubedia"
+    },
+    "carlitos": {
+        "src": "https://i.postimg.cc/cCtmQft8/Carlos_De_Pena_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Carlitos",
+        "url": "fichajugador.html?player=carlitos"
+    },
+    "borja2016": {
+        "src": "https://i.postimg.cc/qqFFrky2/Borja_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Borja",
+        "url": "fichajugador.html?player=borja2016"
+    },
+    "lula": {
+        "src": "https://i.postimg.cc/rmj1xQpm/Lula_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Lula",
+        "url": "fichajugador.html?player=lula"
+    },
     
     // DELANTEROS
     "oli": {
