@@ -3016,6 +3016,209 @@ const playersDatabase = {
         "name": "Yosu",
         "url": "fichajugador.html?player=yosu"
     },
+    "rubengarcía": {
+        "src": "https://i.postimg.cc/rpxXVtwg/Rubén_García_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Rubén García",
+        "url": "fichajugador.html?player=rubengarcía"
+    },
+    "curro": {
+        "src": "https://i.postimg.cc/KYKDXnQp/Curro_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Curro",
+        "url": "fichajugador.html?player=curro"
+    },
+    "sergiovillanueva": {
+        "src": "https://i.postimg.cc/W46WYm3R/Sergio_Villanueva_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sergio Villanueva",
+        "url": "fichajugador.html?player=sergiovillanueva"
+    },
+    "armandoinvernon": {
+        "src": "https://i.postimg.cc/d0dwSfMW/Armando-Invernon-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Armando Invernón",
+        "url": "fichajugador.html?player=armandoinvernon"
+    },
+    "ivanania": {
+        "src": "https://i.postimg.cc/k51MSSmC/Iván_Ania_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Iván Ania",
+        "url": "fichajugador.html?player=ivanania"
+    },
+    "marioprieto": {
+        "src": "https://i.postimg.cc/3N6DF6QK/Mario_Prieto_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Mario Prieto",
+        "url": "fichajugador.html?player=marioprieto"
+    },
+    "juanluis": {
+        "src": "https://i.postimg.cc/Y0xs415f/Juan_Luis_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Juan Luis",
+        "url": "fichajugador.html?player=juanluis"
+    },
+    "jaime": {
+        "src": "https://i.postimg.cc/XYnnDLN3/Jaime_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jaime",
+        "url": "fichajugador.html?player=jaime"
+    },
+    "jorgevaliente": {
+        "src": "https://i.postimg.cc/FHCwgV7T/Jorge_Valiente_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jorge Valiente",
+        "url": "fichajugador.html?player=jorgevaliente"
+    },
+    "andre": {
+        "src": "https://i.postimg.cc/JnV4rLcV/Andre-Bevilacqua-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "André",
+        "url": "fichajugador.html?player=andre"
+    },
+    "falo": {
+        "src": "https://i.postimg.cc/T3b3Z1gq/Falo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Falo",
+        "url": "fichajugador.html?player=falo"
+    },
+    "pabloprieto": {
+        "src": "https://i.postimg.cc/k4RVXstz/Pablo_Prieto_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pablo Prieto",
+        "url": "fichajugador.html?player=pabloprieto"
+    },
+    "santos": {
+        "src": "https://i.postimg.cc/59PGMmmb/Santos_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Santos",
+        "url": "fichajugador.html?player=santos"
+    },
+    "centron": {
+        "src": "https://i.postimg.cc/G3TVPDCQ/Centrón_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Centrón",
+        "url": "fichajugador.html?player=centron"
+    },
+    "joncarrera": {
+        "src": "https://i.postimg.cc/BvX9dwrW/Jon_Carrera_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jon Carrera",
+        "url": "fichajugador.html?player=joncarrera"
+    },
+    "danigarcia": {
+        "src": "https://i.postimg.cc/T3NJHkjW/Dani_García.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Dani García",
+        "url": "fichajugador.html?player=danigarcia"
+    },
+    "pepín2006": {
+        "src": "https://i.postimg.cc/RV40j4Gj/Pepín_Cebrián_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pepín",
+        "url": "fichajugador.html?player=pepín2006"
+    },
+    "nicolasrotundo": {
+        "src": "https://i.postimg.cc/ZY183Bb6/Nicolás_Rotundo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Nicolás Rotundo",
+        "url": "fichajugador.html?player=nicolasrotundo"
+    },
+    "moises2006": {
+        "src": "https://i.postimg.cc/MZ4c4hgw/Moisés_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Moisés",
+        "url": "fichajugador.html?player=moises2006"
+    },
+    "michu": {
+        "src": "https://i.postimg.cc/HL2chj1v/Michu_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Michu",
+        "url": "fichajugador.html?player=michu"
+    },
+    "jacobo": {
+        "src": "https://i.postimg.cc/Hn5TFP7W/Jacobo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jacobo",
+        "url": "fichajugador.html?player=jacobo"
+    },
+    "miguel2006": {
+        "src": "https://i.postimg.cc/0QX693Qp/Miguel_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Miguel",
+        "url": "fichajugador.html?player=miguel2006"
+    },
+    "cacomoran": {
+        "src": "https://i.postimg.cc/Gt4MqZVt/Caco_Morán_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Caco Morán",
+        "url": "fichajugador.html?player=cacomoran"
+    },
+    "servando2006": {
+        "src": "https://i.postimg.cc/ydLfsVcv/Servando_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Servando",
+        "url": "fichajugador.html?player=servando2006"
+    },
+    "alexarias": {
+        "src": "https://i.postimg.cc/5NxyQfcf/Alex-Arias-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Álex Arias",
+        "url": "fichajugador.html?player=alexarias"
+    },
+    "luis2006": {
+        "src": "https://i.postimg.cc/DyMcxjP4/Luis_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Luis",
+        "url": "fichajugador.html?player=luis2006"
+    },
+    "tato": {
+        "src": "https://i.postimg.cc/zDMjj2jb/Tato_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tato",
+        "url": "fichajugador.html?player=tato"
+    },
+    "piti": {
+        "src": "https://i.postimg.cc/c4G9vqbh/Piti_2006_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Piti",
+        "url": "fichajugador.html?player=piti"
+    },
+    "anibal": {
+        "src": "https://i.postimg.cc/hvKDm152/Anibal-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Anibal",
+        "url": "fichajugador.html?player=anibal"
+    },
     
     // DELANTEROS
     "oli": {
