@@ -2575,6 +2575,83 @@ const playersDatabase = {
         "name": "Javi Muñoz",
         "url": "fichajugador.html?player=javimunoz"
     },
+    "pucko": {
+        "src": "https://i.postimg.cc/Gm9bC2DS/Pucko_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pucko",
+        "url": "fichajugador.html?player=pucko"
+    },
+    "jorgeortiz": {
+        "src": "https://i.postimg.cc/Pr4gNjhs/Jorge_Ortiz_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jorge Ortiz",
+        "url": "fichajugador.html?player=jorgeortiz"
+    },
+    "yeboah": {
+        "src": "https://i.postimg.cc/K8mJkkfJ/Yeboah_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Yeboah",
+        "url": "fichajugador.html?player=yeboah"
+    },
+    "mariga": {
+        "src": "https://i.postimg.cc/fLzXzmvh/Mariga_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Mariga",
+        "url": "fichajugador.html?player=mariga"
+    },
+    "hidi": {
+        "src": "https://i.postimg.cc/tg2QfGSN/Hidi_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Hidi",
+        "url": "fichajugador.html?player=hidi"
+    },
+    "davidrocha": {
+        "src": "https://i.postimg.cc/m2b3Zx8H/David_Rocha_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "David Rocha",
+        "url": "fichajugador.html?player=davidrocha"
+    },
+    "asier": {
+        "src": "https://i.postimg.cc/nrVxrcX5/Asier-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Asier",
+        "url": "fichajugador.html?player=asier"
+    },
+    "ander": {
+        "src": "https://i.postimg.cc/VNbkP6tW/Ander-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ander",
+        "url": "fichajugador.html?player=ander"
+    },
+    "ernesto2017": {
+        "src": "https://i.postimg.cc/Wzzz3qdD/Ernesto_2017_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ernesto",
+        "url": "fichajugador.html?player=ernesto2017"
+    },
+    "juan2017": {
+        "src": "https://i.postimg.cc/gcK4Lr2y/Juan_2017_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Juan",
+        "url": "fichajugador.html?player=juan2017"
+    },
+    "guille": {
+        "src": "https://i.postimg.cc/J0yLZYQc/Guille_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Guille",
+        "url": "fichajugador.html?player=guille"
+    },
     
     // DELANTEROS
     "oli": {
