@@ -3226,6 +3226,20 @@ const playersDatabase = {
         "name": "Nacho Matador",
         "url": "fichajugador.html?player=nachomatador"
     },
+    "yeray": {
+        "src": "https://i.postimg.cc/wjFFhqbH/Yeray_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Yeray",
+        "url": "fichajugador.html?player=yeray"
+    },
+    "ismael": {
+        "src": "https://i.postimg.cc/nh1hH5SC/Ismael_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ismael",
+        "url": "fichajugador.html?player=ismael"
+    },
     
     // DELANTEROS
     "oli": {
