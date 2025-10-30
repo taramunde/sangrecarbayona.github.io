@@ -3219,6 +3219,13 @@ const playersDatabase = {
         "name": "Anibal",
         "url": "fichajugador.html?player=anibal"
     },
+    "nachomatador": {
+        "src": "https://i.postimg.cc/8C1sMDfR/Nacho_Matador_(2)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Nacho Matador",
+        "url": "fichajugador.html?player=nachomatador"
+    },
     
     // DELANTEROS
     "oli": {
@@ -3228,6 +3235,7 @@ const playersDatabase = {
         "name": "Oli",
         "url": "fichajugador.html?player=oli"
     },
+    
     
     // ENTRENADORES
     "paunovic": {
