@@ -3240,6 +3240,34 @@ const playersDatabase = {
         "name": "Ismael",
         "url": "fichajugador.html?player=ismael"
     },
+    "tonigonzalez": {
+        "src": "https://i.postimg.cc/zvRT65jL/Toni_González_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Toni González",
+        "url": "fichajugador.html?player=tonigonzalez"
+    },
+    "ruben": {
+        "src": "https://i.postimg.cc/tTb0YC1b/Rubén_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Rubén",
+        "url": "fichajugador.html?player=ruben"
+    },
+    "alberto2005": {
+        "src": "https://i.postimg.cc/mkSrp59x/Alberto-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Alberto",
+        "url": "fichajugador.html?player=alberto2005"
+    },
+    "borjafernandez": {
+        "src": "https://i.postimg.cc/YSNTFBBw/Borja-Fernandez-2-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Borja Fernández",
+        "url": "fichajugador.html?player=borjafernandez"
+    },
     
     // DELANTEROS
     "oli": {
