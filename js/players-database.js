@@ -3436,6 +3436,69 @@ const playersDatabase = {
         "name": "Dani López",
         "url": "fichajugador.html?player=danilopez"
     },
+    "tomic": {
+        "src": "https://i.postimg.cc/LX5tkjg3/Tomic_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tomić",
+        "url": "fichajugador.html?player=tomic"
+    },
+    "albertnadj": {
+        "src": "https://i.postimg.cc/W11dCTS5/Albert-Nadj-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Albert Nadj",
+        "url": "fichajugador.html?player=albertnadj"
+    },
+    "rubenreyes": {
+        "src": "https://i.postimg.cc/3NrPFSCb/Rubén_Reyes_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Rubén Reyes",
+        "url": "fichajugador.html?player=rubenreyes"
+    },
+    "santamaria": {
+        "src": "https://i.postimg.cc/G2dNb7Nh/Santamaría_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Santamaría",
+        "url": "fichajugador.html?player=santamaria"
+    },
+    "claessens": {
+        "src": "https://i.postimg.cc/pXY0kY1D/Claessens_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Claessens",
+        "url": "fichajugador.html?player=claessens"
+    },
+    "ivaniglesias": {
+        "src": "https://i.postimg.cc/k42Jv5Jb/Iván_Iglesias_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Iván Iglesias",
+        "url": "fichajugador.html?player=ivaniglesias"
+    },
+    "pompei": {
+        "src": "https://i.postimg.cc/43Dfwgm2/Pompei_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pompei",
+        "url": "fichajugador.html?player=pompei"
+    },
+    "paulobento": {
+        "src": "https://i.postimg.cc/1tFtZzkZ/Paulo_Bento_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Paulo Bento",
+        "url": "fichajugador.html?player=paulobento"
+    },
+    "eskurza": {
+        "src": "https://i.postimg.cc/Bvxt1bvQ/Eskurza_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Eskurza",
+        "url": "fichajugador.html?player=eskurza"
+    },
     
     // DELANTEROS
     "oli": {
