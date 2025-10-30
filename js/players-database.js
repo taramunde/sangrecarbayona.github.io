@@ -3499,6 +3499,111 @@ const playersDatabase = {
         "name": "Eskurza",
         "url": "fichajugador.html?player=eskurza"
     },
+    "berto": {
+        "src": "https://i.postimg.cc/jdmV0h4B/Berto-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Berto",
+        "url": "fichajugador.html?player=berto"
+    },
+    "suarez": {
+        "src": "https://i.postimg.cc/nLk2GHRp/Suárez_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Suárez",
+        "url": "fichajugador.html?player=suarez"
+    },
+    "borrelli": {
+        "src": "https://i.postimg.cc/6pnPsx3G/Borrelli_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Borrelli",
+        "url": "fichajugador.html?player=borrelli"
+    },
+    "gay": {
+        "src": "https://i.postimg.cc/HWPWnXt9/Gay_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Gay",
+        "url": "fichajugador.html?player=gay"
+    },
+    "pedroalberto": {
+        "src": "https://i.postimg.cc/8kh5KjdR/Pedro_Alberto_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pedro Alberto",
+        "url": "fichajugador.html?player=pedroalberto"
+    },
+    "scepanovic": {
+        "src": "https://i.postimg.cc/HnPP4pLV/Scepanović_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Scepanović",
+        "url": "fichajugador.html?player=scepanovic"
+    },
+    "pacosanz": {
+        "src": "https://i.postimg.cc/7Yn56ffH/Paco_Sanz_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Paco Sanz",
+        "url": "fichajugador.html?player=pacosanz"
+    },
+    "andrades": {
+        "src": "https://i.postimg.cc/fLcWkrB3/Andrades-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Andrades",
+        "url": "fichajugador.html?player=andrades"
+    },
+    "armando": {
+        "src": "https://i.postimg.cc/xC3Y9b1M/Armando-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Armando",
+        "url": "fichajugador.html?player=armando"
+    },
+    "simon": {
+        "src": "https://i.postimg.cc/PfF675tq/Simón_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Simón",
+        "url": "fichajugador.html?player=simon"
+    },
+    "davidhernandez": {
+        "src": "https://i.postimg.cc/GtRFs6R6/David_Hernández_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "David Hernández",
+        "url": "fichajugador.html?player=davidhernandez"
+    },
+    "chechu": {
+        "src": "https://i.postimg.cc/rwjPyC18/Chechu_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chechu",
+        "url": "fichajugador.html?player=chechu"
+    },
+    "diegobarcena": {
+        "src": "https://i.postimg.cc/fWvXr2DT/Diego_Bárcena_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Diego Bárcena",
+        "url": "fichajugador.html?player=diegobarcena"
+    },
+    "jokanovic": {
+        "src": "https://i.postimg.cc/CxMV4KJx/Jokanovic_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jokanović",
+        "url": "fichajugador.html?player=jokanovic"
+    },
+    "prosinecki": {
+        "src": "https://i.postimg.cc/dtsq5nVF/Prosinecki_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Prosinečki",
+        "url": "fichajugador.html?player=prosinecki"
+    },
     
     // DELANTEROS
     "oli": {
