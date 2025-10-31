@@ -3695,6 +3695,55 @@ const playersDatabase = {
         "name": "Plácido",
         "url": "fichajugador.html?player=placido"
     },
+    "blanco": {
+        "src": "https://i.postimg.cc/QCCzvB9X/Blanco-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Blanco",
+        "url": "fichajugador.html?player=blanco"
+    },
+    "conde": {
+        "src": "https://i.postimg.cc/mDHj9QH1/Conde_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Conde",
+        "url": "fichajugador.html?player=conde"
+    },
+    "garciabarrero": {
+        "src": "https://i.postimg.cc/J0gRFCh2/García_Barrero_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "García Barrero",
+        "url": "fichajugador.html?player=garciabarrero"
+    },
+    "leiva": {
+        "src": "https://i.postimg.cc/Hkr6HDkt/Leiva_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Leiva",
+        "url": "fichajugador.html?player=leiva"
+    },
+    "eizmendi": {
+        "src": "https://i.postimg.cc/m2Dc6Tm8/Eizmendi_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Eizmendi",
+        "url": "fichajugador.html?player=eizmendi"
+    },
+    "tomy": {
+        "src": "https://i.postimg.cc/c1Kj0nk3/Tomy_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tomy",
+        "url": "fichajugador.html?player=tomy"
+    },
+    "robert": {
+        "src": "https://i.postimg.cc/bJrqTP0v/Robert_PNG_1986.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Robert",
+        "url": "fichajugador.html?player=robert"
+    },
     
     // DELANTEROS
     "oli": {
