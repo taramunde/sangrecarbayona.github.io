@@ -3856,6 +3856,55 @@ const playersDatabase = {
         "name": "Casas",
         "url": "fichajugador.html?player=casas"
     },
+    "domingo": {
+        "src": "https://i.postimg.cc/DZPWR0VY/Domingo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Domingo",
+        "url": "fichajugador.html?player=domingo"
+    },
+    "josecarlos": {
+        "src": "https://i.postimg.cc/PqL96vDT/José_Carlos_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "José Carlos",
+        "url": "fichajugador.html?player=josecarlos"
+    },
+    "pedroserrano": {
+        "src": "https://i.postimg.cc/1XZzRQSV/Pedro_Serrano_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pedro Serrano",
+        "url": "fichajugador.html?player=pedroserrano"
+    },
+    "pulgar": {
+        "src": "https://i.postimg.cc/fT8MpXV9/Pulgar_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pulgar",
+        "url": "fichajugador.html?player=pulgar"
+    },
+    "chesco": {
+        "src": "https://i.postimg.cc/pTw0c0HB/Chesco_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chesco",
+        "url": "fichajugador.html?player=chesco"
+    },
+    "rogelio": {
+        "src": "https://i.postimg.cc/bwGf55X7/Rogelio_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Rogelio",
+        "url": "fichajugador.html?player=rogelio"
+    },
+    "marcos1981": {
+        "src": "https://i.postimg.cc/SQvVVF06/Marcos_PNG_1981.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Marcos",
+        "url": "fichajugador.html?player=marcos1981"
+    },
     
     // DELANTEROS
     "oli": {
