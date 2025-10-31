@@ -3765,6 +3765,49 @@ const playersDatabase = {
         "name": "Villayón",
         "url": "fichajugador.html?player=villayon"
     },
+    "cardeno": {
+        "src": "https://i.postimg.cc/ZRMHBwnS/Cárdeno_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Cárdeno",
+        "url": "fichajugador.html?player=cardeno"
+    },
+    "merayo": {
+        "src": "https://i.postimg.cc/P518123j/Merayo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Merayo",
+        "url": "fichajugador.html?player=merayo"
+    },
+    "arias": {
+        "src": "https://i.postimg.cc/mkVbyFxB/Arias-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Arias",
+        "url": "fichajugador.html?player=arias"
+    },
+    "quiquemarigil": {
+        "src": "https://i.postimg.cc/rm2TxNPv/Quique_Marigil_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Quique Marigil",
+        "url": "fichajugador.html?player=quiquemarigil"
+    },
+    "cueva": {
+        "src": "https://i.postimg.cc/pXxC95Xy/Cueva_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Cueva",
+        "url": "fichajugador.html?player=cueva"
+    },
+    "miranda": {
+        "src": "https://i.postimg.cc/d37h3Bkg/Miranda_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Miranda",
+        "url": "fichajugador.html?player=miranda"
+    },
+    
     
     // DELANTEROS
     "oli": {
