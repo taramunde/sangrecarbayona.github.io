@@ -3667,6 +3667,34 @@ const playersDatabase = {
         "name": "Pepín",
         "url": "fichajugador.html?player=pepin1990"
     },
+    "delatorre": {
+        "src": "https://i.postimg.cc/5tFLKfNZ/De-La-Torre-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "De La Torre",
+        "url": "fichajugador.html?player=delatorre"
+    },
+    "tomas1988": {
+        "src": "https://i.postimg.cc/0NcGJVjN/Tomás_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tomás",
+        "url": "fichajugador.html?player=tomas1988"
+    },
+    "tocornal": {
+        "src": "https://i.postimg.cc/QMXkt2XP/Tocornal_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tocornal",
+        "url": "fichajugador.html?player=tocornal"
+    },
+    "placido": {
+        "src": "https://i.postimg.cc/JzxHn1PS/Placido_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Plácido",
+        "url": "fichajugador.html?player=placido"
+    },
     
     // DELANTEROS
     "oli": {
