@@ -3807,7 +3807,34 @@ const playersDatabase = {
         "name": "Miranda",
         "url": "fichajugador.html?player=miranda"
     },
-    
+    "pantoja": {
+        "src": "https://i.postimg.cc/MKScqyZ3/Pantoja_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pantoja",
+        "url": "fichajugador.html?player=pantoja"
+    },
+    "quique": {
+        "src": "https://i.postimg.cc/x17nT2yj/Quique_(2)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Quique",
+        "url": "fichajugador.html?player=quique"
+    },
+    "uria": {
+        "src": "https://i.postimg.cc/k5CHFMCg/Uría_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Uría",
+        "url": "fichajugador.html?player=uria"
+    },
+    "manolin": {
+        "src": "https://i.postimg.cc/28M4QqC4/Manolín_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Manolín",
+        "url": "fichajugador.html?player=manolin"
+    },
     
     // DELANTEROS
     "oli": {
