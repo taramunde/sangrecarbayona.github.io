@@ -3835,6 +3835,27 @@ const playersDatabase = {
         "name": "Manolín",
         "url": "fichajugador.html?player=manolin"
     },
+    "juanvaldes": {
+        "src": "https://i.postimg.cc/3rj6bTk4/Juan_Valdés_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Juan Valdés",
+        "url": "fichajugador.html?player=juanvaldes"
+    },
+    "javigarcia": {
+        "src": "https://i.postimg.cc/q750qdsM/Javi_García_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Javi García",
+        "url": "fichajugador.html?player=javigarcia"
+    },
+    "casas": {
+        "src": "https://i.postimg.cc/cLBVgNSG/Casas_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Casas",
+        "url": "fichajugador.html?player=casas"
+    },
     
     // DELANTEROS
     "oli": {
