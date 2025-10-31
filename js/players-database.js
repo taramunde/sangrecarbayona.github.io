@@ -3905,6 +3905,27 @@ const playersDatabase = {
         "name": "Marcos",
         "url": "fichajugador.html?player=marcos1981"
     },
+    "barrero": {
+        "src": "https://i.postimg.cc/ZqrzLy32/Barrero-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Barrero",
+        "url": "fichajugador.html?player=barrero"
+    },
+    "palmieri": {
+        "src": "https://i.postimg.cc/N05FpDbF/Palmieri_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Palmieri",
+        "url": "fichajugador.html?player=palmieri"
+    },
+    "javier1979": {
+        "src": "https://i.postimg.cc/sxGsWfPg/Javier-PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Javier",
+        "url": "fichajugador.html?player=javier1979"
+    },
     
     // DELANTEROS
     "oli": {
