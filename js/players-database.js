@@ -3646,7 +3646,20 @@ const playersDatabase = {
         "name": "Fermín",
         "url": "fichajugador.html?player=fermin"
     },
-    
+    "juanalberto": {
+        "src": "https://i.postimg.cc/qqrFMm5v/Juan_Alberto_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Juan Alberto",
+        "url": "fichajugador.html?player=juanalberto"
+    },
+    "quiroga": {
+        "src": "https://i.postimg.cc/XvC3rzQf/Quiroga_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Quiroga",
+        "url": "fichajugador.html?player=quiroga"
+    },
     
     // DELANTEROS
     "oli": {
