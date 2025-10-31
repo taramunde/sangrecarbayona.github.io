@@ -3604,6 +3604,49 @@ const playersDatabase = {
         "name": "Prosinečki",
         "url": "fichajugador.html?player=prosinecki"
     },
+    "elcacho": {
+        "src": "https://i.postimg.cc/XvMpJd4z/Elcacho_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Elcacho",
+        "url": "fichajugador.html?player=elcacho"
+    },
+    "vinyals": {
+        "src": "https://i.postimg.cc/BbDMD2Rw/Viñals_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Vinyals",
+        "url": "fichajugador.html?player=vinyals"
+    },
+    "paco": {
+        "src": "https://i.postimg.cc/WprDB9VJ/Paco_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Paco",
+        "url": "fichajugador.html?player=paco"
+    },
+    "pirri": {
+        "src": "https://i.postimg.cc/KYkcnzvg/Pirri_Mori_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pirri",
+        "url": "fichajugador.html?player=pirri"
+    },
+    "gracan": {
+        "src": "https://i.postimg.cc/LsR2wTH2/Gracan_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Gračan",
+        "url": "fichajugador.html?player=gracan"
+    },
+    "fermin": {
+        "src": "https://i.postimg.cc/fbhRZsv4/Fermín_(1990)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Fermín",
+        "url": "fichajugador.html?player=fermin"
+    },
+    
     
     // DELANTEROS
     "oli": {
