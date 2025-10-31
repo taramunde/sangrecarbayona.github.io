@@ -3744,6 +3744,27 @@ const playersDatabase = {
         "name": "Robert",
         "url": "fichajugador.html?player=robert"
     },
+    "munoz": {
+        "src": "https://i.postimg.cc/0yGbzrj5/Muñoz_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Muñoz",
+        "url": "fichajugador.html?player=munoz"
+    },
+    "mariodelaroca": {
+        "src": "https://i.postimg.cc/260WVyHL/Mario_de_La_Roca_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Mario de La Roca",
+        "url": "fichajugador.html?player=mariodelaroca"
+    },
+    "villayon": {
+        "src": "https://i.postimg.cc/ZqJthfPY/Villayon_1985_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Villayón",
+        "url": "fichajugador.html?player=villayon"
+    },
     
     // DELANTEROS
     "oli": {
