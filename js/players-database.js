@@ -3660,6 +3660,13 @@ const playersDatabase = {
         "name": "Quiroga",
         "url": "fichajugador.html?player=quiroga"
     },
+    "pepin1990": {
+        "src": "https://i.postimg.cc/9QfQQb6b/Pepín_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pepín",
+        "url": "fichajugador.html?player=pepin1990"
+    },
     
     // DELANTEROS
     "oli": {
