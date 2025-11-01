@@ -4341,6 +4341,35 @@ const playersDatabase = {
         "name": "Martins",
         "url": "fichajugador.html?player=martins"
     },
+    "perona": {
+        "src": "https://i.postimg.cc/02q7Nz0j/Perona_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Perona",
+        "url": "fichajugador.html?player=perona"
+    },
+    "miguel2010": {
+        "src": "https://i.postimg.cc/cCLTk6kd/Miguel_(Cedrón)_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Miguel",
+        "url": "fichajugador.html?player=miguel2010"
+    },
+    "carloscuello": {
+        "src": "https://i.postimg.cc/vTgShcSC/Carlos_Cuello_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Carlos Cuello",
+        "url": "fichajugador.html?player=carloscuello"
+    },
+    "pablocarnero": {
+        "src": "https://i.postimg.cc/mgsjKd5d/Pablo_Carnero_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pablo Carnero",
+        "url": "fichajugador.html?player=pablocarnero"
+    },
+    
     
     // ENTRENADORES
     "paunovic": {
