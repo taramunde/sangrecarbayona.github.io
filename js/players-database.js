@@ -3933,6 +3933,13 @@ const playersDatabase = {
         "name": "López Botella",
         "url": "fichajugador.html?player=lopezbotella"
     },
+    "lasa": {
+        "src": "https://i.postimg.cc/288HcBpM/Lasa_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Lasa",
+        "url": "fichajugador.html?player=lasa"
+    },
     
     // DELANTEROS
     "oli": {
