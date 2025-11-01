@@ -4264,7 +4264,83 @@ const playersDatabase = {
         "name": "Dioni",
         "url": "fichajugador.html?player=dioni"
     },
-    
+    "alain": {
+        "src": "https://i.postimg.cc/9Q8ZmJft/Alain-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Alain",
+        "url": "fichajugador.html?player=alain"
+    },
+    "annunziata": {
+        "src": "https://i.postimg.cc/pL4rc7T7/Annunziata-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Annunziata",
+        "url": "fichajugador.html?player=annunziata"
+    },
+    "manubusto": {
+        "src": "https://i.postimg.cc/J0xvt9vz/Manu_Busto_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Manu Busto",
+        "url": "fichajugador.html?player=manubusto"
+    },
+    "aquino": {
+        "src": "https://i.postimg.cc/gjz26bSw/Aquino-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Aquino",
+        "url": "fichajugador.html?player=aquino"
+    },
+    "pepediaz": {
+        "src": "https://i.postimg.cc/5tkw9psW/Pepe_Díaz_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pepe Díaz",
+        "url": "fichajugador.html?player=pepediaz"
+    },
+    "oscarmartinez": {
+        "src": "https://i.postimg.cc/y6DLR3RT/Óscar_Martínez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Óscar Martínez",
+        "url": "fichajugador.html?player=oscarmartinez"
+    },
+    "fransol": {
+        "src": "https://i.postimg.cc/1tcpQPV4/Fran_Sol_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Fran Sol",
+        "url": "fichajugador.html?player=fransol"
+    },
+    "jandrin": {
+        "src": "https://i.postimg.cc/vZr8XmJ1/Jandrín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Jandrín",
+        "url": "fichajugador.html?player=jandrin"
+    },
+    "jairocarcaba": {
+        "src": "https://i.postimg.cc/XYS7w5zS/Jairo_Cárcaba_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Jairo Cárcaba",
+        "url": "fichajugador.html?player=jairocarcaba"
+    },
+    "borjarubiato": {
+        "src": "https://i.postimg.cc/vH1d2mVY/Borja-Rubiato-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Borja Rubiato",
+        "url": "fichajugador.html?player=borjarubiato"
+    },
+    "martins": {
+        "src": "https://i.postimg.cc/FH78sCZh/Martins_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Martins",
+        "url": "fichajugador.html?player=martins"
+    },
     
     // ENTRENADORES
     "paunovic": {
