@@ -4208,6 +4208,20 @@ const playersDatabase = {
         "name": "Carlos Cano",
         "url": "fichajugador.html?player=carloscano"
     },
+    "jonathanpereira": {
+        "src": "https://i.postimg.cc/L6fZKmdS/Jonathan_Pereira_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Jonathan Pereira",
+        "url": "fichajugador.html?player=jonathanpereira"
+    },
+    "davidalvarez": {
+        "src": "https://i.postimg.cc/CxF9TLZn/David_Álvarez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "David Álvarez",
+        "url": "fichajugador.html?player=davidalvarez"
+    },
     
     // ENTRENADORES
     "paunovic": {
