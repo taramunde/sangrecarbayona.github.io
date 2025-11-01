@@ -3926,6 +3926,13 @@ const playersDatabase = {
         "name": "Javier",
         "url": "fichajugador.html?player=javier1979"
     },
+    "lopezbotella": {
+        "src": "https://i.postimg.cc/wMxkGnrL/López_Botella_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "López Botella",
+        "url": "fichajugador.html?player=lopezbotella"
+    },
     
     // DELANTEROS
     "oli": {
