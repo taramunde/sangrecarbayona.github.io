@@ -4376,6 +4376,55 @@ const playersDatabase = {
         "name": "Moi",
         "url": "fichajugador.html?player=moi"
     },
+    "rayco": {
+        "src": "https://i.postimg.cc/7P1fmmSP/Rayco_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Rayco",
+        "url": "fichajugador.html?player=rayco"
+    },
+    "nachomendez": {
+        "src": "https://i.postimg.cc/9MFGCKdp/Nacho_M%C3%A9ndez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Nacho Méndez",
+        "url": "fichajugador.html?player=nachomendez"
+    },
+    "moises2008": {
+        "src": "https://i.postimg.cc/sD8KKjYR/Mois%C3%A9s_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Moisés",
+        "url": "fichajugador.html?player=moises2008"
+    },
+    "matias": {
+        "src": "https://i.postimg.cc/prscPK59/Mat%C3%ADas_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Matías",
+        "url": "fichajugador.html?player=matias"
+    },
+    "alexgarcia": {
+        "src": "https://i.postimg.cc/RZFJDKT3/Alex-Garcia-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Álex García",
+        "url": "fichajugador.html?player=alexgarcia"
+    },
+    "jorgerodriguez2008": {
+        "src": "https://i.postimg.cc/L8pgmGR1/Jorge_Rodr%C3%ADguez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Jorge Rodríguez",
+        "url": "fichajugador.html?player=jorgerodriguez2008"
+    },
+    "fabinho": {
+        "src": "https://i.postimg.cc/Kzn58BwG/Fabinho_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Fabinho",
+        "url": "fichajugador.html?player=fabinho"
+    },
     
     // ENTRENADORES
     "paunovic": {
