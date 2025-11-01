@@ -4005,6 +4005,41 @@ const playersDatabase = {
         "name": "Santi Miguélez",
         "url": "fichajugador.html?player=santimiguelez"
     },
+    "borjabaston": {
+        "src": "https://i.postimg.cc/3rfTZGWf/Borja-Baston-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Borja Bastón",
+        "url": "fichajugador.html?player=borjabaston"
+    },
+    "dubasin": {
+        "src": "https://i.postimg.cc/R02PFM0R/Dubasin_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Dubasin",
+        "url": "fichajugador.html?player=dubasin"
+    },
+    "enol": {
+        "src": "https://i.postimg.cc/TYQCbjwh/Enol_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Enol",
+        "url": "fichajugador.html?player=enol"
+    },
+    "sese": {
+        "src": "https://i.postimg.cc/2y305Pxm/Sesé_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Sesé",
+        "url": "fichajugador.html?player=sese"
+    },
+    "mariofuente": {
+        "src": "https://i.postimg.cc/kXjLCPWj/Mario_Fuente_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Mario Fuente",
+        "url": "fichajugador.html?player=mariofuente"
+    },
     
     // ENTRENADORES
     "paunovic": {
