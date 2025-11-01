@@ -4369,7 +4369,13 @@ const playersDatabase = {
         "name": "Pablo Carnero",
         "url": "fichajugador.html?player=pablocarnero"
     },
-    
+    "moi": {
+        "src": "https://i.postimg.cc/mgJ79Z97/Moi-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Moi",
+        "url": "fichajugador.html?player=moi"
+    },
     
     // ENTRENADORES
     "paunovic": {
