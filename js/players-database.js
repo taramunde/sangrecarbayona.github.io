@@ -3960,7 +3960,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/FshL02dV/Alex-Fores-PNG.webp",
         "alt": "Delantero",
         "number": "-",
-        "name": "Álex Fores",
+        "name": "Álex Forés",
         "url": "fichajugador.html?player=alexfores"
     },
     "rondon": {
@@ -3969,6 +3969,41 @@ const playersDatabase = {
         "number": "-",
         "name": "Rondón",
         "url": "fichajugador.html?player=rondon"
+    },
+    "alemao": {
+        "src": "https://i.postimg.cc/KcPTkZzY/Alemao-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Alemão",
+        "url": "fichajugador.html?player=alemao"
+    },
+    "paraschiv": {
+        "src": "https://i.postimg.cc/vTn7N9LF/Paraschiv_PNG_(3).webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Paraschiv",
+        "url": "fichajugador.html?player=paraschiv"
+    },
+    "masca": {
+        "src": "https://i.postimg.cc/R0tYw3y8/Masca_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Masca",
+        "url": "fichajugador.html?player=masca"
+    },
+    "alexmillan": {
+        "src": "https://i.postimg.cc/6pm4JqHM/Alex-Millan-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Álex Millán",
+        "url": "fichajugador.html?player=alexmillan"
+    },
+    "santimiguelez": {
+        "src": "https://i.postimg.cc/0Q0PdXFL/Santi_Miguélez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Santi Miguélez",
+        "url": "fichajugador.html?player=santimiguelez"
     },
     
     // ENTRENADORES
