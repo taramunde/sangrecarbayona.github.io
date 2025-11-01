@@ -4222,6 +4222,49 @@ const playersDatabase = {
         "name": "David Álvarez",
         "url": "fichajugador.html?player=davidalvarez"
     },
+    "diegocervero": {
+        "src": "https://i.postimg.cc/PfY7C8Y8/Diego_Cervero_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Diego Cervero",
+        "url": "fichajugador.html?player=diegocervero"
+    },
+    "kone": {
+        "src": "https://i.postimg.cc/WpZ4tS56/Koné_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Koné",
+        "url": "fichajugador.html?player=kone"
+    },
+    "davidgonzalez2015": {
+        "src": "https://i.postimg.cc/wj0Z68Jf/David_González_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "David González",
+        "url": "fichajugador.html?player=davidgonzalez2015"
+    },
+    "allyson": {
+        "src": "https://i.postimg.cc/tThsx59c/Allyson-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Allyson",
+        "url": "fichajugador.html?player=allyson"
+    },
+    "sergiogarcia": {
+        "src": "https://i.postimg.cc/pr1NqwZ1/Sergio_García_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Sergio García",
+        "url": "fichajugador.html?player=sergiogarcia"
+    },
+    "dioni": {
+        "src": "https://i.postimg.cc/gkpT8kHt/Dioni_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Dioni",
+        "url": "fichajugador.html?player=dioni"
+    },
+    
     
     // ENTRENADORES
     "paunovic": {
