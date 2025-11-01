@@ -4173,7 +4173,41 @@ const playersDatabase = {
         "name": "Toché",
         "url": "fichajugador.html?player=toche"
     },
-    
+    "linares": {
+        "src": "https://i.postimg.cc/Z5smwyf5/Linares_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Linares",
+        "url": "fichajugador.html?player=linares"
+    },
+    "fabbrini": {
+        "src": "https://i.postimg.cc/zBmjN0d2/Fabbrini_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Fabbrini",
+        "url": "fichajugador.html?player=fabbrini"
+    },
+    "olmesgarcia": {
+        "src": "https://i.postimg.cc/rmmtvWTZ/Olmes_García_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Olmes García",
+        "url": "fichajugador.html?player=olmesgarcia"
+    },
+    "owusu": {
+        "src": "https://i.postimg.cc/02mZWgcM/Owusu_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Owusu",
+        "url": "fichajugador.html?player=owusu"
+    },
+    "carloscano": {
+        "src": "https://i.postimg.cc/G2S5vkzk/Carlos_Cano_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Carlos Cano",
+        "url": "fichajugador.html?player=carloscano"
+    },
     
     // ENTRENADORES
     "paunovic": {
