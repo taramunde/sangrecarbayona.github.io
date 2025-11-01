@@ -4040,6 +4040,140 @@ const playersDatabase = {
         "name": "Mario Fuente",
         "url": "fichajugador.html?player=mariofuente"
     },
+    "manuvallejo": {
+        "src": "https://i.postimg.cc/858qYdLN/Manu_Vallejo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Manu Vallejo",
+        "url": "fichajugador.html?player=manuvallejo"
+    },
+    "obeng": {
+        "src": "https://i.postimg.cc/Sx688kVd/Obeng_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Obeng",
+        "url": "fichajugador.html?player=obeng"
+    },
+    "leosequeira": {
+        "src": "https://i.postimg.cc/8PDTcGJN/Leo_Sequeira_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Leo Sequeira",
+        "url": "fichajugador.html?player=leosequeira"
+    },
+    "sergienrich": {
+        "src": "https://i.postimg.cc/tJgQdqhx/Sergi_Enrich_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Sergi Enrich",
+        "url": "fichajugador.html?player=sergienrich"
+    },
+    "moro": {
+        "src": "https://i.postimg.cc/qM9XymrJ/Moro_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Moro",
+        "url": "fichajugador.html?player=moro"
+    },
+    "matheusaias": {
+        "src": "https://i.postimg.cc/Y9fyy5pz/Matheus_Aiás_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Matheus Aiás",
+        "url": "fichajugador.html?player=matheusaias"
+    },
+    "javicueto": {
+        "src": "https://i.postimg.cc/8CTpYSGZ/Javi_Cueto_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Javi Cueto",
+        "url": "fichajugador.html?player=javicueto"
+    },
+    "vanderson": {
+        "src": "https://i.postimg.cc/FzYCs7yD/Vanderson_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Vanderson",
+        "url": "fichajugador.html?player=vanderson"
+    },
+    "rodrigo": {
+        "src": "https://i.postimg.cc/RZhhCmyq/Rodri_Ríos_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Rodrigo",
+        "url": "fichajugador.html?player=rodrigo"
+    },
+    "mujica": {
+        "src": "https://i.postimg.cc/j2168cJh/Mujica_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Mujica",
+        "url": "fichajugador.html?player=mujica"
+    },
+    "blancoleschuk": {
+        "src": "https://i.postimg.cc/900jhmgB/Blanco-Leschuk-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Blanco Leschuk",
+        "url": "fichajugador.html?player=blancoleschuk"
+    },
+    "gassan": {
+        "src": "https://i.postimg.cc/3w2GX7B9/Gassan_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Gassan",
+        "url": "fichajugador.html?player=gassan"
+    },
+    "joselu": {
+        "src": "https://i.postimg.cc/ydtWtbvW/Joselu_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Joselu",
+        "url": "fichajugador.html?player=joselu"
+    },
+    "saulberjon": {
+        "src": "https://i.postimg.cc/yNqKqzzM/Saúl_Berjón_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Saúl Berjón",
+        "url": "fichajugador.html?player=saulberjon"
+    },
+    "yoelbarcenas": {
+        "src": "https://i.postimg.cc/x8NgVBQZ/Yoel_Bárcenas_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Yoel Bárcenas",
+        "url": "fichajugador.html?player=yoelbarcenas"
+    },
+    "ortuno": {
+        "src": "https://i.postimg.cc/QNv0JNkZ/Ortuño_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ortuño",
+        "url": "fichajugador.html?player=ortuno"
+    },
+    "ibra": {
+        "src": "https://i.postimg.cc/4NrnBqn0/Ibra_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ibra",
+        "url": "fichajugador.html?player=ibra"
+    },
+    "steven": {
+        "src": "https://i.postimg.cc/g2h9HB6N/Steven_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Steven",
+        "url": "fichajugador.html?player=steven"
+    },
+    "toche": {
+        "src": "https://i.postimg.cc/wMrPhhqC/Toché_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Toché",
+        "url": "fichajugador.html?player=toche"
+    },
+    
     
     // ENTRENADORES
     "paunovic": {
