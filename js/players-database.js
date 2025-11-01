@@ -3942,14 +3942,34 @@ const playersDatabase = {
     },
     
     // DELANTEROS
-    "oli": {
-        "src": "https://i.postimg.cc/fbMdfprN/Oli_PNG.webp",
+    "ilyas": {
+        "src": "https://i.postimg.cc/xCTdXSFX/Ilyas_PNG_(3).webp",
         "alt": "Delantero",
         "number": "-",
-        "name": "Oli",
-        "url": "fichajugador.html?player=oli"
+        "name": "Ilyas",
+        "url": "fichajugador.html?player=ilyas"
     },
-    
+    "fedevinas": {
+        "src": "https://i.postimg.cc/mZywx37V/Fede_Viñas_PNG_(3).webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Fede Viñas",
+        "url": "fichajugador.html?player=fedevinas"
+    },
+    "alexfores": {
+        "src": "https://i.postimg.cc/FshL02dV/Alex-Fores-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Álex Fores",
+        "url": "fichajugador.html?player=alexfores"
+    },
+    "rondon": {
+        "src": "https://i.postimg.cc/m2XZ5qk4/Rondón_PNG_(2).webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Rondón",
+        "url": "fichajugador.html?player=rondon"
+    },
     
     // ENTRENADORES
     "paunovic": {
