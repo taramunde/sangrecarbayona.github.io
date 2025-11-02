@@ -4705,7 +4705,76 @@ const playersDatabase = {
         "name": "Hevia",
         "url": "fichajugador.html?player=hevia"
     },
-    
+    "lopezlopez": {
+        "src": "https://i.postimg.cc/cCWGv7JX/López_López_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "López López",
+        "url": "fichajugador.html?player=lopezlopez"
+    },
+    "vargas": {
+        "src": "https://i.postimg.cc/x8BxkngY/Vargas_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Vargas",
+        "url": "fichajugador.html?player=vargas"
+    },
+    "ramon": {
+        "src": "https://i.postimg.cc/HxXVGtK2/Ramón_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ramón",
+        "url": "fichajugador.html?player=ramon"
+    },
+    "llabres": {
+        "src": "https://i.postimg.cc/zfLr6XMS/Llabrés_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Llabrés",
+        "url": "fichajugador.html?player=llabres"
+    },
+    "thompson": {
+        "src": "https://i.postimg.cc/fLw6Zzqr/Thompson_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Thompson",
+        "url": "fichajugador.html?player=thompson"
+    },
+    "borge": {
+        "src": "https://i.postimg.cc/wMrYxCSY/Borge-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Borge",
+        "url": "fichajugador.html?player=borge"
+    },
+    "ramirez": {
+        "src": "https://i.postimg.cc/pdgp1S0r/Ramírez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ramírez",
+        "url": "fichajugador.html?player=ramirez"
+    },
+    "marcucci": {
+        "src": "https://i.postimg.cc/c1BVDnCG/Marcucci_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Marcucci",
+        "url": "fichajugador.html?player=marcucci"
+    },
+    "herrera": {
+        "src": "https://i.postimg.cc/Y00jsw15/Herrera_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Herrera",
+        "url": "fichajugador.html?player=herrera"
+    },
+    "joaquin1986": {
+        "src": "https://i.postimg.cc/9Xsqnrn1/Joaquín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Joaquín",
+        "url": "fichajugador.html?player=joaquin1986"
+    },
     
     // ENTRENADORES
     "paunovic": {
