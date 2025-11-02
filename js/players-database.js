@@ -4677,6 +4677,35 @@ const playersDatabase = {
         "name": "David Fernández",
         "url": "fichajugador.html?player=davidfernandez"
     },
+    "julia": {
+        "src": "https://i.postimg.cc/Gtv3Nh4S/Juliá_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Juliá",
+        "url": "fichajugador.html?player=julia"
+    },
+    "jose": {
+        "src": "https://i.postimg.cc/28439Tv8/José_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "José",
+        "url": "fichajugador.html?player=jose"
+    },
+    "hicks": {
+        "src": "https://i.postimg.cc/htTvwsdt/Hicks_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Hicks",
+        "url": "fichajugador.html?player=hicks"
+    },
+    "hevia": {
+        "src": "https://i.postimg.cc/SNXJLkQ8/Hevia_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Hevia",
+        "url": "fichajugador.html?player=hevia"
+    },
+    
     
     // ENTRENADORES
     "paunovic": {
