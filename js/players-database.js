@@ -4988,19 +4988,194 @@ const playersDatabase = {
     
     // ENTRENADORES
     "paunovic": {
-        "src": "https://i.postimg.cc/9FK0fKhp/PaunoviÄ‡_(3)_(entrenador).webp",
+        "src": "https://i.ibb.co/tpdPQpbs/Paunovi-3-entrenador.webp",
         "alt": "Entrenador",
         "number": "-",
         "name": "Paunović",
         "url": "fichajugador.html?player=paunovic"
     },
     "luiscarrion": {
-        "src": "https://i.postimg.cc/9fT7VVwZ/Luis-Carri-n-entrenador-PNG.webp",
+        "src": "https://i.ibb.co/pBYwXRZL/Luis-Carri-n-entrenador-PNG.webp",
         "alt": "Entrenador",
         "number": "-",
         "name": "Luis Carrión",
         "url": "fichajugador.html?player=luiscarrion"
-    }
+    },
+    "javicalleja": {
+        "src": "https://i.ibb.co/pjBqgb66/Javi-Calleja-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Javi Calleja",
+        "url": "fichajugador.html?player=javicalleja"
+    },
+    "alvarocervera": {
+        "src": "https://i.ibb.co/RkNqr49R/lvaro-Cervera-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Álvaro Cervera",
+        "url": "fichajugador.html?player=alvarocervera"
+    },
+    "bolo": {
+        "src": "https://i.ibb.co/5g2wztDY/Bolo-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Bolo",
+        "url": "fichajugador.html?player=bolo"
+    },
+    "ziganda": {
+        "src": "https://i.ibb.co/JRrM0Mjf/Ziganda-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Ziganda",
+        "url": "fichajugador.html?player=ziganda"
+    },
+    "sergioegea": {
+        "src": "https://i.ibb.co/jvQfrQvz/Sergio-Egea-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Sergio Egea",
+        "url": "fichajugador.html?player=sergioegea"
+    },
+    "javirozada": {
+        "src": "https://i.ibb.co/G37f99XB/Javi-Rozada-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Javi Rozada",
+        "url": "fichajugador.html?player=javirozada"
+    },
+    "anquela": {
+        "src": "https://i.ibb.co/mFyhBmqk/Anquela-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Anquela",
+        "url": "fichajugador.html?player=anquela"
+    },
+    "fernandohierro": {
+        "src": "https://i.ibb.co/0jz9xNRr/Hierro-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Fernando Hierro",
+        "url": "fichajugador.html?player=fernandohierro"
+    },
+    "generelo": {
+        "src": "https://i.ibb.co/cK0fqHc4/Generelo-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Generelo",
+        "url": "fichajugador.html?player=generelo"
+    },
+    "granero": {
+        "src": "https://i.ibb.co/v61mZgp5/Granero-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Granero",
+        "url": "fichajugador.html?player=granero"
+    },
+    "robles": {
+        "src": "https://i.ibb.co/9mQ8p2kb/Robles-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Robles",
+        "url": "fichajugador.html?player=robles"
+    },
+    "sarriugarte2012": {
+        "src": "https://i.ibb.co/jvypSLwT/Sarriugarte-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Sarriugarte",
+        "url": "fichajugador.html?player=sarriugarte2012"
+    },
+    "pacheta2011": {
+        "src": "https://i.ibb.co/XkDKKmwy/Pacheta-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Pacheta",
+        "url": "fichajugador.html?player=pacheta2011"
+    },
+    "pichilucas": {
+        "src": "https://i.ibb.co/rfmvDrpp/Pichi-Lucas-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Pichi Lucas",
+        "url": "fichajugador.html?player=pichilucas"
+    },
+    "josemanuel2010": {
+        "src": "https://i.ibb.co/hr0rsSG/Jos-Manuel-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "José Manuel",
+        "url": "fichajugador.html?player=josemanuel2010"
+    },
+    "raulgonzalez": {
+        "src": "https://i.ibb.co/bRFZvJg1/Ra-l-Gonz-lez-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Raúl González",
+        "url": "fichajugador.html?player=raulgonzalez"
+    },
+    "ferminalvarez": {
+        "src": "https://i.ibb.co/x87p9cTx/Ferm-n-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Fermín Álvarez",
+        "url": "fichajugador.html?player=ferminalvarez"
+    },
+    "carrasco": {
+        "src": "https://i.ibb.co/ZR4qbGZD/Carrasco-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Carrasco",
+        "url": "fichajugador.html?player=carrasco"
+    },
+    "tonovelazquez": {
+        "src": "https://i.ibb.co/20tn6Dfb/Vel-zquez-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Toño Velázquez",
+        "url": "fichajugador.html?player=tonovelazquez"
+    },
+    "ramirosolis": {
+        "src": "https://i.ibb.co/HpfvHCCC/Ramiro-Sol-s-2-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Ramiro Solis",
+        "url": "fichajugador.html?player=ramirosolis"
+    },
+    "diazgalan": {
+        "src": "https://i.ibb.co/twHVgpfm/D-az-Gal-n-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Díaz Galán",
+        "url": "fichajugador.html?player=diazgalan"
+    },
+    "rivas2005": {
+        "src": "https://i.ibb.co/hRS9CMPH/Rivas-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Rivas",
+        "url": "fichajugador.html?player=rivas2005"
+    },
+    "quiquemarigil2002": {
+        "src": "https://i.ibb.co/KjsY7cqp/Marigil-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Quique Marigil",
+        "url": "fichajugador.html?player=quiquemarigil2002"
+    },
+    "vicente2002": {
+        "src": "https://i.ibb.co/TBCjZWbv/Vicente-2-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Vicente",
+        "url": "fichajugador.html?player=vicente2002"
+    },
+    "miguelsanchez": {
+        "src": "https://i.ibb.co/hR7WdCjs/Jos-Miguel-S-nchez-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Miguel Sánchez",
+        "url": "fichajugador.html?player=miguelsanchez"
+    },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
