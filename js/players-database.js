@@ -4656,6 +4656,27 @@ const playersDatabase = {
         "name": "Janković",
         "url": "fichajugador.html?player=jankovic"
     },
+    "sarriugarte1993": {
+        "src": "https://i.postimg.cc/SNskCrrv/Sarriugarte_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Sarriugarte",
+        "url": "fichajugador.html?player=sarriugarte1993"
+    },
+    "lacatus": {
+        "src": "https://i.postimg.cc/SN7NfRFn/Lacatus_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Lăcătuș",
+        "url": "fichajugador.html?player=lacatus"
+    },
+    "davidfernandez": {
+        "src": "https://i.postimg.cc/8Pdx0rCV/David-Fernandez-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "David Fernández",
+        "url": "fichajugador.html?player=davidfernandez"
+    },
     
     // ENTRENADORES
     "paunovic": {
