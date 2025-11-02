@@ -4572,6 +4572,90 @@ const playersDatabase = {
         "name": "Nacho Calvillo",
         "url": "fichajugador.html?player=nachocalvillo"
     },
+    "moller": {
+        "src": "https://i.postimg.cc/y8ZjbMj3/Moller_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Möller",
+        "url": "fichajugador.html?player=moller"
+    },
+    "paunovic": {
+        "src": "https://i.postimg.cc/9MRyDTkR/Paunovic_(2)_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Paunović",
+        "url": "fichajugador.html?player=paunovic"
+    },
+    "collymore": {
+        "src": "https://i.postimg.cc/GmdnLxf2/Collymore_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Collymore",
+        "url": "fichajugador.html?player=collymore"
+    },
+    "fabiopinto": {
+        "src": "https://i.postimg.cc/5ygqw1fD/Fabio_Pinto_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Fabio Pinto",
+        "url": "fichajugador.html?player=fabiopinto"
+    },
+    "delyvaldes": {
+        "src": "https://i.postimg.cc/kG3hjn34/Dely_Valdés_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Dely Valdés",
+        "url": "fichajugador.html?player=delyvaldes"
+    },
+    "dubovsky": {
+        "src": "https://i.postimg.cc/sxrwYw7G/Dubovský_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Dubovský",
+        "url": "fichajugador.html?player=dubovsky"
+    },
+    "christiansen": {
+        "src": "https://i.postimg.cc/MHBJTPxc/Christiansen_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Christiansen",
+        "url": "fichajugador.html?player=christiansen"
+    },
+    "maqueda": {
+        "src": "https://i.postimg.cc/vBWpw1v9/Maqueda_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Maqueda",
+        "url": "fichajugador.html?player=maqueda"
+    },
+    "tonivelamazan": {
+        "src": "https://i.postimg.cc/WbDxsfST/Toni_Velamazán_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Toni Velamazán",
+        "url": "fichajugador.html?player=tonivelamazan"
+    },
+    "carlos": {
+        "src": "https://i.postimg.cc/0jTXBPTj/Carlos_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Carlos",
+        "url": "fichajugador.html?player=carlos"
+    },
+    "miguelez": {
+        "src": "https://i.postimg.cc/RVqXc6nR/Miguélez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Miguélez",
+        "url": "fichajugador.html?player=miguelez"
+    },
+    "jankovic": {
+        "src": "https://i.postimg.cc/RFDvqJHY/Jankovic_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Janković",
+        "url": "fichajugador.html?player=jankovic"
+    },
     
     // ENTRENADORES
     "paunovic": {
