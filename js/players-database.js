@@ -5175,7 +5175,7 @@ const playersDatabase = {
         "number": "-",
         "name": "Miguel Sánchez",
         "url": "fichajugador.html?player=miguelsanchez"
-    },
+    }
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
