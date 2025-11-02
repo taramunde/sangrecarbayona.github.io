@@ -4481,6 +4481,97 @@ const playersDatabase = {
         "name": "Raúl Castillo",
         "url": "fichajugador.html?player=raulcastillo"
     },
+    "dario": {
+        "src": "https://i.postimg.cc/SQMBcPFR/Darío_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Darío",
+        "url": "fichajugador.html?player=dario"
+    },
+    "nachorodriguez": {
+        "src": "https://i.postimg.cc/zvyKRhPH/Nacho_Rodríguez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Nacho Rodríguez",
+        "url": "fichajugador.html?player=nachorodriguez"
+    },
+    "adrian2005": {
+        "src": "https://i.postimg.cc/pdm8pzhN/Adrian-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Adrián",
+        "url": "fichajugador.html?player=adrian2005"
+    },
+    "juanvaldes2005": {
+        "src": "https://i.postimg.cc/k5544mHB/Juan_Valdés_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Juan Valdés",
+        "url": "fichajugador.html?player=juanvaldes2005"
+    },
+    "aldeondo": {
+        "src": "https://i.postimg.cc/pXknCqKb/Aldeondo-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Aldeondo",
+        "url": "fichajugador.html?player=aldeondo"
+    },
+    "juanchi": {
+        "src": "https://i.postimg.cc/vBJH36ZV/Juanchi_González_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Juanchi",
+        "url": "fichajugador.html?player=juanchi"
+    },
+    "recaman": {
+        "src": "https://i.postimg.cc/FsD1QzP2/Recamán_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Recamán",
+        "url": "fichajugador.html?player=recaman"
+    },
+    "omar2003": {
+        "src": "https://i.postimg.cc/pT6nxTXW/Omar_(Cibeira)_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Omar",
+        "url": "fichajugador.html?player=omar2003"
+    },
+    "geni": {
+        "src": "https://i.postimg.cc/D0wb3GKY/Geni_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Geni",
+        "url": "fichajugador.html?player=geni"
+    },
+    "oli": {
+        "src": "https://i.postimg.cc/fbMdfprN/Oli_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Oli",
+        "url": "fichajugador.html?player=oli"
+    },
+    "losada": {
+        "src": "https://i.postimg.cc/SRGFCX2q/Losada_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Losada",
+        "url": "fichajugador.html?player=losada"
+    },
+    "rubensuarez": {
+        "src": "https://i.postimg.cc/8cTk2gLp/Rubén_Suárez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Rubén Suárez",
+        "url": "fichajugador.html?player=rubensuarez"
+    },
+    "nachocalvillo": {
+        "src": "https://i.postimg.cc/s2zY0v1b/Nacho_Calvillo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Nacho Calvillo",
+        "url": "fichajugador.html?player=nachocalvillo"
+    },
     
     // ENTRENADORES
     "paunovic": {
