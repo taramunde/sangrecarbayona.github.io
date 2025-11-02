@@ -4425,6 +4425,62 @@ const playersDatabase = {
         "name": "Fabinho",
         "url": "fichajugador.html?player=fabinho"
     },
+    "stefan": {
+        "src": "https://i.postimg.cc/7Yd87yb5/Stefan_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Stefan",
+        "url": "fichajugador.html?player=stefan"
+    },
+    "pacheta2007": {
+        "src": "https://i.postimg.cc/HLW2krHX/Pacheta_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pacheta",
+        "url": "fichajugador.html?player=pacheta2007"
+    },
+    "bruno": {
+        "src": "https://i.postimg.cc/zDcsh1P9/Bruno_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Bruno",
+        "url": "fichajugador.html?player=bruno"
+    },
+    "armando": {
+        "src": "https://i.postimg.cc/qRLkrZJp/Armando-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Armando",
+        "url": "fichajugador.html?player=armando"
+    },
+    "lanzarote": {
+        "src": "https://i.postimg.cc/nLMFx1sm/Lanzarote_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Lanzarote",
+        "url": "fichajugador.html?player=lanzarote"
+    },
+    "nachogarcia": {
+        "src": "https://i.postimg.cc/nL148pDr/Nacho_Garc%C3%ADa_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Nacho García",
+        "url": "fichajugador.html?player=nachogarcia"
+    },
+    "kiko": {
+        "src": "https://i.postimg.cc/fLtRcvDs/Kiko_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Kiko",
+        "url": "fichajugador.html?player=kiko"
+    },
+    "raulcastillo": {
+        "src": "https://i.postimg.cc/QCDVjTZr/Ra%C3%BAl_Castillo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Raúl Castillo",
+        "url": "fichajugador.html?player=raulcastillo"
+    },
     
     // ENTRENADORES
     "paunovic": {
