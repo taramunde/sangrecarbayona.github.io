@@ -1408,7 +1408,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/tR5LrjcS/Paul_PNG.webp",
         "alt": "Defensa",
         "number": "-",
-        "name": "Borja",
+        "name": "Paul",
         "url": "fichajugador.html?player=paul"
     },
     "lusarreta": {
