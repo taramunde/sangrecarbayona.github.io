@@ -1818,7 +1818,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=sañudo"
     },
     "angelluis": {
-        "src": "https://i.postimg.cc/T2FrvyBp/Sañudo_PNG.webp",
+        "src": "https://i.postimg.cc/43DccjZs/Angel-Luis-PNG.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Ángel Luis",
