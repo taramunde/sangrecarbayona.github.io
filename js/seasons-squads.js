@@ -31,5 +31,6 @@ const seasonsSquads = {
         "coaches": ["bolo", "alvarocervera"],
         // ... solo IDs
     },
+    
     // ... todas las temporadas
 };
