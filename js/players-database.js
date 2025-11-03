@@ -5308,7 +5308,7 @@ const playersDatabase = {
         "number": "-",
         "name": "Luis Diestro",
         "url": "fichajugador.html?player=luisdiestro"
-    },
+    }
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
 };
