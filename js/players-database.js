@@ -1012,13 +1012,6 @@ const playersDatabase = {
         "name": "Sinchi",
         "url": "fichajugador.html?player=sinchi"
     },
-    "angel": {
-        "src": "https://i.postimg.cc/kGcRk4Sg/Angel-Saiz-PNG.webp",
-        "alt": "Defensa",
-        "number": "-",
-        "name": "Ángel",
-        "url": "fichajugador.html?player=angel"
-    },
     "castiello": {
         "src": "https://i.postimg.cc/mZ5sS4JY/Castiello_PNG.webp",
         "alt": "Defensa",
