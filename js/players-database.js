@@ -970,7 +970,7 @@ const playersDatabase = {
         "name": "Kike Torrent",
         "url": "fichajugador.html?player=kiketorrent"
     },
-    "iván": {
+    "ivan": {
         "src": "https://i.postimg.cc/rwL1XR23/Iván_2015.webpp",
         "alt": "Defensa",
         "number": "-",
