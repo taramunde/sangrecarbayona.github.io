@@ -14,6 +14,22 @@ const seasonsSquads = {
         "forwards": ["alemao", "paraschiv", "ilyas", "masca", "alexmillan", "fedevinas", "santimiguelez"],
         "coaches": ["javicalleja", "paunovic"],
         // ... solo IDs
-    }
+    },
+    "2023-24": {
+        "goalkeepers": ["quentinbraat", "leoroman", "marco", "victoregboh"],
+        "defenders": ["mariohernandez", "rodritarin", "davidcostas", "danicalvo", "luengo", "pomares", "abelbretones", "lucas", "charbel", "marcoesteban", "aimarcollante", "jaimevazquez", "osky"],
+        "midfielders": ["luismi2023", "jimmy", "viti2023", "javimier", "santicazorla", "camarasa", "hugorama", "colombatto", "homenchenko", "seoane2024", "sebasmoyano", "paulino2024", "romarioibarra", "borjasanchez", "alexcardero", "yayo", "dieguito"],
+        "forwards": ["borjabaston", "alemao", "alexmillan", "masca", "dubasin", "enol", "sese", "mariofuente"],
+        "coaches": ["alvarocervera", "luiscarrion"],
+        // ... solo IDs
+    },
+    "2022-23": {
+        "goalkeepers": ["quentinbraat", "tomeunadal", "marco"],
+        "defenders": ["miguelon", "rodritarin", "davidcostas", "danicalvo", "luengo", "alonsoaceves", "pomares", "jorgemier", "juanfran", "lucas", "abelbretones", "javimoreno", "lucaslaso", "osky"],
+        "midfielders": ["luismi2023", "javimier", "viti2023", "sangalli", "borjasanchez", "jirka", "marceloflores", "jimmy", "camarasa", "kobalein", "montoro", "hugorama", "alexcardero", "mangel", "yayo", "victorblanco", "nnoshiri"],
+        "forwards": ["manuvallejo", "borjabaston", "obeng", "leosequeira", "sergienrich", "mariofuente", "sese", "masca", "enol", "moro"],
+        "coaches": ["bolo", "alvarocervera"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
