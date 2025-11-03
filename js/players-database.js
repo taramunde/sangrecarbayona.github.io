@@ -5175,8 +5175,140 @@ const playersDatabase = {
         "number": "-",
         "name": "Miguel Sánchez",
         "url": "fichajugador.html?player=miguelsanchez"
-    }
-    
+    },
+    "antic": {
+        "src": "https://i.postimg.cc/284MqBpK/Antic-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Antić",
+        "url": "fichajugador.html?player=antic"
+    },
+    "luisaragones": {
+        "src": "https://i.postimg.cc/13bqL4Xy/Luis-Aragones-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Luis Aragonés",
+        "url": "fichajugador.html?player=luisaragones"
+    },
+    "fernandovazquez": {
+        "src": "https://i.postimg.cc/yYPn4hCs/Fernando-Vazquez-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Fernando Vázquez",
+        "url": "fichajugador.html?player=fernandovazquez"
+    },
+    "tabarez": {
+        "src": "https://i.postimg.cc/QMsX9rnp/Tabárez_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Tabárez",
+        "url": "fichajugador.html?player=tabarez"
+    },
+    "lillo": {
+        "src": "https://i.postimg.cc/tCSPNBHZ/Lillo-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Lillo",
+        "url": "fichajugador.html?player=lillo"
+    },
+    "novo": {
+        "src": "https://i.postimg.cc/zGHLS5j6/Novo_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Novo",
+        "url": "fichajugador.html?player=novo"
+    },
+    "ivanbrizc": {
+        "src": "https://i.postimg.cc/13XGkLKr/Ivan-Brzic-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Iván Brzić",
+        "url": "fichajugador.html?player=ivanbrizc"
+    },
+    "irureta": {
+        "src": "https://i.postimg.cc/5Nn5kx8t/Irureta-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Irureta",
+        "url": "fichajugador.html?player=irureta"
+    },
+    "juliomarigil": {
+        "src": "https://i.postimg.cc/VLRfFyYb/Julio-Marigil-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Julio Marigil",
+        "url": "fichajugador.html?player=juliomarigil"
+    },
+    "vicentemiera": {
+        "src": "https://i.postimg.cc/0N8s50bn/Vicente_Miera_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Vicente Miera",
+        "url": "fichajugador.html?player=vicentemiera"
+    },
+    "antonioruiz": {
+        "src": "https://i.postimg.cc/zffcPtys/Antonio-Ruiz-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Antonio Ruiz",
+        "url": "fichajugador.html?player=antonioruiz"
+    },
+    "carrete1986": {
+        "src": "https://i.postimg.cc/mrhmSPqR/Carrete-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Carrete",
+        "url": "fichajugador.html?player=carrete1986"
+    },
+    "romero": {
+        "src": "https://i.postimg.cc/Y0VrhGJ9/Romero_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Romero",
+        "url": "fichajugador.html?player=romero"
+    },
+    "luiscosta": {
+        "src": "https://i.postimg.cc/zBrRGMTM/Luis-Costa-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Luis Costa",
+        "url": "fichajugador.html?player=luiscosta"
+    },
+    "josemaria1982": {
+        "src": "https://i.postimg.cc/Ss6CLqyk/Jose-Maria-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "José María",
+        "url": "fichajugador.html?player=josemaria1982"
+    },
+    "josevictor": {
+        "src": "https://i.postimg.cc/L5vP7TYW/Jose-Victor-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "José Víctor",
+        "url": "fichajugador.html?player=josevictor"
+    },
+    "nandoyosu": {
+        "src": "https://i.postimg.cc/FsRkz0J9/Nando_Yosu_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Nando Yosu",
+        "url": "fichajugador.html?player=nandoyosu"
+    },
+    "lalo1978": {
+        "src": "https://i.postimg.cc/J44ZX9SC/Lalo-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Lalo",
+        "url": "fichajugador.html?player=lalo1978"
+    },
+    "luisdiestro": {
+        "src": "https://i.postimg.cc/Hxy3ffdh/Diestro-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Luis Diestro",
+        "url": "fichajugador.html?player=luisdiestro"
+    },
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
 };
