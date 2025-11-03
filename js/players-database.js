@@ -2034,13 +2034,6 @@ const playersDatabase = {
         "name": "Paulino",
         "url": "fichajugador.html?player=paulino"
     },
-    "paulino": {
-        "src": "https://i.postimg.cc/tCv8jzpF/Paulino_PNG.webp",
-        "alt": "Defensa",
-        "number": "-",
-        "name": "Paulino",
-        "url": "fichajugador.html?player=paulino"
-    },
     "vicente": {
         "src": "https://i.postimg.cc/MpWmKnmx/Vicente_PNG.webp",
         "alt": "Defensa",
