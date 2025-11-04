@@ -2799,12 +2799,12 @@ const playersDatabase = {
         "name": "Josep Señé",
         "url": "fichajugador.html?player=josepsene"
     },
-    "eneko": {
+    "eneko2014": {
         "src": "https://i.postimg.cc/Dw4SnBkG/Eneko_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Eneko",
-        "url": "fichajugador.html?player=eneko"
+        "url": "fichajugador.html?player=eneko2014"
     },
     "rojas": {
         "src": "https://i.postimg.cc/0yL11CPb/Rojas_PNG.webp",
