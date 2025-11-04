@@ -4432,12 +4432,12 @@ const playersDatabase = {
         "name": "Bruno",
         "url": "fichajugador.html?player=bruno"
     },
-    "armando": {
+    "armando2007": {
         "src": "https://i.postimg.cc/qRLkrZJp/Armando-PNG.webp",
         "alt": "Delantero",
         "number": "-",
         "name": "Armando",
-        "url": "fichajugador.html?player=armando"
+        "url": "fichajugador.html?player=armando2007"
     },
     "lanzarote": {
         "src": "https://i.postimg.cc/nLMFx1sm/Lanzarote_PNG.webp",
