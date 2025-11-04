@@ -95,5 +95,37 @@ const seasonsSquads = {
         "coaches": ["sergioegea"],
         // ... solo IDs
     },
+    "2013-14": {
+        "goalkeepers": ["orlandoquintana", "polfreixanet", "marcos"],
+        "defenders": ["davidfernandez", "pardo", "alvarocuello", "alba", "sergiorodriguez", "javihernandez2013", "sergiodiaz", "chapi", "angel"],
+        "midfielders": ["salvarivas", "ivanrubio", "hectorsimon", "jonerice", "josepsene", "eneko2014", "susaeta", "belar", "coutado", "jordi", "capelete", "lucas"],
+        "forwards": ["sergiogarcia", "diegocervero", "alain", "annunziata", "steven"],
+        "coaches": ["granero", "robles"],
+        // ... solo IDs
+    },
+    "2012-13": {
+        "goalkeepers": ["danibarrio", "marioruyales", "orlandoquintana", "marcos"],
+        "defenders": ["davidfernandez", "javicantero", "alvarocuello", "baquero", "owona", "mantovani", "efren", "trabanco"],
+        "midfielders": ["aitorsanz", "ikeralegre", "pascual", "hectorsimon", "casares", "xavimore", "cerrajeria", "josepsene", "ivanrubio", "diegorua", "adrianllano"],
+        "forwards": ["diegocervero", "manubusto", "aquino", "pepediaz", "oscarmartinez", "fransol", "jandrin", "jairocarcaba"],
+        "coaches": ["sarriugarte2012", "granero"],
+        // ... solo IDs
+    },
+    "2011-12": {
+        "goalkeepers": ["lledo", "danibarrio", "adrian"],
+        "defenders": ["candela", "juanma", "owona", "cesarnegredo", "jorgerodriguez", "juanpa", "alvarocuello", "catu", "joaquinpena"],
+        "midfielders": ["pascual", "pelayo", "abasolo", "aitorsanz", "xavimore", "falcon", "teo", "nano", "chamorro", "davidgonzalez", "pabloespina"],
+        "forwards": ["borjarubiato", "manubusto", "martins", "oscarmartinez", "jandrin", "jairocarcaba"],
+        "coaches": ["pacheta"],
+        // ... solo IDs
+    },
+    "2010-11": {
+        "goalkeepers": ["aulestia", "javimartinez", "adrian", "alberto"],
+        "defenders": ["victordiaz", "ernesto", "artabe2010", "gonzalo2010", "cesarnegredo", "jorgerodriguez", "lopezramos", "juanma", "richi", "joaquinpena"],
+        "midfielders": ["pelayo", "jandro", "aitorsanz", "pascual", "xavimore", "falcon", "marccastells", "nano", "jony", "prosi", "davidgonzalez", "pabloespina", "yosu"],
+        "forwards": ["borjarubiato", "manubusto", "perona", "miguel2010", "jandrin", "carloscuello", "pablocarnero", "moi"],
+        "coaches": ["pichilucas", "josemanuel2010", "pacheta"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
