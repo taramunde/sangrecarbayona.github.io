@@ -4656,12 +4656,12 @@ const playersDatabase = {
         "name": "Lăcătuș",
         "url": "fichajugador.html?player=lacatus"
     },
-    "davidfernandez": {
+    "davidfernandez1992": {
         "src": "https://i.postimg.cc/8Pdx0rCV/David-Fernandez-PNG.webp",
         "alt": "Delantero",
         "number": "-",
         "name": "David Fernández",
-        "url": "fichajugador.html?player=davidfernandez"
+        "url": "fichajugador.html?player=davidfernandez1992"
     },
     "julia": {
         "src": "https://i.postimg.cc/Gtv3Nh4S/Juliá_PNG.webp",
@@ -4845,7 +4845,7 @@ const playersDatabase = {
         "name": "Segundo Ramos",
         "url": "fichajugador.html?player=segundoramos"
     },
-        "omar1982": {
+    "omar1982": {
         "src": "https://i.postimg.cc/hvQQGBf9/Omar_PNG.webp",
         "alt": "Delantero",
         "number": "-",
