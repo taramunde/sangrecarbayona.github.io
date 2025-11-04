@@ -127,5 +127,37 @@ const seasonsSquads = {
         "coaches": ["pichilucas", "josemanuel2010", "pacheta"],
         // ... solo IDs
     },
+    "2009-10": {
+        "goalkeepers": ["ivanserrano", "aulestia", "limones"],
+        "defenders": ["rubengonzalez", "javibarral", "larrea", "artabe2010", "gonzalo2010", "ernesto", "jorgerodriguez", "danihedrera", "nico"],
+        "midfielders": ["pelayo", "jandro", "rubengarcia", "curro", "sergiovillanueva", "xavimore", "armandoinvernon", "ivanania", "marioprieto", "yosu"],
+        "forwards": ["miguel2010", "perona", "manubusto", "rayco", "nachomendez", "jandrin"],
+        "coaches": ["raulgonzalez", "ferminalvarez", "pichilucas"],
+        // ... solo IDs
+    },
+    "2008-09": {
+        "goalkeepers": ["ivanserrano", "aulestia", "eneko", "damian"],
+        "defenders": ["rubengonzalez", "ikerlasarte", "davidfarina", "joseluis", "gonzalo2010", "danihedrera", "nico", "ernesto", "pablonaredo", "alvarocosta"],
+        "midfielders": ["juanluis", "jaime", "curro", "sergiovillanueva", "jorgevaliente", "andre", "armandoinvernon", "marioprieto", "nacholopez", "pelayo"],
+        "forwards": ["moises2008", "diegocervero", "matias", "alexgarcia", "nachomendez", "jorgerodriguez2008", "fabinho"],
+        "coaches": ["raulgonzalez"],
+        // ... solo IDs
+    },
+    "2007-08": {
+        "goalkeepers": ["ivanserrano", "aulestia", "javidiaz"],
+        "defenders": ["lucasiglesias", "ikerlasarte", "carmona", "diegomeijide", "bravo", "joseluis", "adrianfuertes", "nico"],
+        "midfielders": ["juanluis", "falo", "curro", "sergiovillanueva", "marioprieto", "jaime", "pabloprieto", "santos", "centron", "joncarrera", "danigarcia"],
+        "forwards": ["stefan", "diegocervero", "pacheta2007", "bruno", "armando2007", "matias"],
+        "coaches": ["carrasco", "ferminalvarez"],
+        // ... solo IDs
+    },
+    "2006-07": {
+        "goalkeepers": ["gastonpezzuti", "ivanserrano", "javiporron", "ivancosio", "javidiaz"],
+        "defenders": ["corvera", "sergiolabrado", "pablolopez", "ricardo", "lucasiglesias", "sergiosanchez2006", "carlosguerra", "fedebahon", "mariocastro", "julian", "adrianfuertes"],
+        "midfielders": ["pepín2006", "nicolasrotundo", "moises2006", "michu", "jacobo", "sergiovillanueva", "miguel2006", "cacomoran", "joncarrera", "servando2006", "alexarias", "luis2006", "tato", "piti", "anibal"],
+        "forwards": ["lanzarote", "nachogarcia", "kiko", "raulcastillo", "nachomendez"],
+        "coaches": ["tonovelazquez", "ramirosolis", "diazgalan"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
