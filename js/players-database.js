@@ -5043,12 +5043,12 @@ const playersDatabase = {
         "name": "Fernando Hierro",
         "url": "fichajugador.html?player=fernandohierro"
     },
-    "generelo": {
+    "generelo2015": {
         "src": "https://i.ibb.co/cK0fqHc4/Generelo-entrenador-PNG.webp",
         "alt": "Entrenador",
         "number": "-",
         "name": "Generelo",
-        "url": "fichajugador.html?player=generelo"
+        "url": "fichajugador.html?player=generelo2015"
     },
     "granero": {
         "src": "https://i.ibb.co/v61mZgp5/Granero-entrenador-PNG.webp",
