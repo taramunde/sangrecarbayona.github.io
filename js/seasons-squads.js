@@ -55,5 +55,13 @@ const seasonsSquads = {
         "coaches": ["sergioegea", "javirozada", "ziganda"],
         // ... solo IDs
     },
+    "2018-19": {
+        "goalkeepers": ["alfonsoherrero", "champagne", "gorkagiralt"],
+        "defenders": ["johannesson", "alanis", "forlin", "carloshernandez", "bolano", "carlosmartinez", "mossa", "prendes", "javihernandez", "jorgemier", "josin", "lobato"],
+        "midfielders": ["aaronniguez", "omarramos", "ramonfolch", "richardboateng", "tejera", "javimunoz", "viti2023", "sandoval", "educortina", "borjasanchez", "jimmy", "javimier", "lucas"],
+        "forwards": ["toche", "saulberjon", "yoelbarcenas", "ibra", "joselu", "steven"],
+        "coaches": ["anquela", "sergioegea"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
