@@ -159,5 +159,13 @@ const seasonsSquads = {
         "coaches": ["tonovelazquez", "ramirosolis", "diazgalan"],
         // ... solo IDs
     },
+    "2005-06": {
+        "goalkeepers": ["rafaponzo", "chavipascual", "rafa", "roberto"],
+        "defenders": ["zamora", "borja", "paul", "ricardo", "lusarreta", "nachofradejas", "mora2005", "sergiolabrado", "corvera", "queipo", "dariogalan"],
+        "midfielders": ["nachomatador", "jandro", "yeray", "michu", "ismael", "tonigonzalez", "cacomoran", "ruben", "joncarrera", "alberto2005", "borjafernandez", "nacholopez", "pascual"],
+        "forwards": ["diegocervero", "dario", "nachorodriguez", "nachogarcia", "adrian2005", "juanvaldes2005"],
+        "coaches": ["rivas2005", "tonovelazquez"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
