@@ -71,5 +71,29 @@ const seasonsSquads = {
         "coaches": ["anquela"],
         // ... solo IDs
     },
+    "2016-17": {
+        "goalkeepers": ["esteban", "juancarlos", "alfonsoherrero"],
+        "defenders": ["johannesson", "varela", "davidfernandez", "verdes", "fernandez", "bolano", "pena", "davidcostas", "oscargil", "josin", "prendes", "ikerberruezo"],
+        "midfielders": ["jonathanvila", "jonerice", "susaeta", "hectornespral", "lucastorro", "jorgeortiz", "davidrocha", "alaniz", "nando", "edubedia", "carlitos", "borja2016", "lula", "viti2023"],
+        "forwards": ["michu", "toche", "linares", "jonathanpereira", "saulberjon", "davidalvarez", "steven"],
+        "coaches": ["fernandohierro"],
+        // ... solo IDs
+    },
+    "2015-16": {
+        "goalkeepers": ["esteban", "rubenmino", "gorkamagunazelaia"],
+        "defenders": ["danibautista", "davidfernandez", "verdes", "fernandez", "borjagomez", "pena", "josete", "nacholopez", "johannesson", "jaimeserrano", "kiketorrent", "josin", "ivan"],
+        "midfielders": ["jonathanvila", "jonerice", "susaeta", "hectorfont", "borjavalle", "aguirre", "omgba", "michel", "generelo", "hervias", "edubedia", "christianrivera", "lucas", "hectornespral", "viti2023", "dominguez", "ibarra", "capelete"],
+        "forwards": ["diegocervero", "linares", "toche", "kone", "davidgonzalez2015", "allyson"],
+        "coaches": ["sergioegea", "generelo2015"],
+        // ... solo IDs
+    },
+    "2014-15": {
+        "goalkeepers": ["esteban", "gorkamagunazelaia"],
+        "defenders": ["davidfernandez", "sergiosanchez", "nacholopez", "danibautista", "jonathanvila", "redondo", "charlie", "sinchi", "angel", "johannesson", "castiello", "oscarruiz", "colo", "emiliomorilla"],
+        "midfielders": ["generelo", "omgba", "jonerice", "josepsene", "eneko2014", "susaeta", "borjavalle", "hectorfont", "capelete", "lucas", "rojas", "christianrivera"],
+        "forwards": ["sergiogarcia", "diegocervero", "linares", "dioni", "steven", "davidgonzalez2015", "allyson"],
+        "coaches": ["sergioegea"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
