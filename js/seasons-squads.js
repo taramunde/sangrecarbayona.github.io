@@ -167,5 +167,21 @@ const seasonsSquads = {
         "coaches": ["rivas2005", "tonovelazquez"],
         // ... solo IDs
     },
+    "2004-05": {
+        "goalkeepers": ["rafaponzo", "yoyo", "robertogomez"],
+        "defenders": ["manoloaparicio", "borja", "paul", "urizar", "ricardo", "nachofradejas", "luismi2004", "luis2004"],
+        "midfielders": ["benjamin2004", "jandro", "yeray", "ballester", "cacomoran", "ruben", "joncarrera", "michu", "nachomatador", "jito"],
+        "forwards": ["diegocervero", "aldeondo", "dario", "nachorodriguez", "juanchi", "adrian2005", "juanvaldes2005"],
+        "coaches": ["rivas2005"],
+        // ... solo IDs
+    },
+    "2003-04": {
+        "goalkeepers": ["rafaponzo", "yoyo", "robertogomez"],
+        "defenders": ["paul", "manu", "paul", "merino", "alaez", "luismi2004", "manoloaparicio", "luis2004"],
+        "midfielders": ["kily", "granada", "jandro", "francuetara", "benjamin2004", "fransosa", "armandobarbon", "michu", "pascual", "nachomatador", "joncarrera", "jorgepolanco"],
+        "forwards": ["diegocervero", "recaman", "omar2003", "aldeondo", "juanvaldes2005", "dario"],
+        "coaches": ["rivas2005"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
