@@ -183,5 +183,13 @@ const seasonsSquads = {
         "coaches": ["rivas2005"],
         // ... solo IDs
     },
+    "2002-03": {
+        "goalkeepers": ["dorronsoro", "jonathan", "calleja"],
+        "defenders": ["ibanperez", "raul", "sarasua", "gurrutxaga", "pepesaavedra", "fran2002", "angel2002", "yago", "javiparedes", "albertosaavedra", "sergio"],
+        "midfielders": ["pablodiaz", "davidcano", "jaime2002", "amieva", "keita", "oliver", "oscarperez", "idiakez", "manel", "vicenteengonga", "jairo", "serrano", "hernan", "ivanmiranda", "danilopez"],
+        "forwards": ["geni", "oli", "losada", "rubensuarez", "nachocalvillo"],
+        "coaches": ["quiquemarigil2002", "vicente2002", "miguelsanchez", "rivas2005"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
