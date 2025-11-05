@@ -231,5 +231,29 @@ const seasonsSquads = {
         "coaches": ["tabarez"],
         // ... solo IDs
     },
+    "1996-97": {
+        "goalkeepers": ["mora", "rafa", "cano"],
+        "defenders": ["gamboa", "stojkovski", "rivas", "abelxavier", "onopko", "cesar1998", "tobe", "jorge"],
+        "midfielders": ["gay", "ivaniglesias", "berto", "suarez", "borrelli", "paulobento", "manel", "ivanania", "amieva", "jaime"],
+        "forwards": ["oli", "maqueda", "tonivelamazan", "christiansen", "dubovsky", "losada"],
+        "coaches": ["lillo", "novo"],
+        // ... solo IDs
+    },
+    "1995-96": {
+        "goalkeepers": ["mora", "rafa", "cano", "guillermo"],
+        "defenders": ["andres", "stojkovski", "jerkan", "rivas", "onopko", "cesar1998", "jorge", "emilio", "helio", "ivancasquero"],
+        "midfielders": ["pedroalberto", "berto", "suarez", "scepanovic", "pacosanz", "andrades", "manel", "armando", "ivanania", "simon", "amieva", "davidhernandez", "chechu", "diegobarcena"],
+        "forwards": ["oli", "carlos", "christiansen", "dubovsky", "losada", "miguelez"],
+        "coaches": ["ivanbrizc"],
+        // ... solo IDs
+    },
+    "1994-95": {
+        "goalkeepers": ["mora", "rafa"],
+        "defenders": ["andres", "cristobal", "jerkan", "rivas", "luismanuel", "sietes", "gorriaran", "cesar1998", "emilio"],
+        "midfielders": ["pedroalberto", "armando", "berto", "suarez", "jokanovic", "andrades", "manel", "prosinecki", "ivanania", "simon", "amieva"],
+        "forwards": ["oli", "carlos", "maqueda", "jankovic", "miguelez"],
+        "coaches": ["antic"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
