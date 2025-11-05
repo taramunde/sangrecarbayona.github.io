@@ -191,5 +191,37 @@ const seasonsSquads = {
         "coaches": ["quiquemarigil2002", "vicente2002", "miguelsanchez", "rivas2005"],
         // ... solo IDs
     },
+    "2001-02": {
+        "goalkeepers": ["esteban", "segura", "dorronsoro"],
+        "defenders": ["oscaralvarez", "gurrutxaga", "boris", "onopko", "pepesaavedra", "angel2002", "albertosaavedra", "tomas2001", "javiparedes", "raul"],
+        "midfielders": ["tomic", "albertnadj", "jaime2002", "amieva", "rubenreyes", "ivanania", "santamaria", "oscarperez", "oliver", "pablodiaz"],
+        "forwards": ["geni", "oli", "losada", "juanchi", "rubensuarez", "moller"],
+        "coaches": ["quiquemarigil2002"],
+        // ... solo IDs
+    },
+    "2000-01": {
+        "goalkeepers": ["esteban", "unzue", "dorronsoro"],
+        "defenders": ["rabarivony", "bango", "boris", "onopko", "danjou", "martinovic", "oscaralvarez", "ivo", "joycemoreno", "gaspar", "pablosuarez", "raul", "pepesaavedra"],
+        "midfielders": ["albertnadj", "tomic", "jaime2002", "amieva", "claessens", "ivanania", "keita", "oliver", "oscarperez", "rubenreyes"],
+        "forwards": ["oli", "losada", "juanchi", "paunovic", "collymore", "rubensuarez", "moller", "fabiopinto", "geni"],
+        "coaches": ["antic"],
+        // ... solo IDs
+    },
+    "1999-00": {
+        "goalkeepers": ["esteban", "unzue", "bernardo", "stephanelucas"],
+        "defenders": ["oscaralvarez", "rabarivony", "bango", "onopko", "mateocorbo", "danjou", "boris"],
+        "midfielders": ["ivaniglesias", "pompei", "jaime2002", "amieva", "paulobento", "claessens", "ivanania", "keita", "albertnadj", "eskurza", "oliver"],
+        "forwards": ["rubensuarez", "fabiopinto", "delyvaldes", "dubovsky", "juanchi", "moller", "losada", "geni"],
+        "coaches": ["luisaragones"],
+        // ... solo IDs
+    },
+    "1998-99": {
+        "goalkeepers": ["mora", "bernardo", "esteban"],
+        "defenders": ["rabarivony", "joycemoreno", "rivas", "onopko", "manel", "cesar1998", "jorge", "boris", "pepesaavedra"],
+        "midfielders": ["ivaniglesias", "berto", "pompei", "bango", "jaime", "amieva", "paulobento", "ivanania", "eskurza", "albertnadj", "keita"],
+        "forwards": ["fabiopinto", "delyvaldes", "dubovsky", "juanchi", "moller", "rubensuarez", "geni"],
+        "coaches": ["fernandovazquez"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
