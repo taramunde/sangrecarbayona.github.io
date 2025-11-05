@@ -223,5 +223,13 @@ const seasonsSquads = {
         "coaches": ["fernandovazquez"],
         // ... solo IDs
     },
+    "1997-98": {
+        "goalkeepers": ["mora", "buljubasich", "cano", "esteban"],
+        "defenders": ["gamboa", "stojkovski", "joycemoreno", "rivas", "abelxavier", "onopko", "cesar1998", "tobe", "tomas2001"],
+        "midfielders": ["ivaniglesias", "berto", "suarez", "pompei", "paulobento", "ivanania", "manel", "borrelli", "jaime", "amieva"],
+        "forwards": ["delyvaldes", "dubovsky", "juanchi", "christiansen", "losada"],
+        "coaches": ["tabarez"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
