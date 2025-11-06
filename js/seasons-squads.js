@@ -319,5 +319,45 @@ const seasonsSquads = {
         "coaches": ["antonioruiz", "carrete1986"],
         // ... solo IDs
     },
+    "1985-86": {
+        "goalkeepers": ["viti", "heres", "zubeldia"],
+        "defenders": ["segundo", "juanito", "herrero", "vili", "bobes", "luismanuel", "carneiro"],
+        "midfielders": ["tomas1988", "blanco", "berto", "leiva", "munoz", "garciabarrero", "eizmendi", "mariodelaroca", "villayon"],
+        "forwards": ["ramirez", "thompson", "julia", "herrera", "juanluis1984", "hevia", "joaquin1986"],
+        "coaches": ["romero"],
+        // ... solo IDs
+    },
+    "1984-85": {
+        "goalkeepers": ["viti", "heres", "orlando", "tallos"],
+        "defenders": ["segundo", "prados", "camano", "juanito", "herrero", "delriego", "vili", "oscarmeneses", "valentinichile", "inaquimarigil", "bobes", "cruz", "carlosmario", "luismanuel", "carneiro"],
+        "midfielders": ["cardeno", "blanco", "berto", "merayo", "munoz", "garciabarrero", "arias", "eizmendi", "quiquemarigil", "paco", "cueva", "miranda", "tomy"],
+        "forwards": ["santi", "salamanca", "braojos", "lopeacosta", "herrera", "juanluis1984", "hevia", "neneballina", "velazquez", "jose", "corsino"],
+        "coaches": ["romero"],
+        // ... solo IDs
+    },
+    "1983-84": {
+        "goalkeepers": ["viti", "balan", "heres", "orlando"],
+        "defenders": ["segundo", "prados", "camano", "antuna", "lonardi", "delriego", "vili", "garciasiani", "agustin", "inaquimarigil"],
+        "midfielders": ["cardeno", "pantoja", "quique", "merayo", "uria", "arias", "quiquemarigil"],
+        "forwards": ["rivas1983", "boro", "salamanca", "braojos", "villacreces", "segundoramos", "joaquin1986", "hevia", "neneballina", "velazquez"],
+        "coaches": ["luiscosta"],
+        // ... solo IDs
+    },
+    "1982-83": {
+        "goalkeepers": ["camuel", "viti", "balan"],
+        "defenders": ["juanito", "josemanuel", "ondina", "antuna", "peruena", "luisito", "vili"],
+        "midfielders": ["blanco", "pantoja", "manolin", "garciabarrero", "arias"],
+        "forwards": ["rivas1983", "omar1982", "lozano", "herrera", "jaimeserrano1982", "martinroales", "juanjo", "joaquin1986", "mata", "velazquez"],
+        "coaches": ["josemaria1982"],
+        // ... solo IDs
+    },
+    "1981-82": {
+        "goalkeepers": ["camuel", "viti", "balan", "iglesias1981"],
+        "defenders": ["majo", "naves", "ondina", "antuna", "castro", "luisito", "vili", "paulino", "delriego", "agustin", "inaquimarigil"],
+        "midfielders": ["juanvaldes", "javigarcia", "casas", "domingo", "josecarlos", "manolin", "garciabarrero", "pedroserrano", "quiquemarigil", "pulgar", "arias", "chesco", "rogelio", "marcos1981"],
+        "forwards": ["larranaga", "omar1982", "lozano", "herrera", "jaimeserrano1982", "martinroales", "pradera", "mata", "velazquez"],
+        "coaches": ["josevictor", "josemaria1982"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
