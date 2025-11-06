@@ -1796,19 +1796,19 @@ const playersDatabase = {
         "name": "Gaspar",
         "url": "fichajugador.html?player=gaspar1992"
     },
-    "zuñiga": {
+    "zuniga": {
         "src": "https://i.postimg.cc/7h3Sq4Cf/Zúñiga_PNG.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Zúñiga",
-        "url": "fichajugador.html?player=zuñiga"
+        "url": "fichajugador.html?player=zuniga"
     },
-    "sañudo": {
+    "sanudo": {
         "src": "https://i.postimg.cc/T2FrvyBp/Sañudo_PNG.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Sañudo",
-        "url": "fichajugador.html?player=sañudo"
+        "url": "fichajugador.html?player=sanudo"
     },
     "angelluis": {
         "src": "https://i.postimg.cc/43DccjZs/Angel-Luis-PNG.webp",
