@@ -287,5 +287,37 @@ const seasonsSquads = {
         "coaches": ["irureta"],
         // ... solo IDs
     },
+    "1989-90": {
+        "goalkeepers": ["viti", "zubeldia", "heres"],
+        "defenders": ["gaspar1992", "zuniga", "murua", "rivas", "luismanuel", "gorriaran", "sanudo", "lito"],
+        "midfielders": ["berto", "bango", "gracan", "paco", "elcacho", "vinyals", "juanalberto"],
+        "forwards": ["sarriugarte1993", "carlos", "hicks", "julia", "hevia", "jose"],
+        "coaches": ["irureta"],
+        // ... solo IDs
+    },
+    "1988-89": {
+        "goalkeepers": ["viti", "zubeldia", "heres", "etxeberria"],
+        "defenders": ["cristobal", "vili", "javier1988", "murua", "luismanuel", "gorriaran", "sanudo", "bolanos", "cesar1998", "tista"],
+        "midfielders": ["berto", "bango", "delatorre", "paco", "elcacho", "tomas1988", "tocornal", "placido"],
+        "forwards": ["lopezlopez", "hicks", "julia", "hevia", "jose", "vargas", "ramon"],
+        "coaches": ["vicentemiera"],
+        // ... solo IDs
+    },
+    "1987-88": {
+        "goalkeepers": ["viti", "zubeldia", "heres", "tallos"],
+        "defenders": ["herrero", "murua", "luismanuel", "gorriaran", "sanudo", "vili"],
+        "midfielders": ["berto", "tocornal", "elcacho", "tomas1988", "blanco", "conde", "paco", "bango"],
+        "forwards": ["llabres", "carlos", "hicks", "julia", "thompson", "hevia", "borge", "jose"],
+        "coaches": ["vicentemiera"],
+        // ... solo IDs
+    },
+    "1986-87": {
+        "goalkeepers": ["viti", "zubeldia", "heres", "pernas", "tallos"],
+        "defenders": ["juanito", "herrero", "segundo", "luismanuel", "gorriaran", "vili", "joaquinarguelles"],
+        "midfielders": ["garciabarrero", "berto", "tocornal", "elcacho", "tomas1988", "blanco", "leiva", "eizmendi", "tomy", "bango", "robert"],
+        "forwards": ["ramirez", "marcucci", "herrera", "julia", "thompson", "hevia", "joaquin1986"],
+        "coaches": ["antonioruiz", "carrete1986"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
