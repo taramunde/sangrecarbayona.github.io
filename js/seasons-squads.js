@@ -255,5 +255,37 @@ const seasonsSquads = {
         "coaches": ["antic"],
         // ... solo IDs
     },
+    "1993-94": {
+        "goalkeepers": ["viti", "mora", "rafa"],
+        "defenders": ["andres", "cristobal", "jerkan", "rivas", "luismanuel", "sietes", "gorriaran", "carreras", "tista"],
+        "midfielders": ["pedroalberto", "armando", "berto", "suarez", "jokanovic", "andrades", "elcacho", "vinyals", "manel", "paco"],
+        "forwards": ["sarriugarte1993", "carlos", "maqueda", "jankovic", "oli", "miguelez"],
+        "coaches": ["antic"],
+        // ... solo IDs
+    },
+    "1992-93": {
+        "goalkeepers": ["viti", "rafa", "chimpi", "miguelangel"],
+        "defenders": ["gaspar1992", "cristobal", "jerkan", "rivas", "luismanuel", "gorriaran", "tista", "andres"],
+        "midfielders": ["pedroalberto", "armando", "berto", "pirri", "gracan", "andrades", "paco", "elcacho", "vinyals", "fermin", "manel", "juanalberto", "quiroga"],
+        "forwards": ["sarriugarte1993", "carlos", "lacatus", "jankovic", "oli", "davidfernandez1992"],
+        "coaches": ["irureta", "juliomarigil", "antic"],
+        // ... solo IDs
+    },
+    "1991-92": {
+        "goalkeepers": ["viti", "zubeldia", "calleja1991"],
+        "defenders": ["gaspar1992", "zuniga", "jerkan", "rivas", "luismanuel", "gorriaran", "sanudo", "andres"],
+        "midfielders": ["pedroalberto", "armando", "berto", "bango", "gracan", "paco", "elcacho", "vinyals", "fermin", "quiroga", "juanalberto"],
+        "forwards": ["sarriugarte1993", "carlos", "lacatus", "jankovic"],
+        "coaches": ["irureta"],
+        // ... solo IDs
+    },
+    "1990-91": {
+        "goalkeepers": ["viti", "zubeldia", "jesus"],
+        "defenders": ["gaspar1992", "zuniga", "jerkan", "rivas", "luismanuel", "gorriaran", "sanudo", "angelluis"],
+        "midfielders": ["berto", "bango", "gracan", "paco", "elcacho", "pepin1990", "fermin", "quiroga", "juanalberto"],
+        "forwards": ["sarriugarte1993", "carlos", "jankovic", "julia", "jose"],
+        "coaches": ["irureta"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
