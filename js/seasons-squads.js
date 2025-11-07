@@ -359,5 +359,29 @@ const seasonsSquads = {
         "coaches": ["josevictor", "josemaria1982"],
         // ... solo IDs
     },
+    "1980-81": {
+        "goalkeepers": ["camuel", "manuelvicente", "viti"],
+        "defenders": ["vicente", "naves", "ondina", "antuna", "castro", "samos", "vili", "cueto"],
+        "midfielders": ["juanvaldes", "javigarcia", "barrero", "domingo", "josecarlos", "manolin", "garciabarrero", "pedroserrano", "quiquemarigil", "pulgar"],
+        "forwards": ["larranaga", "omar1982", "dario1980", "herrera", "jaimeserrano1982", "herbera", "arana", "javi1980", "martinroales", "pradera"],
+        "coaches": ["nandoyosu"],
+        // ... solo IDs
+    },
+    "1979-80": {
+        "goalkeepers": ["camuel", "manuelvicente", "viti"],
+        "defenders": ["vicente", "esteban1979", "ondina", "antuna", "castro", "astrain", "samos", "luisito", "vili"],
+        "midfielders": ["barrero", "domingo", "josecarlos", "manolin", "palmieri", "javier1979"],
+        "forwards": ["parajon1979", "jaimecuesta", "ortuondo", "sebas", "herbera", "arana", "javi1980", "martinroales", "quique1979"],
+        "coaches": ["nandoyosu"],
+        // ... solo IDs
+    },
+    "1978-79": {
+        "goalkeepers": ["seoanepor", "camuel", "manuelvicente", "viti"],
+        "defenders": ["vicente", "esteban1979", "ondina", "antuna", "santacatalina", "franciscogalan", "laguna", "luisito", "vili", "toniiii"],
+        "midfielders": ["lopezbotella", "josecarlos", "manolin", "lasa", "javier1979"],
+        "forwards": ["parajon1979", "jaimecuesta", "ortuondo", "sebas", "herbera", "quique1979", "javi1980", "moron"],
+        "coaches": ["lalo1978", "luisdiestro", "josemaria1982"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
