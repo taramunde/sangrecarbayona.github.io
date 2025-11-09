@@ -492,6 +492,104 @@ const playersDatabase = {
         "name": "Seoane",
         "url": "fichajugador.html?player=seoanepor"
     },
+    "taladrid": {
+        "src": "https://i.postimg.cc/kgj2mG52/Taladrid_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Taladrid",
+        "url": "fichajugador.html?player=taladrid"
+    },
+    "dujkovic": {
+        "src": "https://i.postimg.cc/kMyhqPW0/Dujkovic-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Dujković",
+        "url": "fichajugador.html?player=dujkovic"
+    },
+    "cesar1976": {
+        "src": "https://i.postimg.cc/25Pgbd5g/Cesar-Leon-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "César",
+        "url": "fichajugador.html?player=cesar1976"
+    },
+    "amaro": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Amaro",
+        "url": "fichajugador.html?player=amaro"
+    },
+    "lombardia": {
+        "src": "https://i.postimg.cc/zXshQVV8/Lombardía_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Lombardía",
+        "url": "fichajugador.html?player=lombardia"
+    },
+    "joseluis1971": {
+        "src": "https://i.postimg.cc/yNX0cs6B/José_Luis_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "José Luis",
+        "url": "fichajugador.html?player=joseluis1971"
+    },
+    "manolin1971": {
+        "src": "https://i.postimg.cc/KYNg4fQ8/Manolín_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Manolín",
+        "url": "fichajugador.html?player=manolin1971"
+    },
+    "garciaremon": {
+        "src": "https://i.postimg.cc/0Q0Zk7KY/García_Remón_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "García Remón",
+        "url": "fichajugador.html?player=garciaremon"
+    },
+    "canteli": {
+        "src": "https://i.postimg.cc/K886dvVp/Canteli-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Canteli",
+        "url": "fichajugador.html?player=canteli"
+    },
+    "mesa": {
+        "src": "https://i.postimg.cc/QxT9chSP/Mesa_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Mesa",
+        "url": "fichajugador.html?player=mesa"
+    },
+    "mora1969": {
+        "src": "https://i.postimg.cc/QCWtgJg5/Mora_Mariné_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Mora",
+        "url": "fichajugador.html?player=mora1969"
+    },
+    "boudon": {
+        "src": "https://i.postimg.cc/pXHx1vR3/Boudon-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Boudón",
+        "url": "fichajugador.html?player=boudon"
+    },
+    "pacheco1967": {
+        "src": "https://i.postimg.cc/VLn9mqyd/Pacheco_(2)_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Pacheco",
+        "url": "fichajugador.html?player=pacheco1967"
+    },
+    "alarcia": {
+        "src": "https://i.postimg.cc/tTsCyNMf/Alarcia-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Alarcia",
+        "url": "fichajugador.html?player=alarcia"
+    },
     
     // DEFENSAS
     "bailly": {
