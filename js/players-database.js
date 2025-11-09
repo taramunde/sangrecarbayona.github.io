@@ -4185,6 +4185,34 @@ const playersDatabase = {
         "name": "Lasa",
         "url": "fichajugador.html?player=lasa"
     },
+    "iriarte": {
+        "src": "https://i.postimg.cc/DzyymgR5/Iriarte_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Iriarte",
+        "url": "fichajugador.html?player=iriarte"
+    },
+    "valdes": {
+        "src": "https://i.postimg.cc/HxJ2DF4y/Valdés_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Valdés",
+        "url": "fichajugador.html?player=valdes"
+    },
+    "farpon": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Farpón",
+        "url": "fichajugador.html?player=farpon"
+    },
+    "jacquet": {
+        "src": "https://i.postimg.cc/BQTqgk0M/Jacquet_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Jacquet",
+        "url": "fichajugador.html?player=jacquet"
+    },
     
     // DELANTEROS
     "ilyas": {
