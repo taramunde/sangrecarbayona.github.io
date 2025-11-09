@@ -2195,6 +2195,167 @@ const playersDatabase = {
         "name": "Toni III",
         "url": "fichajugador.html?player=toniiii"
     },
+    "tensi": {
+        "src": "https://i.postimg.cc/SKgTpWBw/Tensi_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Tensi",
+        "url": "fichajugador.html?player=tensi"
+    },
+    "maxi1977": {
+        "src": "https://i.postimg.cc/wjfqnNbr/Maxi_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Maxi",
+        "url": "fichajugador.html?player=maxi1977"
+    },
+    "chema1976": {
+        "src": "https://i.postimg.cc/gc5CZDL4/Chema_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Chema",
+        "url": "fichajugador.html?player=chema1976"
+    },
+    "lolin": {
+        "src": "https://i.postimg.cc/vBjGDddt/Lolín_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Lolín",
+        "url": "fichajugador.html?player=lolin"
+    },
+    "juanmanuel": {
+        "src": "https://i.postimg.cc/J72sH9Qg/Juan_Manuel_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Juan Manuel",
+        "url": "fichajugador.html?player=juanmanuel"
+    },
+    "carrete1975": {
+        "src": "https://i.postimg.cc/Zn2zYPp7/Carrete_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Carrete",
+        "url": "fichajugador.html?player=carrete1975"
+    },
+    "djoric": {
+        "src": "https://i.postimg.cc/pLqbptf5/Djoric_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Djorić",
+        "url": "fichajugador.html?player=djoric"
+    },
+    "paco1974": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Paco",
+        "url": "fichajugador.html?player=paco1974"
+    },
+    "bravo1973": {
+        "src": "https://i.postimg.cc/02jN8cRf/Bravo-Argentina-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Bravo",
+        "url": "fichajugador.html?player=bravo1973"
+    },
+    "manuelenrique": {
+        "src": "https://i.postimg.cc/RV1qpNmr/Manuel_Enrique_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Manuel Enrique",
+        "url": "fichajugador.html?player=manuelenrique"
+    },
+    "candi1973": {
+        "src": "https://i.postimg.cc/26TzYB0M/Candi-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Candi",
+        "url": "fichajugador.html?player=candi1973"
+    },
+    "gonzalez1972": {
+        "src": "https://i.postimg.cc/YSGnMcbH/González_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "González",
+        "url": "fichajugador.html?player=gonzalez1972"
+    },
+    "rodriguez": {
+        "src": "https://i.postimg.cc/CLnsRCbG/Rodríguez_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Rodríguez",
+        "url": "fichajugador.html?player=rodriguez"
+    },
+    "poladurai": {
+        "src": "https://i.postimg.cc/pLnctb0t/Poladura_I_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Poladura I",
+        "url": "fichajugador.html?player=poladurai"
+    },
+    "delriego1970": {
+        "src": "https://i.postimg.cc/65xNPc6q/Del_Riego_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Del Riego",
+        "url": "fichajugador.html?player=delriego1970"
+    },
+    "martinezolivares": {
+        "src": "https://i.postimg.cc/8PGzvN6Z/Martínez_Olivares_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Martínez Olivares",
+        "url": "fichajugador.html?player=martinezolivares"
+    },
+    "poladuraii": {
+        "src": "https://i.postimg.cc/QxCn0W1C/Poladura_II_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Poladura II",
+        "url": "fichajugador.html?player=poladuraii"
+    },
+    "ontoria": {
+        "src": "https://i.postimg.cc/Zn71GKNN/Ontoria-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ontoria",
+        "url": "fichajugador.html?player=ontoria"
+    },
+    "cesar1970": {
+        "src": "https://i.postimg.cc/g2vbdZJs/César_(Vetusta)_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "César",
+        "url": "fichajugador.html?player=cesar1970"
+    },
+    "fito": {
+        "src": "https://i.postimg.cc/JhvFk7G0/Fito_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Fito",
+        "url": "fichajugador.html?player=fito"
+    },
+    "ausaberri": {
+        "src": "https://i.postimg.cc/qMDznWXS/Ausaberri-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ausaberri",
+        "url": "fichajugador.html?player=ausaberri"
+    },
+    "marigil1968": {
+        "src": "https://i.postimg.cc/52xyhb9X/Marigil_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Marigil",
+        "url": "fichajugador.html?player=marigil1968"
+    },
+    "toni1966": {
+        "src": "https://i.postimg.cc/dQbWvQft/Toni_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Toni",
+        "url": "fichajugador.html?player=toni1966"
+    },
     
     // CENTROCAMPISTAS
     "albertoreina": {
