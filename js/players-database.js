@@ -4213,6 +4213,146 @@ const playersDatabase = {
         "name": "Jacquet",
         "url": "fichajugador.html?player=jacquet"
     },
+    "chuso": {
+        "src": "https://i.postimg.cc/Yqwn1y8r/Chuso_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chuso",
+        "url": "fichajugador.html?player=chuso"
+    },
+    "pinan": {
+        "src": "https://i.postimg.cc/kghX689m/Piñán_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Piñán",
+        "url": "fichajugador.html?player=pinan"
+    },
+    "secades": {
+        "src": "https://i.postimg.cc/Z5NDpzz5/Secades_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Secades",
+        "url": "fichajugador.html?player=secades"
+    },
+    "nico1972": {
+        "src": "https://i.postimg.cc/NGy857cg/Nico_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Nico",
+        "url": "fichajugador.html?player=nico1972"
+    },
+    "castañeda": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Castañeda",
+        "url": "fichajugador.html?player=castañeda"
+    },
+    "arevalo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Arévalo",
+        "url": "fichajugador.html?player=arevalo"
+    },
+    "sistiaga": {
+        "src": "https://i.postimg.cc/Nf3dgC2q/Sistiaga_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sistiaga",
+        "url": "fichajugador.html?player=sistiaga"
+    },
+    "prieto": {
+        "src": "https://i.postimg.cc/QNk8gvsS/Prieto_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Prieto",
+        "url": "fichajugador.html?player=prieto"
+    },
+    "silvino": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Silvino",
+        "url": "fichajugador.html?player=silvino"
+    },
+    "echeverria": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Echeverría",
+        "url": "fichajugador.html?player=echeverria"
+    },
+    "dagostino": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Dagostino",
+        "url": "fichajugador.html?player=dagostino"
+    },
+    "sicilia": {
+        "src": "https://i.postimg.cc/1XTJVJWF/Sicilia_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sicilia",
+        "url": "fichajugador.html?player=sicilia"
+    },
+    "ordonez": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ordóñez",
+        "url": "fichajugador.html?player=ordonez"
+    },
+    "icazuriaga": {
+        "src": "https://i.postimg.cc/8kFchZc0/Icazuriaga_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Icazuriaga",
+        "url": "fichajugador.html?player=icazuriaga"
+    },
+    "saavedra": {
+        "src": "https://i.postimg.cc/Y2bcC7tc/Saavedra_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Saavedra",
+        "url": "fichajugador.html?player=saavedra"
+    },
+    "noriega": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Noriega",
+        "url": "fichajugador.html?player=noriega"
+    },
+    "manolet": {
+        "src": "https://i.postimg.cc/WbhGqmcN/Manolet_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Manolet",
+        "url": "fichajugador.html?player=manolet"
+    },
+    "calleja1967": {
+        "src": "https://i.postimg.cc/ZKy73z6D/Calleja_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Calleja",
+        "url": "fichajugador.html?player=calleja1967"
+    },
+    "domenech": {
+        "src": "https://i.postimg.cc/25vLFT0Y/Domenech_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Domenech",
+        "url": "fichajugador.html?player=domenech"
+    },
+    "luis1966": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Luis",
+        "url": "fichajugador.html?player=luis1966"
+    },
     
     // DELANTEROS
     "ilyas": {
