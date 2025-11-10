@@ -383,5 +383,21 @@ const seasonsSquads = {
         "coaches": ["lalo1978", "luisdiestro", "josemaria1982"],
         // ... solo IDs
     },
+    "1977-78": {
+        "goalkeepers": ["seoanepor", "camuel", "manuelvicente", "taladrid"],
+        "defenders": ["vicente", "esteban1979", "tensi", "antuna", "santacatalina", "franciscogalan", "maxi1977", "vili"],
+        "midfielders": ["iriarte", "lopezbotella", "valdes", "josecarlos", "manolin", "farpon", "lasa", "javier1979"],
+        "forwards": ["enriquegalan", "alarcon1977", "ortuondo", "sebas", "vallllovera", "bartolotta", "moron", "gonzalez1977"],
+        "coaches": ["ruizsosa", "barinaga"],
+        // ... solo IDs
+    },
+    "1976-77": {
+        "goalkeepers": ["dujkovic", "cesar1976", "manuelvicente", "taladrid"],
+        "defenders": ["vicente", "esteban1979", "tensi", "chema", "franciscogalan", "laguna", "maxi1977", "lolin"],
+        "midfielders": ["iriarte", "jacquet", "valdes", "josecarlos", "farpon", "javier1979"],
+        "forwards": ["enriquegalan", "alarcon1977", "ortuondo", "marianin", "vallllovera", "bartolotta", "gonzalez1977"],
+        "coaches": ["tonicuervo"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
