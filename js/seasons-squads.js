@@ -399,5 +399,21 @@ const seasonsSquads = {
         "coaches": ["tonicuervo"],
         // ... solo IDs
     },
+    "1975-76": {
+        "goalkeepers": ["dujkovic", "cesar1976", "manuelvicente", "taladrid"],
+        "defenders": ["vicente", "juanmanuel", "tensi", "chema", "carrete1975", "laguna", "maxi1977", "lolin"],
+        "midfielders": ["iriarte", "jacquet", "chuso", "pinan", "javier1979"],
+        "forwards": ["cortes", "enriquegalan", "alarcon1977", "ortuondo", "marianin", "vallllovera", "bartolotta", "campillo", "cantero"],
+        "coaches": ["vicentemiera"],
+        // ... solo IDs
+    },
+    "1974-75": {
+        "goalkeepers": ["dujkovic", "cesar1976", "amaro"],
+        "defenders": ["vicente", "juanmanuel", "tensi", "chema", "carrete1975", "djoric", "maxi1977", "lolin", "paco1974"],
+        "midfielders": ["iriarte", "jacquet", "chuso", "pinan", "javier1979"],
+        "forwards": ["cortes", "enriquegalan", "alarcon1977", "ortuondo", "marianin", "campillo", "villafane"],
+        "coaches": ["vicentemiera"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
