@@ -5398,6 +5398,48 @@ const playersDatabase = {
         "name": "Morón",
         "url": "fichajugador.html?player=moron"
     },
+    "enriquegalan": {
+        "src": "https://i.postimg.cc/7Z6XnCG9/Enrique_Galán_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Enrique Galán",
+        "url": "fichajugador.html?player=enriquegalan"
+    },
+    "alarcon1977": {
+        "src": "https://i.postimg.cc/gjHLfK5h/Alarcon-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Alarcón",
+        "url": "fichajugador.html?player=alarcon1977"
+    },
+    "vallllovera": {
+        "src": "https://i.postimg.cc/FRWn4jLY/Vall-Llovera_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Vall-Llovera",
+        "url": "fichajugador.html?player=vallllovera"
+    },
+    "bartolotta": {
+        "src": "https://i.postimg.cc/T3Df1Pd7/Bartolotta-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Bartolotta",
+        "url": "fichajugador.html?player=bartolotta"
+    },
+    "gonzalez1977": {
+        "src": "https://i.postimg.cc/TYhWkn0K/González_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "González",
+        "url": "fichajugador.html?player=gonzalez1977"
+    },
+    "marianin": {
+        "src": "https://i.postimg.cc/kXMLLgR6/Marianín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Marianín",
+        "url": "fichajugador.html?player=marianin"
+    },
     
     // ENTRENADORES
     "paunovic": {
