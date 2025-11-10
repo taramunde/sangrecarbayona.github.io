@@ -527,6 +527,13 @@ const playersDatabase = {
         "name": "Lombardía",
         "url": "fichajugador.html?player=lombardia"
     },
+    "zabala1973": {
+        "src": "https://i.postimg.cc/YCyCPPXg/Zabala-PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Zabala",
+        "url": "fichajugador.html?player=zabala1973"
+    },
     "joseluis1971": {
         "src": "https://i.postimg.cc/yNX0cs6B/José_Luis_PNG.webp",
         "alt": "Portero",
