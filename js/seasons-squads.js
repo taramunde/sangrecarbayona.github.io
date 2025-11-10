@@ -439,5 +439,13 @@ const seasonsSquads = {
         "coaches": ["toba"],
         // ... solo IDs
     },
+    "1970-71": {
+        "goalkeepers": ["lombardia", "garciaremon", "manolin1971", "canteli"],
+        "defenders": ["poladurai", "delriego1970", "juanmanuel", "tensi", "martinezolivares", "rodriguez", "poladuraii", "ontoria", "cesar1970"],
+        "midfielders": ["sistiaga", "iriarte", "prieto", "chuso", "silvino", "echeverria", "dagostino", "javier1979"],
+        "forwards": ["urresola", "delcueto", "gallastegui", "montes", "enriquegalan", "flores", "quini1970", "uria", "gentoiii", "iglesias1970", "zaballa", "jaimecuesta", "balmori"],
+        "coaches": ["horaciodeleiva", "juliomarigil", "garciadeandoin", "tonicuervo"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
