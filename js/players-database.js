@@ -4353,6 +4353,13 @@ const playersDatabase = {
         "name": "Calleja",
         "url": "fichajugador.html?player=calleja1967"
     },
+    "osman": {
+        "src": "https://i.postimg.cc/Sxmz7cwY/Osman_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Osman",
+        "url": "fichajugador.html?player=osman"
+    },
     "domenech": {
         "src": "https://i.postimg.cc/25vLFT0Y/Domenech_PNG.webp",
         "alt": "Centrocampista",
