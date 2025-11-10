@@ -6135,12 +6135,12 @@ const playersDatabase = {
         "name": "Juanito Ochoa",
         "url": "fichajugador.html?player=juanitoochoa"
     },
-    "anton": {
+    "anton1967": {
         "src": "https://i.postimg.cc/bwpM1NpN/Anton-entrenador-PNG.webp",
         "alt": "Entrenador",
         "number": "-",
         "name": "Antón",
-        "url": "fichajugador.html?player=anton"
+        "url": "fichajugador.html?player=anton1967"
     },
     "aretio": {
         "src": "https://i.postimg.cc/6321B8Lz/Aretio-entrenador-PNG.webp",
