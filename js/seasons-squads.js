@@ -415,5 +415,21 @@ const seasonsSquads = {
         "coaches": ["vicentemiera"],
         // ... solo IDs
     },
+    "1973-74": {
+        "goalkeepers": ["lombardia", "cesar1976", "zabala1973"],
+        "defenders": ["vicente", "bravo1973", "juanmanuel", "tensi", "manuelenrique", "carrete1975", "djoric", "maxi1977", "lolin", "paco1974", "candi1973"],
+        "midfielders": ["iriarte", "jacquet", "secades", "chuso", "pinan", "javier1979"],
+        "forwards": ["enriquegalan", "alarcon1977", "zurdo", "uria", "marianin", "mendoza1973", "villafane", "japo"],
+        "coaches": ["barinaga"],
+        // ... solo IDs
+    },
+    "1972-73": {
+        "goalkeepers": ["lombardia", "cesar1976", "javi1972"],
+        "defenders": ["vicente", "bravo1973", "juanmanuel", "tensi", "manuelenrique", "carrete1975", "gonzalez1972", "paco1974"],
+        "midfielders": ["iriarte", "jacquet", "secades", "chuso", "nico1972", "castaneda", "arevalo", "javier1979"],
+        "forwards": ["enriquegalan", "zurdo", "uria", "marianin", "mendoza1973", "japo", "amarildo"],
+        "coaches": ["toba", "barinaga"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
