@@ -4255,12 +4255,12 @@ const playersDatabase = {
         "name": "Nico",
         "url": "fichajugador.html?player=nico1972"
     },
-    "castañeda": {
+    "castaneda": {
         "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Castañeda",
-        "url": "fichajugador.html?player=castañeda"
+        "url": "fichajugador.html?player=castaneda"
     },
     "arevalo": {
         "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
