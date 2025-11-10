@@ -6078,6 +6078,55 @@ const playersDatabase = {
         "number": "-",
         "name": "Toni Cuervo",
         "url": "fichajugador.html?player=tonicuervo"
+    },
+    "ruizsosa": {
+        "src": "https://i.postimg.cc/mZ62dJts/Ruiz_Sosa_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Ruiz Sosa",
+        "url": "fichajugador.html?player=ruizsosa"
+    },
+    "eguiluz": {
+        "src": "https://i.postimg.cc/L5FvRNs6/Eguiluz-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Eguíluz",
+        "url": "fichajugador.html?player=eguiluz"
+    },
+    "enriquecasas": {
+        "src": "https://i.postimg.cc/nrK2LBsK/Enrique-Casas-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Enrique Casas",
+        "url": "fichajugador.html?player=enriquecasas"
+    },
+    "ramoncobo": {
+        "src": "https://i.postimg.cc/QMkd0MW4/Ramón_Cobo_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Ramón Cobo",
+        "url": "fichajugador.html?player=ramoncobo"
+    },
+    "juanitoochoa": {
+        "src": "https://i.postimg.cc/PfM1Pt3M/Juanito-Ochoa-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Juanito Ochoa",
+        "url": "fichajugador.html?player=juanitoochoa"
+    },
+    "anton": {
+        "src": "https://i.postimg.cc/bwpM1NpN/Anton-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Antón",
+        "url": "fichajugador.html?player=anton"
+    },
+    "aretio": {
+        "src": "https://i.postimg.cc/6321B8Lz/Aretio-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Aretio",
+        "url": "fichajugador.html?player=aretio"
     }
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
