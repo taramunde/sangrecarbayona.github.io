@@ -534,6 +534,13 @@ const playersDatabase = {
         "name": "Zabala",
         "url": "fichajugador.html?player=zabala1973"
     },
+    "javi1972": {
+        "src": "https://i.postimg.cc/NF08QSct/Javi_(1971)_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Javi",
+        "url": "fichajugador.html?player=javi1972"
+    },
     "joseluis1971": {
         "src": "https://i.postimg.cc/yNX0cs6B/José_Luis_PNG.webp",
         "alt": "Portero",
