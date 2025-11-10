@@ -447,5 +447,37 @@ const seasonsSquads = {
         "coaches": ["horaciodeleiva", "juliomarigil", "garciadeandoin", "tonicuervo"],
         // ... solo IDs
     },
+    "1969-70": {
+        "goalkeepers": ["lombardia", "mesa", "mora1969", "manolin1971", "canteli"],
+        "defenders": ["poladurai", "fito", "juanmanuel", "tensi", "ausaberri", "rodriguez", "poladuraii", "ontoria", "cesar1970", "vicente"],
+        "midfielders": ["sistiaga", "sicilia", "iriarte", "prieto", "chuso", "silvino", "echeverria", "ordonez", "dagostino", "javier1979"],
+        "forwards": ["urresola", "azurmendi", "dolfi", "montes", "enriquegalan", "elosegui", "quini1970", "uria", "gentoiii", "iglesias1970", "ventanova", "jaimecuesta", "balmori"],
+        "coaches": ["eguiluz", "enriquecasas"],
+        // ... solo IDs
+    },
+    "1968-69": {
+        "goalkeepers": ["lombardia", "mesa", "canteli", "manolin1971"],
+        "defenders": ["poladurai", "marigil1968", "juanmanuel", "tensi", "ausaberri", "rodriguez", "poladuraii"],
+        "midfielders": ["sistiaga", "sicilia", "icazuriaga", "prieto", "chuso", "saavedra", "noriega", "ordonez", "javier1979"],
+        "forwards": ["achuri", "quiros1968", "azurmendi", "dolfi", "fidalgo", "enriquegalan", "elosegui", "quini1970", "uria", "viti1968", "gentoiii", "dieguez", "balmori"],
+        "coaches": ["ramoncobo"],
+        // ... solo IDs
+    },
+    "1967-68": {
+        "goalkeepers": ["boudon", "pacheco1967", "mesa", "canteli"],
+        "defenders": ["poladurai", "marigil1968", "juanmanuel", "tensi", "ausaberri"],
+        "midfielders": ["manolet", "calleja1967", "icazuriaga", "prieto", "osman", "saavedra", "noriega", "javier1979"],
+        "forwards": ["achuri", "quiros1968", "azurmendi", "dolfi", "fidalgo", "montalvo", "elosegui", "quini1970", "uria", "viti1968", "menchaca"],
+        "coaches": ["juanitoochoa", "tonicuervo", "anton1967"],
+        // ... solo IDs
+    },
+    "1966-67": {
+        "goalkeepers": ["boudon", "alarcia", "mesa"],
+        "defenders": ["toni1966", "marigil1968", "juanmanuel", "tensi", "ausaberri"],
+        "midfielders": ["manolet", "calleja1967", "icazuriaga", "prieto", "domenech", "saavedra", "luis1966"],
+        "forwards": ["achuri", "quiros1968", "matute", "dolfi", "tono", "fidalgo", "dediego", "elosegui", "maxi1966", "juanmiguel", "viti1968", "uriz", "tino"],
+        "coaches": ["aretio"],
+        // ... solo IDs
+    }
     // ... todas las temporadas
 };
