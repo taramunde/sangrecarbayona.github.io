@@ -6043,6 +6043,41 @@ const playersDatabase = {
         "number": "-",
         "name": "Luis Diestro",
         "url": "fichajugador.html?player=luisdiestro"
+    },
+    "barinaga": {
+        "src": "https://i.postimg.cc/v8nSj6mZ/Barinaga-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Barinaga",
+        "url": "fichajugador.html?player=barinaga"
+    },
+    "toba": {
+        "src": "https://i.postimg.cc/7LVqSQpj/Toba_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Toba",
+        "url": "fichajugador.html?player=toba"
+    },
+    "horaciodeleiva": {
+        "src": "https://i.postimg.cc/7YxMVCGc/Horacio-Leiva-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Horacio de Leiva",
+        "url": "fichajugador.html?player=horaciodeleiva"
+    },
+    "garciadeandoin": {
+        "src": "https://i.postimg.cc/FK2VgD3g/Garcia-de-Andoin-entrenador-PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "García de Andoín",
+        "url": "fichajugador.html?player=garciadeandoin"
+    },
+    "tonicuervo": {
+        "src": "https://i.postimg.cc/Px5TyQHJ/Toni_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Toni Cuervo",
+        "url": "fichajugador.html?player=tonicuervo"
     }
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
