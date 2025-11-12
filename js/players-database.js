@@ -4542,20 +4542,6 @@ const playersDatabase = {
         "name": "Luis",
         "url": "fichajugador.html?player=luis1966"
     },
-    "manolet": {
-        "src": "https://i.postimg.cc/WbhGqmcN/Manolet_PNG.webp",
-        "alt": "Centrocampista",
-        "number": "-",
-        "name": "Manolet",
-        "url": "fichajugador.html?player=manolet"
-    },
-    "manolet": {
-        "src": "https://i.postimg.cc/WbhGqmcN/Manolet_PNG.webp",
-        "alt": "Centrocampista",
-        "number": "-",
-        "name": "Manolet",
-        "url": "fichajugador.html?player=manolet"
-    },
     "chema1965": {
         "src": "https://i.postimg.cc/nLwSBFSg/Chema_PNG.webp",
         "alt": "Centrocampista",
