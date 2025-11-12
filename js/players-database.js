@@ -6708,7 +6708,57 @@ const playersDatabase = {
         "number": "-",
         "name": "Aretio",
         "url": "fichajugador.html?player=aretio"
-    }
+    },
+    "antunez": {
+        "src": "https://i.postimg.cc/Mp5L52p0/Antúnez_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Antúnez",
+        "url": "fichajugador.html?player=antunez"
+    },
+    "martin": {
+        "src": "https://i.postimg.cc/brYDQtC9/Martín_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Martín",
+        "url": "fichajugador.html?player=martin"
+    },
+    "orizaola": {
+        "src": "https://i.postimg.cc/L6bY1hzj/Orizaola_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Orizaola",
+        "url": "fichajugador.html?player=orizaola"
+    },
+    "argila1961": {
+        "src": "https://i.postimg.cc/V6xZvzKw/Argila_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Argila",
+        "url": "fichajugador.html?player=argila1961"
+    },
+    "manologarcia1961": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Manolo García",
+        "url": "fichajugador.html?player=manologarcia1961"
+    },
+    "alvaroperez": {
+        "src": "https://i.postimg.cc/CLy9Ls28/Álvaro_Pérez_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Álvaro Pérez",
+        "url": "fichajugador.html?player=alvaroperez"
+    },
+    "herrerita1960": {
+        "src": "https://i.postimg.cc/2jd7hd6h/Herrerita_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Herrerita",
+        "url": "fichajugador.html?player=herrerita1960"
+    },
+    
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
 };
