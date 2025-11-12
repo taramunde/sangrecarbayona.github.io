@@ -4619,6 +4619,62 @@ const playersDatabase = {
         "name": "Agustín",
         "url": "fichajugador.html?player=agustin1962"
     },
+    "paquito1962": {
+        "src": "https://i.postimg.cc/bw6dxWx4/Paquito_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Paquito",
+        "url": "fichajugador.html?player=paquito1962"
+    },
+    "chares": {
+        "src": "https://i.postimg.cc/g2m7PB6S/Chares_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chares",
+        "url": "fichajugador.html?player=chares"
+    },
+    "larrea1962": {
+        "src": "https://i.postimg.cc/FRLhdsVs/Larrea_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Larrea",
+        "url": "fichajugador.html?player=larrea1962"
+    },
+    "laurin": {
+        "src": "https://i.postimg.cc/zDktFFQT/Laurín_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Laurín",
+        "url": "fichajugador.html?player=laurin"
+    },
+    "maranonii": {
+        "src": "https://i.postimg.cc/3wHmqP4N/Marañón_II_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Marañón II",
+        "url": "fichajugador.html?player=maranonii"
+    },
+    "casamitjana": {
+        "src": "https://i.postimg.cc/9Xv3sppK/Casamitjana_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Casamitjana",
+        "url": "fichajugador.html?player=casamitjana"
+    },
+    "coto": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Coto",
+        "url": "fichajugador.html?player=coto"
+    },
+    "chani": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chani",
+        "url": "fichajugador.html?player=chani"
+    },
     
     // DELANTEROS
     "ilyas": {
@@ -5978,6 +6034,13 @@ const playersDatabase = {
         "number": "-",
         "name": "Uriz",
         "url": "fichajugador.html?player=uriz"
+    },
+    "tino": {
+        "src": "https://i.postimg.cc/wv0njCST/Tino_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Tino",
+        "url": "fichajugador.html?player=tino"
     },
     "tino": {
         "src": "https://i.postimg.cc/wv0njCST/Tino_PNG.webp",
