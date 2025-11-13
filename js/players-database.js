@@ -2482,12 +2482,12 @@ const playersDatabase = {
         "name": "García",
         "url": "fichajugador.html?player=garcia1963"
     },
-    "eguiluz": {
+    "eguiluz1963": {
         "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Eguíluz",
-        "url": "fichajugador.html?player=eguiluz"
+        "url": "fichajugador.html?player=eguiluz1963"
     },
     "azcueta": {
         "src": "https://i.postimg.cc/bJ0ZtJ39/Azcueta_PNG.webp",
