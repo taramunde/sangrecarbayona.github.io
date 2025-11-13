@@ -511,5 +511,21 @@ const seasonsSquads = {
         "coaches": ["juanitoochoa"],
         // ... solo IDs
     },
+    "1961-62": {
+        "goalkeepers": ["caldentey", "fermin1961", "boudon", "alarcia"],
+        "defenders": ["toni1966", "alarcon1961", "marigil1968", "choni", "poladurai", "alvarez1962"],
+        "midfielders": ["alcorta", "laurin", "agustin1962", "calleja1967", "paquito1962", "iguaran", "maranonii", "icazuriaga", "chares", "larrea1962"],
+        "forwards": ["michelena", "iceta", "hermesgonzalez", "joseluis1964", "maranon", "artabe1962", "leon", "sanchezlage", "giron", "monchu", "josemaria1964", "josejorge"],
+        "coaches": ["argila1961", "manologarcia1961", "alvaroperez", "anton1967"],
+        // ... solo IDs
+    },
+    "1960-61": {
+        "goalkeepers": ["caldentey", "carlosgomes", "valentin1960", "boudon"],
+        "defenders": ["toni1966", "alarcon1961", "marigil1968", "dalmau", "granda1960", "poladurai", "alvarez1962"],
+        "midfielders": ["casamitjana", "laurin", "agustin1962", "calleja1967", "paquito1962", "iguaran", "maranonii", "coto", "chani"],
+        "forwards": ["romero1960", "ansola", "hermesgonzalez", "cela", "maranon", "artabe1962", "amarilla", "braga", "luis1960", "sanchezlage", "sande", "monchu", "josemaria1964", "josejorge", "cabal", "falcon1960"],
+        "coaches": ["barinaga", "herrerita1960", "argila1961"],
+        // ... solo IDs
+    }
     // ... todas las temporadas
 };
