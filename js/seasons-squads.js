@@ -478,6 +478,38 @@ const seasonsSquads = {
         "forwards": ["achuri", "quiros1968", "matute", "dolfi", "tono", "fidalgo", "dediego", "elosegui", "maxi1966", "juanmiguel", "viti1968", "uriz", "tino"],
         "coaches": ["aretio"],
         // ... solo IDs
-    }
+    },
+    "1965-66": {
+        "goalkeepers": ["madriles", "boudon", "alarcia", "mesa", "canteli"],
+        "defenders": ["toni1966", "ribon", "datzira", "marigil1968", "juanmanuel", "tensi"],
+        "midfielders": ["manolet", "calleja1967", "icazuriaga", "prieto", "chema1965"],
+        "forwards": ["achuri", "quiros1968", "matute", "biempica", "tono", "joseluisherrera", "dediego", "elosegui", "maxi1966", "juanmiguel", "viti1968"],
+        "coaches": ["antunez", "anton1967"],
+        // ... solo IDs
+    },
+    "1964-65": {
+        "goalkeepers": ["madriles", "boudon", "alarcia", "mesa"],
+        "defenders": ["toni1966", "ribon", "datzira", "marigil1968", "basterrechea", "juanmanuel", "manrique", "tensi", "moli"],
+        "midfielders": ["manolet", "lapetra", "iguaran", "icazuriaga", "prieto", "delviso", "chema1965"],
+        "forwards": ["josemaria1964", "arsenio", "quiros1968", "joseluis1964", "biempica", "loma", "aramburu", "villalba", "giron", "maxi1966", "viti1968"],
+        "coaches": ["martin", "luisdiestro"],
+        // ... solo IDs
+    },
+    "1963-64": {
+        "goalkeepers": ["madriles", "boudon", "alarcia", "bugallo", "almenara", "joseantonio", "cabezudo"],
+        "defenders": ["toni1966", "alfonso", "datzira", "marigil1968", "basterrechea", "juanmanuel", "garcia1963", "eguiluz1963"],
+        "midfielders": ["sanchez1963", "alcorta", "moreno", "lorenzo", "altabas", "matito", "iguaran", "icazuriaga"],
+        "forwards": ["josemaria1964", "arsenio", "livinho", "peri", "joseluis1964", "fullone", "beitia", "gasca", "miguel1963", "jaimeblanco", "villalba", "giron", "maxi1966", "arturo1963"],
+        "coaches": ["orizaola", "toba"],
+        // ... solo IDs
+    },
+    "1962-63": {
+        "goalkeepers": ["madriles", "boudon", "alarcia", "bugallo", "cabezudo"],
+        "defenders": ["toni1966", "azcueta", "datzira", "marigil1968", "choni", "sole", "garcia1963", "eguiluz1963", "poladurai", "alvarez1962"],
+        "midfielders": ["alcorta", "moreno", "agustin1962", "calleja1967", "paquito1962", "iguaran", "icazuriaga", "chares", "larrea1962"],
+        "forwards": ["joaojorge", "livinho", "peri", "joseluis1964", "maranon", "artabe1962", "leon", "pares", "sanchezlage", "giron", "monchu", "josemaria1964"],
+        "coaches": ["juanitoochoa"],
+        // ... solo IDs
+    },
     // ... todas las temporadas
 };
