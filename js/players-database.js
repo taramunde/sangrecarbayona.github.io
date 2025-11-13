@@ -6238,12 +6238,12 @@ const playersDatabase = {
         "name": "José Jorge",
         "url": "fichajugador.html?player=josejorge"
     },
-    "romero": {
+    "romero1960": {
         "src": "https://i.postimg.cc/nzbh1DzQ/Romero_PNG.webp",
         "alt": "Delantero",
         "number": "-",
         "name": "Romero",
-        "url": "fichajugador.html?player=romero"
+        "url": "fichajugador.html?player=romero1960"
     },
     "ansola": {
         "src": "https://i.postimg.cc/SK9sBrYK/Ansola_PNG.webp",
