@@ -526,6 +526,22 @@ const seasonsSquads = {
         "forwards": ["romero1960", "ansola", "hermesgonzalez", "cela", "maranon", "artabe1962", "amarilla", "braga", "luis1960", "sanchezlage", "sande", "monchu", "josemaria1964", "josejorge", "cabal", "falcon1960"],
         "coaches": ["barinaga", "herrerita1960", "argila1961"],
         // ... solo IDs
+    },
+    "1959-60": {
+        "goalkeepers": ["caldentey", "carlosgomes", "emilio1959", "valentin1960"],
+        "defenders": ["toni1966", "alarcon1961", "marigil1968", "dalmau", "granda1960", "goyo1959", "alvarez1962"],
+        "midfielders": ["casamitjana", "laurin", "hernandez", "calleja1967", "paquito1962", "iguaran"],
+        "forwards": ["romero1960", "ansola", "hermesgonzalez", "cuervo", "lalo1959", "artabe1962", "amarilla", "areopagita", "sanchezlage", "sande", "iceta", "josemaria1964", "josejorge"],
+        "coaches": ["pasarin", "argila1961"],
+        // ... solo IDs
+    },
+    "1958-59": {
+        "goalkeepers": ["caldentey", "vendrell", "barea"],
+        "defenders": ["toni1966", "alarcon1961", "marigil1968", "dalmau", "granda1960", "alvarez1962"],
+        "midfielders": ["casamitjana", "laurin", "hernandez", "xirau", "sanchez1958", "paquito1962"],
+        "forwards": ["romero1960", "massey", "arbaizar", "cuervo", "lalo1959", "artabe1962", "amarilla", "areopagita", "sanchezlage", "sande", "franciscoalvarez", "roza", "rherrera", "josejorge"],
+        "coaches": ["picabea"],
+        // ... solo IDs
     }
     // ... todas las temporadas
 };
