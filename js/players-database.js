@@ -6858,6 +6858,13 @@ const playersDatabase = {
         "name": "Herrerita",
         "url": "fichajugador.html?player=herrerita1960"
     },
+    "pasarin": {
+        "src": "https://i.postimg.cc/mrQtJwKS/Pasarín_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Pasarín",
+        "url": "fichajugador.html?player=pasarin"
+    },
     "picabea": {
         "src": "https://i.postimg.cc/v8PDJD2C/Picabea_(entrenador)_PNG.webp",
         "alt": "Entrenador",
