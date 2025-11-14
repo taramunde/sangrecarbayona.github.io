@@ -6393,6 +6393,13 @@ const playersDatabase = {
         "name": "Francisco Álvarez",
         "url": "fichajugador.html?player=franciscoalvarez"
     },
+    "roza": {
+        "src": "https://i.postimg.cc/85RPXzJX/Roza_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Roza",
+        "url": "fichajugador.html?player=roza"
+    },
     "rherrera": {
         "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         "alt": "Delantero",
