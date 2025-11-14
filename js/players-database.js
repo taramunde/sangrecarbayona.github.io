@@ -667,6 +667,27 @@ const playersDatabase = {
         "name": "Valentín",
         "url": "fichajugador.html?player=valentin1960"
     },
+    "emilio1959": {
+        "src": "https://i.postimg.cc/85RX7q9r/Emilio_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Emilio",
+        "url": "fichajugador.html?player=emilio1959"
+    },
+    "vendrell": {
+        "src": "https://i.postimg.cc/wMcBbTPT/Vendrell_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Vendrell",
+        "url": "fichajugador.html?player=vendrell"
+    },
+    "barea": {
+        "src": "https://i.postimg.cc/CxJFq2yX/Barea_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Barea",
+        "url": "fichajugador.html?player=barea"
+    },
     
     // DEFENSAS
     "bailly": {
@@ -2538,6 +2559,14 @@ const playersDatabase = {
         "name": "Granda",
         "url": "fichajugador.html?player=granda1960"
     },
+    "goyo1959": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Goyo",
+        "url": "fichajugador.html?player=goyo1959"
+    },
+    
     
     // CENTROCAMPISTAS
     "albertoreina": {
@@ -4675,6 +4704,27 @@ const playersDatabase = {
         "name": "Chani",
         "url": "fichajugador.html?player=chani"
     },
+    "hernandez": {
+        "src": "https://i.postimg.cc/t4Gjn5nW/Hernández_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Hernández",
+        "url": "fichajugador.html?player=hernandez"
+    },
+    "xirau": {
+        "src": "https://i.postimg.cc/rF1fwC1D/Xirau_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Xirau",
+        "url": "fichajugador.html?player=xirau"
+    },
+    "sanchez1958": {
+        "src": "https://i.postimg.cc/ZKM16L9V/Sánchez_(Oviedo)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sánchez",
+        "url": "fichajugador.html?player=sanchez1958"
+    },
     
     // DELANTEROS
     "ilyas": {
@@ -6301,6 +6351,56 @@ const playersDatabase = {
         "name": "Falcón",
         "url": "fichajugador.html?player=falcon1960"
     },
+    "cuervo": {
+        "src": "https://i.postimg.cc/wMLnH1cL/Cuervo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Cuervo",
+        "url": "fichajugador.html?player=cuervo"
+    },
+    "lalo1959": {
+        "src": "https://i.postimg.cc/DwxvRNzF/Lalo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Lalo",
+        "url": "fichajugador.html?player=lalo1959"
+    },
+    "areopagita": {
+        "src": "https://i.postimg.cc/W1FbZnn7/Areopagita_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Areopagita",
+        "url": "fichajugador.html?player=areopagita"
+    },
+    "massey": {
+        "src": "https://i.postimg.cc/HxChzYCL/Massey_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Massey",
+        "url": "fichajugador.html?player=massey"
+    },
+    "arbaizar": {
+        "src": "https://i.postimg.cc/pX1Ly7DT/Arbaizar_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Arbáizar",
+        "url": "fichajugador.html?player=arbaizar"
+    },
+    "franciscoalvarez": {
+        "src": "https://i.postimg.cc/J0rj7gjx/Francisco_Álvarez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Francisco Álvarez",
+        "url": "fichajugador.html?player=franciscoalvarez"
+    },
+    "rherrera": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "R. Herrera",
+        "url": "fichajugador.html?player=rherrera"
+    },
+    
     
     // ENTRENADORES
     "paunovic": {
@@ -6757,6 +6857,13 @@ const playersDatabase = {
         "number": "-",
         "name": "Herrerita",
         "url": "fichajugador.html?player=herrerita1960"
+    },
+    "picabea": {
+        "src": "https://i.postimg.cc/v8PDJD2C/Picabea_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Picabea",
+        "url": "fichajugador.html?player=picabea"
     },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
