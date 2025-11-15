@@ -7276,6 +7276,20 @@ const playersDatabase = {
         "name": "Picabea",
         "url": "fichajugador.html?player=picabea"
     },
+    "oscaralvarez1955": {
+        "src": "https://i.postimg.cc/Tw0hYPdL/Óscar_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Óscar Álvarez",
+        "url": "fichajugador.html?player=oscaralvarez1955"
+    },
+    "balmana": {
+        "src": "https://i.postimg.cc/D01jbRNX/Balmaña_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Balmaña",
+        "url": "fichajugador.html?player=balmana"
+    },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
