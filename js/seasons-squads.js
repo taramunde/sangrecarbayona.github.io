@@ -542,6 +542,39 @@ const seasonsSquads = {
         "forwards": ["romero1960", "massey", "arbaizar", "cuervo", "lalo1959", "artabe1962", "amarilla", "areopagita", "sanchezlage", "sande", "franciscoalvarez", "roza", "rherrera", "josejorge"],
         "coaches": ["picabea"],
         // ... solo IDs
-    }
+    },
+    "1957-58": {
+        "goalkeepers": ["caldentey", "vendrell", "carracedo"],
+        "defenders": ["toni1966", "alarcon1961", "marigil1968", "sportiii", "valentin1957", "granda1960"],
+        "midfielders": ["facio", "ferrer", "falin", "marioduran", "lechugaii", "laurin", "llaneza", "xirau", "sanchez1958", "paquito1962"],
+        "forwards": ["aloy", "massey", "eduardoherrera", "cuervo", "lalo1959", "artabe1962", "chusherrera", "roza", "josemaria1964", "rherrera", "extremin"],
+        "coaches": ["picabea"],
+        // ... solo IDs
+    },
+    "1956-57": {
+        "goalkeepers": ["argila1956", "caldentey", "gantes", "franklyn"],
+        "defenders": ["toni1966", "alvarito", "joseluis1956", "sportiii", "valentin1957", "sagrado", "granda1960"],
+        "midfielders": ["facio", "ferrer", "falin", "marioduran", "lechugaii", "laurin", "llaneza", "gonzalo1956", "torres"],
+        "forwards": ["castro1956", "aloy", "lechuga", "eduardoherrera", "alvedro", "rojas1956", "toniii", "fabregas", "cuervo", "lalo1959", "villota", "chusherrera", "roza", "triozabala"],
+        "coaches": ["toba", "argila1961"],
+        // ... solo IDs
+    },
+    "1955-56": {
+        "goalkeepers": ["argila1956", "meca", "pita1955", "manolin1955", "gero", "franklyn"],
+        "defenders": ["toni1966", "alvarito", "joseluis1956", "sportiii", "seoane1955", "larrosa"],
+        "midfielders": ["pacheco1955", "facio", "ferrer", "falin", "marioduran", "ortega", "luisin1955", "janano", "llaneza", "gonzalo1956", "torres"],
+        "forwards": ["castro1956", "aloy", "alsua", "carriega", "parajon1955", "rojas1956", "toniii", "fabregas", "cuervo", "lalo1959", "chusherrera"],
+        "coaches": ["oscaralvarez1955", "pasarin"],
+        // ... solo IDs
+    },
+    "1954-55": {
+        "goalkeepers": ["argila1956", "caso", "pita1955", "ovidio"],
+        "defenders": ["toni1966", "echevarria1954", "joseluis1956", "rusinol", "valentin1957", "tome", "manolito", "alberdi", "martinez"],
+        "midfielders": ["pacheco1955", "facio", "ferrer", "falin", "alcoba", "ortega", "luisin1955", "janano", "duro"],
+        "forwards": ["castro1956", "aloy", "salaberry", "sara", "carriega", "parajon1955", "taranco", "forcen", "toniii", "guillamon", "cuervo", "lalo1959", "chusherrera"],
+        "coaches": ["balmanya"],
+        // ... solo IDs
+    },
+    
     // ... todas las temporadas
 };
