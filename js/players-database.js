@@ -7283,12 +7283,12 @@ const playersDatabase = {
         "name": "Óscar Álvarez",
         "url": "fichajugador.html?player=oscaralvarez1955"
     },
-    "balmana": {
+    "balmanya": {
         "src": "https://i.postimg.cc/D01jbRNX/Balmaña_(entrenador)_PNG.webp",
         "alt": "Entrenador",
         "number": "-",
-        "name": "Balmaña",
-        "url": "fichajugador.html?player=balmana"
+        "name": "Balmanya",
+        "url": "fichajugador.html?player=balmanya"
     },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
