@@ -575,6 +575,38 @@ const seasonsSquads = {
         "coaches": ["balmanya"],
         // ... solo IDs
     },
+    "1953-54": {
+        "goalkeepers": ["argila1956", "caso", "pita1955", "ovidio"],
+        "defenders": ["calvet", "toni1966", "fernando1953", "joseluis1956", "rusinol", "valentin1957", "manolito", "alberdi", "docampo"],
+        "midfielders": ["pacheco1955", "diestro", "roca", "falin", "alcoba", "castivia", "luisin1955", "janano", "lumbreras"],
+        "forwards": ["basabe", "salaberry", "sara", "antonioduran", "areta", "mandi", "ibars", "toniii", "guillamon", "cuervo", "lalo1959", "revenga"],
+        "coaches": ["urquiri"],
+        // ... solo IDs
+    },
+    "1952-53": {
+        "goalkeepers": ["argila1956", "caso", "ramonduran", "juanjo1952", "ovidio"],
+        "defenders": ["calvet", "celaya", "toni1966", "fernando1953", "joseluis1956", "rusinol", "alberdi"],
+        "midfielders": ["pacheco1955", "diestro", "gutierrez", "falin", "szegedi", "castivia", "luisin1955"],
+        "forwards": ["basabe", "salaberry", "sara", "antonioduran", "areta", "mandi", "ibars", "hernandezlopez", "daniel", "luismanuel", "piruqui", "montes1952", "gomez", "lalo1959"],
+        "coaches": ["urquiri"],
+        // ... solo IDs
+    },
+    "1951-52": {
+        "goalkeepers": ["argila1956", "caso", "ramonduran", "juanjo1952", "candi1951"],
+        "defenders": ["lanza", "celaya", "toni1966", "sportiii", "marques"],
+        "midfielders": ["pacheco1955", "diestro", "campitos", "falin", "agustin1951", "luisin1955"],
+        "forwards": ["wilson", "salaberry", "miguel1951", "sara", "nando1951", "callejo", "antonioduran", "saranu", "megino", "areta", "mandi", "canete", "parajon1955"],
+        "coaches": ["urquiri"],
+        // ... solo IDs
+    },
+    "1950-51": {
+        "goalkeepers": ["argila1956", "caso", "artiles"],
+        "defenders": ["lanza", "foces", "penalosa", "toni1966", "angelbmartin"],
+        "midfielders": ["felipe1950", "diestro", "campitos", "falin", "zuppo", "granda1950", "sanson", "lopezrina"],
+        "forwards": ["salaberry", "goyin", "sara", "nando1951", "echevarria1950", "anton1950", "saranu", "megino", "robledo", "mandi", "canete", "parajon1955"],
+        "coaches": ["caicedo", "enriquediaz"],
+        // ... solo IDs
+    }
     
     // ... todas las temporadas
 };
