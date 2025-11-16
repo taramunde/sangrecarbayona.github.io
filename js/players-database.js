@@ -7071,13 +7071,7 @@ const playersDatabase = {
         "name": "Gomez",
         "url": "fichajugador.html?player=gomez"
     },
-    "lalo1959": {
-        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
-        "alt": "Delantero",
-        "number": "-",
-        "name": "Lalo",
-        "url": "fichajugador.html?player=lalo1959"
-    },
+    
     
     // ENTRENADORES
     "paunovic": {
