@@ -765,12 +765,12 @@ const playersDatabase = {
         "name": "Ramón Durán",
         "url": "fichajugador.html?player=ramonduran"
     },
-    "juanjo": {
+    "juanjo1952": {
         "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Juanjo",
-        "url": "fichajugador.html?player=juanjo"
+        "url": "fichajugador.html?player=juanjo1952"
     },
     "candi1951": {
         "src": "https://i.postimg.cc/nVvfmWB2/Candi_PNG.webp",
