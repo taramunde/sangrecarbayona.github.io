@@ -6987,6 +6987,97 @@ const playersDatabase = {
         "name": "Guillamón",
         "url": "fichajugador.html?player=guillamon"
     },
+    "basabe": {
+        "src": "https://i.postimg.cc/PxtjSzm9/Basabe_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Basabe",
+        "url": "fichajugador.html?player=basabe"
+    },
+    "antonioduran": {
+        "src": "https://i.postimg.cc/26F56SwR/Antonio_Durán_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Antonio Durán",
+        "url": "fichajugador.html?player=antonioduran"
+    },
+    "areta": {
+        "src": "https://i.postimg.cc/wjCxQm4Y/Areta_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Areta",
+        "url": "fichajugador.html?player=areta"
+    },
+    "mandi": {
+        "src": "https://i.postimg.cc/q76PQDh1/Mandi_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Mandi",
+        "url": "fichajugador.html?player=mandi"
+    },
+    "ibars": {
+        "src": "https://i.postimg.cc/G3g4sHRd/Ibarz_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ibars",
+        "url": "fichajugador.html?player=ibars"
+    },
+    "revenga": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Revenga",
+        "url": "fichajugador.html?player=revenga"
+    },
+    "hernandezlopez": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Hernández López",
+        "url": "fichajugador.html?player=hernandezlopez"
+    },
+    "daniel": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Daniel",
+        "url": "fichajugador.html?player=daniel"
+    },
+    "luismanuel": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Luis Manuel",
+        "url": "fichajugador.html?player=luismanuel"
+    },
+    "piruqui": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Piruqui",
+        "url": "fichajugador.html?player=piruqui"
+    },
+    "montes1952": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Montes",
+        "url": "fichajugador.html?player=montes1952"
+    },
+    "gomez": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Gomez",
+        "url": "fichajugador.html?player=gomez"
+    },
+    "lalo1959": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Lalo",
+        "url": "fichajugador.html?player=lalo1959"
+    },
     
     // ENTRENADORES
     "paunovic": {
@@ -7471,6 +7562,13 @@ const playersDatabase = {
         "number": "-",
         "name": "Balmanya",
         "url": "fichajugador.html?player=balmanya"
+    },
+    "urquiri": {
+        "src": "https://i.postimg.cc/bJV8BSYT/Urquiri_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Urquiri",
+        "url": "fichajugador.html?player=urquiri"
     },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
