@@ -758,6 +758,34 @@ const playersDatabase = {
         "name": "Ovidio",
         "url": "fichajugador.html?player=ovidio"
     },
+    "ramonduran": {
+        "src": "https://i.postimg.cc/Cxw809HQ/Ramón_Durán_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Ramón Durán",
+        "url": "fichajugador.html?player=ramonduran"
+    },
+    "juanjo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Juanjo",
+        "url": "fichajugador.html?player=juanjo"
+    },
+    "candi1951": {
+        "src": "https://i.postimg.cc/nVvfmWB2/Candi_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Candi",
+        "url": "fichajugador.html?player=candi1951"
+    },
+    "artiles": {
+        "src": "https://i.postimg.cc/RV7CMFgM/Artiles_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Artiles",
+        "url": "fichajugador.html?player=artiles"
+    },
     
     // DEFENSAS
     "bailly": {
@@ -2726,6 +2754,69 @@ const playersDatabase = {
         "number": "-",
         "name": "Martínez",
         "url": "fichajugador.html?player=martinez"
+    },
+    "calvet": {
+        "src": "https://i.postimg.cc/zfZDFNLt/Calvet_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Calvet",
+        "url": "fichajugador.html?player=calvet"
+    },
+    "fernando1953": {
+        "src": "https://i.postimg.cc/dVWpJjF8/Fernando_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Fernando",
+        "url": "fichajugador.html?player=fernando1953"
+    },
+    "docampo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Docampo",
+        "url": "fichajugador.html?player=docampo"
+    },
+    "celaya": {
+        "src": "https://i.postimg.cc/bvpcvwSh/Celaya_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Celaya",
+        "url": "fichajugador.html?player=celaya"
+    },
+    "lanza": {
+        "src": "https://i.postimg.cc/59Tt284W/Lanza_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Lanza",
+        "url": "fichajugador.html?player=lanza"
+    },
+    "marques": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Marqués",
+        "url": "fichajugador.html?player=marques"
+    },
+    "foces": {
+        "src": "https://i.postimg.cc/43mMyH4j/Foces_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Foces",
+        "url": "fichajugador.html?player=foces"
+    },
+    "penalosa": {
+        "src": "https://i.postimg.cc/sXzNc64C/Peñalosa_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Peñalosa",
+        "url": "fichajugador.html?player=penalosa"
+    },
+    "angelbmartin": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ángel B. Martín",
+        "url": "fichajugador.html?player=angelbmartin"
     },
     
     // CENTROCAMPISTAS
@@ -4982,6 +5073,97 @@ const playersDatabase = {
         "number": "-",
         "name": "Duró",
         "url": "fichajugador.html?player=duro"
+    },
+    "diestro": {
+        "src": "https://i.postimg.cc/RZ2nH2QG/Diestro_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Diestro",
+        "url": "fichajugador.html?player=diestro"
+    },
+    "roca": {
+        "src": "https://i.postimg.cc/VLZcD8h9/Roca_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Roca",
+        "url": "fichajugador.html?player=roca"
+    },
+    "castivia": {
+        "src": "https://i.postimg.cc/7LBd9MhB/Castivia_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Castivia",
+        "url": "fichajugador.html?player=castivia"
+    },
+    "lumbreras": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Lumbreras",
+        "url": "fichajugador.html?player=lumbreras"
+    },
+    "gutierrez": {
+        "src": "https://i.postimg.cc/Fz2QZbWt/Gutiérrez_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Gutiérrez",
+        "url": "fichajugador.html?player=gutierrez"
+    },
+    "szegedi": {
+        "src": "https://i.postimg.cc/Rh3TmwMZ/Szegedi_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Szegedi",
+        "url": "fichajugador.html?player=szegedi"
+    },
+    "campitos": {
+        "src": "https://i.postimg.cc/HkDS9v2W/Campitos_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Campitos",
+        "url": "fichajugador.html?player=campitos"
+    },
+    "agustin1951": {
+        "src": "https://i.postimg.cc/8kLfryjm/Agustín_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Agustín",
+        "url": "fichajugador.html?player=agustin1951"
+    },
+    "felipe1950": {
+        "src": "https://i.postimg.cc/Dy8ZPBzN/Felipe_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Felipe",
+        "url": "fichajugador.html?player=felipe1950"
+    },
+    "zuppo": {
+        "src": "https://i.postimg.cc/FKBZBP4B/Zuppo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Zuppo",
+        "url": "fichajugador.html?player=zuppo"
+    },
+    "granda1950": {
+        "src": "https://i.postimg.cc/mDp4cW7g/Granda_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Granda",
+        "url": "fichajugador.html?player=granda1950"
+    },
+    "sanson": {
+        "src": "https://i.postimg.cc/Pqm9ssSR/Sansón_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sansón",
+        "url": "fichajugador.html?player=sanson"
+    },
+    "lopezrina": {
+        "src": "https://i.postimg.cc/8cybQt83/López_Rina_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "López Rina",
+        "url": "fichajugador.html?player=lopezrina"
     },
     
     // DELANTEROS
