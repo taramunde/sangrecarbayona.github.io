@@ -7071,7 +7071,83 @@ const playersDatabase = {
         "name": "Gomez",
         "url": "fichajugador.html?player=gomez"
     },
-    
+    "wilson": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Wilson",
+        "url": "fichajugador.html?player=wilson"
+    },
+    "miguel1951": {
+        "src": "https://i.postimg.cc/6qbckwFn/Miguel_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Miguel",
+        "url": "fichajugador.html?player=miguel1951"
+    },
+    "nando1951": {
+        "src": "https://i.postimg.cc/QCv5gMR4/Nando_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Nando",
+        "url": "fichajugador.html?player=nando1951"
+    },
+    "callejo": {
+        "src": "https://i.postimg.cc/7ZgdjJYk/Callejo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Callejo",
+        "url": "fichajugador.html?player=callejo"
+    },
+    "saranu": {
+        "src": "https://i.postimg.cc/hP5grdZP/Sarañu_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Sarañu",
+        "url": "fichajugador.html?player=saranu"
+    },
+    "megino": {
+        "src": "https://i.postimg.cc/9FNgStjK/Megino_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Megino",
+        "url": "fichajugador.html?player=megino"
+    },
+    "canete": {
+        "src": "https://i.postimg.cc/6QcSpsvb/Cañete_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Cañete",
+        "url": "fichajugador.html?player=canete"
+    },
+    "goyin": {
+        "src": "https://i.postimg.cc/VLT025ZD/Goyín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Goyín",
+        "url": "fichajugador.html?player=goyin"
+    },
+    "echevarria1950": {
+        "src": "https://i.postimg.cc/B6DmPdLG/Echevarría_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Echevarría",
+        "url": "fichajugador.html?player=echevarria1950"
+    },
+    "anton1950": {
+        "src": "https://i.postimg.cc/RFzF4HwL/Antón_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Antón",
+        "url": "fichajugador.html?player=anton1950"
+    },
+    "robledo": {
+        "src": "https://i.postimg.cc/3wDwpBKT/Robledo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Robledo",
+        "url": "fichajugador.html?player=robledo"
+    },
     
     // ENTRENADORES
     "paunovic": {
@@ -7563,6 +7639,20 @@ const playersDatabase = {
         "number": "-",
         "name": "Urquiri",
         "url": "fichajugador.html?player=urquiri"
+    },
+    "caicedo": {
+        "src": "https://i.postimg.cc/HkYZVZ9r/Caicedo_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Caicedo",
+        "url": "fichajugador.html?player=caicedo"
+    },
+    "enriquediaz": {
+        "src": "https://i.postimg.cc/3r2n95Ly/Enrique_Díaz_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Enrique Díaz",
+        "url": "fichajugador.html?player=enriquediaz"
     },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
