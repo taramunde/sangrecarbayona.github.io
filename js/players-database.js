@@ -786,6 +786,48 @@ const playersDatabase = {
         "name": "Artiles",
         "url": "fichajugador.html?player=artiles"
     },
+    "llorente": {
+        "src": "https://i.postimg.cc/PrpZKmfS/Llorente_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Llorente",
+        "url": "fichajugador.html?player=llorente"
+    },
+    "greus": {
+        "src": "https://i.postimg.cc/Y288TfHk/Greus_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Greus",
+        "url": "fichajugador.html?player=greus"
+    },
+    "pendas": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Pendás",
+        "url": "fichajugador.html?player=pendas"
+    },
+    "sioni": {
+        "src": "https://i.postimg.cc/TYJytCMq/Sión_I_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Sión I",
+        "url": "fichajugador.html?player=sioni"
+    },
+    "paya": {
+        "src": "https://i.postimg.cc/QdqpWjdD/Payá_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Payá",
+        "url": "fichajugador.html?player=paya"
+    },
+    "leoncio": {
+        "src": "https://i.postimg.cc/Gt9DWDFh/Leoncio_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Leoncio",
+        "url": "fichajugador.html?player=leoncio"
+    },
     
     // DEFENSAS
     "bailly": {
