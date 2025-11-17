@@ -5312,6 +5312,153 @@ const playersDatabase = {
         "name": "López Rina",
         "url": "fichajugador.html?player=lopezrina"
     },
+    "castillo": {
+        "src": "https://i.postimg.cc/jSbpSSBh/Castillo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Castillo",
+        "url": "fichajugador.html?player=castillo"
+    },
+    "martino": {
+        "src": "https://i.postimg.cc/FsdSH901/Martino_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Martino",
+        "url": "fichajugador.html?player=martino"
+    },
+    "sportiv": {
+        "src": "https://i.postimg.cc/YSk8F4xd/Sport_IV_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sport IV",
+        "url": "fichajugador.html?player=sportiv"
+    },
+    "cucaii": {
+        "src": "https://i.postimg.cc/4N55p4mP/Cuca_II_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Cuca II",
+        "url": "fichajugador.html?player=cucaii"
+    },
+    "tamargo1948": {
+        "src": "https://i.postimg.cc/rmZ97f2H/Tamargo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tamargo",
+        "url": "fichajugador.html?player=tamargo1948"
+    },
+    "sobron": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sobrón",
+        "url": "fichajugador.html?player=sobron"
+    },
+    "russell": {
+        "src": "https://i.postimg.cc/0jthWYV5/Russell_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Russell",
+        "url": "fichajugador.html?player=russell"
+    },
+    "clemades": {
+        "src": "https://i.postimg.cc/4xWWR4Gy/Clemades_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Clemades",
+        "url": "fichajugador.html?player=clemades"
+    },
+    "sirio": {
+        "src": "https://i.postimg.cc/xTJsVVC3/Sirio_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Sirio",
+        "url": "fichajugador.html?player=sirio"
+    },
+    "torano": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Toraño",
+        "url": "fichajugador.html?player=torano"
+    },
+    "villita": {
+        "src": "https://i.postimg.cc/DZRx8xpX/Villita_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Villita",
+        "url": "fichajugador.html?player=villita"
+    },
+    "lafuente": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Lafuente",
+        "url": "fichajugador.html?player=lafuente"
+    },
+    "alberto1946": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Lafuente",
+        "url": "fichajugador.html?player=alberto1946"
+    },
+    "ortiz": {
+        "src": "https://i.postimg.cc/KvSTj6fN/Ortiz_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ortiz",
+        "url": "fichajugador.html?player=ortiz"
+    },
+    "campos": {
+        "src": "https://i.postimg.cc/R0GX9Szq/Campos_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Campos",
+        "url": "fichajugador.html?player=campos"
+    },
+    "bao": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Bao",
+        "url": "fichajugador.html?player=bao"
+    },
+    "fernandez1944": {
+        "src": "https://i.postimg.cc/WbC4WgF1/Fernández_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Fernández",
+        "url": "fichajugador.html?player=fernandez1944"
+    },
+    "gordo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Gordo",
+        "url": "fichajugador.html?player=gordo"
+    },
+    "gracia": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Gracia",
+        "url": "fichajugador.html?player=gracia"
+    },
+    "celsin": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Celsín",
+        "url": "fichajugador.html?player=celsin"
+    },
+    "victorero": {
+        "src": "https://i.postimg.cc/q7bbdJ8Q/Victorero_(Oviedo)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Victorero",
+        "url": "fichajugador.html?player=victorero"
+    },
     
     // DELANTEROS
     "ilyas": {
