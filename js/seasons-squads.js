@@ -639,6 +639,22 @@ const seasonsSquads = {
         "coaches": ["meana"],
         // ... solo IDs
     },
+    "1945-46": {
+        "goalkeepers": ["llorente", "argila1956"],
+        "defenders": ["pena1946", "valerio", "ricardo1948", "jugo", "penedo", "paquito1947"],
+        "midfielders": ["diestro", "ortiz", "villita", "campos", "sirio", "granda1950", "sanson", "bao"],
+        "forwards": ["herrerita1949", "emilin", "gene", "goyin", "chas", "echevarria1950", "cuesta", "anton1950", "muniz", "alcalde", "quini1949", "cabido", "delhoyo"],
+        "coaches": ["meana"],
+        // ... solo IDs
+    },
+    "1944-45": {
+        "goalkeepers": ["sioni", "llorente", "paya", "argila1956"],
+        "defenders": ["pena1946", "valerio", "ricardo1948", "roman", "tamayo", "aparicio", "penedo", "sporti"],
+        "midfielders": ["diestro", "ortiz", "villita", "campos", "sirio", "granda1950", "fernandez1944", "gordo", "gracia", "celsin"],
+        "forwards": ["herrerita1949", "emilin", "gene", "goyin", "diaz", "chas", "echevarria1950", "menendez1944", "anton1950", "muniz", "malon", "alcalde", "quini1949", "arano1944", "pin1944", "cabido", "delhoyo"],
+        "coaches": ["meana"],
+        // ... solo IDs
+    },
     
     // ... todas las temporadas
 };
