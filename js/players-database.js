@@ -2860,6 +2860,111 @@ const playersDatabase = {
         "name": "Ángel B. Martín",
         "url": "fichajugador.html?player=angelbmartin"
     },
+    "arzanegui": {
+        "src": "https://i.postimg.cc/NjL2zQjQ/Arzanegui_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Arzanegui",
+        "url": "fichajugador.html?player=arzanegui"
+    },
+    "penedo": {
+        "src": "https://i.postimg.cc/qv9YtMtR/Penedo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Penedo",
+        "url": "fichajugador.html?player=penedo"
+    },
+    "echevarriaii": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Echevarría II",
+        "url": "fichajugador.html?player=echevarriaii"
+    },
+    "ricardo1948": {
+        "src": "https://i.postimg.cc/FRFxz2xz/Ricardo_(1942)_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ricardo",
+        "url": "fichajugador.html?player=ricardo1948"
+    },
+    "martel": {
+        "src": "https://i.postimg.cc/T2gPhppy/Martel_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Martel",
+        "url": "fichajugador.html?player=martel"
+    },
+    "paquito1947": {
+        "src": "https://i.postimg.cc/x8thqvHD/Paquito_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Paquito",
+        "url": "fichajugador.html?player=paquito1947"
+    },
+    "telleria": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Tellería",
+        "url": "fichajugador.html?player=telleria"
+    },
+    "norena1947": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Noreña",
+        "url": "fichajugador.html?player=norena1947"
+    },
+    "pena1946": {
+        "src": "https://i.postimg.cc/x1khTb1h/Pena_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Pena",
+        "url": "fichajugador.html?player=pena1946"
+    },
+    "jugo": {
+        "src": "https://i.postimg.cc/bvgJyMJm/Jugo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Jugo",
+        "url": "fichajugador.html?player=jugo"
+    },
+    "sporti": {
+        "src": "https://i.postimg.cc/yYRbS3RZ/Sport_I_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Sport I",
+        "url": "fichajugador.html?player=sporti"
+    },
+    "valerio": {
+        "src": "https://i.postimg.cc/TYjc6VmC/Valerio_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Valerio",
+        "url": "fichajugador.html?player=valerio"
+    },
+    "roman": {
+        "src": "https://i.postimg.cc/kgrFKVyk/Román_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Román",
+        "url": "fichajugador.html?player=roman"
+    },
+    "tamayo": {
+        "src": "https://i.postimg.cc/zG1PwDwP/Tamayo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Tamayo",
+        "url": "fichajugador.html?player=tamayo"
+    },
+    "aparicio": {
+        "src": "https://i.postimg.cc/RVSHw7r6/Aparicio_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Aparicio",
+        "url": "fichajugador.html?player=aparicio"
+    },
     
     // CENTROCAMPISTAS
     "albertoreina": {
