@@ -8158,6 +8158,27 @@ const playersDatabase = {
         "name": "Enrique Díaz",
         "url": "fichajugador.html?player=enriquediaz"
     },
+    "urquizu": {
+        "src": "https://i.postimg.cc/zv9NJmgH/Urquizu_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Urquizu",
+        "url": "fichajugador.html?player=urquizu"
+    },
+    "gamborena": {
+        "src": "https://i.postimg.cc/Bv8CKdLn/Gamborena_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Gamborena",
+        "url": "fichajugador.html?player=gamborena"
+    },
+    "meana": {
+        "src": "https://i.postimg.cc/nVTQn3rR/Meana_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Meana",
+        "url": "fichajugador.html?player=meana"
+    },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
     // Solo una vez cada uno, sin repetir
