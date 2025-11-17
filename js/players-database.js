@@ -7442,6 +7442,216 @@ const playersDatabase = {
         "name": "Robledo",
         "url": "fichajugador.html?player=robledo"
     },
+    "herrerita1949": {
+        "src": "https://i.postimg.cc/d3fDMS6L/Herrerita_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Herrerita",
+        "url": "fichajugador.html?player=herrerita1949"
+    },
+    "domingo1949": {
+        "src": "https://i.postimg.cc/RVTbR5PS/Domingo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Domingo",
+        "url": "fichajugador.html?player=domingo1949"
+    },
+    "muniz": {
+        "src": "https://i.postimg.cc/8PFm72qX/Muñiz_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Muñiz",
+        "url": "fichajugador.html?player=muniz"
+    },
+    "iturbe": {
+        "src": "https://i.postimg.cc/brZNR9P8/Iturbe_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Iturbe",
+        "url": "fichajugador.html?player=iturbe"
+    },
+    "quini1949": {
+        "src": "https://i.postimg.cc/c4mt4XJk/Quini_Solanas_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Quini",
+        "url": "fichajugador.html?player=quini1949"
+    },
+    "cabido": {
+        "src": "https://i.postimg.cc/RZr2PLmd/Cabido_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Cabido",
+        "url": "fichajugador.html?player=cabido"
+    },
+    "mon1949": {
+        "src": "https://i.postimg.cc/8CdH1Lq1/Mon_(1950)_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Mon",
+        "url": "fichajugador.html?player=mon1949"
+    },
+    "emilin": {
+        "src": "https://i.postimg.cc/CLwcdrwW/Emilín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Emilín",
+        "url": "fichajugador.html?player=emilin"
+    },
+    "delhoyo": {
+        "src": "https://i.postimg.cc/QtWykFzw/Del_Hoyo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Del Hoyo",
+        "url": "fichajugador.html?player=delhoyo"
+    },
+    "duarte1948": {
+        "src": "https://i.postimg.cc/Qd442gGv/Duarte_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Duarte",
+        "url": "fichajugador.html?player=duarte1948"
+    },
+    "benjamin1948": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Benjamín",
+        "url": "fichajugador.html?player=benjamin1948"
+    },
+    "langara": {
+        "src": "https://i.postimg.cc/NjsGJtBp/Lángara_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Lángara",
+        "url": "fichajugador.html?player=langara"
+    },
+    "chas": {
+        "src": "https://i.postimg.cc/fLJN4Wrf/Chas_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Chas",
+        "url": "fichajugador.html?player=chas"
+    },
+    "quico1947": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Quico",
+        "url": "fichajugador.html?player=quico1947"
+    },
+    "joseluis1947": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "José Luis",
+        "url": "fichajugador.html?player=joseluis1947"
+    },
+    "galvany": {
+        "src": "https://i.postimg.cc/2Sbh5nLs/Galvany_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Galvany",
+        "url": "fichajugador.html?player=galvany"
+    },
+    "cuesta": {
+        "src": "https://i.postimg.cc/pTg3gf8P/Cuesta_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Cuesta",
+        "url": "fichajugador.html?player=cuesta"
+    },
+    "alcalde": {
+        "src": "https://i.postimg.cc/RhBnsYP9/Alcalde_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Alcalde",
+        "url": "fichajugador.html?player=alcalde"
+    },
+    "gene": {
+        "src": "https://i.postimg.cc/V6RbhR2C/Gené_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Gené",
+        "url": "fichajugador.html?player=gene"
+    },
+    "diaz": {
+        "src": "https://i.postimg.cc/yxmptwsT/Díaz_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Díaz",
+        "url": "fichajugador.html?player=diaz"
+    },
+    "menendez1944": {
+        "src": "https://i.postimg.cc/8CLyj2rg/Menéndez_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Menéndez",
+        "url": "fichajugador.html?player=menendez1944"
+    },
+    "malon": {
+        "src": "https://i.postimg.cc/bw5XxfJG/Malón_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Malón",
+        "url": "fichajugador.html?player=malon"
+    },
+    "arano1944": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Arano",
+        "url": "fichajugador.html?player=arano1944"
+    },
+    "pin1944": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pin",
+        "url": "fichajugador.html?player=pin1944"
+    },
+    "cholodindurra": {
+        "src": "https://i.postimg.cc/B6kGJ9W9/Cholo_Dindurra_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Cholo Dindurra",
+        "url": "fichajugador.html?player=cholodindurra"
+    },
+    "gallart": {
+        "src": "https://i.postimg.cc/NfPRYdF8/Gallart_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Gallart",
+        "url": "fichajugador.html?player=gallart"
+    },
+    "pedrin": {
+        "src": "https://i.postimg.cc/pddft3YB/Pedrín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pedrín",
+        "url": "fichajugador.html?player=pedrin"
+    },
+    "ojanguren": {
+        "src": "https://i.postimg.cc/MGtQP5Cj/Ojanguren_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ojanguren",
+        "url": "fichajugador.html?player=ojanguren"
+    },
+    "negri": {
+        "src": "https://i.postimg.cc/0yRDbbGr/Negri_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Negri",
+        "url": "fichajugador.html?player=negri"
+    },
+    "balbino": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Balbino",
+        "url": "fichajugador.html?player=balbino"
+    },
     
     // ENTRENADORES
     "paunovic": {
