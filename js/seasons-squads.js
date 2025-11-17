@@ -606,7 +606,39 @@ const seasonsSquads = {
         "forwards": ["salaberry", "goyin", "sara", "nando1951", "echevarria1950", "anton1950", "saranu", "megino", "robledo", "mandi", "canete", "parajon1955"],
         "coaches": ["caicedo", "enriquediaz"],
         // ... solo IDs
-    }
+    },
+    "1949-50": {
+        "goalkeepers": ["argila1956", "caso", "juanjo1952", "artiles"],
+        "defenders": ["arzanegui", "foces", "penedo", "penalosa", "toni1966", "echevarriaii"],
+        "midfielders": ["felipe1950", "diestro", "castillo", "falin", "zuppo", "granda1950", "sanson", "martino", "sportiv", "cucaii"],
+        "forwards": ["herrerita1949", "salaberry", "goyin", "sara", "domingo1949", "echevarria1950", "anton1950", "muniz", "iturbe", "quini1949", "cabido", "mon1949", "canete", "parajon1955"],
+        "coaches": ["urquizu", "caicedo"],
+        // ... solo IDs
+    },
+    "1948-49": {
+        "goalkeepers": ["llorente", "argila1956", "greus", "juanjo1952"],
+        "defenders": ["arzanegui", "ricardo1948", "martel", "penedo", "penalosa", "toni1966", "echevarriaii", "marques"],
+        "midfielders": ["tamargo1948", "diestro", "castillo", "falin", "granda1950", "sanson", "sobron", "russell", "sportiv", "clemades", "cucaii"],
+        "forwards": ["herrerita1949", "emilin", "goyin", "delhoyo", "domingo1949", "echevarria1950", "anton1950", "muniz", "iturbe", "quini1949", "cabido", "duarte1948", "campitos", "benjamin1948", "parajon1955"],
+        "coaches": ["urquizu"],
+        // ... solo IDs
+    },
+    "1947-48": {
+        "goalkeepers": ["llorente", "argila1956", "greus", "pendas"],
+        "defenders": ["paquito1947", "arzanegui", "ricardo1948", "penedo", "penalosa", "sportiii", "echevarriaii", "telleria", "norena1947"],
+        "midfielders": ["tamargo1948", "diestro", "castillo", "falin", "sirio", "granda1950", "sanson", "sobron", "russell", "felipe1950", "torano", "sportiv"],
+        "forwards": ["herrerita1949", "emilin", "goyin", "delhoyo", "domingo1949", "echevarria1950", "langara", "anton1950", "muniz", "saranu", "quini1949", "cabido", "chas", "duarte1948", "quico1947", "joseluis1947", "galvany"],
+        "coaches": ["gamborena"],
+        // ... solo IDs
+    },
+    "1946-47": {
+        "goalkeepers": ["llorente", "argila1956", "greus"],
+        "defenders": ["pena1946", "arzanegui", "ricardo1948", "jugo", "penedo", "sporti"],
+        "midfielders": ["tamargo1948", "diestro", "villita", "falin", "sirio", "granda1950", "sanson", "sobron", "lafuente", "alberto1946"],
+        "forwards": ["herrerita1949", "emilin", "goyin", "chas", "domingo1949", "echevarria1950", "langara", "cuesta", "anton1950", "muniz", "alcalde", "quini1949", "cabido", "quico1947", "delhoyo"],
+        "coaches": ["meana"],
+        // ... solo IDs
+    },
     
     // ... todas las temporadas
 };
