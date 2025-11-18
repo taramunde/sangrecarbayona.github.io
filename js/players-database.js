@@ -7925,13 +7925,7 @@ const playersDatabase = {
         "name": "Meana",
         "url": "fichajugador.html?player=meana1934"
     },
-    "ojanguren1934": {
-        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
-        "alt": "Delantero",
-        "number": "-",
-        "name": "Ojanguren",
-        "url": "fichajugador.html?player=ojanguren1934"
-    },
+    
     
     // ENTRENADORES
     "paunovic": {
