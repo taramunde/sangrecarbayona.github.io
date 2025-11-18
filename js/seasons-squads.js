@@ -699,16 +699,40 @@ const seasonsSquads = {
         "goalkeepers": ["oscar1935", "florenza", "hector"],
         "defenders": ["pena1946", "calichi", "jesusin", "panadero1934", "tuya", "fuentes", "laviada"],
         "midfielders": ["chus", "soladrero", "sirio", "castro1935", "colas", "joseramon"],
-        "forwards": ["inciarte", "herrerita1949", "emilin", "gallart", "langara", "casuco", "felipe1935", "leixo", "chusalonso", "anton1950"],
-        "coaches": ["pena1935"],
+        "forwards": ["inciarte", "herrerita1949", "emilin", "gallart", "langara", "casuco", "luisin1934", "leixo", "chusalonso", "manolinarguelles", "arevalo", "meana1934", "ojanguren1934"],
+        "coaches": ["sampere"],
         // ... solo IDs
     },
-    "1934-35": {
-        "goalkeepers": ["oscar1935", "florenza", "hector"],
-        "defenders": ["pena1946", "calichi", "jesusin", "panadero1934", "tuya", "fuentes", "laviada"],
-        "midfielders": ["chus", "soladrero", "sirio", "castro1935", "colas", "joseramon"],
-        "forwards": ["inciarte", "herrerita1949", "emilin", "gallart", "langara", "casuco", "luisin1934", "leixo", "chusalonso", "manolinarguelles", "arevalo", "meana1934"],
+    "1933-34": {
+        "goalkeepers": ["oscar1935", "zarraonandia", "florenza"],
+        "defenders": ["ibanez", "calichi", "sionii", "jesusin", "ciriaco", "luisin1933", "firpo", "fuentes", "perez1933", "laviada"],
+        "midfielders": ["chus", "mugarra", "sirio", "castro1935", "eguiburu", "tamargo1933", "gerardo", "joseramon", "paredes", "severino", "tole"],
+        "forwards": ["chusle", "inciarte", "herrerita1949", "peto", "emilin", "gallart", "langara", "casuco", "chanin", "leixo", "cano1933", "teo1933", "chusalonso", "manolinarguelles", "pepealonso", "azpiroz"],
         "coaches": ["sampere"],
+        // ... solo IDs
+    },
+    "1932-33": {
+        "goalkeepers": ["oscar1935", "zarraonandia", "santander"],
+        "defenders": ["botella", "calichi", "luisin1933", "sionii"],
+        "midfielders": ["chus", "mugarra", "sirio", "ojanguren1934", "pablito", "baragano", "avilesu"],
+        "forwards": ["chusle", "inciarte", "gale", "emilin", "muno", "gallart", "langara", "casuco", "tomasin", "chichi", "mturon", "manolinarguelles", "herrero1932"],
+        "coaches": ["tonijuan"],
+        // ... solo IDs
+    },
+    "1931-32": {
+        "goalkeepers": ["oscar1935", "nilo", "mino1931", "torino", "santander"],
+        "defenders": ["villarramendi", "botella", "calichi", "goyo1931", "luisin1933", "sionii"],
+        "midfielders": ["chus", "valentin1931", "sirio", "ojanguren1934", "avilesu"],
+        "forwards": ["chusle", "inciarte", "gale", "miranda1931", "emilin", "polon", "gallart", "langara", "casuco"],
+        "coaches": ["tonijuan"],
+        // ... solo IDs
+    },
+    "1930-31": {
+        "goalkeepers": ["oscar1935", "benjamin1930"],
+        "defenders": ["mariscal", "trucha", "calichi", "goyo1931"],
+        "midfielders": ["sionii", "chus", "tomas1930", "estevez", "tonijuan1930", "arturo1930", "ojanguren1934", "avilesu", "benito"],
+        "forwards": ["paco1930", "fernandez1930", "inciarte", "tamargo1930", "barril", "emilin", "urrutia", "polon", "alamo", "gallart", "langara", "errandonea", "chuche", "pirelo", "quintana1930"],
+        "coaches": ["patrickoconnell"],
         // ... solo IDs
     }
     
