@@ -2993,6 +2993,69 @@ const playersDatabase = {
         "name": "Aparicio",
         "url": "fichajugador.html?player=aparicio"
     },
+    "canor": {
+        "src": "https://i.postimg.cc/NFMQjfVM/Canor_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Canor",
+        "url": "fichajugador.html?player=canor"
+    },
+    "riera": {
+        "src": "https://i.postimg.cc/GtHJJGV1/Riera_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Riera",
+        "url": "fichajugador.html?player=riera"
+    },
+    "quiros1940": {
+        "src": "https://i.postimg.cc/2y6TcPqM/Quirós_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Quirós",
+        "url": "fichajugador.html?player=quiros1940"
+    },
+    "calichi": {
+        "src": "https://i.postimg.cc/sDLg173R/Calichi_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Calichi",
+        "url": "fichajugador.html?player=calichi"
+    },
+    "laviada": {
+        "src": "https://i.postimg.cc/7YzZGbhG/Laviada_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Laviada",
+        "url": "fichajugador.html?player=laviada"
+    },
+    "jesusin": {
+        "src": "https://i.postimg.cc/LXm1vLqb/Jesusín_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Jesusín",
+        "url": "fichajugador.html?player=jesusin"
+    },
+    "panadero1934": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Panadero",
+        "url": "fichajugador.html?player=panadero1934"
+    },
+    "tuya": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Tuya",
+        "url": "fichajugador.html?player=tuya"
+    },
+    "fuentes": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Fuentes",
+        "url": "fichajugador.html?player=fuentes"
+    },
     
     // CENTROCAMPISTAS
     "albertoreina": {
