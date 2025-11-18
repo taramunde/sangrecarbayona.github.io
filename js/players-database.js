@@ -5550,6 +5550,83 @@ const playersDatabase = {
         "name": "Victorero",
         "url": "fichajugador.html?player=victorero"
     },
+    "olay": {
+        "src": "https://i.postimg.cc/qvGy918G/Olay_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Olay",
+        "url": "fichajugador.html?player=olay"
+    },
+    "soladrero": {
+        "src": "https://i.postimg.cc/fRYBk7Y3/Soladrero_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Soladrero",
+        "url": "fichajugador.html?player=soladrero"
+    },
+    "llana": {
+        "src": "https://i.postimg.cc/jjNvwHNw/Llana_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Llana",
+        "url": "fichajugador.html?player=llana"
+    },
+    "ramonzuelo": {
+        "src": "https://i.postimg.cc/yxvzq48H/Ramonzuelo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Ramonzuelo",
+        "url": "fichajugador.html?player=ramonzuelo"
+    },
+    "traviesu": {
+        "src": "https://i.postimg.cc/59Zr02DR/Traviesu_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Traviesu",
+        "url": "fichajugador.html?player=traviesu"
+    },
+    "david": {
+        "src": "https://i.postimg.cc/J73cW7c8/David_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "David",
+        "url": "fichajugador.html?player=david"
+    },
+    "chus": {
+        "src": "https://i.postimg.cc/y6Rp3zmp/Chus_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chus",
+        "url": "fichajugador.html?player=chus"
+    },
+    "castro1935": {
+        "src": "https://i.postimg.cc/63ySm2GB/Castro_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Castro",
+        "url": "fichajugador.html?player=castro1935"
+    },
+    "mino1935": {
+        "src": "https://i.postimg.cc/D0t8XX10/Mino_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Mino",
+        "url": "fichajugador.html?player=mino1935"
+    },
+    "colas": {
+        "src": "https://i.postimg.cc/XvXQjMN8/Colás_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Colás",
+        "url": "fichajugador.html?player=colas"
+    },
+    "joseramon": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "José Ramón",
+        "url": "fichajugador.html?player=joseramon"
+    },
     
     // DELANTEROS
     "ilyas": {
