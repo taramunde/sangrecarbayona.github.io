@@ -828,6 +828,34 @@ const playersDatabase = {
         "name": "Leoncio",
         "url": "fichajugador.html?player=leoncio"
     },
+    "florenza": {
+        "src": "https://i.postimg.cc/FHwTDrQL/Florenza_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Florenza",
+        "url": "fichajugador.html?player=florenza"
+    },
+    "cheno": {
+        "src": "https://i.postimg.cc/MZ0gHQJr/Cheno_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Cheno",
+        "url": "fichajugador.html?player=cheno"
+    },
+    "oscar1935": {
+        "src": "https://i.postimg.cc/v8p7JPNJ/Óscar_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Óscar",
+        "url": "fichajugador.html?player=oscar1935"
+    },
+    "hector": {
+        "src": "https://i.postimg.cc/4xH5KDhN/Héctor_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Héctor",
+        "url": "fichajugador.html?player=hector"
+    },
     
     // DEFENSAS
     "bailly": {
