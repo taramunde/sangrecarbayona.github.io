@@ -7820,6 +7820,118 @@ const playersDatabase = {
         "name": "Balbino",
         "url": "fichajugador.html?player=balbino"
     },
+    "pipi": {
+        "src": "https://i.postimg.cc/jj97Y2js/Pipi_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pipi",
+        "url": "fichajugador.html?player=pipi"
+    },
+    "campanal": {
+        "src": "https://i.postimg.cc/sDGt90k1/Campanal_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Campanal",
+        "url": "fichajugador.html?player=campanal"
+    },
+    "zabala1941": {
+        "src": "https://i.postimg.cc/XNZ0vJ7R/Zabala_(1941)__PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Zabala",
+        "url": "fichajugador.html?player=zabala1941"
+    },
+    "ladreda": {
+        "src": "https://i.postimg.cc/fThRdXF4/Ladreda_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ladreda",
+        "url": "fichajugador.html?player=ladreda"
+    },
+    "cabanes": {
+        "src": "https://i.postimg.cc/MHNgJyQW/Cabanes_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Cabanes",
+        "url": "fichajugador.html?player=cabanes"
+    },
+    "leixo": {
+        "src": "https://i.postimg.cc/7PSxqhLK/Leixo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Leixo",
+        "url": "fichajugador.html?player=leixo"
+    },
+    "mijares": {
+        "src": "https://i.postimg.cc/2j00bF3y/Mijares_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Mijares",
+        "url": "fichajugador.html?player=mijares"
+    },
+    "inciarte": {
+        "src": "https://i.postimg.cc/vBqZ9Sp3/Inciarte_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Inciarte",
+        "url": "fichajugador.html?player=inciarte"
+    },
+    "casuco": {
+        "src": "https://i.postimg.cc/SN8mNsNZ/Casuco_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Casuco",
+        "url": "fichajugador.html?player=casuco"
+    },
+    "felipe1935": {
+        "src": "https://i.postimg.cc/qMmxqkb3/Felipe_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Felipe1935",
+        "url": "fichajugador.html?player=felipe1935"
+    },
+    "chusalonso": {
+        "src": "https://i.postimg.cc/P5ysP8GM/Chus_Alonso_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Chus Alonso",
+        "url": "fichajugador.html?player=chusalonso"
+    },
+    "luisin1934": {
+        "src": "https://i.postimg.cc/13XhV39h/Luisín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Luisín",
+        "url": "fichajugador.html?player=luisin1934"
+    },
+    "manolinarguelles": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Manolín Argüelles",
+        "url": "fichajugador.html?player=manolinarguelles"
+    },
+    "arevalo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Arévalo",
+        "url": "fichajugador.html?player=arevalo"
+    },
+    "meana1934": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Meana",
+        "url": "fichajugador.html?player=meana1934"
+    },
+    "ojanguren1934": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Ojanguren",
+        "url": "fichajugador.html?player=ojanguren1934"
+    },
     
     // ENTRENADORES
     "paunovic": {
@@ -8346,6 +8458,27 @@ const playersDatabase = {
         "number": "-",
         "name": "Meana",
         "url": "fichajugador.html?player=meana"
+    },
+    "marti": {
+        "src": "https://i.postimg.cc/PJ6LK50s/Martí_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Martí",
+        "url": "fichajugador.html?player=marti"
+    },
+    "pena1935": {
+        "src": "https://i.postimg.cc/x8FCMFb9/Peña_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Peña",
+        "url": "fichajugador.html?player=pena1935"
+    },
+    "sampere": {
+        "src": "https://i.postimg.cc/WbFpx8kJ/Sampere_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Sampere",
+        "url": "fichajugador.html?player=sampere"
     },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
