@@ -856,6 +856,48 @@ const playersDatabase = {
         "name": "Héctor",
         "url": "fichajugador.html?player=hector"
     },
+    "zarraonandia": {
+        "src": "https://i.postimg.cc/D0Fvs3ZV/Zarraonandía_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Zarraonandía",
+        "url": "fichajugador.html?player=zarraonandia"
+    },
+    "santander": {
+        "src": "https://i.postimg.cc/Kz3kQbxR/Santander_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Santander",
+        "url": "fichajugador.html?player=santander"
+    },
+    "nilo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Nilo",
+        "url": "fichajugador.html?player=nilo"
+    },
+    "mino1931": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Mino",
+        "url": "fichajugador.html?player=mino1931"
+    },
+    "torino": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Torino",
+        "url": "fichajugador.html?player=torino"
+    },
+    "benjamin1930": {
+        "src": "https://i.postimg.cc/tRPp5JQh/Benjamín_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Benjamín",
+        "url": "fichajugador.html?player=benjamin1930"
+    },
     
     // DEFENSAS
     "bailly": {
@@ -3055,6 +3097,83 @@ const playersDatabase = {
         "number": "-",
         "name": "Fuentes",
         "url": "fichajugador.html?player=fuentes"
+    },
+    "ibanez": {
+        "src": "https://i.postimg.cc/cH7cLd3V/Ibáñez_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ibáñez",
+        "url": "fichajugador.html?player=ibanez"
+    },
+    "sionii": {
+        "src": "https://i.postimg.cc/8sgJJvV4/Sión_II_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Sión II",
+        "url": "fichajugador.html?player=sionii"
+    },
+    "ciriaco": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Ciriaco",
+        "url": "fichajugador.html?player=ciriaco"
+    },
+    "luisin1933": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Luisín",
+        "url": "fichajugador.html?player=luisin1933"
+    },
+    "firpo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Firpo",
+        "url": "fichajugador.html?player=firpo"
+    },
+    "perez1933": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Pérez",
+        "url": "fichajugador.html?player=perez1933"
+    },
+    "botella": {
+        "src": "https://i.postimg.cc/x1bTm8dN/Botella_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Botella",
+        "url": "fichajugador.html?player=botella"
+    },
+    "villarramendi": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Villarramendi",
+        "url": "fichajugador.html?player=villarramendi"
+    },
+    "goyo1931": {
+        "src": "https://i.postimg.cc/9XtxWYtr/Goyo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Goyo",
+        "url": "fichajugador.html?player=goyo1931"
+    },
+    "mariscal": {
+        "src": "https://i.postimg.cc/3RDxXw1c/Mariscal_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Mariscal",
+        "url": "fichajugador.html?player=mariscal"
+    },
+    "trucha": {
+        "src": "https://i.postimg.cc/GhvXpw0P/Trucha_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Trucha",
+        "url": "fichajugador.html?player=trucha"
     },
     
     // CENTROCAMPISTAS
@@ -5626,6 +5745,118 @@ const playersDatabase = {
         "number": "-",
         "name": "José Ramón",
         "url": "fichajugador.html?player=joseramon"
+    },
+    "mugarra": {
+        "src": "https://i.postimg.cc/52WX98xk/Mugarra_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Mugarra",
+        "url": "fichajugador.html?player=mugarra"
+    },
+    "eguiburu": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Eguiburu",
+        "url": "fichajugador.html?player=eguiburu"
+    },
+    "tamargo1933": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tamargo",
+        "url": "fichajugador.html?player=tamargo1933"
+    },
+    "gerardo": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Gerardo",
+        "url": "fichajugador.html?player=gerardo"
+    },
+    "paredes": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Paredes",
+        "url": "fichajugador.html?player=paredes"
+    },
+    "severino": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Severino",
+        "url": "fichajugador.html?player=severino"
+    },
+    "tole": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tole",
+        "url": "fichajugador.html?player=tole"
+    },
+    "pablito": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Pablito",
+        "url": "fichajugador.html?player=pablito"
+    },
+    "baragano": {
+        "src": "https://i.postimg.cc/V6mQZLW6/Baragaño_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Baragano",
+        "url": "fichajugador.html?player=baragano"
+    },
+    "avilesu": {
+        "src": "https://i.postimg.cc/13VQfdz9/Avilesu_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Avilesu",
+        "url": "fichajugador.html?player=avilesu"
+    },
+    "valentin1931": {
+        "src": "https://i.postimg.cc/g2pBVBzy/Valentín_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Valentín",
+        "url": "fichajugador.html?player=valentin1931"
+    },
+    "tomas1930": {
+        "src": "https://i.postimg.cc/wj5Q9qdL/Tomás_(1930)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tomás",
+        "url": "fichajugador.html?player=tomas1930"
+    },
+    "estevez": {
+        "src": "https://i.postimg.cc/tTkT2cPK/Estévez_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Estévez",
+        "url": "fichajugador.html?player=estevez"
+    },
+    "tonijuan1930": {
+        "src": "https://i.postimg.cc/grF3P5Sg/Tonijuán_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tonijuan",
+        "url": "fichajugador.html?player=tonijuan1930"
+    },
+    "arturo1930": {
+        "src": "https://i.postimg.cc/Y9HMcxMt/Arturo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Tonijuan",
+        "url": "fichajugador.html?player=arturo1930"
+    },
+    "benito": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Benito",
+        "url": "fichajugador.html?player=benito"
     },
     
     // DELANTEROS
