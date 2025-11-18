@@ -670,6 +670,46 @@ const seasonsSquads = {
         "forwards": ["herrerita1949", "emilin", "gallart", "goyin", "pedrin", "chas", "echevarria1950", "cuesta", "anton1950", "cholodindurra", "malon", "ojanguren", "negri", "balbino"],
         "coaches": ["meana"],
         // ... solo IDs
+    },
+    "1941-42": {
+        "goalkeepers": ["florenza", "cheno", "sioni", "leoncio"],
+        "defenders": ["pena1946", "valerio", "sporti"],
+        "midfielders": ["olay", "soladrero", "victorero", "villita", "campos", "sirio", "llana"],
+        "forwards": ["herrerita1949", "emilin", "gallart", "goyin", "pedrin", "menendez1944", "pipi", "cuesta", "anton1950", "campanal", "zabala1941", "ojanguren", "ladreda", "balbino"],
+        "coaches": ["oscaralvarez1955", "herrerita1960", "meana"],
+        // ... solo IDs
+    },
+    "1940-41": {
+        "goalkeepers": ["florenza", "cheno"],
+        "defenders": ["pena1946", "canor", "riera", "quiros1940", "valerio"],
+        "midfielders": ["olay", "soladrero", "victorero", "villita", "campos", "ramonzuelo", "travieso", "david"],
+        "forwards": ["herrerita1949", "emilin", "gallart", "cabanes", "pedrin", "menendez1944", "leixo", "anton1950", "campanal", "ojanguren", "balbino", "mijares"],
+        "coaches": ["herrerita1960", "marti"],
+        // ... solo IDs
+    },
+    "1935-36": {
+        "goalkeepers": ["oscar1935", "florenza"],
+        "defenders": ["pena1946", "calichi", "riera", "laviada"],
+        "midfielders": ["chus", "soladrero", "sirio", "castro1935", "mino1935"],
+        "forwards": ["inciarte", "herrerita1949", "emilin", "gallart", "langara", "casuco", "felipe1935", "leixo", "chusalonso", "anton1950"],
+        "coaches": ["pena1935"],
+        // ... solo IDs
+    },
+    "1934-35": {
+        "goalkeepers": ["oscar1935", "florenza", "hector"],
+        "defenders": ["pena1946", "calichi", "jesusin", "panadero1934", "tuya", "fuentes", "laviada"],
+        "midfielders": ["chus", "soladrero", "sirio", "castro1935", "colas", "joseramon"],
+        "forwards": ["inciarte", "herrerita1949", "emilin", "gallart", "langara", "casuco", "felipe1935", "leixo", "chusalonso", "anton1950"],
+        "coaches": ["pena1935"],
+        // ... solo IDs
+    },
+    "1934-35": {
+        "goalkeepers": ["oscar1935", "florenza", "hector"],
+        "defenders": ["pena1946", "calichi", "jesusin", "panadero1934", "tuya", "fuentes", "laviada"],
+        "midfielders": ["chus", "soladrero", "sirio", "castro1935", "colas", "joseramon"],
+        "forwards": ["inciarte", "herrerita1949", "emilin", "gallart", "langara", "casuco", "luisin1934", "leixo", "chusalonso", "manolinarguelles", "arevalo", "meana1934"],
+        "coaches": ["sampere"],
+        // ... solo IDs
     }
     
     // ... todas las temporadas
