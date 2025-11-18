@@ -8163,6 +8163,181 @@ const playersDatabase = {
         "name": "Ojanguren",
         "url": "fichajugador.html?player=ojanguren1934"
     },
+    "chusle": {
+        "src": "https://i.postimg.cc/DyVKDTd1/Chuslé_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Chuslé",
+        "url": "fichajugador.html?player=chusle"
+    },
+    "peto": {
+        "src": "https://i.postimg.cc/wvCLLMKW/Peto_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Peto",
+        "url": "fichajugador.html?player=peto"
+    },
+    "chanin": {
+        "src": "https://i.postimg.cc/tgRb5Ndf/Chanín_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Chanín",
+        "url": "fichajugador.html?player=chanin"
+    },
+    "cano1933": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Cano",
+        "url": "fichajugador.html?player=cano1933"
+    },
+    "teo1933": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Teo",
+        "url": "fichajugador.html?player=teo1933"
+    },
+    "pepealonso": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pepe Alonso",
+        "url": "fichajugador.html?player=pepealonso"
+    },
+    "azpiroz": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Azpiroz",
+        "url": "fichajugador.html?player=azpiroz"
+    },
+    "gale": {
+        "src": "https://i.postimg.cc/pVCDcWt6/Galé_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Galé",
+        "url": "fichajugador.html?player=gale"
+    },
+    "muno": {
+        "src": "https://i.postimg.cc/K8B7Nncn/Muñó_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Muñó",
+        "url": "fichajugador.html?player=muno"
+    },
+    "tomasin": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Tomasín",
+        "url": "fichajugador.html?player=tomasin"
+    },
+    "chichi": {
+        "src": "https://i.postimg.cc/G287jWZ2/Chichi-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Chichi",
+        "url": "fichajugador.html?player=chichi"
+    },
+    "mturon": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "M. Turón",
+        "url": "fichajugador.html?player=mturon"
+    },
+    "herrero1932": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Herrero",
+        "url": "fichajugador.html?player=herrero1932"
+    },
+    "miranda1931": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Miranda",
+        "url": "fichajugador.html?player=miranda1931"
+    },
+    "polon": {
+        "src": "https://i.postimg.cc/90HwzkTK/Polón_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Polón",
+        "url": "fichajugador.html?player=polon"
+    },
+    "paco1930": {
+        "src": "https://i.postimg.cc/9QYb2d3c/Paco_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Paco",
+        "url": "fichajugador.html?player=paco1930"
+    },
+    "fernandez1930": {
+        "src": "https://i.postimg.cc/nLm43qH4/Fernández_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Fernández",
+        "url": "fichajugador.html?player=fernandez1930"
+    },
+    "tamargo1930": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Tamargo",
+        "url": "fichajugador.html?player=tamargo1930"
+    },
+    "barril": {
+        "src": "https://i.postimg.cc/5NGffzVQ/Barril_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Barril",
+        "url": "fichajugador.html?player=barril"
+    },
+    "urrutia": {
+        "src": "https://i.postimg.cc/fLTgpHJ4/Urrutia_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Urrutia",
+        "url": "fichajugador.html?player=urrutia"
+    },
+    "alamo": {
+        "src": "https://i.postimg.cc/4dt91GQB/Álamo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Álamo",
+        "url": "fichajugador.html?player=alamo"
+    },
+    "errandonea": {
+        "src": "https://i.postimg.cc/nhP2RHqJ/Errandonea_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Errandonea",
+        "url": "fichajugador.html?player=errandonea"
+    },
+    "chuche": {
+        "src": "https://i.postimg.cc/pV5HqT82/Chuché_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Chuché",
+        "url": "fichajugador.html?player=chuche"
+    },
+    "pirelo": {
+        "src": "https://i.postimg.cc/CKdq2kSP/Pirelo_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pirelo",
+        "url": "fichajugador.html?player=pirelo"
+    },
+    "quintana1930": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Quintana",
+        "url": "fichajugador.html?player=quintana1930"
+    },
     
     // ENTRENADORES
     "paunovic": {
@@ -8710,6 +8885,20 @@ const playersDatabase = {
         "number": "-",
         "name": "Sampere",
         "url": "fichajugador.html?player=sampere"
+    },
+    "tonijuan": {
+        "src": "https://i.postimg.cc/8cFDQkjV/Tonijuan_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Tonijuan",
+        "url": "fichajugador.html?player=tonijuan"
+    },
+    "patrickoconnell": {
+        "src": "https://i.postimg.cc/k4qBmSmP/Patrick_O_Connell_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Patrick O'Connell",
+        "url": "fichajugador.html?player=patrickoconnell"
     },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
