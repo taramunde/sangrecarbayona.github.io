@@ -12,10 +12,33 @@
   "nextMatch": {
     "home": "ATM",
     "homeImg": "https://i.postimg.cc/MT6NxX9P/Club-Atletico-de-Madrid-(2000).jpg",
-    "visitorImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
     "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
     "score": " - ",
     "date": "Sáb. 29 Nov, 21:00",
     "time": "El Metropolitano"
-  }
+  },
+
+  "goalscorers": [
+    {
+      "name": "Álex Cardero",
+      "number": "16",
+      "photo": "https://i.postimg.cc/0y9n7K7P/alex-cardero.png",
+      "nation": "https://i.ibb.co/3Y4mY3Q/Espa-a.png",
+      "goals": 1,
+      "minute": "12'",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/alex-cardero/profil/spieler/887697"
+    },
+    {
+      "name": "Santi Cazorla",
+      "number": "8",
+      "photo": "https://i.postimg.cc/3w1n5VJ2/santi-cazorla-2025.png",
+      "nation": "https://i.ibb.co/3Y4mY3Q/Espa-a.png",
+      "goals":1,
+      "minute": "83'",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/santiago-cazorla/profil/spieler/15799"
+    }
+  ]
 }
