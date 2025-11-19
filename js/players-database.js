@@ -8409,7 +8409,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=fernandez1930"
     },
     "tamargo1930": {
-        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "src": "https://i.postimg.cc/zfYstSC5/Tamargo_PNG.webp",
         "alt": "Delantero",
         "number": "-",
         "name": "Tamargo",
