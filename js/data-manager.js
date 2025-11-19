@@ -46,21 +46,20 @@ function cargarDatosPartido() {
                 next.querySelector('.time small').textContent = data.nextMatch.date;
             }
 
-                        // === GOLEADORES DINÁMICOS ===
+                                    // === GOLEADORES DINÁMICOS ===
             const container = document.getElementById('goalscorers-container');
             const noGoalsCard = document.getElementById('no-goals-card');
 
-            if (!container) return;
+            if (!container || !noGoalsCard) return;
 
             container.innerHTML = '';
-            noGoalsCard.classList.remove('hidden'); // por si acaso
+            noGoalsCard.classList.remove('hidden');
 
             if (!data.goalscorers || data.goalscorers.length === 0) {
                 noGoalsCard.classList.remove('hidden');
                 return;
             }
 
-            // OCULTAMOS LA TARJETA "SIN GOLES"
             noGoalsCard.classList.add('hidden');
 
             data.goalscorers.forEach(player => {
@@ -71,7 +70,7 @@ function cargarDatosPartido() {
                             <div class="player-image-container">
                                 <img class="player-image" src="${player.photo}" alt="${player.name}">
                             </div>
-                            <img class="nation-country" src="${player.nation}" alt="Nación">
+                            <img class="nation-country" src="${player.nation}" alt="Bandera">
                             <img class="team-crest" src="https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png" alt="Real Oviedo">
                             <div class="player-number">${player.number}</div>
                             <div class="player-name">${player.name}</div>
@@ -79,7 +78,7 @@ function cargarDatosPartido() {
                         </div>
                         <div class="back">
                             <div class="player-name-back"><u>${player.name.toUpperCase()}</u></div>
-                            <div class="temp-name">(Temp. ${player.temp})</div> 
+                            <div class="temp-name">(Temp. ${player.temp})</div>
                             <div class="stats">
                                 <div class="stat"><span>PARTIDOS JUGADOS:</span><span>--</span></div>
                                 <div class="stat"><span>ASISTENCIAS:</span><span>--</span></div>
