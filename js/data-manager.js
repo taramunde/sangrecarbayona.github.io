@@ -1,28 +1,27 @@
-// js/data-manager.js
+// js/data-manager.js - VERSIÓN FINAL 100% FUNCIONAL (19/11/2025)
 let partidoData = {};
 
 function cargarDatosPartido() {
-    fetch('data.json?' + new Date().getTime())
-        .then(response => response.ok ? response.json() : Promise.reject('Error cargando data.json'))
+    fetch('data.json?' + Date.now())
+        .then(r => r.ok ? r.json() : Promise.reject())
         .then(data => {
             partidoData = data;
 
-            // === JORNADA ===
-            const esNoticias = document.body.textContent.includes('ÚLTIMAS NOTICIAS SOBRE EL REAL OVIEDO');
-            const jornadaNumero = data.jornada.split(' ')[0];
-            const jornadaTexto = `${jornadaNumero} LaLiga EA Sports 2025/26`;
-
+            // ==== JORNADA ====
+            const jornadaTexto = data.jornada || "13 LaLiga EA Sports 2025/26";
             document.querySelectorAll('.jornada-text').forEach(el => {
-                if (el.textContent.includes('Partido Finalizado') || esNoticias) {
+                if (el.textContent.includes('Partido Finalizado') || el.textContent.includes('NOTICIAS')) {
                     el.textContent = `Partido Finalizado - Jornada ${jornadaTexto}`;
                 } else if (el.textContent.includes('Siguiente partido')) {
-                    el.textContent = 'Siguiente partido';
+                    el.textContent = "Siguiente partido";
+                } else if (el.textContent.includes('Goleadores')) {
+                    el.textContent = `Goleadores Jornada ${jornadaTexto}`;
                 } else {
                     el.textContent = `Jornada ${jornadaTexto}`;
                 }
             });
 
-            // === PARTIDO ACTUAL / FINALIZADO ===
+            // ==== PARTIDO ACTUAL ====
             const current = document.getElementById('current-match');
             if (current) {
                 current.querySelector('.team-home img').src = data.currentMatch.homeImg;
@@ -34,7 +33,7 @@ function cargarDatosPartido() {
                 current.querySelector('.time small').textContent = data.currentMatch.date;
             }
 
-            // === SIGUIENTE PARTIDO ===
+            // ==== SIGUIENTE PARTIDO ====
             const next = document.getElementById('next-match');
             if (next) {
                 next.querySelector('.team-home img').src = data.nextMatch.homeImg;
@@ -46,48 +45,49 @@ function cargarDatosPartido() {
                 next.querySelector('.time small').textContent = data.nextMatch.date;
             }
 
-                                    // === GOLEADORES DINÁMICOS ===
+            // ==== GOLEADORES ====
             const container = document.getElementById('goalscorers-container');
             const noGoalsCard = document.getElementById('no-goals-card');
-
-            if (!container || !noGoalsCard) return;
-
-            container.innerHTML = '';
-            noGoalsCard.classList.remove('hidden');
-
-            if (!data.goalscorers || data.goalscorers.length === 0) {
+            if (container && noGoalsCard) {
+                container.innerHTML = '';
                 noGoalsCard.classList.remove('hidden');
-                return;
+
+                if (!data.goalscorers || data.goalscorers.length === 0) {
+                    noGoalsCard.classList.remove('hidden');
+                } else {
+                    noGoalsCard.classList.add('hidden');
+                    data.goalscorers.forEach(p => {
+                        container.insertAdjacentHTML('beforeend', `
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="front">
+                                    <div class="player-image-container">
+                                        <img class="player-image" src="${p.photo}" alt="${p.name}">
+                                    </div>
+                                    <img class="nation-country" src="${p.nation}" alt="Bandera">
+                                    <img class="team-crest" src="https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png">
+                                    <div class="player-number">${p.number}</div>
+                                    <div class="player-name">${p.name}</div>
+                                    <div class="team-name">Real Oviedo</div>
+                                </div>
+                                <div class="back">
+                                    <div class="player-name-back"><u>${p.name.toUpperCase()}</u></div>
+                                    <div class="temp-name">(Temp. ${p.temp})</div>
+                                    <div class="stats">
+                                        <div class="stat"><span>PARTIDOS JUGADOS:</span><span>--</span></div>
+                                        <div class="stat"><span>ASISTENCIAS:</span><span>--</span></div>
+                                        <div class="stat"><span>GOLES:</span><span>${p.goals}</span></div>
+                                        <div class="stat"><span>GOL MINUTO:</span><span>${p.minute}</span></div>
+                                    </div>
+                                    <a href="${p.link}" target="_blank" class="link-button">Ver Ficha</a>
+                                </div>
+                            </div>
+                        </div>`);
+                    });
+                }
             }
+        })
+        .catch(err => console.error('Error data.json:', err));
+}
 
-            noGoalsCard.classList.add('hidden');
-
-            data.goalscorers.forEach(player => {
-                const cardHTML = `
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front">
-                            <div class="player-image-container">
-                                <img class="player-image" src="${player.photo}" alt="${player.name}">
-                            </div>
-                            <img class="nation-country" src="${player.nation}" alt="Bandera">
-                            <img class="team-crest" src="https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png" alt="Real Oviedo">
-                            <div class="player-number">${player.number}</div>
-                            <div class="player-name">${player.name}</div>
-                            <div class="team-name">Real Oviedo</div>
-                        </div>
-                        <div class="back">
-                            <div class="player-name-back"><u>${player.name.toUpperCase()}</u></div>
-                            <div class="temp-name">(Temp. ${player.temp})</div>
-                            <div class="stats">
-                                <div class="stat"><span>PARTIDOS JUGADOS:</span><span>--</span></div>
-                                <div class="stat"><span>ASISTENCIAS:</span><span>--</span></div>
-                                <div class="stat"><span>GOLES:</span><span>${player.goals}</span></div>
-                                <div class="stat"><span>GOL MINUTO:</span><span>${player.minute}</span></div>
-                            </div>
-                            <a href="${player.link}" target="_blank" class="link-button">Ver Ficha</a>
-                        </div>
-                    </div>
-                </div>`;
-                container.insertAdjacentHTML('beforeend', cardHTML);
-            });
+document.addEventListener('DOMContentLoaded', cargarDatosPartido);
