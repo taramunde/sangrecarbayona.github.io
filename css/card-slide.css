@@ -1,52 +1,62 @@
-/* css/card-slide.css - Versión corregida 2025 */
+/* css/card-slide.css - Versión RESPONSIVE PERFECTA (Móvil + PC) */
 
-/* Contenedor principal */
 .cards-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 60px;                    /* ← MÁS ESPACIO ENTRE TARJETAS */
-    padding: 50px 20px;
+    gap: 40px;                    /* Espacio bonito entre tarjetas */
+    padding: 40px 20px;
     margin: 0 auto;
     max-width: 100%;
     overflow-x: auto;
 }
 
+/* Tamaño adaptable según pantalla */
 .card-container {
     flex: 0 0 auto;
-    width: 300px;                 /* Un poco más grandes */
     perspective: 1000px;
+    width: 260px;                 /* Tamaño base perfecto para móvil */
 }
 
+/* En pantallas medianas y grandes → tarjetas más grandes y elegantes */
+@media (min-width: 768px) {
+    .card-container {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-container {
+        width: 340px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card-container {
+        width: 380px;
+    }
+}
+
+/* Tarjeta SIN GOLES */
 #no-goals-card.hidden {
-    display: none !important;     /* Ocultamos del todo cuando hay goles */
+    display: none !important;
 }
 
-/* Tarjeta SIN GOLES - la ocultamos cuando hay goles */
-#no-goals-card {
-    opacity: 1;
-    transition: opacity 0.5s;
-}
-
-#no-goals-card.hidden {
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    left: -9999px;
-}
-
-/* La carta en sí (front + back) */
+/* La carta (flip) */
 .card {
     width: 100%;
-    height: 440px;
+    height: 420px;                /* Altura fija para que no bailen */
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
 }
 
-.card-container:hover .card {
+.card-container:hover .card,
+.card-container:active .card {
     transform: rotateY(180deg);
 }
 
@@ -57,7 +67,6 @@
     backface-visibility: hidden;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     background: linear-gradient(135deg, #0033cc, #0066ff);
     color: white;
 }
@@ -71,35 +80,117 @@
     justify-content: space-between;
 }
 
-/* Resto de estilos que ya tenías (los mantengo igual) */
-.player-image-container { text-align: center; margin: 20px 0; }
-.player-image { width: 190px; height: 190px; object-fit: cover; border-radius: 50%; border: 5px solid white; }
-.nation-country { position: absolute; top: 10px; left: 10px; width: 40px; }
-.team-crest { position: absolute; top: 10px; right: 10px; width: 60px; }
-.player-number { font-size: 4em; font-weight: bold; opacity: 0.2; position: absolute; bottom: 20px; right: 20px; }
-.player-name { font-size: 1.6em; font-weight: bold; text-align: center; margin-top: 10px; }
-.team-name, .team-name2 { text-align: center; font-size: 1.2em; margin-top: 5px; }
-
-.no-goals-text {
-    font-size: 2.5em;
-    font-weight: bold;
+/* Foto del jugador - responsive */
+.player-image-container {
     text-align: center;
-    margin-top: 150px;
-    color: rgba(255,255,255,0.6);
+    margin: 15px 0;
 }
 
-.stats { font-size: 1.1em; }
-.stat { display: flex; justify-content: space-between; margin: 8px 0; }
+.player-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* En pantallas grandes → foto más grande */
+@media (min-width: 768px) {
+    .player-image {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .player-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Banderas y escudo */
+.nation-country {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.team-crest {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 60px;
+}
+
+/* Número grande detrás */
+.player-number {
+    font-size: 5.5em;
+    font-weight: bold;
+    opacity: 0.15;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    pointer-events: none;
+}
+
+/* Nombre y equipo */
+.player-name {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.team-name, .team-name2 {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 5px;
+}
+
+/* SIN GOLES */
+.no-goals-text {
+    font-size: 2.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 140px;
+    color: rgba(255,255,255,0.7);
+    text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+/* Estadísticas */
+.stats {
+    font-size: 1.05em;
+    line-height: 1.6;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+/* Botón ficha */
 .link-button {
     display: block;
     text-align: center;
     background: #ffcc00;
     color: #000;
-    padding: 12px;
-    border-radius: 10px;
+    padding: 14px;
+    border-radius: 12px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    transition: all 0.3s;
 }
 
-.link-button:hover { background: white; }
+.link-button:hover {
+    background: white;
+    transform: translateY(-3px);
+}
