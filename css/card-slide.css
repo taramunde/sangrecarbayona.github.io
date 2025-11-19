@@ -1,42 +1,79 @@
-/* css/card-slide.css - VERSIÓN DEFINITIVA: derecha←izquierda en PC + espacio brutal en móvil */
+/* css/card-slide.css - VERSIÓN CARRUSEL SCROLL */
 
 .cards-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
     
-    /* Dirección de derecha a izquierda en pantallas grandes */
-    flex-direction: row-reverse;          /* ← CLAVE PARA PC */
+    /* CONFIGURACIÓN DESKTOP (Por defecto) */
+    /* Alineación horizontal izquierda a derecha */
+    flex-direction: row; 
+    /* IMPORTANTE: nowrap impide que bajen de línea, forzando el scroll */
+    flex-wrap: nowrap;   
+    /* Activa el scroll horizontal si no caben */
+    overflow-x: auto;    
     
-    gap: 80px 50px;                       /* 80px vertical (móvil) - 50px horizontal (PC) */
-    padding: 60px 20px;
-    margin: 0 auto;
+    /* Espacio entre tarjetas (Desktop) */
+    gap: 50px;           
+    
+    /* Espaciado interno del contenedor para que no se corten las sombras */
+    padding: 60px 40px;  
+    
+    /* Mejora visual del scroll */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Suavidad en pantallas táctiles */
 }
 
-/* En móvil y tablet: volvemos a dirección normal (de arriba abajo) */
-@media (max-width: 1023px) {
-    .cards-wrapper {
-        flex-direction: column;           /* Una debajo de otra */
-        align-items: center;              /* Centradas */
-        gap: 80px;                        /* Espacio grande entre tarjetas */
-    }
+/* Estilo de la barra de scroll (Opcional - para navegadores Webkit como Chrome/Safari) */
+.cards-wrapper::-webkit-scrollbar {
+    height: 12px;
+}
+.cards-wrapper::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.cards-wrapper::-webkit-scrollbar-thumb {
+    background: #0033cc; /* Color azul de tu tema */
+    border-radius: 10px;
+}
+.cards-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #002288;
 }
 
-/* Tamaño de las tarjetas - responsive */
+/* TAMAÑO DE LAS TARJETAS */
 .card-container {
-    flex: 0 0 auto;
+    /* flex-shrink: 0 asegura que las tarjetas no se aplasten al hacer scroll */
+    flex: 0 0 auto; 
     perspective: 1000px;
-    width: 280px;                         /* Móvil */
-}
-
-@media (min-width: 768px) {
-    .card-container { width: 320px; }
+    width: 320px; /* Ancho estándar */
 }
 
 @media (min-width: 1024px) {
-    .card-container { width: 360px; }     /* PC grande */
+    .card-container { width: 360px; } /* Más grandes en pantallas grandes */
 }
+
+
+/* --- VERSIÓN MÓVIL Y TABLET (Menos de 1024px) --- */
+@media (max-width: 1023px) {
+    .cards-wrapper {
+        /* Cambiamos a vertical */
+        flex-direction: column; 
+        /* Centramos las tarjetas */
+        align-items: center;    
+        /* Quitamos el scroll horizontal en móvil ya que es vertical */
+        overflow-x: hidden;     
+        
+        /* Espacio vertical entre tarjetas en móvil */
+        gap: 60px;              
+    }
+
+    .card-container {
+        width: 280px; /* Un poco más estrechas para móviles pequeños */
+    }
+}
+
+/* ESTILOS VISUALES DE LA CARTA (Se mantienen igual que tu diseño original) */
 
 /* SIN GOLES oculto cuando hay goles */
 #no-goals-card.hidden {
@@ -88,6 +125,8 @@
     border-radius: 50%;
     border: 7px solid white;
     box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+    display: block;
+    margin: 0 auto; /* Centrar imagen */
 }
 
 @media (min-width: 768px) {
