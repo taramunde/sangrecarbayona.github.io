@@ -14,7 +14,7 @@ function cargarDatosPartido() {
                     el.textContent = `Partido Finalizado - Jornada ${jornadaTexto}`;
                 } else if (el.textContent.includes('Siguiente partido')) {
                     el.textContent = "Siguiente partido";
-                } else if (el.textContent.includes('Goleadores')) {
+                } else if (el.textContent.toLowerCase().includes('goleadores')) {
                     el.textContent = `Goleadores Jornada ${jornadaTexto}`;
                 } else {
                     el.textContent = `Jornada ${jornadaTexto}`;
