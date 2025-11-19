@@ -3203,6 +3203,20 @@ const playersDatabase = {
         "name": "Trucha",
         "url": "fichajugador.html?player=trucha"
     },
+    "pololo": {
+        "src": "https://i.postimg.cc/VLhZTLWR/Pololo_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Pololo",
+        "url": "fichajugador.html?player=pololo"
+    },
+    "comas": {
+        "src": "https://i.postimg.cc/pLQ43MG1/Comas_PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Comas",
+        "url": "fichajugador.html?player=comas"
+    },
     
     // CENTROCAMPISTAS
     "albertoreina": {
@@ -5886,6 +5900,90 @@ const playersDatabase = {
         "name": "Benito",
         "url": "fichajugador.html?player=benito"
     },
+    "justo": {
+        "src": "https://i.postimg.cc/hPSYk5mC/Justo_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Justo",
+        "url": "fichajugador.html?player=justo"
+    },
+    "abdon": {
+        "src": "https://i.postimg.cc/xTymBsQ1/Abdón_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Abdón",
+        "url": "fichajugador.html?player=abdon"
+    },
+    "norena1929": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Noreña",
+        "url": "fichajugador.html?player=norena1929"
+    },
+    "cubano": {
+        "src": "https://i.postimg.cc/FF0GsVv2/Cubano_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Cubano",
+        "url": "fichajugador.html?player=cubano"
+    },
+    "mieres": {
+        "src": "https://i.postimg.cc/G2m8wrcL/Mieres_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Mieres",
+        "url": "fichajugador.html?player=mieres"
+    },
+    "chiquilin": {
+        "src": "https://i.postimg.cc/pL3PCHSh/Aniceto_(Chiquilín)_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Chiquilín",
+        "url": "fichajugador.html?player=chiquilin"
+    },
+    "bienvenido": {
+        "src": "https://i.postimg.cc/66HJzK2W/Bienvenido_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Bienvenido",
+        "url": "fichajugador.html?player=bienvenido"
+    },
+    "muslera": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Muslera",
+        "url": "fichajugador.html?player=muslera"
+    },
+    "emilio1927": {
+        "src": "https://i.postimg.cc/MKFnCg4x/Emilio_Menéndez_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Emilio",
+        "url": "fichajugador.html?player=emilio1927"
+    },
+    "esparza": {
+        "src": "https://i.postimg.cc/50by5JH5/Esparza_PNG.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Esparza",
+        "url": "fichajugador.html?player=esparza"
+    },
+    "duarte1926": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Duarte",
+        "url": "fichajugador.html?player=duarte1926"
+    },
+    "cortina": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Centrocampista",
+        "number": "-",
+        "name": "Cortina",
+        "url": "fichajugador.html?player=cortina"
+    },
     
     // DELANTEROS
     "ilyas": {
@@ -8366,6 +8464,83 @@ const playersDatabase = {
         "name": "Quintana",
         "url": "fichajugador.html?player=quintana1930"
     },
+    "caramelero": {
+        "src": "https://i.postimg.cc/vBmK1P7Y/Caramelero_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Caramelero",
+        "url": "fichajugador.html?player=caramelero"
+    },
+    "sanmiguel": {
+        "src": "https://i.postimg.cc/vZCYQV5S/San_Miguel_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "San Miguel",
+        "url": "fichajugador.html?player=sanmiguel"
+    },
+    "zabala1928": {
+        "src": "https://i.postimg.cc/RCjxJBWN/Zabala_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Zabala",
+        "url": "fichajugador.html?player=zabala1928"
+    },
+    "aguirre1927": {
+        "src": "https://i.postimg.cc/4xNpRrXx/Aguirre_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Aguirre",
+        "url": "fichajugador.html?player=aguirre1927"
+    },
+    "paquito1927": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Paquito",
+        "url": "fichajugador.html?player=paquito1927"
+    },
+    "lorences": {
+        "src": "https://i.postimg.cc/qBcd9FmY/Lorences_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Lorences",
+        "url": "fichajugador.html?player=lorences"
+    },
+    "alfonso1926": {
+        "src": "https://i.postimg.cc/B6W8byfD/Alfonso_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Alfonso",
+        "url": "fichajugador.html?player=alfonso1926"
+    },
+    "pepin1926": {
+        "src": "https://i.postimg.cc/zvTWjN8q/Pepín_(1926)_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Pepín",
+        "url": "fichajugador.html?player=pepin1926"
+    },
+    "servando1926": {
+        "src": "https://i.postimg.cc/5N6W6t9c/Servando_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Servando",
+        "url": "fichajugador.html?player=servando1926"
+    },
+    "paladini": {
+        "src": "https://i.postimg.cc/mDty7KPr/Paladini_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Paladini",
+        "url": "fichajugador.html?player=paladini"
+    },
+    "capdevila": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Capdevila",
+        "url": "fichajugador.html?player=capdevila"
+    },
     
     // ENTRENADORES
     "paunovic": {
@@ -8927,6 +9102,27 @@ const playersDatabase = {
         "number": "-",
         "name": "Patrick O'Connell",
         "url": "fichajugador.html?player=patrickoconnell"
+    },
+    "fibver": {
+        "src": "https://i.postimg.cc/4x25nJ30/Fibver_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Fibver",
+        "url": "fichajugador.html?player=fibver"
+    },
+    "burton": {
+        "src": "https://i.postimg.cc/xTypjDMr/Burton_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Burton",
+        "url": "fichajugador.html?player=burton"
+    },
+    "fredpentland": {
+        "src": "https://i.postimg.cc/Z55HT9J3/Fred_Pentland_(entrenador)_PNG.webp",
+        "alt": "Entrenador",
+        "number": "-",
+        "name": "Fred Pentland",
+        "url": "fichajugador.html?player=fredpentland"
     },
     
     // AQUÍ AÑADES TODOS LOS DEMÁS JUGADORES DE TU HISTORIAL
