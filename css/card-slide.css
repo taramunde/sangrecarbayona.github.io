@@ -119,9 +119,9 @@
     position: absolute;
     width: 25px; /* Tamaño */
     /* POSICIONAMIENTO: */
-    top: 35px; /* A la altura del borde superior de la foto */
+    top: 40px; /* A la altura del borde superior de la foto */
     left: 50%; /* Nos ponemos en el centro de la tarjeta */
-    margin-left: 50px; /* Nos movemos 35px a la DERECHA del centro */
+    margin-left: 60px; /* Nos movemos 60px a la DERECHA del centro */
     
     z-index: 10; /* Encima de la foto */
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
