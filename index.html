@@ -228,79 +228,32 @@
         <p class="jornada-text">Goleadores Jornada 3 LaLiga EA Sports 2025/2026</p>
     </div>
 
-    <!-- Card Slide Widget -->
-
-    <div class="cards-wrapper">
-        <div class="card-container oculta">
-            <div class="card">
-                <div class="front">
-                    <div class="no-goals-text">SIN GOLES</div>
-                    <div class="player-name"></div>
-                    <div class="team-name2">Real Oviedo</div>
-                </div>
-                <div class="back">
-                    <div class="player-name-back">REAL OVIEDO</div>
-                    <div class="stats">
-                        <div class="stat">
-                            <span>Partidos Jugados:</span>
-                            <span>--</span>
-                        </div>
-                        <div class="stat">
-                            <span>Asistencias:</span>
-                            <span>--</span>
-                        </div>
-                        <div class="stat">
-                            <span>Goles:</span>
-                            <span>--</span>
-                        </div>
-                        <div class="stat">
-                            <span>Gol Minuto:</span>
-                            <span>--'</span>
-                        </div>
-                    </div>
-                    <a href="" class="link-button">Ver Ficha</a>
-                </div>
+    <!-- Card Slide Widget - GOLEADORES DINÁMICOS -->
+<div class="cards-wrapper">
+    <!-- Tarjeta por defecto "SIN GOLES" (se oculta si hay goles) -->
+    <div class="card-container" id="no-goals-card">
+        <div class="card">
+            <div class="front">
+                <div class="no-goals-text">SIN GOLES</div>
+                <div class="player-name"></div>
+                <div class="team-name2">Real Oviedo</div>
             </div>
-        </div>
-
-        <div class="card-container "> 
-            <div class="card">
-                <div class="front">
-                    <div class="player-image-container">
-                        <img class="player-image" src="https://i.postimg.cc/TPTyyn74/Dendoncker-PNG-2.png" alt="Dendoncker">
-                    </div>
-                    <img class="nation-country" src="https://i.ibb.co/chH3hYb/Belgica.png" alt="Bélgica">
-                    <img class="team-crest" src="https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png" alt="Real Oviedo">
-                    <div class="player-number">20</div>
-                    <div class="player-name">Dendoncker</div>
-                    <div class="team-name">Real Oviedo</div>
+            <div class="back">
+                <div class="player-name-back">REAL OVIEDO</div>
+                <div class="stats">
+                    <div class="stat"><span>Partidos Jugados:</span><span>--</span></div>
+                    <div class="stat"><span>Asistencias:</span><span>--</span></div>
+                    <div class="stat"><span>Goles:</span><span>--</span></div>
+                    <div class="stat"><span>Gol Minuto:</span><span>--'</span></div>
                 </div>
-                <div class="back">
-                    <div class="player-name-back"><u>DENDONCKER</u></div>
-                    <div class="temp-name">(Temp. 2025/26)</div> 
-                    <div class="stats">
-                        <div class="stat">
-                            <span>PARTIDOS JUGADOS:</span>
-                            <span>2</span>
-                        </div>
-                        <div class="stat">
-                            <span>ASISTENCIAS:</span>
-                            <span>0</span>
-                        </div>
-                        <div class="stat">
-                            <span>GOLES:</span>
-                            <span>1</span>
-                        </div>
-                        <div class="stat">
-                            <span>GOL MINUTO:</span>
-                            <span>40'</span>
-                        </div>
-                    </div>
-                    <a href="https://www.transfermarkt.es/leander-dendoncker/profil/spieler/168157" target="_blank" class="link-button">Ver Ficha</a>
-                </div>
+                <a href="" class="link-button">Ver Ficha</a>
             </div>
         </div>
     </div>
+
+    <!-- Aquí se insertarán automáticamente los goleadores -->
+    <div id="goalscorers-container"></div>
+</div>
            
           <!-- Separación visual -->
     <div class="spacer"></div>
@@ -449,6 +402,7 @@
     <script src="js/calendar.js?nocache=20251231v2"></script>
 </body>
 </html>
+
 
 
 
