@@ -182,15 +182,21 @@
     <p class="jornada-text">Partido Finalizado - Jornada 3 LaLiga EA Sports 2025/26</p>
 </div>
 
-     <!-- Marcador Deportivo Finalizado -->
-    <section class="container">
-        <ul class="score-board">
-            <li class="team-home"><img src="https://i.postimg.cc/2yxjqhtL/oviedo.jpg" alt="Real Oviedo" loading="lazy">OVI</li>
-            <li class="score">1 - 0</li>
-            <li class="team-visitor"><img src="https://i.postimg.cc/GtykfwWL/Real-Sociedad-de-F-tbol-2002.jpg" alt="Real Sociedad" loading="lazy">RSO</li>
-            <li class="time"><u>Carlos Tartiere</u><br><small>Finalizado - Sáb. 30 Ago, 19:00</small></li>
-        </ul>
-    </section>
+     <!-- Marcador del último partido jugado o actual -->
+<section class="container">
+    <ul class="score-board" id="current-match">
+        <li class="team-home">
+            <img src="" alt="" loading="lazy">
+            <span class="team-code"></span>  <!-- Aquí irá OVI, RSO, etc. -->
+        </li>
+        <li class="score">-</li>
+        <li class="team-visitor">
+            <img src="" alt="" loading="lazy">
+            <span class="team-code"></span>
+        </li>
+        <li class="time"><u></u><br><small></small></li>
+    </ul>
+</section>
 
     <!-- Sección de Noticias -->
     <div class="news-section">
@@ -247,13 +253,19 @@
 
     <!-- Nuevo Marcador Deportivo (Siguiente Partido) -->
     <section class="container">
-        <ul class="score-board next-match">
-            <li class="team-home"><img src="https://i.postimg.cc/2yxjqhtL/oviedo.jpg" alt="Real Oviedo" loading="lazy">OVI</li>
-            <li class="score"> - </li>
-            <li class="team-visitor"><img src="https://i.postimg.cc/7hX0b4gT/barcelona.png" alt="FC Barcelona" loading="lazy">BAR</li>
-            <li class="time"><u>Carlos Tartiere</u><br><small>Dom. 7 Sep, 18:30</small></li>
-        </ul>
-    </section>
+    <ul class="score-board next-match" id="next-match">
+        <li class="team-home">
+            <img src="" alt="" loading="lazy">
+            <span class="team-code"></span>
+        </li>
+        <li class="score"> - </li>
+        <li class="team-visitor">
+            <img src="" alt="" loading="lazy">
+            <span class="team-code"></span>
+        </li>
+        <li class="time"><u></u><br><small></small></li>
+    </ul>
+</section>
 
            <!-- Separación visual -->
     <div class="spacer"></div>
@@ -313,6 +325,7 @@
     <script src="js/calendar.js?nocache=20251231v2"></script>
 </body>
 </html>
+
 
 
 
