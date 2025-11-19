@@ -2,20 +2,20 @@
   "jornada": "13 LaLiga EA Sports 2025/26",
   "currentMatch": {
     "home": "OVI",
-    "visitor": "RVA",
-    "score": "-",
-    "date": "Dom. 23 Nov, 14:00",
-    "time": "Carlos Tartiere",
     "homeImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
-    "visitorImg": "https://i.postimg.cc/153WzLct/Rayo-Vallecano-de-Madrid-B-(2007).jpg"
+    "visitor": "RAY",
+    "visitorImg": "https://i.postimg.cc/153WzLct/Rayo-Vallecano-de-Madrid-B-(2007).jpg",
+    "score": "2 - 1",
+    "date": "Dom. 23 Nov, 14:00",
+    "time": "Carlos Tartiere"
   },
   "nextMatch": {
-    "home": "OVI",
-    "visitor": "RVA",
+    "home": "ATM",
+    "homeImg": "https://i.postimg.cc/MT6NxX9P/Club-Atletico-de-Madrid-(2000).jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
     "score": " - ",
-    "date": "Dom. 23 Nov, 14:00",
-    "time": "Carlos Tartiere",
-    "homeImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
-    "visitorImg": "https://i.postimg.cc/153WzLct/Rayo-Vallecano-de-Madrid-B-(2007).jpg"
+    "date": "Sáb. 29 Nov, 21:00",
+    "time": "El Metropolitano"
   }
 }
