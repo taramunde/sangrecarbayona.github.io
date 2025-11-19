@@ -1,4 +1,4 @@
-/* css/card-slide.css - VERSIÓN FINAL: RECTANGULAR + ICONOS EN CÍRCULO */
+/* css/card-slide.css - VERSIÓN: AJUSTE FINO DE POSICIONES */
 
 /* --- CONTENEDOR PRINCIPAL --- */
 .cards-wrapper {
@@ -59,7 +59,7 @@
 
 .card {
     width: 100%;
-    height: 360px; /* Formato rectangular */
+    height: 360px; 
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
@@ -86,7 +86,7 @@
 .front { 
     background: linear-gradient(135deg, #0033cc, #0066ff); 
     color: white; 
-    padding: 0; /* Quitamos padding global para posicionar libremente */
+    padding: 0; 
 }
 
 .back { 
@@ -101,73 +101,78 @@
 
 /* --- ELEMENTOS INTERNOS --- */
 
-/* FOTO DEL JUGADOR (Círculo central) */
-/* Margen superior 35px. Tamaño 100px. */
+/* FOTO DEL JUGADOR */
 .player-image {
     width: 100px; height: 100px; 
     object-fit: cover; border-radius: 50%;
     border: 3px solid white;
-    margin: 35px auto 15px auto; /* Centrado horizontalmente */
+    margin: 40px auto 10px auto; /* Un poco más de margen arriba */
     display: block;
     position: relative;
-    z-index: 1; /* Detrás de los iconos si se tocan */
+    z-index: 1; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
-/* --- ESCUDO (Arriba Derecha del círculo) --- */
+/* --- ESCUDO (MODIFICADO) --- */
 .team-crest { 
     position: absolute;
-    width: 25px; /* Tamaño */
-    /* POSICIONAMIENTO: */
-    top: 40px; /* A la altura del borde superior de la foto */
-    left: 50%; /* Nos ponemos en el centro de la tarjeta */
-    margin-left: 60px; /* Nos movemos 60px a la DERECHA del centro */
+    width: 28px; /* MÁS ESTRECHO (Antes 35px) */
     
-    z-index: 10; /* Encima de la foto */
+    /* POSICIONAMIENTO: */
+    top: 25px; /* MÁS ARRIBA (Antes 30px) */
+    
+    left: 50%; 
+    margin-left: 50px; /* MÁS A LA DERECHA (Antes 35px) */
+    
+    z-index: 10; 
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
 }
 
-/* --- BANDERA (Abajo Izquierda del círculo) --- */
+/* --- BANDERA (MODIFICADO) --- */
 .nation-country { 
     position: absolute;
-    width: 30px; /* Tamaño más grande (antes era pequeño) */
+    width: 30px; 
     height: 30px;
+    
     /* POSICIONAMIENTO: */
-    top: 105px; /* A la altura del borde inferior de la foto */
-    left: 50%; /* Nos ponemos en el centro */
-    margin-left: -65px; /* Nos movemos 65px a la IZQUIERDA del centro */
+    top: 115px; /* UN POCO MÁS ABAJO (Antes 105px) */
+    
+    left: 50%; 
+    margin-left: -75px; /* MÁS A LA IZQUIERDA (Antes -65px) */
     
     border-radius: 50%; 
     border: 2px solid white;
-    background-color: #fff; /* Fondo por si la imagen es transparente */
+    background-color: #fff;
     z-index: 10;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-/* --- RESTO DE TEXTOS --- */
+/* --- TEXTOS (CENTRADO MEJORADO) --- */
 .player-number { 
-    font-size: 3.5em; 
-    position: absolute;
-    bottom: 5px; 
-    right: 5px; 
-    opacity: 0.15;
-    font-weight: bold;
-    line-height: 1;
+    font-size: 3.5em; position: absolute; bottom: 5px; right: 5px; 
+    opacity: 0.15; font-weight: bold; line-height: 1;
 }
 
 .player-name { 
     font-size: 1.1em; 
     font-weight: bold; 
     text-align: center; 
-    margin-top: 10px; 
+    
+    /* Ajuste de márgenes para centrar visualmente en el espacio restante */
+    width: 100%;
+    margin-top: 25px; /* Separación de la foto para equilibrio */
+    margin-bottom: 5px;
+    
     text-transform: uppercase;
-    padding: 0 10px;
+    padding: 0 10px; /* Evita que el texto toque los bordes */
+    box-sizing: border-box;
 }
 
 .team-name2 { 
     font-size: 0.9em; 
     text-align: center; 
-    margin-top: 5px;
+    width: 100%; /* Asegura centrado */
+    margin-top: 0;
     opacity: 0.9; 
 }
 
