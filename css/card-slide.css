@@ -119,10 +119,10 @@
     width: 28px; /* MÁS ESTRECHO (Antes 35px) */
     
     /* POSICIONAMIENTO: */
-    top: 25px; /* MÁS ARRIBA (Antes 30px) */
+    top: 20px; /* MÁS ARRIBA (Antes 30px) */
     
     left: 50%; 
-    margin-left: 50px; /* MÁS A LA DERECHA (Antes 35px) */
+    margin-left: 55px; /* MÁS A LA DERECHA (Antes 35px) */
     
     z-index: 10; 
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
@@ -135,10 +135,10 @@
     height: 30px;
     
     /* POSICIONAMIENTO: */
-    top: 115px; /* UN POCO MÁS ABAJO (Antes 105px) */
+    top: 125px; /* UN POCO MÁS ABAJO (Antes 105px) */
     
     left: 50%; 
-    margin-left: -75px; /* MÁS A LA IZQUIERDA (Antes -65px) */
+    margin-left: -85px; /* MÁS A LA IZQUIERDA (Antes -65px) */
     
     border-radius: 50%; 
     border: 2px solid white;
