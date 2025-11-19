@@ -117,11 +117,11 @@
 /* --- ESCUDO (Arriba Derecha del círculo) --- */
 .team-crest { 
     position: absolute;
-    width: 35px; /* Tamaño */
+    width: 30px; /* Tamaño */
     /* POSICIONAMIENTO: */
     top: 30px; /* A la altura del borde superior de la foto */
     left: 50%; /* Nos ponemos en el centro de la tarjeta */
-    margin-left: 35px; /* Nos movemos 35px a la DERECHA del centro */
+    margin-left: 40px; /* Nos movemos 35px a la DERECHA del centro */
     
     z-index: 10; /* Encima de la foto */
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
