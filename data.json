@@ -1,21 +1,21 @@
 {
-  "jornada": "3 LaLiga EA Sports 2025/26",
+  "jornada": "13 LaLiga EA Sports 2025/26",
   "currentMatch": {
     "home": "OVI",
-    "visitor": "RSO",
-    "score": "5-0",
-    "date": "Sáb. 30 Ago, 19:00",
+    "visitor": "RVA",
+    "score": "-",
+    "date": "Dom. 23 Nov, 14:00",
     "time": "Carlos Tartiere",
     "homeImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
-    "visitorImg": "https://i.postimg.cc/GtykfwWL/Real-Sociedad-de-F-tbol-2002.jpg"
+    "visitorImg": "https://i.postimg.cc/153WzLct/Rayo-Vallecano-de-Madrid-B-(2007).jpg"
   },
   "nextMatch": {
     "home": "OVI",
-    "visitor": "BAR",
+    "visitor": "RVA",
     "score": " - ",
-    "date": "Dom. 7 Sep, 18:30",
+    "date": "Dom. 23 Nov, 14:00",
     "time": "Carlos Tartiere",
     "homeImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
-    "visitorImg": "https://i.postimg.cc/7hX0b4gT/barcelona.png"
+    "visitorImg": "https://i.postimg.cc/153WzLct/Rayo-Vallecano-de-Madrid-B-(2007).jpg"
   }
 }
