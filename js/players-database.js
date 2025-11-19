@@ -898,6 +898,34 @@ const playersDatabase = {
         "name": "Benjamín",
         "url": "fichajugador.html?player=benjamin1930"
     },
+    "constantino": {
+        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Constantino",
+        "url": "fichajugador.html?player=constantino"
+    },
+    "zapaterin": {
+        "src": "https://i.postimg.cc/KY6vGMh8/Zapaterín_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Zapaterín",
+        "url": "fichajugador.html?player=zapaterin"
+    },
+    "zubeldia1928": {
+        "src": "https://i.postimg.cc/C1bMzxwH/Zubeldia_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "Zubeldia",
+        "url": "fichajugador.html?player=zubeldia1928"
+    },
+    "cesar1927": {
+        "src": "https://i.postimg.cc/QMBxvyJ3/César_(portero_deportivista)_PNG.webp",
+        "alt": "Portero",
+        "number": "-",
+        "name": "César",
+        "url": "fichajugador.html?player=cesar1927"
+    },
     
     // DEFENSAS
     "bailly": {
