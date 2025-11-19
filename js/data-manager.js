@@ -46,20 +46,22 @@ function cargarDatosPartido() {
                 next.querySelector('.time small').textContent = data.nextMatch.date;
             }
 
-            // === GOLEADORES DINÁMICOS ===
+                        // === GOLEADORES DINÁMICOS ===
             const container = document.getElementById('goalscorers-container');
             const noGoalsCard = document.getElementById('no-goals-card');
 
-            if (!container) return; // si la página no tiene goleadores, salimos
+            if (!container) return;
 
-            container.innerHTML = ''; // limpiamos
+            container.innerHTML = '';
+            noGoalsCard.classList.remove('hidden'); // por si acaso
 
             if (!data.goalscorers || data.goalscorers.length === 0) {
-                noGoalsCard.style.display = 'block';
+                noGoalsCard.classList.remove('hidden');
                 return;
             }
 
-            noGoalsCard.style.display = 'none';
+            // OCULTAMOS LA TARJETA "SIN GOLES"
+            noGoalsCard.classList.add('hidden');
 
             data.goalscorers.forEach(player => {
                 const cardHTML = `
@@ -90,9 +92,3 @@ function cargarDatosPartido() {
                 </div>`;
                 container.insertAdjacentHTML('beforeend', cardHTML);
             });
-
-        })
-        .catch(err => console.error('Error:', err));
-}
-
-document.addEventListener('DOMContentLoaded', cargarDatosPartido);
