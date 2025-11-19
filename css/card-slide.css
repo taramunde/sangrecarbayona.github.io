@@ -1,4 +1,4 @@
-/* css/card-slide.css - VERSIÓN TAMAÑO AJUSTADO */
+/* css/card-slide.css - VERSIÓN MINI & CORRECCIÓN BACK */
 
 /* --- CONTENEDOR PRINCIPAL --- */
 .cards-wrapper {
@@ -9,86 +9,71 @@
     justify-content: flex-start !important; 
     
     width: 100% !important;
-    padding: 30px 15px !important; /* Ligeramente menos padding */
-    gap: 30px !important; /* Menor separación entre fichas */
+    padding: 20px 10px !important; /* Padding mínimo */
+    gap: 20px !important; /* Poca separación */
     box-sizing: border-box;
     
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch; 
 }
 
-/* --- SOLUCIÓN CRÍTICA PARA EL JAVASCRIPT --- */
+/* --- SOLUCIÓN ESTRUCTURA --- */
 #goalscorers-container {
     display: contents !important;
 }
 @supports not (display: contents) {
-    #goalscorers-container {
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-    }
+    #goalscorers-container { display: flex; gap: 20px; }
 }
 
-/* --- TARJETAS INDIVIDUALES --- */
+/* --- TARJETAS (WIDGET) --- */
 .card-container {
     flex: 0 0 auto !important; 
-    width: 280px !important; /* TAMAÑO PRINCIPAL REDUCIDO (Desktop) */
+    width: 240px !important; /* ANCHO DESKTOP MUCHO MÁS PEQUEÑO */
     perspective: 1000px;
-    margin-bottom: 0 !important; 
+    margin: 0 !important; 
 }
 
-/* Ajuste para PC grande */
 @media (min-width: 1024px) {
-    .card-container { width: 300px !important; } /* Un poco más grandes en monitores grandes */
+    .card-container { width: 250px !important; }
 }
 
-/* --- BARRA DE SCROLL (Estética) --- */
-.cards-wrapper::-webkit-scrollbar { height: 10px; } /* Más fina */
-.cards-wrapper::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); border-radius: 10px; }
+/* --- BARRA SCROLL --- */
+.cards-wrapper::-webkit-scrollbar { height: 8px; }
+.cards-wrapper::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); border-radius: 4px; }
 .cards-wrapper::-webkit-scrollbar-thumb { 
     background-color: #0033cc; 
-    border-radius: 10px;
-    border: 2px solid transparent; /* Borde más fino */
-    background-clip: content-box;
+    border-radius: 4px;
 }
 
 /* =========================================
-   VERSIÓN MÓVIL Y TABLET (< 1024px)
+   VERSIÓN MÓVIL (< 1024px)
    ========================================= */
 @media (max-width: 1023px) {
     .cards-wrapper {
         flex-direction: column !important; 
         align-items: center !important;    
         overflow-x: hidden !important;     
-        flex-wrap: nowrap !important; 
-        gap: 40px !important; /* Separación vertical en móvil */
-        padding-bottom: 60px !important; /* Menos padding inferior */
-    }
-
-    #goalscorers-container {
-        display: contents !important;
+        gap: 30px !important; 
+        padding-bottom: 40px !important;
     }
 
     .card-container {
-        width: 260px !important; /* TAMAÑO MÓVIL REDUCIDO */
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        width: 230px !important; /* ANCHO MÓVIL SUPER REDUCIDO */
     }
 }
 
-/* --- ESTILOS VISUALES DE LA CARTA (Flip y colores) --- */
-
+/* --- ESTILOS DE LA CARTA (CORRECCIÓN DE TAMAÑO) --- */
 #no-goals-card.hidden { display: none !important; }
 
 .card {
     width: 100%;
-    height: 400px; /* ALTO DE LA TARJETA REDUCIDO */
+    height: 340px; /* ALTO REDUCIDO A 340px */
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 0.8s;
+    transition: transform 0.6s; /* Rotación más rápida */
     cursor: pointer;
-    border-radius: 18px; /* Radio ligeramente más pequeño */
-    box-shadow: 0 12px 30px rgba(0,0,0,0.4); /* Sombra más sutil */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 .card-container:hover .card,
@@ -96,52 +81,4 @@
     transform: rotateY(180deg);
 }
 
-.front, .back {
-    position: absolute;
-    width: 100%;
-    height: 100%; /* Asegura que ambos lados tienen el 100% del alto de .card */
-    backface-visibility: hidden;
-    border-radius: 18px;
-    overflow: hidden;
-}
-
-.front { background: linear-gradient(135deg, #0033cc, #0066ff); color: white; }
-.back { 
-    background: linear-gradient(135deg, #000033, #003366); 
-    color: white; 
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 18px; /* Menor padding interno */
-}
-
-/* Elementos internos */
-.player-image {
-    width: 140px; height: 140px; /* IMAGEN MÁS PEQUEÑA */
-    object-fit: cover; border-radius: 50%;
-    border: 4px solid white; /* Borde más fino */
-    margin: 15px auto; display: block; /* Menos margen arriba */
-    box-shadow: 0 8px 15px rgba(0,0,0,0.5); /* Sombra más sutil */
-}
-.nation-country { position: absolute; top: 12px; left: 12px; width: 32px; border-radius: 50%; border: 2px solid white;} /* Más pequeños */
-.team-crest { position: absolute; top: 12px; right: 12px; width: 45px; } /* Más pequeños */
-.player-number { font-size: 4.5em; opacity: 0.2; position: absolute; bottom: 8px; right: 8px; font-weight: bold; } /* Más pequeño */
-.player-name { font-size: 1.4em; font-weight: bold; text-align: center; margin: 8px 0; } /* Fuente más pequeña */
-.team-name2 { text-align: center; font-size: 1.1em; margin-bottom: 15px; } /* Fuente más pequeña */
-.no-goals-text { font-size: 2.2em; font-weight: bold; text-align: center; margin-top: 120px; opacity: 0.8; } /* Fuente más pequeña */
-
-.stats .stat { 
-    display: flex; justify-content: space-between; 
-    margin: 6px 0; font-size: 1em; /* Fuente más pequeña */
-    border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 4px;
-}
-.link-button {
-    display: block; text-align: center;
-    background: #ffcc00; color: #000;
-    padding: 10px; border-radius: 8px; /* Menos padding, menos radio */
-    text-decoration: none; font-weight: bold;
-    margin-top: 10px; font-size: 1em; /* Fuente más pequeña */
-    transition: all 0.3s;
-}
-.link-button:hover { background: white; transform: translateY(-3px); }
+/* --- CORRECCIÓN CRÍT
