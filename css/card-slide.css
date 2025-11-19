@@ -3,26 +3,24 @@
 /* Contenedor principal */
 .cards-wrapper {
     display: flex;
-    justify-content: center;     /* Centrado perfecto */
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;             /* Si la pantalla es pequeña, pasa a columna */
-    gap: 30px;                   /* Espacio entre tarjetas */
-    padding: 40px 20px;
+    flex-wrap: wrap;
+    gap: 60px;                    /* ← MÁS ESPACIO ENTRE TARJETAS */
+    padding: 50px 20px;
     margin: 0 auto;
     max-width: 100%;
-    overflow-x: auto;            /* Scroll horizontal si hay muchas tarjetas */
+    overflow-x: auto;
 }
 
-/* Cada tarjeta individual */
 .card-container {
-    flex: 0 0 auto;              /* No crece ni encoge */
-    width: 280px;                /* Ancho fijo para que quepan 2-3 en pantalla normal */
+    flex: 0 0 auto;
+    width: 300px;                 /* Un poco más grandes */
     perspective: 1000px;
-    display: block !important;   /* Fuerza que se muestre */
 }
 
-.card-container.oculta {
-    display: none !important;
+#no-goals-card.hidden {
+    display: none !important;     /* Ocultamos del todo cuando hay goles */
 }
 
 /* Tarjeta SIN GOLES - la ocultamos cuando hay goles */
@@ -41,7 +39,7 @@
 /* La carta en sí (front + back) */
 .card {
     width: 100%;
-    height: 420px;
+    height: 440px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -75,7 +73,7 @@
 
 /* Resto de estilos que ya tenías (los mantengo igual) */
 .player-image-container { text-align: center; margin: 20px 0; }
-.player-image { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 5px solid white; }
+.player-image { width: 190px; height: 190px; object-fit: cover; border-radius: 50%; border: 5px solid white; }
 .nation-country { position: absolute; top: 10px; left: 10px; width: 40px; }
 .team-crest { position: absolute; top: 10px; right: 10px; width: 60px; }
 .player-number { font-size: 4em; font-weight: bold; opacity: 0.2; position: absolute; bottom: 20px; right: 20px; }
