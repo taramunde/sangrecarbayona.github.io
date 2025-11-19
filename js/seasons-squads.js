@@ -734,6 +734,38 @@ const seasonsSquads = {
         "forwards": ["paco1930", "fernandez1930", "inciarte", "tamargo1930", "barril", "emilin", "urrutia", "polon", "alamo", "gallart", "langara", "errandonea", "chuche", "pirelo", "quintana1930"],
         "coaches": ["patrickoconnell"],
         // ... solo IDs
+    },
+    "1929-30": {
+        "goalkeepers": ["oscar1935", "benjamin1930", "constantino"],
+        "defenders": ["mariscal", "trucha", "calichi"],
+        "midfielders": ["justo", "abdon", "tomas1930", "norena1929", "cubano", "mieres", "colas", "avilesu"],
+        "forwards": ["caramelero", "chuche", "tamargo1930", "barril", "chanin", "urrutia", "polon", "fernandez1930"],
+        "coaches": ["patrickoconnell"],
+        // ... solo IDs
+    },
+    "1928-29": {
+        "goalkeepers": ["oscar1935", "zapaterin", "zubeldia1928"],
+        "defenders": ["mariscal", "trucha", "calichi"],
+        "midfielders": ["justo", "abdon", "mieres", "chiquilin", "cubano", "bienvenido", "avilesu"],
+        "forwards": ["sanmiguel", "caramelero", "chuche", "tamargo1930", "barril", "zabala1928", "urrutia", "polon", "luisin1934"],
+        "coaches": ["fibver"],
+        // ... solo IDs
+    },
+    "1927-28": {
+        "goalkeepers": ["oscar1935", "cesar1927"],
+        "defenders": ["mariscal", "trucha", "calichi"],
+        "midfielders": ["muslera", "abdon", "mieres", "emilio1927", "cubano", "avilesu"],
+        "forwards": ["aguirre1927", "caramelero", "chuche", "tamargo1930", "barril", "zabala1928", "urrutia", "paquito1927"],
+        "coaches": ["fibver"],
+        // ... solo IDs
+    },
+    "1926-27": {
+        "goalkeepers": ["oscar1935", "cesar1927"],
+        "defenders": ["mariscal", "pololo", "trucha", "calichi", "comas"],
+        "midfielders": ["justo", "abdon", "mieres", "esparza", "duarte1926", "cortina"],
+        "forwards": ["lorences", "alfonso1926", "pepin1926", "avilesu", "barril", "chuche", "zabala1928", "caramelero", "servando1926", "paladini", "capdevila", "tamargo1930", "paquito1927"],
+        "coaches": ["fredpentland"],
+        // ... solo IDs
     }
     
     // ... todas las temporadas
