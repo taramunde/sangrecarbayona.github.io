@@ -158,14 +158,19 @@
     font-weight: bold; 
     text-align: center; 
     
-    /* Ajuste de márgenes para centrar visualmente en el espacio restante */
     width: 100%;
-    margin-top: 25px; /* Separación de la foto para equilibrio */
+    
+    /* CAMBIA ESTE VALOR PARA BAJAR EL TEXTO */
+    /* Antes era 25px, prueba con 45px o más si lo quieres más abajo */
+    margin-top: 45px; 
     margin-bottom: 15px;
     
     text-transform: uppercase;
-    padding: 0 10px; /* Evita que el texto toque los bordes */
+    padding: 0 10px; 
     box-sizing: border-box;
+    
+    position: relative; 
+    z-index: 2;
 }
 
 .team-name2 { 
@@ -174,6 +179,7 @@
     width: 100%; /* Asegura centrado */
     margin-top: 0;
     opacity: 0.9; 
+    margin-top: 5px;
 }
 
 .no-goals-text { font-size: 1.6em; margin-top: 110px; text-align: center; font-weight: bold;}
