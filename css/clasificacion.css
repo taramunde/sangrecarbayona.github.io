@@ -27,6 +27,7 @@
 /* --- TABLA --- */
 .table-responsive {
     width: 100%;
+    overflow-x: visible;
 }
 
 table {
@@ -34,32 +35,55 @@ table {
     border-collapse: collapse;
     font-family: 'Roboto', sans-serif;
     font-size: 0.85em;
+    table-layout: auto;
 }
 
 th {
     background-color: #0033cc;
     color: white;
-    padding: 12px 4px;
+    /* Reducimos drásticamente el padding lateral */
+    padding: 8px 2px; 
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
+    font-size: 0.9em;
 }
 
 th:first-child { border-radius: 8px 0 0 0; }
 th:last-child { border-radius: 0 8px 0 0; }
 
 td {
-    padding: 10px 8px;
+    /* Reducimos el padding lateral casi a cero */
+    padding: 8px 1px; 
     text-align: center;
     border-bottom: 1px solid #eee;
 }
 
-/* Alineación del equipo a la izquierda */
+/* --- ANCHOS ESPECÍFICOS PARA HACERLA ESTRECHA --- */
+
+/* Columna Posición (1) */
+th:nth-child(1), td:nth-child(1) {
+    width: 35px; 
+    min-width: 30px;
+}
+
+/* Columna Club (2) - Alineada izq, pero compacta */
 td:nth-child(2) { 
     text-align: left; 
     font-weight: bold; 
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-    padding: 10px 4px;
+    padding-left: 8px !important; /* Un poco de aire solo a la izquierda del nombre */
+    padding-right: 4px !important;
+    white-space: nowrap;
+    max-width: 200px; /* En PC limita el ancho para que no sea enorme */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Columnas de Datos Numéricos (PTS, PJ, PG, etc...) */
+/* Forzamos a que sean muy estrechas */
+th:nth-child(n+3), td:nth-child(n+3) {
+    width: 40px; /* Ancho fijo pequeño para los números */
+    max-width: 45px;
 }
 
 /* Escudos */
@@ -155,68 +179,52 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
 /* --- MÓVIL Y TABLET --- */
 @media (max-width: 1024px) {
     
-    /* 1. Ajuste del contenedor de la tabla */
+    /* 1. Aquí SÍ activamos el scroll horizontal */
     .table-responsive {
-        overflow-x: auto; /* Mantiene el scroll horizontal si es necesario */
-        -webkit-overflow-scrolling: touch; /* Scroll suave en iOS */
+        overflow-x: auto !important; 
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 15px;
     }
 
-    /* 2. Reducir el ancho forzado de la tabla */
-    /* Antes tenías 1200px, lo bajamos para que los datos se "aprieten" */
+    /* Ancho mínimo para forzar el scroll si no cabe, 
+       pero lo bajamos para que se sienta compacto */
     .table-responsive table {
-        min-width: 600px; /* Ancho mínimo suficiente para que no se rompa, pero compacto */
-        width: 100%;
+        min-width: 550px; 
     }
 
-    /* 3. Mostrar todas las columnas que estaban ocultas */
+    /* 2. Mostrar columnas ocultas */
     .desktop-only {
         display: table-cell; 
     }
 
-    /* 4. Reducción drástica de espacios (Padding) y Fuente */
-    th, td {
-        padding: 6px 2px !important; /* Muy poco espacio lateral para ganar ancho */
-        font-size: 11px !important;  /* Fuente más pequeña para móviles */
-        letter-spacing: -0.5px;      /* Juntar un poco las letras */
+    /* 3. Compactar al máximo celdas y fuentes */
+    th {
+        font-size: 10px !important; /* Cabecera pequeña */
+        padding: 6px 1px !important; /* Casi sin espacio */
+    }
+    
+    td {
+        font-size: 11px !important; /* Datos pequeños */
+        padding: 6px 0px !important; /* Sin espacio lateral */
     }
 
-    /* 5. Ajuste específico columna POSICIÓN (1) */
-    th:nth-child(1), td:nth-child(1) {
-        width: 20px; /* Lo mínimo posible */
-        padding-left: 2px !important;
-    }
-
-    /* 6. Ajuste específico columna CLUB (2) */
+    /* 4. Ajuste extremo Columna Club en Móvil */
     td:nth-child(2) { 
-        max-width: 110px; /* Limitamos el ancho del nombre del equipo */
-        white-space: nowrap; /* Mantiene el nombre en una línea (o usa normal para dos líneas) */
-        overflow: hidden;
-        text-overflow: ellipsis; /* Si es muy largo, pone tres puntos "Real Ovi..." */
-        padding-right: 5px !important;
+        max-width: 90px; /* Muy corto: "Real Ov..." */
+        padding-left: 5px !important;
+        font-size: 11px !important;
     }
     
-    /* Ajustar tamaño del escudo en móvil */
-    .escudo-tabla {
-        width: 20px;
-        height: 20px;
-        vertical-align: middle;
-    }
+    /* Escudos más pequeños */
+    .escudo-tabla { width: 18px; height: 18px; }
 
-    /* 7. Ajuste de las columnas de DATOS (PTS, PJ, PG...) */
-    /* Seleccionamos desde la columna 3 en adelante */
+    /* 5. Ajuste extremo columnas numéricas */
     th:nth-child(n+3), td:nth-child(n+3) {
-        width: auto; /* Deja que el navegador ajuste al contenido (números) */
-        min-width: 25px; /* Asegura un mínimo para que se lea */
-        text-align: center;
+        width: 25px !important; /* Forzamos columnas de números muy finas */
+        max-width: 30px !important;
     }
 
-    /* Encabezados de la gráfica en móvil */
-    .chart-header { 
-        flex-direction: column; 
-        text-align: center; 
-    }
-    
-    .chart-container { 
-        height: 250px; /* Un poco menos alto en móvil */
-    }
+    /* Gráfica en móvil */
+    .chart-header { flex-direction: column; text-align: center; }
+    .chart-container { height: 250px; }
 }
