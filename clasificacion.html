@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clasificación - Sangre Carbayona</title>
     <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/7LMNYR4n/favicon-32x32.png">
+    
     <link rel="stylesheet" href="css/style.css?nocache=20251231v16">
     <link rel="stylesheet" href="css/footer.css?nocache=20251231v4">
     <link rel="stylesheet" href="css/scroll-buttons.css?nocache=20251231v4">
+    <link rel="stylesheet" href="css/hero-section.css?nocache=20251231v22">
+    <link rel="stylesheet" href="css/video-player.css?nocache=20251231v9">
     <link rel="stylesheet" href="css/weather-widget.css?nocache=20251231v14">
     
-    <link rel="stylesheet" href="css/clasificacion.css?nocache=20251231v1">
+    <link rel="stylesheet" href="css/clasificacion.css?nocache=20251231v2">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -25,16 +28,43 @@
                 <img src="https://i.postimg.cc/KjbwFBPH/Real-Oviedo-Joya_(2).webp" alt="Logo Central" loading="lazy"/>
             </div>
             <ul>
-                <li class="nav-item"><a href="index.html"><h3>Inicio</h3></a></li>
-                <li class="nav-item"><a href="plantilla.html"><h3>Plantillas</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="index.html"><h3>Inicio</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="plantilla.html"><h3>Plantillas</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="https://example.com/filtro"><h3>Filtro</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="https://example.com/buscador"><h3>Buscador</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="https://example.com/video-resumenes"><h3>Vídeo Resúmenes</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="clasificacion.html"><h3>Clasificación</h3></a></li>
                 <li class="nav-item"><a href="noticias.html"><h3>Noticias</h3></a></li>
-                <li class="nav-item"><a href="clasificacion.html"><h3>Clasificación</h3></a></li>
-                </ul>
+                <li class="nav-item"><a href="https://example.com/otros-videos"><h3>Otros Vídeos</h3></a></li>
+                <li class="nav-item"><a href="https://example.com/juegos"><h3>Juegos</h3></a></li>
+                <li class="nav-item"><a href="https://example.com/galeria"><h3>Galería</h3></a></li>
+                <li class="nav-item"><a href="https://example.com/derbis"><h3>Derbis</h3></a></li>
+                <li class="nav-item"><a href="https://example.com/penas"><h3>Peñas</h3></a></li>
+                <li class="nav-item"><a href="https://example.com/instalaciones"><h3>Instalaciones</h3></a></li>
+                <li class="nav-item"><a href="https://example.com/como-llegar"><h3>Cómo llegar...</h3></a></li>
+                <li class="nav-item"><a href="https://example.com/oviesportinguistas"><h3>Oviesportinguistas</h3></a></li>
+                
+                <li class="nav-item has-submenu"><h3>Alineaciones</h3><img class="submenu-icon" src="https://i.postimg.cc/pTmXzN3H/Gol.webp" alt="Submenu Icon" loading="lazy"/>
+                    <ul class="sub-nav">
+                        <li class="sub-nav-item"><a href="#"><h4>Temporada 2024 / 2025</h4></a></li>
+                        <li class="sub-nav-item"><a href="#"><h4>Temporada 2023 / 2024</h4></a></li>
+                        <li class="sub-nav-item"><a href="#"><h4>Ver todas las temporadas...</h4></a></li>
+                    </ul>
+                </li>
+            </ul>
             
+            <div class="video-container">
+                <video controls class="video-player" poster="https://i.ibb.co/Q7s2V4mK/oviedo.webp">
+                    <source src="https://www.dropbox.com/s/o3qqibxatohkzoz/Himno%20Real%20Oviedo.mp4?raw=1" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+
             <div class="weather-widget" id="weather-widget">
                 <h2>Pronóstico del Tiempo</h2>
                 <div id="weather-content"></div>
                 <div class="loading-spinner"></div>
+                <button id="backToOviedoBtn" style="display: none;">Volver a Oviedo</button>
                 <form id="cityForm">
                     <input type="text" id="cityInput" placeholder="Busca otra ciudad...">
                     <button type="submit" id="citySearchBtn">Buscar</button>
@@ -52,7 +82,9 @@
     <div class="button-container">
         <a href="index.html" class="header-button">Inicio</a>
         <a href="plantilla.html" class="header-button">Plantillas</a>
-        <a href="noticias.html" class="header-button">Noticias</a>
+        <a href="https://example.com/filtro" class="header-button">Filtro</a>
+        <a href="https://example.com/buscador" class="header-button">Buscador</a>
+        <a href="https://example.com/video-resumenes" class="header-button">Vídeo Resúmenes</a>
         <a href="clasificacion.html" class="header-button active">Clasificación</a>
     </div>
 
@@ -71,7 +103,8 @@
                         <thead>
                             <tr>
                                 <th onclick="ordenarTabla(0)" title="Ordenar por Posición">Pos</th>
-                                <th>Club</th> <th onclick="ordenarTabla(3)" title="Puntos">PTS</th>
+                                <th>Club</th> 
+                                <th onclick="ordenarTabla(3)" title="Puntos">PTS</th>
                                 <th onclick="ordenarTabla(4)" title="Jugados">PJ</th>
                                 <th onclick="ordenarTabla(5)" title="Ganados" class="desktop-only">PG</th>
                                 <th onclick="ordenarTabla(6)" title="Empatados" class="desktop-only">PE</th>
@@ -131,9 +164,10 @@
     <script src="js/menu.js?nocache=20251231v4"></script>
     <script src="js/footer.js?nocache=20251231v5"></script>
     <script src="js/scroll-buttons.js?nocache=20251231v4"></script>
+    <script src="js/video-player.js?nocache=20251231v4"></script>
     <script src="js/weather-widget.js?nocache=20251231v14"></script>
     
-    <script src="js/clasificacion.js?nocache=20251231v1"></script>
+    <script src="js/clasificacion.js?nocache=20251231v2"></script>
 
 </body>
 </html>
