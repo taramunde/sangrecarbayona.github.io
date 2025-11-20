@@ -149,56 +149,11 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
     font-weight: bold;
 }
 
-/* --- MÓVIL (< 768px) --- */
+/* --- MÓVIL --- */
 @media (max-width: 768px) {
+    /* Ocultar columnas menos importantes en móvil */
+    .desktop-only { display: none; }
     
-    /* 1. TABLA CON SCROLL HORIZONTAL */
-    /* Importante: Sobreescribimos el ocultar columnas */
-    .desktop-only { 
-        display: table-cell !important; 
-    }
-    
-    .table-responsive {
-        /* Aseguramos que el scroll sea suave en iOS */
-        -webkit-overflow-scrolling: touch;
-        /* Un pequeño margen visual a los lados */
-        padding-bottom: 10px;
-    }
-
-    /* Ajustes para que la tabla no se vea enorme en móvil */
-    table { font-size: 0.8em; } /* Letra un poco más pequeña */
-    th, td { padding: 8px 4px; } /* Menos espacio de relleno */
-    
-    /* Fijar la primera columna (Posición) y segunda (Equipo) para que no se muevan al hacer scroll? 
-       Opcional: Si lo quieres simple, ignora las líneas de 'position: sticky' abajo. 
-       Si las descomentas, la columna de posición y equipo se quedarán fijas. */
-    /*
-    th:nth-child(1), td:nth-child(1) {
-        position: sticky;
-        left: 0;
-        background: #fff; /* Necesario para tapar lo que pasa por debajo */
-        z-index: 2;
-        box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    }
-    */
-
-    /* 2. GRÁFICA CON SCROLL */
-    .chart-container {
-        width: 100%;
-        overflow-x: auto; /* Habilita scroll horizontal */
-        -webkit-overflow-scrolling: touch;
-        padding-bottom: 10px; /* Espacio para la barra de scroll */
-    }
-
-    /* Forzamos un ancho mínimo para que la gráfica "respire" */
-    .chart-container canvas {
-        min-width: 800px; /* Obliga a tener 800px de ancho, generando scroll */
-        height: 300px !important;
-    }
-
-    .chart-header {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
+    .chart-header { flex-direction: column; text-align: center; }
+    .chart-container { height: 300px; }
 }
