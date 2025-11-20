@@ -55,7 +55,11 @@ td {
 }
 
 /* Alineación del equipo a la izquierda */
-td:nth-child(2) { text-align: left; display: flex; align-items: center; gap: 10px; font-weight: bold; max-width: 120px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+td:nth-child(2) { 
+    text-align: left; 
+    font-weight: bold; 
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
 
 /* Escudos */
 .escudo-tabla { width: 30px; height: 30px; object-fit: contain; }
