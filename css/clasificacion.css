@@ -57,7 +57,7 @@ td {
 }
 
 /* Alineación del equipo a la izquierda */
-td:nth-child(2) { text-align: left; display: flex; align-items: center; gap: 10px; font-weight: bold;}
+td:nth-child(2) { text-align: left; display: flex; align-items: center; gap: 10px; font-weight: bold; max-width: 180px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 
 /* Escudos */
 .escudo-tabla { width: 30px; height: 30px; object-fit: contain; }
@@ -149,11 +149,18 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
     font-weight: bold;
 }
 
-/* --- MÓVIL --- */
-@media (max-width: 768px) {
-    /* Ocultar columnas menos importantes en móvil */
-    .desktop-only { display: none; }
-    
+/* --- MÓVIL Y TABLET --- */
+@media (max-width: 1024px) {
+    /* Mostrar todas las columnas y permitir scroll horizontal */
+    .desktop-only {
+        display: table-cell; /* Mostrar columnas ocultas */
+    }
+
+    /* Forzar ancho mínimo de la tabla para activar scroll */
+    .table-responsive table {
+        min-width: 1200px;
+    }
+
     .chart-header { flex-direction: column; text-align: center; }
     .chart-container { height: 300px; }
 }
