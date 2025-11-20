@@ -138,6 +138,17 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
     width: 100%;
 }
 
+/* --- COLORES DIFERENCIA DE GOLES --- */
+.dg-positiva {
+    color: #008f39 !important; /* Verde */
+    font-weight: bold;
+}
+
+.dg-negativa {
+    color: #e60000 !important; /* Rojo */
+    font-weight: bold;
+}
+
 /* --- MÓVIL --- */
 @media (max-width: 768px) {
     /* Ocultar columnas menos importantes en móvil */
