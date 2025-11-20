@@ -161,7 +161,7 @@
     /* Ajuste de márgenes para centrar visualmente en el espacio restante */
     width: 100%;
     margin-top: 25px; /* Separación de la foto para equilibrio */
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     
     text-transform: uppercase;
     padding: 0 10px; /* Evita que el texto toque los bordes */
