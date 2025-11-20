@@ -22,13 +22,11 @@
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 /* --- TABLA --- */
 .table-responsive {
     width: 100%;
-    overflow-x: auto; /* Scroll horizontal en móvil */
 }
 
 table {
@@ -159,6 +157,10 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
     /* Forzar ancho mínimo de la tabla para activar scroll */
     .table-responsive table {
         min-width: 1200px;
+    }
+
+    .table-responsive {
+        overflow-x: auto; /* Scroll horizontal */
     }
 
     .chart-header { flex-direction: column; text-align: center; }
