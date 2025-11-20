@@ -549,7 +549,7 @@ function renderizarTabla() {
     cuerpoTabla.innerHTML = '';
 
     equipos.forEach(equipo => {
-        // Definir colores de zona europea/descenso para el borde
+        // Definir colores de zona (Champions, descenso, etc.)
         let claseZona = '';
         if (equipo.posicion <= 4) claseZona = 'pos-champions';
         else if (equipo.posicion <= 5) claseZona = 'pos-europa';
@@ -559,6 +559,19 @@ function renderizarTabla() {
         // Resaltar Real Oviedo
         const esOviedo = equipo.nombre === "Real Oviedo";
         const claseFila = esOviedo ? 'row-oviedo' : '';
+
+        // Lógica para color de Diferencia de Goles (DG)
+        let claseDG = '';
+        let signoDG = '';
+        
+        if (equipo.dg > 0) {
+            claseDG = 'dg-positiva'; // Verde
+            signoDG = '+';           // Añadir símbolo más
+        } else if (equipo.dg < 0) {
+            claseDG = 'dg-negativa'; // Rojo
+            signoDG = '';            // El menos ya viene con el número
+        }
+        // Si es 0, no lleva clase (se queda negro) ni signo.
 
         const fila = document.createElement('tr');
         fila.className = claseFila;
@@ -575,8 +588,9 @@ function renderizarTabla() {
             <td class="desktop-only">${equipo.pp}</td>
             <td class="desktop-only">${equipo.gf}</td>
             <td class="desktop-only">${equipo.gc}</td>
-            <td class="${equipo.dg > 0 ? 'dg-positiva' : 'dg-negativa'}">
-                ${equipo.dg > 0 ? '+' : ''}${equipo.dg}
+            
+            <td class="${claseDG}">
+                ${signoDG}${equipo.dg}
             </td>
         `;
         cuerpoTabla.appendChild(fila);
