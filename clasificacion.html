@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Clasificación LaLiga EA Sports - Sangre Carbayona">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación - Sangre Carbayona</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/7LMNYR4n/favicon-32x32.png">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/scroll-buttons.css">
+    <link rel="stylesheet" href="css/weather-widget.css">
+    
+    <link rel="stylesheet" href="css/clasificacion.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div id="bun"><div class="mmm-burger"></div></div>
+    <aside id="sidebar">
+        <nav id="mobile-nav">
+            <div class="menu-header-image">
+                <img src="https://i.postimg.cc/KjbwFBPH/Real-Oviedo-Joya_(2).webp" alt="Logo Central" loading="lazy"/>
+            </div>
+            <ul>
+                <li class="nav-item"><a href="index.html"><h3>Inicio</h3></a></li>
+                <li class="nav-item"><a href="plantilla.html"><h3>Plantillas</h3></a></li>
+                <li class="nav-item"><a href="noticias.html"><h3>Noticias</h3></a></li>
+                <li class="nav-item"><a href="clasificacion.html"><h3>Clasificación</h3></a></li>
+                </ul>
+            
+            <div class="weather-widget" id="weather-widget">
+                <h2>Pronóstico del Tiempo</h2>
+                <div id="weather-content"></div>
+                <div class="loading-spinner"></div>
+                <form id="cityForm">
+                    <input type="text" id="cityInput" placeholder="Busca otra ciudad...">
+                    <button type="submit" id="citySearchBtn">Buscar</button>
+                </form>
+                <div class="error" id="error"></div>
+                <div class="details" id="credit">Fuente: <a href="https://open-meteo.com/" target="_blank">Open-Meteo</a></div>
+            </div>
+        </nav>
+    </aside>
+
+    <header class="header-container">
+        <img src="https://i.postimg.cc/tgL8SLYy/Sangre-Carbayona-C-D-Oviedo-Stadium-Ovetense.webp" alt="Header Sangre Carbayona" class="header-img" loading="lazy"/>
+    </header>
+    
+    <div class="button-container">
+        <a href="index.html" class="header-button">Inicio</a>
+        <a href="plantilla.html" class="header-button">Plantillas</a>
+        <a href="noticias.html" class="header-button">Noticias</a>
+        <a href="clasificacion.html" class="header-button active">Clasificación</a>
+    </div>
+
+    <main>
+        <div class="hero-clasificacion">
+            <h1>Clasificación LaLiga 2025/26</h1>
+            <p>Seguimiento en tiempo real de la temporada</p>
+        </div>
+
+        <div class="spacer"></div>
+
+        <section class="clasificacion-wrapper">
+            <div class="table-card">
+                <div class="table-responsive">
+                    <table id="tablaClasificacion">
+                        <thead>
+                            <tr>
+                                <th onclick="ordenarTabla(0)" title="Ordenar por Posición">Pos</th>
+                                <th>Club</th> <th onclick="ordenarTabla(3)" title="Puntos">PTS</th>
+                                <th onclick="ordenarTabla(4)" title="Jugados">PJ</th>
+                                <th onclick="ordenarTabla(5)" title="Ganados" class="desktop-only">PG</th>
+                                <th onclick="ordenarTabla(6)" title="Empatados" class="desktop-only">PE</th>
+                                <th onclick="ordenarTabla(7)" title="Perdidos" class="desktop-only">PP</th>
+                                <th onclick="ordenarTabla(8)" title="Goles Favor" class="desktop-only">GF</th>
+                                <th onclick="ordenarTabla(9)" title="Goles Contra" class="desktop-only">GC</th>
+                                <th onclick="ordenarTabla(10)" title="Diferencia Goles">DG</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cuerpoTabla">
+                            </tbody>
+                    </table>
+                </div>
+
+                <div class="leyenda-container">
+                    <div class="leyenda-item"><span class="dot champions"></span> Champions</div>
+                    <div class="leyenda-item"><span class="dot europa"></span> Europa League</div>
+                    <div class="leyenda-item"><span class="dot conference"></span> Conference</div>
+                    <div class="leyenda-item"><span class="dot descenso"></span> Descenso</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+
+        <section class="chart-section">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h2>Evolución Real Oviedo</h2>
+                    <div class="chart-stats">
+                        <div class="stat-box">
+                            <span class="label">Mejor Posición</span>
+                            <span class="value" id="team-position-best">-</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="label">Peor Posición</span>
+                            <span class="value" id="team-position-worst">-</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="team-position-chart-canvas"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer"></div>
+    </main>
+
+    <div class="scroll-buttons">
+        <button id="scroll-up" aria-label="Subir arriba">&#8679;</button>
+        <button id="scroll-down" aria-label="Bajar abajo">&#8681;</button>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/scroll-buttons.js"></script>
+    <script src="js/weather-widget.js"></script>
+    
+    <script src="js/clasificacion.js"></script>
+
+</body>
+</html>
