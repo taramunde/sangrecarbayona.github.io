@@ -87,6 +87,9 @@
     background: linear-gradient(135deg, #0033cc, #0066ff); 
     color: white; 
     padding: 0; 
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
 }
 
 .back { 
@@ -160,20 +163,23 @@
     
     /* Ajuste de márgenes para centrar visualmente en el espacio restante */
     width: 100%;
-    margin-top: 25px; /* Separación de la foto para equilibrio */
-    margin-bottom: 15px;
+    margin: 25px auto 15px auto; /* 25px arriba, auto lados, 15px abajo */
     
     text-transform: uppercase;
     padding: 0 10px; /* Evita que el texto toque los bordes */
     box-sizing: border-box;
+    position: relative; 
+    z-index: 2;
 }
 
 .team-name2 { 
     font-size: 0.9em; 
     text-align: center; 
     width: 100%; /* Asegura centrado */
-    margin-top: 0;
+    margin: 0 auto; /* 0 arriba/abajo, auto a los lados */
     opacity: 0.9; 
+    position: relative;
+    z-index: 2;
 }
 
 .no-goals-text { font-size: 1.6em; margin-top: 110px; text-align: center; font-weight: bold;}
