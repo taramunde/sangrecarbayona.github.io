@@ -154,20 +154,69 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
 
 /* --- MÓVIL Y TABLET --- */
 @media (max-width: 1024px) {
-    /* Mostrar todas las columnas y permitir scroll horizontal */
-    .desktop-only {
-        display: table-cell; /* Mostrar columnas ocultas */
-    }
-
-    /* Forzar ancho mínimo de la tabla para activar scroll */
-    .table-responsive table {
-        min-width: 1200px;
-    }
-
+    
+    /* 1. Ajuste del contenedor de la tabla */
     .table-responsive {
-        overflow-x: auto; /* Scroll horizontal */
+        overflow-x: auto; /* Mantiene el scroll horizontal si es necesario */
+        -webkit-overflow-scrolling: touch; /* Scroll suave en iOS */
     }
 
-    .chart-header { flex-direction: column; text-align: center; }
-    .chart-container { height: 300px; }
+    /* 2. Reducir el ancho forzado de la tabla */
+    /* Antes tenías 1200px, lo bajamos para que los datos se "aprieten" */
+    .table-responsive table {
+        min-width: 600px; /* Ancho mínimo suficiente para que no se rompa, pero compacto */
+        width: 100%;
+    }
+
+    /* 3. Mostrar todas las columnas que estaban ocultas */
+    .desktop-only {
+        display: table-cell; 
+    }
+
+    /* 4. Reducción drástica de espacios (Padding) y Fuente */
+    th, td {
+        padding: 6px 2px !important; /* Muy poco espacio lateral para ganar ancho */
+        font-size: 11px !important;  /* Fuente más pequeña para móviles */
+        letter-spacing: -0.5px;      /* Juntar un poco las letras */
+    }
+
+    /* 5. Ajuste específico columna POSICIÓN (1) */
+    th:nth-child(1), td:nth-child(1) {
+        width: 20px; /* Lo mínimo posible */
+        padding-left: 2px !important;
+    }
+
+    /* 6. Ajuste específico columna CLUB (2) */
+    td:nth-child(2) { 
+        max-width: 110px; /* Limitamos el ancho del nombre del equipo */
+        white-space: nowrap; /* Mantiene el nombre en una línea (o usa normal para dos líneas) */
+        overflow: hidden;
+        text-overflow: ellipsis; /* Si es muy largo, pone tres puntos "Real Ovi..." */
+        padding-right: 5px !important;
+    }
+    
+    /* Ajustar tamaño del escudo en móvil */
+    .escudo-tabla {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+    }
+
+    /* 7. Ajuste de las columnas de DATOS (PTS, PJ, PG...) */
+    /* Seleccionamos desde la columna 3 en adelante */
+    th:nth-child(n+3), td:nth-child(n+3) {
+        width: auto; /* Deja que el navegador ajuste al contenido (números) */
+        min-width: 25px; /* Asegura un mínimo para que se lea */
+        text-align: center;
+    }
+
+    /* Encabezados de la gráfica en móvil */
+    .chart-header { 
+        flex-direction: column; 
+        text-align: center; 
+    }
+    
+    .chart-container { 
+        height: 250px; /* Un poco menos alto en móvil */
+    }
 }
