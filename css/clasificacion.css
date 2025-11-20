@@ -179,52 +179,62 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
 /* --- MÓVIL Y TABLET --- */
 @media (max-width: 1024px) {
     
-    /* 1. Aquí SÍ activamos el scroll horizontal */
+    /* 1. Scroll horizontal activado */
     .table-responsive {
         overflow-x: auto !important; 
         -webkit-overflow-scrolling: touch;
         margin-bottom: 15px;
     }
 
-    /* Ancho mínimo para forzar el scroll si no cabe, 
-       pero lo bajamos para que se sienta compacto */
+    /* Ancho mínimo total reducido para evitar espacios vacíos */
     .table-responsive table {
-        min-width: 550px; 
+        min-width: 450px; /* Reducido de 550px a 450px para apretar todo más */
     }
 
-    /* 2. Mostrar columnas ocultas */
-    .desktop-only {
-        display: table-cell; 
+    .desktop-only { display: table-cell; }
+
+    /* Cabeceras y Celdas generales */
+    th, td {
+        font-size: 10px !important;
+        padding: 4px 1px !important; /* Padding mínimo */
     }
 
-    /* 3. Compactar al máximo celdas y fuentes */
-    th {
-        font-size: 10px !important; /* Cabecera pequeña */
-        padding: 6px 1px !important; /* Casi sin espacio */
+    /* --- AJUSTE AGRESIVO COLUMNA CLUB (La clave de tu problema) --- */
+    th:nth-child(2), 
+    td:nth-child(2) {
+        width: 75px !important;      /* Forzamos un ancho pequeño fijo */
+        max-width: 75px !important;  /* IMPEDIMOS que crezca más de 75px */
+        
+        overflow: hidden !important; /* Lo que no quepa, se oculta */
+        text-overflow: ellipsis !important; /* Añade "..." al final (Ej: "Real Vall...") */
+        white-space: nowrap !important; /* Obliga a una sola línea */
+        
+        padding-left: 4px !important;
+        text-align: left;
     }
     
-    td {
-        font-size: 11px !important; /* Datos pequeños */
-        padding: 6px 0px !important; /* Sin espacio lateral */
+    /* Ajuste escudo para que no moleste */
+    .escudo-tabla { 
+        width: 16px; 
+        height: 16px; 
+        vertical-align: middle;
+        margin-right: 2px; /* Pegar el escudo al texto */
     }
 
-    /* 4. Ajuste extremo Columna Club en Móvil */
-    td:nth-child(2) { 
-        max-width: 90px; /* Muy corto: "Real Ov..." */
-        padding-left: 5px !important;
-        font-size: 11px !important;
+    /* --- Resto de columnas de números (PJ, PG, etc) --- */
+    th:nth-child(n+3), 
+    td:nth-child(n+3) {
+        width: 22px !important; /* Muy estrechas */
+        max-width: 25px !important;
     }
     
-    /* Escudos más pequeños */
-    .escudo-tabla { width: 18px; height: 18px; }
-
-    /* 5. Ajuste extremo columnas numéricas */
-    th:nth-child(n+3), td:nth-child(n+3) {
-        width: 25px !important; /* Forzamos columnas de números muy finas */
-        max-width: 30px !important;
+    /* Columna Posición (la primera) */
+    th:nth-child(1), td:nth-child(1) {
+        width: 15px !important;
+        padding-left: 1px !important;
     }
 
-    /* Gráfica en móvil */
+    /* Gráfica */
     .chart-header { flex-direction: column; text-align: center; }
     .chart-container { height: 250px; }
 }
