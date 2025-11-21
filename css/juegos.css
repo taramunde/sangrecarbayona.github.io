@@ -20,6 +20,7 @@
     text-align: center;
     padding: 30px 20px;
     position: relative;
+    border: 3px solid transparent; /* Borde invisible base para que no salte al pasar a especial */
 }
 
 .juego-card:hover {
@@ -47,7 +48,30 @@
     line-height: 1.5;
 }
 
-/* En móvil: más espacio vertical */
+/* --- ESTILOS DE LEYENDAS (AHORA GLOBALES) --- */
+/* Al ponerlos aquí fuera, se aplican en PC y en Móvil */
+
+.juego-card.especial {
+    background: linear-gradient(135deg, #000033, #0033cc);
+    border: 3px solid #ffcc00; /* Borde dorado */
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.2); /* Brillo dorado suave */
+}
+
+/* Efecto extra al pasar el ratón por la carta de Leyendas */
+.juego-card.especial:hover {
+    box-shadow: 0 0 30px rgba(255, 204, 0, 0.6); /* Brillo dorado más fuerte */
+    transform: translateY(-15px) scale(1.02);
+}
+
+.juego-card.especial h3 {
+    color: #ffcc00;
+    text-shadow: 0 0 15px #ffcc00; /* Texto resplandeciente */
+}
+
+/* --- FIN ESTILOS GLOBALES --- */
+
+
+/* Ajustes específicos para Móvil */
 @media (max-width: 768px) {
     .juegos-grid {
         grid-template-columns: 1fr;
@@ -63,15 +87,6 @@
         width: 100px;
         height: 100px;
     }
-
-    .juego-card.especial {
-    background: linear-gradient(135deg, #000033, #0033cc);
-    border: 3px solid #ffcc00;
-    }
-
-    .juego-card.especial h3 {
-    color: #ffcc00;
-    text-shadow: 0 0 15px #ffcc00;
-    }
+    
     
 }
