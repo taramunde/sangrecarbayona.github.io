@@ -63,4 +63,15 @@
         width: 100px;
         height: 100px;
     }
+
+    .juego-card.especial {
+    background: linear-gradient(135deg, #000033, #0033cc);
+    border: 3px solid #ffcc00;
+    }
+
+    .juego-card.especial h3 {
+    color: #ffcc00;
+    text-shadow: 0 0 15px #ffcc00;
+    }
+    
 }
