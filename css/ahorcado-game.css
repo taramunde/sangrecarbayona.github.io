@@ -120,7 +120,7 @@
 
 #result .body { 
     font-size: 1.4em; 
-    margin-bottom: 10px; /* Espacio justo antes del botón */
+    margin-bottom: 30px; /* Espacio justo antes del botón */
     text-align: center; 
     line-height: 1.5;
     width: 80%; /* IMPORTANTE: Esto centra el bloque de texto */
@@ -131,7 +131,7 @@
 
 /* Ajuste para subir el botón (reducimos margen del elemento anterior) */
 #result .game-btn {
-    margin-top: 5px; 
+    margin-top: 0; 
 }
 
 /* Pistas */
