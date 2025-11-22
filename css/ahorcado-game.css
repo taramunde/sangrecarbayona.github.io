@@ -78,7 +78,7 @@
     height: 30px; 
     width: 3px; 
     position: absolute; 
-    top: 30px; /* Justo debajo de la cabeza */
+    top: 50px; /* Justo debajo de la cabeza */
 }
 .arm-l { 
     left: 25px; 
