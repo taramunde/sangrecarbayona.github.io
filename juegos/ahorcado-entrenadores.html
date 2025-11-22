@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado Entrenadores - Sangre Carbayona</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/7LMNYR4n/favicon-32x32.png">
+    
+    <link rel="stylesheet" href="../css/style.css?nocache=20251231v16">
+    <link rel="stylesheet" href="../css/footer.css?nocache=20251231v4">
+    <link rel="stylesheet" href="../css/scroll-buttons.css?nocache=20251231v4">
+    <link rel="stylesheet" href="../css/particle-effect.css?nocache=20251231v22">
+    <link rel="stylesheet" href="../css/hero-section.css?nocache=20251231v22">
+    <link rel="stylesheet" href="../css/video-player.css?nocache=20251231v9">
+    <link rel="stylesheet" href="../css/jornada-section.css?nocache=20251231v22">
+    <link rel="stylesheet" href="../css/weather-widget.css?nocache=20251231v14">
+    <link rel="stylesheet" href="../css/card-slide.css?nocache=ESPACIO_PERFECTO_V1">
+    <link rel="stylesheet" href="../css/timer.css?nocache=20251231v1">
+    <link rel="stylesheet" href="../css/calendar.css?nocache=20251231v7">
+    <link rel="stylesheet" href="../css/juegos.css?nocache=20251231v4">
+    
+    <link rel="stylesheet" href="../css/ahorcado-game.css?nocache=1">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
 
+    <div id="bun"><div class="mmm-burger"></div></div>
+    <aside id='sidebar'>
+        <nav id='mobile-nav'>
+            <div class="menu-header-image">
+                <img src="https://i.ibb.co/zHJT3RKJ/Real-Oviedo-Joya-2.webp" alt="Logo Central" loading="lazy"/>
+            </div>
+            <ul>
+                <li class="nav-item desktop-hidden"><a href="../index.html"><h3>Inicio</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="../plantilla.html"><h3>Plantillas</h3></a></li>
+                <li class="nav-item desktop-hidden"><a href="../clasificacion.html"><h3>Clasificación</h3></a></li>
+                <li class="nav-item"><a href="../noticias.html"><h3>Noticias</h3></a></li>
+                <li class="nav-item"><a href="../juegos.html"><h3>Juegos</h3></a></li>
+                </ul>
+            
+            <div class="video-container">
+                <video controls class="video-player" poster="https://i.ibb.co/Q7s2V4mK/oviedo.webp">
+                    <source src="https://www.dropbox.com/s/o3qqibxatohkzoz/Himno%20Real%20Oviedo.mp4?raw=1" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="weather-widget" id="weather-widget">
+                 </div>
+        </nav>
+    </aside>
+
+    <header class="header-container">
+        <img src="https://i.ibb.co/sdw3L5KN/Sangre-Carbayona-C-D-Oviedo-Stadium-Ovetense.webp" alt="Header" class="header-img" loading="lazy"/>
+    </header>
+
+    <div class="button-container">
+        <a href="../index.html" class="header-button">Inicio</a>
+        <a href="../plantilla.html" class="header-button">Plantillas</a>
+        <a href="../juegos.html" class="header-button">Juegos</a>
+        <a href="../clasificacion.html" class="header-button">Clasificación</a>
+    </div>
+
+    <main>
+        <div id="arena-effect-container" translate="no" class="notranslate">
+            <div id="text-container"></div>
+        </div>
+
+        <div class="hero-container" style="min-height: 180px;">
+            <div class="hero-content">
+                <h1>AHORCADO: ENTRENADORES</h1>
+                <p class="hero-text"><b>¿CONOCES A LOS MÍSTERES DEL OVIEDO?</b></p>
+            </div>
+        </div>
+
+        <div id="game-wrapper">
+            
+            <div id="home">
+                <div class="title">El Ahorcado<br/><u>Entrenadores</u></div>
+                <div class="game-btn anim" onclick="startGame()">JUGAR AHORA</div>
+                <div class="foother">&copy; Sangre Carbayona</div>
+            </div>
+
+            <div id="result">
+                <div class="title" id="rT">TITULO</div>
+                <div class="body" id="rM">Mensaje</div>
+                <div class="game-btn anim" onclick="startGame()">¿JUGAR OTRA VEZ?</div>
+            </div>
+
+            <div id="pGame">
+                <div id="letter"></div>
+      
+                <div id="game">
+                    <div class="player">
+                        <div class="playerModel">
+                            <div class="head" data="false" id="g4"></div>
+                            <div class="body" data="false" id="g5"></div>
+                            <div class="arm-l" data="false" id="g5l"></div>
+                            <div class="arm-r" data="false" id="g5r"></div>
+                            <div class="leg-l" data="false" id="g6l"></div>
+                            <div class="leg-r" data="false" id="g6r"></div>
+                        </div>
+                    </div>
+                    <div class="stang3" data="false" id="g3"></div>
+                    <div class="stang2" data="false" id="g2"></div>
+                    <div class="stang" data="false" id="g1"></div>
+                    <div class="ground" data="false" id="g0"></div>
+                    
+                    <div class="hintButton" data="false" id="hintButton" onclick="showHint()">?</div>
+                </div>
+
+                <div id="tastatur"></div>
+
+                <div id="hint">
+                    <div class="close" onclick="closeHint()">X</div>
+                    <div class="title">PISTA</div>
+                    <div class="body" id="hintText"></div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; padding: 40px;">
+            <a href="ahorcado.html" class="link-button" style="font-size: 1.3em; padding: 15px 40px;">
+                ← Elegir otra categoría
+            </a>
+        </div>
+    </main>
+
+    <div class="scroll-buttons">
+        <button id="scroll-up" aria-label="Subir arriba">&#8679;</button>
+        <button id="scroll-down" aria-label="Bajar abajo">&#8681;</button>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="../js/menu.js?nocache=20251231v4"></script>
+    <script src="../js/footer.js?nocache=20251231v5"></script>
+    <script src="../js/scroll-buttons.js?nocache=20251231v4"></script>
+    <script src="../js/particle-effect.js?nocache=20251231v4"></script>
+    <script src="../js/video-player.js?nocache=20251231v4"></script>
+    <script src="../js/timer.js?nocache=20251231v1"></script>
+    <script src="../js/calendar.js?nocache=20251231v2"></script>
+    <script src="../js/data-manager.js?nocache=20251231v2"></script>
+    <script src="../js/ahorcado-entrenadores.js?nocache=1"></script>
+
+</body>
+</html>
