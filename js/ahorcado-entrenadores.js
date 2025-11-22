@@ -152,7 +152,6 @@ function gameEnd(win) {
     var title = document.getElementById("rT");
     var msg = document.getElementById("rM");
     
-    res.classList.add("show");
     if(win) {
         title.innerText = "¡VICTORIA!";
         title.style.color = "#4CAF50";
@@ -160,8 +159,11 @@ function gameEnd(win) {
     } else {
         title.innerText = "¡PERDISTE!";
         title.style.color = "#F44336";
-        msg.innerHTML = "La respuesta era:<br><br><span style='font-size:1.2em; font-weight:bold; color:#FFD700;'>" + word[select][0] + "</span>";
+        msg.innerText = "La respuesta era: " + word[select][0];
+        msg.style.color = "#FFD700";
     }
+    
+    res.classList.add("show");
 }
 
 function showHint() {
