@@ -158,9 +158,9 @@ function gameEnd(win) {
         title.style.color = "#4CAF50";
         msg.innerHTML = "¡Enhorabuena!<br><br>" + word[select][0];
     } else {
-        title.innerText = "¡GAME OVER!";
+        title.innerText = "¡PERDISTE!";
         title.style.color = "#F44336";
-        msg.innerHTML = "La respuesta era:<br><br>" + word[select][0];
+        msg.innerHTML = "La respuesta era:<br><br><span style='font-size:1.2em; font-weight:bold; color:#FFD700;'>" + word[select][0] + "</span>";
     }
 }
 
@@ -171,4 +171,5 @@ function showHint() {
 
 function closeHint() {
     document.getElementById("hint").style.display = "none";
+    document.getElementById("hintButton").setAttribute("data", "false");
 }
