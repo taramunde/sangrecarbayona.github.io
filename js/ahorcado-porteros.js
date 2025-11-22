@@ -2,20 +2,20 @@
 
 // LISTA DE PORTEROS [NOMBRE, PISTA]
 var word = [
-    ["FRED PENTLAND", "Primer entrenador del Real Oviedo."],
-    ["SERGIO EGEA", "Consiguió el ascenso a 2ª en 2015."],
-    ["VICENTE MIERA", "Se logró el último ascenso a 1ª."],
-    ["PACHETA", "Burgalés y querido por la afición."],
-    ["RIVAS", "Se hizo cargo tras el descenso a 3ª."],
-    ["TONIJUAN", "Entrenador del primer ascenso a 1ª (1933)."],
-    ["IRURETA", "Entrenador vasco de prestigio U.E.F.A."],
-    ["LUIS ARAGONES", "El sabio de Hortaleza."],
-    ["ANTIC", "De origen serbio, entrenó a los 3 grandes."],
-    ["TABAREZ", "Maestro uruguayo."],
-    ["CARRASCO", "No guardamos buen recuerdo de él."],
-    ["MARIGIL", "Fue jugador y entrenador de la casa."],
-    ["HERRERITA", "Fue jugador y entrenador al mismo tiempo por circunstancias."],
-    ["PAUNOVIC", "Con él ascendimos después de 24 años."]
+    ["ÓSCAR", "Primer portero del Real Oviedo."],
+    ["VITI", "Portero U.E.F.A."],
+    ["AULESTIA", "Con su parada se consiguió el ascenso de 3ª a 2ªB."],
+    ["AARÓN", "Con él como portero se ascendió a 1ª después de 24 años."],
+    ["FLORENZA", "Fue el mismo portero antes y después de la Guerra Civil Española."],
+    ["RAFA PONZO", "Primer portero en jugar en 3ª en la temporada 2002/2003"],
+    ["CHAMPAGNE", "Tiene nombre de bebida"],
+    ["ARGILA", "Llegó también a entrenar al Oviedo."],
+    ["MESA", "Fué también Presidente del Real Oviedo."],
+    ["LUNIN", "Mismo país de nacimiento que Onopko."],
+    ["FEMENÍAS", "Ha nacido en la misma localidad que Rafa Nadal."],
+    ["FRANKLYN", "Único portero de color y que sólo jugó partidos amistosos."],
+    ["DUJKOVIC", "Vino del Estrella Roja de Belgrado."],
+    ["ESTEBAN", "Muy apreciado y querido por la afición."]
 ];
 
 var tastatur = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
