@@ -72,12 +72,43 @@
 .playerModel { height: 100%; position: relative; width: 100%; }
 .head { border-radius: 50%; border: 3px solid #000; height: 35px; width: 35px; margin: auto; position: relative; }
 .body { background-color: #000; height: 45px; margin: auto; width: 3px; }
-.arm-l, .arm-r { background-color: #000; height: 30px; width: 3px; position: absolute; top: 125px; }
-.arm-l { left: 80px; transform: rotate(45deg); }
-.arm-r { right: 80px; transform: rotate(-45deg); }
-.leg-l, .leg-r { background-color: #000; height: 35px; width: 3px; position: absolute; top: 165px; }
-.leg-l { left: 85px; transform: rotate(20deg); }
-.leg-r { right: 85px; transform: rotate(-20deg); }
+/* Brazos */
+.arm-l, .arm-r { 
+    background-color: #000; 
+    height: 30px; 
+    width: 3px; 
+    position: absolute; 
+    top: 35px; /* Justo debajo de la cabeza */
+}
+.arm-l { 
+    left: 25px; 
+    transform: rotate(45deg); 
+    transform-origin: top center;
+}
+.arm-r { 
+    right: 25px; 
+    transform: rotate(-45deg); 
+    transform-origin: top center;
+}
+
+/* Piernas */
+.leg-l, .leg-r { 
+    background-color: #000; 
+    height: 35px; 
+    width: 3px; 
+    position: absolute; 
+    top: 78px; /* Debajo del cuerpo */
+}
+.leg-l { 
+    left: 30px; 
+    transform: rotate(20deg); 
+    transform-origin: top center;
+}
+.leg-r { 
+    right: 30px; 
+    transform: rotate(-20deg); 
+    transform-origin: top center;
+}
 
 /* Horca */
 .stang3 { background: black; width: 3px; height: 20px; position: absolute; top: 70px; left: 90px; }
