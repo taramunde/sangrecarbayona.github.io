@@ -10,7 +10,7 @@ var word = [
     ["TONIJUAN", "Entrenador del primer ascenso a 1ª (1933)."],
     ["IRURETA", "Entrenador vasco de prestigio U.E.F.A."],
     ["LUIS ARAGONES", "El sabio de Hortaleza."],
-    ["ANTIC", "De origen serbio, entrenó a los 3 grandes."],
+    ["RADOMIR ANTIC", "De origen serbio, entrenó a los 3 grandes."],
     ["TABAREZ", "Maestro uruguayo."],
     ["CARRASCO", "No guardamos buen recuerdo de él."],
     ["MARIGIL", "Fue jugador y entrenador de la casa."]
@@ -20,11 +20,30 @@ var tastatur = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
 var select = 0;
 var wordLeft = [];
 var fail = 0;
+var availableWords = []; // Lista de índices disponibles
 
 // Carga inicial
 window.addEventListener('load', function() {
     createKeyboard();
+    resetAvailableWords();
 });
+
+function resetAvailableWords() {
+    availableWords = [];
+    for (var i = 0; i < word.length; i++) {
+        availableWords.push(i);
+    }
+    shuffleArray(availableWords);
+}
+
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
 
 function startGame() {
     document.getElementById("home").style.display = "none";
@@ -61,7 +80,14 @@ function clearPlayer() {
 function createWord() {
     var d = document.getElementById("letter");
     d.innerHTML = "";
-    select = Math.floor(Math.random() * word.length);
+    
+    // Si no quedan palabras, reiniciar la lista
+    if (availableWords.length === 0) {
+        resetAvailableWords();
+    }
+    
+    // Tomar el siguiente índice y quitarlo de disponibles
+    select = availableWords.pop();
     var currentWord = word[select][0];
     
     for(var a = 0; a < currentWord.length; a++) {
@@ -155,7 +181,8 @@ function gameEnd(win) {
     if(win) {
         title.innerText = "¡VICTORIA!";
         title.style.color = "#4CAF50";
-        msg.innerHTML = "¡Enhorabuena!<br><br>" + word[select][0];
+        msg.innerText = "¡Enhorabuena! " + word[select][0];
+        msg.style.color = "#FFFFFF";
     } else {
         title.innerText = "¡PERDISTE!";
         title.style.color = "#F44336";
