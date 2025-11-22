@@ -72,21 +72,22 @@
 .playerModel { height: 100%; position: relative; width: 100%; }
 .head { border-radius: 50%; border: 3px solid #000; height: 35px; width: 35px; margin: auto; position: relative; }
 .body { background-color: #000; height: 45px; margin: auto; width: 3px; }
+
 /* Brazos */
 .arm-l, .arm-r { 
     background-color: #000; 
     height: 30px; 
     width: 3px; 
     position: absolute; 
-    top: 50px; /* Justo debajo de la cabeza */
+    top: 45px; /* Más abajo, en el tronco */
 }
 .arm-l { 
-    left: 25px; 
+    left: 28px; 
     transform: rotate(45deg); 
     transform-origin: top center;
 }
 .arm-r { 
-    right: 25px; 
+    right: 28px; 
     transform: rotate(-45deg); 
     transform-origin: top center;
 }
