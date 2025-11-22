@@ -215,7 +215,7 @@
 }
 
 /* El texto de la pista */
-#hint .body {
+#hint .hint-body {
     font-size: 1.2em;
     line-height: 1.5;
     color: #333;
