@@ -134,10 +134,89 @@
     margin-top: 0; 
 }
 
-/* Pistas */
-.hintButton { position: absolute; top: 10px; right: 10px; background: yellow; color: black; border-radius: 50%; width: 30px; height: 30px; text-align: center; line-height: 30px; font-weight: bold; cursor: pointer; }
-#hint { display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; color: black; padding: 20px; border-radius: 10px; z-index: 40; width: 80%; text-align: center; box-shadow: 0 0 20px black; }
-#hint .close { background: red; color: white; width: 25px; height: 25px; line-height: 25px; cursor: pointer; position: absolute; top: -10px; right: -10px; border-radius: 50%; font-weight: bold; }
+/* --- Pistas (CORREGIDO) --- */
+
+/* El botón flotante de interrogación (?) */
+.hintButton { 
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background: #ffcc00; /* Amarillo más visible */
+    color: #000; 
+    border-radius: 50%; 
+    width: 35px; 
+    height: 35px; 
+    text-align: center; 
+    line-height: 35px; 
+    font-weight: bold; 
+    font-size: 1.2em;
+    cursor: pointer; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    transition: transform 0.2s;
+    z-index: 50;
+}
+.hintButton:hover { transform: scale(1.1); }
+
+/* La Caja Blanca de la Pista */
+#hint { 
+    display: none; /* Oculto por defecto */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+    /* Dimensiones fijas para evitar el texto vertical */
+    width: 80%; 
+    max-width: 400px; /* Que no sea gigante en PC */
+    min-width: 280px; /* Que no sea enano en móvil */
+    
+    background: #ffffff; 
+    color: #333333; /* Texto gris oscuro */
+    padding: 25px; 
+    border-radius: 15px; 
+    z-index: 100; /* Por encima de todo */
+    text-align: center; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8); /* Sombra fuerte para destacar */
+    border: 2px solid #0e0eec; /* Borde azul oviedo */
+    box-sizing: border-box; /* IMPORTANTE: Para que el padding no rompa el ancho */
+}
+
+/* El botón de cerrar (X) */
+#hint .close { 
+    background: #dc3545; /* Rojo */
+    color: white; 
+    width: 30px; 
+    height: 30px; 
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer; 
+    position: absolute; 
+    top: -10px; 
+    right: -10px; 
+    border-radius: 50%; 
+    font-weight: bold;
+    border: 2px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* El Título "PISTA" */
+#hint .title { 
+    font-weight: bold; 
+    margin-bottom: 15px; 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: 10px; 
+    font-size: 1.5em;
+    color: #0e0eec;
+}
+
+/* El texto de la pista */
+#hint .body {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    word-wrap: break-word; /* Evita que se salga si es una palabra muy larga */
+}
 
 /* Animación */
 .anim { animation: pulse 2s infinite; }
