@@ -1,201 +1,109 @@
 /* css/ahorcado-game.css */
 
-/* Contenedor principal del juego - Estilo Tarjeta */
-#game-container {
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+/* Contenedor principal que aísla el juego */
+#game-wrapper {
+    position: relative;
+    width: 100%;
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative; /* Importante para que los popups no se salgan */
-    min-height: 600px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #0e0eec; /* Azul original */
+    border-radius: 15px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    border: 4px solid #fff;
+    font-family: Arial, sans-serif;
 }
 
-/* --- PANTALLAS DE ESTADO (INICIO / FIN) --- */
-.game-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
+/* Pantallas (Inicio, Juego, Resultado) */
+#home, #result, #pGame {
     width: 100%;
     height: 100%;
-    background: rgba(0, 51, 204, 0.95); /* Azul Oviedo */
-    z-index: 100;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+/* Pantalla Inicio */
+#home {
+    background: linear-gradient(#0e0eec, #aaa);
+    z-index: 20;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-align: center;
-    transition: opacity 0.3s ease;
 }
 
-.game-overlay.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
+#home .title { font-size: 3em; font-weight: bold; color: white; text-shadow: 2px 2px 5px black; margin-bottom: 30px; text-align: center; }
+#home .foother { position: absolute; bottom: 15px; right: 20px; color: white; font-size: 0.8em; }
 
-.game-overlay h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-}
-
+/* Botones Generales */
 .game-btn {
-    background: #ffcc00; /* Amarillo */
-    color: #0033cc;
-    border: none;
-    padding: 15px 40px;
-    font-size: 1.2em;
-    font-weight: bold;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: linear-gradient(#7a90fe, #0232ef);
+    border: 2px solid white; border-radius: 50px;
+    padding: 15px 40px; color: white; font-weight: bold; font-size: 1.2em;
+    cursor: pointer; text-transform: uppercase; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     transition: transform 0.2s;
-    text-transform: uppercase;
 }
+.game-btn:hover { transform: scale(1.05); }
 
-.game-btn:hover {
-    transform: scale(1.05);
-    background: #fff;
+/* Pantalla Juego */
+#pGame { display: none; } /* Oculto por defecto */
+#letter { font-size: 24px; height: 50px; margin: 20px 0; text-align: center; color: white; letter-spacing: 5px; font-weight: bold; }
+
+/* Letras adivinadas */
+.l { border-bottom: 3px solid white; display: inline-block; margin: 5px; height: 30px; width: 25px; text-align: center; color: white; }
+.ls { border-bottom: none; width: 15px; }
+
+/* Teclado */
+#tastatur { text-align: center; position: absolute; bottom: 20px; width: 100%; padding: 0 10px; box-sizing: border-box; }
+.b {
+    background: white; color: #333; display: inline-block; margin: 3px; padding: 10px;
+    width: 20px; height: 20px; line-height: 20px; text-align: center; border-radius: 5px;
+    font-weight: bold; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
+.b:hover { background: #eee; transform: translateY(-2px); }
+.b[data="true"] { background: #28a745; color: white; pointer-events: none; }
+.b[data="false"] { background: #dc3545; color: white; opacity: 0.5; pointer-events: none; }
 
-/* --- ZONA DE JUEGO --- */
-.game-area {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 30px;
-    flex-grow: 1;
+/* Muñeco y Escenario */
+#game { height: 250px; width: 220px; margin: 0 auto; position: relative; }
+.player { left: 53px; position: absolute; top: 90px; height: 130px; width: 75px; }
+.playerModel { height: 100%; position: relative; width: 100%; }
+.head { border-radius: 50%; border: 3px solid #000; height: 35px; width: 35px; margin: auto; position: relative; }
+.body { background-color: #000; height: 45px; margin: auto; width: 3px; }
+.arm-l, .arm-r { background-color: #000; height: 30px; width: 3px; position: absolute; top: 125px; }
+.arm-l { left: 80px; transform: rotate(45deg); }
+.arm-r { right: 80px; transform: rotate(-45deg); }
+.leg-l, .leg-r { background-color: #000; height: 35px; width: 3px; position: absolute; top: 165px; }
+.leg-l { left: 85px; transform: rotate(20deg); }
+.leg-r { right: 85px; transform: rotate(-20deg); }
+
+/* Horca */
+.stang3 { background: black; width: 3px; height: 20px; position: absolute; top: 70px; left: 90px; }
+.stang2 { background: black; width: 90px; height: 5px; position: absolute; top: 70px; right: 45px; }
+.stang { background: black; width: 5px; height: 180px; position: absolute; bottom: 0; right: 45px; }
+.ground { background: black; width: 100%; height: 5px; position: absolute; bottom: 0; left: 0; }
+
+/* Control Visibilidad */
+[data="false"] { display: none !important; }
+
+/* Pantalla Resultado */
+#result {
+    background: rgba(0,0,0,0.9); z-index: 30;
+    display: none; flex-direction: column; justify-content: center; align-items: center; color: white;
 }
+#result.show { display: flex; }
+#result .title { font-size: 2.5em; margin-bottom: 20px; font-weight: bold; }
+#result .body { font-size: 1.2em; margin-bottom: 30px; text-align: center; }
 
-/* El dibujo del ahorcado (CSS puro heredado y adaptado) */
-#drawing-board {
-    width: 220px;
-    height: 250px;
-    position: relative;
-    /* border: 1px dashed #ccc;  Descomentar para depurar posición */
-}
+/* Pistas */
+.hintButton { position: absolute; top: 10px; right: 10px; background: yellow; color: black; border-radius: 50%; width: 30px; height: 30px; text-align: center; line-height: 30px; font-weight: bold; cursor: pointer; }
+#hint { display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; color: black; padding: 20px; border-radius: 10px; z-index: 40; width: 80%; text-align: center; box-shadow: 0 0 20px black; }
+#hint .close { background: red; color: white; width: 25px; height: 25px; line-height: 25px; cursor: pointer; position: absolute; top: -10px; right: -10px; border-radius: 50%; font-weight: bold; }
 
-/* Estilos de las partes del muñeco (Optimizados del original) */
-.draw-part { position: absolute; background-color: #333; transition: all 0.3s ease; }
-.d-ground { bottom: 0; left: 0; width: 100%; height: 5px; border-radius: 5px; }
-.d-post-v { bottom: 0; right: 45px; width: 5px; height: 180px; }
-.d-post-h { bottom: 180px; right: 45px; width: 90px; height: 5px; border-radius: 5px 0 0 5px; }
-.d-post-top:before { content:""; position: absolute; top: 17px; left: 50px; width: 50px; height: 5px; background: #333; transform: rotate(45deg); }
-.d-rope { top: 70px; left: 90px; width: 2px; height: 20px; }
-
-/* Muñeco */
-.p-head { top: 90px; left: 73px; width: 35px; height: 35px; border-radius: 50%; border: 3px solid #333; position: absolute; }
-.p-body { top: 125px; left: 90px; width: 3px; height: 45px; position: absolute; background: #333; }
-.p-arm-l { top: 135px; left: 75px; width: 20px; height: 3px; position: absolute; background: #333; transform: rotate(30deg); }
-.p-arm-r { top: 135px; left: 88px; width: 20px; height: 3px; position: absolute; background: #333; transform: rotate(-30deg); }
-.p-leg-l { top: 168px; left: 80px; width: 3px; height: 35px; position: absolute; background: #333; transform: rotate(20deg); }
-.p-leg-r { top: 168px; left: 100px; width: 3px; height: 35px; position: absolute; background: #333; transform: rotate(-20deg); }
-
-/* Clase para ocultar partes no dibujadas aún */
-.invisible { display: none; }
-
-/* --- PALABRA OCULTA --- */
-#word-display {
-    width: 100%;
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2em;
-    letter-spacing: 5px;
-    font-weight: bold;
-    color: #333;
-    min-height: 50px;
-    word-wrap: break-word;
-}
-
-.letter-slot {
-    display: inline-block;
-    border-bottom: 3px solid #0033cc;
-    min-width: 30px;
-    margin: 0 5px;
-}
-
-.letter-slot.space {
-    border-bottom: none;
-    width: 20px;
-}
-
-/* --- TECLADO --- */
-#keyboard {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
-    gap: 8px;
-    padding: 10px;
-    background: #f0f2f5;
-    border-radius: 15px;
-}
-
-.key-btn {
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px 0;
-    font-weight: bold;
-    font-size: 1.1em;
-    cursor: pointer;
-    color: #333;
-    transition: all 0.2s;
-}
-
-.key-btn:hover { background: #e6e6e6; }
-
-.key-btn.correct {
-    background: #28a745; /* Verde */
-    color: white;
-    border-color: #28a745;
-    pointer-events: none;
-}
-
-.key-btn.wrong {
-    background: #dc3545; /* Rojo */
-    color: white;
-    border-color: #dc3545;
-    opacity: 0.6;
-    pointer-events: none;
-}
-
-/* --- PISTA Y BOTONES --- */
-.game-controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    padding: 0 10px;
-}
-
-#hint-box {
-    background: #fff3cd;
-    color: #856404;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ffeeba;
-    display: none; /* Oculto por defecto */
-    max-width: 70%;
-}
-
-#hint-btn {
-    background: #17a2b8;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-    #drawing-board { transform: scale(0.8); margin-bottom: -30px; }
-    #word-display { font-size: 1.5em; letter-spacing: 2px; }
-    .key-btn { padding: 8px 0; font-size: 1em; }
-}
+/* Animación */
+.anim { animation: pulse 2s infinite; }
+@keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+                 
+ 
