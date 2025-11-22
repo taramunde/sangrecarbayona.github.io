@@ -10,7 +10,7 @@ var word = [
     ["TONIJUAN", "Entrenador del primer ascenso a 1ª (1933)."],
     ["IRURETA", "Entrenador vasco de prestigio U.E.F.A."],
     ["LUIS ARAGONES", "El sabio de Hortaleza."],
-    ["RADOMIR ANTIC", "De origen serbio, entrenó a los 3 grandes."],
+    ["ANTIC", "De origen serbio, entrenó a los 3 grandes."],
     ["TABAREZ", "Maestro uruguayo."],
     ["CARRASCO", "No guardamos buen recuerdo de él."],
     ["MARIGIL", "Fue jugador y entrenador de la casa."]
