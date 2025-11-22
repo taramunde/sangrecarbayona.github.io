@@ -13,7 +13,8 @@ var word = [
     ["ANTIC", "De origen serbio, entrenó a los 3 grandes."],
     ["TABAREZ", "Maestro uruguayo."],
     ["CARRASCO", "No guardamos buen recuerdo de él."],
-    ["MARIGIL", "Fue jugador y entrenador de la casa."]
+    ["MARIGIL", "Fue jugador y entrenador de la casa."],
+    ["HERRERITA", "Fue jugador y entrenador al mismo tiempo por circunstancias."]
 ];
 
 var tastatur = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
