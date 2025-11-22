@@ -14,7 +14,8 @@ var word = [
     ["TABAREZ", "Maestro uruguayo."],
     ["CARRASCO", "No guardamos buen recuerdo de él."],
     ["MARIGIL", "Fue jugador y entrenador de la casa."],
-    ["HERRERITA", "Fue jugador y entrenador al mismo tiempo por circunstancias."]
+    ["HERRERITA", "Fue jugador y entrenador al mismo tiempo por circunstancias."],
+    ["PAUNOVIC", "Con él ascendimos después de 24 años."]
 ];
 
 var tastatur = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
