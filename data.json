@@ -19,7 +19,7 @@
     "time": "El Metropolitano"
   },
 
-  "goalscorers": [<!--
+  "goalscorers": [
     {
       "name": "Álex Cardero",
       "number": "16",
@@ -30,6 +30,6 @@
       "temp": "2025/26",
       "link": "https://www.transfermarkt.es/alex-cardero/profil/spieler/887697"
     }
-    <--
+    
   ]
 }
