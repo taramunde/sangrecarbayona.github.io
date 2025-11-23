@@ -2,7 +2,7 @@
   "jornada": "13 LaLiga EA Sports 2025/26",
   "currentMatch": {
     "home": "OVI",
-    "homeImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
+    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "visitor": "RAY",
     "visitorImg": "https://i.postimg.cc/153WzLct/Rayo-Vallecano-de-Madrid-B-(2007).jpg",
     "score": "0 - 0",
@@ -13,23 +13,24 @@
     "home": "ATM",
     "homeImg": "https://i.postimg.cc/MT6NxX9P/Club-Atletico-de-Madrid-(2000).jpg",
     "visitor": "OVI",
-    "visitorImg": "https://i.postimg.cc/2yxjqhtL/oviedo.jpg",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "score": " - ",
     "date": "Sáb. 29 Nov, 21:00",
     "time": "El Metropolitano"
   },
+  
+  "goalscorers": [],
 
-  "goalscorers": [
+  "_PLANTILLA_PARA_COPIAR_CUANDO_HAYA_GOLES": [
     {
-      "name": "",
-      "number": "",
-      "photo": "",
-      "nation": "",
-      "goals": ,
-      "minute": "",
-      "temp": "",
-      "link": ""
-    },
-    
+      "name": "Nombre Jugador",
+      "number": "10",
+      "photo": "URL_FOTO",
+      "nation": "URL_BANDERA",
+      "goals": 1,
+      "minute": "45'",
+      "temp": "2025/26",
+      "link": "URL_FICHA"
+    }
   ]
 }
