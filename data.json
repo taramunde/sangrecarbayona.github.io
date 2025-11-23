@@ -19,7 +19,7 @@
     "time": "El Metropolitano"
   },
 
-  "goalscorers": [
+  "goalscorers": [<!--
     {
       "name": "Álex Cardero",
       "number": "16",
@@ -29,16 +29,7 @@
       "minute": "12'",
       "temp": "2025/26",
       "link": "https://www.transfermarkt.es/alex-cardero/profil/spieler/887697"
-    },
-    {
-      "name": "Santi Cazorla",
-      "number": "8",
-      "photo": "https://i.postimg.cc/3w1n5VJ2/santi-cazorla-2025.png",
-      "nation": "https://i.ibb.co/3Y4mY3Q/Espa-a.png",
-      "goals":1,
-      "minute": "83'",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/santiago-cazorla/profil/spieler/15799"
     }
+    <--
   ]
 }
