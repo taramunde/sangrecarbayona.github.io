@@ -4,7 +4,7 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/WzX0q2M7/Cazorla-Rayo.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        image: "https://i.postimg.cc/L8PP4nf2/J13-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
         title: "El Real Oviedo no gana ni con la ayuda de un estelar Santi Cazorla.",
         author: "PABLO FERNÁNDEZ",
         link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2025/11/23/oviedo-rayo/00031763906513260342103.htm"
@@ -12,7 +12,7 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/HsJy4y9z/Oviedo-Rayo-LNE.jpg", // FOTO NOTICIA 2
+        image: "https://i.postimg.cc/YCFF2hgt/J13-LNE.webp", // FOTO NOTICIA 2
         title: "Cerca con Cazorla, lejos con Quintero: empate del Oviedo con uno menos ante el Rayo.",
         author: "NACHO AZPARREN",
         link: "https://www.lne.es/real-oviedo/2025/11/23/cerca-cazorla-lejos-quintero-empate-124033446.html"
@@ -20,7 +20,7 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/gj9Wq5y2/Oviedo-Empate.jpg", // FOTO NOTICIA 3
+        image: "https://i.postimg.cc/htmm4fx4/J13-EC.webp", // FOTO NOTICIA 3
         title: "Real Oviedo 0-0 Rayo Vallecano | Mejoría y un punto de esperanza.",
         author: "RAMÓN JULIO",
         link: "https://www.elcomercio.es/real-oviedo/real-oviedo-rayo-vallecano-mejoria-punto-esperanza-empate-tartiere-20251123170117-nt.html"
@@ -28,7 +28,7 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/prM2Q5y1/Killer-Oviedo.jpg", // FOTO NOTICIA 4
+        image: "https://i.postimg.cc/g2hhcnRz/J13-KA.jpg", // FOTO NOTICIA 4
         title: "La Crónica: El Oviedo resiste con diez y suma un punto de carácter ante el Rayo",
         author: "JUAN MORENO",
         link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-resiste-con-diez-y-suma-un-punto-de-caracter-ante-el-rayo"
