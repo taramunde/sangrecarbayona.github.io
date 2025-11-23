@@ -2,17 +2,17 @@
 
 // LISTA DE PORTEROS [NOMBRE, PISTA]
 var word = [
-    ["ÓSCAR", "Primer portero del Real Oviedo."],
+    ["OSCAR", "Primer portero del Real Oviedo."],
     ["VITI", "Portero U.E.F.A."],
     ["AULESTIA", "Con su parada se consiguió el ascenso de 3ª a 2ªB."],
-    ["AARÓN", "Con él como portero se ascendió a 1ª después de 24 años."],
+    ["AARON", "Con él como portero se ascendió a 1ª después de 24 años."],
     ["FLORENZA", "Fue el mismo portero antes y después de la Guerra Civil Española."],
     ["RAFA PONZO", "Primer portero en jugar en 3ª en la temporada 2002/2003"],
     ["CHAMPAGNE", "Tiene nombre de bebida"],
     ["ARGILA", "Llegó también a entrenar al Oviedo."],
     ["MESA", "Fué también Presidente del Real Oviedo."],
     ["LUNIN", "Mismo país de nacimiento que Onopko."],
-    ["FEMENÍAS", "Ha nacido en la misma localidad que Rafa Nadal."],
+    ["FEMENIAS", "Ha nacido en la misma localidad que Rafa Nadal."],
     ["FRANKLYN", "Único portero de color y que sólo jugó partidos amistosos."],
     ["DUJKOVIC", "Vino del Estrella Roja de Belgrado."],
     ["ESTEBAN", "Muy apreciado y querido por la afición."]
