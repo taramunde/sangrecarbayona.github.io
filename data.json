@@ -21,14 +21,14 @@
 
   "goalscorers": [
     {
-      "name": "Álex Cardero",
-      "number": "16",
-      "photo": "https://i.postimg.cc/dV30nntX/Álex_Cardero_PNG.webp",
-      "nation": "https://i.postimg.cc/jjfxjjwP/Espana.jpg",
-      "goals": 1,
-      "minute": "12'",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/alex-cardero/profil/spieler/887697"
+      "name": "",
+      "number": "",
+      "photo": "",
+      "nation": "",
+      "goals": ,
+      "minute": "",
+      "temp": "",
+      "link": ""
     },
     
   ]
