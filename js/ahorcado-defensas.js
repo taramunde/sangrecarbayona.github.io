@@ -11,11 +11,11 @@ var word = [
     ["ABEL XABIER", "Portugués con nacimiento en Mozambique"],
     ["CHARLIE", "Único defensa de origen británico del Oviedo."],
     ["GORRIARAN", "Vasco y como los de antes."],
-    ["ONOPKO", "Nacido en Ucrania, pero jugó con la selección Rusa."],
+    ["ONOPKO", "Nacido en Ucrania, pero jugó con la Selección Rusa."],
     ["BORIS", "Fue el primer fichaje 'no vasco' de la Real Sociedad."],
     ["SAÑUDO", "Defensa del Oviedo y también fue presidente de un equipo de su tierra."],
     ["JOYCE MORENO", "Natural de Panamá."],
-    ["LUIS MANUEL", "Debutó hasta en cuatro ocasiones con la selección Española."]
+    ["LUIS MANUEL", "Debutó hasta en cuatro ocasiones con la Selección Española."]
 ];
 
 var tastatur = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
