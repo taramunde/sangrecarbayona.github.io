@@ -3,12 +3,12 @@
 // LISTA DE DEFENSAS [NOMBRE, PISTA]
 var word = [
     ["CESAR", "Defensa y a 2025 ostenta un cargo en el Real Oviedo."],
-    ["DAVID FERNANDEZ", "Marcó el gol del ascenso a 2ª en Cádiz"],
+    ["DAVID FERNANDEZ", "Marcó el gol del ascenso a 2ª en Cádiz."],
     ["JOHANNESSON", "De origen maliayo pero debutó con la Selección de Islandia."],
     ["LAVIADA", "Primer defensa de origen Mejicano."],
     ["BOLAÑO", "Defensa, a veces con exceso de energía."],
-    ["MANTOVANI", "Muy querido por la afición pero solo estuvo una temporada"],
-    ["ABEL XABIER", "Portugués con nacimiento en Mozambique"],
+    ["MANTOVANI", "Muy querido por la afición pero solo estuvo una temporada."],
+    ["ABEL XABIER", "Portugués con nacimiento en Mozambique."],
     ["CHARLIE", "Único defensa de origen británico del Oviedo."],
     ["GORRIARAN", "Vasco y como los de antes."],
     ["ONOPKO", "Nacido en Ucrania, pero jugó con la Selección Rusa."],
