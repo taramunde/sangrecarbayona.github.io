@@ -10,7 +10,7 @@ var word = [
     ["ARMANDO BARBON", "Falleció trágicamente a los 19 años en un accidente de tráfico."],
     ["XAVI MORE", "Vino proveniente del Pontevedra C.F., pero catalán de nacimiento."],
     ["JOKANOVIC", "Yugoslavo procedente del Partizán de Belgrado."],
-    ["BANGO", "Marcó el primer gol en competición U.E.F.A.."],
+    ["BANGO", "Marcó el primer gol en competición U.E.F.A."],
     ["ABURJANIA", "Único jugador georgiano de la historia del Oviedo."],
     ["PAULO BENTO", "Fue Seleccionador de su país."],
     ["ELCACHO", "Estuvo a mediados de los 80 y principios de los 90, pelo muy rizoso."],
