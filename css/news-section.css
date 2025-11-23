@@ -88,12 +88,13 @@
 }
 
 .news-content h3 {
-    font-size: 1.1rem;
-    color: #333;
+    font-size: 1.25rem; /* Aumentado de 1.1rem a 1.25rem */
+    color: #000000;     /* Negro puro en lugar de gris oscuro para máximo contraste */
     margin-bottom: 10px;
-    line-height: 1.4;
-    font-weight: bold;
-    /* Limitar a 3 líneas y poner puntos suspensivos si es muy largo */
+    line-height: 1.2;   /* Un poco más junto para que se vea compacto */
+    font-weight: 900;   /* Grosor máximo (Extra Bold) */
+    
+    /* Esto se mantiene igual para los puntos suspensivos */
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -114,15 +115,18 @@
     background-color: #0e0eec;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 12px;      /* Un pelín más de relleno */
     border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+    font-weight: 900;   /* Letra más gorda en el botón también */
+    text-transform: uppercase; /* Opcional: ponerlo en mayúsculas */
+    font-size: 0.9rem;
+    transition: background-color 0.3s, transform 0.2s;
     margin-top: 10px;
 }
 
 .news-link:hover {
     background-color: #0000aa;
+    transform: scale(1.02); /* Pequeño efecto al pasar el ratón */
 }
 
 /* Responsive ajustes finos */
@@ -134,4 +138,5 @@
         height: 160px;
     }
 }
+
 
