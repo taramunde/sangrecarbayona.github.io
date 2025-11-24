@@ -10,7 +10,7 @@ var word = [
     ["TOCHE", "Apodo futbolístico de José Verdú Nicolás."],
     ["MARIANIN", "El jabalí del Bierzo."],
     ["LINARES", "Goleador de Fuentes de Ebro."],
-    ["GALLART", "Marcó el primer gol en 1ª División del Oviedo"],
+    ["GALLART", "Marcó el primer gol en 1ª División del Oviedo."],
     ["ARSENIO", "Delantero y también entrenador más conocido como El Bruxo de Arteixo."],
     ["LACATUS", "De nacionalidad Rumana."],
     ["DIEGO CERVERO", "Delantero ovetense goleador en las épocas malas."],
