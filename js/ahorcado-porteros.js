@@ -82,26 +82,35 @@ function clearPlayer() {
 function createWord() {
     var d = document.getElementById("letter");
     d.innerHTML = "";
-    
-    // Si no quedan palabras, reiniciar la lista
-    if (availableWords.length === 0) {
-        resetAvailableWords();
-    }
-    
-    // Tomar el siguiente índice y quitarlo de disponibles
-    select = availableWords.pop();
-    var currentWord = word[select][0];
+    select = Math.floor(Math.random() * word.length);
+    var currentWord = word[select][0].toUpperCase(); // Obtenemos la palabra en mayúsculas
+
+    // 1. Creamos el primer contenedor para la primera palabra
+    var wordContainer = document.createElement("div");
+    wordContainer.className = "word-wrapper"; // Clase nueva para agrupar
+    d.appendChild(wordContainer);
     
     for(var a = 0; a < currentWord.length; a++) {
         var x = currentWord[a];
-        var b = document.createElement("span");
-        b.className = "l" + (x == " " ? " ls" : "");
-        b.innerHTML = "&nbsp;";
-        b.id = "l" + a;
-        d.appendChild(b);
         
-        if(x != " " && wordLeft.indexOf(x) == -1) {
-            wordLeft.push(x);
+        if (x == " ") {
+            // 2. SI HAY UN ESPACIO: Cerramos palabra actual y creamos contenedor nuevo
+            // Esto fuerza que la siguiente palabra vaya en bloque
+            wordContainer = document.createElement("div");
+            wordContainer.className = "word-wrapper";
+            d.appendChild(wordContainer);
+        } else {
+            // 3. SI ES LETRA: La metemos en el contenedor actual
+            var b = document.createElement("span");
+            b.className = "l";
+            b.innerHTML = "&nbsp;";
+            b.id = "l" + a; // Mantenemos el ID original para que funcione el juego
+            wordContainer.appendChild(b);
+            
+            // Lógica de juego (guardar letras pendientes)
+            if(wordLeft.indexOf(x) == -1) {
+                wordLeft.push(x);
+            }
         }
     }
 }
