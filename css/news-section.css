@@ -11,15 +11,14 @@
 .news-section h2 {
     color: #0e0eec; /* Azul Oviedo */
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto; /* Centrado horizontal automático y mantiene el margen inferior de 30px */
     font-size: 2rem;
     text-transform: uppercase;
     border-bottom: 2px solid #0e0eec;
-    display: inline-block;
+    display: block; /* **CAMBIO IMPORTANTE: lo convierte a bloque para que el margin auto funcione, pero mantendrá el ancho ajustado al contenido gracias al border** */
+    /* display: inline-block; también funciona si añades un 'width' o 'max-width' */
+    width: fit-content; /* Opcional: Asegura que el ancho es el mínimo necesario */
     padding-bottom: 10px;
-    left: 50%;
-    position: relative;
-    transform: translateX(-50%);
 }
 
 .news-container {
@@ -138,5 +137,6 @@
         height: 160px;
     }
 }
+
 
 
