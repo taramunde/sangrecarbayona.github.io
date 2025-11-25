@@ -33,7 +33,7 @@ const quizData = [
         0
     ],
     [
-        "¿Cómo se llamaba el estadio anterior al viejo Carlos Tartiere (Buenavista)?",
+        "¿Cómo se llamaba el campo que utilizó el Oviedo antes del estadio de Buenavista (antiguo Carlos Tartiere)?",
         [
             "Campo de Teatinos",
             "El Requexón",
@@ -47,10 +47,10 @@ const quizData = [
     [
         "¿Quién es el máximo goleador histórico del club (257 goles)?",
         [
-            "Isidro Lángara",
+            "Lángara",
             "Herrerita",
             "Diego Cervero",
-            "Carlos Muñoz"
+            "Carlos"
         ],
         0
     ],
@@ -88,21 +88,21 @@ const quizData = [
         "¿Qué jugador fue el pichichi de Primera División con el Oviedo en 1935-36?",
         [
             "Herrerita",
-            "Isidro Lángara",
+            "Lángara",
             "Emilín",
             "Pruden"
         ],
         1
     ],
     [
-        "¿Qué dorsal mítico llevó Carlos Muñoz en el Real Oviedo?",
+        "¿Qué dorsal mítico llevó Carlos en el Real Oviedo?",
         [
             "9",
             "10",
             "7",
             "11"
         ],
-        0
+        1
     ],
 
     // --- HITOS DEPORTIVOS (11-15) ---
@@ -139,15 +139,15 @@ const quizData = [
     [
         "¿Qué jugador tiene el récord de goles en una temporada en Primera (28)?",
         [
-            "Isidro Lángara",
-            "Carlos Muñoz",
+            "Lángara",
+            "Carlos",
             "Oli",
             "Herrerita"
         ],
         0
     ],
     [
-        "¿Cuál fue el resultado de la mayor victoria del Oviedo en El Molinón (1944)?",
+        "¿Cuál fue el resultado de la mayor victoria del Oviedo en El Molinón (1933)?",
         [
             "0-5",
             "2-7",
@@ -176,7 +176,7 @@ const quizData = [
             "Locos por el Oviedo",
             "Volveremos"
         ],
-        0
+        1
     ],
     [
         "¿Qué entrenador dirigía al equipo en el ascenso de Cádiz en 2015?",
@@ -223,7 +223,7 @@ const quizData = [
     [
         "¿Quién marcó el primer gol oficial en el Nuevo Carlos Tartiere?",
         [
-            "Roberto 'Chino' Losada",
+            "Losada",
             "Oli",
             "Iván Ania",
             "Paunovic"
@@ -251,90 +251,80 @@ const quizData = [
         1
     ],
     [
-        "¿Quién es el actual presidente (o figura principal) del Grupo Carso, dueño del club?",
+        "¿Qué grupo empresarial es actualmente el propietario mayoritario del Real Oviedo?",
         [
-            "Arturo Elías Ayub",
-            "Carlos Slim Helú",
-            "Carlos Slim Domit",
-            "Jorge Vergara"
+            "Grupo Carso",
+            "Grupo Pachuca",
+            "Orlegi Sports",
+            "Grupo Slim"
         ],
-        2
+        1
     ],
 
     // --- PREGUNTAS ADICIONALES (26-50) ---
 
     // --- DERBIS Y RIVALIDAD ---
     [
-        "¿Quién marcó el gol de la victoria en el derbi en el nuevo Tartiere (2018)?",
+        "¿Quién marcó dos goles oviedistas en el derbi del nuevo Tartiere (2018)?",
         [
             "Toché",
-            "Saúl Berjón",
-            "Diegui Johannesson",
-            "Javi Muñoz"
+            "Mossa",
+            "Johannesson",
+            "Linares"
         ],
-        1 // Saúl Berjón de penalti
+        1 // Mossa marcó 2 goles
     ],
     [
-        "¿Cuál fue el resultado del primer derbi asturiano en Primera División (1933)?",
+        "¿Cuál fue el resultado del primer derbi asturiano en Primera División (1944)?",
         [
             "4-2",
             "3-3",
             "1-0",
             "2-1"
         ],
-        1
+        3
     ],
     [
         "¿Quién fue el último capitán del Oviedo en Primera (2000-01)?",
         [
             "Iván Ania",
             "Oli",
-            "Nadir",
+            "Paunović",
             "Onopko"
         ],
         3
     ],
     [
-        "¿Qué jugador es el segundo máximo goleador en Primera División del club, tras Lángara?",
+        "¿Qué jugador es el segundo máximo goleador del club, tras Lángara?",
         [
-            "Carlos Muñoz",
+            "Carlos",
             "Oli",
             "Emilín",
             "Herrerita"
         ],
-        3 // Herrerita (119 goles)
+        3 // Herrerita (157 goles)
     ],
     [
         "¿Quién es el jugador extranjero con más partidos en el club?",
         [
-            "Janko Janković",
-            "Peter Dubovsky",
-            "Nadir",
-            "Viktor Onopko"
+            "Janković",
+            "Dubovsky",
+            "Albert Nadj",
+            "Onopko"
         ],
         3 // Viktor Onopko
     ],
 
     // --- MÁXIMOS LOGROS Y RECORDS ---
     [
-        "¿Qué entrenador logró el ascenso a Primera en 1991?",
+        "¿Qué entrenador logró el ascenso a Primera en 1988?",
         [
             "Vicente Miera",
-            "Radomir Antić",
-            "Javier Irureta",
+            "Antić",
+            "Irureta",
             "José Luis Romero"
         ],
-        2
-    ],
-    [
-        "¿Qué entrenador ostenta el mejor porcentaje de victorias en la historia del club (porcentaje alto)?",
-        [
-            "José María Maguregui",
-            "Fred Pentland",
-            "Sergio Egea",
-            "Radomir Antić"
-        ],
-        2 // Sergio Egea
+        0
     ],
     [
         "¿Cuál es el récord de imbatibilidad de un portero en el Oviedo (en minutos, por debajo de 800)?",
@@ -347,14 +337,14 @@ const quizData = [
         2 // Esteban (735 minutos en la 2011/12)
     ],
     [
-        "¿Quién fue el autor del gol del ascenso a Segunda A en 2005 (Play-off contra el At. Madrid B)?",
+        "¿Quién fue el autor del gol número 1000 en el Real Oviedo?",
         [
             "Michu",
             "Diego Cervero",
-            "Javi Venta",
-            "David Rivas"
+            "Marianín",
+            "Toché"
         ],
-        1 // Diego Cervero
+        2 // Marianín
     ],
     [
         "¿Cuál es el nombre del campo de entrenamiento del Real Oviedo?",
@@ -369,54 +359,54 @@ const quizData = [
 
     // --- GOLEADORES Y PICHICHIS ---
     [
-        "¿Qué jugador del Oviedo fue pichichi de Primera División en la temporada 1940-41?",
+        "¿Qué jugador del Oviedo fue pichichi de Segunda División en la temporada 1971-72?",
         [
-            "Isidro Lángara",
-            "Pruden",
+            "Lángara",
+            "Enrique Galán",
             "Herrerita",
             "Emilín"
         ],
-        1 // Pruden (30 goles)
+        1 // Enrique Galán (23 goles)
     ],
     [
-        "¿Quién marcó el gol 1.000 del Oviedo en Primera División?",
+        "¿Quién marcó 4 goles al Real Madrid en un mismo partido en Primera División?",
         [
             "Oli",
-            "Carlos Muñoz",
-            "Peter Dubovsky",
-            "Losada"
+            "Carlos",
+            "Dubovsky",
+            "Emilín"
         ],
-        2
+        3
     ],
     [
         "¿Quién marcó el gol de la permanencia en Primera en 2000 contra el Rayo Vallecano?",
         [
             "Oli",
-            "Viti",
-            "Rubén Suárez",
-            "Peter Dubovsky"
+            "Dely Valdés",
+            "Iván Ania",
+            "Dubovsky"
         ],
-        2 // Rubén Suárez
+        2 // Iván Ania
     ],
     [
-        "¿Quién fue el Pichichi de Segunda División en la temporada 1971-72?",
+        "¿Quién fue el Pichichi de Segunda División B en la temporada 2014-15?",
         [
             "Carlos",
             "Marianín",
             "Lángara",
-            "Michu"
+            "Linares"
         ],
-        1 // Marianín
+        3 // Linares
     ],
     [
-        "¿Quién marcó el gol del empate en el 95' contra el Sporting (2018)?",
+        "¿Quién marcó el primer gol de la historia del Real Oviedo (partido amistoso)?",
         [
-            "Toché",
-            "Saúl Berjón",
-            "Ibra",
-            "Diegui Johannesson"
+            "Bango",
+            "Zabala",
+            "Justo",
+            "Chuché"
         ],
-        1 // Saúl Berjón
+        2 // Justo
     ],
 
     // --- CURIOSIDADES Y FECHAS ---
@@ -451,21 +441,21 @@ const quizData = [
         1
     ],
     [
-        "¿Quién fue el autor del himno oficial 'Sangre Carbayona' (1992)?",
+        "¿Quién fue el autor del himno 'no oficial' Volveremos?",
         [
             "Vicente Prado 'El Pravianu'",
             "Tino Casal",
             "Víctor Manuel",
             "Melendi"
         ],
-        0
+        3
     ],
     [
         "¿Qué país aportó la mayor inversión en la ampliación de capital de 2012, tras el Grupo Carso?",
         [
             "Estados Unidos",
             "España",
-            "México",
+            "Méjico",
             "Japón"
         ],
         2
@@ -473,34 +463,34 @@ const quizData = [
 
     // --- CANTERA Y TALENTOS ---
     [
-        "¿Qué jugador del Oviedo fue campeón del mundo sub-20 con España?",
+        "¿Qué jugador del Oviedo fue campeón de Europa sub-21 con España?",
         [
             "Borja Bastón",
             "Javi Mier",
             "Álex Cardero",
-            "Viti"
+            "Santi Cazorla"
         ],
-        3 // Viti (con la Sub-20 de España en 1999)
+        3 // Santi Cazorla (con la Sub-21 de España en 2011)
     ],
     [
-        "¿En qué año debutó Santi Cazorla con el primer equipo?",
+        "¿En qué año debutó Santi Cazorla con el primer equipo del Real Oviedo?",
         [
             "2003",
-            "2004",
-            "2005",
+            "2015",
+            "2023",
             "2006"
         ],
-        0 // 2003
+        2 // 2023
     ],
     [
-        "¿Qué entrenador logró el ascenso a Primera en 2001 (ascenso directo)?",
+        "¿Qué entrenador logró el ascenso a Primera en 1958 (ascenso directo)?",
         [
             "Juan Manuel Lillo",
             "Luis Costa",
-            "José Antonio Gómez",
+            "Picabea",
             "Fernando Vázquez"
         ],
-        1
+        2
     ],
     [
         "¿Qué jugador del Oviedo ganó una Eurocopa con España?",
@@ -517,20 +507,20 @@ const quizData = [
         [
             "Santi Cazorla",
             "Álex Cardero",
-            "Javi Mier",
-            "Marco André"
+            "Agudín",
+            "Javi Mier"
         ],
-        1 // Álex Cardero (con 17 años y 3 meses, rompiendo el récord de Javi Mier)
+        1 // Agudín (con 17 años, 11 meses y 25 días)
     ],
     [
         "¿Quién es el máximo goleador del Oviedo en Segunda División?",
         [
-            "Oli",
+            "Carlos",
             "Toché",
             "Diego Cervero",
             "Borja Bastón"
         ],
-        1 // Toché (50 goles)
+        0 // Carlos (25 goles)
     ]
 ];
 
