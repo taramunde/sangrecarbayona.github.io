@@ -210,3 +210,24 @@
   grid-row: 12/12;
 }
 
+.crossword-board__item-label--33 {
+  grid-column: 8/8;
+  grid-row: 13/13;
+}
+
+.crossword-board--highlight {
+  position: absolute;
+  z-index: 50;
+}
+
+.crossword-board__item-highlight {
+  background: #9AFF67;
+  display: grid;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+/***********************************************************/
+/** ACROSS ANSWERS HIGHLIGHTING START                      */
+/***********************************************************/
+
