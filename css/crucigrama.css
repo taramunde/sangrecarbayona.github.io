@@ -21,3 +21,122 @@
   border: 1px solid #000000;
   background: transparent;
   position: relative;
+  z-index: 100;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.crossword-board__item:active, .crossword-board__item:focus {
+  background: #FFFF74;
+  border: 1px solid #000000;
+  outline: 1px solid #000000;
+}
+
+.crossword-board__item--blank {
+  background: #000000;
+  border: 1px solid #000000;
+  outline: 1px solid #000000;
+}
+
+.crossword-board--labels {
+  position: absolute;
+  z-index: 60;
+}
+
+.crossword-board__item-label {
+  position: relative;
+}
+
+.crossword-board__item-label-text {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.crossword-board__item-label--1 {
+  grid-column: 1/1;
+}
+
+.crossword-board__item-label--2 {
+  grid-column: 4/4;
+}
+
+.crossword-board__item-label--3 {
+  grid-column: 6/6;
+}
+
+.crossword-board__item-label--4 {
+  grid-column: 9/9;
+}
+
+.crossword-board__item-label--5 {
+  grid-column: 11/11;
+}
+
+.crossword-board__item-label--6 {
+  grid-column: 13/13;
+}
+
+.crossword-board__item-label--7 {
+  grid-column: 6/6;
+  grid-row: 2/2;
+}
+
+.crossword-board__item-label--8 {
+  grid-column: 3/3;
+  grid-row: 3/3;
+}
+
+.crossword-board__item-label--9 {
+  grid-column: 5/5;
+  grid-row: 3/3;
+}
+
+.crossword-board__item-label--10 {
+  grid-column: 1/1;
+  grid-row: 4/4;
+}
+
+.crossword-board__item-label--11 {
+  grid-column: 8/8;
+  grid-row: 4/4;
+}
+
+.crossword-board__item-label--12 {
+  grid-column: 10/10;
+  grid-row: 4/4;
+}
+
+.crossword-board__item-label--13 {
+  grid-column: 12/12;
+  grid-row: 4/4;
+}
+
+.crossword-board__item-label--14 {
+  grid-column: 3/3;
+  grid-row: 5/5;
+}
+
+.crossword-board__item-label--15 {
+  grid-column: 7/7;
+  grid-row: 5/5;
+}
+
+.crossword-board__item-label--16 {
+  grid-column: 9/9;
+  grid-row: 5/5;
+}
+
+.crossword-board__item-label--17 {
+  grid-column: 1/1;
+  grid-row: 6/6;
+}
+
+.crossword-board__item-label--18 {
+  grid-column: 2/2;
+  grid-row: 6/6;
+}
+
