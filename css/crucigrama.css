@@ -1,0 +1,233 @@
+/* css/crucigrama.css */
+
+.crossword-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.crossword-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    max-width: 100%;
+    overflow-x: auto; 
+}
+
+/* Contenedor del tablero */
+.crossword-board-container {
+    position: relative;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.crossword-board {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    display: grid;
+    grid-template: repeat(17, 5.88%)/repeat(17, 5.88%);
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 650px;
+    aspect-ratio: 1/1; 
+}
+
+/* Celdas (Inputs) */
+.crossword-board__item {
+    border: 1px solid #ccc;
+    background: white;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0045a5;
+    border-radius: 2px;
+    padding: 0;
+}
+
+/* Celdas Vacías */
+.crossword-board__item--blank {
+    background: #222;
+    border: 1px solid #222;
+}
+
+/* Efectos al seleccionar */
+.crossword-board__item:active, 
+.crossword-board__item:focus {
+    background: #e3f2fd;
+    border: 2px solid #0045a5;
+    outline: none;
+}
+
+/* Números pequeños */
+.crossword-board__item-label-text {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: 9px;
+    line-height: 1;
+    color: #666;
+    pointer-events: none;
+    z-index: 101;
+}
+
+/* PISTAS (Clues) */
+.crossword-clues {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #0045a5;
+}
+
+.crossword-clues__list-title {
+    color: #0045a5;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.crossword-clues__list-item {
+    font-size: 0.9em;
+    padding: 2px 0;
+    color: #333;
+}
+
+/* Mensaje de Victoria */
+.crossword-complete {
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+    color: #0045a5;
+    background: rgba(255,255,255,0.95);
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #0045a5;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    width: 80%;
+}
+
+/* Botón de Comprobar */
+#checkvaliditems {
+    display: none;
+}
+
+.check-btn {
+    display: inline-block;
+    background: #0045a5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.check-btn:hover {
+    background: #003380;
+}
+
+#checkvaliditems:checked ~ .check-btn {
+    background: #28a745;
+    content: "¡Comprobando!";
+}
+
+/* --- LOGICA DEL CRUCIGRAMA (POSICIONES Y VALIDACIONES) --- */
+
+.crossword-board__item-label--1 { grid-column: 2/2; }
+.crossword-board__item-label--2 { grid-column: 7/7; }
+.crossword-board__item-label--3 { grid-column: 16/16; grid-row: 2/2; }
+.crossword-board__item-label--4 { grid-column: 7/7; grid-row: 3/3; }
+.crossword-board__item-label--5 { grid-column: 14/14; grid-row: 3/3; }  
+.crossword-board__item-label--6 { grid-column: 3/3; grid-row: 4/4; }   
+.crossword-board__item-label--7 { grid-column: 14/14; grid-row: 4/4; }   
+.crossword-board__item-label--8 { grid-column: 3/3; grid-row: 6/6; } 
+.crossword-board__item-label--9 { grid-column: 5/5; grid-row: 6/6; } 
+.crossword-board__item-label--10 { grid-column: 16/16; grid-row: 7/7; }  
+.crossword-board__item-label--11 { grid-column: 9/9; grid-row: 8/8; } 
+.crossword-board__item-label--12 { grid-column: 11/11; grid-row: 8/8; }  
+.crossword-board__item-label--13 { grid-column: 2/2; grid-row: 10/10; }  
+.crossword-board__item-label--14 { grid-column: 1/1; grid-row: 11/11; }  
+.crossword-board__item-label--15 { grid-column: 13/13; grid-row: 11/11; }    
+.crossword-board__item-label--16 { grid-column: 7/7; grid-row: 12/12; } 
+.crossword-board__item-label--17 { grid-column: 6/6; grid-row: 13/13; }  
+.crossword-board__item-label--18 { grid-column: 8/8; grid-row: 14/14; }  
+.crossword-board__item-label--19 { grid-column: 1/1; grid-row: 16/16; }   
+.crossword-board__item-label--20 { grid-column: 8/8; grid-row: 17/17; } 
+
+.crossword-board--highlight { position: absolute; z-index: 50; }
+.crossword-board__item-highlight { background: #9AFF67; display: grid; opacity: 0; transition: opacity 0.3s linear; }
+
+/* HIGHLIGHTS ACROSS */
+.crossword-board__item-highlight--across-1 { grid-column: 2/12; }
+.crossword-board__item-highlight--across-4 { grid-column: 7/15; grid-row: 3; }
+.crossword-board__item-highlight--across-7 { grid-column: 14/18; grid-row: 4; }
+.crossword-board__item-highlight--across-8 { grid-column: 3/11; grid-row: 6; }
+.crossword-board__item-highlight--across-11 { grid-column: 9/17; grid-row: 8; }
+.crossword-board__item-highlight--across-14 { grid-column: 1/6; grid-row: 11; }
+.crossword-board__item-highlight--across-16 { grid-column: 7/14; grid-row: 12; }
+.crossword-board__item-highlight--across-18 { grid-column: 8/18; grid-row: 14; }
+.crossword-board__item-highlight--across-19 { grid-column: 1/8; grid-row: 16; }
+.crossword-board__item-highlight--across-20 { grid-column: 8/18; grid-row: 17; }
+
+/* HIGHLIGHTS DOWN */
+.crossword-board__item-highlight--down-2 { grid-column: 7; grid-row: 1/8; }
+.crossword-board__item-highlight--down-3 { grid-column: 16; grid-row: 2/6; }
+.crossword-board__item-highlight--down-5 { grid-column: 14; grid-row: 3/11; }  
+.crossword-board__item-highlight--down-6 { grid-column: 3; grid-row: 4/9; }
+.crossword-board__item-highlight--down-9 { grid-column: 5; grid-row: 6/12; }
+.crossword-board__item-highlight--down-10 { grid-column: 16; grid-row: 7/12; }
+.crossword-board__item-highlight--down-12 { grid-column: 11; grid-row: 8/16; }
+.crossword-board__item-highlight--down-13 { grid-column: 2; grid-row: 10/17; }
+.crossword-board__item-highlight--down-15 { grid-column: 13; grid-row: 11/18; }
+.crossword-board__item-highlight--down-17 { grid-column: 6; grid-row: 13/18; }
+
+/* LOGICA DE VALIDACIÓN (Si aciertas, se ilumina) */
+#item1-2:valid ~ #item1-3:valid ~ #item1-4:valid ~ #item1-5:valid ~ #item1-6:valid ~ #item1-7:valid ~ #item1-8:valid ~ #item1-9:valid ~ #item1-10:valid ~ #item1-11:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-1 { opacity: 1; }
+#item3-7:valid ~ #item3-8:valid ~ #item3-9:valid ~ #item3-10:valid ~ #item3-11:valid ~ #item3-12:valid ~ #item3-13:valid ~ #item3-14:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-4 { opacity: 1; }  
+#item4-14:valid ~ #item4-15:valid ~ #item4-16:valid ~ #item4-17:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-7 { opacity: 1; }
+#item6-3:valid ~ #item6-4:valid ~ #item6-5:valid ~ #item6-6:valid ~ #item6-7:valid ~ #item6-8:valid ~ #item6-9:valid ~ #item6-10:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-8 { opacity: 1; }  
+#item8-9:valid ~ #item8-10:valid ~ #item8-11:valid ~ #item8-12:valid ~ #item8-13:valid ~ #item8-14:valid ~ #item8-15:valid ~ #item8-16:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-11 { opacity: 1; }
+#item11-1:valid ~ #item11-2:valid ~ #item11-3:valid ~ #item11-4:valid ~ #item11-5:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-14 { opacity: 1; }
+#item12-7:valid ~ #item12-8:valid ~ #item12-9:valid ~ #item12-10:valid ~ #item12-11:valid ~ #item12-12:valid ~ #item12-13:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-16 { opacity: 1; }
+#item14-8:valid ~ #item14-9:valid ~ #item14-10:valid ~ #item14-11:valid ~ #item14-12:valid ~ #item14-13:valid ~ #item14-14:valid ~ #item14-15:valid ~ #item14-16:valid ~ #item14-17:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-18 { opacity: 1; }
+#item16-1:valid ~ #item16-2:valid ~ #item16-3:valid ~ #item16-4:valid ~ #item16-5:valid ~ #item16-6:valid ~ #item16-7:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-19 { opacity: 1; }
+#item17-8:valid ~ #item17-9:valid ~ #item17-10:valid ~ #item17-11:valid ~ #item17-12:valid ~ #item17-13:valid ~ #item17-14:valid ~ #item17-15:valid ~ #item17-16:valid ~ #item17-17:valid ~ .crossword-board--highlight .crossword-board__item-highlight--across-20 { opacity: 1; }
+
+#item1-7:valid ~ #item2-7:valid ~ #item3-7:valid ~ #item4-7:valid ~ #item5-7:valid ~ #item6-7:valid ~ #item7-7:valid ~  .crossword-board--highlight .crossword-board__item-highlight--down-2 { opacity: 1; }
+#item2-16:valid ~ #item3-16:valid ~ #item4-16:valid ~ #item5-16:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-3 { opacity: 1; }
+#item3-14:valid ~ #item4-14:valid ~ #item5-14:valid ~ #item6-14:valid ~ #item7-14:valid ~ #item8-14:valid ~ #item9-14:valid ~ #item10-14:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-5 { opacity: 1; }
+#item4-3:valid ~ #item5-3:valid ~ #item6-3:valid ~ #item7-3:valid ~ #item8-3:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-6 { opacity: 1; }
+#item6-5:valid ~ #item7-5:valid ~ #item8-5:valid ~ #item9-5:valid ~ #item10-5:valid ~ #item11-5:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-9 { opacity: 1; }
+#item7-16:valid ~ #item8-16:valid ~ #item9-16:valid ~ #item10-16:valid ~ #item11-16:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-10 { opacity: 1; }
+#item8-11:valid ~ #item9-11:valid ~ #item10-11:valid ~ #item11-11:valid ~ #item12-11:valid ~ #item13-11:valid ~ #item14-11:valid ~ #item15-11:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-12 { opacity: 1; }
+#item10-2:valid ~ #item11-2:valid ~ #item12-2:valid ~ #item13-2:valid ~ #item14-2:valid ~ #item15-2:valid ~ #item16-2:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-13 { opacity: 1; }
+#item11-13:valid ~ #item12-13:valid ~ #item13-13:valid ~ #item14-13:valid ~ #item15-13:valid ~ #item16-13:valid ~ #item17-13:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-15 { opacity: 1; }
+#item13-6:valid ~ #item14-6:valid ~ #item15-6:valid ~ #item16-6:valid ~ #item17-6:valid ~ .crossword-board--highlight .crossword-board__item-highlight--down-17 { opacity: 1; }
+
+#checkvaliditems:checked ~ .crossword-board-container .crossword-board__item:valid { background: #9AFF67; }
+
+/* MENSAJE DE VICTORIA (Todo correcto) */
+#item1-2:valid ~ #item1-3:valid ~ #item1-4:valid ~ #item1-5:valid ~ #item1-6:valid ~ #item1-7:valid ~ #item1-8:valid ~ #item1-9:valid ~ #item1-10:valid ~ #item1-11:valid ~ #item2-7:valid ~ #item2-16:valid ~ #item3-7:valid ~ #item3-8:valid ~ #item3-9:valid ~ #item3-10:valid ~ #item3-11:valid ~ #item3-12:valid ~ #item3-13:valid ~ #item3-14:valid ~ #item3-16:valid ~ #item4-3:valid ~  #item4-7:valid ~  #item4-14:valid ~ #item4-15:valid ~ #item4-16:valid ~ #item4-17:valid ~ #item5-3:valid ~ #item5-7:valid ~ #item5-14:valid ~ #item5-16:valid ~ #item6-3:valid ~ #item6-4:valid ~ #item6-5:valid ~ #item6-6:valid ~ #item6-7:valid ~ #item6-8:valid ~ #item6-9:valid ~ #item6-10:valid ~ #item6-14:valid ~ #item7-3:valid ~ #item7-5:valid ~ #item7-7:valid ~ #item7-14:valid ~ #item7-16:valid ~ #item8-3:valid ~ 
+#item8-5:valid ~ #item8-9:valid ~ #item8-10:valid ~ #item8-11:valid ~ #item8-12:valid ~ #item8-13:valid ~ #item8-14:valid ~ #item8-15:valid ~ #item8-16:valid ~ #item9-5:valid ~ #item9-11:valid ~ #item9-14:valid ~ #item9-16:valid ~ #item10-1:valid ~ #item10-2:valid ~ #item10-5:valid ~ #item10-11:valid ~ #item10-14:valid ~ #item10-16:valid ~ #item11-1:valid ~ #item11-2:valid ~ #item11-3:valid ~ #item11-4:valid ~ #item11-5:valid ~ #item11-11:valid ~ #item11-13:valid ~ #item11-16:valid ~ #item12-2:valid ~ #item12-7:valid ~ #item12-8:valid ~ #item12-9:valid ~ #item12-10:valid ~ #item12-11:valid ~ #item12-12:valid ~ #item12-13:valid ~ #item13-2:valid ~ #item13-6:valid ~ #item13-11:valid ~ #item13-13:valid ~ #item14-2:valid ~ #item14-6:valid ~ #item14-8:valid ~ #item14-9:valid ~ #item14-10:valid ~ #item14-11:valid ~ #item14-12:valid ~ #item14-13:valid ~ #item14-14:valid ~ #item14-15:valid ~ #item14-16:valid ~ 
+#item14-17:valid ~ #item15-2:valid ~ #item15-6:valid ~ #item15-11:valid ~ #item15-13:valid ~ #item16-1:valid ~ #item16-2:valid ~ #item16-3:valid ~ #item16-4:valid ~ #item16-5:valid ~ #item16-6:valid ~ #item16-7:valid ~ #item16-13:valid ~ #item17-6:valid ~ #item17-8:valid ~ #item17-9:valid ~ #item17-10:valid ~ #item17-11:valid ~ #item17-12:valid ~ #item17-13:valid ~ #item17-14:valid ~ #item17-15:valid ~ #item17-16:valid ~ #item17-17:valid ~ .crossword-complete {
+  opacity: 1;
+}
