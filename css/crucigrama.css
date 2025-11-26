@@ -1,6 +1,9 @@
 .crossword-board-container {
   position: relative;
   background: #FFFFFF;
+  width: 650px; /* Define un ancho fijo */
+  height: 650px; /* Define un alto fijo */
+  margin: 20px auto; /* ¡Centra el contenedor en la página! */
 }
 
 .crossword-board {
