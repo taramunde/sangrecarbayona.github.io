@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/L8PP4nf2/J13-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Real Oviedo no gana ni con la ayuda de un estelar Santi Cazorla.",
+        image: "https://i.postimg.cc/wTS4mFvk/J-14-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "Sorloth acaba con el Real Oviedo en diez minutos.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2025/11/23/oviedo-rayo/00031763906513260342103.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2025/11/29/cronica/00031764450078355300529.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/YCFF2hgt/J13-LNE.webp", // FOTO NOTICIA 2
-        title: "Cerca con Cazorla, lejos con Quintero: empate del Oviedo con uno menos ante el Rayo.",
+        image: "https://i.postimg.cc/8PqX6w54/J-14-Atleti-Oviedo-LNE.webp", // FOTO NOTICIA 2
+        title: "El Oviedo se entrega en menos de media hora: derrota 2-0 en su visita al Atleti",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2025/11/23/cerca-cazorla-lejos-quintero-empate-124033446.html"
+        link: "https://www.lne.es/real-oviedo/2025/11/29/oviedo-entrega-media-hora-derrota-124274350.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/htmm4fx4/J13-EC.webp", // FOTO NOTICIA 3
-        title: "Real Oviedo 0-0 Rayo Vallecano | Mejoría y un punto de esperanza.",
-        author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-rayo-vallecano-mejoria-punto-esperanza-empate-tartiere-20251123170117-nt.html"
+        image: "https://i.postimg.cc/RVjpHGFX/J-14-EC.webp", // FOTO NOTICIA 3
+        title: "El Real Oviedo abdica pronto en el Metropolitano",
+        author: "HUGO VELASCO",
+        link: "https://www.elcomercio.es/real-oviedo/atletico-madrid-real-oviedo-directo-partido-futbol-primera-goles-jugadas-20251129170543-di.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/g2hhcnRz/J13-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Oviedo resiste con diez y suma un punto de carácter ante el Rayo",
-        author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-resiste-con-diez-y-suma-un-punto-de-caracter-ante-el-rayo"
+        image: "https://i.postimg.cc/ZK1sdjRj/J-14-KA.jpg", // FOTO NOTICIA 4
+        title: "FINAL: Así fue la derrota del Oviedo contra el Atlético de Madrid (2-0)",
+        author: "TATO FELGUEROSO",
+        link: "https://killerasturias.com/node/16409"
     }
 ];
 
