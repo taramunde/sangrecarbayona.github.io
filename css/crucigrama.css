@@ -58,7 +58,7 @@
     .grid { grid-template-columns: repeat(17, 31px); grid-template-rows: repeat(17, 31px); }
 }
 @media (min-width: 1101px) {
-    .grid { grid-template-columns: repeat(17, 36px); grid-template-rows: repeat(17, 36px); }
+    .grid { grid-template-columns: repeat(17, 38px); grid-template-rows: repeat(17, 38px); }
 }
 
 /* Estilo de cada casilla */
