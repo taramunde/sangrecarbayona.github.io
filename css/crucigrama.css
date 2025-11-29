@@ -40,7 +40,8 @@
 /* La rejilla en sí */
 .grid {
     display: grid;
-    gap: 0;
+    gap: 0 !important;
+    grid-gap: 0 !important;
     /* Las columnas se definen en las media queries de abajo */
 }
 
