@@ -75,9 +75,11 @@
     border-radius: 0;
     -webkit-appearance: none;
     appearance: none;
+    line-height: 1;
+    box-sizing: border-box;
+    padding: 0;
     font-size: clamp(9px, 1.5vw, 16px);
     color: #000;
-    padding: 0;
     margin: 0;
 }
 
