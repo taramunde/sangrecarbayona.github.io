@@ -100,6 +100,8 @@
     pointer-events: none;
 }
 
+
+
 /* Botonera */
 .game-buttons {
     display: flex;
@@ -163,4 +165,16 @@
     font-size: 0.9rem;
     line-height: 1.4;
     color: #333;
+}
+
+.cell[data-number]::before {
+    content: attr(data-number);
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    font-size: 7px;
+    line-height: 7px;
+    color: #444;
+    font-weight: bold;
+    pointer-events: none;
 }
