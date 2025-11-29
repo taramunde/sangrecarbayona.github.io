@@ -24,9 +24,8 @@ let currentDirection = 'horizontal';
 
 // Mapeo de coordenadas a números de preguntas
 const numbers = { 
-    '0-1':1, '1-6':2, '2-15':3, '3-2':4, '5-2':5, '6-4':6, 
-    '7-3':7, '9-1':8, '9-9':9, '10-0':10, '10-10':11, '11-6':12, '12-5':13, 
-    '13-10':14, '15-0':15, '15-12':16, '16-7':17 
+    '0-0':1, '2-2':2, '4-3':3, '6-2':4, '8-1':5, '10-0':6, 
+    '11-6':7, '15-0':8, '16-10':9 
 };
 
 function createGrid() {
@@ -47,9 +46,25 @@ function createGrid() {
                 input.classList.add('black');
                 input.disabled = true;
             } else {
-                // Asignar número si existe en el mapeo
                 if (numbers[`${i}-${j}`]) {
-                    input.setAttribute('data-number', numbers[`${i}-${j}`]);
+                    const num = document.createElement('span');
+                    num.className = 'number';
+                    num.textContent = numbers[`${i}-${j}`];
+                    // El span no puede ir dentro de un input, usamos un contenedor relativo en el CSS
+                    // pero para simplificar sin cambiar HTML, lo insertamos antes o usamos background.
+                    // TRUCO: Como input no puede tener hijos, lo ideal es usar un div wrapper, 
+                    // pero mantendremos tu lógica insertando el input y posicionando el número con CSS o JS si fuera un div.
+                    // CORRECCIÓN: Los inputs NO pueden tener hijos en HTML válido.
+                    // Para que se vean los números, necesitamos un truco.
+                    // Lo dejaremos así, pero ten en cuenta que el span dentro de input se perderá en el renderizado.
+                }
+                
+                // NOTA IMPORTANTE SOBRE NÚMEROS: 
+                // Como los inputs no pueden tener hijos, el código original fallaba al mostrar números.
+                // La mejor forma rápida es usar el placeholder si está vacío o un div contenedor.
+                // Sin embargo, para no complicar tu estructura, usaremos el placeholder temporalmente o data-atributes.
+                if (numbers[`${i}-${j}`]) {
+                    input.setAttribute('placeholder', numbers[`${i}-${j}`]);
                 }
 
                 input.dataset.row = i;
@@ -95,32 +110,19 @@ function createGrid() {
 }
 
 const moveH = (r,c) => { 
-    const originalC = c;
-    while(c >= 0 && c < SIZE && solution[r][c] === '#') {
-        c += (c < originalC) ? -1 : 1;
-    }
-    if(c >= 0 && c < SIZE) {
-        const cell = document.querySelector(`[data-row="${r}"][data-col="${c}"]`);
-        if(cell) cell.focus();
-    }
+    while(c>=0&&c<SIZE&&solution[r][c]==='#') c+=c<j?-1:1; // Corrección simple de salto
+    if(c>=0&&c<SIZE) document.querySelector(`[data-row="${r}"][data-col="${c}"]`)?.focus(); 
 };
-
 const moveV = (r,c) => { 
-    const originalR = r;
-    while(r >= 0 && r < SIZE && solution[r][c] === '#') {
-        r += (r < originalR) ? -1 : 1;
-    }
-    if(r >= 0 && r < SIZE) {
-        const cell = document.querySelector(`[data-row="${r}"][data-col="${c}"]`);
-        if(cell) cell.focus();
-    }
+    while(r>=0&&r<SIZE&&solution[r][c]==='#') r+=r<i?-1:1; 
+    if(r>=0&&r<SIZE) document.querySelector(`[data-row="${r}"][data-col="${c}"]`)?.focus(); 
 };
 
 function checkAnswers() {
     let ok = 0, tot = 0;
-    for(let i = 0; i < SIZE; i++) {
-        for(let j = 0; j < SIZE; j++) {
-            if(solution[i][j] !== '#'){
+    for(let i=0;i<SIZE;i++) {
+        for(let j=0;j<SIZE;j++) {
+            if(solution[i][j]!=='#'){
                 tot++;
                 const el = document.querySelector(`[data-row="${i}"][data-col="${j}"]`);
                 if(el.value === solution[i][j]) {
@@ -136,7 +138,7 @@ function checkAnswers() {
     }
     // Pequeño delay para que se pinte antes del alert
     setTimeout(() => {
-        alert(ok === tot ? '¡ENHORABUENA! ¡PUXA OVIEDO!' : `Llevas ${ok} de ${tot} aciertos.`);
+        alert(ok===tot ? '¡ENHORABUENA! ¡PUXA OVIEDO!' : `Llevas ${ok} de ${tot} aciertos.`);
     }, 100);
 }
 
@@ -152,14 +154,10 @@ function clearGrid() {
 
 function showSolution() {
     if(confirm('¿Rendirse y ver la solución?')){
-        for(let i = 0; i < SIZE; i++) {
-            for(let j = 0; j < SIZE; j++) {
-                if(solution[i][j] !== '#'){
-                    const el = document.querySelector(`[data-row="${i}"][data-col="${j}"]`);
-                    el.value = solution[i][j];
-                    el.className = 'cell correct';
-                }
-            }
+        for(let i=0;i<SIZE;i++) for(let j=0;j<SIZE;j++) if(solution[i][j]!=='#'){
+            const el = document.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+            el.value = solution[i][j];
+            el.className = 'cell correct';
         }
     }
 }
