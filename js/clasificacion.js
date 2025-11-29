@@ -184,7 +184,7 @@ const enfrentamientos = [
   { equipo1: "Villarreal C.F.", equipo2: "R.C.D. Mallorca", goles1: 2, goles2: 1 },
   
   // Jornada 14
-  { equipo1: "Atlético de Madrid", equipo2: "Real Oviedo", goles1: null, goles2: null },
+  { equipo1: "Atlético de Madrid", equipo2: "Real Oviedo", goles1: 2, goles2: 0 },
   { equipo1: "Celta de Vigo", equipo2: "R.C.D. Espanyol", goles1: null, goles2: null },
   { equipo1: "Girona F.C.", equipo2: "Real Madrid", goles1: null, goles2: null },
   { equipo1: "R.C.D. Mallorca", equipo2: "C.A. Osasuna", goles1: 2, goles2: 2 },
