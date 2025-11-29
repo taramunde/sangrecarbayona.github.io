@@ -64,7 +64,7 @@ function createGrid() {
                 // La mejor forma rápida es usar el placeholder si está vacío o un div contenedor.
                 // Sin embargo, para no complicar tu estructura, usaremos el placeholder temporalmente o data-atributes.
                 if (numbers[`${i}-${j}`]) {
-                    input.setAttribute('placeholder', numbers[`${i}-${j}`]);
+                   input.setAttribute('data-number', numbers[`${i}-${j}`]);
                 }
 
                 input.dataset.row = i;
