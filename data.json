@@ -1,13 +1,13 @@
 {
-  "jornada": "13 LaLiga EA Sports 2025/26",
+  "jornada": "14 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "OVI",
-    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "visitor": "RAY",
-    "visitorImg": "https://i.postimg.cc/153WzLct/Rayo-Vallecano-de-Madrid-B-(2007).jpg",
-    "score": "0 - 0",
-    "date": "Dom. 23 Nov, 14:00",
-    "time": "Carlos Tartiere"
+    "home": "ATM",
+    "homeImg": "https://i.postimg.cc/MT6NxX9P/Club-Atletico-de-Madrid-(2000).jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "score": " - ",
+    "date": "Sáb. 29 Nov, 21:00",
+    "time": "Riyadh Air Metropolitano"
   },
   "nextMatch": {
     "home": "ATM",
@@ -16,7 +16,7 @@
     "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "score": " - ",
     "date": "Sáb. 29 Nov, 21:00",
-    "time": "El Metropolitano"
+    "time": "Riyadh Air Metropolitano"
   },
   
   "goalscorers": [],
