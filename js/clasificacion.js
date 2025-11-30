@@ -189,10 +189,10 @@ const enfrentamientos = [
   { equipo1: "Girona F.C.", equipo2: "Real Madrid", goles1: null, goles2: null },
   { equipo1: "R.C.D. Mallorca", equipo2: "C.A. Osasuna", goles1: 2, goles2: 2 },
   { equipo1: "Rayo Vallecano", equipo2: "Valencia C.F.", goles1: null, goles2: null },
-  { equipo1: "Real Sociedad", equipo2: "Villarreal C.F.", goles1: null, goles2: null },
+  { equipo1: "Real Sociedad", equipo2: "Villarreal C.F.", goles1: 2, goles2: 3 },
   { equipo1: "F.C. Barcelona", equipo2: "Deportivo Alavés", goles1: 3, goles2: 1 },
   { equipo1: "Levante U.D.", equipo2: "Athletic Club", goles1: 0, goles2: 2 },
-  { equipo1: "Sevilla F.C.", equipo2: "Real Betis", goles1: null, goles2: null },
+  { equipo1: "Sevilla F.C.", equipo2: "Real Betis", goles1: 0, goles2: 2 },
   { equipo1: "Getafe C.F.", equipo2: "Elche C.F.", goles1: 1, goles2: 0 },
   
   // Jornada 15
