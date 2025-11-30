@@ -18,7 +18,7 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
             { season: "2023/24", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
             { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
@@ -70,7 +70,7 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª División" },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª División - Copa del Rey" },
             { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
             { season: "2024/25", team: "Atlético de Madrid", category: "1ª División" },
             { season: "2023/24", team: "Atlético de Madrid", category: "1ª División - Champions League - Copa del Rey" },
@@ -169,7 +169,7 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2023/24", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2023/24", team: "Beşiktaş J.K.", category: "Liga Turca - Conference League" },
@@ -231,7 +231,7 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     }, 
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
             { season: "2023/24", team: "Real Club Recreativo de Huelva", category: "1ª Federación - Copa del Rey" },
             { season: "2022/23", team: "Rayo Majadahonda", category: "1ª Federación - Copa del Rey" },
@@ -281,14 +281,23 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     }, 
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
-            { season: "2023/24", team: "Real Club Recreativo de Huelva", category: "1ª Federación - Copa del Rey" },
-            { season: "2022/23", team: "Rayo Majadahonda", category: "1ª Federación - Copa del Rey" },
-            { season: "2021/22", team: "Gimnástica Segoviana", category: "2ª Federación - Copa del Rey" },
-            { season: "2020/21", team: "Rayo Majadahonda U19", category: "División de Honor" },
-            { season: "2020/21", team: "Rayo Majadahonda", category: "2ª Div. B - 2ª Fase 1ª Div. RFEF" },
-            { season: "2020/21", team: "México F.C.", category: "3ª Div." }
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey -  2ª Play Offs Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Celta de Vigo", category: "1ª Div." },
+            { season: "2019/20", team: "U.D. Almería", category: "2ª Div. - 2ª Play Offs Ascenso" },
+            { season: "2019/20", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Barça Atlètic", category: "2ª Div." },
+            { season: "2017/18", team: "F.C. Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2015/16", team: "R.C.D. Mallorca", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Celta Fortuna", category: "2ª Div. B" },
         ],
         nationalTeam: [
             { season: "2025", team: "Níger", category: "Clasificación Mundial África - Amistosos" },
