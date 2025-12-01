@@ -92,7 +92,7 @@ const playersData = {
             { season: "2023", team: "Rumanía", category: "Clasificación Eurocopa" },
             { season: "2022", team: "Rumanía", category: "Liga de las Naciones de la UEFA - Amistosos" },
             { season: "2021", team: "Rumanía", category: "Clasificación Mundial Europa" },
-            { season: "2023", team: "Rumanía Sub-21", category: "Clasificación Europeo U21" }
+            { season: "2023", team: "Rumanía Sub-21", category: "Clasificación Europeo Sub-21" }
         ],    
         stats: {
             "2025/26": {
@@ -243,7 +243,7 @@ const playersData = {
         nationalTeam: [
             { season: "2025", team: "Níger", category: "Clasificación Mundial África - Amistosos" },
             { season: "2024", team: "Níger", category: "Clasificación Copa África - Amistosos" },
-            { season: "2023", team: "Níger Sub-23", category: "Copa África U23" },
+            { season: "2023", team: "Níger Sub-23", category: "Copa África Sub-23" },
             { season: "2023", team: "Níger", category: "Clasificación Mundial África - Clasificación Copa África - Amistosos" },
             { season: "2022", team: "Níger", category: "Clasificación Copa África - Amistosos" }
          ], 
@@ -296,16 +296,14 @@ const playersData = {
             { season: "2016/17", team: "Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "R.C.D. Mallorca", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
-            { season: "2013/14", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Celta Fortuna", category: "2ª Div. B" },
+            { season: "2013/14", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" }
         ],
         nationalTeam: [
-            { season: "2025", team: "Níger", category: "Clasificación Mundial África - Amistosos" },
-            { season: "2024", team: "Níger", category: "Clasificación Copa África - Amistosos" },
-            { season: "2023", team: "Níger Sub-23", category: "Copa África U23" },
-            { season: "2023", team: "Níger", category: "Clasificación Mundial África - Clasificación Copa África - Amistosos" },
-            { season: "2022", team: "Níger", category: "Clasificación Copa África - Amistosos" }
-         ], 
+            { season: "2014", team: "España Sub-21", category: "Amistosos" },
+            { season: "2014", team: "España Sub-19", category: "Clasificación Europeo Sub-19 - Amistosos" },
+            { season: "2013", team: "España Sub-19", category: "Amistosos" }
+        ], 
         stats: {
             "2025/26": {
                 liga: { partidos: 13, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
