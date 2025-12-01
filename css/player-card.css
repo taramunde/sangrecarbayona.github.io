@@ -73,7 +73,7 @@ main .player-section .player-card .player-position {
 
 /* Nombre (Aarón, más grande) */
 main .player-section .player-card .player-name {
-    font-size: 20px;
+    font-size: 28px;
     margin: 0 !important; /* Sin márgenes */
     padding: 0 !important; /* Sin padding */
     text-align: left !important; /* Forzar alineación a la izquierda */
@@ -166,7 +166,7 @@ main .player-section .player-card .black-ribbon-img {
         margin-right: 0 !important;
     }
     main .player-section .player-card .player-name {
-        font-size: 24px;
+        font-size: 18px;
         margin: 0 !important;
         padding: 0 !important;
         text-align: left !important;
@@ -256,7 +256,7 @@ main .player-section .player-card .black-ribbon-img {
         padding: 0 !important;
     }
     main .player-section .player-card .player-name {
-        font-size: 24px;
+        font-size: 18px;
         margin: 0 !important;
         padding: 0 !important;
         text-align: left !important;
