@@ -73,7 +73,7 @@ main .player-section .player-card .player-position {
 
 /* Nombre (Aarón, más grande) */
 main .player-section .player-card .player-name {
-    font-size: 28px;
+    font-size: 20px;
     margin: 0 !important; /* Sin márgenes */
     padding: 0 !important; /* Sin padding */
     text-align: left !important; /* Forzar alineación a la izquierda */
