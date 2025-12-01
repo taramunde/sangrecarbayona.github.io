@@ -36,7 +36,7 @@ main .player-section .player-card .player-image {
     background: transparent !important; /* Forzar transparencia */
     border: none !important; /* Sin borde */
     object-fit: contain; /* NUEVO: mantiene proporciones sin deformar */
-    object-position: center bottom; /* MEJORA: Alinea a los pies/abajo por si sobra espacio arriba */
+    object-position: center; /* MEJORA: Alinea a los pies/abajo por si sobra espacio arriba */
 }
 
 /* Información del jugador */
@@ -140,7 +140,7 @@ main .player-section .player-card .black-ribbon-img {
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
         object-fit: contain; /* NUEVO */
-        object-position: center bottom; /* Alineado abajo */
+        object-position: center; /* Alineado abajo */
     }
     
     main .player-section .player-card .player-position {
@@ -212,7 +212,7 @@ main .player-section .player-card .black-ribbon-img {
         background: transparent !important;
         border: none !important;
         object-fit: contain; /* NUEVO */
-        object-position: center bottom;
+        object-position: center;
     }
     
     main .player-section .player-card .player-info {
