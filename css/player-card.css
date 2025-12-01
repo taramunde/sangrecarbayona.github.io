@@ -144,11 +144,11 @@ main .player-section .player-card .black-ribbon-img {
     }
     
     main .player-section .player-card .player-position {
-        font-size: 16px;
+        font-size: 14px;
         margin-right: 0 !important;
     }
     main .player-section .player-card .player-name {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0 !important;
         padding: 0 !important;
         text-align: left !important;
@@ -224,13 +224,13 @@ main .player-section .player-card .black-ribbon-img {
         padding: 0 !important;
     }
     main .player-section .player-card .player-position {
-        font-size: 18px;
+        font-size: 14px;
         margin-bottom: 5px;
         margin-right: 0 !important;
         padding: 0 !important;
     }
     main .player-section .player-card .player-name {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0 !important;
         padding: 0 !important;
         text-align: left !important;
