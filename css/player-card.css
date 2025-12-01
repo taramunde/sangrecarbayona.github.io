@@ -28,29 +28,13 @@ main .player-section .player-card .player-card-image-container {
 /* Imagen del jugador */
 main .player-section .player-card .player-image {
     width: 150px; /* Tamaño base */
-    height: 200px; /* ALTURA FIJA para consistencia */
+    height: 240px; /* ALTURA FIJA para consistencia */
     border-radius: 10px; /* Bordes redondeados */
     display: block;
     background: transparent !important; /* Forzar transparencia */
     border: none !important; /* Sin borde */
     object-fit: contain; /* NUEVO: mantiene proporciones sin deformar */
     object-position: center; /* NUEVO: centra la imagen */
-}
-
-/* Número del jugador (arriba y a la izquierda, sin fondo ni borde blanco) */
-main .player-section .player-card .player-card-number {
-    position: absolute;
-    top: -10px; /* Arriba de la imagen */
-    left: -10px; /* A la izquierda */
-    background-color: transparent !important; /* Fondo transparente */
-    color: #ffffff; /* Color blanco para contraste */
-    font-size: 24px;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 50%; /* Círculo */
-    border: none !important; /* Eliminar cualquier borde blanco */
-    box-shadow: none !important; /* Eliminar sombra */
-    outline: none !important; /* Eliminar cualquier contorno */
 }
 
 /* Información del jugador */
@@ -148,19 +132,13 @@ main .player-section .player-card .black-ribbon-img {
     }
     main .player-section .player-card .player-image {
         width: 120px; /* Reduce tamaño de imagen */
-    height: 160px; /* ALTURA FIJA para tablets */
-    background: transparent !important; /* Forzar transparencia */
-    border: none !important; /* Sin borde */
-    object-fit: contain; /* NUEVO */
-    object-position: center; /* NUEVO */
-    }
-    main .player-section .player-card .player-card-number {
-        font-size: 20px; /* Reduce tamaño del número */
+        height: 190px; /* ALTURA FIJA para tablets */
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
-        box-shadow: none !important; /* Sin sombra */
-        outline: none !important; /* Sin contorno */
+        object-fit: contain; /* NUEVO */
+        object-position: center; /* NUEVO */
     }
+    
     main .player-section .player-card .player-position {
         font-size: 16px;
         margin-right: 0 !important;
@@ -226,21 +204,13 @@ main .player-section .player-card .black-ribbon-img {
     }
     main .player-section .player-card .player-image {
         width: 110px;
-    height: 140px; /* ALTURA FIJA para móviles */
-    background: transparent !important;
-    border: none !important;
-    object-fit: contain; /* NUEVO */
-    object-position: center; /* NUEVO */
-    }
-    main .player-section .player-card .player-card-number {
-        top: -5px;
-        left: -5px;
-        font-size: 18px;
+        height: 170px; /* ALTURA FIJA para móviles */
         background: transparent !important;
         border: none !important;
-        box-shadow: none !important;
-        outline: none !important;
+        object-fit: contain; /* NUEVO */
+        object-position: center; /* NUEVO */
     }
+    
     main .player-section .player-card .player-info {
         display: flex;
         flex-direction: column;
