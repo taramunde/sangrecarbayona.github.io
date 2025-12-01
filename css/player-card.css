@@ -2,7 +2,7 @@
 main .player-section .player-card {
     background: linear-gradient(to right, #001f3f, #007bff);
     border-radius: 15px 15px 0 0; /* Redondeado solo arriba */
-    padding: 20px;
+    padding: 10px 20px;
     max-width: 800px;
     margin: 20px auto 0 auto; /* Forzar margin-bottom a 0 */
     display: flex;
@@ -27,14 +27,16 @@ main .player-section .player-card .player-card-image-container {
 
 /* Imagen del jugador */
 main .player-section .player-card .player-image {
-    width: 150px; /* Tamaño base */
-    height: 240px; /* ALTURA FIJA para consistencia */
+    width: 180px; /* Tamaño base */
+    height: 280px; /* ALTURA FIJA para consistencia */
+    margin-top: -15px;
+    margin-bottom: -15px;
     border-radius: 10px; /* Bordes redondeados */
     display: block;
     background: transparent !important; /* Forzar transparencia */
     border: none !important; /* Sin borde */
     object-fit: contain; /* NUEVO: mantiene proporciones sin deformar */
-    object-position: center; /* NUEVO: centra la imagen */
+    object-position: center bottom; /* MEJORA: Alinea a los pies/abajo por si sobra espacio arriba */
 }
 
 /* Información del jugador */
@@ -131,12 +133,14 @@ main .player-section .player-card .black-ribbon-img {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra */
     }
     main .player-section .player-card .player-image {
-        width: 120px; /* Reduce tamaño de imagen */
-        height: 190px; /* ALTURA FIJA para tablets */
+        width: 150px; /* Reduce tamaño de imagen */
+        height: 220px; /* ALTURA FIJA para tablets */
+        margin-top: -10px;
+        margin-bottom: -10px;
         background: transparent !important; /* Forzar transparencia */
         border: none !important; /* Sin borde */
         object-fit: contain; /* NUEVO */
-        object-position: center; /* NUEVO */
+        object-position: center bottom; /* Alineado abajo */
     }
     
     main .player-section .player-card .player-position {
@@ -203,12 +207,12 @@ main .player-section .player-card .black-ribbon-img {
         flex-shrink: 0;
     }
     main .player-section .player-card .player-image {
-        width: 110px;
-        height: 170px; /* ALTURA FIJA para móviles */
+        width: 130px;
+        height: 190px; /* ALTURA FIJA para móviles */
         background: transparent !important;
         border: none !important;
         object-fit: contain; /* NUEVO */
-        object-position: center; /* NUEVO */
+        object-position: center bottom;
     }
     
     main .player-section .player-card .player-info {
