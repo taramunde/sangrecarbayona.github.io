@@ -342,8 +342,84 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
-    }
+    },
     
+    "danicalvo": {
+        name: "Daniel Pedro Calvo San Román",
+        footballName: "Dani Calvo",
+        position: "Defensa",
+        role: "jugador",
+        number: 12,
+        image: "https://i.postimg.cc/Wb0spKY0/Dani-Calvo-PNG.webp", 
+    personalData: {
+        fullName: "Daniel Pedro Calvo San Román",
+        nickname: "Dani Calvo",
+        birthPlace: "Huesca, Huesca",
+        country: "España",
+        nationality: "Española",
+        height: "1,93 m",
+        birthDate: "01/04/1994",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey -  2ª Play Offs Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Elche C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Elche C.F.", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2018/19", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2018/19", team: "C.D. Numancia", category: "2ª Div." },
+            { season: "2017/18", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2016/17", team: "C.D. Numancia", category: "2ª Div." },
+            { season: "2015/16", team: "U.D. Levante", category: "1ª Div." },
+            { season: "2015/16", team: "At. Levante", category: "2ª Div. B" },
+            { season: "2014/15", team: "C.D. Numancia B", category: "3ª Div." },
+            { season: "2014/15", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Numancia", category: "2ª Div." },
+            { season: "2013/14", team: "C.D. Numancia B", category: "3ª Div." }
+        ],
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2024/25": {
+                liga: { partidos: 35, goles_marcados: 1, tarjetas_amarillas: 5, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 5, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 22, goles_marcados: 1, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 40, goles_marcados: 1, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 19, goles_marcados: 3, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    }
 
     
     
