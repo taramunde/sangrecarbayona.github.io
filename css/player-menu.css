@@ -662,4 +662,34 @@ main .player-section .tarjeta.roja {
         text-align: left;
         font-size: 12px;
     }
+
+    /* =======================================================
+   AJUSTE DE ANCHO PARA RECTÁNGULOS DE ESTADÍSTICAS
+   (Móviles y Tablets)
+   ======================================================= */
+
+@media (max-width: 1024px) {
+    
+    /* 1. Ajuste para el bloque general de la temporada */
+    main .player-section .season-competition {
+        max-width: 90% !important; /* Reduce el ancho al 90% */
+        margin-left: auto !important;  /* Centra el bloque */
+        margin-right: auto !important; /* Centra el bloque */
+    }
+
+    /* 2. Ajuste para las tarjetas individuales de datos */
+    main .player-section .stat-card {
+        min-width: auto !important; /* Anula la regla que obligaba al 100% */
+        width: 90% !important;      /* Fija el ancho al 90% */
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    /* 3. Ajuste para las filas de datos individuales (si se usan) */
+    main .player-section .stat-item {
+        max-width: 90% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
 }
