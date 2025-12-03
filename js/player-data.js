@@ -18,7 +18,7 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
             { season: "2023/24", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
             { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
