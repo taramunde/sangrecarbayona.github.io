@@ -226,7 +226,7 @@ const playersData = {
         birthPlace: "Abuya, Territorio de la Capital Federal",
         country: "Costa de Marfil",
         nationality: "Costamarfileña",
-        height: "1,87 m",
+        height: "1,84 m",
         birthDate: "12/04/1994",
         deathDate: null // Poner null si el jugador está vivo
     }, 
@@ -471,6 +471,64 @@ const playersData = {
                 copa: { partidos: 3, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "davidcarmo": {
+        name: "David Mota Veiga Teixeira do Carmo",
+        footballName: "David Carmo",
+        position: "Defensa",
+        role: "jugador",
+        number: 16,
+        image: "https://i.postimg.cc/ZqxmPdzn/Carmo-PNG-(2).webp", 
+    personalData: {
+        fullName: "David Mota Veiga Teixeira do Carmo",
+        nickname: "David Carmo",
+        birthPlace: "Aveiro, Aveiro",
+        country: "Portugal",
+        nationality: "Angoleña, Portuguesa",
+        height: "1,96 m",
+        birthDate: "19/07/1999",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Olympiacos", category: "Super League Griega - Europa League - Copa Griega" },
+            { season: "2024/25", team: "Porto", category: "Liga Portugal Betclic - Supercopa de Portugal" },
+            { season: "2023/24", team: "Olympiacos", category: "Super League Griega - Conference League" },
+            { season: "2023/24", team: "Porto II", category: "Segunda Liga" },
+            { season: "2023/24", team: "Porto", category: "Liga Portugal Betclic - Champions League - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2022/23", team: "Porto", category: "Liga Portugal Betclic - Champions League - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2022/23", team: "Porto II", category: "Segunda Liga" },
+            { season: "2021/22", team: "Sporting de Braga", category: "Liga de Portugal Betclic - Europa League" },
+            { season: "2021/22", team: "Sporting de Braga II", category: "Liga 3" },
+            { season: "2021/22", team: "Sporting de Braga Sub-23", category: "Liga Revelação" },
+            { season: "2020/21", team: "Sporting de Braga", category: "Liga Portugal Betclic - Europa League - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2019/20", team: "Sporting de Braga", category: "Liga Portugal Betclic - Europa League - Copa de la Liga Portugal" },
+            { season: "2019/20", team: "Sporting de Braga Sub-23", category: "Liga Revelação" },
+            { season: "2019/20", team: "Sporting de Braga II", category: "Campeonato de Portugal" },
+            { season: "2018/19", team: "Sporting de Braga", category: "Liga Portugal Betclic" },
+            { season: "2018/19", team: "Sporting de Braga Sub-23", category: "Liga Revelação" },
+            { season: "2018/19", team: "Sporting de Braga II", category: "Segunda Liga" }
+            
+        ],
+        nationalTeam: [
+            { season: "2025", team: "Angola", category: "Clasificación Mundial África - Amistosos" },
+            { season: "2024", team: "Angola", category: "Clasificación Mundial África - Amistosos - Clasificación Copa África" },
+            { season: "2022", team: "Portugal", category: "Liga de las Naciones de la UEFA" },
+            { season: "2019", team: "Portugal Sub-20", category: "Liga Élite Sub-20" },
+            { season: "2018", team: "Portugal Sub-20", category: "Liga Élite Sub-20" },
+            { season: "2018", team: "Portugal Sub-21", category: "Amistosos" },
+            { season: "2018", team: "Portugal Sub-19", category: "Amistosos" }
+        ], 
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 10, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     }
