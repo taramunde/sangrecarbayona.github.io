@@ -23,7 +23,7 @@ const newsData = [
         image: "https://i.postimg.cc/Gty6My8n/j_15_ec.webp", // FOTO NOTICIA 3
         title: "Real Oviedo 0-0 Mallorca: La falta de gol condena una vez más al Oviedo.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-mallorca-falta-gol-condena-vez-20251205233147-nt.html."
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-mallorca-falta-gol-condena-vez-20251205233147-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
