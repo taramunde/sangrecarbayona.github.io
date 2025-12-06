@@ -21,17 +21,17 @@ const newsData = [
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
         image: "https://i.postimg.cc/Gty6My8n/j_15_ec.webp", // FOTO NOTICIA 3
-        title: "El Real Oviedo abdica pronto en el Metropolitano",
-        author: "HUGO VELASCO",
-        link: "https://www.elcomercio.es/real-oviedo/atletico-madrid-real-oviedo-directo-partido-futbol-primera-goles-jugadas-20251129170543-di.html"
+        title: "Real Oviedo 0-0 Mallorca: La falta de gol condena una vez más al Oviedo.",
+        author: "RAMÓN JULIO",
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-mallorca-falta-gol-condena-vez-20251205233147-nt.html."
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
         image: "https://i.postimg.cc/NG2hGWN5/j15_ka.webp", // FOTO NOTICIA 4
-        title: "FINAL: Así fue la derrota del Oviedo contra el Atlético de Madrid (2-0)",
-        author: "TATO FELGUEROSO",
-        link: "https://killerasturias.com/node/16409"
+        title: "La Crónica: El mejor Oviedo acaba desquiciado ante el Mallorca.",
+        author: "JUAN MORENO",
+        link: "https://killerasturias.com/cronicas/la-cronica-el-mejor-oviedo-acaba-desquiciado-ante-el-mallorca"
     }
 ];
 
