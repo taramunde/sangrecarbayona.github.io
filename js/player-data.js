@@ -19,7 +19,7 @@ const playersData = {
     },
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Promoción de Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Promoción de Ascenso" },
             { season: "2023/24", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
             { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
