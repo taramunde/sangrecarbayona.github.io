@@ -1,9 +1,9 @@
 {
-  "jornada": "14 LaLiga EA Sports 2025/26",
+  "jornada": "15 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "ATM",
-    "homeImg": "https://i.postimg.cc/MT6NxX9P/Club-Atletico-de-Madrid-(2000).jpg",
-    "visitor": "OVI",
+    "home": "OVI",
+    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "visitor": "MLL",
     "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "score": "2 - 0",
     "date": "Sáb. 29 Nov, 21:00",
