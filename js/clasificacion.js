@@ -654,7 +654,7 @@ function initChart() {
                 y: {
                     reverse: true, // Invertir eje Y (1º es arriba)
                     min: 1,
-                    max: 22,
+                    max: 20,
                     grid: { color: '#eee' },
                     ticks: { stepSize: 1 }
                 },
