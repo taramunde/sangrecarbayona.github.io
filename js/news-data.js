@@ -5,9 +5,9 @@ const newsData = [
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
         image: "https://i.postimg.cc/wTS4mFvk/J-14-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "Sorloth acaba con el Real Oviedo en diez minutos.",
+        title: "El Real Oviedo ya es el segundo equipo menos goleador del siglo XXI en Primera División.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2025/11/29/cronica/00031764450078355300529.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2025/12/06/real-oviedo-segundo-equipo-goleador-siglo-xxi-primera-division/00031765021617593811906.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
