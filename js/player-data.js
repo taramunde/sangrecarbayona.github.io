@@ -26,6 +26,8 @@ const playersData = {
             { season: "2020/21", team: "Granada C.F.", category: "1ª Div. - Europa League - Copa del Rey - Clasif. Europa League" },
             { season: "2019/20", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Granada C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Recreativo Granada", category: "2ª Div. B Grupo IV" },
+            { season: "2017/18", team: "Recreativo Granada", category: "2ª Div. B Grupo IV" },
             { season: "2017/18", team: "Recreativo Granada", category: "2ª Div. B Grupo IV" },
             { season: "2016/17", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2016/17", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" },
