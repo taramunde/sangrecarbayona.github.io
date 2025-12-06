@@ -13,9 +13,9 @@ const newsData = [
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
         image: "https://i.postimg.cc/8PqX6w54/J-14-Atleti-Oviedo-LNE.webp", // FOTO NOTICIA 2
-        title: "El Oviedo se entrega en menos de media hora: derrota 2-0 en su visita al Atleti",
+        title: "El Oviedo sigue seco: sin gol, solo puede empatar con el Mallorca (0-0) en un choque en el que acabó con nueve.",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2025/11/29/oviedo-entrega-media-hora-derrota-124274350.html"
+        link: "https://www.lne.es/real-oviedo/2025/12/05/ovi-124505110.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
