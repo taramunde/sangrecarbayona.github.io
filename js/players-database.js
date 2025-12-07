@@ -7663,7 +7663,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         "alt": "Delantero",
         "number": "-",
-        "name": "R. Herrera",
+        "name": "Roberto Herrera",
         "url": "fichajugador.html?player=rherrera"
     },
     "aloy": {
