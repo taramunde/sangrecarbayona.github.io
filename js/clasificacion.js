@@ -197,7 +197,7 @@ const enfrentamientos = [
   
   // Jornada 15
   { equipo1: "Deportivo Alavés", equipo2: "Real Sociedad", goles1: 1, goles2: 0 },
-  { equipo1: "Athletic Club", equipo2: "Atlético de Madrid", goles1: null, goles2: null },
+  { equipo1: "Athletic Club", equipo2: "Atlético de Madrid", goles1: 1, goles2: 0 },
   { equipo1: "Elche C.F.", equipo2: "Girona F.C.", goles1: null, goles2: null },
   { equipo1: "R.C.D. Espanyol", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
   { equipo1: "Real Betis", equipo2: "F.C. Barcelona", goles1: 3, goles2: 5 },
