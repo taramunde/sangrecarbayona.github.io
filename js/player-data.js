@@ -569,13 +569,8 @@ const playersData = {
             
         ],
         nationalTeam: [
-            { season: "2025", team: "Angola", category: "Clasificación Mundial África - Amistosos" },
-            { season: "2024", team: "Angola", category: "Clasificación Mundial África - Amistosos - Clasificación Copa África" },
-            { season: "2022", team: "Portugal", category: "Liga de las Naciones de la UEFA" },
-            { season: "2019", team: "Portugal Sub-20", category: "Liga Élite Sub-20" },
-            { season: "2018", team: "Portugal Sub-20", category: "Liga Élite Sub-20" },
-            { season: "2018", team: "Portugal Sub-21", category: "Amistosos" },
-            { season: "2018", team: "Portugal Sub-19", category: "Amistosos" }
+            { season: "2013", team: "España Sub-18", category: "Amistosos" }
+            
         ], 
         
         stats: {
