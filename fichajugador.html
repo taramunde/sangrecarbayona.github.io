@@ -266,48 +266,7 @@
     <script src="js/data-manager.js?nocache=20251231v1"></script>
     <script src="js/player-menu.js?nocache=20251231v24"></script>
     <script src="js/social-share.js?nocache=20251231v1"></script>
-    <script src="js/meta-tags.js?nocache=20251231v11"></script>
-    <script>
-    // Este script intenta actualizar los metadatos cuando se carga el jugador
-    function updateSocialMeta(playerId) {
-        // Asegurarnos de que playersData existe (viene de player-data.js)
-        if (typeof playersData !== 'undefined' && playersData[playerId]) {
-            const player = playersData[playerId];
-            const title = player.name + " - Sangre Carbayona";
-            const description = "Ficha técnica, estadísticas y trayectoria de " + player.name + " en el Real Oviedo.";
-            const image = player.image; // La imagen del jugador definida en player-data.js
-
-            // Actualizar Título del navegador
-            document.title = title;
-
-            // Función auxiliar para actualizar meta tags
-            const setMeta = (prop, val) => {
-                let element = document.querySelector(`meta[property="${prop}"]`) || document.querySelector(`meta[name="${prop}"]`);
-                if (element) element.setAttribute("content", val);
-            };
-
-            // Actualizar etiquetas Open Graph
-            setMeta("og:title", title);
-            setMeta("og:description", description);
-            setMeta("og:image", image);
-
-            // Actualizar etiquetas Twitter
-            setMeta("twitter:title", title);
-            setMeta("twitter:description", description);
-            setMeta("twitter:image", image);
-        }
-    }
-
-    // Ejecutar al cargar la página si hay un parámetro ?player=
-    window.addEventListener('load', function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const playerParam = urlParams.get('player');
-        if(playerParam) {
-            // Damos un pequeño respiro para asegurar que player-data.js cargó
-            setTimeout(() => updateSocialMeta(playerParam), 100);
-        }
-    });
-</script>
+    
 </body>
 </html>
 
