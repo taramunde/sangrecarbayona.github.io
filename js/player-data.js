@@ -530,6 +530,62 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
+    },
+
+    "nachovidal": {
+        name: "Ignacio Vidal Miralles",
+        footballName: "Nacho Vidal",
+        position: "Defensa",
+        role: "jugador",
+        number: 22,
+        image: "https://i.postimg.cc/cLHZ7H4B/Nacho-Vidal-PNG-(3).webp", 
+    personalData: {
+        fullName: "Ignacio Vidal Miralles",
+        nickname: "Nacho Vidal",
+        birthPlace: "El Campello, Alicante",
+        country: "España",
+        nationality: "Española",
+        height: "1,80 m",
+        birthDate: "24/01/1995",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Promoción de Ascenso" },
+            { season: "2024/25", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey - Supercopa de España - Clasif. Conference League" },
+            { season: "2022/23", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.A. Osasuna", category: "2ª Div." },
+            { season: "2017/18", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Valencia Mestalla", category: "2ª Div. B - 2ª B Promoción de Ascenso" },
+            { season: "2016/17", team: "Valencia C.F.", category: "1ª Div." },
+            { season: "2015/16", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2014/15", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2013/14", team: "Valencia Mestalla", category: "2ª Div. B" }
+            
+        ],
+        nationalTeam: [
+            { season: "2025", team: "Angola", category: "Clasificación Mundial África - Amistosos" },
+            { season: "2024", team: "Angola", category: "Clasificación Mundial África - Amistosos - Clasificación Copa África" },
+            { season: "2022", team: "Portugal", category: "Liga de las Naciones de la UEFA" },
+            { season: "2019", team: "Portugal Sub-20", category: "Liga Élite Sub-20" },
+            { season: "2018", team: "Portugal Sub-20", category: "Liga Élite Sub-20" },
+            { season: "2018", team: "Portugal Sub-21", category: "Amistosos" },
+            { season: "2018", team: "Portugal Sub-19", category: "Amistosos" }
+        ], 
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 11, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
     }
 
     
