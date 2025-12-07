@@ -638,6 +638,65 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
+    },
+
+    "lucas": {
+        name: "Lucas Ahijado Quintana",
+        footballName: "Lucas",
+        position: "Defensa",
+        role: "jugador",
+        number: 24,
+        image: "https://i.postimg.cc/yYdPX4cz/Lucas_PNG.webp", 
+    personalData: {
+        fullName: "Lucas Ahijado Quintana",
+        nickname: "Lucas",
+        birthPlace: "Oviedo, Asturias",
+        country: "España",
+        nationality: "Española",
+        height: "1,74 m",
+        birthDate: "30/01/1995",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Promoción de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Promoción de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
+            
+        ],
+        nationalTeam: [
+            { season: "2013", team: "España Sub-18", category: "Amistosos" }
+            
+        ], 
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 12, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2024/25": {
+                liga: { partidos: 22, goles_marcados: 6, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
     }
 
     
