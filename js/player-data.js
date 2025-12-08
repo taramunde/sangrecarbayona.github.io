@@ -19,7 +19,7 @@ const playersData = {
     },
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Promoción de Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Promoción de Ascenso" },
             { season: "2023/24", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
             { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
@@ -27,13 +27,13 @@ const playersData = {
             { season: "2019/20", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Granada C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Recreativo Granada", category: "2ª Div. B" },
-            { season: "2016/17", team: "At. Malagueño", category: "3ª Div. - 3ª Promoción de Ascenso" },
+            { season: "2016/17", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Promoción de Ascenso" },
             { season: "2016/17", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2015/16", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" },
-            { season: "2014/15", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" },
+            { season: "2015/16", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Promoción de Ascenso" },
+            { season: "2014/15", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Promoción de Ascenso" },
             { season: "2013/14", team: "Málaga C.F.", category: "1ª Div." },
-            { season: "2013/14", team: "At. Malagueño", category: "3ª Div. - 3ª Play Offs Ascenso" }
+            { season: "2013/14", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Promoción de Ascenso" }
         ],
         stats: {
             "2025/26": {
@@ -130,7 +130,7 @@ const playersData = {
             { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación" },
             { season: "2021/22", team: "C.D. Badajoz B", category: "Copa Federación Fase Autonómica - 3ª Federación" },
             { season: "2020/21", team: "C.D. Badajoz U19", category: "División de Honor" },
-            { season: "2020/21", team: "C.D. Badajoz ", category: "2ª Div. B - 2ª Div. B Play Offs Ascenso - 2ª Div. B 2ª Fase Ascenso a 2ª" },
+            { season: "2020/21", team: "C.D. Badajoz ", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso - 2ª Div. B 2ª Fase Promoción de Ascenso a 2ª" },
             { season: "2020/21", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" },
             { season: "2019/20", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" }
         ],
@@ -231,7 +231,7 @@ const playersData = {
     }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. promoción de Ascenso" },
             { season: "2023/24", team: "Real Club Recreativo de Huelva", category: "1ª Federación - Copa del Rey" },
             { season: "2022/23", team: "Rayo Majadahonda", category: "1ª Federación - Copa del Rey" },
             { season: "2021/22", team: "Gimnástica Segoviana", category: "2ª Federación - Copa del Rey" },
@@ -281,12 +281,12 @@ const playersData = {
     }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Play Offs Ascenso" },
-            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Celta de Vigo", category: "1ª Div." },
-            { season: "2019/20", team: "U.D. Almería", category: "2ª Div. - 2ª Play Offs Ascenso" },
+            { season: "2019/20", team: "U.D. Almería", category: "2ª Div. - 2ª Div. Promoción de Ascenso" },
             { season: "2019/20", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Celta de Vigo", category: "1ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Barça Atlètic", category: "2ª Div." },
@@ -362,15 +362,15 @@ const playersData = {
     }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
-            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Elche C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "Elche C.F.", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2019/20", team: "Elche C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
             { season: "2018/19", team: "Elche C.F.", category: "2ª Div." },
             { season: "2018/19", team: "C.D. Numancia", category: "2ª Div." },
-            { season: "2017/18", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2017/18", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
             { season: "2016/17", team: "C.D. Numancia", category: "2ª Div." },
             { season: "2015/16", team: "U.D. Levante", category: "1ª Div." },
             { season: "2015/16", team: "At. Levante", category: "2ª Div. B" },
@@ -433,12 +433,12 @@ const playersData = {
     }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
-            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Play Offs Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "S.D. Amorebieta", category: "2ª Div. - Copa del Rey" },
-            { season: "2020/21", team: "Bilbao Athletic", category: "2ª Div. B - 2ª B Play Offs Ascenso - 2ª B Play Offs Ascenso - 2ª B Play Offs 2ª Fase Ascenso" },
-            { season: "2019/20", team: "Bilbao Athletic", category: "2ª Div. B - 2ª B Play Offs Ascenso" },
+            { season: "2020/21", team: "Bilbao Athletic", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso -  2ª Div. B Promoción de Ascenso 2ª Fase" },
+            { season: "2019/20", team: "Bilbao Athletic", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso" },
             { season: "2018/19", team: "S.D. Amorebieta", category: "2ª Div. B" },
             { season: "2018/19", team: "Bilbao Athletic", category: "2ª Div. B" },
             { season: "2017/18", team: "S.D. Amorebieta", category: "2ª Div. B" },
@@ -552,7 +552,7 @@ const playersData = {
     }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Promoción de Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Promoción de Ascenso" },
             { season: "2024/25", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
             { season: "2023/24", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
             { season: "2023/24", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey - Supercopa de España - Clasif. Conference League" },
@@ -562,7 +562,7 @@ const playersData = {
             { season: "2019/20", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "C.A. Osasuna", category: "2ª Div." },
             { season: "2017/18", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Valencia Mestalla", category: "2ª Div. B - 2ª B Promoción de Ascenso" },
+            { season: "2016/17", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso" },
             { season: "2016/17", team: "Valencia C.F.", category: "1ª Div." },
             { season: "2015/16", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2014/15", team: "Valencia Mestalla", category: "2ª Div. B" },
@@ -609,15 +609,15 @@ const playersData = {
     }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Promoción de Ascenso" },
-            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Promoción de Ascenso" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
             { season: "2017/18", team: "Real Oviedo", category: "Copa del Rey" },
-            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Promoción de Ascenso" },
+            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Promoción de Ascenso" },
             { season: "2016/17", team: "Real Oviedo Vetusta", category: "3ª Div." },
             { season: "2015/16", team: "Real Oviedo Vetusta", category: "3ª Div." },
             { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
@@ -705,6 +705,57 @@ const playersData = {
             "2013/14": {
                 liga: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "javilopez": {
+        name: "Javier López Carballo",
+        footballName: "Javi López",
+        position: "Defensa",
+        role: "jugador",
+        number: 25,
+        image: "https://i.postimg.cc/W4GZMX4Z/Javi_López_PNG.webp", 
+    personalData: {
+        fullName: "Javier López Carballo",
+        nickname: "Javi López",
+        birthPlace: "Santa Cruz de Tenerife, Santa Cruz de Tenerife",
+        country: "España",
+        nationality: "Española",
+        height: "1,83 m",
+        birthDate: "25/03/2002",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Sociedad", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2023/24", team: "Deportivo Alavés", category: "1ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Deportivo Alavés", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2021/22", team: "Deportivo Alavés", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Deportivo Alavés", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Deportivo Alavés", category: "1ª Div." },
+            { season: "2019/20", team: "Deportivo Alavés B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Deportivo Alavés B", category: "3ª Div. Promoción de Ascenso" }
+            
+        ],
+
+        nationalTeam: [
+            { season: "2024", team: "España Sub-21", category: "Clasificación Europeo Sub-21 - Amistosos" },
+            { season: "2023", team: "España Sub-21", category: "Clasificación Europeo Sub-21" },
+            { season: "2020", team: "España Sub-18", category: "Copa del Atlántico Juvenil" },
+            { season: "2019", team: "España Sub-18", category: "Amistosos" },
+            { season: "2019", team: "España Sub-17", category: "Mundial Sub-17 - Europeo Sub-17 - Clasificación Europeo Sub-17 - Amistosos" },
+            { season: "2018", team: "España Sub-17", category: "Clasificación Europeo Sub-17 - Amistosos" },
+            { season: "2018", team: "España Sub-16", category: "Amistosos" }
+            
+        ], 
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
