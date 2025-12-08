@@ -760,6 +760,50 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
+    },
+
+    "lamine": {
+        name: "Mouhamed Lamine Gueye",
+        footballName: "Lamine",
+        position: "Defensa",
+        role: "jugador",
+        number: 28,
+        image: "https://i.postimg.cc/j2R8rDDW/Lamine_PNG.webp", 
+    personalData: {
+        fullName: "Mouhamed Lamine Gueye",
+        nickname: "Lamine",
+        birthPlace: "Dakar, Dakar",
+        country: "Senegal",
+        nationality: "Senegalesa",
+        height: "1,71 m",
+        birthDate: "15/09/2004",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo Sub-19", category: "División de Honor" }
+           
+        ],
+
+       
+        stats: {
+            "2025/26": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2024/25": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
     }
 
     
