@@ -1,0 +1,158 @@
+/* Estilos para Portada Santi Cazorla con Título */
+.hero-container {
+    position: relative;
+    max-width: 90%; /* Más flexible que 800px */
+    margin: clamp(10px, 2vw, 20px) auto;
+    width: 100%;
+    min-height: clamp(120px, 20vh, 200px);
+    box-sizing: border-box;
+    z-index: 10;
+    
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
+    image-rendering: -webkit-optimize-contrast; /* Mejora nitidez en WebKit */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-content h1 {
+    color: white;
+    margin: 0;
+    font-size: clamp(1.5em, 3vw, 2.5em);
+    font-family: 'Wordwalker', 'Arial', sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-text {
+    color: white;
+    margin: clamp(5px, 1vw, 10px) 0 0;
+    font-family: 'Arial', sans-serif;
+    font-size: clamp(0.7em, 1.5vw, 1em);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Móviles pequeños (≤ 400px) */
+@media (max-width: 400px) {
+    .hero-container {
+         margin: clamp(5px, 1.5vw, 8px) auto;
+        min-height: clamp(100px, 15vh, 120px);
+    }
+    .hero-content {
+        padding: clamp(5px, 1vw, 8px);
+    }
+    .hero-content h1 {
+        font-size: clamp(1em, 2.5vw, 1.2em);
+    }
+    .hero-text {
+        font-size: clamp(0.6em, 1.2vw, 0.7em);
+    }
+}
+
+/* Móviles estándar (401px–600px) */
+@media (min-width: 401px) and (max-width: 600px) {
+    .hero-container {
+        margin: clamp(8px, 1.8vw, 10px) auto;
+        min-height: clamp(120px, 18vh, 150px);
+    }
+    .hero-content {
+        padding: clamp(8px, 1.5vw, 10px);
+    }
+    .hero-content h1 {
+        font-size: clamp(1.2em, 2.8vw, 1.5em);
+    }
+    .hero-text {
+        font-size: clamp(0.7em, 1.3vw, 0.8em);
+    }
+}
+
+/* Tablets pequeñas o móviles grandes (601px–768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .hero-container {
+        margin: clamp(10px, 2vw, 12px) auto;
+        min-height: clamp(140px, 20vh, 160px);
+    }
+    .hero-content {
+        padding: clamp(10px, 2vw, 12px);
+    }
+    .hero-content h1 {
+        font-size: clamp(1.5em, 3vw, 1.8em);
+    }
+    .hero-text {
+        font-size: clamp(0.75em, 1.4vw, 0.85em);
+    }
+}
+
+/* Tablets estándar (769px–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-container {
+        margin: clamp(12px, 2.5vw, 15px) auto;
+        min-height: clamp(160px, 22vh, 180px);
+    }
+    .hero-content {
+        padding: clamp(12px, 2.5vw, 15px);
+    }
+    .hero-content h1 {
+        font-size: clamp(1.8em, 3.5vw, 2em);
+    }
+    .hero-text {
+        font-size: clamp(0.8em, 1.5vw, 0.9em);
+    }
+}
+
+/* Escritorios pequeños (1025px–1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .hero-container {
+        margin-left: clamp(320px, 25vw, 340px);
+        margin-right: clamp(15px, 2vw, 20px);
+        min-height: clamp(180px, 25vh, 190px);
+    }
+    .hero-content h1 {
+        font-size: clamp(2em, 4vw, 2.2em);
+    }
+    .hero-text {
+        font-size: clamp(0.9em, 1.8vw, 0.95em);
+    }
+}
+
+/* Escritorios grandes y ultraanchos (≥ 1201px) */
+@media (min-width: 1201px) {
+    .hero-container {
+        margin-left: clamp(320px, 25vw, 400px);
+        margin-right: clamp(15px, 2vw, 20px);
+        min-height: clamp(190px, 25vh, 200px);
+    }
+    .hero-content h1 {
+        font-size: clamp(2.2em, 4.5vw, 2.5em);
+    }
+    .hero-text {
+        font-size: clamp(0.95em, 2vw, 1em);
+    }
+}

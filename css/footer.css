@@ -1,0 +1,113 @@
+/* Estilos para el Footer */
+.footer-container {
+    background-color: #0e0eec; /* Azul del sidebar */
+    color: #ffffff;
+    padding: clamp(10px, 2vw, 20px); /* Adaptable */
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    font-size: clamp(0.8rem, 1.5vw, 0.9rem); /* Flexible */
+    box-sizing: border-box;
+    z-index: 10; /* Por debajo del menú lateral (z-index: 2000) */
+    -webkit-font-smoothing: antialiased; /* Mejora legibilidad en pantallas retina */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.footer-content {
+    max-width: clamp(90%, 90vw, 1200px); /* Más flexible que 1200px fijo */
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: clamp(5px, 1vw, 10px) 0;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Responsividad */
+/* Móviles pequeños (≤ 400px) */
+@media (max-width: 400px) {
+    .footer-container {
+        padding: clamp(8px, 1.5vw, 10px);
+        font-size: clamp(0.7rem, 1.2vw, 0.8rem);
+    }
+    .footer-content {
+        max-width: 95%; /* Más ancho relativo */
+    }
+    .footer-content p {
+        margin: clamp(3px, 0.8vw, 5px) 0;
+    }
+}
+
+/* Móviles estándar (401px–600px) */
+@media (min-width: 401px) and (max-width: 600px) {
+    .footer-container {
+        padding: clamp(10px, 1.8vw, 12px);
+        font-size: clamp(0.75rem, 1.3vw, 0.85rem);
+    }
+    .footer-content {
+        max-width: 92%;
+    }
+    .footer-content p {
+        margin: clamp(4px, 0.9vw, 6px) 0;
+    }
+}
+
+/* Tablets pequeñas o móviles grandes (601px–768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+    .footer-container {
+        padding: clamp(12px, 2vw, 15px);
+        font-size: clamp(0.8rem, 1.4vw, 0.9rem);
+    }
+    .footer-content {
+        max-width: 90%;
+    }
+    .footer-content p {
+        margin: clamp(5px, 1vw, 8px) 0;
+    }
+}
+
+/* Tablets estándar (769px–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer-container {
+        padding: clamp(15px, 2.5vw, 20px);
+        font-size: clamp(0.85rem, 1.5vw, 0.95rem);
+    }
+    .footer-content {
+        max-width: 90%;
+    }
+    .footer-content p {
+        margin: clamp(6px, 1.2vw, 10px) 0;
+    }
+}
+
+/* Escritorios pequeños (1025px–1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .footer-container {
+        padding: clamp(20px, 3vw, 25px);
+        font-size: clamp(0.9rem, 1.6vw, 1rem);
+        margin-left: clamp(320px, 25vw, 340px); /* Respeta el menú lateral */
+    }
+    .footer-content {
+        max-width: clamp(85%, 88vw, 1000px);
+    }
+    .footer-content p {
+        margin: clamp(8px, 1.5vw, 12px) 0;
+    }
+}
+
+/* Escritorios grandes y ultraanchos (≥ 1201px) */
+@media (min-width: 1201px) {
+    .footer-container {
+        padding: clamp(25px, 3.5vw, 30px);
+        font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+        margin-left: clamp(320px, 25vw, 400px); /* Proporcional para pantallas anchas */
+    }
+    .footer-content {
+        max-width: clamp(80%, 85vw, 1200px);
+    }
+    .footer-content p {
+        margin: clamp(10px, 2vw, 15px) 0;
+    }
+}

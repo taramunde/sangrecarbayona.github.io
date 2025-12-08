@@ -1,0 +1,251 @@
+/* css/calendar.css */
+#calendario-container .calendar {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #0e0eec; /* Azul del Real Oviedo */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+#calendario-container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#calendario-container .month {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    color: #0e0eec; /* Azul del Real Oviedo */
+}
+
+#calendario-container .days-of-week,
+#calendario-container .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    gap: 2px;
+}
+
+#calendario-container .day-of-week,
+#calendario-container .day {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+
+#calendario-container .day-of-week {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+#calendario-container .day {
+    border: 1px solid rgba(100, 100, 100, 0.7);
+}
+
+#calendario-container .arrow {
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+    color: #0e0eec; /* Azul del Real Oviedo */
+}
+
+#calendario-container .today {
+    border: 2px solid #0e0eec;
+    background-color: #e0f7fa;
+}
+
+@keyframes blink-border {
+    from { border-color: transparent; }
+    to { border-color: #0e0eec; }
+}
+
+.blinking-border {
+    animation: blink-border 1s ease-in-out infinite;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#calendario-container .has-note::after {
+    content: '';
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 8px;
+    height: 8px;
+}
+
+#calendario-container .has-note-blue::after { background-color: #0e0eec; }
+#calendario-container .has-note-red::after { background-color: red; }
+#calendario-container .has-note-green::after { background-color: green; }
+#calendario-container .has-note-yellow::after { background-color: yellow; }
+
+#note-popup {
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: none;
+    border: 2px solid transparent;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.shield-icon {
+    width: 25px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+#note-popup .shield-icon {
+    width: 25px !important;
+    height: auto !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    vertical-align: middle !important;
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+hr {
+    flex-grow: 1;
+    margin: 0;
+    border: none;
+    border-top: 1px solid rgba(200,200,200,0.7);
+}
+
+.note-text {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0e0eec; /* Azul del Real Oviedo */
+}
+
+#calendario-container .month,
+#calendario-container .day-of-week,
+#calendario-container .day,
+#calendario-container .note-text {
+    font-family: Arial, sans-serif !important;
+}
+
+/* Estilos para escudos en el pop-up del calendario */
+#note-popup img {
+    width: 25px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+/* Responsividad para móviles */
+@media screen and (max-width: 768px) {
+    #calendario-container .calendar {
+        max-width: 250px;
+        padding: 15px;
+    }
+
+    #calendario-container .month {
+        font-size: 16px;
+    }
+
+    #calendario-container .arrow {
+        font-size: 20px;
+    }
+
+    #calendario-container .day-of-week,
+    #calendario-container .day {
+        font-size: 12px;
+    }
+
+    .shield-icon {
+        width: 20px;
+    }
+
+    #note-popup {
+        width: 250px;
+        padding: 8px;
+    }
+
+     #note-popup .shield-icon {
+        width: 20px !important;
+    }
+
+    .note-text {
+        font-size: 12px;
+    }#note-popup img {
+        width: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    #calendario-container .calendar {
+        max-width: 200px;
+        padding: 10px;
+    }
+
+    #calendario-container .month {
+        font-size: 14px;
+    }
+
+    #calendario-container .arrow {
+        font-size: 18px;
+    }
+
+    #calendario-container .day-of-week,
+    #calendario-container .day {
+        font-size: 10px;
+    }
+
+    .shield-icon {
+        width: 15px;
+    }
+
+    #note-popup {
+        width: 200px;
+        padding: 6px;
+    }
+
+    #note-popup .shield-icon {
+        width: 15px !important;
+    }
+
+    .note-text {
+        font-size: 10px;
+    }
+
+    #note-popup img {
+        width: 15px;
+    }
+}

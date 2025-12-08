@@ -1,0 +1,289 @@
+/* css/ahorcado-game.css */
+
+/* Contenedor principal que aísla el juego */
+#game-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #0e0eec; /* Azul original */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    border: 4px solid #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Pantallas (Inicio, Juego, Resultado) */
+#home, #result, #pGame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+/* Pantalla Inicio */
+#home {
+    background: linear-gradient(#0e0eec, #aaa);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .title { font-size: 3em; font-weight: bold; color: white; text-shadow: 2px 2px 5px black; margin-bottom: 30px; text-align: center; }
+#home .foother { position: absolute; bottom: 15px; right: 20px; color: white; font-size: 0.8em; }
+
+/* Botones Generales */
+.game-btn {
+    background: linear-gradient(#7a90fe, #0232ef);
+    border: 2px solid white; border-radius: 50px;
+    padding: 15px 40px; color: white; font-weight: bold; font-size: 1.2em;
+    cursor: pointer; text-transform: uppercase; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+.game-btn:hover { transform: scale(1.05); }
+
+/* --- Pantalla Juego --- */
+#pGame { display: none; } /* Oculto por defecto */
+
+/* --- CAMBIOS PARA NOMBRES COMPUESTOS (NUEVO) --- */
+/* El contenedor principal permite que las palabras fluyan y bajen de línea */
+#letter { 
+    font-size: 24px; 
+    margin: 20px 0; 
+    text-align: center; 
+    color: white; 
+    font-weight: bold;
+    
+    /* FLEXBOX MÁGICO */
+    display: flex;
+    flex-wrap: wrap; /* Permite que las palabras bajen si no caben */
+    justify-content: center; /* Centra todo */
+    gap: 20px; /* Espacio entre la palabra de arriba y la de abajo */
+}
+
+/* Cada palabra individual (ej: "LUIS") se mantiene junta */
+.word-wrapper {
+    display: inline-flex; 
+    justify-content: center;
+    white-space: nowrap; /* Prohíbe que la palabra se rompa por la mitad */
+}
+
+/* Ajuste de las letras para que no se peguen demasiado */
+.l { 
+    border-bottom: 3px solid white; 
+    display: inline-block; 
+    margin: 0 3px; /* Un poco de aire entre letras */
+    height: 35px; 
+    width: 25px; 
+    text-align: center; 
+    color: white; 
+}
+
+.ls { border-bottom: none; width: 15px; } /* Espacio vacío (si hiciera falta, aunque ahora usamos gap) */
+
+/* Teclado */
+#tastatur { text-align: center; position: absolute; bottom: 20px; width: 100%; padding: 0 10px; box-sizing: border-box; }
+.b {
+    background: white; color: #333; display: inline-block; margin: 3px; padding: 10px;
+    width: 20px; height: 20px; line-height: 20px; text-align: center; border-radius: 5px;
+    font-weight: bold; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.b:hover { background: #eee; transform: translateY(-2px); }
+.b[data="true"] { background: #28a745; color: white; pointer-events: none; }
+.b[data="false"] { background: #dc3545; color: white; opacity: 0.5; pointer-events: none; }
+
+/* Muñeco y Escenario */
+#game { height: 250px; width: 220px; margin: 0 auto; position: relative; }
+.player { left: 53px; position: absolute; top: 90px; height: 130px; width: 75px; }
+.playerModel { height: 100%; position: relative; width: 100%; }
+.head { border-radius: 50%; border: 3px solid #000; height: 35px; width: 35px; margin: auto; position: relative; }
+.body { background-color: #000; height: 45px; margin: auto; width: 3px; }
+
+/* Brazos */
+.arm-l, .arm-r { 
+    background-color: #000; 
+    height: 30px; 
+    width: 3px; 
+    position: absolute; 
+    top: 45px; /* Más abajo, en el tronco */
+}
+.arm-l { 
+    left: 28px; 
+    transform: rotate(45deg); 
+    transform-origin: top center;
+}
+.arm-r { 
+    right: 28px; 
+    transform: rotate(-45deg); 
+    transform-origin: top center;
+}
+
+/* Piernas */
+.leg-l, .leg-r { 
+    background-color: #000; 
+    height: 35px; 
+    width: 3px; 
+    position: absolute; 
+    top: 78px; /* Debajo del cuerpo */
+}
+.leg-l { 
+    left: 30px; 
+    transform: rotate(20deg); 
+    transform-origin: top center;
+}
+.leg-r { 
+    right: 30px; 
+    transform: rotate(-20deg); 
+    transform-origin: top center;
+}
+
+/* Horca */
+.stang3 { background: black; width: 3px; height: 20px; position: absolute; top: 70px; left: 90px; }
+.stang2 { background: black; width: 90px; height: 5px; position: absolute; top: 70px; right: 45px; }
+.stang { background: black; width: 5px; height: 180px; position: absolute; bottom: 0; right: 45px; }
+.ground { background: black; width: 100%; height: 5px; position: absolute; bottom: 0; left: 0; }
+
+/* Control Visibilidad */
+[data="false"] { display: none !important; }
+
+/* --- Pantalla Resultado --- */
+#result {
+    background: rgba(0,0,0,0.95);
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 30;
+    
+    display: none; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    gap: 15px; /* Espacio uniforme entre elementos */
+}
+
+#result.show { 
+    display: flex; 
+}
+
+#result .title { 
+    font-size: 2.5em; 
+    font-weight: bold; 
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    margin: 0;
+}
+
+#result .body { 
+    font-size: 1.4em; 
+    text-align: center; 
+    line-height: 1.5;
+    width: 80%;
+    max-width: 600px;
+    background-color: transparent !important;
+    height: auto !important;
+    margin: 0;
+}
+
+#result .game-btn {
+    margin: 0;
+}
+
+/* --- Pistas (CORREGIDO) --- */
+
+/* El botón flotante de interrogación (?) */
+.hintButton { 
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background: #ffcc00; /* Amarillo más visible */
+    color: #000; 
+    border-radius: 50%; 
+    width: 35px; 
+    height: 35px; 
+    text-align: center; 
+    line-height: 35px; 
+    font-weight: bold; 
+    font-size: 1.2em;
+    cursor: pointer; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    transition: transform 0.2s;
+    z-index: 50;
+}
+.hintButton:hover { transform: scale(1.1); }
+
+/* La Caja Blanca de la Pista */
+#hint { 
+    display: none; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+    /* Dimensiones */
+    width: 80%; 
+    max-width: 400px; 
+    min-width: 280px; 
+    
+    /* FONDO BLANCO PURO E IMPORTANTE */
+    background-color: #ffffff !important; 
+    color: #333333; 
+    
+    padding: 25px; 
+    border-radius: 15px; 
+    z-index: 100; 
+    text-align: center; 
+    
+    /* Sombra suave gris, no negra */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); 
+    
+    border: 2px solid #0e0eec; 
+    box-sizing: border-box;
+}
+
+/* El botón de cerrar (X) */
+#hint .close { 
+    background: #dc3545; /* Rojo */
+    color: white; 
+    width: 30px; 
+    height: 30px; 
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer; 
+    position: absolute; 
+    top: -10px; 
+    right: -10px; 
+    border-radius: 50%; 
+    font-weight: bold;
+    border: 2px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* El Título "PISTA" */
+#hint .title { 
+    font-weight: bold; 
+    margin-bottom: 15px; 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: 10px; 
+    font-size: 1.5em;
+    color: #0e0eec;
+}
+
+/* El texto de la pista */
+#hint .hint-body {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    word-wrap: break-word; /* Evita que se salga si es una palabra muy larga */
+}
+
+/* Animación */
+.anim { animation: pulse 2s infinite; }
+@keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }

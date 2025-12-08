@@ -1,0 +1,107 @@
+/* css/confirmed-lineup.css */
+.confirmed-lineup {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collapsible {
+    background-color: #0e0eec;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.collapsible:hover {
+    background-color: #3531ff;
+}
+
+.collapsible:after {
+    content: '\25BC';
+    float: right;
+}
+
+.collapsible.active:after {
+    content: '\25B2';
+}
+
+.collapsible-content {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.collapsible-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.collapsible-content li {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #3531FF;
+    font-weight: bold;
+}
+
+.collapsible-content p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .confirmed-lineup {
+        margin-top: 15px;
+    }
+
+    .collapsible {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .collapsible-content {
+        padding: 10px;
+        max-height: 250px;
+    }
+
+    .collapsible-content li,
+    .collapsible-content p {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .collapsible {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .collapsible-content {
+        padding: 8px;
+        max-height: 200px;
+    }
+
+    .collapsible-content li,
+    .collapsible-content p {
+        font-size: 10px;
+    }
+}

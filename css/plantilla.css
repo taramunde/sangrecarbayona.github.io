@@ -1,0 +1,244 @@
+/* Estilos base (escritorio y generales) */
+.plantilla-title {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Wordwalker', Arial, sans-serif;
+    color: #0e0eec;
+    font-size: 2.3rem; /* 40px */
+    margin: 0;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.season-selector {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.season-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: white;
+    color: #0e0eec;
+    font-family: 'Wordwalker', Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #0e0eec;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.season-button:hover {
+    background-color: #0e0eec;
+    color: white;
+}
+
+.season-button .arrow {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.season-container-wrapper {
+    position: relative;
+    margin-top: 10px;
+}
+
+.season-container {
+    display: none;
+    background-color: #f5f5f5;
+    border: 2px solid #0e0eec;
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.season-container.open {
+    display: block;
+}
+
+.close-button {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #0e0eec;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    z-index: 10;
+}
+
+.season-container-wrapper .season-container.open ~ .close-button,
+.close-button.open {
+    display: block;
+}
+
+.close-button:hover {
+    background-color: #1a1aff;
+}
+
+.season-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.season-list li {
+    margin: 5px 0;
+}
+
+.season-list a {
+    text-decoration: none;
+    color: #0e0eec;
+    font-family: 'Wordwalker', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.season-list a:hover {
+    text-decoration: underline;
+    color: #1a1aff;
+}
+
+/* Media Queries para responsividad */
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+    .plantilla-title {
+        font-size: 2rem; /* 32px */
+        padding: 15px;
+    }
+
+    .spacer {
+        height: 15px;
+    }
+
+    .season-selector {
+        max-width: 90%;
+        padding: 0 15px;
+    }
+
+    .season-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .season-container {
+        max-height: 250px;
+        padding: 15px;
+    }
+
+    .close-button {
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    .season-list a {
+        font-size: 14px;
+    }
+}
+
+/* Móviles (320px - 767px) */
+@media (max-width: 767px) {
+    .plantilla-title {
+        font-size: 1.2rem; /* 19.2px, reducido para que quepa en una línea */
+        padding: 10px;
+        line-height: 1.2; /* Evita división en varias líneas */
+    }
+
+    .spacer {
+        height: 10px;
+    }
+
+    .season-selector {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .season-button {
+        font-size: 13px; /* Tamaño de fuente más pequeño */
+        padding: 6px 8px; /* Menos padding lateral para reducir espacios */
+        -webkit-box-pack: start; /* Alinear a la izquierda */
+        -ms-flex-pack: start;
+        justify-content: flex-start; /* Alinear a la izquierda */
+        width: auto; /* Ancho basado en contenido */
+        min-width: 120px; /* Mínimo para accesibilidad */
+    }
+
+    .season-button .arrow {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .season-container {
+        max-height: 200px;
+        padding: 10px;
+    }
+
+    .close-button {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        top: 8px;
+        right: 8px;
+    }
+
+    .season-list a {
+        font-size: 13px;
+    }
+}
+
+/* Móviles muy pequeños (menor a 360px, por ejemplo, iPhone 4) */
+@media (max-width: 360px) {
+    .plantilla-title {
+        font-size: 1.1rem; /* 17.6px, aún más pequeño */
+        padding: 8px;
+    }
+
+    .season-button {
+        font-size: 12px;
+        padding: 5px 6px; /* Aún menos padding */
+        min-width: 100px;
+    }
+
+    .season-container {
+        max-height: 150px;
+        padding: 8px;
+    }
+
+    .close-button {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        top: 6px;
+        right: 6px;
+    }
+
+    .season-list a {
+        font-size: 12px;
+    }
+}

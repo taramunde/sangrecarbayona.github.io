@@ -1,0 +1,142 @@
+/* css/news-section.css */
+
+.news-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.news-section h2 {
+    color: #0e0eec; /* Azul Oviedo */
+    text-align: center;
+    margin: 0 auto 30px auto; /* Centrado horizontal automático y mantiene el margen inferior de 30px */
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0e0eec;
+    display: block; /* **CAMBIO IMPORTANTE: lo convierte a bloque para que el margin auto funcione, pero mantendrá el ancho ajustado al contenido gracias al border** */
+    /* display: inline-block; también funciona si añades un 'width' o 'max-width' */
+    width: fit-content; /* Opcional: Asegura que el ancho es el mínimo necesario */
+    padding-bottom: 10px;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    justify-content: center;
+}
+
+.news-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Cabecera con el logo del periódico */
+.news-header {
+    padding: 15px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    height: 60px; /* Altura fija para alinear logos */
+}
+
+.news-logo {
+    max-height: 40px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Contenedor de la FOTO principal */
+.news-image-container {
+    width: 100%;
+    height: 180px; /* Altura fija para uniformidad */
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.news-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta la imagen para llenar el espacio sin deformarse */
+    transition: transform 0.5s ease;
+}
+
+.news-card:hover .news-photo {
+    transform: scale(1.05); /* Efecto zoom suave al pasar el ratón */
+}
+
+.news-content {
+    padding: 20px;
+    flex-grow: 1; /* Empuja el botón hacia abajo si el texto es corto */
+    display: flex;
+    flex-direction: column;
+}
+
+.news-content h3 {
+    font-size: 1.25rem; /* Aumentado de 1.1rem a 1.25rem */
+    color: #000000;     /* Negro puro en lugar de gris oscuro para máximo contraste */
+    margin-bottom: 10px;
+    line-height: 1.2;   /* Un poco más junto para que se vea compacto */
+    font-weight: 900;   /* Grosor máximo (Extra Bold) */
+    
+    /* Esto se mantiene igual para los puntos suspensivos */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.news-author {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 15px;
+    font-style: italic;
+    margin-top: auto; /* Empuja el autor hacia el fondo del contenido de texto */
+}
+
+.news-link {
+    display: block;
+    text-align: center;
+    background-color: #0e0eec;
+    color: white;
+    text-decoration: none;
+    padding: 12px;      /* Un pelín más de relleno */
+    border-radius: 5px;
+    font-weight: 900;   /* Letra más gorda en el botón también */
+    text-transform: uppercase; /* Opcional: ponerlo en mayúsculas */
+    font-size: 0.9rem;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.news-link:hover {
+    background-color: #0000aa;
+    transform: scale(1.02); /* Pequeño efecto al pasar el ratón */
+}
+
+/* Responsive ajustes finos */
+@media (max-width: 600px) {
+    .news-section h2 {
+        font-size: 1.5rem;
+    }
+    .news-image-container {
+        height: 160px;
+    }
+}
+
+
+

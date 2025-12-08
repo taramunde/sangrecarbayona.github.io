@@ -1,0 +1,53 @@
+/* css/video-player.css */
+
+/* Estilos base para el contenedor de video */
+.video-container {
+    margin-top: 50px; /* Aumentado para más separación (usa margin-top específico para evitar colapso) */
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    display: block; /* Asegura que sea un bloque completo */
+}
+
+/* Estilos para el video en sí */
+.video-player {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Añadir espacio al elemento anterior (submenú de Alineaciones) para forzar separación */
+.nav-item.has-submenu:last-child {
+    margin-bottom: 30px !important; /* Espacio extra debajo de "Alineaciones" */
+}
+
+.sub-nav {
+    margin-bottom: 20px !important; /* Espacio extra debajo del submenú */
+}
+
+/* Estilos responsivos para móviles */
+@media (max-width: 768px) {
+    .video-container {
+        padding: 5px;
+        max-width: 80%;
+        margin-top: 40px !important; /* Forzado para móviles */
+    }
+}
+
+/* Ajustes para el menú lateral en general */
+#sidebar, #mobile-nav {
+    overflow: auto; /* Evita desbordes y permite scroll si el menú es largo */
+}
+
+/* Ajustes para desktop con mayor especificidad */
+@media (min-width: 769px) {
+    #mobile-nav .video-container {
+        margin-top: 50px !important; /* Forzado para desktop */
+        max-width: 250px !important;
+    }
+}

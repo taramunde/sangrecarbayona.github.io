@@ -1,0 +1,92 @@
+/* css/juegos.css - Grid de juegos 100% responsive y bonito */
+
+.juegos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    padding: 50px 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.juego-card {
+    background: linear-gradient(135deg, #0033cc, #0066ff);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    transition: all 0.4s ease;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    border: 3px solid transparent; /* Borde invisible base para que no salte al pasar a especial */
+}
+
+.juego-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+}
+
+.juego-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5));
+}
+
+.juego-card h3 {
+    font-size: 1.8em;
+    margin: 15px 0;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.juego-card p {
+    font-size: 1.1em;
+    opacity: 0.95;
+    line-height: 1.5;
+}
+
+/* --- ESTILOS DE LEYENDAS (AHORA GLOBALES) --- */
+/* Al ponerlos aquí fuera, se aplican en PC y en Móvil */
+
+.juego-card.especial {
+    background: linear-gradient(135deg, #000033, #0033cc);
+    border: 3px solid #ffcc00; /* Borde dorado */
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.2); /* Brillo dorado suave */
+}
+
+/* Efecto extra al pasar el ratón por la carta de Leyendas */
+.juego-card.especial:hover {
+    box-shadow: 0 0 30px rgba(255, 204, 0, 0.6); /* Brillo dorado más fuerte */
+    transform: translateY(-15px) scale(1.02);
+}
+
+.juego-card.especial h3 {
+    color: #ffcc00;
+    text-shadow: 0 0 15px #ffcc00; /* Texto resplandeciente */
+}
+
+/* --- FIN ESTILOS GLOBALES --- */
+
+
+/* Ajustes específicos para Móvil */
+@media (max-width: 768px) {
+    .juegos-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 40px 20px;
+    }
+    
+    .juego-card {
+        padding: 40px 20px;
+    }
+    
+    .juego-card img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    
+}
