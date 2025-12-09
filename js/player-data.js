@@ -223,10 +223,10 @@ const playersData = {
         fullName: "Rahim Alhassane",
         nickname: "Rahim",
         birthPlace: "Abuya, Territorio de la Capital Federal",
-        country: "Costa de Marfil",
-        nationality: "Costamarfileña",
+        country: "Nigeria",
+        nationality: "Nigerina, Española",
         height: "1,84 m",
-        birthDate: "12/04/1994",
+        birthDate: "01/01/2002",
         deathDate: null // Poner null si el jugador está vivo
     }, 
         career: [  
