@@ -23,28 +23,34 @@ const solution = [
 let currentDirection = 'horizontal';
 
 // Mapeo de coordenadas a números de preguntas (Fila-Columna)
-// Estos son los números que se muestran en el crucigrama.
 const numbers = { 
     // HORIZONTALES
-    '0-1': 1,  // BUENAVISTA
-    '5-2': 8,  // SPORTING
-    '7-8': 11, // TARTIERE
-    '10-0': 14,// BANGO
-    '11-6': 16,// IRURETA
-    '15-0': 15,// LANGARA
-    '16-7': 20,// INGLATERRA
+    '0-1': 1,   // BUENAVISTA (fila 0, col 1-10)
+    '2-7': 4,   // TEATINOS (fila 2, col 7-13)
+    '3-13': 7,  // AZUL (fila 3, col 13-16) - También inicio vertical 5
+    '5-3': 8,   // SPORTING (fila 5, col 3-9)
+    '7-8': 11,  // TARTIERE (fila 7, col 8-14)
+    '10-0': 14, // BANGO (fila 10, col 0-4)
+    '11-6': 16, // IRURETA (fila 11, col 6-12)
+    '13-7': 18, // YUGOSLAVIA (fila 13, col 7-16)
+    '15-0': 19, // LANGARA (fila 15, col 0-6)
+    '16-7': 20, // INGLATERRA (fila 16, col 7-16)
 
     // VERTICALES
-    '2-2': 2,  // Columna 2, inicia la palabra VERTICAL que pasa por Fila 2 (T), Fila 3 (U), Fila 4 (S), Fila 5 (P), etc.
-    '4-3': 3,  // Columna 3, inicia la palabra VERTICAL
-    '2-6': 4,  // Columna 6, inicia la palabra VERTICAL
-    '1-15': 5, // Columna 15, inicia la palabra VERTICAL
-    '3-13': 7, // AZUL (Columna 13)
-    '14-5': 10, // Columna 5, inicia la palabra VERTICAL
-    '13-7': 18, // YUGOSLAVIA (Columna 7)
-    '16-10': 9, 
-    '16-14': 12, 
-    '16-12': 13 
+    '1-6': 2,   // TEATINOS (col 6, fila 1-7)
+    '3-15': 3,  // CHUS (col 15, fila 3-6)
+    // '3-13': 5 está compartido con horizontal 7
+    '3-2': 6,   // JUSTO (col 2, fila 3-7)
+    '5-13': 9,  // OVIEDO (col 13, fila 5-10)
+    '6-15': 10, // BERTO (col 15, fila 6-10)
+    '7-10': 12, // REQUEXON (col 10, fila 7-14)
+    '9-1': 13,  // PACHUCA (col 1, fila 9-15)
+    '7-12': 15, // GALLART (col 12, fila 7-13)
+    '11-5': 17, // MIERA (col 5, fila 11-15)
+    
+    // Pista 5 (SACAVERA) comparte celda inicial con pista 7 (AZUL)
+    // En crucigramas, cuando dos palabras comparten inicio, usan el mismo número
+    // Por eso la pista 5 vertical también está en '3-13' junto con la 7 horizontal
 };
 
 function createGrid() {
