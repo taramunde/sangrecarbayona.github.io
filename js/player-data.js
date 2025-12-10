@@ -129,7 +129,7 @@ const playersData = {
             { season: "2022/23", team: "C.D. Badajoz", category: "1ª Federación" },
             { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación" },
             { season: "2021/22", team: "C.D. Badajoz B", category: "Copa Federación Fase Autonómica - 3ª Federación" },
-            { season: "2020/21", team: "C.D. Badajoz U19", category: "División de Honor" },
+            { season: "2020/21", team: "C.D. Badajoz Sub-19", category: "División de Honor" },
             { season: "2020/21", team: "C.D. Badajoz ", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso - 2ª Div. B 2ª Fase Promoción de Ascenso a 2ª" },
             { season: "2020/21", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" },
             { season: "2019/20", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" }
@@ -176,10 +176,10 @@ const playersData = {
             { season: "2021/22", team: "Manchester United", category: "Premier League - Champions League - EFL Cup" },
             { season: "2020/21", team: "Manchester United", category: "Premier League - Champions League - Europa League - FA Cup - EFL Cup" },
             { season: "2019/20", team: "Manchester United", category: "Premier League - Europa League - FA Cup - EFL Cup" },
-            { season: "2019/20", team: "Manchester United U23", category: "Premier League 2ª Div. Two" },
-            { season: "2018/19", team: "Manchester United ", category: "Premier League - Champions League - FA Cup - EFL Cup" },
+            { season: "2019/20", team: "Manchester United Sub-23", category: "Premier League 2ª Div. Two" },
+            { season: "2018/19", team: "Manchester United", category: "Premier League - Champions League - FA Cup - EFL Cup" },
             { season: "2017/18", team: "Manchester United", category: "Premier League - Champions League - FA Cup" },
-            { season: "2016/17", team: "Manchester United U23", category: "Premier League 2ª Div. One" },
+            { season: "2016/17", team: "Manchester United Sub-23", category: "Premier League 2ª Div. One" },
             { season: "2016/17", team: "Manchester United", category: "Premier League - Europa League - FA Cup - Community Shield - EFL Cup" },
             { season: "2015/16", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2014/15", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
@@ -1089,49 +1089,62 @@ const playersData = {
         }
     },
     
-    "narvaez": {
-        name: "Miguel de Jesús Narváez López",
-        footballName: "Narváez",
-        position: "Portero",
-        role: "portero",
-        number: 26,
-        image: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", 
+    "santicazorla": {
+        name: "Santiago Cazorla González",
+        footballName: "Santi Cazorla",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 8,
+        image: "https://i.postimg.cc/6qQmv7tk/Santi_Cazorla_PNG.webp", 
     personalData: {
-        fullName: "Miguel de Jesús Narváez López",
-        nickname: "Narváez",
-        birthPlace: "Badajoz, Badajoz",
+        fullName: "Santiago Cazorla González",
+        nickname: "Santi Cazorla",
+        birthPlace: "Fonciello, Asturias",
         country: "España",
         nationality: "Española",
-        height: "1,88 m",
-        birthDate: "29/04/2002",
+        height: "1,68 m",
+        birthDate: "13/12/1984",
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
-            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2023/24", team: "C.D. Badajoz", category: "2ª Federación" },
-            { season: "2022/23", team: "C.D. Badajoz", category: "1ª Federación" },
-            { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación" },
-            { season: "2021/22", team: "C.D. Badajoz B", category: "Copa Federación Fase Autonómica - 3ª Federación" },
-            { season: "2020/21", team: "C.D. Badajoz U19", category: "División de Honor" },
-            { season: "2020/21", team: "C.D. Badajoz ", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso - 2ª Div. B 2ª Fase Promoción de Ascenso a 2ª" },
-            { season: "2020/21", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" },
-            { season: "2019/20", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" }
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2022/23", team: "Al-Sadd", category: "Liga Catar - Copa Emir Catar - Copa de Las Estrellas" },
+            { season: "2021/22", team: "Al-Sadd", category: "AFC Champions League Elite - Liga Catar - Copa Emir Catar - Copa de Catar" },
+            { season: "2020/21", team: "Al-Sadd", category: "AFC Champions League Elite - Liga Catar - Copa Emir Catar - Copa de Catar - Copa de Las Estrellas" },
+            { season: "2019/20", team: "Al-Sadd", category: "AFC Champions League Elite - Copa de Las Estrellas" },
+            { season: "2019/20", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2016/17", team: "Arsenal F.C.", category: "Premier League - Champions League" },
+            { season: "2015/16", team: "Arsenal F.C. Sub-21", category: "Premier League 2ª Div. Two" },
+            { season: "2015/16", team: "Arsenal F.C.", category: "Premier League - Champions League - Community Shield" },
+            { season: "2014/15", team: "Arsenal F.C.", category: "Premier League - Champions League - FA Cup - Community Shield - EFL Cup - Fase Previa Champions League" },
+            { season: "2013/14", team: "Arsenal F.C.", category: "Premier League - Champions League - FA Cup - EFL Cup - Fase Previa Champions League" },
+            { season: "2012/13", team: "Arsenal F.C.", category: "Premier League - Champions League - FA Cup - EFL Cup" },
+            { season: "2011/12", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2009/10", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2008/09", team: "Villarreal C.F.", category: "1ª Div. - Champions League - Copa del Rey" },
+            { season: "2007/08", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2006/07", team: "Recreativo de Huelva", category: "1ª Div." },
+            { season: "2005/06", team: "Villarreal C.F.", category: "1ª Div. - Champions League" },
+            { season: "2004/05", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Copa Intertoto" },
+            { season: "2003/04", team: "Villarreal C.F.", category: "1ª Div." },
+            
         ],
         stats: {
             "2025/26": {
-                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
             "2024/25": {
-                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     }
