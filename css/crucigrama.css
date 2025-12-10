@@ -130,14 +130,33 @@
 ==========================================================*/
 @media (max-width: 600px) {
     :root {
-        --cell-size: 1.6em; 
+        --cell-size: 1.8em; 
     }
 
     .cell {
-        /* Reducimos el tamaño para asegurar que quepa sin cortarse */
-        font-size: 1.05em; 
-        /* Asegura que no haya espacio extra que pueda causar corte */
-        line-height: 1; 
+        /* Tamaño de fuente más pequeño para móvil */
+        font-size: 0.9em; 
+        /* Altura de línea que centra mejor la letra */
+        line-height: 1.2; 
+        /* Padding interno para evitar el recorte */
+        padding: 2px 0;
+        /* Centra verticalmente la letra */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Ajusta el tamaño del número en móvil */
+    .number {
+        font-size: 0.5em;
+        top: 0px;
+        left: 0px;
+    }
+
+    /* Asegura que el grid tenga scroll horizontal suave */
+    .grid-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 }
 
