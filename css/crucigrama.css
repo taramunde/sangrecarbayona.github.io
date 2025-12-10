@@ -14,10 +14,14 @@
 /* Contenedor general de la cuadrícula (Ayuda a centrarlo) */
 .grid-container {
     display: flex;
-    justify-content: center; /* Centrar el crucigrama */
+    /* CLAVE para el scroll: Evita el centrado y fuerza el inicio a la izquierda */
+    justify-content: flex-start; 
     align-items: center;
-    overflow-x: auto; /* Permite desplazamiento en móviles si es muy grande */
+    overflow-x: auto; 
     padding: 10px;
+    /* CLAVE para el scroll: Este relleno extra asegura que el scroll no termine sin mostrar el borde */
+    padding-left: 20px; 
+    padding-right: 20px; 
     margin-bottom: 20px;
 }
 
@@ -130,8 +134,10 @@
     }
 
     .cell {
-        font-size: 1.1em; /* Reducido de 1.2em a 1.1em o menos si sigue cortando */
-        line-height: 1; /* Asegura que la altura de línea sea mínima para centrar mejor */
+        /* Reducimos el tamaño para asegurar que quepa sin cortarse */
+        font-size: 1.05em; 
+        /* Asegura que no haya espacio extra que pueda causar corte */
+        line-height: 1; 
     }
 }
 
@@ -178,4 +184,12 @@
     text-align: left; 
     margin-bottom: 15px;
     margin-top: 20px;
+}
+
+/* Anula posibles reglas de centrado del contenedor padre */
+.game-container {
+    /* Si el contenedor padre usa flexbox, esto lo alinea a la izquierda */
+    justify-content: flex-start; 
+    /* Si el contenedor padre usa text-align: center, esto lo anula */
+    text-align: left; 
 }
