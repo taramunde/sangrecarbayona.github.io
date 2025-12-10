@@ -69,10 +69,10 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª División - Copa del Rey" },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
-            { season: "2024/25", team: "Atlético de Madrid", category: "1ª División" },
-            { season: "2023/24", team: "Atlético de Madrid", category: "1ª División - Champions League - Copa del Rey" },
+            { season: "2024/25", team: "Atlético de Madrid", category: "1ª Div." },
+            { season: "2023/24", team: "Atlético de Madrid", category: "1ª Div. - Champions League - Copa del Rey" },
             { season: "2023/24", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
             { season: "2022/23", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
             { season: "2021/22", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
@@ -1063,36 +1063,28 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª División - Copa del Rey" },
-            { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
-            { season: "2024/25", team: "Atlético de Madrid", category: "1ª División" },
-            { season: "2023/24", team: "Atlético de Madrid", category: "1ª División - Champions League - Copa del Rey" },
-            { season: "2023/24", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2022/23", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2021/22", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2020/21", team: "F.C. Rapid Bucuresti", category: "2ª Rumanía" },
-            { season: "2020/21", team: "F.C. UTA Arad", category: "Liga Rumana" },
-            { season: "2019/20", team: "F.C. Ripensia Timisoara ", category: "2ª Rumanía" },
-            { season: "2019/20", team: "A.C.S. Sepsi", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2018/19", team: "F.C. Ripensia Timisoara", category: "2ª Rumanía" },
-            { season: "2018/19", team: "A.C.S. Energeticianul", category: "2ª Rumanía - Copa Rumanía" },
-            { season: "2017/18", team: "F.C. Hermannstadt", category: "2ª Rumanía - Copa Rumanía" }
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "S.D. Amorebieta", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "S.D. Amorebieta", category: "Copa del Rey - 1ª Federación - 1ª Federación Final de Campeones" },
+            { season: "2021/22", team: "Betis Deportivo", category: "1ª Federación" },
+            { season: "2020/21", team: "U.D. Ibiza", category: "2ª Div. B - Copa del Rey - 2ª Div. B Promoción de Ascenso - 2ª Div. B 2ª Fase Promoción de Ascenso" },
+            { season: "2019/20", team: "U.D. Ibiza ", category: "2ª Div. B - Copa del Rey - 2ª Div. B Promoción de Ascenso" },
+            { season: "2018/19", team: "K.F. Skënderbeu", category: "Liga Albania - Copa Albania" },
+            { season: "2018/19", team: "F.C.Urartu", category: "Fase Previa Europa League" },
+            { season: "2017/18", team: "F.C.Urartu", category: "Liga Armenia - Copa Armenia" }
             
         ],
         nationalTeam: [
-            { season: "2025", team: "Rumanía", category: "Clasificación Mundial Europa - Amistosos" },
-            { season: "2024", team: "Rumanía", category: "Eurocopa - Liga de las Naciones de la UEFA - Amistosos" },
-            { season: "2023", team: "Rumanía", category: "Clasificación Eurocopa" },
-            { season: "2022", team: "Rumanía", category: "Liga de las Naciones de la UEFA - Amistosos" },
-            { season: "2021", team: "Rumanía", category: "Clasificación Mundial Europa" },
-            { season: "2023", team: "Rumanía Sub-21", category: "Clasificación Europeo Sub-21" }
+            { season: "2025", team: "Ghana", category: "Clasificación Mundial África - Amistosos" }
+            
         ],    
         stats: {
             "2025/26": {
-                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 1, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 4, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
