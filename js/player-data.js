@@ -1001,6 +1001,147 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
+    },
+
+    // CENTROCAMPISTAS
+    "albertoreina": {
+        name: "Alberto Reina Campos",
+        footballName: "Alberto Reina",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 5,
+        image: "https://i.postimg.cc/mDCkCD2g/Alberto-Reina-PNG.webp",
+    personalData: {
+        fullName: "Alberto Reina Campos",
+        nickname: "Alberto Reina",
+        birthPlace: "Chiclana de La Frontera, Cádiz",
+        country: "España",
+        nationality: "Española",
+        height: "1,79 m",
+        birthDate: "19/11/1997",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "A.D. Ceuta F.C.", category: "Copa del Rey - 1ª Federación" },
+            { season: "2021/22", team: "A.D. Ceuta F.C.", category: "2ª Federación - 2ª Federación Promoción de Ascenso" },
+            { season: "2020/21", team: "A.D. Ceuta F.C.", category: "3ª Div. - 3ª Div. 2ª Fase Promoción de Ascenso - 3ª Div. Promoción de Ascendo" },
+            { season: "2019/20", team: "Las Palmas At.", category: "2ª Div. B" },
+            { season: "2018/19", team: "Las Palmas At.", category: "2ª Div. B" },
+            { season: "2018/19", team: "A.D. Ceuta F.C.", category: "3ª Div. - Copa Federación" },
+            { season: "2017/18", team: "A.D. Ceuta F.C.", category: "3ª Div. - 3ª Div. Promoción de Ascendo" },
+            { season: "2016/17", team: "C.D. Alcalá", category: "3ª Div." }
+            
+        ],
+        stats: {
+            "2025/26": {
+                liga: { partidos: 14, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+    
+    "moldovan": {
+        name: "Horațiu Alexandru Moldovan",
+        footballName: "Moldovan",
+        position: "Portero",
+        role: "portero",
+        number: 1,
+        image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
+    personalData: {
+        fullName: "Horațiu Alexandru Moldovan",
+        nickname: "Moldovan",
+        birthPlace: "Cluj-Napoca, Transilvania",
+        country: "Rumanía",
+        nationality: "Rumana",
+        height: "1,86 m",
+        birthDate: "20/01/1998",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª División - Copa del Rey" },
+            { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
+            { season: "2024/25", team: "Atlético de Madrid", category: "1ª División" },
+            { season: "2023/24", team: "Atlético de Madrid", category: "1ª División - Champions League - Copa del Rey" },
+            { season: "2023/24", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2022/23", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2021/22", team: "F.C. Rapid Bucuresti", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2020/21", team: "F.C. Rapid Bucuresti", category: "2ª Rumanía" },
+            { season: "2020/21", team: "F.C. UTA Arad", category: "Liga Rumana" },
+            { season: "2019/20", team: "F.C. Ripensia Timisoara ", category: "2ª Rumanía" },
+            { season: "2019/20", team: "A.C.S. Sepsi", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2018/19", team: "F.C. Ripensia Timisoara", category: "2ª Rumanía" },
+            { season: "2018/19", team: "A.C.S. Energeticianul", category: "2ª Rumanía - Copa Rumanía" },
+            { season: "2017/18", team: "F.C. Hermannstadt", category: "2ª Rumanía - Copa Rumanía" }
+            
+        ],
+        nationalTeam: [
+            { season: "2025", team: "Rumanía", category: "Clasificación Mundial Europa - Amistosos" },
+            { season: "2024", team: "Rumanía", category: "Eurocopa - Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2023", team: "Rumanía", category: "Clasificación Eurocopa" },
+            { season: "2022", team: "Rumanía", category: "Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2021", team: "Rumanía", category: "Clasificación Mundial Europa" },
+            { season: "2023", team: "Rumanía Sub-21", category: "Clasificación Europeo Sub-21" }
+        ],    
+        stats: {
+            "2025/26": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+    
+    "narvaez": {
+        name: "Miguel de Jesús Narváez López",
+        footballName: "Narváez",
+        position: "Portero",
+        role: "portero",
+        number: 26,
+        image: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", 
+    personalData: {
+        fullName: "Miguel de Jesús Narváez López",
+        nickname: "Narváez",
+        birthPlace: "Badajoz, Badajoz",
+        country: "España",
+        nationality: "Española",
+        height: "1,88 m",
+        birthDate: "29/04/2002",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "C.D. Badajoz", category: "2ª Federación" },
+            { season: "2022/23", team: "C.D. Badajoz", category: "1ª Federación" },
+            { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación" },
+            { season: "2021/22", team: "C.D. Badajoz B", category: "Copa Federación Fase Autonómica - 3ª Federación" },
+            { season: "2020/21", team: "C.D. Badajoz U19", category: "División de Honor" },
+            { season: "2020/21", team: "C.D. Badajoz ", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso - 2ª Div. B 2ª Fase Promoción de Ascenso a 2ª" },
+            { season: "2020/21", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" },
+            { season: "2019/20", team: "C.D. Badajoz B", category: "1ª Reg. Extremadura" }
+        ],
+        stats: {
+            "2025/26": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
     }
 
     
