@@ -141,32 +141,45 @@
 
 /*==========================================================
    8. ESTILOS DE LAS PREGUNTAS (PISTAS)
-   Asegura la alineación a la izquierda y la consistencia del número.
+   Asegura la alineación a la izquierda, haciendo que el número quede "colgando".
 ==========================================================*/
 
-/* 1. Contenedor de la lista de preguntas */
+/* Contenedor padre de las listas */
+.pistas-wrapper {
+    /* Asegura que el contenedor de las preguntas se alinee a la izquierda y elimine márgenes de centrado */
+    text-align: left;
+    margin: 0 auto 0 0; 
+    padding: 0; 
+    max-width: 100%;
+}
+
+/* 1. Contenedor de la lista de preguntas (UL) */
 .pistas-lista {
-    /* Quita el relleno por defecto de la lista que la empuja hacia la derecha */
-    padding-left: 0; 
-    /* Quita las viñetas por defecto (aunque no las uses, es una buena práctica) */
-    list-style: none; 
-}
-
-/* 2. Cada pregunta individual */
-.pistas-lista li {
-    /* Fuerza la alineación del texto a la izquierda */
+    padding-left: 0; /* Quita el relleno por defecto del UL */
+    list-style: none; /* Asegura que no haya viñetas visibles */
+    margin: 0; 
     text-align: left; 
-    /* Define el espacio entre las preguntas */
-    margin-bottom: 8px; 
-    /* Asegura que el número quede siempre pegado al inicio de la línea */
-    padding-left: 0; 
-    /* Opcional: Asegura que el texto no sea demasiado grande */
-    font-size: 1em; 
 }
 
-/* Opcional: Estilo para los títulos (HORIZONTALES/VERTICALES) */
+/* 2. Cada pregunta individual (LI) */
+.pistas-lista li {
+    margin-bottom: 8px; 
+    line-height: 1.4; /* Mejora la legibilidad */
+    font-size: 1em;
+    
+    /* TÉCNICA CLAVE PARA ALINEACIÓN FORZADA */
+    /* ------------------------------------ */
+    text-align: left;
+    /* Mueve la primera línea (el número) hacia la izquierda */
+    text-indent: -1.5em; 
+    /* Crea un espacio para que el resto del texto se alinee después del número */
+    padding-left: 1.5em; 
+    /* ------------------------------------ */
+}
+
+/* Estilo para los títulos (HORIZONTALES/VERTICALES) */
 .pistas-wrapper h2 {
-    text-align: left; /* Alinea los títulos a la izquierda */
+    text-align: left; 
     margin-bottom: 15px;
     margin-top: 20px;
 }
