@@ -23,6 +23,7 @@ const solution = [
 let currentDirection = 'horizontal';
 
 // Mapeo de coordenadas a números de preguntas (Fila-Columna)
+// Estos son los números que se muestran en el crucigrama.
 const numbers = { 
     // HORIZONTALES
     '0-1': 1,  // BUENAVISTA
@@ -34,13 +35,13 @@ const numbers = {
     '16-7': 20,// INGLATERRA
 
     // VERTICALES
-    '2-2': 2,  
-    '4-3': 3,  
-    '2-6': 4,  
-    '1-15': 5, 
-    '3-13': 7, // AZUL
-    '14-5': 10, 
-    '13-7': 18, // YUGOSLAVIA
+    '2-2': 2,  // Columna 2, inicia la palabra VERTICAL que pasa por Fila 2 (T), Fila 3 (U), Fila 4 (S), Fila 5 (P), etc.
+    '4-3': 3,  // Columna 3, inicia la palabra VERTICAL
+    '2-6': 4,  // Columna 6, inicia la palabra VERTICAL
+    '1-15': 5, // Columna 15, inicia la palabra VERTICAL
+    '3-13': 7, // AZUL (Columna 13)
+    '14-5': 10, // Columna 5, inicia la palabra VERTICAL
+    '13-7': 18, // YUGOSLAVIA (Columna 7)
     '16-10': 9, 
     '16-14': 12, 
     '16-12': 13 
