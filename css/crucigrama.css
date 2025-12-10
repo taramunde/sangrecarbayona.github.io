@@ -1,49 +1,62 @@
 /*==========================================================
    1. VARIABLES Y TAMAÑO BASE
+   Define el tamaño de la celda para ajustar todo el crucigrama.
 ==========================================================*/
 :root {
-    --cell-size: 35px; /* Tamaño del cuadrado */
+    --cell-size: 35px; /* Puedes cambiar este valor (ej. 30px, 40px) para ajustar el tamaño de todo el crucigrama */
 }
 
 /*==========================================================
-   2. CONTENEDORES PRINCIPALES
+   2. CONTENEDORES PRINCIPALES (Grid Container y Grid)
+   Soluciona el problema de los escaques "cortados".
 ==========================================================*/
+
+/* Contenedor general de la cuadrícula (Ayuda a centrarlo) */
 .grid-container {
     display: flex;
+    /* CLAVE para el scroll: Evita el centrado y fuerza el inicio a la izquierda */
     justify-content: flex-start; 
     align-items: center;
     overflow-x: auto; 
-    padding: 10px 20px; 
+    padding: 10px;
+    /* CLAVE para el scroll: Este relleno extra asegura que el scroll no termine sin mostrar el borde */
+    padding-left: 20px; 
+    padding-right: 20px; 
     margin-bottom: 20px;
 }
 
+/* La cuadrícula principal (grid) */
 .grid {
     display: grid;
+    /* Define la cuadrícula: 17x17 celdas */
     grid-template-columns: repeat(17, var(--cell-size)); 
     grid-template-rows: repeat(17, var(--cell-size));
-    gap: 0; 
-    border: 2px solid #333; 
+    gap: 0; /* IMPORANTE: Elimina espacios entre las celdas */
+    border: 2px solid #333; /* Borde exterior */
     user-select: none;
-    box-sizing: content-box; 
+    box-sizing: content-box; /* Previene que el borde exterior corte las celdas */
     margin: 0 auto;
 }
 
 /*==========================================================
-   3. CELDAS INDIVIDUALES (Wrapper)
+   3. CELDAS INDIVIDUALES (Wrapper y Celdas Negras)
+   Aplica al nuevo DIV que creamos en JavaScript (.cell-wrapper).
 ==========================================================*/
+
+/* El contenedor de cada celda (el nuevo div.cell-wrapper) */
 .cell-wrapper {
-    /* IMPORTANTE: position relative atrapa al número absolute dentro de este cuadro */
-    position: relative; 
+    position: relative; /* CLAVE para posicionar el número (span.number) */
     width: var(--cell-size);
     height: var(--cell-size);
-    border: 1px solid #333; 
+    border: 1px solid #333; /* Borde de cada escaque */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff; 
-    box-sizing: border-box; 
+    background-color: #fff; /* Fondo blanco para celdas jugables */
+    box-sizing: border-box; /* CLAVE: El borde se incluye en el tamaño total, corrigiendo el recorte */
 }
 
+/* Celdas negras */
 .cell-wrapper.black {
     background-color: #333;
     border: 1px solid #333;
@@ -51,51 +64,59 @@
 
 /*==========================================================
    4. CAMPO DE ENTRADA (INPUT)
+   Soluciona que el hueco para la letra era más grande.
 ==========================================================*/
+
+/* El INPUT donde se escribe la letra */
 .cell {
+    /* Ocupa el 100% del tamaño del wrapper */
     width: 100%; 
     height: 100%;
-    font-size: 1.5em; 
+    
+    /* Configuración visual de la letra */
+    font-size: 1.5em; /* Tamaño de la letra */
     text-align: center;
     text-transform: uppercase;
     color: #000;
     font-weight: bold;
+    
+    /* Eliminar bordes, padding y estilos por defecto del input */
     border: none;
     padding: 0;
     margin: 0;
     outline: none; 
-    /* IMPORTANTE: Fondo transparente para ver el número si quedara debajo (aunque usaremos z-index) */
     background: transparent; 
-    z-index: 5; /* El input está en un nivel bajo */
 }
 
+/* Estilo para la celda en foco */
 .cell:focus {
-    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.8) inset; 
+    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.8) inset; /* Sombra azul para resaltar */
 }
 
 /*==========================================================
-   5. NÚMERO DE PISTA (CORREGIDO)
+   5. NÚMERO DE PISTA
+   Soluciona el tamaño y la posición del número.
 ==========================================================*/
+
+/* El número de la pista (span.number) */
 .number {
-    /* Posición absoluta respecto a .cell-wrapper */
-    position: absolute; 
-    top: 2px;   /* Separación del borde superior */
-    left: 2px;  /* Separación del borde izquierdo */
-    
-    font-size: 10px; /* Tamaño pequeño para el número */
+    position: absolute; /* Lo posiciona en relación a la celda (.cell-wrapper) */
+    top: 0px; 
+    left: 1px;
+    font-size: 0.6em; /* Tamaño pequeño */
     font-weight: bold;
     color: #333;
+    z-index: 10;
     line-height: 1;
-    
-    /* CRUCIAL: z-index alto para estar VISUALMENTE encima, 
-       pero pointer-events: none para que el click pase a través de él hacia el input */
-    z-index: 10; 
-    pointer-events: none; 
+    pointer-events: none; /* No interfiere con el click en el input */
+    transform: translate(1px, 1px); 
 }
 
 /*==========================================================
-   6. VALIDACIÓN
+   6. VALIDACIÓN (Correcto / Incorrecto)
 ==========================================================*/
+
+/* Colores de validación */
 .cell.correct {
     color: green;
 }
@@ -105,49 +126,71 @@
 }
 
 /*==========================================================
-   7. OPTIMIZACIÓN MÓVIL
+   7. OPTIMIZACIÓN MÓVIL (MEDIA QUERY)
 ==========================================================*/
 @media (max-width: 600px) {
     :root {
         --cell-size: 1.6em; 
     }
+
     .cell {
+        /* Reducimos el tamaño para asegurar que quepa sin cortarse */
         font-size: 1.05em; 
-    }
-    .number {
-        font-size: 8px; /* Número más pequeño en móvil */
+        /* Asegura que no haya espacio extra que pueda causar corte */
+        line-height: 1; 
     }
 }
 
 /*==========================================================
-   8. ESTILOS DE LAS LISTAS DE PISTAS (TEXTO)
+   8. ESTILOS DE LAS PREGUNTAS (PISTAS)
+   Asegura la alineación a la izquierda, haciendo que el número quede "colgando".
 ==========================================================*/
+
+/* Contenedor padre de las listas */
 .pistas-wrapper {
+    /* Asegura que el contenedor de las preguntas se alinee a la izquierda y elimine márgenes de centrado */
     text-align: left;
     margin: 0 auto 0 0; 
     padding: 0; 
     max-width: 100%;
 }
 
+/* 1. Contenedor de la lista de preguntas (UL) */
 .pistas-lista {
-    padding-left: 0; 
-    list-style: none; 
+    padding-left: 0; /* Quita el relleno por defecto del UL */
+    list-style: none; /* Asegura que no haya viñetas visibles */
     margin: 0; 
     text-align: left; 
 }
 
+/* 2. Cada pregunta individual (LI) */
 .pistas-lista li {
     margin-bottom: 8px; 
-    line-height: 1.4; 
+    line-height: 1.4; /* Mejora la legibilidad */
     font-size: 1em;
+    
+    /* TÉCNICA CLAVE PARA ALINEACIÓN FORZADA */
+    /* ------------------------------------ */
     text-align: left;
-    /* Sangría francesa para que el texto no se meta debajo del número */
+    /* Mueve la primera línea (el número) hacia la izquierda */
     text-indent: -1.5em; 
+    /* Crea un espacio para que el resto del texto se alinee después del número */
     padding-left: 1.5em; 
+    /* ------------------------------------ */
 }
 
+/* Estilo para los títulos (HORIZONTALES/VERTICALES) */
 .pistas-wrapper h2 {
     text-align: left; 
     margin-bottom: 15px;
     margin-top: 20px;
 }
+
+/* Anula posibles reglas de centrado del contenedor padre */
+.game-container {
+    /* Si el contenedor padre usa flexbox, esto lo alinea a la izquierda */
+    justify-content: flex-start; 
+    /* Si el contenedor padre usa text-align: center, esto lo anula */
+    text-align: left; 
+}
+
