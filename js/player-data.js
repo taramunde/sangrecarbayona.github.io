@@ -1110,10 +1110,10 @@ const playersData = {
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Promoción de Ascenso" },
             { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
-            { season: "2022/23", team: "Al-Sadd", category: "Liga Catar - Copa Emir Catar - Copa de Las Estrellas" },
-            { season: "2021/22", team: "Al-Sadd", category: "AFC Champ. League Elite - Liga Catar - Copa Emir Catar - Copa de Catar" },
-            { season: "2020/21", team: "Al-Sadd", category: "AFC Champ. League Elite - Liga Catar - Copa Emir Catar - Copa de Catar - Copa de Las Estrellas" },
-            { season: "2019/20", team: "Al-Sadd", category: "AFC Champ. League Elite - Copa de Las Estrellas" },
+            { season: "2022/23", team: "Al-Sadd S.C.", category: "Liga Catar - Copa Emir Catar - Copa de Las Estrellas" },
+            { season: "2021/22", team: "Al-Sadd S.C.", category: "AFC Champ. League Elite - Liga Catar - Copa Emir Catar - Copa de Catar" },
+            { season: "2020/21", team: "Al-Sadd S.C.", category: "AFC Champ. League Elite - Liga Catar - Copa Emir Catar - Copa de Catar - Copa de Las Estrellas" },
+            { season: "2019/20", team: "Al-Sadd S.C.", category: "AFC Champ. League Elite - Copa de Las Estrellas" },
             { season: "2019/20", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2016/17", team: "Arsenal F.C.", category: "Premier League - Champions League" },
@@ -1166,6 +1166,64 @@ const playersData = {
             "2023/24": {
                 liga: { partidos: 25, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "hassan": {
+        name: "Haissem Hassan",
+        footballName: "Hassan",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 10,
+        image: "https://i.postimg.cc/5tWYNTVz/Hassan-PNG-2.webp", 
+    personalData: {
+        fullName: "Haissem Hassan",
+        nickname: "Hassan",
+        birthPlace: "Bagnolet, Isla de Francia",
+        country: "Francia",
+        nationality: "Francesa, Egipcia",
+        height: "1,75 m",
+        birthDate: "08/02/2002",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2022/23", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2022/23", team: "Villarreal C.F. B", category: "2ª Div." },
+            { season: "2021/22", team: "C.D. Mirandés", category: "2ª Div - Copa del Rey" },
+            { season: "2020/21", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso" },
+            { season: "2019/20", team: "L.B. Châteauroux", category: "Ligue 2 - Copa de la Liga" },
+            { season: "2019/20", team: "L.B. Châteauroux II", category: "National 3" },
+            { season: "2018/19", team: "L.B. Châteauroux Sub-19", category: "Copa Gambardella" },
+            { season: "2018/19", team: "L.B. Châteauroux", category: "Ligue 2 - Copa de Francia" },
+            { season: "2018/19", team: "L.B. Châteauroux II", category: "National 3" }
+            
+         ],
+
+        nationalTeam: [
+            { season: "2021", team: "Francia Sub-20", category: "Amistosos" },
+            { season: "2020", team: "Francia Sub-18", category: "Amistosos" },
+            { season: "2019", team: "Francia Sub-18", category: "Amistosos" },
+            { season: "2019", team: "Francia Sub-17", category: "Mundial Sub-17 - Amistosos" },
+            { season: "2018", team: "Francia Sub-17", category: "Clasificación Europeo Sub-17 - Amistosos" }
+            
+        ],
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 14, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2024/25": {
+                liga: { partidos: 43, goles_marcados: 4, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
