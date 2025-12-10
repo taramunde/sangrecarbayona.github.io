@@ -3,10 +3,10 @@ const SIZE = 17;
 const solution = [
     ['#','B','U','E','N','A','V','I','S','T','A','#','#','#','#','#','#'],
     ['#','#','#','#','#','#','E','#','#','#','#','#','#','#','#','C','#'],
-    ['#','#','#','#','#','#','T','E','A','T','I','N','O','S','#','H','#'],
-    ['#','#','J','#','#','#','U','#','#','#','#','#','#','A','Z','U','L'],
-    ['#','#','U','#','#','#','S','#','#','#','#','#','#','C','#','S','#'],
-    ['#','#','S','P','O','R','T','I','N','G','#','#','#','A','#','#','#'],
+    ['#','#','J','#','#','#','T','E','A','T','I','N','O','S','#','H','#'],
+    ['#','#','U','#','#','#','U','#','#','#','#','#','#','A','Z','U','L'],
+    ['#','#','S','#','#','#','S','#','#','#','#','#','#','C','#','S','#'],
+    ['#','#','P','O','R','T','I','N','G','#','#','#','A','#','#','#','#'],
     ['#','#','T','#','V','#','A','#','#','#','#','#','#','V','#','B','#'],
     ['#','#','O','#','I','#','#','#','T','A','R','T','I','E','R','E','#'],
     ['#','#','#','#','E','#','#','#','#','#','E','#','#','R','#','R','#'],
@@ -22,58 +22,63 @@ const solution = [
 
 let currentDirection = 'horizontal';
 
-// Mapeo de coordenadas a números de preguntas
+// Mapeo de coordenadas a números de preguntas (He corregido y completado esta lista)
 const numbers = { 
-    '0-0':1, '2-2':2, '4-3':3, '6-2':4, '8-1':5, '10-0':6, 
-    '11-6':7, '15-0':8, '16-10':9 
+    '0-1': 1, '2-2': 2, '4-3': 3, '2-6': 4, '1-15': 5, '10-0': 6, '3-13': 7, '5-2': 8,
+    '16-10': 9, '14-5': 10, '7-8': 11, '16-14': 12, '16-12': 13, '10-0': 14, '15-0': 15, 
+    '11-6': 16, '16-8': 17, '13-7': 18, '16-7': 20
 };
 
 function createGrid() {
     const grid = document.getElementById('grid');
-    if(!grid) return; // Protección por si no carga el HTML
+    if(!grid) return; 
     
     grid.innerHTML = '';
 
     for (let i = 0; i < SIZE; i++) {
         for (let j = 0; j < SIZE; j++) {
-            const input = document.createElement('input');
-            input.type = 'text';
-            input.className = 'cell';
-            input.maxLength = 1;
-            input.autocomplete = 'off'; // Evitar autocompletado del navegador
+            
+            // Creamos el contenedor DIV para la celda
+            const cellWrapper = document.createElement('div');
+            cellWrapper.className = 'cell-wrapper';
+            cellWrapper.dataset.row = i;
+            cellWrapper.dataset.col = j;
 
             if (solution[i][j] === '#') {
-                input.classList.add('black');
-                input.disabled = true;
+                cellWrapper.classList.add('black');
             } else {
+                
+                // 1. Crear el SPAN para el número (si existe)
                 if (numbers[`${i}-${j}`]) {
                     const num = document.createElement('span');
                     num.className = 'number';
                     num.textContent = numbers[`${i}-${j}`];
-                    // El span no puede ir dentro de un input, usamos un contenedor relativo en el CSS
-                    // pero para simplificar sin cambiar HTML, lo insertamos antes o usamos background.
-                    // TRUCO: Como input no puede tener hijos, lo ideal es usar un div wrapper, 
-                    // pero mantendremos tu lógica insertando el input y posicionando el número con CSS o JS si fuera un div.
-                    // CORRECCIÓN: Los inputs NO pueden tener hijos en HTML válido.
-                    // Para que se vean los números, necesitamos un truco.
-                    // Lo dejaremos así, pero ten en cuenta que el span dentro de input se perderá en el renderizado.
-                }
-                
-                // NOTA IMPORTANTE SOBRE NÚMEROS: 
-                // Como los inputs no pueden tener hijos, el código original fallaba al mostrar números.
-                // La mejor forma rápida es usar el placeholder si está vacío o un div contenedor.
-                // Sin embargo, para no complicar tu estructura, usaremos el placeholder temporalmente o data-atributes.
-                if (numbers[`${i}-${j}`]) {
-                    input.setAttribute('placeholder', numbers[`${i}-${j}`]);
+                    cellWrapper.appendChild(num);
                 }
 
-                input.dataset.row = i;
-                input.dataset.col = j;
+                // 2. Crear el INPUT para la letra
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.className = 'cell';
+                input.maxLength = 1;
+                input.autocomplete = 'off';
+                
+                cellWrapper.appendChild(input);
+
+                // Función auxiliar para mover el foco
+                const moveFocus = (r, c) => {
+                    // Seleccionamos el input dentro del wrapper con las coordenadas correctas
+                    const targetCell = document.querySelector(`[data-row="${r}"][data-col="${c}"] .cell`);
+                    if (targetCell) {
+                        targetCell.focus();
+                    }
+                };
 
                 input.addEventListener('focus', () => {
                     const hasRight = j + 1 < SIZE && solution[i][j + 1] !== '#';
                     const hasDown  = i + 1 < SIZE && solution[i + 1][j] !== '#';
-                    // Lógica simple de dirección
+                    
+                    // Lógica para determinar la dirección de escritura
                     if(hasRight && !hasDown) currentDirection = 'horizontal';
                     else if(!hasRight && hasDown) currentDirection = 'vertical';
                 });
@@ -81,42 +86,59 @@ function createGrid() {
                 input.addEventListener('input', e => {
                     let v = e.target.value.toUpperCase();
                     e.target.value = v;
+                    e.target.classList.remove('incorrect', 'correct'); // Limpiar estados
+                    
+                    // Mover automáticamente al escribir
                     if (v) {
-                        // Eliminamos la validación instantánea de colores (opcional, para hacerlo más difícil)
-                        // Si quieres ver verde/rojo al momento, descomenta la siguiente línea:
-                        // e.target.className = v === solution[i][j] ? 'cell correct' : 'cell incorrect';
-                        e.target.classList.remove('incorrect', 'correct'); // Limpiar estados previos
-                        
-                        currentDirection === 'horizontal' ? moveH(i,j+1) : moveV(i+1,j);
+                        let nextR = i;
+                        let nextC = j;
+
+                        if (currentDirection === 'horizontal') {
+                            nextC = j + 1;
+                            while (nextC < SIZE && solution[i][nextC] === '#') nextC++;
+                        } else {
+                            nextR = i + 1;
+                            while (nextR < SIZE && solution[nextR][j] === '#') nextR++;
+                        }
+                        moveFocus(nextR, nextC);
                     }
                 });
 
                 input.addEventListener('keydown', e => {
+                    let dirR = 0, dirC = 0;
+                    let isMove = false;
+                    
+                    // Manejo del retroceso (Backspace) y teclas de flecha
                     if (e.key === 'Backspace' && !e.target.value) {
                         e.preventDefault();
-                        currentDirection === 'horizontal' ? moveH(i,j-1) : moveV(i-1,j);
-                    } else if (e.key.includes('Arrow')) {
+                        dirC = (currentDirection === 'horizontal' ? -1 : 0);
+                        dirR = (currentDirection === 'vertical' ? -1 : 0);
+                        isMove = true;
+                    } else if (e.key === 'ArrowRight') { dirC = 1; isMove = true; currentDirection = 'horizontal'; }
+                    else if (e.key === 'ArrowLeft') { dirC = -1; isMove = true; currentDirection = 'horizontal'; }
+                    else if (e.key === 'ArrowDown') { dirR = 1; isMove = true; currentDirection = 'vertical'; }
+                    else if (e.key === 'ArrowUp') { dirR = -1; isMove = true; currentDirection = 'vertical'; }
+
+                    if (isMove) {
                         e.preventDefault();
-                        const isHor = e.key === 'ArrowLeft' || e.key === 'ArrowRight';
-                        currentDirection = isHor ? 'horizontal' : 'vertical';
-                        const dir = (e.key === 'ArrowRight' || e.key === 'ArrowDown') ? 1 : -1;
-                        isHor ? moveH(i, j + dir) : moveV(i + dir, j);
+                        
+                        let nextR = i + dirR;
+                        let nextC = j + dirC;
+
+                        // Saltar celdas negras al moverse
+                        while (nextR >= 0 && nextR < SIZE && nextC >= 0 && nextC < SIZE && solution[nextR][nextC] === '#') {
+                            nextR += dirR;
+                            nextC += dirC;
+                        }
+                        
+                        moveFocus(nextR, nextC);
                     }
                 });
             }
-            grid.appendChild(input);
+            grid.appendChild(cellWrapper);
         }
     }
 }
-
-const moveH = (r,c) => { 
-    while(c>=0&&c<SIZE&&solution[r][c]==='#') c+=c<j?-1:1; // Corrección simple de salto
-    if(c>=0&&c<SIZE) document.querySelector(`[data-row="${r}"][data-col="${c}"]`)?.focus(); 
-};
-const moveV = (r,c) => { 
-    while(r>=0&&r<SIZE&&solution[r][c]==='#') r+=r<i?-1:1; 
-    if(r>=0&&r<SIZE) document.querySelector(`[data-row="${r}"][data-col="${c}"]`)?.focus(); 
-};
 
 function checkAnswers() {
     let ok = 0, tot = 0;
@@ -124,8 +146,10 @@ function checkAnswers() {
         for(let j=0;j<SIZE;j++) {
             if(solution[i][j]!=='#'){
                 tot++;
-                const el = document.querySelector(`[data-row="${i}"][data-col="${j}"]`);
-                if(el.value === solution[i][j]) {
+                const el = document.querySelector(`[data-row="${i}"][data-col="${j}"] .cell`);
+                if (!el) continue;
+
+                if(el.value.toUpperCase() === solution[i][j]) {
                     ok++;
                     el.classList.add('correct');
                     el.classList.remove('incorrect');
@@ -136,7 +160,6 @@ function checkAnswers() {
             }
         }
     }
-    // Pequeño delay para que se pinte antes del alert
     setTimeout(() => {
         alert(ok===tot ? '¡ENHORABUENA! ¡PUXA OVIEDO!' : `Llevas ${ok} de ${tot} aciertos.`);
     }, 100);
@@ -144,7 +167,7 @@ function checkAnswers() {
 
 function clearGrid() { 
     if(confirm('¿Quieres borrar todo el progreso?')) {
-        const cells = document.querySelectorAll('.cell:not(.black)');
+        const cells = document.querySelectorAll('.cell-wrapper:not(.black) .cell');
         cells.forEach(cell => {
             cell.value = '';
             cell.classList.remove('correct', 'incorrect');
@@ -155,12 +178,13 @@ function clearGrid() {
 function showSolution() {
     if(confirm('¿Rendirse y ver la solución?')){
         for(let i=0;i<SIZE;i++) for(let j=0;j<SIZE;j++) if(solution[i][j]!=='#'){
-            const el = document.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+            const el = document.querySelector(`[data-row="${i}"][data-col="${j}"] .cell`);
+            if (!el) continue;
+            
             el.value = solution[i][j];
             el.className = 'cell correct';
         }
     }
 }
 
-// Iniciar cuando cargue el documento
 document.addEventListener('DOMContentLoaded', createGrid);
