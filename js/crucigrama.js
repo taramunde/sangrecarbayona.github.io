@@ -22,7 +22,7 @@ const solution = [
 
 let currentDirection = 'horizontal';
 
-// Mapeo de coordenadas a números de preguntas (He corregido y completado esta lista)
+// Mapeo de coordenadas a números de preguntas (Fila-Columna)
 const numbers = { 
     '0-1': 1, '2-2': 2, '4-3': 3, '2-6': 4, '1-15': 5, '10-0': 6, '3-13': 7, '5-2': 8,
     '16-10': 9, '14-5': 10, '7-8': 11, '16-14': 12, '16-12': 13, '10-0': 14, '15-0': 15, 
