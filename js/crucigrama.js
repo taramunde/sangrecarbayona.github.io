@@ -24,9 +24,29 @@ let currentDirection = 'horizontal';
 
 // Mapeo de coordenadas a números de preguntas (Fila-Columna)
 const numbers = { 
-    '0-1': 1, '2-2': 2, '4-3': 3, '2-6': 4, '1-15': 5, '10-0': 6, '3-13': 7, '5-2': 8,
-    '16-10': 9, '14-5': 10, '7-8': 11, '16-14': 12, '16-12': 13, '10-0': 14, '15-0': 15, 
-    '11-6': 16, '16-8': 17, '13-7': 18, '16-7': 20
+    // HORIZONTALES (Fila-Columna)
+    '0-1': 1,  // BUENAVISTA
+    '5-2': 8,  // SPORTING
+    '7-8': 11, // TARTIERE
+    '10-0': 14,// BANGO
+    '11-6': 16,// IRURETA
+    '15-0': 15,// LANGARA
+    '16-7': 20, // INGLATERRA (asumiendo que 19 no está)
+
+    // VERTICALES
+    '2-2': 2,  // JUSP... (Juspi)
+    '4-3': 3,  // PORTI...
+    '2-6': 4,  // TEATINOS
+    '1-15': 5, // CHU...
+    '3-13': 7, // AZUL
+    '14-5': 10, // MIE...
+    '13-7': 18, // YUGOSLAVIA
+
+    // El resto de números de pistas que faltan en tu lista de HTML:
+    '16-10': 9, 
+    '16-14': 12, 
+    '16-12': 13, 
+    // NOTA: Si el número es parte de una palabra que ya tiene un número (como BANGO 6 y 14), se usa solo una vez en JS.
 };
 
 function createGrid() {
