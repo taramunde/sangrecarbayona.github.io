@@ -963,7 +963,7 @@ const playersData = {
         footballName: "Adri Lopes",
         position: "Defensa",
         role: "jugador",
-        number: -,
+        number: null,
         image: "https://i.postimg.cc/vHtvs8y9/Adri-Lopes-PNG.webp", 
     personalData: {
         fullName: "Adrián Lopes Marqués",
