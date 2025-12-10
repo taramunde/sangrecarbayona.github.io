@@ -39,14 +39,14 @@ const numbers = {
     // VERTICALES
     '0-6': 2,   // VETUSTA ← CORREGIDO (era 1-6)
     '1-15': 3,  // CHUS ← CORREGIDO (era 3-15)
-    // '3-13': 5 SACAVERA comparte celda con 7 (AZUL)
-    '2-2': 6,   // JUSTO ← CORREGIDO (era 3-2)
-    '3-13': 6,  // NACAVERA ← CORREGIDO (era 5-13)
+    '2-13': 5,  // SACAVERA comparte celda con 7 (AZUL)
+    '3-2': 6,   // JUSTO ← CORREGIDO (era 3-2)
+    '5-4': 9,  // OVIEDO ← CORREGIDO (era 5-13)
     '6-15': 10, // BERTO
     '7-10': 12, // REQUEXON
     '9-1': 13,  // PACHUCA
-    '7-12': 15, // GALLART
-    '11-5': 17, // MIERA
+    '10-12': 15, // GALLART
+    '12-5': 17, // MIERA
 };
 
 function createGrid() {
