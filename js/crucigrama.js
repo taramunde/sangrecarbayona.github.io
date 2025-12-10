@@ -26,7 +26,7 @@ let currentDirection = 'horizontal';
 const numbers = { 
     // HORIZONTALES
     '0-1': 1,   // BUENAVISTA
-    '2-7': 4,   // TEATINOS
+    '2-6': 4,   // TEATINOS
     '3-13': 7,  // AZUL (comparte con vertical 5)
     '5-2': 8,   // SPORTING ← CORREGIDO (era 5-3)
     '7-8': 11,  // TARTIERE
