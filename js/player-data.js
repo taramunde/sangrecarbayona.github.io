@@ -1045,21 +1045,21 @@ const playersData = {
         }
     },
     
-    "moldovan": {
-        name: "Horațiu Alexandru Moldovan",
-        footballName: "Moldovan",
-        position: "Portero",
-        role: "portero",
-        number: 1,
-        image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
+    "sibo": {
+        name: "Kwasi Sibo",
+        footballName: "Sibo",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 6,
+        image: "https://i.postimg.cc/gjJYNwFR/Sibo-PNG-Alineaci-n.webp", 
     personalData: {
-        fullName: "Horațiu Alexandru Moldovan",
-        nickname: "Moldovan",
-        birthPlace: "Cluj-Napoca, Transilvania",
-        country: "Rumanía",
-        nationality: "Rumana",
-        height: "1,86 m",
-        birthDate: "20/01/1998",
+        fullName: "Kwasi Sibo",
+        nickname: "Sibo",
+        birthPlace: "Wa, Región Alta Occidental",
+        country: "Ghana",
+        nationality: "Ghanés",
+        height: "1,83 m",
+        birthDate: "24/06/1998",
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
