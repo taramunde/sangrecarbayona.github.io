@@ -1,161 +1,140 @@
-/* =========================================
-   ESTILOS ESPECÍFICOS DEL CRUCIGRAMA
-   (Encapsulados para no romper la web)
-   ========================================= */
-
-/* Contenedor principal del juego */
-.crucigrama-wrapper {
-    background: white;
-    padding: 18px;
-    border-radius: 20px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-    width: 100%;
-    max-width: 1000px; /* Ancho máximo para que no se estire demasiado */
-    margin: 20px auto; /* Centrado */
-    color: #333; /* Forzamos color de texto oscuro por si la web es oscura */
+/*==========================================================
+   1. VARIABLES Y TAMAÑO BASE
+   Define el tamaño de la celda para ajustar todo el crucigrama.
+==========================================================*/
+:root {
+    --cell-size: 35px; /* Puedes cambiar este valor (ej. 30px, 40px) para ajustar el tamaño de todo el crucigrama */
 }
 
-/* Título interno del juego */
-.crucigrama-wrapper h2 {
-    text-align: center;
-    color: #1e3c72;
-    margin-bottom: 18px;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    font-size: clamp(20px, 5vw, 30px);
-}
+/*==========================================================
+   2. CONTENEDORES PRINCIPALES (Grid Container y Grid)
+   Soluciona el problema de los escaques "cortados".
+==========================================================*/
 
-/* Contenedor de la rejilla */
+/* Contenedor general de la cuadrícula (Ayuda a centrarlo) */
 .grid-container {
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    margin: 0 auto 22px;
-    max-width: 100%;
-    width: fit-content;
-    background: #333; /* Fondo oscuro para los bordes */
-    padding: 5px;
+    display: flex;
+    justify-content: center; /* Centrar el crucigrama */
+    align-items: center;
+    overflow-x: auto; /* Permite desplazamiento en móviles si es muy grande */
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-/* La rejilla en sí */
+/* La cuadrícula principal (grid) */
 .grid {
     display: grid;
-    gap: 1px;
-    /* Las columnas se definen en las media queries de abajo */
+    /* Define la cuadrícula: 17x17 celdas */
+    grid-template-columns: repeat(17, var(--cell-size)); 
+    grid-template-rows: repeat(17, var(--cell-size));
+    gap: 0; /* IMPORANTE: Elimina espacios entre las celdas */
+    border: 2px solid #333; /* Borde exterior */
+    user-select: none;
+    box-sizing: content-box; /* Previene que el borde exterior corte las celdas */
+    margin: 0 auto;
 }
 
-/* MEDIA QUERIES: Ajustan el tamaño de las celdas según la pantalla */
-/* Celda base pequeña */
-.grid { grid-template-columns: repeat(17, 17px); grid-template-rows: repeat(17, 17px); }
+/*==========================================================
+   3. CELDAS INDIVIDUALES (Wrapper y Celdas Negras)
+   Aplica al nuevo DIV que creamos en JavaScript (.cell-wrapper).
+==========================================================*/
 
-@media (min-width: 481px) {
-    .grid { grid-template-columns: repeat(17, 21px); grid-template-rows: repeat(17, 21px); }
-}
-@media (min-width: 641px) {
-    .grid { grid-template-columns: repeat(17, 27px); grid-template-rows: repeat(17, 27px); }
-}
-@media (min-width: 861px) {
-    .grid { grid-template-columns: repeat(17, 31px); grid-template-rows: repeat(17, 31px); }
-}
-@media (min-width: 1101px) {
-    .grid { grid-template-columns: repeat(17, 36px); grid-template-rows: repeat(17, 36px); }
+/* El contenedor de cada celda (el nuevo div.cell-wrapper) */
+.cell-wrapper {
+    position: relative; /* CLAVE para posicionar el número (span.number) */
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: 1px solid #333; /* Borde de cada escaque */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Fondo blanco para celdas jugables */
+    box-sizing: border-box; /* CLAVE: El borde se incluye en el tamaño total, corrigiendo el recorte */
 }
 
-/* Estilo de cada casilla */
+/* Celdas negras */
+.cell-wrapper.black {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+/*==========================================================
+   4. CAMPO DE ENTRADA (INPUT)
+   Soluciona que el hueco para la letra era más grande.
+==========================================================*/
+
+/* El INPUT donde se escribe la letra */
 .cell {
-    width: 100%;
+    /* Ocupa el 100% del tamaño del wrapper */
+    width: 100%; 
     height: 100%;
-    background: white;
-    border: none;
+    
+    /* Configuración visual de la letra */
+    font-size: 1.5em; /* Tamaño de la letra */
     text-align: center;
-    font-weight: bold;
     text-transform: uppercase;
-    outline: none;
-    position: relative;
-    border-radius: 2px;
-    font-size: clamp(9px, 1.5vw, 16px);
     color: #000;
+    font-weight: bold;
+    
+    /* Eliminar bordes, padding y estilos por defecto del input */
+    border: none;
     padding: 0;
     margin: 0;
+    outline: none; 
+    background: transparent; 
 }
 
-/* Estados de las casillas */
-.cell.black { background: #222 !important; pointer-events: none; }
-.cell.correct { background: #39FF14 !important; color: black !important; }
-.cell.incorrect { background: #FF4444 !important; color: white !important; }
-.cell:focus { background: #fff4a3 !important; box-shadow: inset 0 0 0 2px #1e3c72; z-index: 10; }
+/* Estilo para la celda en foco */
+.cell:focus {
+    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.8) inset; /* Sombra azul para resaltar */
+}
 
-/* Los numeritos de las preguntas */
+/*==========================================================
+   5. NÚMERO DE PISTA
+   Soluciona el tamaño y la posición del número.
+==========================================================*/
+
+/* El número de la pista (span.number) */
 .number {
-    position: absolute;
-    top: 0; left: 1px;
-    font-size: 8px;
-    line-height: 8px;
-    color: #444;
+    position: absolute; /* Lo posiciona en relación a la celda (.cell-wrapper) */
+    top: 0px; 
+    left: 1px;
+    font-size: 0.6em; /* Tamaño pequeño */
     font-weight: bold;
-    pointer-events: none;
-}
-
-/* Botonera */
-.game-buttons {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 18px 0;
-}
-
-/* Estilos específicos para los botones del juego (para no afectar al menú) */
-.game-btn {
-    padding: 12px 20px;
-    font-size: clamp(14px, 4vw, 16px);
-    background: #1e3c72;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    min-width: 110px;
-    box-shadow: 0 4px 15px rgba(30,60,114,0.4);
-    transition: all 0.3s;
-    text-decoration: none;
-}
-
-.game-btn:hover {
-    background: #2a5298;
-    transform: translateY(-2px);
-}
-
-/* Sección de Pistas */
-.clues-container {
-    display: grid;
-    gap: 18px;
-    margin-top: 10px;
-    text-align: left;
-}
-@media (min-width: 768px) { .clues-container { grid-template-columns: 1fr 1fr; } }
-
-.clue-section h3 {
-    background: linear-gradient(to right, #1e3c72, #2a5298);
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-}
-
-.clue-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.clue-section li {
-    margin: 5px 0;
-    padding: 8px;
-    background: #f8f9ff;
-    border-radius: 6px;
-    border-left: 4px solid #1e3c72;
-    font-size: 0.9rem;
-    line-height: 1.4;
     color: #333;
+    z-index: 10;
+    line-height: 1;
+    pointer-events: none; /* No interfiere con el click en el input */
+    transform: translate(1px, 1px); 
+}
+
+/*==========================================================
+   6. VALIDACIÓN (Correcto / Incorrecto)
+==========================================================*/
+
+/* Colores de validación */
+.cell.correct {
+    color: green;
+}
+
+.cell.incorrect {
+    color: red;
+}
+
+/*==========================================================
+   7. OPTIMIZACIÓN MÓVIL (MEDIA QUERY)
+   Reduce el tamaño de las celdas para que quepan en pantallas pequeñas.
+==========================================================*/
+
+/* Se aplica a pantallas con un ancho máximo de 600px (típicamente móviles) */
+@media (max-width: 600px) {
+    /* Redefinimos el tamaño de la celda para que la cuadrícula quepa en la pantalla del móvil */
+    :root {
+        --cell-size: 1.6em; /* Un valor más pequeño, aprox. 25px-28px */
+    }
+
+    /* Opcional: Reducir ligeramente el tamaño de fuente de la letra */
+    .cell {
+        font-size: 1.2em; 
+    }
 }
