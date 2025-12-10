@@ -123,19 +123,15 @@
 
 /*==========================================================
    7. OPTIMIZACIÓN MÓVIL (MEDIA QUERY)
-   Reduce el tamaño de las celdas para que quepan en pantallas pequeñas.
 ==========================================================*/
-
-/* Se aplica a pantallas con un ancho máximo de 600px (típicamente móviles) */
 @media (max-width: 600px) {
-    /* Redefinimos el tamaño de la celda para que la cuadrícula quepa en la pantalla del móvil */
     :root {
-        --cell-size: 1.6em; /* Un valor más pequeño, aprox. 25px-28px */
+        --cell-size: 1.6em; 
     }
 
-    /* Opcional: Reducir ligeramente el tamaño de fuente de la letra */
     .cell {
-        font-size: 1.2em; 
+        font-size: 1.1em; /* Reducido de 1.2em a 1.1em o menos si sigue cortando */
+        line-height: 1; /* Asegura que la altura de línea sea mínima para centrar mejor */
     }
 }
 
