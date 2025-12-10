@@ -1130,18 +1130,35 @@ const playersData = {
             { season: "2006/07", team: "Recreativo de Huelva", category: "1ª Div." },
             { season: "2005/06", team: "Villarreal C.F.", category: "1ª Div. - Champions League" },
             { season: "2004/05", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Copa Intertoto" },
-            { season: "2003/04", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2003/04", team: "Villarreal C.F.", category: "1ª Div." }
             
         ],
+
+        nationalTeam: [
+            { season: "2019", team: "España", category: "Clasificación Eurocopa" },
+            { season: "2015", team: "España", category: "Clasificación Eurocopa - Amistosos" },
+            { season: "2014", team: "España", category: "Mundial - Clasificación Eurocopa - Amistosos" },
+            { season: "2013", team: "España", category: "Clasificación Mundial Europa - Copa Confederaciones - Amistosos" },
+            { season: "2012", team: "España", category: "Clasificación Mundial Europa - Eurocopa - Amistosos" },
+            { season: "2011", team: "España", category: "Clasificación Eurocopa - Amistosos" },
+            { season: "2010", team: "España", category: "Clasificación Eurocopa - Amistosos" },
+            { season: "2009", team: "España", category: "Clasificación Mundial Europa - Copa Confederaciones - Amistosos" },
+            { season: "2008", team: "España", category: "Clasificación Mundial Europa - Eurocopa - Amistosos" },
+            { season: "2006", team: "España Sub-21", category: "Clasificación Europeo Sub-21" },
+            { season: "2005", team: "España Sub-21", category: "Clasificación Europeo Sub-21" },
+            { season: "2004", team: "España Sub-21", category: "Clasificación Europeo Sub-21 - Amistosos" }
+            
+        ],
+        
         stats: {
             "2025/26": {
-                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                liga: { partidos: 10, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 1 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
             "2024/25": {
-                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                liga: { partidos: 35, goles_marcados: 5, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
