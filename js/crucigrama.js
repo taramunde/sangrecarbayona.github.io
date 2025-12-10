@@ -25,32 +25,28 @@ let currentDirection = 'horizontal';
 // Mapeo de coordenadas a números de preguntas (Fila-Columna)
 const numbers = { 
     // HORIZONTALES
-    '0-1': 1,   // BUENAVISTA (fila 0, col 1-10)
-    '2-7': 4,   // TEATINOS (fila 2, col 7-13)
-    '3-13': 7,  // AZUL (fila 3, col 13-16) - También inicio vertical 5
-    '5-3': 8,   // SPORTING (fila 5, col 3-9)
-    '7-8': 11,  // TARTIERE (fila 7, col 8-14)
-    '10-0': 14, // BANGO (fila 10, col 0-4)
-    '11-6': 16, // IRURETA (fila 11, col 6-12)
-    '13-7': 18, // YUGOSLAVIA (fila 13, col 7-16)
-    '15-0': 19, // LANGARA (fila 15, col 0-6)
-    '16-7': 20, // INGLATERRA (fila 16, col 7-16)
+    '0-1': 1,   // BUENAVISTA
+    '2-7': 4,   // TEATINOS
+    '3-13': 7,  // AZUL (comparte con vertical 5)
+    '5-2': 8,   // SPORTING ← CORREGIDO (era 5-3)
+    '7-8': 11,  // TARTIERE
+    '10-0': 14, // BANGO
+    '11-6': 16, // IRURETA
+    '13-7': 18, // YUGOSLAVIA
+    '15-0': 19, // LANGARA
+    '16-7': 20, // INGLATERRA
 
     // VERTICALES
-    '1-6': 2,   // TEATINOS (col 6, fila 1-7)
-    '3-15': 3,  // CHUS (col 15, fila 3-6)
-    // '3-13': 5 está compartido con horizontal 7
-    '3-2': 6,   // JUSTO (col 2, fila 3-7)
-    '5-13': 9,  // OVIEDO (col 13, fila 5-10)
-    '6-15': 10, // BERTO (col 15, fila 6-10)
-    '7-10': 12, // REQUEXON (col 10, fila 7-14)
-    '9-1': 13,  // PACHUCA (col 1, fila 9-15)
-    '7-12': 15, // GALLART (col 12, fila 7-13)
-    '11-5': 17, // MIERA (col 5, fila 11-15)
-    
-    // Pista 5 (SACAVERA) comparte celda inicial con pista 7 (AZUL)
-    // En crucigramas, cuando dos palabras comparten inicio, usan el mismo número
-    // Por eso la pista 5 vertical también está en '3-13' junto con la 7 horizontal
+    '0-6': 2,   // VETUSTA ← CORREGIDO (era 1-6)
+    '1-15': 3,  // CHUS ← CORREGIDO (era 3-15)
+    // '3-13': 5 SACAVERA comparte celda con 7 (AZUL)
+    '2-2': 6,   // JUSTO ← CORREGIDO (era 3-2)
+    '3-13': 9,  // NACAVERA ← CORREGIDO (era 5-13)
+    '6-15': 10, // BERTO
+    '7-10': 12, // REQUEXON
+    '9-1': 13,  // PACHUCA
+    '7-12': 15, // GALLART
+    '11-5': 17, // MIERA
 };
 
 function createGrid() {
