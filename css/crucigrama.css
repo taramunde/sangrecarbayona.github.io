@@ -196,6 +196,25 @@
     /* Crea un espacio para que el resto del texto se alinee después del número */
     padding-left: 1.5em; 
     /* ------------------------------------ */
+    position: relative; /* Añado esta línea por si fuera necesaria en algunos navegadores */
+}
+
+/* NUEVA REGLA: Muestra el número de pista usando el atributo data-number */
+.pistas-lista li::before {
+    content: attr(data-number);
+    display: inline-block;
+    font-weight: bold;
+    width: 1.5em; /* Debe coincidir con el valor de text-indent/padding-left */
+    text-align: right; 
+    margin-right: 0.1em;
+    color: #333;
+}
+
+/* Estilo para los títulos (HORIZONTALES/VERTICALES) */
+.pistas-wrapper h2 {
+    text-align: left; 
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 /* Estilo para los títulos (HORIZONTALES/VERTICALES) */
