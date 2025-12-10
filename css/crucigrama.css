@@ -138,3 +138,35 @@
         font-size: 1.2em; 
     }
 }
+
+/*==========================================================
+   8. ESTILOS DE LAS PREGUNTAS (PISTAS)
+   Asegura la alineación a la izquierda y la consistencia del número.
+==========================================================*/
+
+/* 1. Contenedor de la lista de preguntas */
+.pistas-lista {
+    /* Quita el relleno por defecto de la lista que la empuja hacia la derecha */
+    padding-left: 0; 
+    /* Quita las viñetas por defecto (aunque no las uses, es una buena práctica) */
+    list-style: none; 
+}
+
+/* 2. Cada pregunta individual */
+.pistas-lista li {
+    /* Fuerza la alineación del texto a la izquierda */
+    text-align: left; 
+    /* Define el espacio entre las preguntas */
+    margin-bottom: 8px; 
+    /* Asegura que el número quede siempre pegado al inicio de la línea */
+    padding-left: 0; 
+    /* Opcional: Asegura que el texto no sea demasiado grande */
+    font-size: 1em; 
+}
+
+/* Opcional: Estilo para los títulos (HORIZONTALES/VERTICALES) */
+.pistas-wrapper h2 {
+    text-align: left; /* Alinea los títulos a la izquierda */
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
