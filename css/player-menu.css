@@ -106,7 +106,7 @@ main .player-section .career-season {
     font-weight: bold;
     color: #0e0eec;
     font-size: 14px;
-    min-width: 80px;
+    min-width: 70px;
     flex-shrink: 0;
 }
 
@@ -115,19 +115,22 @@ main .player-section .career-item.national-team-item .career-season {
 }
 
 main .player-section .career-team {
-    flex: 1;
+    flex: 0 0 auto;  /* Cambiado de flex: 1 a flex: 0 0 auto */
     color: #4a4a4a;
     font-size: 14px;
-    margin: 0 15px;
+    margin: 0 10px 0 5px;  /* Reducido margen izquierdo de 15px a 5px, derecho a 10px */
     font-weight: 500;
+    white-space: nowrap;  /* Evita que se rompa en varias líneas */
 }
 
 main .player-section .career-category {
     color: #666;
-    font-size: 13px;
+    font-size: 11px;  /* Reducido de 13px a 11px */
     font-style: italic;
     text-align: right;
-    flex-shrink: 0;
+    flex: 1;  /* Añadido para que ocupe el espacio restante */
+    line-height: 1.3;  /* Añadido para mejor espaciado si hay varias líneas */
+    word-break: break-word;  /* Permite romper palabras largas */
 }
 
 /* ========== ESTILOS PARA DATOS PERSONALES ========== */
@@ -489,16 +492,22 @@ main .player-section .tarjeta.roja {
     }
     
     main .player-section .career-season {
-        min-width: 70px;
+        min-width: 65px;  /* Reducido de 70px a 65px */
         font-size: 13px;
     }
     
     main .player-section .career-team {
         font-size: 13px;
+        flex: 0 0 auto;  /* Añadido */
+        margin: 0 8px 0 5px;  /* Añadido: reduce espacios */
+        white-space: nowrap;  /* Añadido */
     }
     
     main .player-section .career-category {
-        font-size: 12px;
+        font-size: 10px;  /* Reducido de 12px a 10px */
+        flex: 1;  /* Añadido */
+        line-height: 1.3;  /* Añadido */
+        word-break: break-word;  /* Añadido */
     }
 }
 
@@ -650,17 +659,21 @@ main .player-section .tarjeta.roja {
     
     main .player-section .career-season {
         min-width: auto;
-        font-size: 15px;
+        font-size: 14px;  /* Reducido de 15px a 14px */
+        margin-bottom: 3px;  /* Añadido: espacio hacia el equipo */
     }
     
     main .player-section .career-team {
-        margin: 0;
+        margin: 0 0 3px 0;  /* Añade espacio inferior */
         font-size: 13px;
+        font-weight: 600;  /* Añadido: lo hace más visible */
     }
     
     main .player-section .career-category {
         text-align: left;
-        font-size: 12px;
+        font-size: 11px;  /* Reducido de 12px a 11px */
+        line-height: 1.4;  /* Añadido: mejor legibilidad */
+        word-break: break-word;  /* Añadido: rompe palabras largas */
     }
 
     /* =======================================================
