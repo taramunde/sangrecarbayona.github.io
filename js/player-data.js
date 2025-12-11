@@ -1295,6 +1295,62 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
+    },
+
+    "ejaria": {
+        name: "Oviemuno Dominic Ejaria",
+        footballName: "Ejaria",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 14,
+        image: "https://i.postimg.cc/BbxX2vpC/Ovi_Ejaria_PNG_(2).webp", 
+    personalData: {
+        fullName: "Oviemuno Dominic Ejaria",
+        nickname: "Ejaria",
+        birthPlace: "Londres, Inglaterra",
+        country: "Reino Unido",
+        nationality: "Británico, Nigeriano",
+        height: "1,88 m",
+        birthDate: "18/11/1997",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2022/23", team: "Reading F.C.", category: "Championship" },
+            { season: "2021/22", team: "Reading F.C.", category: "Championship" },
+            { season: "2020/21", team: "Reading F.C.", category: "Championship" },
+            { season: "2019/20", team: "Reading F.C.", category: "Championship - FA Cup - EFL Cup" },
+            { season: "2018/19", team: "Reading F.C.", category: "Championship" },
+            { season: "2018/19", team: "Rangers F.C.", category: "Liga Escocia - Europa League - Fase Previa Europa League - Copa de la Liga de Escocia" },
+            { season: "2017/18", team: "Sunderland A.F.C.", category: "Championship" },
+            { season: "2017/18", team: "F.C. Liverpool Sub-23", category: "Premier League 2ª Div. One" },
+            { season: "2016/17", team: "F.C. Liverpool Sub-23", category: "Premier League 2ª Div. One" },
+            { season: "2016/17", team: "F.C. Liverpool", category: "Premier League - FA Cup - EFL Cup" },
+            { season: "2015/16", team: "F.C. Liverpool Sub-21", category: "Premier League 2ª Div. One" },
+            { season: "2015/16", team: "F.C. Liverpool Sub-18", category: "FA Youth Cup" },
+            { season: "2014/15", team: "F.C. Liverpool Sub-21", category: "Premier League 2ª Div. One" },
+            { season: "2014/15", team: "F.C. Liverpool Sub-19", category: "UEFA Youth League" },
+            { season: "2014/15", team: "F.C. Liverpool Sub-18", category: "FA Youth Cup" }
+            
+         ],
+
+        nationalTeam: [
+            { season: "2018", team: "Inglaterra Sub-21", category: "Amistosos" },
+            { season: "2017", team: "Inglaterra Sub-20", category: "Mundial Sub-20" },
+            { season: "2016", team: "Inglaterra Sub-19", category: "Amistosos" },
+            { season: "2016", team: "Inglaterra Sub-20", category: "Amistosos" }
+            
+            
+        ],
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
     }
 
     
