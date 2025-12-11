@@ -1195,7 +1195,7 @@ const playersData = {
             { season: "2023/24", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
             { season: "2022/23", team: "Villarreal C.F.", category: "1ª Div." },
             { season: "2022/23", team: "Villarreal C.F. B", category: "2ª Div." },
-            { season: "2021/22", team: "C.D. Mirandés", category: "2ª Div - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Promoción de Ascenso" },
             { season: "2019/20", team: "L.B. Châteauroux", category: "Ligue 2 - Copa de la Liga" },
             { season: "2019/20", team: "L.B. Châteauroux II", category: "National 3" },
@@ -1211,6 +1211,67 @@ const playersData = {
             { season: "2019", team: "Francia Sub-18", category: "Amistosos" },
             { season: "2019", team: "Francia Sub-17", category: "Mundial Sub-17 - Amistosos" },
             { season: "2018", team: "Francia Sub-17", category: "Clasificación Europeo Sub-17 - Amistosos" }
+            
+        ],
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 14, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2024/25": {
+                liga: { partidos: 43, goles_marcados: 4, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "colombatto": {
+        name: "Santiago Colombatto",
+        footballName: "Colombatto",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 11,
+        image: "https://i.postimg.cc/R08GqPNz/Colombatto_PNG.webp", 
+    personalData: {
+        fullName: "Santiago Colombatto",
+        nickname: "Colombatto",
+        birthPlace: "Ucacha, Córdoba",
+        country: "Argentina",
+        nationality: "Argentina, Italiana",
+        height: "1,78 m",
+        birthDate: "17/01/1997",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Promoción de Ascenso" },
+            { season: "2022/23", team: "F.C. Famalicão", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2021/22", team: "Club León", category: "Liga MX Apertura - Liga MX Clausura - CONCACAF Champ. Cup - Etapas Finales Apert. MX" },
+            { season: "2020/21", team: "Club León", category: "Liga MX Clausura - Etapas Finales Claus. MX - CONCACAF Champ. Cup - Leagues Cup" },
+            { season: "2020/21", team: "Club León Sub-20", category: "Liga MX Sub-20 Clausura" },
+            { season: "2020/21", team: "Sint-Truidense VV", category: "Liga Belga" },
+            { season: "2019/20", team: "Sint-Truidense VV", category: "Liga Belga - Copa Belga" },
+            { season: "2018/19", team: "Hellas Verona F.C.", category: "Serie B - Serie B Promoción de Ascenso" },
+            { season: "2017/18", team: "A.C. Perugia Calcio", category: "Serie B - Coppa Italia - Serie B Promoción de Ascenso" },
+            { season: "2016/17", team: "F.C. Trapani 1905", category: "Serie B" },
+            { season: "2016/17", team: "Pisa S.C.", category: "Coppa Italia" },
+            { season: "2015/16", team: "Cagliari Calcio Sub-19", category: "Campionato Primavera 1 - Coppa Italia Primavera" },
+            { season: "2015/16", team: "Cagliari Calcio", category: "Serie B - Coppa Italia" }
+            
+         ],
+
+        nationalTeam: [
+            { season: "2021", team: "Argentina Sub-23", category: "Juegos Olímpicos - Amistosos" },
+            { season: "2020", team: "Argentina Sub-23", category: "Amistosos" },
+            { season: "2019", team: "Argentina Sub-23", category: "Juegos Panamericanos - Amistosos" },
+            { season: "2017", team: "Argentina Sub-23", category: "Mundial Sub-20" }
+            
             
         ],
         
