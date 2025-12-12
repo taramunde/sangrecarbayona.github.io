@@ -1351,6 +1351,62 @@ const playersData = {
                 amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
+    },
+
+    "borjasanchez": {
+        name: "Borja Sánchez Laborde",
+        footballName: "Borja Sánchez",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 16,
+        image: "https://i.postimg.cc/v82kfvkD/Borja_Sánchez_PNG.webp", 
+    personalData: {
+        fullName: "Borja Sánchez Laborde",
+        nickname: "Borja Sánchez",
+        birthPlace: "Oviedo, Asturias",
+        country: "España",
+        nationality: "Española",
+        height: "1,86 m",
+        birthDate: "26/02/1996",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2022/23", team: "Reading F.C.", category: "Championship" },
+            { season: "2021/22", team: "Reading F.C.", category: "Championship" },
+            { season: "2020/21", team: "Reading F.C.", category: "Championship" },
+            { season: "2019/20", team: "Reading F.C.", category: "Championship - FA Cup - EFL Cup" },
+            { season: "2018/19", team: "Reading F.C.", category: "Championship" },
+            { season: "2018/19", team: "Rangers F.C.", category: "Liga Escocia - Europa League - Fase Previa Europa League - Copa de la Liga de Escocia" },
+            { season: "2017/18", team: "Sunderland A.F.C.", category: "Championship" },
+            { season: "2017/18", team: "F.C. Liverpool Sub-23", category: "Premier League 2ª Div. One" },
+            { season: "2016/17", team: "F.C. Liverpool Sub-23", category: "Premier League 2ª Div. One" },
+            { season: "2016/17", team: "F.C. Liverpool", category: "Premier League - FA Cup - EFL Cup" },
+            { season: "2015/16", team: "F.C. Liverpool Sub-21", category: "Premier League 2ª Div. One" },
+            { season: "2015/16", team: "F.C. Liverpool Sub-18", category: "FA Youth Cup" },
+            { season: "2014/15", team: "F.C. Liverpool Sub-21", category: "Premier League 2ª Div. One" },
+            { season: "2014/15", team: "F.C. Liverpool Sub-19", category: "UEFA Youth League" },
+            { season: "2014/15", team: "F.C. Liverpool Sub-18", category: "FA Youth Cup" }
+            
+         ],
+
+        nationalTeam: [
+            { season: "2018", team: "Inglaterra Sub-21", category: "Amistosos" },
+            { season: "2017", team: "Inglaterra Sub-20", category: "Mundial Sub-20" },
+            { season: "2016", team: "Inglaterra Sub-19", category: "Amistosos" },
+            { season: "2016", team: "Inglaterra Sub-20", category: "Amistosos" }
+            
+            
+        ],
+        
+        stats: {
+            "2025/26": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
     }
 
     
