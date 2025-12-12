@@ -1413,3 +1413,4 @@ const playersData = {
     
 };
 
+export default playersData; // <--- AÑADE ESTO AL FINAL DEL ARCHIVO
