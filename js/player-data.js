@@ -1382,35 +1382,69 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2018/19", team: "Reading F.C.", category: "Championship" },
-            { season: "2018/19", team: "Rangers F.C.", category: "Liga Escocia - Europa League - Fase Previa Europa League - Copa de la Liga de Escocia" },
-            { season: "2017/18", team: "Sunderland A.F.C.", category: "Championship" },
-            { season: "2017/18", team: "F.C. Liverpool Sub-23", category: "Premier League 2ª Div. One" },
-            { season: "2016/17", team: "F.C. Liverpool Sub-23", category: "Premier League 2ª Div. One" },
-            { season: "2016/17", team: "F.C. Liverpool", category: "Premier League - FA Cup - EFL Cup" },
-            { season: "2015/16", team: "F.C. Liverpool Sub-21", category: "Premier League 2ª Div. One" },
-            { season: "2015/16", team: "F.C. Liverpool Sub-18", category: "FA Youth Cup" },
-            { season: "2014/15", team: "F.C. Liverpool Sub-21", category: "Premier League 2ª Div. One" },
-            { season: "2014/15", team: "F.C. Liverpool Sub-19", category: "UEFA Youth League" },
-            { season: "2014/15", team: "F.C. Liverpool Sub-18", category: "FA Youth Cup" }
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2016/17", team: "Real Madrid Castilla", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.F. Fuenlabrada", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Madrid Sub-19", category: "División de Honor - UEFA Youth League" }
             
          ],
 
         nationalTeam: [
-            { season: "2018", team: "Inglaterra Sub-21", category: "Amistosos" },
-            { season: "2017", team: "Inglaterra Sub-20", category: "Mundial Sub-20" },
-            { season: "2016", team: "Inglaterra Sub-19", category: "Amistosos" },
-            { season: "2016", team: "Inglaterra Sub-20", category: "Amistosos" }
-            
+            { season: "2012", team: "España Sub-16", category: "Amistosos" }
             
         ],
         
         stats: {
             "2025/26": {
-                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2024/25": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 16, goles_marcados: 2, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 24, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 40, goles_marcados: 5, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 37, goles_marcados: 4, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 33, goles_marcados: 4, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     }
