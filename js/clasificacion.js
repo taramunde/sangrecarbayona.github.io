@@ -216,7 +216,7 @@ const enfrentamientos = [
   { equipo1: "Rayo Vallecano", equipo2: "Real Betis", goles1: null, goles2: null },
   { equipo1: "R.C.D. Mallorca", equipo2: "Elche C.F.", goles1: null, goles2: null },
   { equipo1: "Getafe C.F.", equipo2: "R.C.D. Espanyol", goles1: null, goles2: null },
-  { equipo1: "Real Sociedad", equipo2: "Girona F.C.", goles1: null, goles2: null },
+  { equipo1: "Real Sociedad", equipo2: "Girona F.C.", goles1: 1, goles2: 2 },
   { equipo1: "Sevilla F.C.", equipo2: "Real Oviedo", goles1: null, goles2: null },
   
   // Jornada 17
