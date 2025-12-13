@@ -1624,6 +1624,63 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
+    },
+
+    "ilic": {
+        name: "Luka Ilić",
+        footballName: "Ilić",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 21,
+        image: "https://i.postimg.cc/K8bYhFN6/Ilić_PNG.webp", 
+    personalData: {
+        fullName: "Luka Ilić",
+        nickname: "Ilić",
+        birthPlace: "Niš, Nišava",
+        country: "Serbia",
+        nationality: "Serbia",
+        height: "1,85 m",
+        birthDate: "02/07/1999",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Estrella Roja de Belgrado", category: "Champ. League - Liga Serbia - Copa Serbia - Fase Previa Champ. League" },
+            { season: "2023/24", team: "E.S.T.A.C. Troyes", category: "Ligue 2 - Copa de Francia" },
+            { season: "2022/23", team: "F.K. T.S.C. Bačka Topola", category: "Liga Serbia - Copa Serbia" },
+            { season: "2021/22", team: "E.S.T.A.C. Troyes", category: "Ligue 1" },
+            { season: "2021/22", team: "E.S.T.A.C. Troyes B", category: "National 3" },
+            { season: "2021/22", team: "F.C. Twente Enschede", category: "Eredivisie - KNVB Beker" },
+            { season: "2020/21", team: "F.C. Twente Enschede", category: "Eredivisie - KNVB Beker" },
+            { season: "2019/20", team: "N.A.C. Breda", category: "Eerste Divisie - KNVB Beker" },
+            { season: "2018/19", team: "N.A.C. Breda Sub-21", category: "Beloften Eredivisie" },
+            { season: "2018/19", team: "N.A.C. Breda", category: "Eredivisie - KNVB Beker" },
+            { season: "2017/18", team: "F.K. Brodarac Belgrad Sub-19", category: "UEFA Youth League" },
+            { season: "2017/18", team: "Estrella Roja de Belgrado", category: "Liga Serbia - Copa Serbia - Fase Previa Europa League" }
+            
+         ],
+
+          nationalTeam: [
+            { season: "2025", team: "Serbia", category: "Clasif. Mundial Europa" },
+            { season: "2023", team: "Serbia", category: "Amistosos" },
+            { season: "2020", team: "Serbia Sub-21", category: "Clasif. Europeo Sub-21" }, 
+            { season: "2019", team: "Serbia Sub-21", category: "Clasif. Europeo Sub-21" },  
+            { season: "2018", team: "Serbia Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2018", team: "Serbia Sub-19", category: "Clasif. Europeo Sub-19" }, 
+            { season: "2017", team: "Serbia Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2017", team: "Serbia Sub-19", category: "Clasif. Europeo Sub-19" },  
+            { season: "2016", team: "Serbia Sub-17", category: "Europeo Sub-17 - Clasif. Europeo - Amistosos" }
+            
+        ],
+
+        stats: {
+            "2025/26": {
+                liga: { partidos: 12, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
     }
 
     
