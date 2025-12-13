@@ -230,7 +230,6 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     }, 
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2023/24", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
             { season: "2022/23", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
@@ -248,12 +247,6 @@ const playersData = {
         ],
         
         stats: {
-            "2025/26": {
-                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
             "2024/25": {
                 liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -264,18 +257,18 @@ const playersData = {
     },
 
      "rahim": {
-        name: "Rahim Alhassane",
+        name: "Abdel Rahim Alhassane Bonkano",
         footballName: "Rahim",
         position: "Defensa",
         role: "jugador",
         number: 3,
         image: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", 
     personalData: {
-        fullName: "Rahim Alhassane",
+        fullName: "Abdel Rahim Alhassane Bonkano",
         nickname: "Rahim",
         birthPlace: "Abuya, Territorio de la Capital Federal",
         country: "Nigeria",
-        nationality: "Nigerina, Española",
+        nationality: "Nigerina, Nigeriana, Española",
         height: "1,84 m",
         birthDate: "01/01/2002",
         deathDate: null // Poner null si el jugador está vivo
@@ -688,7 +681,7 @@ const playersData = {
                 amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
             "2024/25": {
-                liga: { partidos: 19, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                liga: { partidos: 18, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 8, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
@@ -700,7 +693,7 @@ const playersData = {
                 amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
             "2022/23": {
-                liga: { partidos: 41, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                liga: { partidos: 40, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
                 copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
@@ -732,12 +725,6 @@ const playersData = {
             "2017/18": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2016/17": {
-                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
