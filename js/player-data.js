@@ -1509,7 +1509,7 @@ const playersData = {
             { season: "2023/24", team: "A.C.F. Fiorentina", category: "Serie A - Supercopa de Italia - Coppa Italia - Fase Previa Conference League - Conference League" },
             { season: "2022/23", team: "A.C.F. Fiorentina", category: "Serie A - Coppa Italia - Conference League" },
             { season: "2022/23", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
-            { season: "2021/22", team: "Torino F. C", category: "Serie A - Coppa Italia" },
+            { season: "2021/22", team: "Torino F. C.", category: "Serie A - Coppa Italia" },
             { season: "2021/22", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
             { season: "2020/21", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal - Fase Previa Europa League" },
             { season: "2019/20", team: "V.f.L. Wolfsburg", category: "Bundesliga - Europa League - DFB Pokal" },
@@ -1546,15 +1546,80 @@ const playersData = {
             { season: "2014", team: "Croacia Sub-16", category: "Amistosos" },  
             { season: "2013", team: "Croacia Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" }
              
-              
-              
-            
         ],
 
         stats: {
             "2025/26": {
                 liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "dendoncker": {
+        name: "Leander Dendoncker",
+        footballName: "Dendoncker",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 20,
+        image: "https://i.postimg.cc/8cTvCWBS/Dendoncker_PNG(2).webp", 
+    personalData: {
+        fullName: "Leander Dendoncker",
+        nickname: "Dendoncker",
+        birthPlace: "Passendale, Flandes Occidental",
+        country: "Bélgica",
+        nationality: "Belga",
+        height: "1,88 m",
+        birthDate: "15/04/1995",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "R.S.C. Anderlecht", category: "Liga Belga - Europa League - Copa Belga" },
+            { season: "2023/24", team: "S.S.C. Napoli", category: "Serie A" },
+            { season: "2023/24", team: "Aston Villa F.C.", category: "Premier League - FA Cup - EFL Cup - Fase Previa Conference League - Conference League" },
+            { season: "2022/23", team: "Aston Villa F.C.", category: "Premier League - FA Cup" },
+            { season: "2022/23", team: "Wolverhampton Wanderers F.C.", category: "Premier League - FA Cup" },
+            { season: "2021/22", team: "Wolverhampton Wanderers F.C.", category: "Premier League - FA Cup - EFL Cup" },
+            { season: "2020/21", team: "Wolverhampton Wanderers F.C.", category: "Premier League - FA Cup - EFL Cup" },
+            { season: "2019/20", team: "Wolverhampton Wanderers F.C.", category: "Premier League - Europa League - FA Cup - Fase Previa Europa League" },
+            { season: "2018/19", team: "Wolverhampton Wanderers F.C.", category: "Premier League - FA Cup - EFL Cup" },
+            { season: "2017/18", team: "R.S.C. Anderlecht", category: "Liga Belga - Champ. League - Copa Belga" },
+            { season: "2016/17", team: "R.S.C. Anderlecht", category: "Liga Belga - Europa League - Copa Belga - Fase Previa Champ. League - Fase Previa Europa League" },
+            { season: "2015/16", team: "R.S.C. Anderlecht", category: "Liga Belga - Europa League - Prom. Liga Belga - Copa Belga" },
+            { season: "2014/15", team: "R.S.C. Anderlecht", category: "Liga Belga - Champ. League - Europa League - Copa Belga - Supercopa Belga" },
+            { season: "2013/14", team: "R.S.C. Anderlecht", category: "Liga Belga - Copa Belga - Supercopa Belga" },
+            { season: "2013/14", team: "R.S.C. Anderlecht Sub-19", category: "UEFA Youth League" },
+            { season: "2012/13", team: "R.S.C. Anderlecht Sub-19", category: "UEFA Youth League" }
+            
+         ],
+
+          nationalTeam: [
+            { season: "2023", team: "Bélgica", category: "Clasif. Eurocopa" },
+            { season: "2022", team: "Bélgica", category: "Mundial - Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2021", team: "Bélgica", category: "Clasif. Mundial Europa - Eurocopa - Liga de las Naciones de la UEFA - Amistosos" }, 
+            { season: "2020", team: "Bélgica", category: "Liga de las Naciones de la UEFA - Amistosos" },  
+            { season: "2019", team: "Bélgica", category: "Clasif. Eurocopa" },  
+            { season: "2018", team: "Bélgica", category: "Mundial - Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2017", team: "Bélgica", category: "Clasif. Mundial Europa - Amistosos" },  
+            { season: "2016", team: "Bélgica", category: "Clasif. Mundial Europa - Amistosos" },
+            { season: "2015", team: "Bélgica Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2015", team: "Bélgica", category: "Clasif. Eurocopa - Amistosos" },  
+            { season: "2014", team: "Bélgica Sub-21", category: "Amistosos" },  
+            { season: "2014", team: "Bélgica Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },  
+            { season: "2013", team: "Bélgica Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2012", team: "Bélgica Sub-17", category: "Europeo Sub-17 - Clasif. Europeo Sub-17" },  
+            { season: "2011", team: "Bélgica Sub-17", category: "Clasif. Europeo Sub-17" }, 
+            { season: "2011", team: "Bélgica Sub-16", category: "Amistosos" },   
+            { season: "2010", team: "Bélgica Sub-16", category: "Amistosos" }
+        ],
+
+        stats: {
+            "2025/26": {
+                liga: { partidos: 14, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
