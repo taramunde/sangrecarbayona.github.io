@@ -1460,80 +1460,103 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
-            { season: "2024/25", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
-            { season: "2023/24", team: "Club León F.C.", category: "Liga MX Apert. - Mundial de Clubes - Etapas Finales Apert. MX" },
-            { season: "2023/24", team: "Club León F.C. Sub-23", category: "Liga MX Sub-23 Apert." },
-            { season: "2022/23", team: "Club León F.C.", category: "Leagues Cup" },
-            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
-            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
-            { season: "2016/17", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
-            { season: "2016/17", team: "Real Madrid Castilla", category: "2ª Div. B" },
-            { season: "2015/16", team: "C.F. Fuenlabrada", category: "2ª Div. B" },
-            { season: "2014/15", team: "Real Madrid Sub-19", category: "División de Honor - UEFA Youth League" }
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Debreceni V.S.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2023/24", team: "Debreceni V.S.C.", category: "Liga Hungría - Copa Hungría - Fase Previa Conference League" },
+            { season: "2022/23", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2021/22", team: "E.S.T.A.C. Troyes", category: "Ligue 1 - Copa de Francia" },
+            { season: "2021/22", team: "E.S.T.A.C. Troyes B", category: "National 3" },
+            { season: "2020/21", team: "E.S.T.A.C. Troyes", category: "Ligue 2 - Copa de Francia" },
+            { season: "2020/21", team: "E.S.T.A.C. Troyes B", category: "National 3" },
+            { season: "2019/20", team: "E.S.T.A.C. Troyes B", category: "National 3" },
+            { season: "2018/19", team: "E.S.T.A.C. Troyes B", category: "National 3" },
+            { season: "2017/18", team: "E.S.T.A.C. Troyes B", category: "National 3" }
             
          ],
 
-        nationalTeam: [
-            { season: "2012", team: "España Sub-16", category: "Amistosos" }
-            
-        ],
-        
         stats: {
             "2025/26": {
-                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2024/25": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2023/24": {
-                liga: { partidos: 16, goles_marcados: 2, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2022/23": {
-                liga: { partidos: 24, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2021/22": {
-                liga: { partidos: 40, goles_marcados: 5, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
-                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+            }
+        }
+    },
+
+    "brekalo": {
+        name: "Josip Brekalo",
+        footballName: "Brekalo",
+        position: "Centrocampista",
+        role: "jugador",
+        number: 18,
+        image: "https://i.postimg.cc/9MxvJ3Xw/Brekalo_PNG_(2).webp", 
+    personalData: {
+        fullName: "Josip Brekalo",
+        nickname: "Brekalo",
+        birthPlace: "Zagreb, Zagreb",
+        country: "Croacia",
+        nationality: "Croata",
+        height: "1,75 m",
+        birthDate: "23/06/1998",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Kasımpaşa S.K.", category: "Liga Turca" },
+            { season: "2024/25", team: "A.C.F. Fiorentina", category: "Serie A - Fase Previa Conference League" },
+            { season: "2023/24", team: "H.N.K. Hajduk Split", category: "Liga Croata HNL - Copa Croata" },
+            { season: "2023/24", team: "A.C.F. Fiorentina", category: "Serie A - Supercopa de Italia - Coppa Italia - Fase Previa Conference League - Conference League" },
+            { season: "2022/23", team: "A.C.F. Fiorentina", category: "Serie A - Coppa Italia - Conference League" },
+            { season: "2022/23", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
+            { season: "2021/22", team: "Torino F. C", category: "Serie A - Coppa Italia" },
+            { season: "2021/22", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
+            { season: "2020/21", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal - Fase Previa Europa League" },
+            { season: "2019/20", team: "V.f.L. Wolfsburg", category: "Bundesliga - Europa League - DFB Pokal" },
+            { season: "2018/19", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
+            { season: "2017/18", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal - Bundesliga Prom. de Ascenso" },
+            { season: "2017/18", team: "V.f.B. Stuttgart", category: "Bundesliga - DFB Pokal" },
+            { season: "2016/17", team: "V.f.B. Stuttgart", category: "2 Bundesliga" },
+            { season: "2016/17", team: "V.f.L. Wolfsburg II", category: "Regionalliga" },
+            { season: "2016/17", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
+            { season: "2015/16", team: "G.N.K. Dinamo Zagreb", category: "Liga Croata NHL - Copa Croata" },
+            { season: "2015/16", team: "G.N.K. Dinamo Zagreb Sub-19", category: "UEFA Youth League" },
+            { season: "2015/16", team: "G.N.K. Dinamo Zagreb II", category: "Primera Croacia 1 NL" }
+            
+            
+         ],
+
+          nationalTeam: [
+            { season: "2023", team: "Croacia", category: "Clasif. Eurocopa" },
+            { season: "2022", team: "Croacia", category: "Liga de las Naciones de la UEFA" },
+            { season: "2021", team: "Croacia", category: "Clasif. Mundial Europa - Eurocopa - Amistosos" }, 
+            { season: "2020", team: "Croacia", category: "Liga de las Naciones de la UEFA - Amistosos" },  
+            { season: "2019", team: "Croacia Sub-21", category: "Europeo Sub-21 - Clasif. Europeo Sub-21" },  
+            { season: "2019", team: "Croacia", category: "Clasif. Eurocopa - Amistosos" }, 
+            { season: "2018", team: "Croacia", category: "Liga de las Naciones de la UEFA" },
+            { season: "2018", team: "Croacia Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2017", team: "Croacia Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },  
+            { season: "2017", team: "Croacia Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2016", team: "Croacia Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2016", team: "Croacia Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19 - Amistosos" },  
+            { season: "2015", team: "Croacia Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2015", team: "Croacia Sub-18", category: "Amistosos" },  
+            { season: "2015", team: "Croacia Sub-17", category: "Mundial Sub-17 - Europeo Sub-17 - Clasif. Europeo Sub-17 - Amistosos" },  
+            { season: "2014", team: "Croacia Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" },  
+            { season: "2014", team: "Croacia Sub-16", category: "Amistosos" },  
+            { season: "2013", team: "Croacia Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" }
+             
+              
+              
+            
+        ],
+
+        stats: {
+            "2025/26": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2020/21": {
-                liga: { partidos: 37, goles_marcados: 4, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2019/20": {
-                liga: { partidos: 34, goles_marcados: 4, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
-                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
-            },
-            "2018/19": {
-                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
-                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     }
