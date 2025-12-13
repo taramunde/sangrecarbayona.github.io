@@ -210,7 +210,7 @@ const enfrentamientos = [
   // Jornada 16
   { equipo1: "Deportivo Alavés", equipo2: "Real Madrid", goles1: null, goles2: null },
   { equipo1: "Atlético de Madrid", equipo2: "Valencia C.F.", goles1: 2, goles2: 1 },
-  { equipo1: "F.C. Barcelona", equipo2: "C.A. Osasuna", goles1: null, goles2: null },
+  { equipo1: "F.C. Barcelona", equipo2: "C.A. Osasuna", goles1: 2, goles2: 0 },
   { equipo1: "Levante U.D.", equipo2: "Villarreal C.F.", goles1: null, goles2: null },
   { equipo1: "Celta de Vigo", equipo2: "Athletic Club", goles1: null, goles2: null },
   { equipo1: "Rayo Vallecano", equipo2: "Real Betis", goles1: null, goles2: null },
