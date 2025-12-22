@@ -1,6 +1,7 @@
 /* js/social-share.js */
 document.addEventListener("DOMContentLoaded", function() {
     const urlToShare = window.location.href;
+    // Quitamos el texto para WhatsApp para que fuerce la carga de la imagen
     const textToShare = "Mira este contenido interesante de Sangre Carbayona:";
 
     const btnFacebook = document.getElementById('share-facebook');
@@ -22,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if(btnWhatsapp) {
         btnWhatsapp.onclick = function() {
-            window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(textToShare)}%20${encodeURIComponent(urlToShare)}`, '_blank');
+            // ENVIAMOS SOLO LA URL: Esto es lo que hace que WhatsApp busque la foto sí o sí
+            window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(urlToShare)}`, '_blank');
         }
     }
 
