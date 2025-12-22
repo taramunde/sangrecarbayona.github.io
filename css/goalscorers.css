@@ -1,0 +1,85 @@
+/* css/goalscorers.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+@font-face {
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/daysone/v10/mem9YaCnxnKRiYZOCIYScr0.ttf) format('truetype');
+}
+
+:root {
+    --oviedo-blue: #0e0eec;
+    --oviedo-light-blue: #0040b3;
+    --bg-light-gray: #f5f6f5; /* Coherente con blinking-sign y scoreboard */
+}
+
+/* Contenedor del texto */
+.goalscorers {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 90%;
+    background-color: var(--bg-light-gray);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px; /* Igual que el marcador para coherencia */
+    box-sizing: border-box;
+    
+}
+
+/* Texto de goleadores */
+.goalscorers-text {
+    color: var(--oviedo-blue);
+    font-family: 'Days One', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: var(--oviedo-light-blue);
+    display: inline-block;
+}
+
+/* Hover para interacción */
+.goalscorers-text:hover {
+    color: var(--oviedo-light-blue);
+    text-decoration-color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+/* Respetar preferencias de accesibilidad (sin transiciones) */
+@media (prefers-reduced-motion: reduce) {
+    .goalscorers-text {
+        transition: none;
+    }
+}
+
+/* Responsividad para móviles */
+@media screen and (max-width: 768px) {
+    .goalscorers {
+        margin: 15px auto;
+        padding: 8px;
+    }
+    .goalscorers-text {
+        font-size: 20px;
+    }
+}
+
+/* Pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+    .goalscorers-text {
+        font-size: 18px;
+    }
+}
+
+/* Fixes para IE8 (Windows XP) */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .goalscorers {
+        width: 90%;
+        margin-left: 0 !important;
+        left: 0 !important;
+    }
+    .goalscorers-text {
+        color: #003087; /* Fallback explícito */
+        text-decoration: underline;
+    }
+}

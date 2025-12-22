@@ -1,0 +1,167 @@
+/* css/scoreboard.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+@font-face {
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/daysone/v10/mem9YaCnxnKRiYZOCIYScr0.ttf) format('truetype');
+}
+
+:root {
+    --oviedo-blue: #003087;
+    --oviedo-light-blue: #0040b3;
+    --bg-light-gray: #f5f6f5; /* Coherente con blinking-sign */
+    --white: #ffffff;
+}
+
+/* Reset para evitar desplazamientos */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 80px auto; /* Aumentado de 60px a 80px para desktop */
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+/* Estilos del Marcador */
+.score-board {
+    font-family: 'Days One', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    width: 550px; /* Ancho base */
+    height: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    border-radius: 5px 5px 30px 30px;
+    background: var(--bg-light-gray); /* Fallback para IE8 */
+    background: linear-gradient(to bottom, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); /* Moderno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Limpiar floats para IE8 */
+.score-board::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Estilos de los ítems */
+.score-board li {
+    display: inline-block;
+    vertical-align: middle; /* Alinea verticalmente */
+}
+
+/* Imágenes de equipos */
+.score-board li img {
+    max-height: 50px;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+.score-board .team-home img {
+    left: 0;
+    border-radius: 5px 5px 5px 30px;
+}
+
+.score-board .team-visitor img {
+    right: 0;
+    border-radius: 5px 5px 30px 5px;
+}
+
+/* Marcador */
+.score-board .score {
+    color: var(--white);
+    padding: 0 30px;
+    border-radius: 10px 10px 100px 100px;
+    background: var(--oviedo-blue); /* Fallback */
+    background: linear-gradient(to bottom, #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%);
+    line-height: 50px; /* Centra verticalmente */
+}
+
+/* Tiempo */
+.score-board .time {
+    color: var(--white);
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente */
+    width: 270px;
+    font-size: 60%;
+    border-radius: 5px 5px 50px 50px;
+    background: #72aa00; /* Fallback */
+    background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+/* Media Queries para Responsividad */
+@media screen and (max-width: 768px) {
+    .score-board {
+        width: 90%; /* Ocupa más espacio en móviles */
+        font-size: 28px;
+        height: 40px;
+    }
+    .score-board li img {
+        max-height: 40px;
+    }
+    .score-board .score {
+        padding: 0 20px;
+        line-height: 40px;
+    }
+    .score-board .time {
+        width: 200px;
+        font-size: 50%;
+        top: 40px;
+    }
+    .container {
+        margin: 40px auto 50px auto; /* Aumentado de 40px a 50px en tabletas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .score-board {
+        font-size: 20px;
+        height: 30px;
+    }
+    .score-board li img {
+        max-height: 30px;
+    }
+    .score-board .score {
+        padding: 0 15px;
+        line-height: 30px;
+    }
+    .score-board .time {
+        width: 150px;
+        font-size: 40%;
+        top: 30px;
+    }
+    .container {
+        margin: 15px auto 40px auto; /* Aumentado de 30px a 40px en móviles pequeños */
+        }
+}
+
+/* Fixes para IE8 (Windows XP) */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .score-board {
+        background: var(--bg-light-gray); /* Sin gradiente */
+        width: 500px; /* Ancho fijo para evitar shifts */
+        margin-left: 0 !important;
+        left: 0 !important;
+    }
+    .score-board .score {
+        background: var(--oviedo-blue);
+    }
+    .score-board .time {
+        background: #72aa00;
+        margin-left: -135px; /* Fallback para transform */
+    }
+  }

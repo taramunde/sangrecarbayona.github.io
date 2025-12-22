@@ -1,0 +1,31 @@
+/* CSS para la sección de Jornada */
+.jornada-container {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    
+}
+
+.jornada-text {
+    font-size: 32px; /* Aumentado de 24px a 32px */
+    font-weight: bold;
+    color: #0e0eec; /* Color azul similar al de tu sitio */
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+/* Responsive para dispositivos móviles */
+@media (max-width: 768px) {
+    .jornada-text {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}

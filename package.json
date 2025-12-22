@@ -1,0 +1,12 @@
+{
+  "name": "sangre-carbayona",
+  "version": "1.0.0",
+  "description": "Gestión de fichas Real Oviedo",
+  "main": "crear_fichas.js",
+  "scripts": {
+    "subir": "node crear_fichas.js && git add . && git commit -m \"Actualización automática\" && git push",
+    "forzar": "node crear_fichas.js && git add . && git commit -m \"Subida forzada\" && git push origin main --force"
+  },
+  "author": "",
+  "license": "ISC"
+}

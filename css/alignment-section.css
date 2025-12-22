@@ -1,0 +1,168 @@
+/* css/alignment-section.css */
+.alignment-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px; /* Limita el ancho en desktop */
+    padding: 0 10px;
+    
+}
+
+.section-column {
+    flex: 1;
+    min-width: 300px; /* Evita que se encoja demasiado */
+    margin: 10px;
+}
+
+.alignment-button {
+    background-color: #0e0eec; /* Azul del Real Oviedo */
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.alignment-button:hover {
+    background-color: #0040b3; /* Azul más claro al pasar el ratón */
+    transform: translateY(-2px);
+}
+
+.alignment-button.confirmed::after {
+    content: "✔"; /* Icono de check para Confirmada */
+    float: right;
+    font-size: 18px;
+}
+
+.alignment-button.not-confirmed::after {
+    content: "❓"; /* Icono de pregunta para No Confirmada */
+    float: right;
+    font-size: 18px;
+}
+
+.alignment-button.active {
+    background-color: #00205b; /* Azul más oscuro cuando está activo */
+}
+
+.collapsible-content {
+    padding: 15px 20px;
+    display: none;
+    background-color: #f5f6f5; /* Gris claro suave */
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.3s ease-out;
+}
+
+.collapsible-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.collapsible-content li a {
+    color: #003087;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.collapsible-content li a:hover {
+    text-decoration: underline;
+    color: #0040b3;
+}
+
+/* Separador entre Card Slide y Tabla de Agradecimientos */
+.spacer {
+    height: 40px; /* Ajusta este valor según la separación deseada */
+}
+
+/* Estilos específicos para la tabla de agradecimientos */
+.sections.acknowledgments {
+    margin-top: 20px; /* Margen superior adicional para separación */
+}
+
+/* Ajustar el color de los enlaces en la tabla de agradecimientos para que coincida con el tema */
+.sections.acknowledgments .collapsible-content li a {
+    color: #003087; /* Azul del Real Oviedo, igual que en .alignment-section */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sections.acknowledgments .collapsible-content li a:hover {
+    text-decoration: underline;
+    color: #0040b3; /* Azul más claro al pasar el ratón */
+}
+
+/* Ajustar el texto de la bibliografía (que no usa <a>) */
+.sections.acknowledgments .collapsible-content li span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Responsividad para móviles */
+@media screen and (max-width: 768px) {
+    .alignment-section {
+        flex-direction: column;
+        padding: 0 5px;
+    }
+
+    .section-column {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .alignment-button {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    .collapsible-content {
+        padding: 10px 15px;
+    }
+
+    .collapsible-content li a {
+        font-size: 13px;
+    }
+
+    .spacer {
+        height: 30px; /* Menos separación en móviles */
+    }
+
+    .sections.acknowledgments {
+        margin-top: 15px;
+    }
+
+    .sections.acknowledgments .collapsible-content li a,
+    .sections.acknowledgments .collapsible-content li span {
+        font-size: 13px; /* Tamaño de fuente más pequeño en móviles */
+    }
+}
+
+/* Ajuste para pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+    .section-column {
+        min-width: 100%;
+    }
+
+    .alignment-button {
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+
+    .spacer {
+        height: 20px; /* Aún menos separación en pantallas muy pequeñas */
+    }
+
+    .sections.acknowledgments .collapsible-content li a,
+    .sections.acknowledgments .collapsible-content li span {
+        font-size: 12px; /* Tamaño de fuente más pequeño */
+    }
+}
