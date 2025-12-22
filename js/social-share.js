@@ -22,11 +22,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     if(btnWhatsapp) {
-        btnWhatsapp.onclick = function() {
-            // ENVIAMOS SOLO LA URL: Esto es lo que hace que WhatsApp busque la foto sí o sí
-            window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(urlToShare)}`, '_blank');
+    btnWhatsapp.onclick = function() {
+        // Detectamos si estamos en una ficha con ?player=
+        const params = new URLSearchParams(window.location.search);
+        const player = params.get('player');
+        
+        let urlFinal = urlToShare;
+        if(player) {
+            // Si hay un jugador, enviamos el enlace al archivo directo .html
+            // Esto asegura que WhatsApp vea las etiquetas META
+            urlFinal = window.location.origin + window.location.pathname.replace('fichajugador.html', player + '.html');
         }
+
+        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(urlFinal)}`, '_blank');
     }
+}
 
     if(btnTelegram) {
         btnTelegram.onclick = function() {
