@@ -149,6 +149,73 @@ const playersData = {
             }
         }
     },
+
+    "quentinbraat": {
+        name: "Quentin Jean-Pierre Guy Braat",
+        footballName: "Quentin Braat",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/wxsLQXj0/Quentin-Braat-PNG.webp", 
+    personalData: {
+        fullName: "Quentin Jean-Pierre Guy Braat",
+        nickname: "Quentin Braat",
+        birthPlace: "Fontainebleau, Isla de Francia",
+        country: "Francia",
+        nationality: "Francesa",
+        height: "1,94 m",
+        birthDate: "06/07/1997",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Rodez A.F.", category: "Ligue 2 - Copa de Francia" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Chamois Niort F.C.", category: "Ligue 2" },
+            { season: "2020/21", team: "Chamois Niort F.C.", category: "Ligue 2 - Copa de Francia - Ligue 2 Prom. de Ascenso" },
+            { season: "2019/20", team: "Chamois Niort F.C. B", category: "National 3" },
+            { season: "2019/20", team: "Chamois Niort F.C.", category: "Ligue 2 - Copa de la Liga - Copa de Francia" },
+            { season: "2018/19", team: "F.C. Nantes B", category: "National 2" },
+            { season: "2017/18", team: "F.C. Nantes B", category: "National 3" },
+            { season: "2016/17", team: "F.C. Nantes", category: "Ligue 1 - Copa de la Liga - Copa de Francia" },
+            { season: "2016/17", team: "F.C. Nantes B", category: "National 2" },
+            { season: "2015/16", team: "F.C. Nantes", category: "Ligue 1 - Copa de Francia" },
+            { season: "2015/16", team: "F.C. Nantes B", category: "National 2" },
+            { season: "2014/15", team: "F.C. Nantes B", category: "National 2" }
+
+
+        ],
+
+        nationalTeam: [
+            { season: "2017", team: "Francia Sub-20", category: "Mundial Sub-20" },
+            { season: "2016", team: "Francia Sub-20", category: "Amistosos" },
+            { season: "2016", team: "Francia Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2015", team: "Francia Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" }
+            
+        ],
+
+        stats: {
+            "2024/25": {
+                liga: { partidos: 1, goles_encajados: 2, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 26, goles_encajados: 18, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_encajados: 5, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
