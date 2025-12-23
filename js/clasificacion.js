@@ -171,7 +171,7 @@ const enfrentamientos = [
   { equipo1: "R.C.D. Mallorca", equipo2: "Getafe C.F.", goles1: 1, goles2: 0 },
   { equipo1: "Sevilla F.C.", equipo2: "C.A. Osasuna", goles1: 1, goles2: 0 },
   
-   // Jornada 13
+  // Jornada 13
   { equipo1: "Deportivo Alavés", equipo2: "Celta de Vigo", goles1: 0, goles2: 1 },
   { equipo1: "Real Betis", equipo2: "Girona F.C.", goles1: 1, goles2: 1 },
   { equipo1: "Elche C.F.", equipo2: "Real Madrid", goles1: 2, goles2: 2 },
