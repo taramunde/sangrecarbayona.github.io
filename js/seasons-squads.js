@@ -12,7 +12,7 @@ const seasonsSquads = {
         "defenders": ["alvarolemos", "rahim", "davidcostas", "nachovidal", "danicalvo", "luengo", "pomares", "lucas", "jaimevazquez", "marcoesteban", "eze", "adrilopes", "omarfalah", "lamine"],
         "midfielders": ["albertodelmoral", "sibo", "sebasmoyano", "santicazorla", "borjasanchez", "portillo", "colombatto", "delahoz", "paulino2024", "seoane2024", "dotor", "hassan", "cheli", "alexcardero", "valdera", "diegotejon", "castri"],
         "forwards": ["alemao", "paraschiv", "ilyas", "masca", "alexmillan", "fedevinas", "santimiguelez"],
-        "coaches": ["javicalleja", "paunovic"],
+        "coaches": ["javicalleja", "paunovic2025"],
         // ... solo IDs
     },
     "2023-24": {
