@@ -493,7 +493,7 @@ const playersData = {
         
         stats: {
             "2025/26": {
-                liga: { partidos: 10, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
@@ -1099,6 +1099,67 @@ const playersData = {
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+            
+        }
+    },
+
+    "pomares": {
+        name: "Carlos Pomares Rayo",
+        footballName: "Pomares",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/yN4Q1Q53/Pomares_PNG.webp", 
+    personalData: {
+        fullName: "Carlos Pomares Rayo",
+        nickname: "Pomares",
+        birthPlace: "Valencia, Valencia",
+        country: "España",
+        nationality: "Española",
+        height: "1,83 m",
+        birthDate: "05/12/1992",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Extremadura U.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Lorca F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Lorca F.C.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "At. Levante", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "Huracán Valencia C.F.", category: "2ª Div. B" },
+            { season: "2012/13", team: "Huracán Valencia C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Sheffield United F.C. Sub-18", category: "FA Youth Cup" }
+            
+
+        ],
+
+       
+        stats: {
+            "2024/25": {
+                liga: { partidos: 27, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+             "2023/24": {
+                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
             }
             
         }
