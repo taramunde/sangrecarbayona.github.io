@@ -1057,6 +1057,53 @@ const playersData = {
         }
     },
 
+    "alvarolemos": {
+        name: "Álvaro Lemos Collazo",
+        footballName: "Álvaro Lemos",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/XYDdjpzZ/Alvaro-Lemos-PNG-3.webp", 
+    personalData: {
+        fullName: "Álvaro Lemos Collazo",
+        nickname: "Álvaro Lemos",
+        birthPlace: "Santiago de Compostela, La Coruña",
+        country: "España",
+        nationality: "Española",
+        height: "1,77 m",
+        birthDate: "30/03/1993",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "U.D. Las Palmas", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "U.D. Las Palmas", category: "2ª Div." },
+            { season: "2018/19", team: "U.D. Las Palmas", category: "2ª Div." },
+            { season: "2017/18", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2017/18", team: "R.C. Lens", category: "Ligue 2 - Copa de la Liga - Copa de Francia" },
+            { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "S.D. Compostela", category: "2ª Div. B" },
+            { season: "2013/14", team: "Deportivo Fabril", category: "3ª Div." },
+            { season: "2012/13", team: "Deportivo Fabril", category: "3ª Div. Prom. de Ascenso" }
+
+        ],
+
+       
+        stats: {
+            "2024/25": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+            
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
