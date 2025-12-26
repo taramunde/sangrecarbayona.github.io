@@ -2254,6 +2254,51 @@ const playersData = {
         }
     },
 
+    "albertodelmoral": {
+        name: "Alberto del Moral Saelices",
+        footballName: "Alberto del Moral",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/HkvrCRhd/Alberto-del-Moral-PNG.webp", 
+    personalData: {
+        fullName: "Alberto del Moral Saelices",
+        nickname: "Alberto del Moral",
+        birthPlace: "Villacañas, Toledo",
+        country: "España",
+        nationality: "Española",
+        height: "1,85 m",
+        birthDate: "20/07/2000",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Córdoba C.F.", category: "2ª Div." },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2023/24", team: "Villarreal C.F. B", category: "2ª Div." },
+            { season: "2022/23", team: "Villarreal C.F. B", category: "2ª Div." },
+            { season: "2022/23", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2021/22", team: "Villarreal C.F. B", category: "1ª Federación - 1ª Federación Promoción de Ascenso" },
+            { season: "2020/21", team: "Córdoba C.F. B", category: "3ª Div." },
+            { season: "2020/21", team: "Córdoba C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Córdoba C.F.", category: "2ª Div. B" },
+            { season: "2019/20", team: "Córdoba C.F. B", category: "3ª Div." },
+            { season: "2018/19", team: "Córdoba C.F. B", category: "3ª Div." }
+
+            
+         ],
+
+         stats: {
+            "2024/25": {
+                liga: { partidos: 12, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 7, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
