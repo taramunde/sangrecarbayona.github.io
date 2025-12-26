@@ -1217,6 +1217,45 @@ const playersData = {
         }
     },
 
+    "eze": {
+        name: "Chukwuma Eze",
+        footballName: "Eze",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/KYsb7466/Eze-PNG_(1).webp", 
+    personalData: {
+        fullName: "Chukwuma Eze",
+        nickname: "Eze",
+        birthPlace: "Lagos, Lagos",
+        country: "Nigeria",
+        nationality: "Nigeriana",
+        height: "1,85 m",
+        birthDate: "16/11/2003",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Avilés Industrial", category: "Copa del Rey - 1ª Federación" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }, 
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2023/24", team: "L'Entregu C.F.", category: "Copa Federación - 3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "C.D. Llanes", category: "Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Real Oviedo Sub-19", category: "División de Honor" }
+            
+        ],
+  
+            
+        stats: {
+            "2024/25": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+            
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
