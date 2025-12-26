@@ -2256,7 +2256,7 @@ const playersData = {
 
     "albertodelmoral": {
         name: "Alberto del Moral Saelices",
-        footballName: "Alberto del Moral",
+        footballName: "A. del Moral",
         position: "Centrocampista",
         role: "jugador",
         number: null,
@@ -2294,6 +2294,71 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 7, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "sebasmoyano": {
+        name: "Francisco Sebastián Moyano Jiménez",
+        footballName: "Sebas Moyano",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/GhV54hNf/Sebas_Moyano_PNG.webp", 
+    personalData: {
+        fullName: "Francisco Sebastián Moyano Jiménez",
+        nickname: "Sebas Moyano",
+        birthPlace: "Villanueva del Duque, Córdoba",
+        country: "España",
+        nationality: "Española",
+        height: "1,73 m",
+        birthDate: "23/03/1997",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Ebro", category: "2ª Div. B - 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2019/20", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2019/20", team: "Córdoba C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2018/19", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Córdoba C.F. B", category: "3ª Div." },
+            { season: "2017/18", team: "Córdoba C.F. B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Córdoba C.F. B", category: "2ª Div. B" },
+            { season: "2016/17", team: "Córdoba C.F.", category: "2ª Div." },
+            { season: "2015/16", team: "Córdoba C.F. B", category: "3ª Div." },
+            { season: "2014/15", team: "Córdoba C.F. B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Córdoba C.F.", category: "2ª Div. B" },
+            { season: "2013/14", team: "Córdoba C.F. B", category: "2ª Div. B" }
+            
+         ],
+
+         nationalTeam: [
+            { season: "2015", team: "España Sub-18", category: "Copa del Atlántico Juvenil - Amistosos" },
+            { season: "2013", team: "España Sub-17", category: "Amistosos" }
+            
+            
+        ],
+
+         stats: {
+            "2024/25": {
+                liga: { partidos: 36, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 8, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 45, goles_marcados: 9, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
              
         }
