@@ -2364,6 +2364,59 @@ const playersData = {
         }
     },
 
+    "portillo": {
+        name: "Francisco Portillo Soler",
+        footballName: "Portillo",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/br8zc90Q/Portillo_PNG_(3).webp", 
+    personalData: {
+        fullName: "Francisco Portillo Soler",
+        nickname: "Portillo",
+        birthPlace: "Málaga, Málaga",
+        country: "España",
+        nationality: "Española",
+        height: "1,69 m",
+        birthDate: "13/06/1990",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Getafe C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2018/19", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Getafe C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Real Betis", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Betis", category: "2ª Div." },
+            { season: "2014/15", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Málaga C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Fase Previa Champs. League" },
+            { season: "2011/12", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Málaga C.F.", category: "1ª Div." },
+            { season: "2009/10", team: "At. Malagueño", category: "3ª Div." }
+
+            
+         ],
+
+         
+         stats: {
+            "2024/25": {
+                liga: { partidos: 24, goles_marcados: 2, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
