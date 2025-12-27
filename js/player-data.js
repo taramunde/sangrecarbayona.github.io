@@ -2392,8 +2392,8 @@ const playersData = {
             { season: "2018/19", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Getafe C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
-            { season: "2015/16", team: "Real Betis", category: "1ª Div. - Copa del Rey" },
-            { season: "2014/15", team: "Real Betis", category: "2ª Div." },
+            { season: "2015/16", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Betis Balompié", category: "2ª Div." },
             { season: "2014/15", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2012/13", team: "Málaga C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Fase Previa Champs. League" },
@@ -2409,6 +2409,58 @@ const playersData = {
          stats: {
             "2024/25": {
                 liga: { partidos: 24, goles_marcados: 2, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "delahoz": {
+        name: "César de La Hoz López",
+        footballName: "De La Hoz",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Z5nr38kY/De_La_Hoz_PNG_(3).webp", 
+    personalData: {
+        fullName: "César de La Hoz López",
+        nickname: "De La Hoz",
+        birthPlace: "Orejo, Cantabria",
+        country: "España",
+        nationality: "Española",
+        height: "1,79 m",
+        birthDate: "30/03/1992",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2024/25", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Almería", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2019/20", team: "U.D. Almería", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Betis Deportivo Balompié", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Betis Deportivo Balompié", category: "2ª Div. B" },
+            { season: "2014/15", team: "Betis Deportivo Balompié", category: "2ª Div. B" },
+            { season: "2013/14", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Rayo Cantabria", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Racing Club de Santander", category: "2ª Div." },
+            { season: "2011/12", team: "Real Racing Club de Santander", category: "1ª Div." },
+            { season: "2011/12", team: "Rayo Cantabria", category: "3ª Div. - Copa Federación" },
+            { season: "2010/11", team: "Rayo Cantabria", category: "3ª Div. Prom. de Ascenso" }
+
+            
+         ],
+
+         
+         stats: {
+            "2024/25": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
