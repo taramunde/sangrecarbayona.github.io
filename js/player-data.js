@@ -2469,6 +2469,60 @@ const playersData = {
         }
     },
 
+    "paulino2024": {
+        name: "Paulino de la Fuente Gómez",
+        footballName: "Paulino",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/SxkLgnn3/Paulino_PNG.webp", 
+    personalData: {
+        fullName: "Paulino de la Fuente Gómez",
+        nickname: "Paulino",
+        birthPlace: "Santander, Cantabria",
+        country: "España",
+        nationality: "Española",
+        height: "1,84 m",
+        birthDate: "27/06/1997",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Real Zaragoza", category: "2ª Div." },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Pachuca C.F.", category: "Liga MX Apert." },
+            { season: "2022/23", team: "Pachuca C.F. Sub-20", category: "Liga MX Sub-20 Claus. - Liga MX Sub-20 Apert." },
+            { season: "2022/23", team: "Pachuca C.F.", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Claus. MX - Etapas Finales Apert. MX - Campeón de Campeones Méjico" },
+            { season: "2021/22", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Logroñés", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Deportivo Alavés", category: "1ª Div." },
+            { season: "2019/20", team: "Deportivo Alavés B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Deportivo Alavés B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Deportivo Alavés B", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Deportivo Alavés B", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "F.C. Inter Primavera Sub-19", category: "Campionato Primavera 1 - Coppa Italia Primavera" }
+            
+
+         ],
+
+         
+         stats: {
+            "2024/25": {
+                liga: { partidos: 28, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 37, goles_marcados: 9, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
