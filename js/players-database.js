@@ -5993,6 +5993,13 @@ const playersDatabase = {
     },
     
     // DELANTEROS
+    "thiagoborbas": {
+        "src": "https://i.postimg.cc/2j4jkvj8/Thiago_Borbas_PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Thiago Borbas",
+        "url": "fichajugador.html?player=thiagoborbas"
+    },
     "ilyas": {
         "src": "https://i.postimg.cc/xCTdXSFX/Ilyas_PNG_(3).webp",
         "alt": "Delantero",

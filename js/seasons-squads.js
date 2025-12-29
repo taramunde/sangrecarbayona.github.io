@@ -3,7 +3,7 @@ const seasonsSquads = {
         "goalkeepers": ["aaron", "moldovan", "narvaez"],
         "defenders": ["bailly", "rahim", "davidcostas", "danicalvo", "luengo", "davidcarmo", "nachovidal", "lucas", "javilopez", "lamine", "omarfalah", "marcoesteban", "adrilopes"],
         "midfielders": ["albertoreina", "sibo", "santicazorla", "hassan", "colombatto", "ejaria", "borjasanchez", "brandondomingues", "brekalo", "dendoncker", "ilic", "fonseca", "alexcardero", "cheli", "diegotejon", "dieguito", "agudin"],
-        "forwards": ["ilyas", "fedevinas", "alexfores", "rondon"],
+        "forwards": ["ilyas", "fedevinas", "alexfores", "rondon", "thiagoborbas"],
         "coaches": ["paunovic2025", "luiscarrion", "almada"],
         // ... solo IDs
     },
