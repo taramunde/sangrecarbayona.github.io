@@ -2748,6 +2748,53 @@ const playersData = {
         }
     },
 
+    "thiagoborbas": {
+        name: "Thiago Nicolás Borbas Silva",
+        footballName: "Thiago Borbas",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/2j4jkvj8/Thiago_Borbas_PNG.webp", 
+    personalData: {
+        fullName: "Thiago Nicolás Borbas Silva",
+        nickname: "Thiago Borbas",
+        birthPlace: "Montevideo, Montevideo",
+        country: "Uruguay",
+        nationality: "Uruguaya",
+        height: "1,86 m",
+        birthDate: "07/04/2002",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2024/25", team: "Red Bull Bragantino", category: "Serie A Betano - Paulista A1 - Copa Brasil" },
+            { season: "2023/24", team: "Red Bull Bragantino", category: "Serie A Betano - Paulista A1 - Conmebol Sudamericana - Copa Brasil - Fase Previa Copa Libertadores" },
+            { season: "2022/23", team: "Red Bull Bragantino", category: "Serie A Betano - Paulista A1 - Conmebol Sudamericana - Copa Brasil" },
+            { season: "2021/22", team: "C.A. River Plate Montevideo", category: "Apert. Uruguay - Claus. Uruguay - Conmebol Sudamericana - Fase Previa Conmebol Sudamericana - Torneo Intermedio Uruguay" },
+            { season: "2020/21", team: "C.A. River Plate Montevideo", category: "Apert. Uruguay - Claus. Uruguay" },
+            { season: "2019/20", team: "C.A. River Plate Montevideo", category: "Apert. Uruguay - Claus. Uruguay - Conmebol Sudamericana - Torneo Intermedio Uruguay" }
+            
+
+         ],
+
+         nationalTeam: [
+            { season: "2023", team: "Uruguay", category: "Amistosos" }
+            
+             
+        ],
+
+         
+         stats: {
+            "2025/26": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
