@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Obtener la temporada de la URL y actualizar el body
+    var urlParams = new URLSearchParams(window.location.search);
+    var season = urlParams.get('season');
+    if (!season) {
+        season = '2025-26'; // Temporada por defecto
+    }
+    document.body.setAttribute('data-season', season);
     var seasonButton = document.getElementById('season-button');
     var seasonContainer = document.getElementById('season-container');
     var closeButton = document.getElementById('close-button');

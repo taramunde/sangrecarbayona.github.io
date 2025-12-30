@@ -132,6 +132,22 @@
     opacity: 1;
 }
 
+/* Estilos especiales para la temporada actual (2025/26) sin bordes */
+body[data-season="2025-26"] .players-gallery img {
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+body[data-season="2025-26"] .player-info {
+    border: none !important;
+    border-radius: 10px !important;
+    background: transparent !important;
+}
+
+body[data-season="2025-26"] .player-card {
+    background: transparent !important;
+}
+
 /* Responsividad */
 @media screen and (max-width: 768px) {
     .players-title {
