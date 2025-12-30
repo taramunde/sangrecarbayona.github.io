@@ -2621,6 +2621,88 @@ const playersData = {
         }
     },
 
+    "valdera": {
+        name: "Rubén Valdera Martínez",
+        footballName: "Valdera",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/V6J7fxgw/Valdera_PNG.webp", 
+    personalData: {
+        fullName: "Rubén Valdera Martínez",
+        nickname: "Valdera",
+        birthPlace: "Bollullos Par del Condado, Huelva",
+        country: "España",
+        nationality: "Española",
+        height: "1,85 m",
+        birthDate: "25/02/2003",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "C.P. Cacereño", category: "Copa del Rey - 1ª Federación" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2023/24", team: "C.D. Estepona", category: "2ª Federación" },
+            { season: "2022/23", team: "C.D. Estepona", category: "2ª Federación" },
+            { season: "2021/22", team: "At. de Madrid Sub-19", category: "División de Honor - UEFA Youth League - Copa de Campeones División de Honor - Copa del Rey Juvenil" },
+            { season: "2020/21", team: "At. Madrileño Sub-19", category: "División de Honor" }
+            
+         ],
+
+         
+         stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "castri": {
+        name: "Guillermo Castrillejo Manso",
+        footballName: "Castri",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Y0FPt53V/Castri_PNG.webp", 
+    personalData: {
+        fullName: "Guillermo Castrillejo Manso",
+        nickname: "Castri",
+        birthPlace: "Villahán, Palencia",
+        country: "España",
+        nationality: "Española",
+        height: "1,78 m",
+        birthDate: "01/10/2002",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2023/24", team: "C.D. Badajoz", category: "2ª Federación" },
+            { season: "2022/23", team: "S.D. Logroñés", category: "1ª Federación" },
+            { season: "2021/22", team: "Real Valladolid C.F. Promesas", category: "1ª Federación" },
+            { season: "2020/21", team: "Real Valladolid C.F. Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Valladolid C.F. Promesas", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2019/20", team: "Real Valladolid C.F. Promesas", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" }
+            
+         ],
+
+         
+         stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
