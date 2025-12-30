@@ -2523,6 +2523,104 @@ const playersData = {
         }
     },
 
+    "seoane2024": {
+        name: "Jaime Seoane Valenciano",
+        footballName: "Seoane",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/HLCvtvT4/Seoane_PNG.webp", 
+    personalData: {
+        fullName: "Jaime Seoane Valenciano",
+        nickname: "Seoane",
+        birthPlace: "Madrid, Madrid",
+        country: "España",
+        nationality: "Española",
+        height: "1,77 m",
+        birthDate: "22/01/1997",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "S.D. Huesca", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2019/20", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Madrid C.F.", category: "1ª Div." },
+            { season: "2018/19", team: "Real Madrid Castilla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Madrid C.F.", category: "Copa del Rey" },
+            { season: "2017/18", team: "Real Madrid Castilla", category: "2ª Div. B" },
+            { season: "2016/17", team: "Real Madrid Castilla", category: "2ª Div. B" },
+            { season: "2016/17", team: "Real Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2015/16", team: "Real Madrid Sub-19", category: "División de Honor - UEFA Youth League" },
+            { season: "2014/15", team: "Real Madrid C", category: "3ª Div." }
+
+         ],
+
+         
+         stats: {
+            "2024/25": {
+                liga: { partidos: 29, goles_marcados: 3, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 41, goles_marcados: 4, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "dotor": {
+        name: "Carlos Dotor González",
+        footballName: "Dotor",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/gcwFM5v3/Carlos_Dotor_PNG.webp", 
+    personalData: {
+        fullName: "Carlos Dotor González",
+        nickname: "Dotor",
+        birthPlace: "Madrid, Madrid",
+        country: "España",
+        nationality: "Española",
+        height: "1,80 m",
+        birthDate: "15/03/2001",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Sporting de Gijón", category: "2ª Div." },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2023/24", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Madrid C.F.", category: "1ª Div. - Champs. League" },
+            { season: "2022/23", team: "Real Madrid Castilla", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "Real Madrid Castilla", category: "1ª Federación" },
+            { season: "2020/21", team: "Real Madrid Castilla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - 2ª Div. B fase Ascenso a 2ª" },
+            { season: "2019/20", team: "Real Madrid Castilla", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Madrid Sub-19", category: "UEFA Youth League" }
+            
+
+         ],
+
+         
+         stats: {
+            "2024/25": {
+                liga: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
