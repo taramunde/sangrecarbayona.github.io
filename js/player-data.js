@@ -316,6 +316,43 @@ const playersData = {
         }
     },
 
+    "victoregboh": {
+        name: "Victor Chigozie Egboh",
+        footballName: "Victor Egboh",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/tRh7g2TQ/Victor-Egboh-PNG.webp", 
+    personalData: {
+        fullName: "Victor Chigozie Egboh",
+        nickname: "Victor Egboh",
+        birthPlace: "Lagos, Lagos",
+        country: "Nigeria",
+        nationality: "Nigeriana",
+        height: "1,85 m",
+        birthDate: "14/10/2002",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "C.D. Mosconia", category: "Copa Federación Fase Autonómica - 3ª Federación" },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "S.D. Lenense Proinastur", category: "1ª RFFPA" }
+            
+            
+        ],
+
+        stats: {
+            "2023/24": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
