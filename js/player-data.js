@@ -267,6 +267,55 @@ const playersData = {
         }
     },
 
+    "marco": {
+        name: "Marco Suárez Coronas Lastra",
+        footballName: "Marco",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/yxJJQHKD/Marco-PNG.webp", 
+    personalData: {
+        fullName: "Marco Suárez Coronas Lastra",
+        nickname: "Marco",
+        birthPlace: "Piedras Blancas, Asturias",
+        country: "España",
+        nationality: "Española",
+        height: "1,87 m",
+        birthDate: "26/02/2004",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "Unionistas de Salamanca C.F.", category: "Copa Federación Fase Autonómica - 1ª Federación" },
+            { season: "2024/25", team: "Unionistas de Salamanca C.F.", category: "Copa del Rey - 1ª Federación" },
+            { season: "2023/24", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19 B", category: "Liga Nacional" }
+            
+            
+        ],
+
+        
+        stats: {
+            "2023/24": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
