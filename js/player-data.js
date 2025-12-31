@@ -2975,6 +2975,99 @@ const playersData = {
         }
     },
 
+    "alemao": {
+        name: "Alexandre Zurawski",
+        footballName: "Alemão",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/KcPTkZzY/Alemao-PNG.webp", 
+    personalData: {
+        fullName: "Alexandre Zurawski",
+        nickname: "Alemão",
+        birthPlace: "Campo Erê, Santa Catarina",
+        country: "Brasil",
+        nationality: "Brasileña, Polaca",
+        height: "1,82 m",
+        birthDate: "01/04/1998",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey - Conference League" },
+            { season: "2025/26", team: "C.F. Pachuca", category: "Liga MX Apert." },
+            { season: "2024/25", team: "C.F. Pachuca", category: "Leagues Cup" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "S.C. Internacional", category: "Serie A Betano - Copa Libertadores - Gaucho 1 - Copa Brasil" },
+            { season: "2021/22", team: "S.C. Internacional", category: "Serie A Betano - Conmebol Sudamericana" },
+            { season: "2021/22", team: "E.C. Novo Hamburgo", category: "Gaucho 1" },
+            { season: "2020/21", team: "G.E. Juventus S.C.", category: "Catarinense 1" },
+            { season: "2019/20", team: "Avaí F.C.", category: "Catarinense 1 - Copa Brasil" },
+            { season: "2018/19", team: "Criciúma E.C.", category: "Catarinense 1" },
+            { season: "2017/18", team: "Kyoto Sanga F.C.", category: "Segunda Japonesa J2" },
+            { season: "2016/17", team: "C.A. Metropolitano", category: "Catarinense 1" }
+
+         ],
+
+         stats: {
+            "2024/25": {
+                liga: { partidos: 44, goles_marcados: 14, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 7, goles_marcados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 37, goles_marcados: 7, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "paraschiv": {
+        name: "Daniel George Paraschiv",
+        footballName: "Paraschiv",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/vTn7N9LF/Paraschiv_PNG_(3).webp", 
+    personalData: {
+        fullName: "Daniel George Paraschiv",
+        nickname: "Paraschiv",
+        birthPlace: "Brașov, Transilvania",
+        country: "Rumanía",
+        nationality: "Rumana, Moldava",
+        height: "1,85 m",
+        birthDate: "24/04/1999",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Cultural y Deportiva Leonesa", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "A.F.C. Hermannstadt", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2022/23", team: "A.F.C. Hermannstadt", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2021/22", team: "A.F.C. Hermannstadt", category: "Segunda Rumanía" },
+            { season: "2021/22", team: "F.C. Voluntari", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2020/21", team: "Viitorul Pandurii Târgu Jiu", category: "Segunda Rumanía - Copa Rumanía" },
+            { season: "2019/20", team: "Viitorul Pandurii Târgu Jiu", category: "Segunda Rumanía" },
+            { season: "2018/19", team: "C.S. Luceafărul Oradea", category: "Segunda Rumanía - Copa Rumanía" }
+            
+
+         ],
+
+         stats: {
+            "2024/25": {
+                liga: { partidos: 30, goles_marcados: 3, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
