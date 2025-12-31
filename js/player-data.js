@@ -216,6 +216,57 @@ const playersData = {
             }
         }
     },
+
+    "leoroman": {
+        name: "Leonardo Román Riquelme",
+        footballName: "Leo Román",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/mDmMpjF5/Leo-Rom-n-PNG.webp", 
+    personalData: {
+        fullName: "Leonardo Román Riquelme",
+        nickname: "Leo Román",
+        birthPlace: "Ibiza, Islas Baleares",
+        country: "España",
+        nationality: "Española",
+        height: "1,89 m",
+        birthDate: "06/07/2000",
+        deathDate: null // Poner null si el jugador está vivo
+    },
+        career: [  
+            { season: "2025/26", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey - Supercopa de España" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "R.C.D. Mallorca B", category: "2ª Federación" },
+            { season: "2022/23", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "R.C.D. Mallorca B", category: "3ª Federación" },
+            { season: "2021/22", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "R.C.D. Mallorca B", category: "3ª Div. - 3ª Div. 2ª Fase 2ª Fase 2ª Div. B - Prom. de Ascenso a 2ª Div. B" },
+            { season: "2020/21", team: "R.C.D. Mallorca", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "S.C.R. Penya Deportiva", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2018/19", team: "C.F. Sant Rafel", category: "3ª Div." },
+            { season: "2017/18", team: "S.C.R. Penya Deportiva", category: "2ª Div. B" }
+            
+        ],
+
+        nationalTeam: [
+            { season: "2023", team: "España Sub-21", category: "Europeo Sub-21 - Amistosos" },
+            { season: "2022", team: "España Sub-21", category: "Amistosos" }
+            
+            
+        ],
+
+        stats: {
+            "2023/24": {
+                liga: { partidos: 46, goles_encajados: 41, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_encajados: 6, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
