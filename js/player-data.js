@@ -2960,7 +2960,6 @@ const playersData = {
          nationalTeam: [
             { season: "2023", team: "Uruguay", category: "Amistosos" }
             
-             
         ],
 
          
@@ -3063,6 +3062,164 @@ const playersData = {
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "masca": {
+        name: "Francisco Fumaça Mascarenhas Costa Pessoa",
+        footballName: "Masca",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/R0tYw3y8/Masca_PNG.webp", 
+    personalData: {
+        fullName: "Francisco Fumaça Mascarenhas Costa Pessoa",
+        nickname: "Masca",
+        birthPlace: "Cascaes, Lisboa",
+        country: "Portugal",
+        nationality: "Portuguesa",
+        height: "1,82 m",
+        birthDate: "15/05/2000",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "S.V. Waldhof Mannheim", category: "3 Liga" },
+            { season: "2024/25", team: "C.D. Eldense", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Portimonense S.C. Sub-23", category: "Liga Revelação - Taça Revelação Sub-23" },
+            { season: "2020/21", team: "Portimonense S.C. Sub-23", category: "Liga Revelação" },
+            { season: "2019/20", team: "G.D. Estoril Praia Sub-23", category: "Liga Revelação" },
+            { season: "2018/19", team: "G.D. Estoril Praia Sub-23", category: "Liga Revelação - Taça Revelação Sub-23" }
+            
+
+         ],
+
+         stats: {
+            "2024/25": {
+                liga: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 37, goles_marcados: 5, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 9, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "alexmillan": {
+        name: "Alejandro Millán Iranzo",
+        footballName: "Álex Millán",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/6pm4JqHM/Alex-Millan-PNG.webp", 
+    personalData: {
+        fullName: "Alejandro Millán Iranzo",
+        nickname: "Álex Millán",
+        birthPlace: "Zaragoza, Zaragoza",
+        country: "España",
+        nationality: "Española",
+        height: "1,82 m",
+        birthDate: "07/11/1999",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "F.C. Cartagena", category: "2ª Div." },
+            { season: "2024/25", team: "S.C. Farense", category: "Liga Portugal Betclic - Taça de Portugal" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Villarreal C.F. B", category: "2ª Div." },
+            { season: "2022/23", team: "F.C. Famalicão", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2021/22", team: "Royal Union Saint-Gilloise", category: "Liga Belga" },
+            { season: "2021/22", team: "Cercle Brugge K.S.V.", category: "Liga Belga - Copa Belga" },
+            { season: "2020/21", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Villarreal C.F. C", category: "3ª Div." },
+            { season: "2018/19", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Villarreal C.F. C", category: "3ª Div." },
+            { season: "2016/17", team: "Villarreal C.F. Sub-19", category: "Copa de Campeones División de Honor" }
+            
+
+         ],
+
+         nationalTeam: [
+            { season: "2017", team: "España Sub-18", category: "Amistosos" },
+            { season: "2016", team: "España Sub-17", category: "Europeo Sub-17 - Amistosos" },
+            { season: "2015", team: "España Sub-17", category: "Clasf. Europeo Sub-17 - Amistosos" },
+            { season: "2015", team: "España Sub-16", category: "Amistosos" }
+             
+        ],
+
+         stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 8, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2023/24": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
+    "santimiguelez": {
+        name: "Santiago Miguélez Sánchez",
+        footballName: "Santi Miguélez",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/0Q0PdXFL/Santi_Miguélez_PNG.webp", 
+    personalData: {
+        fullName: "Santiago Miguélez Sánchez",
+        nickname: "Santi Miguélez",
+        birthPlace: "Oviedo, Asturias",
+        country: "España",
+        nationality: "Española",
+        height: "1,87 m",
+        birthDate: "05/04/2002",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Real Unión Club", category: "Copa Federación Fase Autonómica - 2ª Federación" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "At. Madrileño", category: "2ª Federación - 2 ª Federacción Prom. de Ascenso" },
+            { season: "2021/22", team: "At. Madrileño", category: "3ª Federación" },
+            { season: "2020/21", team: "Burgos C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2020/21", team: "Burgos C.F. Sub-19", category: "División de Honor" },
+            { season: "2019/20", team: "C.D. Covadonga", category: "3ª Div. Prom. de Ascenso" }
+            
+         ],
+
+         stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
              
         }
@@ -3176,6 +3333,51 @@ const playersData = {
                 copa: { partidos_entrenados: 2, victorias: 1, empates: 0, derrotas: 1 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
+    "javicalleja": {
+        name: "Javier Calleja Revilla",
+        footballName: "Javi Calleja",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/pjBqgb66/Javi-Calleja-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Javier Calleja Revilla",
+            nickname: "Javi Calleja",
+            birthPlace: "Madrid, Madrid",
+            country: "España", 
+            nationality: "Española",
+            height: "1,71 m",
+            birthDate: "12/05/1978",
+            deathDate: null // Poner null si el jugador está vivo
+        },
+        career: [
+            { season: "2025/26", team: "Al-Riyadh S.C.", category: "Liga Saudí - Copa del Rey Saudí" },
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Levante U.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Levante U.D.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2021/22", team: "Deportivo Alavés", category: "1ª Div." },
+            { season: "2020/21", team: "Deportivo Alavés", category: "1ª Div." },
+            { season: "2019/20", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2017/18", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2017/18", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2016/17", team: "Villarreal C.F. Sub-19", category: "División de Honor - Copa de Campeones División de Honor" },
+            { season: "2015/16", team: "Villarreal C.F. Sub-19", category: "División de Honor - UEFA Youth League - Copa del Rey Juvenil - Copa de Campeones División de Honor" }
+            
+            
+        ],
+
+        stats: {
+            
+            "2024/25": {
+                liga: { partidos_entrenados: 32, victorias: 14, empates: 9, derrotas: 9 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 8, victorias: 3, empates: 2, derrotas: 3 }
             }
         }
     },
