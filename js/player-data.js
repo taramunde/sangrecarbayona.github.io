@@ -1554,6 +1554,50 @@ const playersData = {
         }
     },
 
+        "charbel": {
+        name: "Charbel Anthuan Wehbe González",
+        footballName: "Charbel",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/KjdChGhC/Charbel_PNG.webp",
+        personalData: {
+            fullName: "Charbel Anthuan Wehbe González",
+            nickname: "Charbel",
+            birthPlace: "Santo Domingo, Santo Domingo",
+            country: "República Dominicana",
+            nationality: "Dominicana",
+            height: "1,83 m",
+            birthDate: "08/05/2004",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Castellón B", category: "2ª Federación" },
+            { season: "2024/25", team: "U.D. Llanera", category: "2ª Federación" },
+            { season: "2024/25", team: "A.D. Mérida", category: "1ª Federación" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2021/22", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19 B", category: "Liga Nacional" }
+        ],
+        nationalTeam: [
+            { season: "2025", team: "República Dominicana", category: "CONCACAF Series" },
+            { season: "2024", team: "República Dominicana", category: "Clasif. Mundial CONCACAF - Amistosos" },
+            { season: "2022", team: "República Dominicana Sub-20", category: "Campeonato de la CONCACAF Sub-20" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
