@@ -1598,6 +1598,92 @@ const playersData = {
         }
     },
 
+        "aimarcollante": {
+        name: "Aimar Collante Coronado",
+        footballName: "Aimar Collante",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/fbJ7mx9j/Aimar-Collante-PNG.webp",
+        personalData: {
+            fullName: "Aimar Collante Coronado",
+            nickname: "Aimar Collante",
+            birthPlace: "Elorz, Navarra",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "10/02/2002",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Tudelano", category: "2ª Federación" },
+            { season: "2024/25", team: "S.D. Gernika", category: "Copa Federación Fase Autonómica - 2ª Federación" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "U.D. Mutilvera", category: "Copa Federación Fase Autonómica - 2ª Federación" },
+            { season: "2021/22", team: "U.D. Mutilvera", category: "Copa Federación Fase Autonómica - 2ª Federación" },
+            { season: "2020/21", team: "C.D. Pamplona", category: "3ª Div." },
+            { season: "2020/21", team: "C.D. Pamplona Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "osky": {
+        name: "Óscar Menéndez Carracedo",
+        footballName: "Osky",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/2SMp47tC/Osky_PNG.webp",
+        personalData: {
+            fullName: "Óscar Menéndez Carracedo",
+            nickname: "Osky",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,76 m",
+            birthDate: "13/02/2004",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Avilés Industrial", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "Real Avilés Industrial", category: "Copa Federación - Copa Federación Fase Autonómica - 2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19 B", category: "Liga Nacional" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
