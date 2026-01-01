@@ -1503,6 +1503,57 @@ const playersData = {
         }
     },
 
+    "abelbretones": {
+        name: "Abel Bretones Cruz",
+        footballName: "Abel Bretones",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/7LbTGw25/Abel-Bretones-PNG.webp", 
+    personalData: {
+        fullName: "Abel Bretones Cruz",
+        nickname: "Abel Bretones",
+        birthPlace: "Langreo, Asturias",
+        country: "España",
+        nationality: "Española",
+        height: "1,88 m",
+        birthDate: "21/08/2000",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2020/21", team: "U.P. de Langreo", category: "2ª Div. B - Copa Federación - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "U.P. de Langreo B", category: "1ª RFFPA" },
+            { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B" },
+            { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B" }
+            
+            
+        ],
+
+        
+        stats: {
+            "2023/24": {
+                liga: { partidos: 43, goles_marcados: 1, tarjetas_amarillas: 10, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 39, goles_marcados: 0, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+            
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
