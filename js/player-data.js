@@ -3131,8 +3131,151 @@ const playersData = {
         }
     },
 
-    
+    "luismi2023": {
+        name: "Luis Miguel Sánchez Benítez",
+        footballName: "Luismi",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/ydshDwst/Luismi_(casco)_PNG.webp",
+        personalData: {
+            fullName: "Luis Miguel Sánchez Benítez",
+            nickname: "Luismi",
+            birthPlace: "Puerto Serrano, Cádiz",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "05/05/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Málaga C.F.", category: "2ª Div." },
+            { season: "2024/25", team: "Málaga C.F.", category: "2ª Div." },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Elche C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Valladolid C.F.", category: "1ª Div." },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Valladolid C.F.", category: "Copa del Rey" },
+            { season: "2018/19", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2016/17", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Sevilla F.C.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa Europa" },
+            { season: "2014/15", team: "Sevilla At.", category: "2ª Div. B" },
+            { season: "2014/15", team: "Sevilla F.C.", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Sevilla F.C.", category: "1ª Div. - Europa League" },
+            { season: "2013/14", team: "Sevilla At.", category: "2ª Div. B" },
+            { season: "2012/13", team: "Sevilla At.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 24, goles_marcados: 0, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 31, goles_marcados: 1, tarjetas_amarillas: 16, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 32, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 19, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
 
+    "jimmy": {
+        name: "Jaime Suárez Juesas",
+        footballName: "Jimmy",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/qMxTnKsF/Jimmy_PNG.webp",
+        personalData: {
+            fullName: "Jaime Suárez Juesas",
+            nickname: "Jimmy",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,70 m",
+            birthDate: "31/12/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "A.E.K. Larnaca", category: "Liga Chipre - Fase Previa Europa League - Supercopa de Chipre - Conference League" },
+            { season: "2024/25", team: "A.E.K. Larnaca", category: "Liga Chipre - Copa de Chipre - Fase Previa Conference League" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2015/16", team: "Astur C.F.", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 31, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 23, goles_marcados: 1, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 35, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 23, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 10, goles_marcados: 0, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+    
     // DELANTEROS
 
     "ilyas": {
