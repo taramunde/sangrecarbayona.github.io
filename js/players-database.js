@@ -1905,7 +1905,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/JzmHRjx4/Luis_PNG.webp",
         "alt": "Defensa",
         "number": "-",
-        "name": "Luismi",
+        "name": "Luis",
         "url": "fichajugador.html?player=luis2004"
     },
     "manu": {
