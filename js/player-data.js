@@ -3370,6 +3370,88 @@ const playersData = {
         }
     },
 
+        "javimier": {
+        name: "Javier Mier Martínez",
+        footballName: "Javi Mier",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/sxFrP9Hk/Javi_Mier_PNG.webp",
+        personalData: {
+            fullName: "Javier Mier Martínez",
+            nickname: "Javi Mier",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,76 m",
+            birthDate: "04/02/1999",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo Vetusta", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2015", team: "España Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" },
+            { season: "2015", team: "España Sub-16", category: "Amistosos" },
+            { season: "2014", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 10, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 27, goles_marcados: 2, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 24, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 1 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
