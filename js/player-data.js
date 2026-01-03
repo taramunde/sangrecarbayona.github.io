@@ -3452,6 +3452,116 @@ const playersData = {
         }
     },
 
+        "camarasa": {
+        name: "Víctor Camarasa Ferrando",
+        footballName: "Camarasa",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/zfq09L69/Camarasa_PNG.webp",
+        personalData: {
+            fullName: "Víctor Camarasa Ferrando",
+            nickname: "Camarasa",
+            birthPlace: "Meliana, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "28/05/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Debreceni V.S.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2024/25", team: "C.D. Eldense", category: "2ª Div." },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Deportivo Alavés", category: "1ª Div." },
+            { season: "2019/20", team: "Crystal Palace F.C.", category: "Premier League - EFL Cup" },
+            { season: "2018/19", team: "Cardiff City F.C.", category: "Premier League - EFL Cup" },
+            { season: "2017/18", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Deportivo Alavés", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Levante U.D.", category: "1ª Div." },
+            { season: "2014/15", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "At. Levante", category: "2ª Div. B" },
+            { season: "2012/13", team: "At. Levante", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2017", team: "España Sub-21", category: "Amistosos" },
+            { season: "2016", team: "España Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2015", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2014", team: "España Sub-21", category: "Amistosos" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 10, goles_marcados: 2, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 11, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "hugorama": {
+        name: "Hugo José Rama Calviño",
+        footballName: "Hugo Rama",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/j51VxQrW/Hugo_Rama_PNG.webp",
+        personalData: {
+            fullName: "Hugo José Rama Calviño",
+            nickname: "Hugo Rama",
+            birthPlace: "Oroso, La Coruña",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "22/11/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "R.C. Deportivo de La Coruña", category: "1ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2018/19", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "C.C.D. Cerceda", category: "2ª Div. B" },
+            { season: "2016/17", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
+            { season: "2015/16", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
+            { season: "2014/15", team: "R.C. Deportivo de La Coruña Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 34, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 10, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
