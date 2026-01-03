@@ -3562,6 +3562,107 @@ const playersData = {
         }
     },
 
+        "homenchenko": {
+        name: "Santiago Damián Homenchenko Bianchi",
+        footballName: "Homenchenko",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Tw1MvNBM/Homenchenko_PNG.webp",
+        personalData: {
+            fullName: "Santiago Damián Homenchenko Bianchi",
+            nickname: "Homenchenko",
+            birthPlace: "Mercedes, Soriano",
+            country: "Uruguay",
+            nationality: "Uruguaya",
+            height: "1,85 m",
+            birthDate: "30/08/2003",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Querétaro F.C. Femenil", category: "Liga MX Apert." },
+            { season: "2025/26", team: "C.F. Pachuca", category: "Liga MX Apert." },
+            { season: "2024/25", team: "C.F. Pachuca", category: "Mundial de Clubes - Liga MX Claus. - Etapas Finales Claus. MX" },
+            { season: "2024/25", team: "C.F. Pachuca Sub-23", category: "Liga MX Sub-23 Claus." },
+            { season: "2024/25", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "C.A. Peñarol", category: "Copa Uruguay" },
+            { season: "2022/23", team: "C.A. Peñarol", category: "Apert. Uruguay - Claus. Uruguay - Conmebol Sudamericana - Uruguay Final de Campeones - Fase Previa Conmebol Sudamericana - Torneo Intermedio Uruguay - Copa Uruguay" },
+            { season: "2022/23", team: "C.A. Peñarol Sub-20", category: "Copa Libertadores Sub-20 - Copa Intercontinental Sub-20" },
+            { season: "2021/22", team: "C.A. Peñarol", category: "Claus. Uruguay" },
+            { season: "2021/22", team: "C.A. Peñarol", category: "Copa Libertadores Sub-20" },
+            { season: "2020/21", team: "C. Plaza Colonia de Deportes", category: "Apert. Uruguay" }
+        ],
+        nationalTeam: [
+            { season: "2025", team: "Uruguay", category: "Amistosos" },
+            { season: "2024", team: "Uruguay Sub-23", category: "Torneo Preolímpico Sudamericano - Amistosos" },
+            { season: "2023", team: "Uruguay Sub-20", category: "Mundial Sub-20 - Amistosos" },
+            { season: "2022", team: "Uruguay Sub-20", category: "Juegos Suramericanos" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "romarioibarra": {
+        name: "Romario Andrés Ibarra Mina",
+        footballName: "Romario Ibarra",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/4dQDtkt9/Romario_Ibarra_PNG.webp",
+        personalData: {
+            fullName: "Romario Andrés Ibarra Mina",
+            nickname: "Romario Ibarra",
+            birthPlace: "Atuntaqui, Imbabura",
+            country: "Ecuador",
+            nationality: "Ecuatoriana",
+            height: "1,76 m",
+            birthDate: "24/09/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Vinotinto del Ecuador F.C.", category: "Serie A Ecuador" },
+            { season: "2024/25", team: "C.D. Independiente del Valle", category: "Copa Libertadores - Serie A Ecuador" },
+            { season: "2023/24", team: "C.D. Independiente del Valle", category: "Serie A 1ª Etapa - Serie A 2ª Etapa - Copa Libertadores - Conmebol Sudamericana - Serie A Etapas Finales - Copa Ecuador" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "C.F. Pachuca Sub-20", category: "Liga MX Sub-20 Claus." },
+            { season: "2022/23", team: "C.F. Pachuca", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Claus. MX - CONCACAF Champs. Cup - Etapas Finales Apert. MX" },
+            { season: "2021/22", team: "C.F. Pachuca", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Claus. MX" },
+            { season: "2020/21", team: "C.F. Pachuca Sub-20", category: "Liga MX Sub-20 Claus." },
+            { season: "2020/21", team: "C.F. Pachuca", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Claus. MX" },
+            { season: "2019/20", team: "C.F. Pachuca", category: "Liga MX Apert. - Liga MX Claus. - Copa MX" },
+            { season: "2018/19", team: "Minnesota United F.C.", category: "MLS Liga USA - US Open Cup" },
+            { season: "2017/18", team: "Minnesota United F.C.", category: "MLS Liga USA" },
+            { season: "2017/18", team: "C.D. Universidad Católica", category: "Serie A 1ª Etapa" },
+            { season: "2016/17", team: "C.D. Universidad Católica", category: "Serie A 1ª Etapa - Serie A 2ª Etapa - Conmebol Sudamericana" },
+            { season: "2015/16", team: "C.D. Universidad Católica", category: "Serie A 1ª Etapa - Serie A 2ª Etapa - Conmebol Sudamericana" },
+            { season: "2014/15", team: "C.D. Universidad Católica", category: "Serie A 1ª Etapa - Serie A 2ª Etapa - Conmebol Sudamericana" },
+            { season: "2013/14", team: "C.D. Universidad Católica", category: "Serie A 1ª Etapa - Serie A 2ª Etapa" },
+            { season: "2012/13", team: "L.D.U. de Quito", category: "Serie A 2ª Etapa" }
+        ],
+        nationalTeam: [
+            { season: "2022", team: "Ecuador", category: "Clasif. Mundial Sudamérica - Mundial - Amistosos" },
+            { season: "2020", team: "Ecuador", category: "Clasif. Mundial Sudamérica" },
+            { season: "2019", team: "Ecuador", category: "Copa América - Amistosos" },
+            { season: "2018", team: "Ecuador", category: "Amistosos" },
+            { season: "2017", team: "Ecuador", category: "Clasif. Mundial Sudamérica" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
