@@ -239,7 +239,7 @@ const enfrentamientos = [
   { equipo1: "Real Sociedad", equipo2: "Atlético de Madrid", goles1: null, goles2: null },
   { equipo1: "R.C.D. Espanyol", equipo2: "F.C. Barcelona", goles1: null, goles2: null },
   { equipo1: "Real Madrid", equipo2: "Real Betis", goles1: null, goles2: null },
-  { equipo1: "Rayo Vallecano", equipo2: "Getafe C.F.", goles1: null, goles2: null },
+  { equipo1: "Rayo Vallecano", equipo2: "Getafe C.F.", goles1: 1, goles2: 1 },
   { equipo1: "R.C.D. Mallorca", equipo2: "Girona F.C.", goles1: null, goles2: null },
   { equipo1: "Sevilla F.C.", equipo2: "Levante U.D.", goles1: null, goles2: null },
   
