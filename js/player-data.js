@@ -3759,6 +3759,255 @@ const playersData = {
         }
     },
 
+        "borjabaston": {
+        name: "Borja González Tomás",
+        footballName: "Borja Bastón",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/3rfTZGWf/Borja-Baston-PNG.webp",
+        personalData: {
+            fullName: "Borja González Tomás",
+            nickname: "Borja Bastón",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "25/08/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Granada C.F.", category: "2ª Div." },
+            { season: "2024/25", team: "C.F. Pachuca", category: "Liga MX Apert. - Copa Intercontinental de la FIFA" },
+            { season: "2023/24", team: "C.F. Pachuca", category: "Leagues Cup" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2019/20", team: "Aston Villa F.C.", category: "Premier League" },
+            { season: "2019/20", team: "Swansea City A.F.C.", category: "Championship - FA Cup - EFL Cup" },
+            { season: "2018/19", team: "Deportivo Alavés", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Swansea City A.F.C.", category: "Premier League - FA Cup - EFL Cup" },
+            { season: "2015/16", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "At. Madrileño", category: "2ª Div. B" },
+            { season: "2010/11", team: "At. de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "At. de Madrid", category: "1ª Div." },
+            { season: "2009/10", team: "At. Madrileño", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2011", team: "España Sub-19", category: "Europeo Sub-19" },
+            { season: "2009", team: "España Sub-17", category: "Mundial Sub-17 - Europeo Sub-17 - Clasif. Europeo Sub-17 -  Amistosos" },
+            { season: "2008", team: "España Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" },
+            { season: "2008", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 42, goles_marcados: 10, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 33, goles_marcados: 8, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 2, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 40, goles_marcados: 22, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "dubasin": {
+        name: "Jonathan Dubasin",
+        footballName: "Dubasin",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/R02PFM0R/Dubasin_PNG.webp",
+        personalData: {
+            fullName: "Jonathan Dubasin",
+            nickname: "Dubasin",
+            birthPlace: "Seo de Urgel, Lérida",
+            country: "España",
+            nationality: "Española, Belga",
+            height: "1,81 m",
+            birthDate: "02/02/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "F.C. Basilea", category: "Liga Suiza - Copa Suiza" },
+            { season: "2022/23", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2021/22", team: "U.D. Logroñés", category: "Copa del Rey - 1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "Som Maresme F.C.", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "U.E. Figueres", category: "3ª Div." }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 23, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "enol": {
+        name: "Enol Rodríguez Heres",
+        footballName: "Enol",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/TYQCbjwh/Enol_PNG.webp",
+        personalData: {
+            fullName: "Enol Rodríguez Heres",
+            nickname: "Enol",
+            birthPlace: "Candás, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,87 m",
+            birthDate: "28/07/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "C.D. Arenteiro", category: "1ª Federación" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "U.D. Logroñés Sub-19", category: "División de Honor" },
+            { season: "2021/22", team: "U.D. Logroñés Promesas", category: "2ª Federación" },
+            { season: "2021/22", team: "U.D. Logroñés", category: "1ª Federación" },
+            { season: "2020/21", team: "Club Marino de Luanco", category: "2ª Div. B - Copa Federación Fase Autonómica - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "Club Marino de Luanco", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "sese": {
+        name: "Mario Sesé Vera",
+        footballName: "Sesé",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/2y305Pxm/Sesé_PNG.webp",
+        personalData: {
+            fullName: "Mario Sesé Vera",
+            nickname: "Sesé",
+            birthPlace: "Cuart de Poblet, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "30/08/2002",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "At. Levante U.D.", category: "3ª Federación" },
+            { season: "2024/25", team: "Real Valladolid Promesas", category: "2ª Federación" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "U.D. Alzira", category: "Copa del Rey - 2ª Federación" },
+            { season: "2020/21", team: "U.D. Alzira", category: "3ª Div." },
+            { season: "2020/21", team: "U.D. Alzira Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 8, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "mariofuente": {
+        name: "Mario Fuente Fernández",
+        footballName: "Mario Fuente",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/kXjLCPWj/Mario_Fuente_PNG.webp",
+        personalData: {
+            fullName: "Mario Fuente Fernández",
+            nickname: "Mario Fuente",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "19/06/2004",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "S.D. Eibar C", category: "3ª Federación" },
+            { season: "2024/25", team: "Rayo Cantabria", category: "2ª Federación" },
+            { season: "2023/24", team: "Gran Peña F.C.", category: "3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "R.C. Celta de Vigo Fortuna", category: "1ª Federación" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19 B", category: "Liga Nacional" }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2022/23": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DELANTEROS
 
     "ilyas": {
