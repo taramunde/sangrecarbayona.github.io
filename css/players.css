@@ -201,6 +201,31 @@ body:not([data-season="2025-26"]) .player-name {
     flex: none; /* Evita que se estire */
 }
 
+/* ======================================================
+   CORRECCIONES MANUALES DE ENCUADRE (SOLO SI ES NECESARIO)
+   Añade estas clases a la etiqueta <img> en el HTML
+   ====================================================== */
+
+/* Usar si al jugador se le corta la frente (baja la foto un poco) */
+body:not([data-season="2025-26"]) img.bajar-foco {
+    object-position: center 20% !important; 
+}
+
+/* Usar si al jugador se le ve mucho cielo/fondo y la cara está muy abajo */
+body:not([data-season="2025-26"]) img.subir-foco {
+    object-position: center 40% !important; 
+}
+
+/* Usar si la cara está centrada perfectamente en la foto original */
+body:not([data-season="2025-26"]) img.centrar-foco {
+    object-position: center center !important;
+}
+
+/* Usar si la foto está muy cerca (zoom out ligero) */
+body:not([data-season="2025-26"]) img.alejar {
+    transform: scale(0.9); /* Reduce un poco la imagen */
+}
+
 /* Responsividad */
 @media screen and (max-width: 768px) {
     .players-title {
