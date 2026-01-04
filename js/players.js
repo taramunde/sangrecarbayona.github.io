@@ -58,8 +58,8 @@ function updatePlayerGallery(position) {
     const currentIndex = currentIndices[position];
 
     let mainPlayerHTML = `
-        <div class="player-card">
-            <img class="main-player" data-position="${position}" src="${players[currentIndex].src}" alt="${players[currentIndex].alt}">
+    <div class="player-card">
+        <img class="main-player ${players[currentIndex].ajusteFoto || ''}" data-position="${position}" src="${players[currentIndex].src}" alt="${players[currentIndex].alt}">
             <div class="player-info">
                 <div class="player-details">
                     <span class="player-number">${players[currentIndex].number}</span>
@@ -73,8 +73,8 @@ function updatePlayerGallery(position) {
     let nextPlayerHTML = '';
     if (currentIndex < players.length - 1) {
         nextPlayerHTML = `
-            <div class="player-card">
-                <img class="next-player faded" data-position="${position}" src="${players[currentIndex + 1].src}" alt="${players[currentIndex + 1].alt}">
+    <div class="player-card">
+        <img class="next-player faded ${players[currentIndex + 1].ajusteFoto || ''}" data-position="${position}" src="${players[currentIndex + 1].src}" alt="${players[currentIndex + 1].alt}">
                 <div class="player-info">
                     <div class="player-details">
                         <span class="player-number">${players[currentIndex + 1].number}</span>

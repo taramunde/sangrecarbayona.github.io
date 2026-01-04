@@ -843,12 +843,13 @@ const playersDatabase = {
         "url": "fichajugador.html?player=cheno"
     },
     "oscar1935": {
-        "src": "https://i.postimg.cc/v8p7JPNJ/Óscar_PNG.webp",
-        "alt": "Portero",
-        "number": "-",
-        "name": "Óscar",
-        "url": "fichajugador.html?player=oscar1935"
-    },
+    "src": "https://i.postimg.cc/v8p7JPNJ/Óscar_PNG.webp",
+    "alt": "Portero",
+    "number": "-",
+    "name": "Óscar",
+    "url": "fichajugador.html?player=oscar1935",
+    "ajusteFoto": "cara-abajo-media"
+},
     "hector": {
         "src": "https://i.postimg.cc/4xH5KDhN/Héctor_PNG.webp",
         "alt": "Portero",

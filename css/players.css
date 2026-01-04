@@ -206,19 +206,62 @@ body:not([data-season="2025-26"]) .player-name {
    Añade estas clases a la etiqueta <img> en el HTML
    ====================================================== */
 
-/* Usar si al jugador se le corta la frente (baja la foto un poco) */
-body:not([data-season="2025-26"]) img.bajar-foco {
-    object-position: center 20% !important; 
+/* Sistema de posicionamiento fino - Vertical */
+body:not([data-season="2025-26"]) img.cara-arriba {
+    object-position: center 10% !important; /* Para caras en la parte superior */
 }
 
-/* Usar si al jugador se le ve mucho cielo/fondo y la cara está muy abajo */
-body:not([data-season="2025-26"]) img.subir-foco {
-    object-position: center 40% !important; 
+body:not([data-season="2025-26"]) img.cara-arriba-media {
+    object-position: center 25% !important; /* Un poco más abajo */
 }
 
-/* Usar si la cara está centrada perfectamente en la foto original */
-body:not([data-season="2025-26"]) img.centrar-foco {
-    object-position: center center !important;
+body:not([data-season="2025-26"]) img.cara-centro {
+    object-position: center 40% !important; /* Centro exacto */
+}
+
+body:not([data-season="2025-26"]) img.cara-abajo-media {
+    object-position: center 55% !important; /* Un poco más abajo del centro */
+}
+
+body:not([data-season="2025-26"]) img.cara-abajo {
+    object-position: center 70% !important; /* Para caras en la parte inferior */
+}
+
+/* Sistema de zoom - Escala */
+body:not([data-season="2025-26"]) img.zoom-in {
+    transform: scale(1.15); /* Acerca la imagen un 15% */
+}
+
+body:not([data-season="2025-26"]) img.zoom-in-suave {
+    transform: scale(1.08); /* Acerca la imagen un 8% */
+}
+
+body:not([data-season="2025-26"]) img.zoom-out {
+    transform: scale(0.92); /* Aleja la imagen un 8% */
+}
+
+body:not([data-season="2025-26"]) img.zoom-out-fuerte {
+    transform: scale(0.85); /* Aleja la imagen un 15% */
+}
+
+/* Combinaciones comunes (puedes usar múltiples clases) */
+body:not([data-season="2025-26"]) img.cara-arriba.zoom-in {
+    object-position: center 10% !important;
+    transform: scale(1.15);
+}
+
+body:not([data-season="2025-26"]) img.cara-centro.zoom-out {
+    object-position: center 40% !important;
+    transform: scale(0.92);
+}
+
+/* Ajustes horizontales (para fotos ladeadas) */
+body:not([data-season="2025-26"]) img.izquierda {
+    object-position: 40% center !important;
+}
+
+body:not([data-season="2025-26"]) img.derecha {
+    object-position: 60% center !important;
 }
 
 /* Usar si la foto está muy cerca (zoom out ligero) */
