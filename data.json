@@ -1,13 +1,13 @@
 {
-  "jornada": "17 LaLiga EA Sports 2025/26",
+  "jornada": "18 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "OVI",
-    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "visitor": "CEL",
-    "visitorImg": "https://i.postimg.cc/GtF1h6kz/R.C._Celta_de_Vigo_(2016).jpg",
-    "score": "0 - 0",
-    "date": "Sáb. 20 Dic, 14:00",
-    "time": "Carlos Tartiere"
+    "home": "ALA",
+    "homeImg": "https://i.postimg.cc/Jzk39hHH/Alav-s.jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "score": " - ",
+    "date": "Dom. 04 Ene, 18:30",
+    "time": "Mendizorroza"
   },
   "nextMatch": {
     "home": "ALA",
