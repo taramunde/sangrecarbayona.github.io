@@ -241,7 +241,7 @@ const enfrentamientos = [
   { equipo1: "Real Madrid", equipo2: "Real Betis", goles1: null, goles2: null },
   { equipo1: "Rayo Vallecano", equipo2: "Getafe C.F.", goles1: 1, goles2: 1 },
   { equipo1: "R.C.D. Mallorca", equipo2: "Girona F.C.", goles1: null, goles2: null },
-  { equipo1: "Sevilla F.C.", equipo2: "Levante U.D.", goles1: null, goles2: null },
+  { equipo1: "Sevilla F.C.", equipo2: "Levante U.D.", goles1: 0, goles2: 3 },
   
   // Jornada 19
   { equipo1: "Athletic Club", equipo2: "Real Madrid", goles1: 0, goles2: 3 },
