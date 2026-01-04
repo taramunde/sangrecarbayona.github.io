@@ -4642,6 +4642,66 @@ const playersData = {
         }
     },
 
+        "alvarocervera": {
+        name: "Álvaro Cervera Díaz",
+        footballName: "Álvaro Cervera",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/RkNqr49R/lvaro-Cervera-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Álvaro Cervera Díaz",
+            nickname: "Álvaro Cervera",
+            birthPlace: "Santa Isabel, Fernando Poo",
+            country: "España",
+            nationality: "Española, Ecuatoguineana",
+            height: "1,75 m",
+            birthDate: "20/09/1965",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Tenerife", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Cádiz C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Cádiz C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Cádiz C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "C.D. Tenerife", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "R. Racing Club de Santander", category: "1ª Div." },
+            { season: "2011/12", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Real Unión Club", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "R.C. Recreativo de Huelva", category: "2ª Div." },
+            { season: "2009/10", team: "Real Jaén C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "C.F. Independiente Alicante", category: "2ª Div. B - Copa del Rey" },
+            { season: "2006/07", team: "U.D. Almansa", category: "3ª Div." },
+            { season: "2005/06", team: "C.D. Castellón", category: "2ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "Catarroja C.F.", category: "3ª Div." },
+            { season: "2003/04", team: "Villarreal C.F. B", category: "3ª Div." }
+        ],
+        stats: {
+            "2023/24": {
+                liga: { partidos_entrenados: 6, victorias: 0, empates: 3, derrotas: 3 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 6, victorias: 4, empates: 1, derrotas: 1 }
+            },
+            "2022/23": {
+                liga: { partidos_entrenados: 31, victorias: 14, empates: 7, derrotas: 10 },
+                copa: { partidos_entrenados: 3, victorias: 2, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "javicalleja": {
         name: "Javier Calleja Revilla",
         footballName: "Javi Calleja",
