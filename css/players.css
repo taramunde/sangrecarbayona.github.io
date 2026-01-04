@@ -149,6 +149,58 @@ body[data-season="2025-26"] .player-card {
     background: transparent !important;
 }
 
+/* ======================================================
+   ESTILOS PARA TEMPORADAS ANTERIORES (DISEÑO CIRCULAR)
+   Aplica a todo lo que NO sea la temporada 2025-26
+   ====================================================== */
+
+body:not([data-season="2025-26"]) .players-gallery img {
+    /* Hacemos la imagen perfectamente redonda */
+    width: 160px;        /* Ancho fijo cuadrado */
+    height: 160px;       /* Alto igual al ancho */
+    border-radius: 50%;  /* Esto crea el círculo */
+    
+    /* Enfoque en la cara */
+    object-fit: cover;           /* Recorta la imagen para llenar el círculo */
+    object-position: top center; /* CRUCIAL: Alinea la imagen arriba para ver la cara, no el pecho */
+    
+    /* Estilo del borde */
+    border: 3px solid #0e0eec;   /* Borde azul solicitado */
+    
+    /* Separación con la info de abajo */
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave para dar relieve */
+}
+
+/* Ajustamos la caja de información para que deje de parecer una "ficha cortada" */
+body:not([data-season="2025-26"]) .player-info {
+    border: none;           /* Quitamos los bordes cuadrados */
+    background: transparent; /* Fondo transparente */
+    width: 100%;            /* Ancho completo */
+    min-height: auto;       /* Altura automática */
+    padding: 0;             /* Quitamos padding innecesario */
+    align-items: center;    /* Centramos todo verticalmente */
+}
+
+body:not([data-season="2025-26"]) .player-card {
+    /* Aseguramos que la tarjeta no tenga fondo y permita centrar el contenido */
+    background: transparent;
+    gap: 5px; /* Espacio entre elementos */
+}
+
+body:not([data-season="2025-26"]) .player-details {
+    /* Centramos el número y el nombre */
+    justify-content: center;
+    width: 100%;
+}
+
+body:not([data-season="2025-26"]) .player-name {
+    /* Ajuste para que el nombre se vea bien bajo el círculo */
+    text-align: center;
+    font-size: 15px;
+    flex: none; /* Evita que se estire */
+}
+
 /* Responsividad */
 @media screen and (max-width: 768px) {
     .players-title {
@@ -182,6 +234,11 @@ body[data-season="2025-26"] .player-card {
     }
     .players-gallery {
         max-width: 340px;
+    }
+
+    body:not([data-season="2025-26"]) .players-gallery img {
+        width: 140px;
+        height: 140px;
     }
 }
 
@@ -227,5 +284,14 @@ body[data-season="2025-26"] .player-card {
     .nav-button {
         padding: 3px 8px;
         font-size: 14px;
+    }
+
+    body:not([data-season="2025-26"]) .players-gallery img {
+        width: 130px;
+        height: 130px;
+    }
+
+    body:not([data-season="2025-26"]) .player-card {
+        width: 140px; /* Ajustamos el ancho del contenedor */
     }
 }
