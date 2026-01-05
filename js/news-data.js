@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/YCLwsNHk/J_17_oviedo_celta_lva.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "Al Real Oviedo se le olvidó ganar.",
+        image: "https://i.postimg.cc/CKR0DhpT/j18-lva.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "No hay manera con este Real Oviedo.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2025/12/20/oviedo-celta/00031766239307317499299.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/01/04/cronica/00031767551865008203965.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/RFyYfyWc/J_17_Oviedo_Celta_LNE.jpg", // FOTO NOTICIA 2
-        title: "Más de lo mismo: un Oviedo sin gol firma otro empate insuficiente ante el Celta (0-0).",
-        author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2025/12/20/oviedo-gol-firma-empate-insuficiente-124994492.html"
+        image: "https://i.postimg.cc/L8TBcPXk/j18-lne.jpg", // FOTO NOTICIA 2
+        title: "Un Oviedo con brotes verdes se sacude el gafe del gol, pero falla mucho y lo paga caro en Mendizorroza (1-1)",
+        author: "JOAQUÍN ALONSO",
+        link: "https://www.lne.es/real-oviedo/2026/01/04/oviedo-sacude-gafe-gol-falla-125370770.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/D0C8BQK4/J_17_Oviedo_Celta_EC.webp", // FOTO NOTICIA 3
-        title: "La mejoría del Real Oviedo de Almada no basta para ganar al Celta.",
+        image: "https://i.postimg.cc/yd6Fnbjw/j18-ec.webp", // FOTO NOTICIA 3
+        title: "El mejor Oviedo del curso vuelve a perdonar.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/directo-real-oviedo-celta-vigo-liga-primera-20251220111100-di.html"
+        link: "https://www.elcomercio.es/real-oviedo/mejor-oviedo-curso-vuelve-perdonar-20260105213702-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/PxXX9LyS/J_17_Oviedo_Celta_KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Oviedo sigue incapaz de hacer gol ante un tímido Celta.",
+        image: "https://i.postimg.cc/CKR0DhpT/j18-lva.webp", // FOTO NOTICIA 4
+        title: "La Crónica: Un gran Oviedo se deja dos puntos en Mendizorroza.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-sigue-incapaz-de-hacer-gol-ante-un-timido-celta"
+        link: "https://killerasturias.com/cronicas/la-cronica-un-gran-oviedo-se-deja-dos-puntos-en-mendizorroza"
     }
 ];
 
