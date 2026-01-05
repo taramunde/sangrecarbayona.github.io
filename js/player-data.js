@@ -353,6 +353,65 @@ const playersData = {
         }
     },
 
+        "tomeunadal": {
+        name: "Bartolomé Nadal Mesquida",
+        footballName: "Tomeu Nadal",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/FK81Y63m/Tomeu-Nadal-PNG.webp",
+        personalData: {
+            fullName: "Bartolomé Nadal Mesquida",
+            nickname: "Tomeu Nadal",
+            birthPlace: "Manacor, Islas Baleares",
+            country: "España",
+            nationality: "Española",
+            height: "1,88 m",
+            birthDate: "08/02/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Burgos C.F.", category: "2ª Div." },
+            { season: "2024/25", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Albacete Balompié", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "R.C.D. Mallorca", category: "2ª Div." },
+            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Club Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Club Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Getafe C.F. B", category: "2ª Div. B" },
+            { season: "2011/12", team: "Getafe C.F.", category: "1ª Div." },
+            { season: "2011/12", team: "Getafe C.F. B", category: "2ª Div. B" },
+            { season: "2010/11", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2009/10", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2008/09", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "España Sub-20", category: "Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 17, goles_encajados: 17, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
