@@ -2002,6 +2002,54 @@ const playersData = {
         }
     },
 
+        "lucaslaso": {
+        name: "Lucas Laso Gutiérrez",
+        footballName: "Lucas Laso",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/1RnqBm4P/Lucas_Laso_PNG.webp",
+        personalData: {
+            fullName: "Lucas Laso Gutiérrez",
+            nickname: "Lucas Laso",
+            birthPlace: "Santander, Cantabria",
+            country: "España",
+            nationality: "Española",
+            height: "1,89 m",
+            birthDate: "04/01/2003",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2025/26", team: "Getafe C.F. B", category: "2ª Federación" },
+            { season: "2024/25", team: "C.D. Numancia", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2020", team: "España Sub-17", category: "Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
