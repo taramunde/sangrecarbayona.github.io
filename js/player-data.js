@@ -4501,7 +4501,8 @@ const playersData = {
         birthDate: "24/04/1999",
         deathDate: null // Poner null si el jugador está vivo
    },
-        career: [  
+        career: [ 
+            { season: "2025/26", team: "F.C. Rapid de Bucarest", category: "Liga Rumana" }, 
             { season: "2025/26", team: "Cultural y Deportiva Leonesa", category: "2ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2023/24", team: "A.F.C. Hermannstadt", category: "Liga Rumana - Copa Rumanía" },
