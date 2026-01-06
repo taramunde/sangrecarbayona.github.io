@@ -1838,6 +1838,76 @@ const playersData = {
         }
     },
 
+        "jorgemier": {
+        name: "Jorge Mier Martínez",
+        footballName: "Jorge Mier",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/dthTWq1w/Jorge_Mier_PNG.webp",
+        personalData: {
+            fullName: "Jorge Mier Martínez",
+            nickname: "Jorge Mier",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "04/02/1999",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Murcia C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "Real Murcia C.F.", category: "1ª Federación - Copa Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "S.D. Amorebieta", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "S.D. Amorebieta", category: "1ª Federación - Copa del Rey - 1ª Federación Final de Campeones" },
+            { season: "2021/22", team: "Unionistas de Salamanca C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
