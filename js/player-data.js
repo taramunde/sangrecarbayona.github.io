@@ -1743,6 +1743,101 @@ const playersData = {
         }
     },
 
+        "miguelon": {
+        name: "Miguel Juan Llambrich",
+        footballName: "Miguelón",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Wzwj8qkX/Miguelón_PNG.webp",
+        personalData: {
+            fullName: "Miguel Juan Llambrich",
+            nickname: "Miguelón",
+            birthPlace: "Benidorm, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,70 m",
+            birthDate: "18/01/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Torrent C.F.", category: "2ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "Torrent C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "C.D. Eldense", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "R.C.D. Espanyol", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2017/18", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2016/17", team: "Villarreal C.F. C", category: "3ª Div." },
+            { season: "2015/16", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2015/16", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Villarreal C.F. C", category: "3ª Div." },
+            { season: "2015/16", team: "Villarreal C.F. Sub-19", category: "UEFA Youth League" },
+            { season: "2013/14", team: "Villarreal C.F. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "alonsoaceves": {
+        name: "Daniel Alonso Aceves Patiño",
+        footballName: "Alonso Aceves",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/7Pg33Pfc/Alonso-Aceves-PNG.webp",
+        personalData: {
+            fullName: "Daniel Alonso Aceves Patiño",
+            nickname: "Alonso Aceves",
+            birthPlace: "Huixquilucan de Degollado, Estado de Méjico",
+            country: "Méjico",
+            nationality: "Mejicana",
+            height: "1,80 m",
+            birthDate: "28/03/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.F. Monterrey", category: "Copa Pacífica" },
+            { season: "2025/26", team: "C.F. Pachuca", category: "Liga MX Apert. - Etapas Finales Apert." },
+            { season: "2024/25", team: "C.F. Pachuca Sub-23", category: "Liga MX Sub-23 Claus." },
+            { season: "2024/25", team: "C.F. Pachuca", category: "Liga MX Apert. - Mundial de Clubes - Liga MX Claus. - Etapas Finales Claus. MX - Leagues Cup - Copa Intercontinental de la FIFA" },
+            { season: "2023/24", team: "C.F. Pachuca", category: "Liga MX Claus. - Etapas Finales Claus. MX - CONCACAF Champs. Cup - Leagues Cup " },
+            { season: "2022/23", team: "Chicago Fire F.C. II", category: "MLS Next Pro" },
+            { season: "2022/23", team: "Chicago Fire F.C.", category: "MLS Liga USA - US Open Cup - Leagues Cup" },
+            { season: "2022/23", team: "C.F. Pachuca Premier", category: "Liga Premier Serie A Claus." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "C.F. Pachuca", category: "Liga MX Apert." },
+            { season: "2021/22", team: "C.F. Pachuca", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Claus. MX" },
+            { season: "2021/22", team: "C.F. Pachuca Sub-20", category: "Liga MX Sub-20 Apert." },
+            { season: "2020/21", team: "C.F. Pachuca", category: "Liga MX Apert. - Liga MX Claus." },
+            { season: "2020/21", team: "C.F. Pachuca Sub-20", category: "Liga MX Sub-20 Claus. - Liga MX Sub-20 Apert." },
+            { season: "2019/20", team: "C.F. Pachuca Sub-20", category: "Liga MX Sub-20 Claus. - Liga MX Sub-20 Apert." },
+            { season: "2018/19", team: "C.F. Pachuca Sub-17", category: "Liga MX Sub-17 Claus. - Liga MX Sub-17 Apert." }
+        ],
+        nationalTeam: [
+            { season: "2022", team: "Méjico Sub-21", category: "Torneo Maurice Revello" },
+            { season: "2018", team: "Méjico Sub-18", category: "Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 10, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
