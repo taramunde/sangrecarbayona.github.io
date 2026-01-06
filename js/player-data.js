@@ -1908,6 +1908,100 @@ const playersData = {
         }
     },
 
+        "juanfran": {
+        name: "Juan Francisco Moreno Fuertes",
+        footballName: "Juanfran",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/4yqnC9dZ/Juanfran_PNG.webp",
+        personalData: {
+            fullName: "Juan Francisco Moreno Fuertes",
+            nickname: "Juanfran",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "11/09/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Alanyaspor", category: "Liga Turca - Copa Turca" },
+            { season: "2020/21", team: "Alanyaspor", category: "Liga Turca - Copa Turca - Fase Previa Europa League" },
+            { season: "2019/20", team: "Alanyaspor", category: "Liga Turca - Copa Turca" },
+            { season: "2018/19", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "R.C. Deportivo de La Coruña", category: "1ª Div." },
+            { season: "2014/15", team: "R.C. Deportivo de La Coruña", category: "1ª Div." },
+            { season: "2013/14", team: "Real Betis Balompié", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2012/13", team: "Real Madrid Castilla C.F.", category: "2ª Div." },
+            { season: "2011/12", team: "Real Madrid Castilla C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Real Madrid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Real Madrid Castilla C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Real Madrid C.F.", category: "1ª Div." },
+            { season: "2009/10", team: "Real Madrid Castilla C.F.", category: "2ª Div. B" },
+            { season: "2008/09", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "Getafe C.F.", category: "1ª Div. - Europa League - Copa del Rey" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "javimoreno": {
+        name: "Javier Moreno Arrones Gil",
+        footballName: "Javi Moreno",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/tCJFL3r0/Javi_Moreno_PNG.webp",
+        personalData: {
+            fullName: "Javier Moreno Arrones Gil",
+            nickname: "Javi Moreno",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "16/05/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2024/25", team: "C.D. Arenteiro", category: "1ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "C.D. Arenteiro", category: "1ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "C.D. Llanes", category: "3ª Div. - Copa Federación Fase Autonómica - 3ª Div. 2ª Fase Ascenso a 2ª RFEF - Prom. de Ascenso a 2ª Div. RFEF" },
+            { season: "2019/20", team: "C.D. Llanes", category: "3ª Div." },
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
