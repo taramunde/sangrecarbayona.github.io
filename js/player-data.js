@@ -4362,6 +4362,60 @@ const playersData = {
             }
         }
     },
+
+        "montoro": {
+        name: "Ángel Montoro Sánchez",
+        footballName: "Montoro",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/MKQc898Q/Montoro_PNG.webp",
+        personalData: {
+            fullName: "Ángel Montoro Sánchez",
+            nickname: "Montoro",
+            birthPlace: "Valencia, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "25/06/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Real Murcia C.F.", category: "1ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Granada C.F.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2019/20", team: "Granada C.F.", category: "1ª Div." },
+            { season: "2018/19", team: "Granada C.F.", category: "2ª Div." },
+            { season: "2017/18", team: "Granada C.F.", category: "2ª Div." },
+            { season: "2016/17", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "U.D. Las Palmas", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2010/11", team: "Valencia C.F.", category: "1ª Div." },
+            { season: "2010/11", team: "Valencia C.F. Mestalla", category: "3ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "Real Unión Club", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Valencia C.F.", category: "1ª Div. - Champs. League - Copa del Rey" },
+            { season: "2006/07", team: "Valencia C.F. Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" }
+        ],
+        nationalTeam: [
+            { season: "2007", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19" },
+            { season: "2005", team: "España Sub-17", category: "Clasif. Europeo Sub-17" },
+            { season: "2004", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 28, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
