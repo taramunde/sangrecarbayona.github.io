@@ -7458,7 +7458,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=beitia"
     },
     "gasca": {
-        "src": "https://i.postimg.cc/Z5G3v0rC/Gasca_PNG.webp",
+        "src": "https://i.postimg.cc/kGhQthM4/Gasca-PNG-(2).webp",
         "alt": "Delantero",
         "number": "-",
         "name": "Gasca",
