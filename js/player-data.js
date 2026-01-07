@@ -869,11 +869,11 @@ const playersData = {
             { season: "2019/20", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "C.A. Osasuna", category: "2ª Div." },
             { season: "2017/18", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Valencia C.F. Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2016/17", team: "Valencia C.F.", category: "1ª Div." },
-            { season: "2015/16", team: "Valencia Mestalla", category: "2ª Div. B" },
-            { season: "2014/15", team: "Valencia Mestalla", category: "2ª Div. B" },
-            { season: "2013/14", team: "Valencia Mestalla", category: "2ª Div. B" }
+            { season: "2015/16", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2014/15", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2013/14", team: "Valencia C.F. Mestalla", category: "2ª Div. B" }
             
         ],
         nationalTeam: [
@@ -4309,6 +4309,56 @@ const playersData = {
                 copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "kobalein": {
+        name: "Koba Leïn Koindredi",
+        footballName: "Koba Leïn",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Z5QDyYMg/Koba_Leïn_PNG.webp",
+        personalData: {
+            fullName: "Koba Leïn Koindredi",
+            nickname: "Koba Leïn",
+            birthPlace: "Païta, Yibuti",
+            country: "Yibuti",
+            nationality: "Francesa",
+            height: "1,84 m",
+            birthDate: "27/10/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Basilea", category: "Liga Suiza - Europa League - Copa Suiza - Fase Previa Champs. League" },
+            { season: "2024/25", team: "F.C. Lausanne Sport", category: "Liga Suiza - Copa Suiza" },
+            { season: "2023/24", team: "Sporting Clube de Portugal", category: "Liga Portugal Betclic - Europa League - Taça de Portugal" },
+            { season: "2023/24", team: "G.D. Estoril Praia", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Valencia C.F.", category: "1ª Div." },
+            { season: "2021/22", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Valencia C.F. Mestalla", category: "2ª Div. B - 2ª Div. B Fase Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Valencia C.F.", category: "1ª Div." },
+            { season: "2019/20", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2019/20", team: "Valencia C.F. Sub-19", category: "UEFA Youth League" },
+            { season: "2018/19", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2018/19", team: "R.C. Lens B", category: "National 2" }
+        ],
+        nationalTeam: [
+            { season: "2020", team: "Francia Sub-19", category: "Amistosos" },
+            { season: "2019", team: "Francia Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2019", team: "Francia Sub-18", category: "Amistosos" },
+            { season: "2019", team: "Francia Sub-21", category: "Torneo Maurice Revello" },
+            { season: "2018", team: "Francia Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 18, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
