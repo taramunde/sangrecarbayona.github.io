@@ -505,8 +505,8 @@ const playersData = {
             { season: "2016/17", team: "Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "S.D. Compostela", category: "2ª Div. B" },
-            { season: "2013/14", team: "Deportivo Fabril", category: "3ª Div." },
-            { season: "2012/13", team: "Deportivo Fabril", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+            { season: "2013/14", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
+            { season: "2012/13", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
         ],
         
         stats: {
@@ -1283,8 +1283,8 @@ const playersData = {
             { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "S.D. Compostela", category: "2ª Div. B" },
-            { season: "2013/14", team: "Deportivo Fabril", category: "3ª Div." },
-            { season: "2012/13", team: "Deportivo Fabril", category: "3ª Div. Prom. de Ascenso" }
+            { season: "2013/14", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
+            { season: "2012/13", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div. Prom. de Ascenso" }
 
         ],
 
@@ -4411,6 +4411,51 @@ const playersData = {
             "2022/23": {
                 liga: { partidos: 28, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "mangel": {
+        name: "Miguel Ángel Prendes Pérez",
+        footballName: "Mángel",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/PJF1FJYn/Mangel_PNG.webp",
+        personalData: {
+            fullName: "Miguel Ángel Prendes Pérez",
+            nickname: "Mángel",
+            birthPlace: "Candás, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "28/06/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Club Gimnàstic de Tarragona", category: "1ª Federación" },
+            { season: "2024/25", team: "C.D. Arenteiro", category: "1ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "S.D. Ponferradina", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div. - 2ª Fase 2ª Div. RFEF" },
+            { season: "2019/20", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. TSK Roces", category: "3ª Div." }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
