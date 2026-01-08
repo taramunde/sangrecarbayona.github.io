@@ -3946,7 +3946,7 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "Querétaro F.C. Femenil", category: "Liga MX Apert." },
+            { season: "2025/26", team: "Querétaro F.C.", category: "Liga MX Apert." },
             { season: "2025/26", team: "C.F. Pachuca", category: "Liga MX Apert." },
             { season: "2024/25", team: "C.F. Pachuca", category: "Mundial de Clubes - Liga MX Claus. - Etapas Finales Claus. MX" },
             { season: "2024/25", team: "C.F. Pachuca Sub-23", category: "Liga MX Sub-23 Claus." },
@@ -5308,6 +5308,215 @@ const playersData = {
                 amistosos: { partidos: 5, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
              
+        }
+    },
+
+        "manuvallejo": {
+        name: "Manuel Javier Vallejo Galván",
+        footballName: "Manu Vallejo",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/858qYdLN/Manu_Vallejo_PNG.webp",
+        personalData: {
+            fullName: "Manuel Javier Vallejo Galván",
+            nickname: "Manu Vallejo",
+            birthPlace: "Chiclana de la Frontera, Cádiz",
+            country: "España",
+            nationality: "Española",
+            height: "1,67 m",
+            birthDate: "14/02/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "A.D. Ceuta F.C.", category: "2ª Div." },
+            { season: "2024/25", team: "Racing Club de Ferrol", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Girona F.C.", category: "1ª Div." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Girona F.C.", category: "1ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Valencia C.F.", category: "1ª Div." },
+            { season: "2021/22", team: "Deportivo Alavés", category: "1ª Div." },
+            { season: "2021/22", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Valencia C.F.", category: "1ª Div. - Champs. League" },
+            { season: "2018/19", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Cádiz C.F. Mirandilla", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Cádiz C.F.", category: "Copa del Rey" },
+            { season: "2015/16", team: "Cádiz C.F. Mirandilla", category: "1ª Andaluza" },
+            { season: "2014/15", team: "Cádiz C.F. Mirandilla", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2019", team: "España Sub-21", category: "Europeo Sub-21 - Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 16, goles_marcados: 4, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "obeng": {
+        name: "Samuel Obeng Gyabaa",
+        footballName: "Obeng",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Sx688kVd/Obeng_PNG.webp",
+        personalData: {
+            fullName: "Samuel Obeng Gyabaa",
+            nickname: "Obeng",
+            birthPlace: "Nsapor, Región Brong-Ahafo",
+            country: "Ghana",
+            nationality: "Ghanesa, Española",
+            height: "1,83 m",
+            birthDate: "15/05/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "A.D. Ceuta F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Wydad Casablanca A.C.", category: "Botola Pro - Mundial de Clubes - Copa de Marruecos" },
+            { season: "2024/25", team: "Casa Pia A.C.", category: "Liga Portugal Betclic - Taça de Portugal" },
+            { season: "2023/24", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "S.D. Huesca", category: "2ª Div." },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Calahorra", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "E.C. Granollers", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2021", team: "Ghana Sub-23", category: "Amistosos" },
+            { season: "2019", team: "Ghana Sub-23", category: "Copa África Sub-23" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 22, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2021/22": {
+                liga: { partidos: 34, goles_marcados: 8, tarjetas_amarillas: 3, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 36, goles_marcados: 3, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 17, goles_marcados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "leosequeira": {
+        name: "Leonardo Exequiel Sequeira",
+        footballName: "Leo Sequeira",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/8PDTcGJN/Leo_Sequeira_PNG.webp",
+        personalData: {
+            fullName: "Leonardo Exequiel Sequeira",
+            nickname: "Leo Sequeira",
+            birthPlace: "La Banda, Santiago del Estero",
+            country: "Argentina",
+            nationality: "Argentina",
+            height: "1,77 m",
+            birthDate: "26/04/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "C.A. Huracán", category: "Apert. Argentina - Claus. Argentina - Conmebol Sudamericana - Copa Argentina" },
+            { season: "2023/24", team: "C.A. Peñarol", category: "Apert. Uruguay - Claus. Uruguay - Copa Libertadores - Torneo Intermedio Uruguay - Copa Uruguay" },
+            { season: "2022/23", team: "C.D. Everton Viña del Mar", category: "1ª Chile - Copa Chile" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Querétaro F.C.", category: "Liga MX Apert." },
+            { season: "2021/22", team: "Querétaro F.C.", category: "Liga MX Claus." },
+            { season: "2020/21", team: "C.A. Central Córdoba", category: "Liga Profesional Argentina - Copa Liga Profesional Argentina" },
+            { season: "2019/20", team: "C.A. Belgrano", category: "1ª Nacional" },
+            { season: "2018/19", team: "C.A. Belgrano", category: "Copa Argentina - Liga Profesional Argentina - Copa Diego Armando Maradona" },
+            { season: "2017/18", team: "C.A. Belgrano", category: "Copa Argentina - Liga Profesional Argentina" },
+            { season: "2016/17", team: "C.A. Belgrano", category: "Copa Argentina" },
+            { season: "2016/17", team: "C.A. Central Córdoba", category: "1ª Nacional" },
+            { season: "2015/16", team: "C.A. Central Córdoba", category: "1ª Nacional" },
+            { season: "2014/15", team: "C.A. Central Córdoba", category: "1ª Nacional - Torneo Federal A" },
+            { season: "2014/15", team: "C.A. Central Córdoba Rosario", category: "1ª C" },
+            { season: "2013/14", team: "C.A. Central Córdoba", category: "Copa Argentina - Torneo Federal A PlayOffs" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 12, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "sergienrich": {
+        name: "Sergi Enrich Ametller",
+        footballName: "Sergi Enrich",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/tJgQdqhx/Sergi_Enrich_PNG.webp",
+        personalData: {
+            fullName: "Sergi Enrich Ametller",
+            nickname: "Sergi Enrich",
+            birthPlace: "Ciudadela de Menorca, Islas Baleares",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "26/02/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2011/12", team: "R.C. Recreativo de Huelva", category: "2ª Div." },
+            { season: "2010/11", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2010/11", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "R.C.D. Mallorca B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "España Sub-19", category: "Amistosos" },
+            { season: "2008", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 34, goles_marcados: 7, tarjetas_amarillas: 3, tarjetas_rojas: 2 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
         }
     },
 
