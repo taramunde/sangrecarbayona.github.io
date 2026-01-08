@@ -5520,6 +5520,55 @@ const playersData = {
         }
     },
 
+        "moro": {
+        name: "Raúl Moro Prescoli",
+        footballName: "Moro",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/qM9XymrJ/Moro_PNG.webp",
+        personalData: {
+            fullName: "Raúl Moro Prescoli",
+            nickname: "Moro",
+            birthPlace: "Abrera, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,69 m",
+            birthDate: "05/12/2002",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Ajax de Ámsterdam", category: "Eredivisie - Champs. League - KNVB Beker" },
+            { season: "2024/25", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2022/23", team: "Ternana Calcio", category: "Serie B" },
+            { season: "2022/23", team: "S.S. Lazio", category: "Serie A" },
+            { season: "2021/22", team: "S.S. Lazio Sub-19", category: "Campionato Primavera 2" },
+            { season: "2021/22", team: "S.S. Lazio", category: "Serie A - Europa League - Coppa Italia" },
+            { season: "2020/21", team: "S.S. Lazio", category: "Serie A" },
+            { season: "2020/21", team: "S.S. Lazio Sub-19", category: "Campionato Primavera 1 - Coppa Italia Primavera" },
+            { season: "2019/20", team: "S.S. Lazio", category: "Serie A" },
+            { season: "2019/20", team: "S.S. Lazio Sub-19", category: "Campionato Primavera 1" }
+        ],
+        nationalTeam: [
+            { season: "2025", team: "España Sub-21", category: "Europeo Sub-21 - Amistosos" },
+            { season: "2024", team: "España Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2021", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2020", team: "España Sub-18", category: "Amistosos" },
+            { season: "2019", team: "España Sub-18", category: "Amistosos" },
+            { season: "2019", team: "España Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 16, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
@@ -5688,6 +5737,48 @@ const playersData = {
                 copa: { partidos_entrenados: 3, victorias: 2, empates: 0, derrotas: 1 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
+        "bolo": {
+        name: "Juan Antonio Pérez Alonso",
+        footballName: "Bolo",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/5g2wztDY/Bolo-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Juan Antonio Pérez Alonso",
+            nickname: "Bolo",
+            birthPlace: "Bilbao, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "05/03/1974",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Burgos C.F.", category: "2ª Div." },
+            { season: "2023/24", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "S.D. Ponferradina", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Arenas Club de Getxo", category: "2ª Div. B" },
+            { season: "2016/17", team: "Arenas Club de Getxo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Arenas Club de Getxo", category: "2ª Div. B" },
+            { season: "2014/15", team: "Arenas Club de Getxo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "Arenas Club de Getxo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos_entrenados: 11, victorias: 2, empates: 4, derrotas: 5 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 7, victorias: 2, empates: 3, derrotas: 2 }
             }
         }
     },
