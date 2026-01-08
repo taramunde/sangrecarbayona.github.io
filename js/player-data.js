@@ -4461,6 +4461,82 @@ const playersData = {
             }
         }
     },
+
+        "victorblanco": {
+        name: "Víctor Blanco Sánchez",
+        footballName: "Víctor Blanco",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/K85pJrj6/Víctor_Blanco_PNG.webp",
+        personalData: {
+            fullName: "Víctor Blanco Sánchez",
+            nickname: "Víctor Blanco",
+            birthPlace: "Benidorm, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "29/08/2002",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.F. La Nucía", category: "3ª Federación" },
+            { season: "2024/25", team: "Córdoba C.F.", category: "2ª Div." },
+            { season: "2024/25", team: "Córdoba C.F. B", category: "3ª Federación" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Elche Ilicitano C.F.", category: "3ª Federación" },
+            { season: "2021/22", team: "U.D. Almería B", category: "3ª Federación" },
+            { season: "2020/21", team: "Levante U.D. Sub-19", category: "División de Honor - Copa de Campeones División de Honor" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "nnoshiri": {
+        name: "Samuel Chijindum Nnoshiri",
+        footballName: "Nnoshiri",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/9FZGBm0K/Nnoshiri_PNG.webp",
+        personalData: {
+            fullName: "Samuel Chijindum Nnoshiri",
+            nickname: "Nnoshiri",
+            birthPlace: "Owerri, Imo",
+            country: "Nigeria",
+            nationality: "Nigeriana",
+            height: "1,75 m",
+            birthDate: "02/07/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Mosconia", category: "3ª Federación" },
+            { season: "2024/25", team: "Al-Nasr Club F.C.", category: "Oman Jindal League - Copa del Sultán" },
+            { season: "2023/24", team: "T.S. Podbeskidzie Bielsko-Biała", category: "2ª Polonia - Copa Polonia" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "Katsina United F.C.", category: "Premier League Nigeria" },
+            { season: "2020/21", team: "Heartland Owerri F.C.", category: "Premier League Nigeria" },
+            { season: "2019/20", team: "Heartland Owerri F.C.", category: "Premier League Nigeria" },
+            { season: "2018/19", team: "Heartland Owerri F.C.", category: "Premier League Nigeria" }
+        ],
+        stats: {
+            "2022/23": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
