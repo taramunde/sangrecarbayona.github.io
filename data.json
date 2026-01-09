@@ -1,13 +1,13 @@
 {
-  "jornada": "18 LaLiga EA Sports 2025/26",
+  "jornada": "19 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "ALA",
-    "homeImg": "https://i.postimg.cc/Jzk39hHH/Alav-s.jpg",
-    "visitor": "OVI",
-    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "score": "1 - 1",
-    "date": "Dom. 04 Ene, 18:30",
-    "time": "Mendizorroza"
+    "home": "OVI",
+    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "visitor": "BET",
+    "visitorImg": "https://i.postimg.cc/J49HDXVF/Real_Betis_Balompié_(2016).jpg",
+    "score": " - ",
+    "date": "Sáb. 10 Ene, 14:00",
+    "time": "Carlos Tartiere"
   },
   "nextMatch": {
     "home": "OVI",
@@ -16,20 +16,11 @@
     "visitorImg": "https://i.postimg.cc/J49HDXVF/Real_Betis_Balompié_(2016).jpg",
     "score": " - ",
     "date": "Sáb. 10 Ene, 14:00",
-    "time": "Mendizorroza"
+    "time": "Carlos Tartiere"
   },
   
   "goalscorers": [
-    {
-      "name": "Fede Viñas",
-      "number": "9",
-      "photo": "https://i.postimg.cc/mZywx37V/Fede_Viñas_PNG_(3).webp",
-      "nation": "https://i.postimg.cc/G2tjyzdg/Uruguay.png",
-      "goals": 2,
-      "minute": "56'",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/federico-vinas/profil/spieler/578419"
-    }
+    
   ],
 
   "_PLANTILLA_PARA_COPIAR_CUANDO_HAYA_GOLES": [
