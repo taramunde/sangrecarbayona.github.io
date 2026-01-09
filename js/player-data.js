@@ -412,6 +412,54 @@ const playersData = {
         }
     },
 
+        "femenias": {
+        name: "Joan Femenías del Salto",
+        footballName: "Femenías",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/pXXcdcZp/Femen-as-PNG.webp",
+        personalData: {
+            fullName: "Joan Femenías del Salto",
+            nickname: "Femenías",
+            birthPlace: "Manacor, Islas Baleares",
+            country: "España",
+            nationality: "Española",
+            height: "1,89 m",
+            birthDate: "19/08/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Penafiel", category: "Segunda Liga - Taça de Portugal" },
+            { season: "2024/25", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Levante U.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Levante U.D.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.F. Fuenlabrada", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2015/16", team: "Villarreal C.F. C", category: "3ª Div." },
+            { season: "2014/15", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2012/13", team: "C.E. Constància", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 42, goles_encajados: 41, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 40, goles_encajados: 41, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
