@@ -460,6 +460,50 @@ const playersData = {
         }
     },
 
+        "bertohorreo": {
+        name: "Alberto Hórreo Taveras",
+        footballName: "Berto Hórreo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/GtkRh7JM/Berto-H-rreo-PNG.webp",
+        personalData: {
+            fullName: "Alberto Hórreo Taveras",
+            nickname: "Berto Hórreo",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española, Dominicana",
+            height: "1,91 m",
+            birthDate: "24/06/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "U.D. Llanera", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "S.D. Huesca B", category: "3ª Federación" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Fase Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.D. T.S.K. Roces", category: "3ª Div." }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
