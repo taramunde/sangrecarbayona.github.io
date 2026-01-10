@@ -246,7 +246,7 @@ const enfrentamientos = [
   // Jornada 19
   { equipo1: "Athletic Club", equipo2: "Real Madrid", goles1: 0, goles2: 3 },
   { equipo1: "Getafe C.F.", equipo2: "Real Sociedad", goles1: 1, goles2: 2 },
-  { equipo1: "Girona F.C.", equipo2: "C.A. Osasuna", goles1: null, goles2: null },
+  { equipo1: "Girona F.C.", equipo2: "C.A. Osasuna", goles1: 1, goles2: 0 },
   { equipo1: "Villarreal C.F.", equipo2: "Deportivo Alavés", goles1: 3, goles2: 1 },
   { equipo1: "F.C. Barcelona", equipo2: "Atlético de Madrid", goles1: 3, goles2: 1 },
   { equipo1: "Real Oviedo", equipo2: "Real Betis", goles1: 1, goles2: 1 },
