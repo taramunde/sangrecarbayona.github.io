@@ -771,8 +771,8 @@ const playersData = {
             { season: "2018/19", team: "C.D. Numancia", category: "2ª Div." },
             { season: "2017/18", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2016/17", team: "C.D. Numancia", category: "2ª Div." },
-            { season: "2015/16", team: "U.D. Levante", category: "1ª Div." },
-            { season: "2015/16", team: "At. Levante", category: "2ª Div. B" },
+            { season: "2015/16", team: "Levante U.D.", category: "1ª Div." },
+            { season: "2015/16", team: "At. Levante U.D.", category: "2ª Div. B" },
             { season: "2014/15", team: "C.D. Numancia B", category: "3ª Div." },
             { season: "2014/15", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
             { season: "2013/14", team: "C.D. Numancia", category: "2ª Div." },
@@ -1421,7 +1421,7 @@ const playersData = {
             { season: "2017/18", team: "Lorca F.C.", category: "2ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Lorca F.C.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2015/16", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
-            { season: "2014/15", team: "At. Levante", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "At. Levante U.D.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2013/14", team: "Huracán Valencia C.F.", category: "2ª Div. B" },
             { season: "2012/13", team: "Huracán Valencia C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2010/11", team: "Sheffield United F.C. Sub-18", category: "FA Youth Cup" }
@@ -2401,6 +2401,120 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "pierrecornud": {
+        name: "Pierre Cornud",
+        footballName: "Pierre Cornud",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/mkXpTbfT/Pierre_Cornud_PNG.webp",
+        personalData: {
+            fullName: "Pierre Cornud",
+            nickname: "Pierre Cornud",
+            birthPlace: "Aviñón, Provenza-Alpes-Costa Azul",
+            country: "Francia",
+            nationality: "Francesa, Israelita",
+            height: "1,77 m",
+            birthDate: "12/12/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Maccabi Haifa F.C.", category: "Liga Israel - Copa Israel - Copa Toto Liga Israel - Fase Previa Conference League" },
+            { season: "2024/25", team: "A.S. Saint-Étienne", category: "Ligue 1" },
+            { season: "2024/25", team: "Maccabi Haifa F.C.", category: "Copa Toto Liga Israel - Fase Previa Conference League" },
+            { season: "2023/24", team: "Maccabi Haifa F.C.", category: "Liga Israel - Europa League - Copa Israel - Fase Previa Champs. League - Copa Toto Liga Israel - Conference League" },
+            { season: "2022/23", team: "Maccabi Haifa F.C.", category: "Liga Israel - Champs. League - Copa Israel - Fase Previa Champs. League - Copa Toto Liga Israel - Supercopa Israel" },
+            { season: "2021/22", team: "Maccabi Haifa F.C.", category: "Supercopa Israel" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "C.E. Sabadell", category: "2ª Div." },
+            { season: "2019/20", team: "U.D. Ibiza", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Balompédica Linense", category: "2ª Div. B" },
+            { season: "2017/18", team: "R.C.D. Mallorca B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "R.C.D. Mallorca", category: "Copa del Rey" },
+            { season: "2016/17", team: "Dijon F.C.O. B", category: "National 3" },
+            { season: "2015/16", team: "Montpellier H.S.C. B", category: "National 3" },
+            { season: "2014/15", team: "Montpellier H.S.C. B", category: "National 2" },
+            { season: "2013/14", team: "Montpellier H.S.C. B", category: "National 3" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 31, goles_marcados: 0, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "mossa": {
+        name: "José María Angresola Jiménez",
+        footballName: "Mossa",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/tC99TkKf/Mossa_PNG.webp",
+        personalData: {
+            fullName: "José María Angresola Jiménez",
+            nickname: "Mossa",
+            birthPlace: "El Puig, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "24/01/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Club Gimnàstic de Tarragona", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "At. Levante U.D.", category: "2ª Div. B" },
+            { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2010/11", team: "At. Levante U.D.", category: "3ª Div." },
+            { season: "2010/11", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Levante U.D.", category: "2ª Div." },
+            { season: "2007/08", team: "At. Levante U.D.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 27, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 30, goles_marcados: 0, tarjetas_amarillas: 10, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 32, goles_marcados: 2, tarjetas_amarillas: 11, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 38, goles_marcados: 2, tarjetas_amarillas: 10, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
@@ -3881,7 +3995,7 @@ const playersData = {
             { season: "2019/20", team: "Real Valladolid C.F.", category: "Copa del Rey" },
             { season: "2018/19", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2016/17", team: "Club Gimnàstic de Tarragona", category: "2ª Div." },
             { season: "2016/17", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Sevilla F.C.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa Europa" },
             { season: "2014/15", team: "Sevilla At.", category: "2ª Div. B" },
@@ -4204,8 +4318,8 @@ const playersData = {
             { season: "2015/16", team: "Levante U.D.", category: "1ª Div." },
             { season: "2014/15", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
-            { season: "2013/14", team: "At. Levante", category: "2ª Div. B" },
-            { season: "2012/13", team: "At. Levante", category: "2ª Div. B" }
+            { season: "2013/14", team: "At. Levante U.D.", category: "2ª Div. B" },
+            { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2017", team: "España Sub-21", category: "Amistosos" },
