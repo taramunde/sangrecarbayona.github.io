@@ -2361,6 +2361,50 @@ const playersData = {
         }
     },
 
+        "carlosisaac": {
+        name: "Carlos Isaac Muñoz Obejero",
+        footballName: "Carlos Isaac",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/SNHmm4GS/Carlos_Isaac_PNG.webp",
+        personalData: {
+            fullName: "Carlos Isaac Muñoz Obejero",
+            nickname: "Carlos Isaac",
+            birthPlace: "Navalmoral de la Mata, Cáceres",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "30/04/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Albacete Balompié", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "F.C. Vizela", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "At. Madrileño", category: "2ª Div. B" },
+            { season: "2018/19", team: "At. de Madrid", category: "1ª Div." },
+            { season: "2018/19", team: "At. Madrileño", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "At. de Madrid", category: "1ª Div." },
+            { season: "2017/18", team: "At. Madrileño", category: "2ª Div. B" },
+            { season: "2017/18", team: "At. de Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2016/17", team: "At. de Madrid Sub-19", category: "UEFA Youth League - Copa de Campeones División de Honor" },
+            { season: "2015/16", team: "At. de Madrid Sub-19", category: "UEFA Youth League" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 19, goles_marcados: 1, tarjetas_amarillas: 6, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
