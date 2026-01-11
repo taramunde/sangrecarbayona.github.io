@@ -1154,7 +1154,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=bolano"
     },
     "carlosisaac": {
-        "src": "https://i.postimg.cc/0NDQTjR1/Bolano-PNG.webp",
+        "src": "https://i.postimg.cc/SNHmm4GS/Carlos_Isaac_PNG.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Carlos Isaac",
