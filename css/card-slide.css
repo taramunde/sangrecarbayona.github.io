@@ -105,6 +105,7 @@
 .player-image {
     width: 100px; height: 100px; 
     object-fit: cover; border-radius: 50%;
+    object-position: center 20%;
     border: 3px solid white;
     margin: 40px auto 10px auto; /* Un poco más de margen arriba */
     display: block;
