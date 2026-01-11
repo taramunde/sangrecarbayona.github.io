@@ -632,10 +632,10 @@ const playersData = {
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
             { season: "2023/24", team: "Real Club Recreativo de Huelva", category: "1ª Federación - Copa del Rey" },
-            { season: "2022/23", team: "Rayo Majadahonda", category: "1ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "C.F. Rayo Majadahonda", category: "1ª Federación - Copa del Rey" },
             { season: "2021/22", team: "Gimnástica Segoviana", category: "2ª Federación - Copa del Rey" },
-            { season: "2020/21", team: "Rayo Majadahonda Sub-19", category: "División de Honor" },
-            { season: "2020/21", team: "Rayo Majadahonda", category: "2ª Div. B - 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "C.F. Rayo Majadahonda Sub-19", category: "División de Honor" },
+            { season: "2020/21", team: "C.F. Rayo Majadahonda", category: "2ª Div. B - 2ª Fase 1ª Div. RFEF" },
             { season: "2020/21", team: "México F.C.", category: "3ª Div." }
         ],
         nationalTeam: [
@@ -2138,6 +2138,225 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "grippo": {
+        name: "Simone Damiano Grippo",
+        footballName: "Grippo",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/5y3pnfNw/Grippo_PNG.webp",
+        personalData: {
+            fullName: "Simone Damiano Grippo",
+            nickname: "Grippo",
+            birthPlace: "Basilea, Basilea",
+            country: "Suiza",
+            nationality: "Suiza, Italiana",
+            height: "1,88 m",
+            birthDate: "12/12/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "F.C. Lausanne Sport", category: "Liga Suiza - Copa Suiza" },
+            { season: "2022/23", team: "F.C. Lausanne Sport", category: "2ª Suiza" },
+            { season: "2022/23", team: "F.C. Lausanne Sport II", category: "5ª Suiza" },
+            { season: "2021/22", team: "F.C. Lausanne Sport", category: "Liga Suiza - Copa Suiza" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "F.C. Vaduz", category: "Liga Suiza - Fase Previa Europa League - Copa Liechtenstein" },
+            { season: "2015/16", team: "F.C. Vaduz", category: "Liga Suiza - Fase Previa Europa League - Copa Liechtenstein" },
+            { season: "2014/15", team: "F.C. Vaduz", category: "Liga Suiza - Fase Previa Europa League" },
+            { season: "2013/14", team: "F.C. Vaduz", category: "2ª Suiza - Copa Liechtenstein" },
+            { season: "2012/13", team: "Servette F.C. Genève", category: "Liga Suiza - Copa Suiza - Fase Previa Europa League" },
+            { season: "2011/12", team: "F.C. Lugano", category: "2ª Suiza" },
+            { season: "2011/12", team: "A.C. Chievo Verona", category: "Coppa Italia" },
+            { season: "2010/11", team: "Frosinone Calcio", category: "Serie B - Coppa Italia" },
+            { season: "2009/10", team: "F.C. Lumezzane", category: "Serie C - Coppa Italia" },
+            { season: "2008/09", team: "Piacenza Calcio 1919", category: "Serie B" },
+            { season: "2008/09", team: "A.C. Chievo Verona", category: "Serie A" },
+            { season: "2008/09", team: "A.C. Chievo Verona Sub-19", category: "Campionato Primavera 1" },
+            { season: "2007/08", team: "F.C. Concordia Basel", category: "2ª Suiza - Copa Suiza" },
+            { season: "2006/07", team: "F.C. Basilea II", category: "4ª Suiza" },
+            { season: "2006/07", team: "F.C. Basilea", category: "Liga Suiza - Fase Previa Europa League" }
+        ],
+        nationalTeam: [
+            { season: "2010", team: "Suiza Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2009", team: "Suiza Sub-20", category: "Amistosos" },
+            { season: "2009", team: "Suiza Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2008", team: "Suiza Sub-20", category: "Amistosos" },
+            { season: "2007", team: "Suiza Sub-20", category: "Amistosos" },
+            { season: "2007", team: "Suiza Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2006", team: "Suiza Sub-19", category: "Amistosos" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 25, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "arribas": {
+        name: "Alejandro Arribas Garrido",
+        footballName: "Arribas",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/VkT0y2Jn/Arribas-PNG.webp",
+        personalData: {
+            fullName: "Alejandro Arribas Garrido",
+            nickname: "Arribas",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "01/05/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "C.F. Rayo Majadahonda", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "P.S. Kalamata", category: "2ª Grecia - Copa Grecia" },
+            { season: "2022/23", team: "F.C. Juárez", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Apert. MX" },
+            { season: "2021/22", team: "F.C. Juárez", category: "Liga MX Claus." },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Club Universidad Nacional PUMAS", category: "Liga MX Apert. - Liga MX Claus. - Copa Méjico Claus. - Copa Méjico Apert. - Etapas Finales Apert. MX" },
+            { season: "2017/18", team: "Club Universidad Nacional PUMAS", category: "Liga MX Claus. - Copa Méjico Claus. - Etapas Finales Claus. MX" },
+            { season: "2017/18", team: "R.C. Deportivo de La Coruña", category: "1ª Div." },
+            { season: "2016/17", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Sevilla F.C.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2013/14", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Rayo Vallecano de Madrid", category: "2ª Div." },
+            { season: "2009/10", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Rayo Vallecano de Madrid B", category: "3ª Div." },
+            { season: "2008/09", team: "C.D.A. Navalcarnero", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 32, goles_marcados: 2, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 27, goles_marcados: 0, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "bolano": {
+        name: "Christian Fernández Salas",
+        footballName: "Bolaño",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/0NDQTjR1/Bolano-PNG.webp",
+        personalData: {
+            fullName: "Christian Fernández Salas",
+            nickname: "Bolaño",
+            birthPlace: "Santander, Cantabria",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "15/10/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "R. S. Gimnástica de Torrelavega", category: "2ª Federación" },
+            { season: "2022/23", team: "C.F. Fuenlabrada", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "D.C. United", category: "MLS Liga USA" },
+            { season: "2013/14", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "U.D. Almería", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "U.D. Las Palmas", category: "2ª Div." },
+            { season: "2007/08", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Rayo Cantabria", category: "2ª Div. B" },
+            { season: "2005/06", team: "Rayo Cantabria", category: "2ª Div. B" },
+            { season: "2003/04", team: "Rayo Cantabria", category: "2ª Div. B" },
+            { season: "2002/03", team: "Rayo Cantabria", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 32, goles_marcados: 1, tarjetas_amarillas: 12, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 37, goles_marcados: 1, tarjetas_amarillas: 13, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 36, goles_marcados: 2, tarjetas_amarillas: 15, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 37, goles_marcados: 3, tarjetas_amarillas: 15, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 31, goles_marcados: 2, tarjetas_amarillas: 8, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
@@ -4235,10 +4454,10 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "R.C. Racing de Santander", category: "2ª Div. - Copa del Rey" },
-            { season: "2024/25", team: "R.C. Racing de Santander", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
-            { season: "2023/24", team: "R.C. Racing de Santander", category: "2ª Div. - Copa del Rey" },
-            { season: "2022/23", team: "R.C. Racing de Santander", category: "2ª Div." },
+            { season: "2025/26", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2023/24", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Racing Club de Santander", category: "2ª Div." },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
@@ -5805,7 +6024,7 @@ const playersData = {
             { season: "2014/15", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
             { season: "2013/14", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
             { season: "2012/13", team: "C.D. Tenerife", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
-            { season: "2011/12", team: "R. Racing Club de Santander", category: "1ª Div." },
+            { season: "2011/12", team: "Real Racing Club de Santander", category: "1ª Div." },
             { season: "2011/12", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
             { season: "2010/11", team: "Real Unión Club", category: "2ª Div. B - Copa del Rey" },
             { season: "2010/11", team: "R.C. Recreativo de Huelva", category: "2ª Div." },
