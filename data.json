@@ -21,15 +21,16 @@
   
   "goalscorers": [
     {
-      "name": "Ilyas",
-      "number": "7",
-      "photo": "https://i.postimg.cc/xCTdXSFX/Ilyas_PNG_(3).webp",
-      "nation": "https://i.postimg.cc/jjfxjjwP/España.jpg",
-      "goals": 1,
-      "minute": "64'",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/ilyas-chaira/profil/spieler/593412"
-    }
+    "name": "Ilyas",
+    "number": "7",
+    "photo": "https://i.postimg.cc/xCTdXSFX/Ilyas_PNG_(3).webp",
+    "nation": "https://i.postimg.cc/jjfxjjwP/España.jpg",
+    "goals": 1,
+    "minute": "64'",
+    "partidos": "18", 
+    "temp": "2025/26",
+    "link": "https://www.transfermarkt.es/ilyas-chaira/profil/spieler/593412"
+  }
   ],
 
   "_PLANTILLA_PARA_COPIAR_CUANDO_HAYA_GOLES": [
@@ -40,6 +41,7 @@
       "nation": "URL_BANDERA",
       "goals": 1,
       "minute": "45'",
+      "partidos": "18",
       "temp": "2025/26",
       "link": "URL_FICHA"
     }
