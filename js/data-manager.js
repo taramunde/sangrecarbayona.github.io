@@ -57,33 +57,33 @@ function cargarDatosPartido() {
                 } else {
                     noGoalsCard.classList.add('hidden');
                     data.goalscorers.forEach(p => {
-                        container.insertAdjacentHTML('beforeend', `
-                        <div class="card-container">
-                            <div class="card">
-                                <div class="front">
-                                    <div class="player-image-container">
-                                        <img class="player-image" src="${p.photo}" alt="${p.name}">
-                                    </div>
-                                    <img class="nation-country" src="${p.nation}" alt="Bandera">
-                                    <img class="team-crest" src="https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png">
-                                    <div class="player-number">${p.number}</div>
-                                    <div class="player-name">${p.name}</div>
-                                    <div class="team-name">Real Oviedo</div>
-                                </div>
-                                <div class="back">
-                                    <div class="player-name-back"><u>${p.name.toUpperCase()}</u></div>
-                                    <div class="temp-name">(Temp. ${p.temp})</div>
-                                    <div class="stats">
-                                        <div class="stat"><span>PARTIDOS JUGADOS:</span><span>--</span></div>
-                                        <div class="stat"><span>ASISTENCIAS:</span><span>--</span></div>
-                                        <div class="stat"><span>GOLES:</span><span>${p.goals}</span></div>
-                                        <div class="stat"><span>GOL MINUTO:</span><span>${p.minute}</span></div>
-                                    </div>
-                                    <a href="${p.link}" target="_blank" class="link-button">Ver Ficha</a>
-                                </div>
-                            </div>
-                        </div>`);
-                    });
+    container.insertAdjacentHTML('beforeend', `
+    <div class="card-container">
+        <div class="card">
+            <div class="front">
+                <div class="player-image-container">
+                    <img class="player-image" src="${p.photo}" alt="${p.name}">
+                </div>
+                <img class="nation-country" src="${p.nation}" alt="Bandera">
+                <img class="team-crest" src="https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png">
+                <div class="player-number">${p.number}</div>
+                <div class="player-name">${p.name}</div>
+                <div class="team-name">Real Oviedo</div>
+            </div>
+            <div class="back">
+                <div class="player-name-back"><u>${p.name.toUpperCase()}</u></div>
+                <div class="temp-name">(Temp. ${p.temp})</div>
+                <div class="stats">
+                    <div class="stat"><span>PARTIDOS JUGADOS:</span><span>${p.partidos || '--'}</span></div>
+                    <div class="stat"><span>GOLES:</span><span>${p.goals}</span></div>
+                    <div class="stat"><span>GOL MINUTO:</span><span>${p.minute}</span></div>
+                    <div class="stat"><span>MINUTOS TOTALES:</span><span>${p.minutosTotales || '--'}</span></div>
+                </div>
+                <a href="${p.link}" target="_blank" class="link-button">Ver Ficha</a>
+            </div>
+        </div>
+    </div>`);
+});
                 }
             }
         })
