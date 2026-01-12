@@ -5046,6 +5046,108 @@ const playersData = {
             }
         }
     },
+
+        "brugman": {
+        name: "Gastón Brugman Duarte",
+        footballName: "Brugman",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/3RSSjKLz/Brugman_PNG.webp",
+        personalData: {
+            fullName: "Gastón Brugman Duarte",
+            nickname: "Brugman",
+            birthPlace: "Rosario, Colonia",
+            country: "Uruguay",
+            nationality: "Uruguaya, Italiana",
+            height: "1,75 m",
+            birthDate: "07/09/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Nashville S.C.", category: "MLS Liga USA - US Open Cup" },
+            { season: "2023/24", team: "Los Angeles Galaxy", category: "MLS Liga USA - Leagues Cup" },
+            { season: "2022/23", team: "Los Angeles Galaxy", category: "MLS Liga USA - US Open Cup - Leagues Cup" },
+            { season: "2021/22", team: "Los Angeles Galaxy", category: "MLS Liga USA - Leagues Cup" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Parma Calcio 1913", category: "Serie B - Coppa Italia" },
+            { season: "2020/21", team: "Parma Calcio 1913", category: "Serie A - Coppa Italia" },
+            { season: "2019/20", team: "Parma Calcio 1913", category: "Serie A - Coppa Italia" },
+            { season: "2018/19", team: "Delfino Pescara 1936", category: "Serie B - Coppa Italia - Serie B Prom. de Ascenso" },
+            { season: "2017/18", team: "Delfino Pescara 1936", category: "Serie B - Coppa Italia" },
+            { season: "2016/17", team: "Delfino Pescara 1936", category: "Serie A - Coppa Italia" },
+            { season: "2015/16", team: "Palermo F.C.", category: "Serie A - Coppa Italia" },
+            { season: "2014/15", team: "Delfino Pescara 1936", category: "Serie B - Serie B Prom. de Ascenso" },
+            { season: "2013/14", team: "Delfino Pescara 1936", category: "Serie B - Coppa Italia" },
+            { season: "2012/13", team: "U.S. Grosseto F.C.", category: "Serie B" },
+            { season: "2012/13", team: "Delfino Pescara 1936", category: "Coppa Italia" },
+            { season: "2011/12", team: "Empoli F.C.", category: "Serie B - Coppa Italia - Serie B Prom. de Permanencia" },
+            { season: "2010/11", team: "Empoli F.C.", category: "Serie B" },
+            { season: "2010/11", team: "Empoli F.C. Sub-19", category: "Campionato Primavera 1" },
+            { season: "2009/10", team: "Empoli F.C. Sub-19", category: "Campionato Primavera 1" }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "Uruguay Sub-17", category: "Mundial Sub-17" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 33, goles_marcados: 3, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "jonimontiel": {
+        name: "Jonathan Montiel Caballero",
+        footballName: "Joni Montiel",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/ZRNkqvYV/Joni_Montiel_PNG.webp",
+        personalData: {
+            fullName: "Jonathan Montiel Caballero",
+            nickname: "Joni Montiel",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "03/09/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Qarabağ F.K.", category: "Champs. League - Liga Azerbaiyán - Copa Azerbaiyán" },
+            { season: "2024/25", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Burgos C.F.", category: "2ª Div." },
+            { season: "2023/24", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Levante U.D.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2019/20", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "R.C. Deportivo de La Coruña", category: "2ª Div." },
+            { season: "2018/19", team: "R.C. Deportivo de La Coruña Fabril", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.D. Toledo", category: "2ª Div. B" },
+            { season: "2017/18", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Rayo Vallecano de Madrid B", category: "3ª Div." },
+            { season: "2016/17", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Rayo Vallecano de Madrid B", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2016", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2016", team: "España Sub-18", category: "Amistosos" },
+            { season: "2014", team: "España Sub-17", category: "Amistosos" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 28, goles_marcados: 3, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
