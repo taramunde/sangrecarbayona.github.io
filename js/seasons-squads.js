@@ -34,7 +34,7 @@ const seasonsSquads = {
     "2021-22": {
         "goalkeepers": ["femenias", "tomeunadal", "bertohorreo"],
         "defenders": ["grippo", "arribas", "rodritarin", "davidcostas", "danicalvo", "bolano", "carlosisaac", "pierrecornud", "mossa", "lucas", "javimoreno", "reneperez", "jorgemier", "lucaslaso", "osky"],
-        "midfielders": ["hugorama", "luismi2023", "javimier", "viti2023", "sangalli", "borjasanchez", "jirka", "jimmy", "brugman", "jonimontiel", "pombo", "alexcardero", "yayo", "joselu", "mangel", "davidiglesias", "guillebernabeu"],
+        "midfielders": ["hugorama", "luismi2023", "javimier", "viti2023", "sangalli", "borjasanchez", "jirka", "jimmy", "brugman", "jonimontiel", "pombo", "alexcardero", "yayo", "joselu2021", "mangel", "davidiglesias", "guillebernabeu"],
         "forwards": ["borjabaston", "obeng", "matheusaias", "javicueto", "mariofuente", "vanderson"],
         "coaches": ["ziganda"],
         // ... solo IDs
