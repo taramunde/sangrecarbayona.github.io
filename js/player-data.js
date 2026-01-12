@@ -2519,6 +2519,46 @@ const playersData = {
         }
     },
 
+        "reneperez": {
+        name: "René Pérez Iglesias",
+        footballName: "René Pérez",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/CxD7QC1h/René_Pérez_PNG.webp",
+        personalData: {
+            fullName: "René Pérez Iglesias",
+            nickname: "René Pérez",
+            birthPlace: "Colunga, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,88 m",
+            birthDate: "19/10/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Gimnástica Segoviana C.F.", category: "2ª Federación" },
+            { season: "2024/25", team: "U.D. Almería B", category: "2ª Federación" },
+            { season: "2023/24", team: "U.D. Almería B", category: "3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2016/17", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
