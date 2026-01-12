@@ -3542,12 +3542,12 @@ const playersDatabase = {
         "name": "Pombo",
         "url": "fichajugador.html?player=pombo"
     },
-    "joselu": {
+    "joselu2021": {
         "src": "https://i.postimg.cc/5tZGD95v/Joselu_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Joselu",
-        "url": "fichajugador.html?player=joselu"
+        "url": "fichajugador.html?player=joselu2021"
     },
     "davidiglesias": {
         "src": "https://i.postimg.cc/prBDQkXr/David_Iglesias_PNG.webp",
