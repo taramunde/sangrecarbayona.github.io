@@ -5148,6 +5148,52 @@ const playersData = {
             }
         }
     },
+
+        "pombo": {
+        name: "Jorge Marcos Pombo Escobar",
+        footballName: "Pombo",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/XJ9Vzz5j/Pombo_PNG.webp",
+        personalData: {
+            fullName: "Jorge Marcos Pombo Escobar",
+            nickname: "Pombo",
+            birthPlace: "Zaragoza, Zaragoza",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "22/02/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "A.E. Kifisia F.C.", category: "Super League Griega - Copa Griega" },
+            { season: "2024/25", team: "A.E. Kifisia F.C.", category: "2ª Grecia - Copa Griega" },
+            { season: "2023/24", team: "F.C. Andorra", category: "2ª Div." },
+            { season: "2023/24", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Cádiz C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Zaragoza Deportivo Aragón", category: "3ª Div." },
+            { season: "2016/17", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Zaragoza Deportivo Aragón", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Zaragoza", category: "2ª Div." },
+            { season: "2014/15", team: "Real Zaragoza Deportivo Aragón", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Zaragoza Deportivo Aragón", category: "3ª Div. - Copa Federación" }
+        ],
+        stats: {
+            "2021/2022": {
+                liga: { partidos: 23, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
