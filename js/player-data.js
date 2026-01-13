@@ -5194,6 +5194,92 @@ const playersData = {
             }
         }
     },
+
+        "joselu2021": {
+        name: "José Luis Guerra Rodríguez",
+        footballName: "Joselu",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/5tZGD95v/Joselu_PNG.webp",
+        personalData: {
+            fullName: "José Luis Guerra Rodríguez",
+            nickname: "Joselu",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "27/06/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "S.D. Logroñés", category: "2ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "U.P. de Langreo", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2022/23", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "davidiglesias": {
+        name: "David Iglesias Calero",
+        footballName: "David Iglesias",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/prBDQkXr/David_Iglesias_PNG.webp",
+        personalData: {
+            fullName: "David Iglesias Calero",
+            nickname: "David Iglesias",
+            birthPlace: "Sama de Langreo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,76 m",
+            birthDate: "13/04/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Club Siero", category: "1ª RFFPA" },
+            { season: "2023/24", team: "Club Siero", category: "1ª RFFPA" },
+            { season: "2023/24", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "U.P. de Langreo", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2019/20", team: "U.D. Gijón Industrial", category: "3ª Div." },
+            { season: "2019/20", team: "San Ignacio C.F.", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. TSK Roces", category: "3ª Div." }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
