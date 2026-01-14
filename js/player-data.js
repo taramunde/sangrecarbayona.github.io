@@ -2701,9 +2701,9 @@ const playersData = {
             { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
             { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa del Rey" },
-            { season: "2014/15", team: "Real Oviedo Vetusta", category: "3ª Div." },
-            { season: "2013/14", team: "Real Oviedo Vetusta", category: "3ª Div." },
-            { season: "2012/13", team: "Real Oviedo Vetusta", category: "3ª Div." }
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." }
         ],
         nationalTeam: [
             { season: "2017", team: "Islandia", category: "Amistosos" }
