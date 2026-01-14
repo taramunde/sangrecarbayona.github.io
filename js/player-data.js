@@ -483,9 +483,9 @@ const playersData = {
             { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
-            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Fase Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Fase Permanencia 2ª RFEF" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2017/18", team: "C.D. T.S.K. Roces", category: "3ª Div." }
         ],
         stats: {
@@ -2482,7 +2482,7 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "C.E. Sabadell", category: "2ª Div." },
             { season: "2019/20", team: "U.D. Ibiza", category: "2ª Div. B" },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2018/19", team: "Real Balompédica Linense", category: "2ª Div. B" },
             { season: "2017/18", team: "R.C.D. Mallorca B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2017/18", team: "R.C.D. Mallorca", category: "Copa del Rey" },
@@ -5413,11 +5413,11 @@ const playersData = {
             { season: "2022/23", team: "U.P. de Langreo", category: "2ª Federación" },
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2019/20", team: "C.D. Praviano", category: "3ª Div." },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" }
         ],
         stats: {
             "2021/22": {
@@ -5503,7 +5503,7 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
             { season: "2019/20", team: "At. Malagueño", category: "3ª Div." }
         ],
         stats: {
@@ -6370,7 +6370,7 @@ const playersData = {
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "C.D. Calahorra", category: "2ª Div. B - Copa del Rey" },
             { season: "2017/18", team: "E.C. Granollers", category: "3ª Div." }
@@ -6623,11 +6623,11 @@ const playersData = {
             { season: "2022/23", team: "At. Madrileño", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2018", team: "España Sub-18", category: "Amistosos" }
@@ -6678,9 +6678,9 @@ const playersData = {
             { season: "2023/24", team: "Coruxo F.C.", category: "2ª Federación - Copa Federación Fase Autonómica" },
             { season: "2022/23", team: "Club Marino de Luanco", category: "2ª Federación" },
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
-            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
             { season: "2018/19", team: "Capivariano F.C.", category: "Paulista A3" },
             { season: "2017/18", team: "Paulista F.C.", category: "Copa São Paulo Junior" }
