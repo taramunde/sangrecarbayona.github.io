@@ -6405,6 +6405,108 @@ const playersData = {
         }
     },
 
+        "javicueto": {
+        name: "Javier Cueto Suárez",
+        footballName: "Javi Cueto",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/8CTpYSGZ/Javi_Cueto_PNG.webp",
+        personalData: {
+            fullName: "Javier Cueto Suárez",
+            nickname: "Javi Cueto",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "11/01/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Avilés Industrial C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación Fase Autonómica - 2ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "Algeciras C.F.", category: "1ª Federación" },
+            { season: "2022/23", team: "At. Madrileño", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2018", team: "España Sub-18", category: "Amistosos" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "vanderson": {
+        name: "Vanderson Silva Teles",
+        footballName: "Vanderson",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/FzYCs7yD/Vanderson_PNG.webp",
+        personalData: {
+            fullName: "Vanderson Silva Teles",
+            nickname: "Vanderson",
+            birthPlace: "San Salvador de la Bahía de Todos los Santos, Bahía",
+            country: "Brasil",
+            nationality: "Brasileña",
+            height: "1,84 m",
+            birthDate: "18/10/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.D. San Sebastián de Los Reyes", category: "2ª Federación - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2024/25", team: "San Fernando C.D.", category: "2ª Federación" },
+            { season: "2024/25", team: "U.P. de Langreo", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "Coruxo F.C.", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Club Marino de Luanco", category: "2ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Capivariano F.C.", category: "Paulista A3" },
+            { season: "2017/18", team: "Paulista F.C.", category: "Copa São Paulo Junior" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
@@ -6660,6 +6762,65 @@ const playersData = {
                 copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 8, victorias: 3, empates: 2, derrotas: 3 }
+            }
+        }
+    },
+
+        "ziganda": {
+        name: "José Ángel Ziganda Lakunza",
+        footballName: "Ziganda",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/JRrM0Mjf/Ziganda-entrenador-PNG.webp",
+        personalData: {
+            fullName: "José Ángel Ziganda Lakunza",
+            nickname: "Ziganda",
+            birthPlace: "Larráinzar, Navarra",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "01/10/1966",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Cultural y Deportiva Leonesa", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "S.D. Huesca", category: "2ª Div." },
+            { season: "2022/23", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Athletic Club", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2016/17", team: "Bilbao Athletic", category: "2ª Div. B" },
+            { season: "2015/16", team: "Bilbao Athletic", category: "2ª Div." },
+            { season: "2014/15", team: "Bilbao Athletic", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Bilbao Athletic", category: "2ª Div. B" },
+            { season: "2012/13", team: "Bilbao Athletic", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Bilbao Athletic", category: "2ª Div. B" },
+            { season: "2009/10", team: "Xerez C.D.", category: "1ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "C.A. Osasuna", category: "1ª Div." },
+            { season: "2007/08", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "C.A. Osasuna", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Champs. League" },
+            { season: "2005/06", team: "C.A. Osasuna B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos_entrenados: 42, victorias: 17, empates: 17, derrotas: 8 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 5, victorias: 2, empates: 1, derrotas: 2 }
+            },
+            "2020/21": {
+                liga: { partidos_entrenados: 42, victorias: 11, empates: 19, derrotas: 12 },
+                copa: { partidos_entrenados: 2, victorias: 1, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 4, victorias: 1, empates: 3, derrotas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos_entrenados: 14, victorias: 7, empates: 3, derrotas: 4 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
             }
         }
     },
