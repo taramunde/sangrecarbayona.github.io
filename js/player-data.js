@@ -504,6 +504,56 @@ const playersData = {
         }
     },
 
+        "brazao": {
+        name: "Gabriel Nascimento Resende Brazão",
+        footballName: "Brazão",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/CLs032K5/Braz-o-PNG.webp",
+        personalData: {
+            fullName: "Gabriel Nascimento Resende Brazão",
+            nickname: "Brazão",
+            birthPlace: "Uberlândia, Minas Gerais",
+            country: "Brasil",
+            nationality: "Brasileña",
+            height: "1,92 m",
+            birthDate: "05/10/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Santos F.C.", category: "Paulista A1" },
+            { season: "2024/25", team: "Santos F.C.", category: "Serie A Betano - Paulista A1 - Copa Brasil" },
+            { season: "2023/24", team: "Santos F.C.", category: "Paulista A1 - Serie B Brasil" },
+            { season: "2023/24", team: "Ternana Calcio", category: "Serie B - Coppa Italia" },
+            { season: "2022/23", team: "Ars et Labor Ferrara SPAL", category: "Serie B" },
+            { season: "2022/23", team: "Inter de Milán", category: "Serie A - Supercopa Italia - Coppa Italia" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Parma Calcio 1913", category: "Serie A" },
+            { season: "2017/18", team: "Cruzeiro E.C. Sub-20", category: "Copa Libertadores Sub-20 - Copa São Paulo Junior " },
+            { season: "2016/17", team: "Cruzeiro E.C. Sub-20", category: "Copa São Paulo Junior  - Supercopa de Brasil Sub-20" }
+        ],
+        nationalTeam: [
+            { season: "2021", team: "Brasil Sub-23", category: "Amistosos" },
+            { season: "2020", team: "Brasil Sub-23", category: "Amistosos" },
+            { season: "2019", team: "Brasil Sub-20", category: "Sudamericano Sub-20" },
+            { season: "2018", team: "Brasil", category: "Amistosos" },
+            { season: "2018", team: "Brasil Sub-20", category: "Amistosos" },
+            { season: "2017", team: "Brasil Sub-17", category: "Mundial Sub-17 - Sudamericano Sub-17 - Amistosos" },
+            { season: "2016", team: "Brasil Sub-17", category: "Amistosos" },
+            { season: "2015", team: "Brasil Sub-15", category: "Amistosos" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 2, goles_encajados: 5, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
@@ -2553,6 +2603,151 @@ const playersData = {
             "2021/22": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "carloshernandez": {
+        name: "Carlos Hernández Alarcón",
+        footballName: "Carlos Hernández",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/J761dZDB/Carlos_Hernández_PNG.webp",
+        personalData: {
+            fullName: "Carlos Hernández Alarcón",
+            nickname: "Carlos Hernández",
+            birthPlace: "Jaén, Jaén",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "15/09/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "A.D. Ceuta F.C.", category: "2ª Div." },
+            { season: "2024/25", team: "A.D. Ceuta F.C.", category: "1ª Federación - 1ª Federación Final de Campeones - Copa del Rey" },
+            { season: "2023/24", team: "C.D. Eldense", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Eldense", category: "1ª Federación - 1ª Federación Prom. de Ascenso - Copa del Rey" },
+            { season: "2021/22", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.E. Sabadell", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.E. Sabadell", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Real Zaragoza Deportivo Aragón", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Jaén C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Real Jaén C.F.", category: "2ª Div. B" },
+            { season: "2009/10", team: "Real Jaén C.F.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 17, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 30, goles_marcados: 0, tarjetas_amarillas: 9, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 27, goles_marcados: 4, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 38, goles_marcados: 6, tarjetas_amarillas: 12, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "johannesson": {
+        name: "Diego Johannesson Pando",
+        footballName: "Johannesson",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/hv5QSY2k/Johannesson_PNG.webp",
+        personalData: {
+            fullName: "Diego Johannesson Pando",
+            nickname: "Johannesson",
+            birthPlace: "Villaviciosa, Asturias",
+            country: "España",
+            nationality: "Española, Islandesa",
+            height: "1,75 m",
+            birthDate: "03/10/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2021/22", team: "Albacete Balompié", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "F.C. Cartagena", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo Vetusta", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2017", team: "Islandia", category: "Amistosos" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 7, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 36, goles_marcados: 2, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 32, goles_marcados: 4, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 17, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 18, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 13, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
