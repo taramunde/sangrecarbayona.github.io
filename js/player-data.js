@@ -5280,6 +5280,53 @@ const playersData = {
             }
         }
     },
+
+        "guillebernabeu": {
+        name: " Guillermo Bernabéu Nortes",
+        footballName: "Guille Bernabéu",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/sXgyDgQL/Guille_Bernabéu_PNG.webp",
+        personalData: {
+            fullName: " Guillermo Bernabéu Nortes",
+            nickname: "Guille Bernabéu",
+            birthPlace: "Orihuela, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "13/01/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Unión Malacitano", category: "2ª Federación - Copa del Rey" },
+            { season: "2025/26", team: "F.C. La Unión Atlético", category: "2ª Federación" },
+            { season: "2024/25", team: "F.C. La Unión Atlético", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "F.C. Cartagena B", category: "2ª Federación" },
+            { season: "2022/23", team: "Racing Cartagena Mar Menor F.C.", category: "2ª Federación - Copa Federación" },
+            { season: "2021/22", team: "Hércules de Alicante C.F.", category: "2ª Federación" },
+            { season: "2021/22", team: "Hércules de Alicante C.F. B", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "At. Malagueño", category: "3ª Div." }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
@@ -6308,6 +6355,52 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "matheusaias": {
+        name: "Matheus Aiás Barrozo Rodrigues",
+        footballName: "Matheus Aiás",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Y9fyy5pz/Matheus_Aiás_PNG.webp",
+        personalData: {
+            fullName: "Matheus Aiás Barrozo Rodrigues",
+            nickname: "Matheus Aiás",
+            birthPlace: "Palmares Paulista, São Paulo",
+            country: "Brasil",
+            nationality: "Brasileña",
+            height: "1,76 m",
+            birthDate: "30/12/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Noah Yerevan", category: "Liga Armenia - Fase Previa Champs. League - Fase Previa Europa League - Fase Previa Conference League - Conference League" },
+            { season: "2024/25", team: "F.C. Noah Yerevan", category: "Liga Armenia - Copa Armenia - Fase Previa Conference League - Conference League" },
+            { season: "2023/24", team: "Moreirense F.C.", category: "Liga Portugal Betclic - Taça de Portugal" },
+            { season: "2023/24", team: "Real Racing Club de Santander", category: "2ª Div." },
+            { season: "2022/23", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Orlando City S.C.", category: "MLS Liga USA" },
+            { season: "2019/20", team: "Orlando City S.C.", category: "MLS Liga USA" },
+            { season: "2019/20", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "Lorca F.C.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Club Recreativo Granada", category: "2ª Div. B" },
+            { season: "2015/16", team: "Club Recreativo Granada", category: "2ª Div. B - Copa Federación" },
+            { season: "2014/15", team: "Club Recreativo Granada", category: "2ª Div. B" },
+            { season: "2013/14", team: "A. Atl. Ponte Preta S.P. Sub-17", category: "Copa Brasil" }
+        ],
+        stats: {
+            "2021/22": {
+                liga: { partidos: 26, goles_marcados: 2, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
