@@ -71,8 +71,8 @@ const playersData = {
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
-            { season: "2024/25", team: "Atlético de Madrid", category: "1ª Div." },
-            { season: "2023/24", team: "Atlético de Madrid", category: "1ª Div. - Champ. League - Copa del Rey" },
+            { season: "2024/25", team: "At. de Madrid", category: "1ª Div." },
+            { season: "2023/24", team: "At. de Madrid", category: "1ª Div. - Champ. League - Copa del Rey" },
             { season: "2023/24", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
             { season: "2022/23", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
             { season: "2021/22", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
@@ -577,7 +577,7 @@ const playersData = {
             { season: "2024/25", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2023/24", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2023/24", team: "Beşiktaş J.K.", category: "Liga Turca - Conference League" },
-            { season: "2022/23", team: "Olympique Marseille", category: "Ligue 1 - Champ. League - Copa de Francia" },
+            { season: "2022/23", team: "Olympique de Marsella", category: "Ligue 1 - Champ. League - Copa de Francia" },
             { season: "2021/22", team: "Manchester United", category: "Premier League - Champ. League - EFL Cup" },
             { season: "2020/21", team: "Manchester United", category: "Premier League - Champ. League - Europa League - FA Cup - EFL Cup" },
             { season: "2019/20", team: "Manchester United", category: "Premier League - Europa League - FA Cup - EFL Cup" },
@@ -1573,7 +1573,7 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     }, 
         career: [  
-            { season: "2025/26", team: "Real Avilés Industrial", category: "Copa del Rey - 1ª Federación" },
+            { season: "2025/26", team: "Real Avilés Industrial C.F.", category: "Copa del Rey - 1ª Federación" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }, 
             { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2023/24", team: "L'Entregu C.F.", category: "Copa Federación - 3ª Federación - 3ª Federación Prom. de Ascenso" },
@@ -1854,8 +1854,8 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "Real Avilés Industrial", category: "1ª Federación - Copa del Rey" },
-            { season: "2024/25", team: "Real Avilés Industrial", category: "Copa Federación - Copa Federación Fase Autonómica - 2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2025/26", team: "Real Avilés Industrial C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "Real Avilés Industrial C.F.", category: "Copa Federación - Copa Federación Fase Autonómica - 2ª Federación - 2ª Federación Prom. de Ascenso" },
             { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
@@ -2003,12 +2003,12 @@ const playersData = {
             { season: "2023/24", team: "S.D. Amorebieta", category: "2ª Div. - Copa del Rey" },
             { season: "2022/23", team: "S.D. Amorebieta", category: "1ª Federación - Copa del Rey - 1ª Federación Final de Campeones" },
             { season: "2021/22", team: "Unionistas de Salamanca C.F.", category: "1ª Federación - Copa del Rey" },
-            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B - 2ª Div. B 2ª Fase Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase Permanencia 2ª RFEF" },
             { season: "2019/20", team: "Real Oviedo", category: "Copa del Rey" },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
-            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
         ],
         stats: {
             "2022/23": {
@@ -2126,7 +2126,7 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2020/21", team: "C.D. Llanes", category: "3ª Div. - Copa Federación Fase Autonómica - 3ª Div. 2ª Fase Ascenso a 2ª RFEF - Prom. de Ascenso a 2ª Div. RFEF" },
             { season: "2019/20", team: "C.D. Llanes", category: "3ª Div." },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" }
         ],
         stats: {
             "2022/23": {
@@ -2171,7 +2171,7 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "Real Oviedo Sub-19", category: "División de Honor" },
             { season: "2020/21", team: "Real Oviedo Sub-19", category: "División de Honor" },
-            { season: "2020/21", team: "Real Oviedo Vetusta", category: "2ª Div. B" }
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2020", team: "España Sub-17", category: "Amistosos" }
@@ -4293,9 +4293,9 @@ const playersData = {
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
-            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
-            { season: "2016/17", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
             { season: "2015/16", team: "Astur C.F.", category: "3ª Div." },
             { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" },
             { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
@@ -4371,15 +4371,14 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
-            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2016/17", team: "Real Oviedo Vetusta", category: "3ª Div." },
-            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2015/16", team: "Real Oviedo Vetusta", category: "3ª Div." },
-            { season: "2014/15", team: "Real Oviedo Vetusta", category: "3ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
             { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" }
         ],
         stats: {
@@ -4465,11 +4464,11 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2018/19", team: "Real Oviedo Vetusta", category: "2ª Div. B" },
-            { season: "2017/18", team: "Real Oviedo Vetusta", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
-            { season: "2016/17", team: "Real Oviedo Vetusta", category: "3ª Div." }
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." }
         ],
         nationalTeam: [
             { season: "2015", team: "España Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" },
@@ -6114,7 +6113,7 @@ const playersData = {
         },
         career: [
             { season: "2025/26", team: "At. Levante U.D.", category: "3ª Federación" },
-            { season: "2024/25", team: "Real Valladolid Promesas", category: "2ª Federación" },
+            { season: "2024/25", team: "Real Valladolid C.F. Promesas", category: "2ª Federación" },
             { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
