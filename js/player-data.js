@@ -5733,6 +5733,61 @@ const playersData = {
             }
         }
     },
+
+        "nahuel": {
+        name: "Matías Nahuel Leiva Esquivel",
+        footballName: "Nahuel",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/T2srvkpV/Nahuel_PNG.webp",
+        personalData: {
+            fullName: "Matías Nahuel Leiva Esquivel",
+            nickname: "Nahuel",
+            birthPlace: "Rosario, Santa Fe",
+            country: "Argentina",
+            nationality: "Argentina, Española",
+            height: "1,72 m",
+            birthDate: "22/11/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Maccabi Haifa F.C.", category: "Liga Israel - Copa Israel - Copa Toto Liga Israel - Fase Previa Conference League" },
+            { season: "2024/25", team: "Maccabi Haifa F.C.", category: "Liga Israel - Copa Israel - Copa Toto Liga Israel" },
+            { season: "2024/25", team: "Śląsk Wroclaw", category: "Liga Polaca - Fase Previa Conference League" },
+            { season: "2023/24", team: "Śląsk Wroclaw", category: "Liga Polaca - Copa Polonia" },
+            { season: "2022/23", team: "Śląsk Wroclaw", category: "Liga Polaca - Copa Polonia" },
+            { season: "2021/22", team: "C.D. Tenerife", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Olympiakós de El Pireo", category: "Super League Griega - Europa League - Copa Griega" },
+            { season: "2017/18", team: "Barça Atlètic", category: "2ª Div." },
+            { season: "2017/18", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2014/15", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey - Fase Previa Europa League" },
+            { season: "2014/15", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2013/14", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2012/13", team: "Villarreal C.F. C", category: "3ª Div." },
+            { season: "2012/13", team: "Villarreal C.F. B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2017", team: "España Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2015", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2015", team: "España Sub-19", category: "Europeo Sub-19 - Amistosos" },
+            { season: "2014", team: "España Sub-19", category: "Amistosos" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 37, goles_marcados: 6, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
