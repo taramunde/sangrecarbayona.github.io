@@ -2436,11 +2436,11 @@ const playersData = {
             { season: "2022/23", team: "F.C. Vizela", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "At. Madrileño", category: "2ª Div. B" },
+            { season: "2019/20", team: "At. de Madrid B", category: "2ª Div. B" },
             { season: "2018/19", team: "At. de Madrid", category: "1ª Div." },
-            { season: "2018/19", team: "At. Madrileño", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2018/19", team: "At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2017/18", team: "At. de Madrid", category: "1ª Div." },
-            { season: "2017/18", team: "At. Madrileño", category: "2ª Div. B" },
+            { season: "2017/18", team: "At. de Madrid B", category: "2ª Div. B" },
             { season: "2017/18", team: "At. de Madrid Sub-19", category: "UEFA Youth League" },
             { season: "2016/17", team: "At. de Madrid Sub-19", category: "UEFA Youth League - Copa de Campeones División de Honor" },
             { season: "2015/16", team: "At. de Madrid Sub-19", category: "UEFA Youth League" }
@@ -4246,7 +4246,7 @@ const playersData = {
             { season: "2023/24", team: "C.D. Estepona", category: "2ª Federación" },
             { season: "2022/23", team: "C.D. Estepona", category: "2ª Federación" },
             { season: "2021/22", team: "At. de Madrid Sub-19", category: "División de Honor - UEFA Youth League - Copa de Campeones División de Honor - Copa del Rey Juvenil" },
-            { season: "2020/21", team: "At. Madrileño Sub-19", category: "División de Honor" }
+            { season: "2020/21", team: "At. de Madrid B Sub-19", category: "División de Honor" }
             
          ],
 
@@ -5788,6 +5788,56 @@ const playersData = {
             }
         }
     },
+
+        "cedric": {
+        name: "Cedric Wilfried Teguía Noubi",
+        footballName: "Cedric",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/3xF7mcGm/Cedric_PNG.webp",
+        personalData: {
+            fullName: "Cedric Wilfried Teguía Noubi",
+            nickname: "Cedric",
+            birthPlace: "Duala, Región del Litoral",
+            country: "Camerún",
+            nationality: "Camerunesa, Española",
+            height: "1,80 m",
+            birthDate: "01/10/2001",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Moreirense F.C.", category: "Liga Portugal Betclic - Taça de Portugal" },
+            { season: "2024/25", team: "Moreirense F.C.", category: "Liga Portugal Betclic" },
+            { season: "2024/25", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "A.D. Ceuta F.C.", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "C.F. Intercity", category: "1ª Federación" },
+            { season: "2022/23", team: "Córdoba C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "R.C. Celta de Vigo Fortuna", category: "1ª Federación" },
+            { season: "2020/21", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2019/20", team: "At. de Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2018/19", team: "At. de Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2018/19", team: "At. de Madrid B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2019", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2019", team: "España Sub-20", category: "Torneo COTIF Sub-20" },
+            { season: "2019", team: "España Sub-18", category: "Copa Eslovaquia Sub-18 - Copa del Atlántico Juvenil" },
+            { season: "2018", team: "España Sub-18", category: "Amistosos" },
+            { season: "2018", team: "España Sub-17", category: "Amistosos" },
+            { season: "2017", team: "España Sub-17", category: "Clasif. Europeo Sub-17" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
@@ -6245,10 +6295,10 @@ const playersData = {
             { season: "2013/14", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
             { season: "2012/13", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
             { season: "2011/12", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
-            { season: "2010/11", team: "At. Madrileño", category: "2ª Div. B" },
+            { season: "2010/11", team: "At. de Madrid B", category: "2ª Div. B" },
             { season: "2010/11", team: "At. de Madrid", category: "1ª Div. - Copa del Rey" },
             { season: "2009/10", team: "At. de Madrid", category: "1ª Div." },
-            { season: "2009/10", team: "At. Madrileño", category: "2ª Div. B" }
+            { season: "2009/10", team: "At. de Madrid B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2011", team: "España Sub-19", category: "Europeo Sub-19" },
@@ -6543,8 +6593,8 @@ const playersData = {
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
-            { season: "2022/23", team: "At. Madrileño", category: "2ª Federación - 2 ª Federacción Prom. de Ascenso" },
-            { season: "2021/22", team: "At. Madrileño", category: "3ª Federación" },
+            { season: "2022/23", team: "At. de Madrid B", category: "2ª Federación - 2 ª Federacción Prom. de Ascenso" },
+            { season: "2021/22", team: "At. de Madrid B", category: "3ª Federación" },
             { season: "2020/21", team: "Burgos C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2020/21", team: "Burgos C.F. Sub-19", category: "División de Honor" },
             { season: "2019/20", team: "C.D. Covadonga", category: "3ª Div. Prom. de Ascenso" }
@@ -6887,7 +6937,7 @@ const playersData = {
             { season: "2025/26", team: "Real Avilés Industrial C.F.", category: "1ª Federación - Copa del Rey" },
             { season: "2024/25", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación Fase Autonómica - 2ª Federación Prom. de Ascenso" },
             { season: "2023/24", team: "Algeciras C.F.", category: "1ª Federación" },
-            { season: "2022/23", team: "At. Madrileño", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "At. de Madrid B", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
