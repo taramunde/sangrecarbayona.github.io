@@ -2754,6 +2754,109 @@ const playersData = {
         }
     },
 
+        "juanjonieto": {
+        name: "Juan José Nieto Zarzoso",
+        footballName: "Juanjo Nieto",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/MKfv7dPG/Juanjo_Nieto_PNG.webp",
+        personalData: {
+            fullName: "Juan José Nieto Zarzoso",
+            nickname: "Juanjo Nieto",
+            birthPlace: "Castellón de la Plana, Castellón",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "03/10/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "N.K. Celje", category: "Liga Eslovena SNL - Fase Previa Europa League - Fase Previa Conference League - Conference League" },
+            { season: "2024/25", team: "N.K. Celje", category: "Liga Eslovena SNL - Copa Eslovenia - Fase Previa Conference League - Conference League" },
+            { season: "2023/24", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "S.D. Huesca", category: "2ª Div." },
+            { season: "2021/22", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Hércules de Alicante C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Hércules de Alicante C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "R.C.D. Mallorca", category: "2ª Div." },
+            { season: "2016/17", team: "Real Zaragoza", category: "2ª Div." },
+            { season: "2016/17", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa Federación" },
+            { season: "2014/15", team: "Real Valladolid C.F. Promesas", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Valladolid C.F. Promesas", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 34, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 25, goles_marcados: 2, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "ugarte": {
+        name: "Andoni Ugarte Mendizabal",
+        footballName: "Ugarte",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/zfG7pyyp/Ugarte_PNG.webp",
+        personalData: {
+            fullName: "Andoni Ugarte Mendizabal",
+            nickname: "Ugarte",
+            birthPlace: "Oñate, Guipúzcoa",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "05/04/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.D. Logroñés", category: "2ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "U.D. Logroñés", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "U.D. Logroñés", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Sestao River Club", category: "2ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Calahorra", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Sociedad de Fútbol B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2015/16", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Sociedad de Fútbol Sub-19", category: "División de Honor" },
+            { season: "2013/14", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Sociedad de Fútbol Sub-19", category: "UEFA Youth League" },
+            { season: "2012/13", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
