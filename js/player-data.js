@@ -5624,6 +5624,115 @@ const playersData = {
             }
         }
     },
+
+        "edgar": {
+        name: "Edgar González Estrada",
+        footballName: "Edgar",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/sxfBzzsf/Edgar_PNG.webp",
+        personalData: {
+            fullName: "Edgar González Estrada",
+            nickname: "Edgar",
+            birthPlace: "San Juan Despí, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,92 m",
+            birthDate: "01/04/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Andorra", category: "2ª Div." },
+            { season: "2025/26", team: "H.N.K. Hajduk Split", category: "Liga Croata HNL - Copa Croata" },
+            { season: "2024/25", team: "U.D. Almería", category: "2ª Div. - 2ª Div. Prom. de Ascenso - Copa del Rey" },
+            { season: "2023/24", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Real Betis Balompié", category: "1ª Div. - Europa League - Copa del Rey - Supercopa de España" },
+            { season: "2021/22", team: "Real Betis Balompié", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Betis Deportivo Balompié", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Betis Deportivo Balompié", category: "3ª Div. - Copa Federación" },
+            { season: "2018/19", team: "Real Betis Balompié", category: "Copa del Rey" },
+            { season: "2017/18", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa de Catalunya" },
+            { season: "2016/17", team: "U.E. Cornellà", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "R.C.D. Espanyol B", category: "2ª Div. B" },
+            { season: "2014/15", team: "U.E. Cornellà", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 37, goles_marcados: 3, tarjetas_amarillas: 17, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "aburjania": {
+        name: "Giorgi Aburjania",
+        footballName: "Aburjania",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/ZRdBHHjZ/Aburjania-PNG.webp",
+        personalData: {
+            fullName: "Giorgi Aburjania",
+            nickname: "Aburjania",
+            birthPlace: "Tiflis, Tiflis",
+            country: "Georgia",
+            nationality: "Georgiana",
+            height: "1,86 m",
+            birthDate: "02/01/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Jeddah S.C.", category: "1ª Arabia Saudí - Copa del Rey Saudí" },
+            { season: "2024/25", team: "A.V.S. Futebol", category: "Liga Portugal Betclic - Taça de Portugal - Liga Portuguesa Prom. de Ascenso" },
+            { season: "2023/24", team: "Hatayspor Kulübü", category: "Liga Turca - Copa Turca" },
+            { season: "2022/23", team: "Gil Vicente F.C.", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal - Fase Previa Conference League" },
+            { season: "2021/22", team: "Gil Vicente F.C.", category: "Liga Portugal Betclic - Taça de Portugal" },
+            { season: "2020/21", team: "F.C. Cartagena", category: "2ª Div." },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "F.C. Twente Enschede Sub-21", category: "Beloften Eredivisie" },
+            { season: "2019/20", team: "F.C. Twente Enschede", category: "Eredivisie - KNVB Beker" },
+            { season: "2018/19", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Sevilla At.", category: "2ª Div." },
+            { season: "2016/17", team: "Sevilla At.", category: "2ª Div." },
+            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Anorthosis Famagusta F.C.", category: "Liga Chipre" },
+            { season: "2014/15", team: "Anorthosis Famagusta F.C.", category: "Liga Chipre - Copa Chipre" },
+            { season: "2013/14", team: "F.C. Locomotive Tbilisi", category: "2ª Georgia" },
+            { season: "2013/14", team: "F.C. Dila Gori", category: "Liga Georgia - Fase Previa Europa League - Copa Georgia" },
+            { season: "2012/13", team: "F.C. Dila Gori", category: "Liga Georgia - Copa Georgia" },
+            { season: "2011/12", team: "F.C. Metalurgi Rustavi", category: "Liga Georgia - Fase Previa Europa League" },
+            { season: "2010/11", team: "F.C. Metalurgi Rustavi", category: "Liga Georgia" }
+        ],
+        nationalTeam: [
+            { season: "2023", team: "Georgia", category: "Clasif. Eurocopa - Amistosos" },
+            { season: "2022", team: "Georgia", category: "Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2021", team: "Georgia", category: "Clasif. Mundial Europa - Amistosos" },
+            { season: "2020", team: "Georgia", category: "Clasif. Eurocopa - Liga de las Naciones de la UEFA" },
+            { season: "2019", team: "Georgia", category: "Clasif. Eurocopa - Amistosos" },
+            { season: "2018", team: "Georgia", category: "Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2017", team: "Georgia", category: "Clasif. Mundial Europa - Amistosos" },
+            { season: "2016", team: "Georgia", category: "Amistosos" },
+            { season: "2016", team: "Georgia Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2015", team: "Georgia Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2014", team: "Georgia Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2013", team: "Georgia Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2012", team: "Georgia Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2012", team: "Georgia Sub-17", category: "Europeo Sub-17 - Clasif. Europeo Sub-17" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
