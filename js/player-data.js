@@ -588,10 +588,10 @@ const playersData = {
             { season: "2016/17", team: "Manchester United", category: "Premier League - Europa League - FA Cup - Community Shield - EFL Cup" },
             { season: "2015/16", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2014/15", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
-            { season: "2014/15", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
-            { season: "2014/15", team: "R.C.D. Espanyol B", category: "2ª Div. B" },
-            { season: "2013/14", team: "R.C.D. Espanyol B", category: "2ª Div. B" },
-            { season: "2012/13", team: "R.C.D. Espanyol B", category: "2ª Div. B" }
+            { season: "2014/15", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
+            { season: "2013/14", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
+            { season: "2012/13", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2024", team: "Costa de Marfil", category: "Clasif. Copa África" },
@@ -1908,8 +1908,8 @@ const playersData = {
             { season: "2023/24", team: "C.D. Eldense", category: "2ª Div. - Copa del Rey" },
             { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div." },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2021/22", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
-            { season: "2020/21", team: "R.C.D. Espanyol", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "R.C.D. Espanyol de Barcelona", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2017/18", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
@@ -5656,7 +5656,7 @@ const playersData = {
             { season: "2018/19", team: "Real Betis Balompié", category: "Copa del Rey" },
             { season: "2017/18", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa de Catalunya" },
             { season: "2016/17", team: "U.E. Cornellà", category: "2ª Div. B - Copa del Rey" },
-            { season: "2015/16", team: "R.C.D. Espanyol B", category: "2ª Div. B" },
+            { season: "2015/16", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
             { season: "2014/15", team: "U.E. Cornellà", category: "2ª Div. B" }
         ],
         stats: {
@@ -5835,6 +5835,123 @@ const playersData = {
                 copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "tejera": {
+        name: "Sergio Tejera Rodríguez",
+        footballName: "Tejera",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Cxp4yZ9w/Tejera_PNG.webp",
+        personalData: {
+            fullName: "Sergio Tejera Rodríguez",
+            nickname: "Tejera",
+            birthPlace: "Barcelona, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "28/05/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Racing Club de Ferrol", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "APOEL F.C.", category: "Liga Chipre - Fase Previa Champs. League - Copa de Chipre - Supercopa de Chipre - Conference League" },
+            { season: "2023/24", team: "Anorthosis Famagusta F.C.", category: "Liga Chipre - Copa Chipre" },
+            { season: "2022/23", team: "Anorthosis Famagusta F.C.", category: "Liga Chipre - Copa Chipre" },
+            { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Club Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2016/17", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Deportivo Alavés", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Deportivo Alavés", category: "2ª Div." },
+            { season: "2013/14", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2009/10", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2007/08", team: "Chelsea F.C. Sub-18", category: "FA Youth Cup" }
+        ],
+        nationalTeam: [
+            { season: "2007", team: "España Sub-17", category: "Mundial Sub-17 - Amistosos" },
+            { season: "2006", team: "España Sub-15", category: "Amistosos" },
+            { season: "2005", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 33, goles_marcados: 4, tarjetas_amarillas: 10, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 35, goles_marcados: 2, tarjetas_amarillas: 14, tarjetas_rojas: 2 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 34, goles_marcados: 4, tarjetas_amarillas: 15, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "riki": {
+        name: "Ricardo Rodríguez Gil-Carcedo",
+        footballName: "Riki",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/8PzSR5ZP/Riki_PNG.webp",
+        personalData: {
+            fullName: "Ricardo Rodríguez Gil-Carcedo",
+            nickname: "Riki",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,75 m",
+            birthDate: "25/09/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2021/22", team: "Albacete Balompié", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Racing Club de Santander", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2017/18", team: "Club Marino de Luanco", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "C.D. Tineo", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Astur C.F. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
