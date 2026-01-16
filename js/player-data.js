@@ -6081,6 +6081,46 @@ const playersData = {
             }
         }
     },
+
+        "tonripoll": {
+        name: "Ton Ripoll i Solera",
+        footballName: "Ton Ripoll",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/rss30hkG/Ton_Ripoll_PNG.webp",
+        personalData: {
+            fullName: "Ton Ripoll i Solera",
+            nickname: "Ton Ripoll",
+            birthPlace: "Sampedor, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "27/05/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.E. Sabadell", category: "1ª Federación - Copa de Catalunya - Copa del Rey" },
+            { season: "2024/25", team: "C.E. Sabadell", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación - Copa de Catalunya" },
+            { season: "2023/24", team: "Lleida C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2022/23", team: "S.C.R. Penya Deportiva", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa del Rey" },
+            { season: "2021/22", team: "S.C.R. Penya Deportiva", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2020/21", team: "Real Murcia C.F.", category: "2ª Div. B" },
+            { season: "2020/21", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2019/20", team: "C.E. L’Hospitalet", category: "3ª Div. - 3ª Div. Prom. de Ascenso - Copa del Rey" },
+            { season: "2018/19", team: "C.E. L’Hospitalet", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "F.C. Vilafranca", category: "3ª Div. - Copa Federación - Copa de Catalunya" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
