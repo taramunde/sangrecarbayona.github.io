@@ -5955,6 +5955,132 @@ const playersData = {
             }
         }
     },
+
+        "educortina": {
+        name: "Eduardo Cortina García",
+        footballName: "Edu Cortina",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/59pY3XSX/Edu_Cortina_PNG.webp",
+        personalData: {
+            fullName: "Eduardo Cortina García",
+            nickname: "Edu Cortina",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "25/09/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Avilés Industrial C.F.", category: "1ª Federación" },
+            { season: "2024/25", team: "Real Avilés Industrial C.F.", category: "2ª Federación" },
+            { season: "2023/24", team: "Real Avilés Industrial C.F.", category: "2ª Federación - 2ª Federación Prom. de Permanencia" },
+            { season: "2022/23", team: "Real Avilés Industrial C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2021/22", team: "Unionistas de Salamanca C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "A.D. Mérida", category: "2ª Div. B" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2019/20": {
+                liga: { partidos: 10, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "borjavalle": {
+        name: "Borja Valle Balonga",
+        footballName: "Borja Valle",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/yYwGr8VH/Borja_Valle_PNG.webp",
+        personalData: {
+            fullName: "Borja Valle Balonga",
+            nickname: "Borja Valle",
+            birthPlace: "Ponferrada, León",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "09/07/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "S.D. Ponferradina", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "S.D. Ponferradina", category: "1ª Federación - 1ª Federación Prom. de Ascenso - Copa del Rey" },
+            { season: "2023/24", team: "S.D. Ponferradina", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2021/22", team: "Khor Fakkan S.S.C.", category: "Liga Emiratos" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "F.C. Dinamo de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2019/20", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2016/17", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "C.D. Ourense", category: "2ª Div. B - Copa Federación" },
+            { season: "2012/13", team: "C.D. Ourense", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "R.C. Celta de Vigo Fortuna", category: "2ª Div. B" },
+            { season: "2011/12", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "S.D. Ponferradina", category: "2ª Div." },
+            { season: "2009/10", team: "S.D. Ponferradina", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 21, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 29, goles_marcados: 6, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 25, goles_marcados: 9, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
