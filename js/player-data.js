@@ -738,7 +738,7 @@ const playersData = {
             { season: "2019/20", team: "U.D. Almería", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
             { season: "2019/20", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
-            { season: "2017/18", team: "Barça Atlètic", category: "2ª Div." },
+            { season: "2017/18", team: "F.C. Barcelona B", category: "2ª Div." },
             { season: "2017/18", team: "F.C. Barcelona", category: "1ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
             { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
@@ -1660,10 +1660,10 @@ const playersData = {
             { season: "2020/21", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey - 2ª Div. - Prom. de Ascenso" },
             { season: "2019/20", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
-            { season: "2017/18", team: "Barça Atlètic", category: "2ª Div." },
-            { season: "2016/17", team: "Barça Atlètic", category: "2ª Div. B" },
-            { season: "2015/16", team: "Barça Atlètic", category: "2ª Div. B" },
-            { season: "2014/15", team: "Barça Atlètic", category: "2ª Div." },
+            { season: "2017/18", team: "F.C. Barcelona B", category: "2ª Div." },
+            { season: "2016/17", team: "F.C. Barcelona B", category: "2ª Div. B" },
+            { season: "2015/16", team: "F.C. Barcelona B", category: "2ª Div. B" },
+            { season: "2014/15", team: "F.C. Barcelona B", category: "2ª Div." },
             { season: "2014/15", team: "F.C. Barcelona Sub-19", category: "UEFA Youth League" },
             { season: "2013/14", team: "F.C. Barcelona Sub-19", category: "UEFA Youth League" }
             
@@ -5762,7 +5762,7 @@ const playersData = {
             { season: "2019/20", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
             { season: "2018/19", team: "Olympiakós de El Pireo", category: "Super League Griega - Europa League - Copa Griega" },
-            { season: "2017/18", team: "Barça Atlètic", category: "2ª Div." },
+            { season: "2017/18", team: "F.C. Barcelona B", category: "2ª Div." },
             { season: "2017/18", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
@@ -7391,7 +7391,7 @@ const playersData = {
             { season: "2013/14", team: "U.D. Almería", category: "1ª Div." },
             { season: "2012/13", team: "Real Zaragoza", category: "1ª Div." },
             { season: "2012/13", team: "Sheffield Wednesday F.C.", category: "Championship - EFL Cup" },
-            { season: "2011/12", team: "Barça Atlètic", category: "2ª Div." },
+            { season: "2011/12", team: "F.C. Barcelona B", category: "2ª Div." },
             { season: "2010/11", team: "Sevilla F.C.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Champs. League" },
             { season: "2010/11", team: "Sevilla At.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2009/10", team: "Sevilla F.C.", category: "1ª Div. - Copa del Rey" },
@@ -7444,19 +7444,19 @@ const playersData = {
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Villarreal C.F. B", category: "2ª Div. B" },
             { season: "2019/20", team: "Extremadura U.D.", category: "2ª Div. - Copa del Rey" },
-            { season: "2018/19", team: "Barça Atlètic", category: "2ª Div. B - Copa de Catalunya" },
+            { season: "2018/19", team: "F.C. Barcelona B", category: "2ª Div. B - Copa de Catalunya" },
             { season: "2017/18", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa de Catalunya" },
-            { season: "2017/18", team: "Barça Atlètic", category: "2ª Div." },
+            { season: "2017/18", team: "F.C. Barcelona B", category: "2ª Div." },
             { season: "2017/18", team: "F.C. Barcelona Sub-19", category: "UEFA Youth League" },
-            { season: "2016/17", team: "Barça Atlètic", category: "2ª Div. B - Copa de Catalunya" },
-            { season: "2015/16", team: "Barça Atlètic", category: "2ª Div. B - Copa de Catalunya" },
+            { season: "2016/17", team: "F.C. Barcelona B", category: "2ª Div. B - Copa de Catalunya" },
+            { season: "2015/16", team: "F.C. Barcelona B", category: "2ª Div. B - Copa de Catalunya" },
             { season: "2015/16", team: "F.C. Barcelona Sub-19", category: "UEFA Youth League" }
         ],
         nationalTeam: [
             { season: "2016", team: "España Sub-19", category: "Amistosos" }
         ],
         stats: {
-            "": {
+            "2020/21": {
                 liga: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
