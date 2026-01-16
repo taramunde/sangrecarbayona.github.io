@@ -7465,6 +7465,55 @@ const playersData = {
         }
     },
 
+        "blancoleschuk": {
+        name: "Gustavo Ezequiel Blanco Leschuk",
+        footballName: "Blanco Leschuk",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/900jhmgB/Blanco-Leschuk-PNG.webp",
+        personalData: {
+            fullName: "Gustavo Ezequiel Blanco Leschuk",
+            nickname: "Blanco Leschuk",
+            birthPlace: "Mendoza, Mendoza",
+            country: "Argentina",
+            nationality: "Argentina, Ucraniana",
+            height: "1,90 m",
+            birthDate: "05/11/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Foolad Khuzestan F.C.", category: "Liga Irán" },
+            { season: "2024/25", team: "Foolad Khuzestan F.C.", category: "Liga Irán - Copa Irán" },
+            { season: "2024/25", team: "Esteghlal Tehran F.C.", category: "Liga Irán - AFC Champs. League Elite - Copa Irán" },
+            { season: "2023/24", team: "Esteghlal Tehran F.C.", category: "Liga Irán" },
+            { season: "2022/23", team: "S.D. Eibar", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2021/22", team: "S.D. Eibar", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Antalyaspor Kulübü", category: "Liga Turca - Copa Turca" },
+            { season: "2019/20", team: "F.K. Shakhtar Donetsk", category: "Liga Ucraniana" },
+            { season: "2018/19", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "F.K. Shakhtar Donetsk", category: "Liga Ucraniana - Champs. League - Copa Ucraniana - Supercopa Ucrania" },
+            { season: "2016/17", team: "F.K. Shakhtar Donetsk", category: "Liga Ucraniana - Europa League - Copa Ucraniana" },
+            { season: "2016/17", team: "F.K. Karpaty Lviv", category: "Liga Ucraniana - Copa Ucraniana" },
+            { season: "2015/16", team: "F.K. Karpaty Lviv", category: "Liga Ucraniana" },
+            { season: "2015/16", team: "Assyriska F.F.", category: "Copa Suecia" },
+            { season: "2014/15", team: "Assyriska F.F.", category: "2ª Suecia" },
+            { season: "2014/15", team: "Wydad Casablanca A.C.", category: "Botola Pro" },
+            { season: "2012/13", team: "C.S. Deportivo Merlo", category: "1ª Nacional - Copa Argentina" },
+            { season: "2011/12", team: "Arsenal de Sarandí F.C.", category: "Apert. Argentina - Claus. Argentina - Copa Libertadores - Copa Argentina - Fase Previa Copa Libertadores" },
+            { season: "2010/11", team: "Arsenal de Sarandí F.C.", category: "Claus. Argentina - Conmebol Sudamericana" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 33, goles_marcados: 7, tarjetas_amarillas: 5, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
