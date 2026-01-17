@@ -554,6 +554,74 @@ const playersData = {
         }
     },
 
+        "alfonsoherrero": {
+        name: "Alfonso Herrero Peinador",
+        footballName: "Alfonso Herrero",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/T2WY4Qm5/Alfonso-Herrero-PNG.webp",
+        personalData: {
+            fullName: "Alfonso Herrero Peinador",
+            nickname: "Alfonso Herrero",
+            birthPlace: "Toledo, Toledo",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "21/04/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Málaga C.F.", category: "1ª Federación - 1ª Federación Prom. de Ascenso - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Marbella F.C.", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Madrid Castilla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Madrid Castilla", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Madrid C", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2013", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2011", team: "España Sub-17", category: "Clasif. Europeo Sub-17" },
+            { season: "2010", team: "España Sub-17", category: "Europeo Sub-17 - Clasif. Europeo Sub-17 - Amistosos" },
+            { season: "2009", team: "España Sub-17", category: "Clasif. Europeo Sub-17 - Amistosos" },
+            { season: "2009", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 3, goles_encajados: 6, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_encajados: 9, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 13, goles_encajados: 19, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 27, goles_encajados: 27, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
