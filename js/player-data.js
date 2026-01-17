@@ -6192,7 +6192,7 @@ const playersData = {
         nickname: "Ilyas",
         birthPlace: "Ripoll, Gerona",
         country: "España",
-        nationality: "Española",
+        nationality: "Española, Marroquí",
         height: "1,86 m",
         birthDate: "02/02/2001",
         deathDate: null // Poner null si el jugador está vivo
@@ -7510,6 +7510,52 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "gassan": {
+        name: "Gassan Ahadme Yahyai",
+        footballName: "Gassan",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/3w2GX7B9/Gassan_PNG.webp",
+        personalData: {
+            fullName: "Gassan Ahadme Yahyai",
+            nickname: "Gassan",
+            birthPlace: "Vic, Barcelona",
+            country: "España",
+            nationality: "Española, Marroquí",
+            height: "1,87 m",
+            birthDate: "17/11/2000",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Stevenage F.C.", category: "League One - FA Cup - EFL Trophy" },
+            { season: "2024/25", team: "Charlton Athletic F.C.", category: "League One - FA Cup - EFL Cup - EFL Trophy" },
+            { season: "2023/24", team: "Cambridge United F.C.", category: "League One - FA Cup - EFL Cup - EFL Trophy" },
+            { season: "2022/23", team: "Burton Albion F.C.", category: "League One - EFL Cup - EFL Trophy" },
+            { season: "2022/23", team: "Ipswich Town F.C.", category: "League One - FA Cup" },
+            { season: "2021/22", team: "Burton Albion F.C.", category: "League One" },
+            { season: "2021/22", team: "Portsmouth F.C.", category: "League One - FA Cup - EFL Cup - EFL Trophy" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Norwich City Sub-23", category: "Premier League 2ª Div. Two" },
+            { season: "2019/20", team: "Norwich City Sub-21", category: "EFL Trophy" },
+            { season: "2018/19", team: "Norwich City Sub-18", category: "Premier League Sub-18" },
+            { season: "2018/19", team: "Norwich City Sub-23", category: "Premier League 2ª Div. Two" },
+            { season: "2018/19", team: "Club Gimnàstic Manresa", category: "División de Honor" }
+        ],
+        nationalTeam: [
+            { season: "", team: "", category: "" }
+        ],
+        stats: {
+            "2020/21": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
