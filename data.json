@@ -5,7 +5,7 @@
     "homeImg": "https://i.postimg.cc/mkhYyGr2/C.A._Osasuna_(2015).jpg",
     "visitor": "OVI",
     "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "score": "0 - 0",
+    "score": "3 - 2",
     "date": "Sáb. 17 Ene, 18:30",
     "time": "El Sadar"
   },
@@ -20,7 +20,28 @@
   },
   
   "goalscorers": [
-    
+    {
+      "name": "Fede Viñas",
+      "number": "9",
+      "photo": "https://i.postimg.cc/mZywx37V/Fede_Viñas_PNG_(3).webp",
+      "nation": "https://i.postimg.cc/G2tjyzdg/Uruguay.png",
+      "goals": 3,
+      "minute": "40'",
+      "partidos": "17",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/federico-vinas/profil/spieler/578419"
+    },
+    {
+      "name": "Alberto Reina",
+      "number": "5",
+      "photo": "https://i.postimg.cc/mDCkCD2g/Alberto_Reina_PNG.webp",
+      "nation": "https://i.postimg.cc/jjfxjjwP/España.jpg",
+      "goals": 2,
+      "minute": "68'",
+      "partidos": "20",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/alberto-reina/profil/spieler/603696"
+    }
   ],
 
   "_PLANTILLA_PARA_COPIAR_CUANDO_HAYA_GOLES": [
