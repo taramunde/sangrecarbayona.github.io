@@ -256,7 +256,7 @@ const enfrentamientos = [
   { equipo1: "Rayo Vallecano", equipo2: "R.C.D. Mallorca", goles1: 2, goles2: 1 },
   
   // Jornada 20
-  { equipo1: "Real Betis", equipo2: "Villarreal C.F.", goles1: null, goles2: null },
+  { equipo1: "Real Betis", equipo2: "Villarreal C.F.", goles1: 2, goles2: 0 },
   { equipo1: "Celta de Vigo", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
   { equipo1: "Elche C.F.", equipo2: "Sevilla F.C.", goles1: null, goles2: null },
   { equipo1: "R.C.D. Espanyol", equipo2: "Girona F.C.", goles1: 0, goles2: 2 },
