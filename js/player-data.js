@@ -622,6 +622,122 @@ const playersData = {
         }
     },
 
+        "champagne": {
+        name: "Nereo Champagne",
+        footballName: "Champagne",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/L5S7vHLT/Champagne-PNG.webp",
+        personalData: {
+            fullName: "Nereo Champagne",
+            nickname: "Champagne",
+            birthPlace: "Salto, Buenos Aires",
+            country: "Argentina",
+            nationality: "Argentina, Italiana",
+            height: "1,88 m",
+            birthDate: "20/01/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "C.A.  Sarmiento", category: "Liga Profesional Argentina" },
+            { season: "2023/24", team: "Club Almagro", category: "1ª Nacional" },
+            { season: "2022/23", team: "Club Olimpo", category: "Torneo Federal A" },
+            { season: "2021/22", team: "C.F. Rayo Majadahonda", category: "1ª Federación - 1ª Federación Prom. de Ascenso - Copa del Rey" },
+            { season: "2020/21", team: "Real Murcia C.F.", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Leganés", category: "1ª Div." },
+            { season: "2016/17", team: "Club Olimpo", category: "Liga Profesional Argentina" },
+            { season: "2015/16", team: "Club Olimpo", category: "Liga Profesional Argentina - Copa Argentina" },
+            { season: "2014/15", team: "Club Olimpo", category: "Liga Profesional Argentina - Prom. Copa Sudamericana - Copa Argentina" },
+            { season: "2013/14", team: "Club Olimpo", category: "Apert. Argentina - Claus. Argentina - Copa Argentina - Torneo de Transición" },
+            { season: "2012/13", team: "Club Olimpo", category: "1ª Nacional - Copa Argentina" },
+            { season: "2011/12", team: "C.A. San Lorenzo de Almagro", category: "Apert. Argentina - Claus. Argentina - Copa Argentina" },
+            { season: "2010/11", team: "Club Ferro Carril Oeste", category: "1ª Nacional" },
+            { season: "2007/08", team: "C.A. San Lorenzo de Almagro", category: "Apert. Argentina - Claus. Argentina" },
+            { season: "2005/06", team: "C.A. San Lorenzo de Almagro", category: "Apert. Argentina" }
+        ],
+        nationalTeam: [
+            { season: "2005", team: "Argentina Sub-20", category: "Mundial Sub-20" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 19, goles_encajados: 27, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 28, goles_encajados: 29, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "lunin": {
+        name: "Andriy Oleksiyovych Lunin",
+        footballName: "Lunin",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/qv2KH43n/Lunin-PNG.webp",
+        personalData: {
+            fullName: "Andriy Oleksiyovych Lunin",
+            nickname: "Lunin",
+            birthPlace: "Krasnogrado, Jarkov",
+            country: "Ucrania",
+            nationality: "Ucraniana",
+            height: "1,91 m",
+            birthDate: "11/02/1999",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Madrid C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España" },
+            { season: "2024/25", team: "Real Madrid C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España - Supercopa de Europa - Mundial de Clubes" },
+            { season: "2023/24", team: "Real Madrid C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España" },
+            { season: "2022/23", team: "Real Madrid C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España - Supercopa de Europa - Mundial de Clubes" },
+            { season: "2021/22", team: "Real Madrid C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España" },
+            { season: "2020/21", team: "Real Madrid C.F.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Madrid C.F.", category: "Supercopa de Europa" },
+            { season: "2017/18", team: "F.C. Zoryá Lugansk", category: "Liga Ucraniana - Europa League - Copa Ucraniana" },
+            { season: "2016/17", team: "F.C. Dnipro Dnipropetrovsk", category: "Liga Ucraniana - Copa Ucraniana" }
+        ],
+        nationalTeam: [
+            { season: "2025", team: "Ucrania", category: "Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2024", team: "Ucrania", category: "Clasif. Eurocopa - Eurocopa - Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2023", team: "Ucrania", category: "Clasif. Eurocopa - Amistosos" },
+            { season: "2022", team: "Ucrania", category: "Liga de las Naciones de la UEFA" },
+            { season: "2021", team: "Ucrania", category: "Clasif. Mundial Europa" },
+            { season: "2020", team: "Ucrania", category: "Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2019", team: "Ucrania Sub-20", category: "Mundial Sub-20" },
+            { season: "2019", team: "Ucrania", category: "Clasif. Eurocopa - Amistosos" },
+            { season: "2018", team: "Ucrania Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2018", team: "Ucrania", category: "Liga de las Naciones de la UEFA - Amistosos" },
+            { season: "2017", team: "Ucrania Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2017", team: "Ucrania", category: "Clasif. Mundial Europa - Amistosos" },
+            { season: "2017", team: "Ucrania Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2016", team: "Ucrania Sub-18", category: "Amistosos" },
+            { season: "2016", team: "Ucrania Sub-17", category: "Europeo Sub-17 - Clasif. Europeo Sub-17" },
+            { season: "2015", team: "Ucrania Sub-17", category: "Clasif. Europeo Sub-17" },
+            { season: "2015", team: "Ucrania Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 20, goles_encajados: 20, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
@@ -3507,7 +3623,7 @@ const playersData = {
             { season: "2016/17", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
             { season: "2015/16", team: "G.N.K. Dinamo Zagreb", category: "Liga Croata NHL - Copa Croata" },
             { season: "2015/16", team: "G.N.K. Dinamo Zagreb Sub-19", category: "UEFA Youth League" },
-            { season: "2015/16", team: "G.N.K. Dinamo Zagreb II", category: "Primera Croacia 1 NL" }
+            { season: "2015/16", team: "G.N.K. Dinamo Zagreb II", category: "1ª Croacia 1 NL" }
             
             
          ],
