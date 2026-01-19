@@ -3080,6 +3080,77 @@ const playersData = {
         }
     },
 
+        "josin": {
+        name: "José Antonio Martínez Álvarez",
+        footballName: "Josín",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Px6P4cnC/Josín_PNG.webp",
+        personalData: {
+            fullName: "José Antonio Martínez Álvarez",
+            nickname: "Josín",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,81 m",
+            birthDate: "29/07/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Gimnástica Segoviana C.F.", category: "2ª Federación" },
+            { season: "2024/25", team: "Real Avilés Industrial C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "U.D. San Sebastián de Los Reyes", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "C.P. Cacereño", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa del Rey" },
+            { season: "2021/22", team: "C.P. Cacereño", category: "2ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Guijuelo", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. " },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
@@ -6399,6 +6470,8 @@ const playersData = {
             }
         }
     },
+
+
         
 
     // DELANTEROS
