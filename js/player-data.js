@@ -3041,6 +3041,45 @@ const playersData = {
         }
     },
 
+        "javifernandez": {
+        name: "Javier Fernández Hernández",
+        footballName: "Javi Fernández",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/V6wjT2h4/Javi_Fernández_PNG.webp",
+        personalData: {
+            fullName: "Javier Fernández Hernández",
+            nickname: "Javi Fernández",
+            birthPlace: "Cartagena, Murcia",
+            country: "España",
+            nationality: "Española",
+            height: "1,92 m",
+            birthDate: "03/08/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Real Balompédica Linense", category: "2ª Federación" },
+            { season: "2022/23", team: "F.C. Cartagena B", category: "2ª Federación" },
+            { season: "2021/22", team: "San Fernando C.D.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "San Fernando C.D.", category: "2ª Div. B - 2ª Div. B 2ª Fase de Ascenso a 2ª" },
+            { season: "2019/20", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "UCAM Murcia C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "UCAM Murcia C.F.", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2016/17", team: "UCAM Murcia C.F. B", category: "3ª Div." },
+            { season: "2016/17", team: "UCAM Murcia C.F.", category: "2ª Div." }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
