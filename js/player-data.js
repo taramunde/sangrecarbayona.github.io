@@ -3151,6 +3151,49 @@ const playersData = {
         }
     },
 
+        "jero": {
+        name: "Jerónimo Rodríguez Güemes",
+        footballName: "Jero",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/g2680YFN/Jero_PNG.webp",
+        personalData: {
+            fullName: "Jerónimo Rodríguez Güemes",
+            nickname: "Jero",
+            birthPlace: "Ciudad de México, Ciudad de México",
+            country: "Méjico",
+            nationality: "Mejicana",
+            height: "1,80 m",
+            birthDate: "25/03/1999",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Venados F.C. Yucatán", category: "Liga de Expansión MX Apert." },
+            { season: "2023/24", team: "Venados F.C. Yucatán", category: "Liga de Expansión MX Apert. - Liga de Expansión MX Claus." },
+            { season: "2022/23", team: "Venados F.C. Yucatán", category: "Liga de Expansión MX Claus." },
+            { season: "2022/23", team: "Club Universidad Nacional PUMAS", category: "Liga MX Apert." },
+            { season: "2022/23", team: "Club Universidad Nacional PUMAS Sub-20", category: "Liga MX Sub-20 Apert." },
+            { season: "2021/22", team: "Club Universidad Nacional PUMAS Sub-20", category: "Liga MX Sub-20 Apert." },
+            { season: "2021/22", team: "Club Universidad Nacional PUMAS", category: "Liga MX Apert. - Liga MX Claus. - CONCACAF Champs. Cup - Etapas Finales Apert. MX" },
+            { season: "2020/21", team: "Club Universidad Nacional PUMAS Sub-20", category: "Liga MX Sub-20 Apert." },
+            { season: "2020/21", team: "Club Universidad Nacional PUMAS", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Apert. MX - Leagues Cup" },
+            { season: "2019/20", team: "Club Universidad Nacional PUMAS Sub-20", category: "Liga MX Sub-20 Claus." },
+            { season: "2019/20", team: "Club Universidad Nacional PUMAS", category: "Liga MX Claus. - Copa Méjico" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
