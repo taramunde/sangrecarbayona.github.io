@@ -6514,7 +6514,156 @@ const playersData = {
         }
     },
 
+        "omarramos": {
+        name: "Julián Omar Ramos Suárez",
+        footballName: "Omar Ramos",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/sXbhpqr3/Omar_Ramos_PNG.webp",
+        personalData: {
+            fullName: "Julián Omar Ramos Suárez",
+            nickname: "Omar Ramos",
+            birthPlace: "San Cristóbal de La Laguna, Santa Cruz de Tenerife",
+            country: "España",
+            nationality: "Española",
+            height: "1,75 m",
+            birthDate: "26/01/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Laguna", category: "Preferente Canarias - Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Gokulam Kerala F.C.", category: "Liga India - Supercopa India" },
+            { season: "2021/22", team: "Rajasthan United F.C.", category: "Liga India" },
+            { season: "2020/21", team: "C.D. Alcoyano", category: "2ª Div. B - 2ª Div. B 2ª Fase de Ascenso a 2ª" },
+            { season: "2019/20", team: "S.D. Ponferradina", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "S.D. Huesca", category: "2ª Div." },
+            { season: "2011/12", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "C.D. Tenerife B", category: "2ª Div. B" },
+            { season: "2009/10", team: "C.D. Tenerife", category: "1ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "U.E. Lleida", category: "2ª Div. B" },
+            { season: "2006/04", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "España Sub-21", category: "Clasif. Europeo Sub-21" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 12, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
 
+    "sebascoris": {
+        name: "Sebastián Coris Cardeñosa",
+        footballName: "Sebas Coris",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/7YfRPTB7/Sebas_Coris_PNG.webp",
+        personalData: {
+            fullName: "Sebastián Coris Cardeñosa",
+            nickname: "Sebas Coris",
+            birthPlace: "Tosa de Mar, Gerona",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "31/05/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.E. Tossa", category: "Primera Catalana" },
+            { season: "2024/25", team: "U.E. Tossa", category: "Primera Catalana" },
+            { season: "2022/23", team: "U.E. Olot", category: "2ª Federación - Copa de Catalunya - Copa del Rey" },
+            { season: "2021/22", team: "Extremadura U.D.", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "Som Maresme F.C.", category: "1ª Federación" },
+            { season: "2020/21", team: "Extremadura U.D.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Club Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2017/18", team: "C.A. Osasuna", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Girona F.C.", category: "2ª Div. - Copa de Catalunya - Copa del Rey" },
+            { season: "2015/16", team: "Girona F.C.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Girona F.C.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "lologonzalez": {
+        name: "Emmanuel González Rodríguez",
+        footballName: "Lolo González",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Y9z38tdt/Lolo_González_PNG.webp",
+        personalData: {
+            fullName: "Emmanuel González Rodríguez",
+            nickname: "Lolo González",
+            birthPlace: "Sanlúcar de Barrameda, Cádiz",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "22/07/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Badajoz", category: "3ª Federación" },
+            { season: "2025/26", team: "C.D. Estepona", category: "2ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "U.D. Melilla", category: "2ª Federación" },
+            { season: "2024/25", team: "A.D. Ceuta F.C.", category: "1ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "A.D. Ceuta F.C.", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "Linares Deportivo", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "At. Sanluqueño C.F.", category: "1ª Federación" },
+            { season: "2021/22", team: "Extremadura U.D.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "San Fernando C.D.", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase de Ascenso a 2ª" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Extremadura U.D.", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Club Polideportivo El Ejido 2012", category: "2ª Div. B" },
+            { season: "2016/17", team: "Marbella F.C.", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.D. San Roque de Lepe", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Betis Balompié B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Betis Balompié B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "At. Sanluqueño C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "At. Sanluqueño C.F.", category: "3ª Div." },
+            { season: "2008/09", team: "R.C. Portuense", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 28, goles_marcados: 1, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
