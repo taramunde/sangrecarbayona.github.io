@@ -6664,6 +6664,49 @@ const playersData = {
             }
         }
     },
+
+        "robersierra": {
+        name: "Roberto Manuel Sierra Giménez",
+        footballName: "Rober Sierra",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/jqXTnNQF/Rober_Sierra_PNG.webp",
+        personalData: {
+            fullName: "Roberto Manuel Sierra Giménez",
+            nickname: "Rober Sierra",
+            birthPlace: "",
+            country: "España",
+            nationality: "Española",
+            height: "Valencia, Valencia",
+            birthDate: "21/05/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Argeș Pitești", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2024/25", team: "F.C. Steaua de Bucarest", category: "2ª Rumanía" },
+            { season: "2023/24", team: "F.C. Steaua de Bucarest", category: "2ª Rumanía - Copa Rumanía" },
+            { season: "2022/23", team: "F.C. Spartak Varna", category: "Liga Bulgaria - Copa Bulgaria" },
+            { season: "2021/22", team: "F.C. Inter Turku", category: "Liga Finlandia - Copa Finlandia" },
+            { season: "2021/22", team: "S.D. Formentera", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "C.F. Peralada", category: "2ª Div. B" },
+            { season: "2017/18", team: "Ontinyent C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2016/17", team: "Ontinyent C.F.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "R.C.D. Mallorca B", category: "3ª Div." },
+            { season: "2015/16", team: "At. Levante U.D.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
@@ -8044,6 +8087,123 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "joselu": {
+        name: "José Luis Moreno Barroso",
+        footballName: "Joselu",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/ydtWtbvW/Joselu_PNG.webp",
+        personalData: {
+            fullName: "José Luis Moreno Barroso",
+            nickname: "Joselu",
+            birthPlace: "Cartaya, Huelva",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "03/03/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2021/22", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Granada C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "R.C.D. Mallorca", category: "2ª Div." },
+            { season: "2014/15", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Villarreal C.F. B", category: "2ª Div." },
+            { season: "2011/12", team: "Villarreal C.F.", category: "1ª Div. - Champs. League - Copa del Rey" },
+            { season: "2010/11", team: "Villarreal C.F. B", category: "2ª Div." },
+            { season: "2010/11", team: "Villarreal C.F. C", category: "3ª Div." },
+            { season: "2009/10", team: "Villarreal C.F. B", category: "2ª Div." }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 36, goles_marcados: 10, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "saulberjon": {
+        name: "Saúl Berjón Pérez",
+        footballName: "Saúl Berjón",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/yNqKqzzM/Saúl_Berjón_PNG.webp",
+        personalData: {
+            fullName: "Saúl Berjón Pérez",
+            nickname: "Saúl Berjón",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "24/05/1986",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Burgos C.F.", category: "2ª Div." },
+            { season: "2020/21", team: "Burgos C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso a 2ª" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Club Universidad Nacional PUMAS", category: "Liga MX Apert. - CONCACAF Champs. Cup - Etapas Finales Apert. MX" },
+            { season: "2015/16", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "F.C. Barcelona B", category: "2ª Div." },
+            { season: "2009/10", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "U.D. Pájara Playas de Jandía", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 24, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 28, goles_marcados: 4, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 40, goles_marcados: 7, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 22, goles_marcados: 2, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
