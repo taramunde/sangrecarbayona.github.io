@@ -8273,7 +8273,7 @@ const playersData = {
         }
     },
 
-            "ortuno": {
+        "ortuno": {
         name: "Alfredo Ortuño Martínez",
         footballName: "Ortuño",
         position: "Delantero",
@@ -8319,6 +8319,66 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "ibra": {
+        name: "Ibrahima Balde",
+        footballName: "Ibra",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/4NrnBqn0/Ibra_PNG.webp",
+        personalData: {
+            fullName: "Ibrahima Balde",
+            nickname: "Ibra",
+            birthPlace: "Pikine, Dakar",
+            country: "Senegal",
+            nationality: "Senegalesa",
+            height: "1,90 m",
+            birthDate: "04/04/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "TRAU F.C.", category: "Liga India" },
+            { season: "2022/23", team: "Boluspor S.K.", category: "Liga Turca" },
+            { season: "2021/22", team: "Giresunspor S.K.", category: "Liga Turca - Copa Turca" },
+            { season: "2020/21", team: "Giresunspor S.K.", category: "Liga Turca" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "F.C. CFR 1907 Cluj", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2016/17", team: "Stade de Reims", category: "Ligue 2 - Copa de Francia" },
+            { season: "2016/17", team: "Stade de Reims B", category: "National 2" },
+            { season: "2015/16", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia - Copa Rusa" },
+            { season: "2014/15", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia - Copa Rusa" },
+            { season: "2013/14", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia - Europa League - Fase Previa Europa League" },
+            { season: "2012/13", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia" },
+            { season: "2011/12", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "At. de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "At. de Madrid B", category: "2ª Div. B" },
+            { season: "2008/09", team: "At. de Madrid B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2016", team: "Senegal", category: "Clasif. Copa África" },
+            { season: "2015", team: "Senegal", category: "Clasif. Copa África" },
+            { season: "2013", team: "Senegal", category: "Clasif. Mundial África - Amistosos" },
+            { season: "2012", team: "Senegal Sub-23", category: "Juegos Olímpicos - Amistosos" },
+            { season: "2012", team: "Senegal", category: "Clasif. Mundial África - Amistosos" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 28, goles_marcados: 4, tarjetas_amarillas: 3, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 32, goles_marcados: 6, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
