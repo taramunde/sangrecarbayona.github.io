@@ -8383,6 +8383,74 @@ const playersData = {
         }
     },
 
+        "steven": {
+        name: "Steven Nicanor Prieto Morales",
+        footballName: "Steven",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/g2h9HB6N/Steven_PNG.webp",
+        personalData: {
+            fullName: "Steven Nicanor Prieto Morales",
+            nickname: "Steven",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española, Colombiana",
+            height: "1,81 m",
+            birthDate: "30/07/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Alcoyano", category: "2ª Federación" },
+            { season: "2024/25", team: "Torrent C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2024/25", team: "U.D. Llanera", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2022/23", team: "Orihuela C.F.", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "C.D. Badajoz", category: "2ª Div. B" },
+            { season: "2019/20", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2013", team: "España Sub-17", category: "Amistosos" },
+            { season: "2013", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 8, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
