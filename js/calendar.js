@@ -11,12 +11,6 @@ const notes = {
             
             
             
-            '2026-01-17': {
-                text: 'Jornada 20<br> C.A. Osasuna - Real Oviedo<br>18:30',
-                color: 'blue',
-                shieldUrlLeft: 'https://i.postimg.cc/mkhYyGr2/C-A-Osasuna-2015.jpg',
-                shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
-            },
             '2026-01-25': {
                 text: 'Jornada 21<br> F.C. Barcelona - Real Oviedo<br>16:15',
                 color: 'blue',
@@ -127,7 +121,7 @@ const notes = {
             }
 };
 
-const blinkingDays = ['2026-01-17', '2026-01-25', '2026-01-31', '2026-02-08', '2026-02-15', '2026-02-22', '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-04-05', '2026-04-12', '2026-04-19', '2026-04-22', '2026-05-03', '2026-05-10', '2026-05-13', '2026-05-17', '2026-05-24'];
+const blinkingDays = ['2026-01-25', '2026-01-31', '2026-02-08', '2026-02-15', '2026-02-22', '2026-03-01', '2026-03-08', '2026-03-15', '2026-03-22', '2026-04-05', '2026-04-12', '2026-04-19', '2026-04-22', '2026-05-03', '2026-05-10', '2026-05-13', '2026-05-17', '2026-05-24'];
 
 function renderCalendar() {
     const monthName = document.getElementById('monthName');
