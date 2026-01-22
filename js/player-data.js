@@ -8273,6 +8273,56 @@ const playersData = {
         }
     },
 
+            "ortuno": {
+        name: "Alfredo Ortuño Martínez",
+        footballName: "Ortuño",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/QNv0JNkZ/Ortuño_PNG.webp",
+        personalData: {
+            fullName: "Alfredo Ortuño Martínez",
+            nickname: "Ortuño",
+            birthPlace: "Yecla, Murcia",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "21/01/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Cartagena", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Extremadura U.D.", category: "2ª Div." },
+            { season: "2018/19", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Salt Lake City", category: "MLS Liga USA - US Open Cup" },
+            { season: "2016/17", team: "Cádiz C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "R.C.D. Mallorca", category: "2ª Div." },
+            { season: "2015/16", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "U.D. Las Palmas", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Girona F.C.", category: "2ª Div." },
+            { season: "2013/14", team: "Lorca F.C.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B" },
+            { season: "2011/12", team: "Getafe C.F. B", category: "2ª Div. B" },
+            { season: "2010/11", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Albacete Balompié", category: "2ª Div." }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 38, goles_marcados: 14, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
