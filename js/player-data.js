@@ -8208,6 +8208,71 @@ const playersData = {
         }
     },
 
+        "yoelbarcenas": {
+        name: "Edgar Yoel Bárcenas Herrera",
+        footballName: "Yoel Bárcenas",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/x8NgVBQZ/Yoel_Bárcenas_PNG.webp",
+        personalData: {
+            fullName: "Edgar Yoel Bárcenas Herrera",
+            nickname: "Yoel Bárcenas",
+            birthPlace: "Colón, Colón",
+            country: "Panamá",
+            nationality: "Panameña",
+            height: "1,75 m",
+            birthDate: "23/10/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Mazatlán F.C.", category: "Liga MX Apert. - Liga MX Claus." },
+            { season: "2024/25", team: "Mazatlán F.C.", category: "Liga MX Apert. - Liga MX Claus." },
+            { season: "2023/24", team: "Mazatlán F.C.", category: "Liga MX Apert. - Liga MX Claus. - Etapas Finales Apert. MX - Leagues Cup" },
+            { season: "2022/23", team: "Mazatlán F.C.", category: "Liga MX Apert. - Liga MX Claus. - Leagues Cup" },
+            { season: "2021/22", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Girona F.C.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Cafetaleros de Tapachula", category: "Ascenso MX Apert. - Ascenso MX Claus. - Ascenso MX Prom. de Ascenso" },
+            { season: "2016/17", team: "Cafetaleros de Tapachula", category: "Ascenso MX Claus." },
+            { season: "2016/17", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - CONCACAF Champs. Cup" },
+            { season: "2015/16", team: "R.N.K. Split", category: "Liga Croata HNL" },
+            { season: "2015/16", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - CONCACAF Champs. Cup" },
+            { season: "2014/15", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - LPF Panamá Claus." },
+            { season: "2013/14", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - LPF Panamá Claus. - CONCACAF Champs. Cup" },
+            { season: "2012/13", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - LPF Panamá Claus." }
+        ],
+        nationalTeam: [
+            { season: "2025", team: "Panamá", category: "Clasif. Mundial CONCACAF - Amistosos" },
+            { season: "2024", team: "Panamá", category: "Clasif. Mundial CONCACAF - Copa América - Liga de las Naciones CONCACAF - Amistosos" },
+            { season: "2023", team: "Panamá", category: "Copa Oro - Liga de las Naciones CONCACAF" },
+            { season: "2022", team: "Panamá", category: "Clasif. Mundial CONCACAF - Liga de las Naciones CONCACAF - Amistosos" },
+            { season: "2021", team: "Panamá", category: "Clasif. Mundial CONCACAF - Copa Oro - Amistosos" },
+            { season: "2020", team: "Panamá", category: "Amistosos" },
+            { season: "2019", team: "Panamá", category: "Copa Oro - Liga de las Naciones CONCACAF" },
+            { season: "2018", team: "Panamá", category: "Mundial - Amistosos" },
+            { season: "2017", team: "Panamá", category: "Clasif. Mundial CONCACAF - Copa Oro - Copa Centroamericana" },
+            { season: "2016", team: "Panamá", category: "Clasif. Mundial CONCACAF - Clasif. Copa América - Amistosos" },
+            { season: "2015", team: "Panamá Sub-23", category: "Preolímpico de CONCACAF - Juegos Panamericanos" },
+            { season: "2014", team: "Panamá", category: "Amistosos" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos: 33, goles_marcados: 8, tarjetas_amarillas: 2, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2018/19": {
+                liga: { partidos: 37, goles_marcados: 6, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
