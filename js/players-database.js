@@ -5994,6 +5994,14 @@ const playersDatabase = {
     },
     
     // DELANTEROS
+
+    "thiagofernandez": {
+        "src": "https://i.postimg.cc/yYs1MfJd/Thiago-Fernandez-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Thiago Fernández",
+        "url": "fichajugador.html?player=thiagofernandez"
+    },
     "thiagoborbas": {
         "src": "https://i.postimg.cc/2j4jkvj8/Thiago_Borbas_PNG.webp",
         "alt": "Delantero",

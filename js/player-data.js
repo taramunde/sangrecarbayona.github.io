@@ -6980,6 +6980,52 @@ const playersData = {
         }
     },
 
+    "thiagofernandez": {
+        name: "Thiago Cruz Fernández",
+        footballName: "Thiago Fernández",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/yYs1MfJd/Thiago-Fernandez-PNG.webp", 
+    personalData: {
+        fullName: "Thiago Cruz Fernández",
+        nickname: "Thiago Fernández",
+        birthPlace: "Buenos Aires, Buenos Aires",
+        country: "Argentina",
+        nationality: "Argentina",
+        height: "1,75 m",
+        birthDate: "03/04/2004",
+        deathDate: null // Poner null si el jugador está vivo
+   },
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2025/26", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2023/24", team: "C.A. Vélez Sarsfield", category: "Liga Profesional Argentina - Copa Liga Profesional Argentina - Copa Argentina" },
+            { season: "2022/23", team: "C.A. Vélez Sarsfield II", category: "Torneo Proyección - Copa Proyección" },
+            { season: "2022/23", team: "C.A. Vélez Sarsfield", category: "Liga Profesional Argentina - Copa Liga Profesional Argentina - Copa Argentina" },
+            { season: "2021/22", team: "C.A. Vélez Sarsfield II", category: "Torneo Proyección - Copa Proyección" }
+            
+            
+
+         ],
+
+         nationalTeam: [
+            { season: "2024", team: "Argentina Sub-23", category: "Amistosos" }
+            
+        ],
+
+         
+         stats: {
+            "2025/26": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+             
+        }
+    },
+
     "alemao": {
         name: "Alexandre Zurawski",
         footballName: "Alemão",
