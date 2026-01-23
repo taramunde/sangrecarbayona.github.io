@@ -2795,7 +2795,7 @@ const playersData = {
 
         "carloshernandez": {
         name: "Carlos Hernández Alarcón",
-        footballName: "Carlos Hernández",
+        footballName: "Carlos Hdez.",
         position: "Defensa",
         role: "jugador",
         number: null,
@@ -6982,7 +6982,7 @@ const playersData = {
 
     "thiagofernandez": {
         name: "Thiago Cruz Fernández",
-        footballName: "Thiago Fernández",
+        footballName: "Thiago Fdez.",
         position: "Delantero",
         role: "jugador",
         number: null,
