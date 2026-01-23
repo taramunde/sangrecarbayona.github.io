@@ -8710,6 +8710,68 @@ const playersData = {
         }
     },
 
+        "sergioegea": {
+        name: "Sergio Horacio Egea Rueda",
+        footballName: "Sergio Egea",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/jvQfrQvz/Sergio-Egea-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Sergio Horacio Egea Rueda",
+            nickname: "Sergio Egea",
+            birthPlace: "Necochea, Buenos Aires",
+            country: "Argentina",
+            nationality: "Argentina, Española",
+            height: "1,84 m",
+            birthDate: "21/09/1957",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.S.D. Xelajú M.C.", category: "Liga Guatemala Apert. - Liga Guatemala Claus." },
+            { season: "2020/21", team: "Salamanca CF U.D.S.", category: "2ª Div. B - Copa Federación" },
+            { season: "2020/21", team: "C.S.D. Xelajú M.C.", category: "Liga Guatemala Apert. - Liga Guatemala Claus." },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2019/20", team: "C.S.D. Xelajú M.C.", category: "Liga Guatemala Apert. - Liga Guatemala Claus." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Club Universidad Nacional PUMAS", category: "Liga MX Apert. - Copa Méjico Apert." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "C.D. Eldense", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "1999/00", team: "Real Valladolid C.F. B", category: "2ª Div. B" },
+            { season: "1998/99", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "1997/98", team: "C.D. Toledo", category: "2ª Div. - Copa del Rey" },
+            { season: "1996/97", team: "Real Madrid C.F. B", category: "2ª Div." },
+            { season: "1995/96", team: "Real Madrid C.F. B", category: "2ª Div." }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos_entrenados: 5, victorias: 0, empates: 1, derrotas: 4 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 6, victorias: 2, empates: 0, derrotas: 4 }
+            },
+            "2018/19": {
+                liga: { partidos_entrenados: 7, victorias: 3, empates: 1, derrotas: 3 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos_entrenados: 29, victorias: 12, empates: 10, derrotas: 7 },
+                copa: { partidos_entrenados: 2, victorias: 1, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 6, victorias: 4, empates: 0, derrotas: 2 }
+            },
+            "2014/15": {
+                liga: { partidos_entrenados: 42, victorias: 26, empates: 9, derrotas: 7 },
+                copa: { partidos_entrenados: 4, victorias: 2, empates: 1, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 2, victorias: 1, empates: 1, derrotas: 0 }
+            }
+        }
+    },
+
         "ziganda": {
         name: "José Ángel Ziganda Lakunza",
         footballName: "Ziganda",
