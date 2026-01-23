@@ -843,12 +843,13 @@ const playersDatabase = {
         "url": "fichajugador.html?player=cheno"
     },
     "oscar1935": {
-        "src": "https://i.postimg.cc/v8p7JPNJ/Óscar_PNG.webp",
-        "alt": "Portero",
-        "number": "-",
-        "name": "Óscar",
-        "url": "fichajugador.html?player=oscar1935"
-    },
+    "src": "https://i.postimg.cc/v8p7JPNJ/Óscar_PNG.webp",
+    "alt": "Portero",
+    "number": "-",
+    "name": "Óscar",
+    "url": "fichajugador.html?player=oscar1935",
+    "ajusteFoto": "cara-abajo-media"
+},
     "hector": {
         "src": "https://i.postimg.cc/4xH5KDhN/Héctor_PNG.webp",
         "alt": "Portero",
@@ -1153,7 +1154,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=bolano"
     },
     "carlosisaac": {
-        "src": "https://i.postimg.cc/0NDQTjR1/Bolano-PNG.webp",
+        "src": "https://i.postimg.cc/SNHmm4GS/Carlos_Isaac_PNG.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Carlos Isaac",
@@ -1905,7 +1906,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/JzmHRjx4/Luis_PNG.webp",
         "alt": "Defensa",
         "number": "-",
-        "name": "Luismi",
+        "name": "Luis",
         "url": "fichajugador.html?player=luis2004"
     },
     "manu": {
@@ -3541,12 +3542,12 @@ const playersDatabase = {
         "name": "Pombo",
         "url": "fichajugador.html?player=pombo"
     },
-    "joselu": {
+    "joselu2021": {
         "src": "https://i.postimg.cc/5tZGD95v/Joselu_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Joselu",
-        "url": "fichajugador.html?player=joselu"
+        "url": "fichajugador.html?player=joselu2021"
     },
     "davidiglesias": {
         "src": "https://i.postimg.cc/prBDQkXr/David_Iglesias_PNG.webp",
@@ -5993,6 +5994,14 @@ const playersDatabase = {
     },
     
     // DELANTEROS
+
+    "thiagofernandez": {
+        "src": "https://i.postimg.cc/yYs1MfJd/Thiago-Fernandez-PNG.webp",
+        "alt": "Delantero",
+        "number": "-",
+        "name": "Thiago Fernández",
+        "url": "fichajugador.html?player=thiagofernandez"
+    },
     "thiagoborbas": {
         "src": "https://i.postimg.cc/2j4jkvj8/Thiago_Borbas_PNG.webp",
         "alt": "Delantero",
@@ -7457,7 +7466,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=beitia"
     },
     "gasca": {
-        "src": "https://i.postimg.cc/Z5G3v0rC/Gasca_PNG.webp",
+        "src": "https://i.postimg.cc/kGhQthM4/Gasca-PNG-(2).webp",
         "alt": "Delantero",
         "number": "-",
         "name": "Gasca",
