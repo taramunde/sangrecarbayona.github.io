@@ -8772,6 +8772,46 @@ const playersData = {
         }
     },
 
+        "javirozada": {
+        name: "Javier Fernández-Rozada Álvarez",
+        footballName: "Javi Rozada",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/G37f99XB/Javi-Rozada-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Javier Fernández-Rozada Álvarez",
+            nickname: "Javi Rozada",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "null",
+            birthDate: "03/07/1982",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Krasava Ypsonas", category: "Liga Chipre" },
+            { season: "2024/25", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "Real Avilés Industrial C.F.", category: "2ª Federación Prom. de Permanencia" },
+            { season: "2020/21", team: "Real Racing Club de Santander", category: "2ª Div. B - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2014/15", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+        ],
+        stats: {
+            "2019/20": {
+                liga: { partidos_entrenados: 23, victorias: 6, empates: 10, derrotas: 7 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
         "ziganda": {
         name: "José Ángel Ziganda Lakunza",
         footballName: "Ziganda",
