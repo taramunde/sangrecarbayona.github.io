@@ -1180,16 +1180,16 @@ const playersData = {
             { season: "2023/24", team: "F.C. Oporto", category: "Liga Portugal Betclic - Champs. League - Taça de Portugal - Copa de la Liga Portugal" },
             { season: "2022/23", team: "F.C. Oporto", category: "Liga Portugal Betclic - Champs. League - Taça de Portugal - Copa de la Liga Portugal" },
             { season: "2022/23", team: "F.C. Oporto II", category: "Segunda Liga" },
-            { season: "2021/22", team: "Sporting Club de Braga", category: "Liga de Portugal Betclic - Europa League" },
-            { season: "2021/22", team: "Sporting Club de Braga II", category: "Liga 3" },
-            { season: "2021/22", team: "Sporting Club de Braga Sub-23", category: "Liga Revelação" },
-            { season: "2020/21", team: "Sporting Club de Braga", category: "Liga Portugal Betclic - Europa League - Taça de Portugal - Copa de la Liga Portugal" },
-            { season: "2019/20", team: "Sporting Club de Braga", category: "Liga Portugal Betclic - Europa League - Copa de la Liga Portugal" },
-            { season: "2019/20", team: "Sporting Club de Braga Sub-23", category: "Liga Revelação" },
-            { season: "2019/20", team: "Sporting Club de Braga II", category: "Campeonato de Portugal" },
-            { season: "2018/19", team: "Sporting Club de Braga", category: "Liga Portugal Betclic" },
-            { season: "2018/19", team: "Sporting Club de Braga Sub-23", category: "Liga Revelação" },
-            { season: "2018/19", team: "Sporting Club de Braga II", category: "Segunda Liga" }
+            { season: "2021/22", team: "Sporting Clube de Braga", category: "Liga de Portugal Betclic - Europa League" },
+            { season: "2021/22", team: "Sporting Clube de Braga II", category: "Liga 3" },
+            { season: "2021/22", team: "Sporting Clube de Braga Sub-23", category: "Liga Revelação" },
+            { season: "2020/21", team: "Sporting Clube de Braga", category: "Liga Portugal Betclic - Europa League - Taça de Portugal - Copa de la Liga Portugal" },
+            { season: "2019/20", team: "Sporting Clube de Braga", category: "Liga Portugal Betclic - Europa League - Copa de la Liga Portugal" },
+            { season: "2019/20", team: "Sporting Clube de Braga Sub-23", category: "Liga Revelação" },
+            { season: "2019/20", team: "Sporting Clube de Braga II", category: "Campeonato de Portugal" },
+            { season: "2018/19", team: "Sporting Clube de Braga", category: "Liga Portugal Betclic" },
+            { season: "2018/19", team: "Sporting Clube de Braga Sub-23", category: "Liga Revelação" },
+            { season: "2018/19", team: "Sporting Clube de Braga II", category: "Segunda Liga" }
             
         ],
         nationalTeam: [
@@ -7055,6 +7055,74 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "aaronniguez": {
+        name: "Aarón Ñíguez Esclapez",
+        footballName: "Aarón Ñíguez",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/524zJw9q/Aaron-Niguez-PNG.webp",
+        personalData: {
+            fullName: "Aarón Ñíguez Esclapez",
+            nickname: "Aarón Ñíguez",
+            birthPlace: "Elche, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,70 m",
+            birthDate: "26/04/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Club Costa City", category: "2ª FFCV" },
+            { season: "2021/22", team: "C.D. Eldense", category: "2ª Federación - Copa del Rey - 2ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "C.F. La Nucía", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Málaga C.F.", category: "2ª Div." },
+            { season: "2018/19", team: "Johor Darul Takzim F.C.", category: "Liga Malasia" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Sporting Clube de Braga", category: "Liga Portugal Betclic - Copa de la Liga Portugal - Taça de Portugal" },
+            { season: "2014/15", team: "Elche C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Elche C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2012/13", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C. Recreativo de Huelva", category: "2ª Div." },
+            { season: "2009/10", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Rangers F.C.", category: "Liga Escocia - Copa Escocia" },
+            { season: "2007/08", team: "Iraklis de Tesalónica F.C.", category: "Super League Griega - Copa Griega" },
+            { season: "2007/08", team: "Xerez C.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Valencia C.F.", category: "1ª Div. - Champs. League - Copa del Rey" },
+            { season: "2006/07", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "España Sub-20", category: "Mundial Sub-20 - Amistosos" },
+            { season: "2009", team: "España Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2008", team: "España Sub-21", category: "Amistosos" },
+            { season: "2008", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19" },
+            { season: "2007", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2006", team: "España Sub-19", category: "Amistosos" },
+            { season: "2006", team: "España Sub-17", category: "Europeo Sub-17 - Clasif. Europeo Sub-17 - Amistosos" },
+            { season: "2005", team: "España Sub-17", category: "Clasif. Europeo Sub-17" },
+            { season: "2005", team: "España Sub-16", category: "Amistosos" },
+            { season: "2004", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 9, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 35, goles_marcados: 5, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
