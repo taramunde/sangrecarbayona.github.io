@@ -738,6 +738,53 @@ const playersData = {
         }
     },
 
+        "gorkagiralt": {
+        name: "Gorka Giralt Amotxategi",
+        footballName: "Gorka Giralt",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/7Y6X4GHz/Gorka-Giralt-PNG.webp",
+        personalData: {
+            fullName: "Gorka Giralt Amotxategi",
+            nickname: "Gorka Giralt",
+            birthPlace: "San Sebastián, Guipúzcoa",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "18/09/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.F. Rayo Majadahonda", category: "1ª Feferación - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Burgos Promesas 2000", category: "3ª Div. - 3ª Div. Prom. de Ascenso - Prom. de Ascenso a 2ª Div. RFEF" },
+            { season: "2019/20", team: "C.D. Madrilejos", category: "3ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2015/16", team: "Club Portugalete", category: "2ª Div. B" },
+            { season: "2015/16", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
@@ -3190,6 +3237,119 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "alanis": {
+        name: "Oswaldo Alanís Pantoja",
+        footballName: "Alanís",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/g2MqxMn2/Alanis-PNG.webp",
+        personalData: {
+            fullName: "Oswaldo Alanís Pantoja",
+            nickname: "Alanís",
+            birthPlace: "Morelia, Michoacán de Ocampo",
+            country: "Méjico",
+            nationality: "Mejicana",
+            height: "1,83 m",
+            birthDate: "18/03/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Hyderabad F.C.", category: "India Super League" },
+            { season: "2022/23", team: "Mazatlán F.C.", category: "Liga MX Apert. - Liga MX Claus." },
+            { season: "2021/22", team: "Mazatlán F.C.", category: "Liga MX Claus. - Etapas Finales Claus. MX" },
+            { season: "2020/21", team: "San Jose Earthquakes", category: "MLS Liga USA" },
+            { season: "2019/20", team: "San Jose Earthquakes", category: "MLS Liga USA" },
+            { season: "2019/20", team: "C.D. Chivas Guadalajara", category: "Liga MX Apert. - Copa MX" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2018/19", team: "Getafe C.F.", category: "1ª Div." },
+            { season: "2017/18", team: "C.D. Chivas Guadalajara", category: "Liga MX Apert. - Liga MX Claus. - Copa Méjico Apert. - CONCACAF Champs. Cup" },
+            { season: "2016/17", team: "C.D. Chivas Guadalajara", category: "Liga MX Apert. - Liga MX Claus. - Copa Méjico Claus. - Etapas Finales Claus. MX - Copa Méjico Apert. - Etapas Finales Apert. - Campeón de Campeones Méjico" },
+            { season: "2015/16", team: "C.D. Chivas Guadalajara", category: "Liga MX Apert. - Copa Méjico Apert." },
+            { season: "2014/15", team: "Club Santos Laguna", category: "Liga MX Apert. - Liga MX Claus. - Copa Méjico Claus. - Copa Méjico Apert." },
+            { season: "2013/14", team: "Club Santos Laguna", category: "Liga MX Apert. - Liga MX Claus. - Copa Libertadores - Etapas Finales Claus. - Copa Méjico Apert. - Etapas Finales Apert. MX" },
+            { season: "2012/13", team: "Club Santos Laguna", category: "Liga MX Apert. - Liga MX Claus. - CONCACAF Champs. Cup" },
+            { season: "2011/12", team: "Tecos F.C.", category: "Liga MX Apert. - Liga MX Claus." },
+            { season: "2010/11", team: "Tecos F.C.", category: "Liga MX Apert. - Liga MX Claus." },
+            { season: "2009/10", team: "Tecos F.C.", category: "Liga MX Apert. - Liga MX Claus. - Fase Previa Copa Libertadores" },
+            { season: "2008/09", team: "Tecos F.C.", category: "Liga MX Claus. - Etapas Finales Claus. MX" },
+            { season: "2008/09", team: "Tecos U.A.G. II", category: "Ascenso MX Apert." }
+        ],
+        nationalTeam: [
+            { season: "2018", team: "Méjico", category: "Amistosos" },
+            { season: "2017", team: "Méjico", category: "Clasif. Mundial CONCACAF - Copa Confederaciones - Amistosos" },
+            { season: "2016", team: "Méjico", category: "Clasif. Mundial CONCACAF" },
+            { season: "2015", team: "Méjico", category: "Clasif. Mundial CONCACAF - Copa Oro - Amistosos" },
+            { season: "2014", team: "Méjico", category: "Amistosos" },
+            { season: "2011", team: "Méjico", category: "Copa América" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 24, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "forlin": {
+        name: "Juan Daniel Forlín",
+        footballName: "Forlín",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/W3ZH6Rkn/Forlín_PNG.webp",
+        personalData: {
+            fullName: "Juan Daniel Forlín",
+            nickname: "Forlín",
+            birthPlace: "Reconquista, Santa Fe",
+            country: "Argentina",
+            nationality: "Argentina, Española",
+            height: "1,80 m",
+            birthDate: "10/01/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "C.F. Badalona", category: "3ª Federación" },
+            { season: "2022/23", team: "Som Maresme F.C.", category: "2ª Federación - Copa Catalunya" },
+            { season: "2021/22", team: "Som Maresme F.C.", category: "1ª Federación - Copa Federación" },
+            { season: "2020/21", team: "Som Maresme F.C.", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Júbilo Iwata", category: "2ª Japonesa J2" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Querétaro F.C.", category: "Liga MX Apert. - Liga MX Claus. - Copa Méjico Claus. - Copa Méjico Apert.." },
+            { season: "2015/16", team: "Querétaro F.C.", category: "Liga MX Apert. - Liga MX Claus. - CONCACAF Champs. Cup" },
+            { season: "2014/15", team: "C.A. Boca Juniors", category: "Copa Argentina" },
+            { season: "2013/14", team: "C.A. Boca Juniors", category: "Claus. Argentina - Conmebol Sudamericana - Copa Argentina - Torneo de Transición" },
+            { season: "2013/14", team: "Al-Rayyan S.C.", category: "Liga Catar" },
+            { season: "2012/13", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "R.C.D. Espanyol", category: "1ª Div." },
+            { season: "2008/09", team: "C.A. Boca Juniors", category: "Apert. Argentina - Claus. Argentina - Copa Libertadores" },
+            { season: "2007/08", team: "C.A. Boca Juniors", category: "Claus. Argentina - Conmebol Sudamericana" }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "Argentina", category: "Amistosos" },
+            { season: "2007", team: "Argentina Sub-20", category: "Mundial Sub-20" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 13, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 33, goles_marcados: 2, tarjetas_amarillas: 13, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
