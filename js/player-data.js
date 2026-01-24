@@ -2577,7 +2577,7 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2022/23", team: "R. S. Gimnástica de Torrelavega", category: "2ª Federación" },
+            { season: "2022/23", team: "R.S. Gimnástica de Torrelavega", category: "2ª Federación" },
             { season: "2022/23", team: "C.F. Fuenlabrada", category: "1ª Federación - Copa del Rey" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
@@ -3350,6 +3350,110 @@ const playersData = {
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "carlosmartinez": {
+        name: "Carlos Martínez Díez",
+        footballName: "Carlos Martínez",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/sgSsXLnp/Carlos_Martínez_PNG.webp",
+        personalData: {
+            fullName: "Carlos Martínez Díez",
+            nickname: "Carlos Martínez",
+            birthPlace: "Lodosa, Navarra",
+            country: "España",
+            nationality: "Española",
+            height: "1,88 m",
+            birthDate: "09/04/1986",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "Burgos C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey - Fase Previa Europa League" },
+            { season: "2013/14", team: "Real Sociedad de Fútbol", category: "1ª Div. - Champs. League - Copa del Rey - Fase Previa Champs. League" },
+            { season: "2012/13", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Real Sociedad de Fútbol", category: "2ª Div." },
+            { season: "2008/09", team: "Real Sociedad de Fútbol", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Real Sociedad de Fútbol", category: "2ª Div." },
+            { season: "2006/07", team: "Real Sociedad de Fútbol", category: "1ª Div." },
+            { season: "2006/07", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2005/06", team: "Real Sociedad de Fútbol B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2004/05", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 14, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "prendes": {
+        name: "Alejandro Prendes Reina",
+        footballName: "Prendes",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/nL4dCKbR/Prendes_PNG.webp",
+        personalData: {
+            fullName: "Alejandro Prendes Reina",
+            nickname: "Prendes",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,88 m",
+            birthDate: "12/04/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Il Delfino Curi Pescara", category: "Eccellenza Abruzzo - Coppa Italia Eccellenza Abruzzo" },
+            { season: "2023/24", team: "Albanova Calcio", category: "Eccellenza Campania Girone A" },
+            { season: "2023/24", team: "Caudal Deportivo", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "Real Avilés Industrial C.F.", category: "3ª Div. - 3ª Div. 2ª Fase de Ascenso a 2ª RFEF - Prom. de Ascenso a 2ª Div. RFEF" },
+            { season: "2019/20", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2019/20", team: "R.S. Gimnástica de Torrelavega", category: "3ª Div." },
+            { season: "2019/20", team: "U.D. Almería B", category: "3ª Div." },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo ", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Veriña C.F.", category: "División de Honor" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
