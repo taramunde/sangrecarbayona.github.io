@@ -71,8 +71,8 @@ const playersData = {
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
-            { season: "2024/25", team: "At. de Madrid", category: "1ª Div." },
-            { season: "2023/24", team: "At. de Madrid", category: "1ª Div. - Champs. League - Copa del Rey" },
+            { season: "2024/25", team: "Club At. de Madrid", category: "1ª Div." },
+            { season: "2023/24", team: "Club At. de Madrid", category: "1ª Div. - Champs. League - Copa del Rey" },
             { season: "2023/24", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
             { season: "2022/23", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
             { season: "2021/22", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
@@ -2310,12 +2310,12 @@ const playersData = {
             { season: "2015/16", team: "R.C. Deportivo de La Coruña", category: "1ª Div." },
             { season: "2014/15", team: "R.C. Deportivo de La Coruña", category: "1ª Div." },
             { season: "2013/14", team: "Real Betis Balompié", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
-            { season: "2012/13", team: "Real Madrid Castilla C.F.", category: "2ª Div." },
-            { season: "2011/12", team: "Real Madrid Castilla C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Madrid Castilla", category: "2ª Div." },
+            { season: "2011/12", team: "Real Madrid Castilla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2010/11", team: "Real Madrid C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2010/11", team: "Real Madrid Castilla C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Real Madrid Castilla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2009/10", team: "Real Madrid C.F.", category: "1ª Div." },
-            { season: "2009/10", team: "Real Madrid Castilla C.F.", category: "2ª Div. B" },
+            { season: "2009/10", team: "Real Madrid Castilla", category: "2ª Div. B" },
             { season: "2008/09", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2007/08", team: "Getafe C.F.", category: "1ª Div. - Europa League - Copa del Rey" }
         ],
@@ -2667,14 +2667,14 @@ const playersData = {
             { season: "2022/23", team: "F.C. Vizela", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "At. de Madrid B", category: "2ª Div. B" },
-            { season: "2018/19", team: "At. de Madrid", category: "1ª Div." },
-            { season: "2018/19", team: "At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
-            { season: "2017/18", team: "At. de Madrid", category: "1ª Div." },
-            { season: "2017/18", team: "At. de Madrid B", category: "2ª Div. B" },
-            { season: "2017/18", team: "At. de Madrid Sub-19", category: "UEFA Youth League" },
-            { season: "2016/17", team: "At. de Madrid Sub-19", category: "UEFA Youth League - Copa de Campeones División de Honor" },
-            { season: "2015/16", team: "At. de Madrid Sub-19", category: "UEFA Youth League" }
+            { season: "2019/20", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Club At. de Madrid", category: "1ª Div." },
+            { season: "2018/19", team: "Club At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Club At. de Madrid", category: "1ª Div." },
+            { season: "2017/18", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Club At. de Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2016/17", team: "Club At. de Madrid Sub-19", category: "UEFA Youth League - Copa de Campeones División de Honor" },
+            { season: "2015/16", team: "Club At. de Madrid Sub-19", category: "UEFA Youth League" }
         ],
         stats: {
             "2021/22": {
@@ -3450,6 +3450,93 @@ const playersData = {
                 amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
             "2016/17": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "javihernandez": {
+        name: "Javier Hernández Carrera",
+        footballName: "Javi Hernández",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/0jWDzjyH/Javi_Hernández_PNG.webp",
+        personalData: {
+            fullName: "Javier Hernández Carrera",
+            nickname: "Javi Hernández",
+            birthPlace: "Jerez de la Frontera, Cádiz",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "02/05/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Al-Arabi S.C.", category: "Liga Catar - Copa de Las Estrellas" },
+            { season: "2024/25", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Cádiz C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "Girona F.C.", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2019/20", team: "Real Madrid", category: "1ª Div. - Champs. League" },
+            { season: "2019/20", team: "Real Madrid Castilla", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Club Polideportivo El Ejido 2012", category: "2ª Div. B" },
+            { season: "2016/17", team: "Real Madrid Sub-19", category: "UEFA Youth League - Copa de Campeones División de Honor" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 25, goles_marcados: 1, tarjetas_amarillas: 7, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "lobato": {
+        name: "Rubén Lobato Cabal",
+        footballName: "Lobato",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/zB3JJG4f/Lobato_PNG.webp",
+        personalData: {
+            fullName: "Rubén Lobato Cabal",
+            nickname: "Lobato",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "09/03/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "C.F. Villanovense", category: "2ª Federación - 2ª Federación Prom. de Permanencia" },
+            { season: "2023/24", team: "Sestao River Club", category: "1ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Alcoyano", category: "1ª Federación" },
+            { season: "2022/23", team: "Górnik Łęczna", category: "2ª Polonia - Copa Polonia" },
+            { season: "2021/22", team: "Górnik Łęczna", category: "Liga Polaca - Copa Polonia" },
+            { season: "2020/21", team: "Burgos C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso a 2ª" },
+            { season: "2019/20", team: "Burgos C.F.", category: "2ª Div. B" },
+            { season: "2019/20", team: "Getafe C.F. B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "A.D. Mérida", category: "2ª Div. B" },
+            { season: "2016/17", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa Federación" },
+            { season: "2015/16", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2014/15", team: "Pontevedra C.F.", category: "3ª Div." },
+            { season: "2014/15", team: "Club At. de Madrid C", category: "3ª Div." },
+            { season: "2013/14", team: "R.S.D. Alcalá", category: "3ª Div." }
+        ],
+        stats: {
+            "2018/19": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -4846,8 +4933,8 @@ const playersData = {
             { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2023/24", team: "C.D. Estepona", category: "2ª Federación" },
             { season: "2022/23", team: "C.D. Estepona", category: "2ª Federación" },
-            { season: "2021/22", team: "At. de Madrid Sub-19", category: "División de Honor - UEFA Youth League - Copa de Campeones División de Honor - Copa del Rey Juvenil" },
-            { season: "2020/21", team: "At. de Madrid B Sub-19", category: "División de Honor" }
+            { season: "2021/22", team: "Club At. de Madrid Sub-19", category: "División de Honor - UEFA Youth League - Copa de Campeones División de Honor - Copa del Rey Juvenil" },
+            { season: "2020/21", team: "Club At. de Madrid B Sub-19", category: "División de Honor" }
             
          ],
 
@@ -6417,10 +6504,10 @@ const playersData = {
             { season: "2021/22", team: "R.C. Celta de Vigo Fortuna", category: "1ª Federación" },
             { season: "2020/21", team: "Albacete Balompié", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2019/20", team: "At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
-            { season: "2019/20", team: "At. de Madrid Sub-19", category: "UEFA Youth League" },
-            { season: "2018/19", team: "At. de Madrid Sub-19", category: "UEFA Youth League" },
-            { season: "2018/19", team: "At. de Madrid B", category: "2ª Div. B" }
+            { season: "2019/20", team: "Club At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2019/20", team: "Club At. de Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2018/19", team: "Club At. de Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2018/19", team: "Club At. de Madrid B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2019", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
@@ -7474,10 +7561,10 @@ const playersData = {
             { season: "2013/14", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
             { season: "2012/13", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
             { season: "2011/12", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
-            { season: "2010/11", team: "At. de Madrid B", category: "2ª Div. B" },
-            { season: "2010/11", team: "At. de Madrid", category: "1ª Div. - Copa del Rey" },
-            { season: "2009/10", team: "At. de Madrid", category: "1ª Div." },
-            { season: "2009/10", team: "At. de Madrid B", category: "2ª Div. B" }
+            { season: "2010/11", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2010/11", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Club At. de Madrid", category: "1ª Div." },
+            { season: "2009/10", team: "Club At. de Madrid B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2011", team: "España Sub-19", category: "Europeo Sub-19" },
@@ -7772,8 +7859,8 @@ const playersData = {
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
-            { season: "2022/23", team: "At. de Madrid B", category: "2ª Federación - 2 ª Federacción Prom. de Ascenso" },
-            { season: "2021/22", team: "At. de Madrid B", category: "3ª Federación" },
+            { season: "2022/23", team: "Club At. de Madrid B", category: "2ª Federación - 2 ª Federacción Prom. de Ascenso" },
+            { season: "2021/22", team: "Club At. de Madrid B", category: "3ª Federación" },
             { season: "2020/21", team: "Burgos C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2020/21", team: "Burgos C.F. Sub-19", category: "División de Honor" },
             { season: "2019/20", team: "C.D. Covadonga", category: "3ª Div. Prom. de Ascenso" }
@@ -8116,7 +8203,7 @@ const playersData = {
             { season: "2025/26", team: "Real Avilés Industrial C.F.", category: "1ª Federación - Copa del Rey" },
             { season: "2024/25", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación Fase Autonómica - 2ª Federación Prom. de Ascenso" },
             { season: "2023/24", team: "Algeciras C.F.", category: "1ª Federación" },
-            { season: "2022/23", team: "At. de Madrid B", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "Club At. de Madrid B", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
@@ -8666,9 +8753,9 @@ const playersData = {
             { season: "2012/13", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia" },
             { season: "2011/12", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
             { season: "2010/11", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
-            { season: "2009/10", team: "At. de Madrid", category: "1ª Div. - Copa del Rey" },
-            { season: "2009/10", team: "At. de Madrid B", category: "2ª Div. B" },
-            { season: "2008/09", team: "At. de Madrid B", category: "2ª Div. B" }
+            { season: "2009/10", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2008/09", team: "Club At. de Madrid B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2016", team: "Senegal", category: "Clasif. Copa África" },
