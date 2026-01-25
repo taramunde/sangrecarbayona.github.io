@@ -878,8 +878,8 @@ const playersData = {
             { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "S.D. Compostela", category: "2ª Div. B" },
-            { season: "2013/14", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
-            { season: "2012/13", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+            { season: "2013/14", team: "R.C. Deportivo de La Coruña B", category: "3ª Div." },
+            { season: "2012/13", team: "R.C. Deportivo de La Coruña B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
         ],
         
         stats: {
@@ -1656,8 +1656,8 @@ const playersData = {
             { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "S.D. Compostela", category: "2ª Div. B" },
-            { season: "2013/14", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
-            { season: "2012/13", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div. Prom. de Ascenso" }
+            { season: "2013/14", team: "R.C. Deportivo de La Coruña B", category: "3ª Div." },
+            { season: "2012/13", team: "R.C. Deportivo de La Coruña B", category: "3ª Div. Prom. de Ascenso" }
 
         ],
 
@@ -5396,8 +5396,8 @@ const playersData = {
             { season: "2019/20", team: "C.D. Lugo", category: "2ª Div." },
             { season: "2018/19", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso" },
             { season: "2017/18", team: "C.C.D. Cerceda", category: "2ª Div. B" },
-            { season: "2016/17", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
-            { season: "2015/16", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
+            { season: "2016/17", team: "R.C. Deportivo de La Coruña B", category: "3ª Div." },
+            { season: "2015/16", team: "R.C. Deportivo de La Coruña B", category: "3ª Div." },
             { season: "2014/15", team: "R.C. Deportivo de La Coruña Sub-19", category: "División de Honor" }
         ],
         stats: {
@@ -5936,8 +5936,8 @@ const playersData = {
             { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2020/21", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div. - 2ª Fase 2ª Div. RFEF" },
-            { season: "2019/20", team: "R.C. Deportivo de La Coruña Fabril", category: "3ª Div." },
+            { season: "2020/21", team: "R.C. Deportivo Fabril", category: "3ª Div. - 2ª Fase 2ª Div. RFEF" },
+            { season: "2019/20", team: "R.C. Deportivo Fabril", category: "3ª Div." },
             { season: "2017/18", team: "C.D. TSK Roces", category: "3ª Div." }
         ],
         stats: {
@@ -6111,7 +6111,7 @@ const playersData = {
             { season: "2020/21", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2019/20", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "R.C. Deportivo de La Coruña", category: "2ª Div." },
-            { season: "2018/19", team: "R.C. Deportivo de La Coruña Fabril", category: "2ª Div. B" },
+            { season: "2018/19", team: "R.C. Deportivo Fabril", category: "2ª Div. B" },
             { season: "2017/18", team: "C.D. Toledo", category: "2ª Div. B" },
             { season: "2017/18", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Rayo Vallecano de Madrid B", category: "3ª Div." },
@@ -9064,6 +9064,79 @@ const playersData = {
         }
     },
 
+        "toche": {
+        name: "José Verdú Nicolás",
+        footballName: "Toché",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/wMrPhhqC/Toché_PNG.webp",
+        personalData: {
+            fullName: "José Verdú Nicolás",
+            nickname: "Toché",
+            birthPlace: "Santomera, Murcia",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "01/01/1983",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "Orihuela C.F.", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia a 2ª RFEF" },
+            { season: "2019/20", team: "Burgos C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "R.C. Deportivo de La Coruña", category: "2ª Div." },
+            { season: "2012/13", team: "Panathinaikos F.C.", category: "Super League Griega - Europa League - Copa Griega - Fase Previa Champs. League" },
+            { season: "2011/12", team: "Panathinaikos F.C.", category: "Super League Griega - Copa Griega - Fase Previa Champs. League - Fase Previa Europa League" },
+            { season: "2010/11", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2008/09", team: "C.D. Numancia", category: "1ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "Hércules C.F.", category: "2ª Div." },
+            { season: "2004/05", team: "C.D. Numancia", category: "1ª Div." },
+            { season: "2003/04", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2003/04", team: "Club At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2002/03", team: "Club At. de Madrid B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2003", team: "España Sub-20", category: "Amistosos" },
+            { season: "2002", team: "España Sub-20", category: "Torneo COTIF Sub-20" },
+            { season: "2000", team: "España Sub-16", category: "Europeo Sub-16 - Amistosos" }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos: 26, goles_marcados: 2, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 5, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2017/18": {
+                liga: { partidos: 33, goles_marcados: 6, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 40, goles_marcados: 17, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 37, goles_marcados: 17, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
@@ -9352,7 +9425,7 @@ const playersData = {
             { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2013/14", team: "C.D. Eldense", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "1999/00", team: "Real Valladolid C.F. B", category: "2ª Div. B" },
-            { season: "1998/99", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "1998/99", team: "Hércules C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "1997/98", team: "C.D. Toledo", category: "2ª Div. - Copa del Rey" },
             { season: "1996/97", team: "Real Madrid C.F. B", category: "2ª Div." },
             { season: "1995/96", team: "Real Madrid C.F. B", category: "2ª Div." }
