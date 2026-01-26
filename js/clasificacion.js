@@ -268,11 +268,11 @@ const enfrentamientos = [
   { equipo1: "Real Madrid", equipo2: "Levante U.D.", goles1: 2, goles2: 0 },
   
   // Jornada 21
-  { equipo1: "Deportivo Alavés", equipo2: "Real Betis", goles1: null, goles2: null },
-  { equipo1: "Atlético de Madrid", equipo2: "R.C.D. Mallorca", goles1: null, goles2: null },
-  { equipo1: "F.C. Barcelona", equipo2: "Real Oviedo", goles1: null, goles2: null },
+  { equipo1: "Deportivo Alavés", equipo2: "Real Betis", goles1: 2, goles2: 1 },
+  { equipo1: "Atlético de Madrid", equipo2: "R.C.D. Mallorca", goles1: 3, goles2: 0 },
+  { equipo1: "F.C. Barcelona", equipo2: "Real Oviedo", goles1: 3, goles2: 0 },
   { equipo1: "Sevilla F.C.", equipo2: "Athletic Club", goles1: 2, goles2: 1 },
-  { equipo1: "Real Sociedad", equipo2: "Celta de Vigo", goles1: null, goles2: null },
+  { equipo1: "Real Sociedad", equipo2: "Celta de Vigo", goles1: 3, goles2: 1 },
   { equipo1: "Levante U.D.", equipo2: "Elche C.F.", goles1: 3, goles2: 2 },
   { equipo1: "Valencia C.F.", equipo2: "R.C.D. Espanyol", goles1: 3, goles2: 2 },
   { equipo1: "Girona F.C.", equipo2: "Getafe C.F.", goles1: null, goles2: null },
