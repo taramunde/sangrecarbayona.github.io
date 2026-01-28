@@ -1111,7 +1111,8 @@ const playersData = {
         birthDate: "11/11/1997",
         deathDate: null // Poner null si el jugador está vivo
     }, 
-        career: [  
+        career: [ 
+            { season: "2025/26", team: "Burgos C.F.", category: "2ª Div." }, 
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
@@ -9392,6 +9393,59 @@ const playersData = {
                 copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 8, victorias: 3, empates: 2, derrotas: 3 }
+            }
+        }
+    },
+
+        "anquela": {
+        name: "Juan Antonio Albacete Anquela",
+        footballName: "Anquela",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/mFyhBmqk/Anquela-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Juan Antonio Albacete Anquela",
+            nickname: "Anquela",
+            birthPlace: "Linares, Jaén",
+            country: "España",
+            nationality: "Española",
+            height: "1,70 m",
+            birthDate: "11/09/1957",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "U.D. Ibiza", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2020/21", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "R.C. Deportivo de La Coruña", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey - Copa Castilla y León" },
+            { season: "2012/13", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "A.D. Alcorcón", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "A.D. Alcorcón", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2005/06", team: "U.D. Melilla", category: "2ª Div. B" },
+            { season: "2004/05", team: "S.D. Huesca", category: "2ª Div. B" },
+            { season: "2001/02", team: "Real Jaén C.F.", category: "2ª Div." }
+        ],
+        stats: {
+            "2018/19": {
+                liga: { partidos_entrenados: 34, victorias: 13, empates: 11, derrotas: 10 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 8, victorias: 3, empates: 3, derrotas: 2 }
+            },
+            "2017/18": {
+                liga: { partidos_entrenados: 42, victorias: 18, empates: 11, derrotas: 13 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 9, victorias: 3, empates: 5, derrotas: 1 }
             }
         }
     },
