@@ -1297,11 +1297,11 @@ const playersData = {
             { season: "2019/20", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "C.A. Osasuna", category: "2ª Div." },
             { season: "2017/18", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Valencia C.F. Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2016/17", team: "Valencia C.F.", category: "1ª Div." },
-            { season: "2015/16", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
-            { season: "2014/15", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
-            { season: "2013/14", team: "Valencia C.F. Mestalla", category: "2ª Div. B" }
+            { season: "2015/16", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2014/15", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2013/14", team: "Valencia Mestalla", category: "2ª Div. B" }
             
         ],
         nationalTeam: [
@@ -2815,7 +2815,7 @@ const playersData = {
             { season: "2014/15", team: "Club Gimnàstic de Tarragona", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2013/14", team: "At. Levante U.D.", category: "2ª Div. B" },
             { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
-            { season: "2011/12", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2011/12", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2010/11", team: "At. Levante U.D.", category: "3ª Div." },
             { season: "2010/11", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
             { season: "2008/09", team: "Levante U.D.", category: "2ª Div." },
@@ -3658,6 +3658,62 @@ const playersData = {
             "2016/17": {
                 liga: { partidos: 16, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "verdes": {
+        name: "Héctor Verdés Ortega",
+        footballName: "Verdés",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/CLp4XPZR/Verdés_PNG.webp",
+        personalData: {
+            fullName: "Héctor Verdés Ortega",
+            nickname: "Verdés",
+            birthPlace: "Villar del Arzobispo, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "24/06/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "C.D. Castellón", category: "2ª Div. B" },
+            { season: "2018/19", team: "C.F. Rayo Majadahonda", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2013/14", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Elche C.F.", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2008/09", team: "F.C. Barcelona Atlètic", category: "2ª Div. B" },
+            { season: "2007/08", team: "Xerez C.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "2003/04", team: "Valencia C.F. B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 16, goles_marcados: 0, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 23, goles_marcados: 2, tarjetas_amarillas: 13, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 16, goles_marcados: 0, tarjetas_amarillas: 12, tarjetas_rojas: 4 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
@@ -4732,9 +4788,9 @@ const playersData = {
             { season: "2021/22", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "C.D. Ebro", category: "2ª Div. B - 2ª Fase 1ª Div. RFEF" },
             { season: "2020/21", team: "C.D. Lugo", category: "2ª Div." },
-            { season: "2019/20", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2019/20", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2019/20", team: "Córdoba C.F.", category: "2ª Div. B - Copa del Rey" },
-            { season: "2018/19", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2018/19", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2018/19", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Córdoba C.F. B", category: "3ª Div." },
             { season: "2017/18", team: "Córdoba C.F. B", category: "2ª Div. B" },
@@ -5951,12 +6007,12 @@ const playersData = {
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2022/23", team: "Valencia C.F.", category: "1ª Div." },
             { season: "2021/22", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2020/21", team: "Valencia C.F. Mestalla", category: "2ª Div. B - 2ª Div. B Fase Permanencia 2ª RFEF" },
+            { season: "2020/21", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Fase Permanencia 2ª RFEF" },
             { season: "2020/21", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Valencia C.F.", category: "1ª Div." },
-            { season: "2019/20", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2019/20", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2019/20", team: "Valencia C.F. Sub-19", category: "UEFA Youth League" },
-            { season: "2018/19", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2018/19", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2018/19", team: "R.C. Lens B", category: "National 2" }
         ],
         nationalTeam: [
@@ -6007,13 +6063,13 @@ const playersData = {
             { season: "2014/15", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
             { season: "2013/14", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
             { season: "2012/13", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
-            { season: "2011/12", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2011/12", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2010/11", team: "Valencia C.F.", category: "1ª Div." },
-            { season: "2010/11", team: "Valencia C.F. Mestalla", category: "3ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "Valencia Mestalla", category: "3ª Div. Prom. de Ascenso" },
             { season: "2009/10", team: "Real Unión Club", category: "2ª Div. - Copa del Rey" },
             { season: "2008/09", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2007/08", team: "Valencia C.F.", category: "1ª Div. - Champs. League - Copa del Rey" },
-            { season: "2006/07", team: "Valencia C.F. Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" }
+            { season: "2006/07", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" }
         ],
         nationalTeam: [
             { season: "2007", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19" },
@@ -8499,7 +8555,7 @@ const playersData = {
             { season: "2019/20", team: "Orlando City S.C.", category: "MLS Liga USA" },
             { season: "2019/20", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso" },
-            { season: "2017/18", team: "Valencia C.F. Mestalla", category: "2ª Div. B" },
+            { season: "2017/18", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2017/18", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa del Rey" },
             { season: "2016/17", team: "Lorca F.C.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2016/17", team: "Granada C.F. B", category: "2ª Div. B" },
