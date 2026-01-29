@@ -23,7 +23,7 @@ const notes = {
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
             },
             '2026-02-15': {
-                text: 'Jornada 24<br> Real Oviedo - Athletic Club<br>--:--',
+                text: 'Jornada 24<br> Real Oviedo - Athletic Club<br>14:00',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
                 shieldUrlRight: 'https://i.postimg.cc/wvk3Y2Hv/Athletic-Club-2025.png'
