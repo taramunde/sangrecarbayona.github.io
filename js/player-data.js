@@ -785,6 +785,60 @@ const playersData = {
         }
     },
 
+        "juancarlos": {
+        name: "Juan Carlos Sánchez Martínez",
+        footballName: "Juan Carlos",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/d1sr9pDC/Juan-Carlos-PNG.webp",
+        personalData: {
+            fullName: "Juan Carlos Sánchez Martínez",
+            nickname: "Juan Carlos",
+            birthPlace: "Calviá, Islas Baleares",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "27/07/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "U.D. Poblense", category: "3ª Federación - 3ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Numancia", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2014/15", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2013/14", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Villarreal C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2009/10", team: "Villarreal C.F. B", category: "2ª Div." },
+            { season: "2008/09", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2007/08", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2007/08", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2005/06", team: "Villarreal C.F.", category: "1ª Div. - Champs. League" },
+            { season: "2004/05", team: "Villarreal C.F.", category: "1ª Div." }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 15, goles_encajados: 21, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 42, goles_encajados: 47, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
@@ -3539,6 +3593,70 @@ const playersData = {
         stats: {
             "2018/19": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "varela": {
+        name: "Francisco Miguel Varela Martín",
+        footballName: "Varela",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/ryrJhXp6/Varela_PNG.webp",
+        personalData: {
+            fullName: "Francisco Miguel Varela Martín",
+            nickname: "Varela",
+            birthPlace: "Atarfe, Granada",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "26/10/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.D. Melilla", category: "2ª Federación - Copa Federación" },
+            { season: "2024/25", team: "U.D. Melilla", category: "2ª Federación" },
+            { season: "2024/25", team: "C.D. Atlético Paso", category: "2ª Federación" },
+            { season: "2023/24", team: "Linares Deportivo", category: "1ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Linares Deportivo", category: "1ª Federación" },
+            { season: "2022/23", team: "C.D. Alcoyano", category: "1ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Som Maresme F.C.", category: "1ª Federación" },
+            { season: "2021/22", team: "Extremadura U.D.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "San Fernando C.D.", category: "2ª Div. B - 2ª Div. B 2ª Fase de Ascenso a 2ª" },
+            { season: "2020/21", team: "C.F. Os Belenenses", category: "Campeonato de Portugal" },
+            { season: "2019/20", team: "Os Belenenses Sub-23", category: "Liga Revelação" },
+            { season: "2019/20", team: "Os Belenenses", category: "Liga Portugal Betclic - Taça de Portugal" },
+            { season: "2018/19", team: "C.F. Rayo Majadahonda", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Betis Balompié", category: "2ª Div." },
+            { season: "2014/15", team: "Real Betis Balompié B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Betis Balompié", category: "1ª Div. - Europa League" },
+            { season: "2013/14", team: "Real Betis Balompié B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Betis Balompié", category: "1ª Div." },
+            { season: "2012/13", team: "Real Betis Balompié B", category: "2ª Div. B" },
+            { season: "2011/12", team: "Real Betis Balompié B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2015", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2013", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2012", team: "España Sub-20", category: "Torneo COTIF Sub-20" },
+            { season: "2012", team: "España Sub-19", category: "Amistosos" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 8, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 16, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
