@@ -3720,6 +3720,105 @@ const playersData = {
         }
     },
 
+        "valentini": {
+        name: "Martín Nahuel Valentini",
+        footballName: "Valentini",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/mD0SbV86/Valentini_(2017)_PNG.webp",
+        personalData: {
+            fullName: "Martín Nahuel Valentini",
+            nickname: "Valentini",
+            birthPlace: "Fighiera, Santa Fe",
+            country: "Argentina",
+            nationality: "Argentina, Italiana",
+            height: "1,84 m",
+            birthDate: "19/09/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.S. Scandicci", category: "Serie D - Coppa Italia Serie D" },
+            { season: "2024/25", team: "U.S.D. Sestri Levante 1919", category: "Serie C" },
+            { season: "2023/24", team: "Ars et Labor Ferrara SPAL", category: "Serie C - Coppa Italia Serie C" },
+            { season: "2022/23", team: "A. Calcio Padova", category: "Serie C - Coppa Italia" },
+            { season: "2021/22", team: "A. Calcio Padova", category: "Serie C - Coppa Italia - Coppa Italia Serie C" },
+            { season: "2020/21", team: "L.R. Vicenza", category: "Serie B" },
+            { season: "2020/21", team: "A. Calcio Padova", category: "Serie C - Coppa Italia - Coppa Italia Serie C" },
+            { season: "2019/20", team: "Ascoli Calcio 1898 F.C.", category: "Serie B - Coppa Italia" },
+            { season: "2018/19", team: "Ascoli Calcio 1898 F.C.", category: "Serie B" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Spezia Calcio", category: "Serie B - Coppa Italia - Serie B Prom. de Ascenso" },
+            { season: "2015/16", team: "Spezia Calcio", category: "Serie B - Coppa Italia - Serie B Prom. de Ascenso" },
+            { season: "2014/15", team: "Spezia Calcio", category: "Serie B - Serie B Prom. de Ascenso" },
+            { season: "2013/14", team: "U.S. Livorno 1915", category: "Serie A - Coppa Italia" },
+            { season: "2012/13", team: "C.A. Rosario Central", category: "1ª Nacional" },
+            { season: "2011/12", team: "C.A. Rosario Central", category: "1ª Nacional - Copa Argentina" },
+            { season: "2010/11", team: "C.A. Rosario Central", category: "1ª Nacional" },
+            { season: "2009/10", team: "C.A. Rosario Central", category: "Apert. Argentina - Claus. Argentina" },
+            { season: "2008/09", team: "C.A. Rosario Central", category: "Apert. Argentina - Claus. Argentina" },
+            { season: "2007/08", team: "C.A. Rosario Central", category: "Claus. Argentina" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "cotugno": {
+        name: "Martín Nahuel Valentini",
+        footballName: "Cotugno",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/qRqFthk9/Cotugno_PNG.webp",
+        personalData: {
+            fullName: "Martín Nahuel Valentini",
+            nickname: "Cotugno",
+            birthPlace: "Montevideo, Montevideo",
+            country: "Uruguay",
+            nationality: "Uruguaya, Italiana",
+            height: "1,77 m",
+            birthDate: "12/03/19952025/26",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Racing Club de Montevideo", category: "Copa Uruguay" },
+            { season: "2024/25", team: "Racing Club de Montevideo", category: "Apert. Uruguay - Claus. Uruguay - Conmebol Sudamericana - Fase Previa Conmebol Sudamericana - Torneo Intermedio Uruguay - Copa Uruguay" },
+            { season: "2023/24", team: "Racing Club de Montevideo", category: "Apert. Uruguay - Claus. Uruguay - Conmebol Sudamericana - Fase Previa Conmebol Sudamericana - Torneo Intermedio Uruguay" },
+            { season: "2023/24", team: "C.D. Maldonado", category: "Copa Uruguay" },
+            { season: "2022/23", team: "C.D. Maldonado", category: "Apert. Uruguay - Claus. Uruguay - Fase Previa Copa Libertadores - Torneo Intermedio Uruguay - Copa Uruguay" },
+            { season: "2021/22", team: "C.D. Maldonado", category: "Apert. Uruguay - Claus. Uruguay - Torneo Intermedio Uruguay" },
+            { season: "2020/21", team: "C.D. Maldonado", category: "Claus. Uruguay" },
+            { season: "2020/21", team: "Śląsk Wrocław II", category: "3ª Polonia" },
+            { season: "2020/21", team: "Śląsk Wrocław", category: "Liga Polaca" },
+            { season: "2019/20", team: "Śląsk Wrocław", category: "Liga Polaca" },
+            { season: "2018/19", team: "Club Nacional de Footbal", category: "Apert. Uruguay - Claus. Uruguay - Copa Libertadores - Supercopa Uruguay - Torneo Intermedio Uruguay" },
+            { season: "2017/18", team: "Club Nacional de Footbal", category: "Claus. Uruguay" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Club Atlético Talleres", category: "Copa Argentina - Liga Profesional Argentina" },
+            { season: "2015/16", team: "F.C. Rubin Kazán", category: "Premier League Rusia - Europa League - Fase Previa Europa League" },
+            { season: "2014/15", team: "F.C. Rubin Kazán", category: "Premier League Rusia - Copa Rusa" },
+            { season: "2014/15", team: "Danubio F.C.", category: "Apert. Uruguay - Claus. Uruguay - Copa Libertadores" },
+            { season: "2013/14", team: "Danubio F.C.", category: "Claus. Uruguay - Conmebol Sudamericana - Uruguay Final de Campeones" }
+        ],
+        nationalTeam: [
+            { season: "2015", team: "Uruguay Sub-20", category: "Mundial Sub-20 - Sudamericano Sub-20 - Amistosos" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 29, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
