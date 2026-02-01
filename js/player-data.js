@@ -27,11 +27,11 @@ const playersData = {
             { season: "2019/20", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Granada C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Granada C.F. B", category: "2ª Div. B" },
-            { season: "2016/17", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Club At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2016/17", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
-            { season: "2015/16", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
-            { season: "2014/15", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Club At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Club At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2013/14", team: "Málaga C.F.", category: "1ª Div." },
             { season: "2013/14", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
         ],
@@ -3908,6 +3908,48 @@ const playersData = {
         }
     },
 
+        "gabri": {
+        name: "Gabriel Sebastián Cardozo Tomás",
+        footballName: "Gabri",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/htZy2X2f/Gabri_PNG_(Gabriel_Sebastián_Cardozo_Tomás)_2017.webp",
+        personalData: {
+            fullName: "Gabriel Sebastián Cardozo Tomás",
+            nickname: "Gabri",
+            birthPlace: "Montevideo, Montevideo",
+            country: "Uruguay",
+            nationality: "Uruguaya, Española",
+            height: "1,90 m",
+            birthDate: "27/12/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "St. Joseph's F.C.", category: "Premier División Gibraltar - Fase Previa Conference League" },
+            { season: "2024/25", team: "St. Joseph's F.C.", category: "Premier División Gibraltar - Rock Cup Gibraltar - Supercopa Gigraltar - Fase Previa Conference League" },
+            { season: "2023/24", team: "St. Joseph's F.C.", category: "Premier División Gibraltar - Rock Cup Gibraltar" },
+            { season: "2022/23", team: "U.D. Montijo", category: "2ª Federación" },
+            { season: "2021/22", team: "U.D. Montijo", category: "2ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Pobla de Mafumet C.F.", category: "3ª Div. - 3ª Div. 2ª Fase de Permanencia en 3ª RFEF" },
+            { season: "2019/20", team: "Extremadura U.D.", category: "2ª Div." },
+            { season: "2019/20", team: "Extremadura U.D. B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Extremadura U.D. B", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2016/17", team: "Club At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Málaga C.F. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
@@ -6658,7 +6700,7 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
-            { season: "2019/20", team: "At. Malagueño", category: "3ª Div." }
+            { season: "2019/20", team: "Club At. Malagueño", category: "3ª Div." }
         ],
         stats: {
             "2021/22": {
