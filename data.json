@@ -1,26 +1,36 @@
 {
-  "jornada": "21 LaLiga EA Sports 2025/26",
+  "jornada": "22 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "FCB",
-    "homeImg": "https://i.postimg.cc/0yH0rj5X/F.C._Barcelona_C_(2007).jpg",
-    "visitor": "OVI",
-    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "score": "3 - 0",
-    "date": "Dom. 25 Ene, 16:15",
-    "time": "Spotify Camp Nou"
-  },
-  "nextMatch": {
     "home": "OVI",
     "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "visitor": "GIR",
     "visitorImg": "https://i.postimg.cc/d0xBnVnf/Girona_F.C._(2025).png",
-    "score": " - ",
+    "score": "1 - 0",
     "date": "Sáb. 31 Ene, 14:00",
     "time": "Carlos Tartiere"
   },
+  "nextMatch": {
+    "home": "RAY",
+    "homeImg": "https://i.postimg.cc/153WzLct/Rayo_Vallecano_de_Madrid_B_(2007).jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "score": " - ",
+    "date": "Sáb. 07 Feb, 14:00",
+    "time": "Vallecas"
+  },
   
   "goalscorers": [
-    
+    {
+      "name": "Ilyas",
+      "number": "7",
+      "photo": "https://i.postimg.cc/xCTdXSFX/Ilyas_PNG_(3).webp",
+      "nation": "https://i.postimg.cc/jjfxjjwP/España.jpg",
+      "goals": 2,
+      "minute": "74'",
+      "partidos": "21",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/ilyas-chaira/profil/spieler/593412"
+    }
     
   ],
 
