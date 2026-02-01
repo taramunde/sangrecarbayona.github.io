@@ -3819,6 +3819,52 @@ const playersData = {
         }
     },
 
+        "alvaro": {
+        name: "Álvaro García Fernández",
+        footballName: "Álvaro",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/02sbphRN/Alvaro-2017.webp",
+        personalData: {
+            fullName: "Álvaro García Fernández",
+            nickname: "Álvaro",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "15/03/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Lealtad de Villaviciosa", category: "2ª Federación" },
+            { season: "2024/25", team: "U.D. Llanera", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "C.D. Covadonga", category: "2ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "C.D. Llanes", category: "3ª Federación" },
+            { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación" },
+            { season: "2021/22", team: "C.D. Llanes", category: "3ª Div." },
+            { season: "2020/21", team: "C.D. Covadonga", category: "2ª Div. B - Copa Federación Fase Autonómica - 2ª Div. B 2ª Fase de Permanencia a 2ª RFEF" },
+            { season: "2019/20", team: "C.D. Numancia B", category: "3ª Div." },
+            { season: "2018/19", team: "C.D. Llanes", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2015/16", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" }
+
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
