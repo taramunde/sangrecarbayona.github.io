@@ -18,7 +18,12 @@
 }
 
 /* --- SOLUCIÓN ESTRUCTURA --- */
-#goalscorers-container { display: contents !important; }
+#goalscorers-container { 
+    display: contents !important; 
+    opacity: 0; /* Inicia invisible */
+    transition: opacity 0.3s ease;
+}
+
 @supports not (display: contents) {
     #goalscorers-container { display: flex; gap: 25px; }
 }
@@ -101,17 +106,22 @@
 
 /* --- ELEMENTOS INTERNOS --- */
 
-/* FOTO DEL JUGADOR */
+/* FOTO DEL JUGADOR - IMPORTANTE: controla el tamaño desde el principio */
 .player-image {
-    width: 100px; height: 100px; 
-    object-fit: cover; border-radius: 50%;
+    width: 100px !important; 
+    height: 100px !important; 
+    object-fit: cover; 
+    border-radius: 50%;
     object-position: center 15%;
     border: 3px solid white;
-    margin: 40px auto 10px auto; /* Un poco más de margen arriba */
+    margin: 40px auto 10px auto;
     display: block;
     position: relative;
     z-index: 1; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    /* Previene el flash de imagen grande */
+    max-width: 100px !important;
+    max-height: 100px !important;
 }
 
 /* --- ESCUDO (MODIFICADO) --- */
@@ -132,8 +142,8 @@
 /* --- BANDERA (MODIFICADO) --- */
 .nation-country { 
     position: absolute;
-    width: 30px; 
-    height: 30px;
+    width: 30px !important; 
+    height: 30px !important;
     
     /* POSICIONAMIENTO: */
     top: 125px; /* UN POCO MÁS ABAJO (Antes 105px) */
@@ -146,6 +156,9 @@
     background-color: #fff;
     z-index: 10;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    /* Previene el flash de imagen grande */
+    max-width: 30px !important;
+    max-height: 30px !important;
 }
 
 /* --- TEXTOS (CENTRADO MEJORADO) --- */
