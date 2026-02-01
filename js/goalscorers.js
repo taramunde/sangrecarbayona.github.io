@@ -6,13 +6,18 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
+            // 1. LIMPIEZA: Borramos cualquier contenido previo (esto evita que salgan dobles)
+            container.innerHTML = ''; 
+
             if (data.goalscorers && data.goalscorers.length > 0) {
-                // Ocultamos la tarjeta de "SIN GOLES" si hay goleadores
+                // CASO A: HAY GOLEADORES
+                // Ocultamos la tarjeta fija de "SIN GOLES"
                 if (noGoalsCard) noGoalsCard.style.display = 'none';
 
                 data.goalscorers.forEach(player => {
                     const card = document.createElement('div');
                     card.className = 'card-container';
+                    // Construimos la tarjeta con los datos del JSON
                     card.innerHTML = `
                         <div class="card">
                             <div class="front">
@@ -36,6 +41,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     `;
                     container.appendChild(card);
                 });
+            } else {
+                // CASO B: NO HAY DATOS
+                // Si el array está vacío, nos aseguramos de que se vea la tarjeta "SIN GOLES"
+                if (noGoalsCard) noGoalsCard.style.display = 'block'; 
             }
+        })
+        .catch(error => {
+            console.error('Error cargando los datos:', error);
+            // Si hay error, mostramos la tarjeta por defecto por seguridad
+            if (noGoalsCard) noGoalsCard.style.display = 'block'; 
         });
 });
