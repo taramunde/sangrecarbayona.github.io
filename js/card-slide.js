@@ -1,33 +1,32 @@
+// js/card-slide.js
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Escuchamos clicks en todo el documento para manejar elementos dinámicos
+    // Delegación de eventos: funciona para tarjetas que ya están y las que vendrán
     document.addEventListener('click', function(e) {
         
-        // 1. Comprobar si el click fue en el botón de enlace "Ver Ficha"
-        // Si es así, no hacemos nada para dejar que el enlace funcione
-        if (e.target.closest('.link-button')) {
-            return;
-        }
+        // Si el click es en el botón de la ficha, dejamos que el enlace funcione normal
+        if (e.target.closest('.link-button')) return;
 
-        // 2. Comprobar si el click fue dentro de una tarjeta (.card)
+        // Buscamos si el click fue en una tarjeta
         const card = e.target.closest('.card');
 
         if (card) {
-            // Si hacemos click en una tarjeta, alternamos la clase 'flipped'
+            // Evitamos comportamientos extraños
+            e.preventDefault();
+            
+            // Si la tarjeta ya está girada, la devolvemos. Si no, la giramos.
             card.classList.toggle('flipped');
 
-            // Opcional: Cerrar otras tarjetas que pudieran estar abiertas
-            const allCards = document.querySelectorAll('.card.flipped');
-            allCards.forEach(c => {
-                if (c !== card) {
-                    c.classList.remove('flipped');
+            // Opcional: Cerrar las demás tarjetas al abrir una nueva
+            document.querySelectorAll('.card.flipped').forEach(otherCard => {
+                if (otherCard !== card) {
+                    otherCard.classList.remove('flipped');
                 }
             });
         } else {
-            // 3. Si el click fue FUERA de cualquier tarjeta, cerrar las que estén abiertas
-            const flippedCards = document.querySelectorAll('.card.flipped');
-            flippedCards.forEach(flippedCard => {
-                flippedCard.classList.remove('flipped');
+            // Si hacemos click fuera de cualquier tarjeta, cerramos todas
+            document.querySelectorAll('.card.flipped').forEach(openCard => {
+                openCard.classList.remove('flipped');
             });
         }
     });

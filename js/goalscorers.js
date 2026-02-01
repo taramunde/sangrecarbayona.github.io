@@ -2,23 +2,22 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.getElementById('goalscorers-container');
     const noGoalsCard = document.getElementById('no-goals-card');
 
-    // Cargar datos desde data.json
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
-            // 1. LIMPIEZA: Borramos cualquier contenido previo (esto evita que salgan dobles)
+            // Limpiamos el contenedor y lo ocultamos un momento para evitar el efecto "foto grande"
+            container.style.opacity = '0';
             container.innerHTML = ''; 
 
             if (data.goalscorers && data.goalscorers.length > 0) {
-                // CASO A: HAY GOLEADORES
-                // Ocultamos la tarjeta fija de "SIN GOLES"
+                // Ocultamos la tarjeta de "SIN GOLES"
                 if (noGoalsCard) noGoalsCard.style.display = 'none';
 
                 data.goalscorers.forEach(player => {
-                    const card = document.createElement('div');
-                    card.className = 'card-container';
-                    // Construimos la tarjeta con los datos del JSON
-                    card.innerHTML = `
+                    const cardWrapper = document.createElement('div');
+                    cardWrapper.className = 'card-container';
+                    
+                    cardWrapper.innerHTML = `
                         <div class="card">
                             <div class="front">
                                 <img src="${player.photo}" alt="${player.name}" class="player-photo">
@@ -39,17 +38,22 @@ document.addEventListener('DOMContentLoaded', function () {
                             </div>
                         </div>
                     `;
-                    container.appendChild(card);
+                    container.appendChild(cardWrapper);
                 });
+
+                // Forzamos un pequeño retraso para que el CSS se aplique antes de mostrar
+                setTimeout(() => {
+                    container.style.transition = 'opacity 0.3s ease';
+                    container.style.opacity = '1';
+                }, 50);
+
             } else {
-                // CASO B: NO HAY DATOS
-                // Si el array está vacío, nos aseguramos de que se vea la tarjeta "SIN GOLES"
-                if (noGoalsCard) noGoalsCard.style.display = 'block'; 
+                if (noGoalsCard) noGoalsCard.style.display = 'block';
+                container.style.opacity = '1';
             }
         })
         .catch(error => {
-            console.error('Error cargando los datos:', error);
-            // Si hay error, mostramos la tarjeta por defecto por seguridad
-            if (noGoalsCard) noGoalsCard.style.display = 'block'; 
+            console.error('Error:', error);
+            if (noGoalsCard) noGoalsCard.style.display = 'block';
         });
 });
