@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                     <div class="stat"><span>Partidos:</span><span>${player.partidos || '--'}</span></div>
                                     <div class="stat"><span>Goles:</span><span>${player.goals}</span></div>
                                     <div class="stat"><span>Último Gol:</span><span>${player.minute}</span></div>
-                                    <div class="stat"><span>Minutos:</span><span>${player.minutosTotales || '--'}'</span></div>
                                 </div>
                                 <a href="${player.link}" target="_blank" class="link-button">Ver Ficha</a>
                             </div>
