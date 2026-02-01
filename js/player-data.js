@@ -3950,6 +3950,58 @@ const playersData = {
         }
     },
 
+        "emiliomorilla": {
+        name: "Emilio Morilla Losada",
+        footballName: "Emilio Morilla",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/FKBMVgn9/Emilio_Morilla_PNG.webp",
+        personalData: {
+            fullName: "Emilio Morilla Losada",
+            nickname: "Emilio Morilla",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "04/10/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Covadonga", category: "3ª Federación" },
+            { season: "2024/25", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación Fase Autonómica - 3ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "C.D. Covadonga", category: "2ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Club Marino de Luanco", category: "2ª Federación" },
+            { season: "2020/21", team: "Club Marino de Luanco", category: "2ª Div. B - Copa Federación Fase Autonómica - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Club Marino de Luanco", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Club Marino de Luanco", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
@@ -4711,7 +4763,8 @@ const playersData = {
         birthDate: "25/08/2003",
         deathDate: null // Poner null si el jugador está vivo
     },
-        career: [  
+        career: [ 
+            { season: "2025/26", team: "A.E.K. Larnaca", category: "Liga Chipre" },
             { season: "2025/26", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
