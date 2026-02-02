@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ESTILOS BASE (ESCRITORIO / PC) - Se mantienen tal cual los tenías
+   ESTILOS BASE (ESCRITORIO / PC)
    ========================================================================== */
 
 main .player-section .player-card {
@@ -11,7 +11,6 @@ main .player-section .player-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     color: white;
     overflow: hidden;
     background-color: transparent !important;
@@ -69,7 +68,6 @@ main .player-section .player-full-name-container {
     width: 100%;
     max-width: 800px;
     border-radius: 0 0 15px 15px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 main .player-section .player-full-name {
@@ -79,82 +77,70 @@ main .player-section .player-full-name {
     color: #e0e0e0;
 }
 
-main .player-section .player-card .player-card-logo-container {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 0.2; 
-    z-index: 0;
-}
-
-main .player-section .player-card .player-card-logo {
-    width: 150px;
-    height: auto;
-}
-
 /* ==========================================================================
-   VERSION MÓVIL (TABLETS Y TELÉFONOS) - AQUÍ ESTÁ EL CAMBIO AL ESCUDO
+   MODIFICACIÓN ESCUDO MÓVIL (FUERZA BRUTA)
    ========================================================================== */
 
 @media (max-width: 768px) {
-    /* Transformamos la ficha en un contenedor vertical para el escudo */
-    main .player-section .player-card {
+    /* Quitamos el fondo azul rectangular de la ficha */
+    html body main .player-section .player-card {
         flex-direction: column !important;
-        align-items: center !important;
-        background: none !important; /* Quitamos fondos rectangulares */
-        padding: 20px 10px !important;
+        background: transparent !important; 
+        background-color: transparent !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin-top: 10px !important;
     }
 
-    /* Convertimos el contenedor de la imagen en el ESCUDO */
-    main .player-section .player-card .player-card-image-container {
-        width: 280px; /* Ancho del escudo */
-        height: 320px; /* Alto del escudo */
-        margin-right: 0 !important;
-        margin-bottom: 15px !important;
-        background-color: rgba(255, 255, 255, 0.15) !important;
+    /* Contenedor convertido en ESCUDO */
+    html body main .player-section .player-card .player-card-image-container {
+        width: 280px !important;
+        height: 330px !important;
+        margin: 0 auto !important;
+        background-color: #004a99 !important; /* Fondo azul dentro del escudo */
+        display: flex !important;
+        justify-content: center !important;
+        align-items: flex-end !important;
         
-        /* FORMA DE ESCUDO (Clip-path de leo.html) */
-        clip-path: path('M265.3 53.9a33.3 33.3 0 0 1-17.8-5.5 32 32 0 0 1-13.7-22.9c-.2-1.1-.4-2.3-.4-3.4 0-1.3-1-1.5-1.8-1.9a163 163 0 0 0-31-10C171.2 3.4 141.5 0 132.5 0s-38.7 3.4-68.1 10.2a163 163 0 0 0-31 10c-.8.4-1.8.6-1.8 1.9 0 1.1-.2 2.3-.4 3.4a32 32 0 0 1-13.7 22.9 33.3 33.3 0 0 1-17.8 5.5c-1.2 0-2 .8-2.1 1.9v10.3c0 102.4 33 174.4 93.4 219.7a140.4 140.4 0 0 0 74 24.2 140.4 140.4 0 0 0 74-24.2c60.4-45.3 93.4-117.3 93.4-219.7V55.8c-.1-1.1-.9-1.9-2.1-1.9z');
-        
-        display: flex;
-        justify-content: center;
-        align-items: flex-end; /* Jugador apoyado en la base del escudo */
+        /* El recorte del escudo de Leo.html */
+        clip-path: path('M265.3 53.9a33.3 33.3 0 0 1-17.8-5.5 32 32 0 0 1-13.7-22.9c-.2-1.1-.4-2.3-.4-3.4 0-1.3-1-1.5-1.8-1.9a163 163 0 0 0-31-10C171.2 3.4 141.5 0 132.5 0s-38.7 3.4-68.1 10.2a163 163 0 0 0-31 10c-.8.4-1.8.6-1.8 1.9 0 1.1-.2 2.3-.4 3.4a32 32 0 0 1-13.7 22.9 33.3 33.3 0 0 1-17.8 5.5c-1.2 0-2 .8-2.1 1.9v10.3c0 102.4 33 174.4 93.4 219.7a140.4 140.4 0 0 0 74 24.2 140.4 140.4 0 0 0 74-24.2c60.4-45.3 93.4-117.3 93.4-219.7V55.8c-.1-1.1-.9-1.9-2.1-1.9z') !important;
+        -webkit-clip-path: path('M265.3 53.9a33.3 33.3 0 0 1-17.8-5.5 32 32 0 0 1-13.7-22.9c-.2-1.1-.4-2.3-.4-3.4 0-1.3-1-1.5-1.8-1.9a163 163 0 0 0-31-10C171.2 3.4 141.5 0 132.5 0s-38.7 3.4-68.1 10.2a163 163 0 0 0-31 10c-.8.4-1.8.6-1.8 1.9 0 1.1-.2 2.3-.4 3.4a32 32 0 0 1-13.7 22.9 33.3 33.3 0 0 1-17.8 5.5c-1.2 0-2 .8-2.1 1.9v10.3c0 102.4 33 174.4 93.4 219.7a140.4 140.4 0 0 0 74 24.2 140.4 140.4 0 0 0 74-24.2c60.4-45.3 93.4-117.3 93.4-219.7V55.8c-.1-1.1-.9-1.9-2.1-1.9z') !important;
     }
 
-    /* Ajuste de la foto del jugador dentro del escudo */
-    main .player-section .player-card .player-image {
+    /* Imagen del jugador ajustada al escudo */
+    html body main .player-section .player-card .player-image {
         width: 100% !important;
         height: 100% !important;
-        object-fit: contain !important; /* Para que no se corte la cabeza */
-        filter: drop-shadow(0 5px 10px rgba(0,0,0,0.8));
+        object-fit: contain !important;
+        filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5)) !important;
     }
 
-    /* Ajuste de textos en móvil debajo del escudo */
-    main .player-section .player-card .player-info {
+    /* Bloque de textos centralizado debajo del escudo */
+    html body main .player-section .player-card .player-info {
         align-items: center !important;
         text-align: center !important;
-        width: 100%;
+        margin-top: 15px !important;
     }
 
-    main .player-section .player-card .player-name {
-        font-size: 22px !important;
-        margin-top: 5px !important;
+    html body main .player-section .player-card .player-name {
+        font-size: 24px !important;
+        color: #fff !important;
     }
 
-    main .player-section .player-card .player-position {
-        font-size: 14px !important;
+    html body main .player-section .player-card .player-position {
+        color: #ffd700 !important;
+        font-size: 16px !important;
     }
 
-    /* Quitamos el logo de fondo en móvil para no ensuciar el diseño del escudo */
+    /* Banner inferior del nombre real */
+    html body main .player-section .player-full-name-container {
+        width: 90% !important;
+        margin: 5px auto 30px auto !important;
+        border-radius: 10px !important;
+    }
+
+    /* Escondemos elementos innecesarios en móvil */
     main .player-section .player-card .player-card-logo-container {
         display: none !important;
-    }
-
-    /* El nombre completo inferior lo hacemos tipo banner */
-    main .player-section .player-full-name-container {
-        max-width: 90%;
-        border-radius: 8px;
-        margin-bottom: 20px !important;
     }
 }
