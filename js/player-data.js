@@ -1029,7 +1029,7 @@ const playersData = {
             { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "R.C.D. Mallorca", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
-            { season: "2013/14", team: "R.C. Celta de Vigo Fortuna", category: "2ª Div. B" },
+            { season: "2013/14", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
             { season: "2013/14", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" }
         ],
         nationalTeam: [
@@ -6959,7 +6959,7 @@ const playersData = {
             { season: "2023/24", team: "A.D. Ceuta F.C.", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
             { season: "2022/23", team: "C.F. Intercity", category: "1ª Federación" },
             { season: "2022/23", team: "Córdoba C.F.", category: "1ª Federación - Copa del Rey" },
-            { season: "2021/22", team: "R.C. Celta de Vigo Fortuna", category: "1ª Federación" },
+            { season: "2021/22", team: "R.C. Celta de Vigo B", category: "1ª Federación" },
             { season: "2020/21", team: "Albacete Balompié", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Club At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
@@ -7201,7 +7201,7 @@ const playersData = {
             { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2013/14", team: "C.D. Ourense", category: "2ª Div. B - Copa Federación" },
             { season: "2012/13", team: "C.D. Ourense", category: "2ª Div. B - Copa del Rey" },
-            { season: "2011/12", team: "R.C. Celta de Vigo Fortuna", category: "2ª Div. B" },
+            { season: "2011/12", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
             { season: "2011/12", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2010/11", team: "S.D. Ponferradina", category: "2ª Div." },
             { season: "2009/10", team: "S.D. Ponferradina", category: "2ª Div. B" }
@@ -7836,6 +7836,118 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "yeboah": {
+        name: "Yaw Yeboah",
+        footballName: "Yeboah",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/K8mJkkfJ/Yeboah_PNG.webp",
+        personalData: {
+            fullName: "Yaw Yeboah",
+            nickname: "Yeboah",
+            birthPlace: "Accra, Gran Accra",
+            country: "Ghana",
+            nationality: "Ghanesa",
+            height: "1,75 m",
+            birthDate: "28/03/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Los Angeles F.C. 2", category: "MLS Next Pro" },
+            { season: "2024/25", team: "Los Angeles F.C.", category: "MLS Liga USA - Mundial de Clubes - CONCACAF Champs. Cup - Leagues Cup - Clasif. Mundial de Clubes" },
+            { season: "2023/24", team: "Columbus Crew S.C.", category: "MLS Liga USA - CONCACAF Champs. Cup - Campeones Cup - Leagues Cup" },
+            { season: "2022/23", team: "Columbus Crew 2 S.C.", category: "MLS Next Pro" },
+            { season: "2022/23", team: "Columbus Crew S.C.", category: "MLS Liga USA - US Open Cup - Leagues Cup" },
+            { season: "2021/22", team: "Columbus Crew S.C.", category: "MLS Liga USA - US Open Cup" },
+            { season: "2021/22", team: "Wisla Cracovia", category: "Liga Polaca - Copa Polonia" },
+            { season: "2020/21", team: "Wisla Cracovia", category: "Liga Polaca" },
+            { season: "2019/20", team: "R.C. Celta de Vigo Fortuna", category: "2ª Div. B" },
+            { season: "2018/19", team: "C.D. Numancia", category: "2ª Div." },
+            { season: "2017/18", team: "Manchester City F.C. Sub-23", category: "Premier League 2ª Div. One" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Manchester City F.C. Sub-23", category: "Premier League 2ª Div. Two" },
+            { season: "2016/17", team: "F.C. Twente Enschede", category: "Eredivisie - KNVB Beker" },
+            { season: "2015/16", team: "Manchester City F.C. Sub-21", category: "Premier League Sub-21" },
+            { season: "2015/16", team: "Lille Olympique S.C.", category: "Ligue 1 - Copa de La Liga - Copa de Francia" },
+            { season: "2015/16", team: "Lille Olympique B S.C.", category: "National 3" },
+            { season: "2014/15", team: "Manchester City F.C. Sub-21", category: "Premier League Sub-21" }
+        ],
+        nationalTeam: [
+            { season: "2022", team: "Ghana", category: "Clasif. Mundial África" },
+            { season: "2021", team: "Ghana", category: "Clasif. Mundial África" },
+            { season: "2019", team: "Ghana Sub-23", category: "Copa África Sub-23" },
+            { season: "2019", team: "Ghana", category: "Amistosos" },
+            { season: "2016", team: "Ghana", category: "Amistosos" },
+            { season: "2015", team: "Ghana Sub-20", category: "Mundial Sub-20 - Copa África Sub-20 - Amistosos" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 20, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "mariga": {
+        name: "McDonald Mariga Wanyama",
+        footballName: "Mariga",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/fLzXzmvh/Mariga_PNG.webp",
+        personalData: {
+            fullName: "McDonald Mariga Wanyama",
+            nickname: "Mariga",
+            birthPlace: "Nairobi, Nairobi",
+            country: "Kenia",
+            nationality: "Keniana",
+            height: "1,88 m",
+            birthDate: "04/04/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "U.S. Latina Calcio 1932", category: "Serie B - Coppa Italia" },
+            { season: "2015/16", team: "U.S. Latina Calcio 1932", category: "Serie B" },
+            { season: "2014/15", team: "Parma Calcio 1913", category: "Serie A - Coppa Italia" },
+            { season: "2013/14", team: "Inter de Milán Sub-19", category: "Campionato Primavera 1" },
+            { season: "2012/13", team: "Parma Calcio 1913", category: "Serie A" },
+            { season: "2012/13", team: "Inter de Milán", category: "Serie A - Coppa Italia" },
+            { season: "2012/13", team: "Inter de Milán Sub-19", category: "Campionato Primavera 1" },
+            { season: "2011/12", team: "Parma Calcio 1913", category: "Serie A" },
+            { season: "2011/12", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Inter de Milán", category: "Serie A - Champs. League - Mundial de Clubes - Supercopa de Italia - Coppa de Italia" },
+            { season: "2009/10", team: "Inter de Milán", category: "Serie A - Champs. League - Coppa Italia" },
+            { season: "2009/10", team: "Parma Calcio 1913", category: "Serie A - Coppa Italia" },
+            { season: "2008/09", team: "Parma Calcio 1913", category: "Serie B - Coppa Italia" },
+            { season: "2007/08", team: "Parma Calcio 1913", category: "Serie A" },
+            { season: "2007/08", team: "Helsingborgs I.F.", category: "Fase Previa Europa League" },
+            { season: "2006/07", team: "Helsingborgs I.F.", category: "Liga Sueca" },
+            { season: "2005/06", team: "Helsingborgs I.F.", category: "Liga Sueca" }
+        ],
+        nationalTeam: [
+            { season: "2018", team: "Kenia", category: "Amistosos" },
+            { season: "2014", team: "Kenia", category: "Clasif. Copa África - Amistosos" },
+            { season: "2011", team: "Kenia", category: "Clasif. Copa África" },
+            { season: "2010", team: "Kenia", category: "Clasif. Copa África" },
+            { season: "2009", team: "Kenia", category: "Clasif. Mundial África" },
+            { season: "2008", team: "Kenia", category: "Clasif. Mundial África" },
+            { season: "2005", team: "Kenia", category: "Clasif. Mundial África" },
+            { season: "2004", team: "Kenia", category: "Clasif. Mundial África" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
