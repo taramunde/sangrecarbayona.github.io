@@ -3693,7 +3693,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/Gm9bC2DS/Pucko_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
-        "name": "Pucko",
+        "name": "Pučko",
         "url": "fichajugador.html?player=pucko"
     },
     "jorgeortiz": {

@@ -7732,6 +7732,113 @@ const playersData = {
             }
         }
     },
+
+        "pucko": {
+        name: "Matej Pučko",
+        footballName: "Pučko",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Gm9bC2DS/Pucko_PNG.webp",
+        personalData: {
+            fullName: "Matej Pučko",
+            nickname: "Pučko",
+            birthPlace: "Murska Sobota, Pomurska",
+            country: "Eslovenia",
+            nationality: "Eslovena",
+            height: "1,75 m",
+            birthDate: "06/10/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "S.V.U. R.B. Tieschen", category: "Unterliga Süd" },
+            { season: "2024/25", team: "T.U.S. Heiligenkreuz", category: "4ª Austria" },
+            { season: "2023/24", team: "T.U.S. Heiligenkreuz", category: "4ª Austria" },
+            { season: "2021/22", team: "Bandirma Spor", category: "Liga Turca - Copa Turca" },
+            { season: "2020/21", team: "Tuzlaspor", category: "Liga Turca - Copa Turca" },
+            { season: "2019/20", team: "Korona Kielce", category: "Liga Polaca - Copa Polonia" },
+            { season: "2019/20", team: "Korona Kielce II", category: "4ª Polonia" },
+            { season: "2018/19", team: "Korona Kielce", category: "Liga Polaca - Copa Polonia" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "F.C. Koper", category: "Liga Eslovena SNL - Copa Eslovenia" },
+            { season: "2015/16", team: "C.A. Osasuna", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "F.C. Koper", category: "Liga Eslovena SNL - Fase Previa Europa League - Supercopa Eslovenia" },
+            { season: "2014/15", team: "F.C. Koper", category: "Liga Eslovena SNL - Fase Previa Europa League - Copa Eslovenia" },
+            { season: "2013/14", team: "F.C. Koper", category: "Liga Eslovena SNL" },
+            { season: "2012/13", team: "F.C. Koper", category: "Liga Eslovena SNL - Copa Eslovenia" },
+            { season: "2011/12", team: "F.C. Koper", category: "Liga Eslovena SNL - Copa Eslovenia" },
+            { season: "2010/11", team: "N.K. Aluminij", category: "2ª Eslovenia 2 SNL" }
+        ],
+        nationalTeam: [
+            { season: "2017", team: "Eslovenia", category: "Amistosos" },
+            { season: "2014", team: "Eslovenia Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2013", team: "Eslovenia Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2012", team: "Eslovenia Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2011", team: "Eslovenia Sub-20", category: "Amistosos" },
+            { season: "2011", team: "Eslovenia Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2009", team: "Eslovenia Sub-17", category: "Clasif. Europeo Sub-17" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "jorgeortiz": {
+        name: "Jorge Ortiz Mendoza",
+        footballName: "Jorge Ortiz",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Pr4gNjhs/Jorge_Ortiz_PNG.webp",
+        personalData: {
+            fullName: "Jorge Ortiz Mendoza",
+            nickname: "Jorge Ortiz",
+            birthPlace: "Villacañas, Toledo",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "25/04/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Mumbai City F.C.", category: "Supercopa India" },
+            { season: "2024/25", team: "Mumbai City F.C.", category: "India Super League - Supercopa India" },
+            { season: "2023/24", team: "Shenzhen Peng City F.C.", category: "Superliga China - Copa China FA" },
+            { season: "2022/23", team: "Shenzhen Peng City F.C.", category: "Liga Uno China" },
+            { season: "2021/22", team: "Shenzhen Peng City F.C.", category: "Liga Uno China - Copa China FA" },
+            { season: "2021/22", team: "F.C. Goa", category: "India Super League" },
+            { season: "2020/21", team: "F.C. Goa", category: "India Super League - AFC Champs. League Elite" },
+            { season: "2019/20", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2018/19", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "C.F. Fuenlabrada", category: "2ª Div. B" },
+            { season: "2014/15", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2014/15", team: "A.D. Alcorcón B", category: "3ª Div." },
+            { season: "2013/14", team: "C.F. Internacional de Madrid", category: "3ª Div." },
+            { season: "2011/12", team: "Albacete Balompié B", category: "3ª Div." }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
