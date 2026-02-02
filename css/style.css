@@ -303,3 +303,18 @@ footer {
     }
 }
 
+/* --- ELIMINADOR DE RECTÁNGULOS PARA EL ESCUDO --- */
+@media screen and (max-width: 768px) {
+    /* Forzamos a que .player-card sea invisible y se comporte como contenedor */
+    .player-card, 
+    main .player-section .player-card {
+        background: none !important;
+        background-color: transparent !important;
+        background-image: none !important;
+        box-shadow: none !important;
+        border: none !important;
+        flex-direction: column !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+}
