@@ -382,9 +382,9 @@ const playersData = {
             { season: "2017/18", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Albacete Balompié", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2015/16", team: "R.C.D. Mallorca", category: "2ª Div." },
-            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
-            { season: "2014/15", team: "Club Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
-            { season: "2013/14", team: "Club Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey" },
             { season: "2012/13", team: "Getafe C.F. B", category: "2ª Div. B" },
             { season: "2011/12", team: "Getafe C.F.", category: "1ª Div." },
             { season: "2011/12", team: "Getafe C.F. B", category: "2ª Div. B" },
@@ -2652,10 +2652,10 @@ const playersData = {
             { season: "2007/08", team: "U.D. Las Palmas", category: "2ª Div." },
             { season: "2007/08", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
             { season: "2006/07", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
-            { season: "2006/07", team: "Rayo Cantabria", category: "2ª Div. B" },
-            { season: "2005/06", team: "Rayo Cantabria", category: "2ª Div. B" },
-            { season: "2003/04", team: "Rayo Cantabria", category: "2ª Div. B" },
-            { season: "2002/03", team: "Rayo Cantabria", category: "2ª Div. B" }
+            { season: "2006/07", team: "Real Racing Club de Santander B", category: "2ª Div. B" },
+            { season: "2005/06", team: "Real Racing Club de Santander B", category: "2ª Div. B" },
+            { season: "2003/04", team: "Real Racing Club de Santander B", category: "2ª Div. B" },
+            { season: "2002/03", team: "Real Racing Club de Santander B", category: "2ª Div. B" }
         ],
         stats: {
             "2021/22": {
@@ -2810,9 +2810,9 @@ const playersData = {
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
-            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
-            { season: "2014/15", team: "Club Gimnàstic de Tarragona", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Gimnàstic de Tarragona", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2013/14", team: "At. Levante U.D.", category: "2ª Div. B" },
             { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2011/12", team: "Valencia Mestalla", category: "2ª Div. B" },
@@ -5195,11 +5195,11 @@ const playersData = {
             { season: "2015/16", team: "Betis Deportivo Balompié", category: "2ª Div. B" },
             { season: "2014/15", team: "Betis Deportivo Balompié", category: "2ª Div. B" },
             { season: "2013/14", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
-            { season: "2012/13", team: "Rayo Cantabria", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Racing Club de Santander B", category: "2ª Div. B" },
             { season: "2012/13", team: "Real Racing Club de Santander", category: "2ª Div." },
             { season: "2011/12", team: "Real Racing Club de Santander", category: "1ª Div." },
-            { season: "2011/12", team: "Rayo Cantabria", category: "3ª Div. - Copa Federación" },
-            { season: "2010/11", team: "Rayo Cantabria", category: "3ª Div. Prom. de Ascenso" }
+            { season: "2011/12", team: "Real Racing Club de Santander B", category: "3ª Div. - Copa Federación" },
+            { season: "2010/11", team: "Real Racing Club de Santander B", category: "3ª Div. Prom. de Ascenso" }
 
             
          ],
@@ -5479,7 +5479,7 @@ const playersData = {
             { season: "2019/20", team: "Real Valladolid C.F.", category: "Copa del Rey" },
             { season: "2018/19", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Club Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2016/17", team: "Gimnàstic de Tarragona", category: "2ª Div." },
             { season: "2016/17", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Sevilla F.C.", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa Europa" },
             { season: "2014/15", team: "Sevilla At.", category: "2ª Div. B" },
@@ -6387,7 +6387,7 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "Club Gimnàstic de Tarragona", category: "1ª Federación" },
+            { season: "2025/26", team: "Gimnàstic de Tarragona", category: "1ª Federación" },
             { season: "2024/25", team: "C.D. Arenteiro", category: "1ª Federación - Copa Federación Fase Autonómica" },
             { season: "2023/24", team: "S.D. Ponferradina", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
@@ -6845,7 +6845,7 @@ const playersData = {
             { season: "2018/19", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Sevilla At.", category: "2ª Div." },
             { season: "2016/17", team: "Sevilla At.", category: "2ª Div." },
-            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Gimnàstic de Tarragona", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
             { season: "2015/16", team: "Anorthosis Famagusta F.C.", category: "Liga Chipre" },
             { season: "2014/15", team: "Anorthosis Famagusta F.C.", category: "Liga Chipre - Copa Chipre" },
             { season: "2013/14", team: "F.C. Locomotive Tbilisi", category: "2ª Georgia" },
@@ -7012,9 +7012,9 @@ const playersData = {
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2017/18", team: "Club Gimnàstic de Tarragona", category: "2ª Div." },
-            { season: "2016/17", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
-            { season: "2015/16", team: "Club Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2016/17", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2014/15", team: "Deportivo Alavés", category: "2ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Deportivo Alavés", category: "2ª Div." },
             { season: "2013/14", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
@@ -7408,7 +7408,7 @@ const playersData = {
             { season: "2020/21", team: "Extremadura U.D.", category: "2ª Div. B - Copa del Rey" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
             { season: "2019/20", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" },
-            { season: "2018/19", team: "Club Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2018/19", team: "Gimnàstic de Tarragona", category: "2ª Div." },
             { season: "2017/18", team: "C.A. Osasuna", category: "2ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Girona F.C.", category: "2ª Div. - Copa de Catalunya - Copa del Rey" },
             { season: "2015/16", team: "Girona F.C.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
@@ -7866,7 +7866,7 @@ const playersData = {
             { season: "2021/22", team: "Columbus Crew S.C.", category: "MLS Liga USA - US Open Cup" },
             { season: "2021/22", team: "Wisla Cracovia", category: "Liga Polaca - Copa Polonia" },
             { season: "2020/21", team: "Wisla Cracovia", category: "Liga Polaca" },
-            { season: "2019/20", team: "R.C. Celta de Vigo Fortuna", category: "2ª Div. B" },
+            { season: "2019/20", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
             { season: "2018/19", team: "C.D. Numancia", category: "2ª Div." },
             { season: "2017/18", team: "Manchester City F.C. Sub-23", category: "Premier League 2ª Div. One" },
             { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
@@ -7948,6 +7948,202 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "hidi": {
+        name: "Patrik Hidi",
+        footballName: "Hidi",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/tg2QfGSN/Hidi_PNG.webp",
+        personalData: {
+            fullName: "Patrik Hidi",
+            nickname: "Hidi",
+            birthPlace: "Győr, Győr-Moson-Sopron",
+            country: "Hungría",
+            nationality: "Húngara",
+            height: "1,86 m",
+            birthDate: "27/11/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Karcagi S.E.", category: "2ª Hungría" },
+            { season: "2024/25", team: "Budapest V.S.C.", category: "2ª Hungría - Copa Hungría" },
+            { season: "2023/24", team: "Budapest V.S.C.", category: "2ª Hungría - Copa Hungría" },
+            { season: "2022/23", team: "Vasas Budapest S.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2021/22", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2020/21", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría - Fase Previa Europa League" },
+            { season: "2019/20", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2018/19", team: "FK Irtysh Pavlodar", category: "Liga Kazajistán - Copa Kazajistán" },
+            { season: "2018/19", team: "Budapest Honvéd F.C.", category: "Liga Hungría" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2015/16", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2014/15", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría - Copa de la Liga Hungría" },
+            { season: "2013/14", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría - Fase Previa Europa League" },
+            { season: "2012/13", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría - Copa de la Liga Hungría - Fase Previa Europa League" },
+            { season: "2011/12", team: "Budapest Honvéd F.C. II", category: "2ª Hungría" },
+            { season: "2011/12", team: "Budapest Honvéd F.C.", category: "Liga Hungría" },
+            { season: "2010/11", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría" },
+            { season: "2010/11", team: "Budapest Honvéd F.C. II", category: "2ª Hungría" },
+            { season: "2009/10", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría - Fase Previa Europa League" },
+            { season: "2008/09", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Supercopa Hungría" }
+        ],
+        nationalTeam: [
+            { season: "2011", team: "Hungría Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2010", team: "Hungría Sub-21", category: "Amistosos" },
+            { season: "2009", team: "Hungría Sub-19", category: "Clasif. Europeo Sub-19" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 14, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "davidrocha": {
+        name: "David Mateos Rocha",
+        footballName: "David Rocha",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/m2b3Zx8H/David_Rocha_PNG.webp",
+        personalData: {
+            fullName: "David Mateos Rocha",
+            nickname: "David Rocha",
+            birthPlace: "Cáceres, Cáceres",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "07/02/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "A.D. Mérida", category: "2ª Federación - Copa Federación" },
+            { season: "2020/21", team: "A.D. Mérida", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Extremadura U.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "U.D. Almería", category: "2ª Div." },
+            { season: "2018/19", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Houston Dynamo F.C.", category: "MLS Liga USA - US Open Cup" },
+            { season: "2015/16", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Albacete Balompié", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Albacete Balompié", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "C.P. Cacereño", category: "2ª Div. B" },
+            { season: "2009/10", team: "C.P. Cacereño", category: "2ª Div. B" },
+            { season: "2008/09", team: "C.P. Cacereño", category: "3ª Div." },
+            { season: "2007/08", team: "F.C. Cartagena", category: "2ª Div. B" },
+            { season: "2007/08", team: "Villarreal C.F.", category: "Copa del Rey" },
+            { season: "2007/08", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2006/07", team: "Villarreal C.F. B", category: "3ª Div." },
+            { season: "2005/06", team: "Villarreal C.F. B", category: "3ª Div." },
+            { season: "2004/05", team: "C.P. Cacereño", category: "3ª Div." },
+            { season: "2003/04", team: "C.P. Cacereño", category: "2ª Div. B - Copa del Rey" },
+            { season: "2002/03", team: "C.P. Cacereño", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 33, goles_marcados: 3, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 30, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "asier": {
+        name: "Asier Gomes Álvarez",
+        footballName: "Asier",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/nrVxrcX5/Asier-PNG.webp",
+        personalData: {
+            fullName: "Asier Gomes Álvarez",
+            nickname: "Asier",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "01/01/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Kannur Warriors F.C.", category: "Super League Kerala - Super League Kerala Promoción" },
+            { season: "2024/25", team: "Saham Club", category: "1ª Omán" },
+            { season: "2023/24", team: "C.D. Covadonga", category: "2ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "C.D. Covadonga", category: "2ª Div. B - Copa Federación Fase Autonómica" },
+            { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Real Racing Club de Santander B", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2014", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "ander": {
+        name: "Ander Mediavilla García",
+        footballName: "Ander",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/VNbkP6tW/Ander-PNG.webp",
+        personalData: {
+            fullName: "Ander Mediavilla García",
+            nickname: "Ander",
+            birthPlace: "Bilbao, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "22/03/1996",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "C.D. Llanes", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Palencia C.F.", category: "3ª Federación" },
+            { season: "2020/21", team: "Palencia C.F.", category: "Preferente Castilla y León" },
+            { season: "2019/20", team: "C.D. Llanes", category: "3ª Div. - Copa Federación" },
+            { season: "2018/19", team: "C.D. Llanes", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. Basconia", category: "3ª Div." },
+            { season: "2014/15", team: "Athletic Club Sub-19", category: "UEFA Youth League" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
