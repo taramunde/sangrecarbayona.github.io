@@ -4564,7 +4564,8 @@ const playersData = {
         birthDate: "23/06/1998",
         deathDate: null // Poner null si el jugador está vivo
     },
-        career: [  
+        career: [ 
+            { season: "2025/26", team: "Hertha Berlín S.C.", category: "2ª Alemania" },
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Kasımpaşa S.K.", category: "Liga Turca" },
             { season: "2024/25", team: "A.C.F. Fiorentina", category: "Serie A - Fase Previa Conference League" },
@@ -8144,6 +8145,139 @@ const playersData = {
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "ernesto2017": {
+        name: "Ernesto Gómez Muñoz",
+        footballName: "Ernesto",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Wzzz3qdD/Ernesto_2017_PNG.webp",
+        personalData: {
+            fullName: "Ernesto Gómez Muñoz",
+            nickname: "Ernesto",
+            birthPlace: "Albolote, Granada",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "18/07/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Persatuan Sepak Bola Indonesia Kediri", category: "1ª Indonesia" },
+            { season: "2025/26", team: "U.D. Ibiza", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "S.D. Ponferradina", category: "1ª Federación - Copa del Rey - 1ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "S.D. Ponferradina", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "A.D. Alcorcón", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2020/21", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Arroyo C.P.", category: "3ª Div." },
+            { season: "2014/15", team: "Club At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "San Fernando C.D.", category: "2ª Div. B - Copa del Rey" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "juan2017": {
+        name: "Juan López Pérez",
+        footballName: "Juan",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/gcK4Lr2y/Juan_2017_PNG.webp",
+        personalData: {
+            fullName: "Juan López Pérez",
+            nickname: "Juan",
+            birthPlace: "Pola de Siero, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "01/08/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2024/25", team: "U.P. de Langreo", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Real Avilés Industrial C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación" },
+            { season: "2020/21", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Club Marino de Luanco", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "U.D. Somozas", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2016/17", team: "S.D. Negreira", category: "3ª Div." },
+            { season: "2015/16", team: "R.C. Deportivo de La Coruña B", category: "3ª Div." },
+            { season: "2014/15", team: "R.C. Deportivo de La Coruña B", category: "3ª Div." }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "guille": {
+        name: "Guillermo Sánchez Pinín",
+        footballName: "Guille",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/J0yLZYQc/Guille_PNG.webp",
+        personalData: {
+            fullName: "Guillermo Sánchez Pinín",
+            nickname: "Guille",
+            birthPlace: "Mieres, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "08/03/1998",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Coruxo F.C.", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2024/25", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2022/23", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "Club Marino de Luanco", category: "2ª Div. B 2ª Fase 1ª Div. RFEF - Copa Federación Fase Autonómica" },
+            { season: "2019/20", team: "Caudal Deportivo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2018/19", team: "C.D. Mosconia", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. Mosconia", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
         }
     },
