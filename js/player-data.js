@@ -10144,6 +10144,132 @@ const playersData = {
         }
     },
 
+        "linares": {
+        name: "Miguel Linares Cólera",
+        footballName: "Linares",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Z5smwyf5/Linares_PNG.webp",
+        personalData: {
+            fullName: "Miguel Linares Cólera",
+            nickname: "Linares",
+            birthPlace: "Fuentes de Ebro, Zaragoza",
+            country: "España",
+            nationality: "Española",
+            height: "1,81 m",
+            birthDate: "30/09/1982",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "S.D. Ejea", category: "Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2019/20", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Real Zaragoza", category: "2ª Div." },
+            { season: "2018/19", team: "C.F. Reus Deportiu", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2011/12", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "U.D. Salamanca", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "C.D. Alcoyano", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "U.D. Barbastro", category: "2ª Div. B - Copa del Rey" },
+            { season: "2005/06", team: "S.D. Huesca", category: "2ª Div. B" },
+            { season: "2004/05", team: "Real Zaragoza B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 36, goles_marcados: 10, tarjetas_amarillas: 9, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 4, goles_marcados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2016/17": {
+                liga: { partidos: 35, goles_marcados: 8, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 24, goles_marcados: 6, tarjetas_amarillas: 6, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 39, goles_marcados: 30, tarjetas_amarillas: 6, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "fabbrini": {
+        name: "Diego Fabbrini",
+        footballName: "Fabbrini",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/zBmjN0d2/Fabbrini_PNG.webp",
+        personalData: {
+            fullName: "Diego Fabbrini",
+            nickname: "Fabbrini",
+            birthPlace: "San Giuliano Terme, Toscana",
+            country: "Italia",
+            nationality: "Italiana",
+            height: "1,81 m",
+            birthDate: "31/07/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "U.S. Sambenedettese", category: "Serie D - Coppa Italia Serie D" },
+            { season: "2023/24", team: "U.S. Sambenedettese", category: "Serie D" },
+            { season: "2022/23", team: "A.S. Lucchese Libertas 1905 F.C.", category: "Serie C" },
+            { season: "2021/22", team: "U.S. Alessandria Calcio 1912", category: "Serie B" },
+            { season: "2021/22", team: "Ascoli Calcio 1898 F.C.", category: "Serie B - Coppa Italia" },
+            { season: "2020/21", team: "F.C. Dinamo de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2019/20", team: "F.C. Dinamo de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2019/20", team: "C.S.K.A. Sofía", category: "Liga Bulgaria - Fase Previa Europa League" },
+            { season: "2018/19", team: "F.C. Botoșani", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Spezia Calcio", category: "Serie B - Serie B Prom. de Ascenso" },
+            { season: "2016/17", team: "Birmingham City F.C.", category: "Championship - FA Cup - EFL Cup" },
+            { season: "2015/16", team: "Birmingham City F.C.", category: "Championship" },
+            { season: "2015/16", team: "Middlesbrough F.C.", category: "Championship - FA Cup - EFL Cup" },
+            { season: "2014/15", team: "Birmingham City F.C.", category: "Championship" },
+            { season: "2014/15", team: "Millwall F.C.", category: "Championship" },
+            { season: "2014/15", team: "Watford F.C.", category: "Championship - EFL Cup" },
+            { season: "2013/14", team: "Siena F.C.", category: "Serie B" },
+            { season: "2013/14", team: "Watford F.C.", category: "Championship - FA Cup - EFL Cup" },
+            { season: "2012/13", team: "Palermo F.C.", category: "Serie A" },
+            { season: "2012/13", team: "Udinese Calcio", category: "Serie A - Europa League - Coppa Italia - Fase Previa Champs. League" },
+            { season: "2011/12", team: "Udinese Calcio", category: "Serie A - Europa League - Coppa Italia - Fase Previa Champs. League" },
+            { season: "2010/11", team: "Empoli F.C.", category: "Serie B - Coppa Italia" },
+            { season: "2009/10", team: "Empoli F.C. Sub-19", category: "Campionato Primavera 1" },
+            { season: "2009/10", team: "Empoli F.C.", category: "Serie B - Coppa Italia" },
+            { season: "2008/09", team: "Empoli F.C. Sub-19", category: "Campionato Primavera 1" },
+            { season: "2007/08", team: "Empoli F.C. Sub-19", category: "Campionato Primavera 1" }
+        ],
+        nationalTeam: [
+            { season: "2012", team: "Italia", category: "Amistosos" },
+            { season: "2011", team: "Italia Sub-20", category: "Torneo Maurice Revello" },
+            { season: "2011", team: "Italia Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2010", team: "Italia Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 17, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
