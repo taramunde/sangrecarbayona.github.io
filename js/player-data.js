@@ -6561,7 +6561,7 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "Qarabağ F.K.", category: "Champs. League - Liga Azerbaiyán - Copa Azerbaiyán" },
+            { season: "2025/26", team: "Qarabağ F.K.", category: "Liga Azerbaiyán - Champs. League - Copa Azerbaiyán" },
             { season: "2024/25", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
             { season: "2023/24", team: "Burgos C.F.", category: "2ª Div." },
             { season: "2023/24", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
@@ -10263,6 +10263,105 @@ const playersData = {
         stats: {
             "2017/18": {
                 liga: { partidos: 17, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "olmesgarcia": {
+        name: "Olmes Fernando García Flórez",
+        footballName: "Olmes García",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/rmmtvWTZ/Olmes_García_PNG.webp",
+        personalData: {
+            fullName: "Olmes Fernando García Flórez",
+            nickname: "Olmes García",
+            birthPlace: "Barranquilla, Barranquilla",
+            country: "Colombia",
+            nationality: "Colombiana",
+            height: "1,83 m",
+            birthDate: "21/10/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Deportivo Nueva Concepción", category: "Liga Guatemalteca" },
+            { season: "2024/25", team: "C.D. Coopsol", category: "2ª Perú" },
+            { season: "2023/24", team: "C.D. Royal Pari", category: "1ª Div. Bolivia Apert." },
+            { season: "2023/24", team: "Namdhari F.C.", category: "Liga India" },
+            { season: "2022/23", team: "Gualaceo S.C.", category: "Liga Ecuador" },
+            { season: "2021/22", team: "PK-35 Vantaa", category: "2ª Finlandia - Copa Finlandia" },
+            { season: "2020/21", team: "Corporación Deportes Quindío", category: "Claus. Colombia - Apert. 1ª B Colombia - Apert. 1ª B Colombia Prom." },
+            { season: "2019/20", team: "Corporación Deportes Quindío", category: "Apert. 1ª B Colombia - Apert. 1ª B Colombia Prom. - Copa Colombia" },
+            { season: "2018/19", team: "Corporación Deportes Quindío", category: "Claus. 1ª B Colombia - Claus. 1ª B Colombia Prom." },
+            { season: "2018/19", team: "Jaguares F.C.", category: "Apert. Colombia" },
+            { season: "2017/18", team: "Jaguares F.C.", category: "Claus. Colombia - Copa Colombia" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "C.D. América de Cali", category: "Claus. Colombia - Copa Colombia - Claus. Colombia Prom." },
+            { season: "2015/16", team: "Real Monarchs S.L.C.", category: "USL Championship USA" },
+            { season: "2015/16", team: "Real Salt Lake City", category: "MLS Liga USA - US Open Cup - CONCACAF Champs. Cup" },
+            { season: "2014/15", team: "Real Salt Lake City", category: "MLS Liga USA - US Open Cup" },
+            { season: "2013/14", team: "Real Salt Lake City Reservas", category: "USL Championship USA" },
+            { season: "2013/14", team: "Real Salt Lake City", category: "MLS Liga USA" },
+            { season: "2012/13", team: "Real Salt Lake City", category: "MLS Liga USA - US Open Cup" },
+            { season: "2011/12", team: "Corporación Deportes Quindío", category: "Apert. Colombia - Claus. Colombia - Copa Colombia" },
+            { season: "2010/11", team: "Corporación Deportes Quindío", category: "Apert. Colombia - Claus. Colombia - Copa Colombia" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "owusu": {
+        name: "Owusu Kwabena",
+        footballName: "Owusu",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/02mZWgcM/Owusu_PNG.webp",
+        personalData: {
+            fullName: "Owusu Kwabena",
+            nickname: "Owusu",
+            birthPlace: "Accra, Gran Accra",
+            country: "Ghana",
+            nationality: "Ghanesa",
+            height: "1,82 m",
+            birthDate: "18/06/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Maccabi Bnei Reineh", category: "Liga Israel" },
+            { season: "2024/25", team: "M.K.E. Ankaragücü", category: "Liga Turca - Copa Turca" },
+            { season: "2024/25", team: "Ferencváros Torna Club", category: "Liga Hungría - Fase Previa Champs. League" },
+            { season: "2023/24", team: "Ferencváros Torna Club", category: "Liga Hungría - Copa Hungría - Fase Previa Champs. League - Fase Previa Conference League - Conference League" },
+            { season: "2022/23", team: "Ferencváros Torna Club", category: "Liga Hungría" },
+            { season: "2022/23", team: "Qarabağ F.K.", category: "Liga Azerbaiyán - Europa League - Fase Previa Champs. League - Copa Azerbaiyán" },
+            { season: "2021/22", team: "Bibiani Gold Stars F.C.", category: "Liga Ghana" },
+            { season: "2021/22", team: "M.K.E. Ankaragücü", category: "Liga Turca - Copa Turca" },
+            { season: "2020/21", team: "Qarabağ F.K.", category: "Liga Azerbaiyán - Europa League - Fase Previa Champs. League - Fase Previa Europa League - Copa Azerbaiyán" },
+            { season: "2019/20", team: "Qarabağ F.K.", category: "Liga Azerbaiyán" },
+            { season: "2019/20", team: "Córdoba C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Salamanca C.F. U.D.S.", category: "2ª Div. B" },
+            { season: "2017/18", team: "F.C. Cartagena", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "C.D. Toledo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "C.D. Toledo B", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2019", team: "Ghana", category: "Copa África - Clasif. Copa África - Amistosos" },
+            { season: "2019", team: "Ghana Sub-23", category: "Copa África Sub-23" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 8, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
