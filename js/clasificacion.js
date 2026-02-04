@@ -282,7 +282,7 @@ const enfrentamientos = [
   // Jornada 22
   { equipo1: "Athletic Club", equipo2: "Real Sociedad", goles1: 1, goles2: 1 },
   { equipo1: "Real Betis", equipo2: "Valencia C.F.", goles1: 2, goles2: 1 },
-  { equipo1: "R.C.D. Mallorca", equipo2: "Sevilla F.C.", goles1: null, goles2: null },
+  { equipo1: "R.C.D. Mallorca", equipo2: "Sevilla F.C.", goles1: 4, goles2: 1 },
   { equipo1: "C.A. Osasuna", equipo2: "Villarreal C.F.", goles1: 2, goles2: 2 },
   { equipo1: "R.C.D. Espanyol", equipo2: "Deportivo Alavés", goles1: 1, goles2: 2 },
   { equipo1: "Levante U.D.", equipo2: "Atlético de Madrid", goles1: 0, goles2: 0 },
