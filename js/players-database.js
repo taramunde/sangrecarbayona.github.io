@@ -1419,13 +1419,6 @@ const playersDatabase = {
         "name": "Sergio Sánchez",
         "url": "fichajugador.html?player=sergiosanchez"
     },
-    "jonathanvila": {
-        "src": "https://i.postimg.cc/cJ2yZBWv/Jonathan_Vila_PNG.webp",
-        "alt": "Defensa",
-        "number": "-",
-        "name": "Jonathan Vila",
-        "url": "fichajugador.html?player=jonathanvila"
-    },
     "redondo": {
         "src": "https://i.postimg.cc/fTVBxQQ0/Redondo_PNG.webp",
         "alt": "Defensa",
