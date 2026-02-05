@@ -839,6 +839,105 @@ const playersData = {
         }
     },
 
+        "esteban": {
+        name: "Esteban Andrés Suárez",
+        footballName: "Esteban",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/fT22S725/Esteban-PNG.webp",
+        personalData: {
+            fullName: "Esteban Andrés Suárez",
+            nickname: "Esteban",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "27/06/1975",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "U.D. Almería", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2011/12", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2005/06", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "Sevilla F.C.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2003/04", team: "Sevilla F.C.", category: "1ª Div. - Copa del Rey" },
+            { season: "2002/03", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2001/02", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2001/02", team: "Real Oviedo", category: "1ª Div." },
+            { season: "1999/00", team: "Real Oviedo", category: "1ª Div." },
+            { season: "1998/99", team: "Real Oviedo", category: "1ª Div." },
+            { season: "1997/98", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1997/98", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "1996/97", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "1995/96", team: "Real Avilés Industrial C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "1994/95", team: "Real Avilés Industrial C.F.", category: "2ª Div. B - Copa del Rey" }
+        ],
+        nationalTeam: [
+            { season: "2000", team: "España", category: "Clasif. Mundial Europa" },
+            { season: "1998", team: "España Sub-21", category: "Amistosos" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 30, goles_encajados: 38, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 41, goles_encajados: 32, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2001/02": {
+                liga: { partidos: 41, goles_encajados: 38, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2000/01": {
+                liga: { partidos: 38, goles_encajados: 67, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1999/00": {
+                liga: { partidos: 38, goles_encajados: 60, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1998/99": {
+                liga: { partidos: 37, goles_encajados: 55, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1997/98": {
+                liga: { partidos: 28, goles_encajados: 34, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
