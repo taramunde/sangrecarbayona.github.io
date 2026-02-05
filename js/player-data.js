@@ -8664,6 +8664,137 @@ const playersData = {
             }
         }
     },
+
+        "jonathanvila": {
+        name: "Jonathan Vila Pereira",
+        footballName: "Jonathan Vila",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/cJ2yZBWv/Jonathan_Vila_PNG.webp",
+        personalData: {
+            fullName: "Jonathan Vila Pereira",
+            nickname: "Jonathan Vila",
+            birthPlace: "Porriño, Pontevedra",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "06/03/1986",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "Coruxo F.C.", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "Coruxo F.C.", category: "2ª Div. B - Copa Federación" },
+            { season: "2018/19", team: "F.C. Pune City", category: "India Super League" },
+            { season: "2017/18", team: "R.C. Recreativo de Huelva", category: "2ª Div. B" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Beitar Jerusalem F.C.", category: "Liga Israel - Copa Israel" },
+            { season: "2013/14", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2006/07", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2005/06", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2004/05", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2003/04", team: "R.C. Celta de Vigo B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 25, goles_marcados: 1, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 33, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "jonerice": {
+        name: "Jon Erice Domínguez",
+        footballName: "Jon Erice",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/0yt1XqHd/Jon_Erice_PNG.webp",
+        personalData: {
+            fullName: "Jon Erice Domínguez",
+            nickname: "Jon Erice",
+            birthPlace: "Pamplona, Navarra",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "03/11/1986",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "U.D. Mutilvera", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "U.D. Mutilvera", category: "2ª Federación" },
+            { season: "2020/21", team: "Hércules de Alicante C.F.", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2018/19", team: "Vancouver Whitecaps F.C.", category: "MLS Liga USA - Campeonato Canadiense" },
+            { season: "2018/19", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2017/18", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "C.D. Guadalajara", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "A.O. Kerkyraikos", category: "Super League Griega - Copa Griega" },
+            { season: "2011/12", team: "Apollon Limassol F.C.", category: "Liga Chipre" },
+            { season: "2010/11", team: "Apollon Limassol F.C.", category: "Liga Chipre" },
+            { season: "2009/10", team: "Cádiz C.F.", category: "2ª Div." },
+            { season: "2008/09", team: "Cádiz C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Málaga C.F.", category: "2ª Div." },
+            { season: "2007/08", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "C.A. Osasuna", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2006/07", team: "C.A. Osasuna B", category: "2ª Div. B" },
+            { season: "2005/06", team: "C.A. Osasuna B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 36, goles_marcados: 1, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 38, goles_marcados: 1, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 37, goles_marcados: 1, tarjetas_amarillas: 15, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 21, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
