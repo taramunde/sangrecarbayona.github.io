@@ -4101,6 +4101,77 @@ const playersData = {
         }
     },
 
+        "davidfernandez": {
+        name: "David Fernández Cortázar",
+        footballName: "David Fdez.",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/rsx2m0jq/David_Fernández_PNG.webp",
+        personalData: {
+            fullName: "David Fernández Cortázar",
+            nickname: "David Fernández",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "06/04/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "U.D. Logroñés", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2020/21", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "A.D. Alcorcón", category: "2ª Div." },
+            { season: "2018/19", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "C.D. Guadalajara", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "C.D. Guadalajara", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "C.D. Guadalajara", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "C.D. Linares", category: "2ª Div. B" },
+            { season: "2007/08", team: "Club At. de Madrid", category: "1ª Div." },
+            { season: "2007/08", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2006/07", team: "Club At. de Madrid B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 38, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 38, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 38, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 32, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 36, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
