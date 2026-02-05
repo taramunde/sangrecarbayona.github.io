@@ -4225,6 +4225,166 @@ const playersData = {
         }
     },
 
+        "pena": {
+        name: "Carlos González Peña",
+        footballName: "Peña",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/YSYPQKgx/Peña_PNG.webp",
+        personalData: {
+            fullName: "Carlos González Peña",
+            nickname: "Peña",
+            birthPlace: "Salamanca, Salamanca",
+            country: "España",
+            nationality: "Española",
+            height: "1,81 m",
+            birthDate: "28/07/1983",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "Deportivo La Guaira F.C.", category: "Apert. Venezuela" },
+            { season: "2019/20", team: "F.C. Goa", category: "India Super League" },
+            { season: "2018/19", team: "F.C. Goa", category: "India Super League - Supercopa India" },
+            { season: "2017/18", team: "Lorca F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Getafe C.F.", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "F.C. Barcelona B", category: "2ª Div. B" },
+            { season: "2005/06", team: "F.C. Barcelona", category: "Copa del Rey" },
+            { season: "2004/05", team: "F.C. Barcelona", category: "1ª Div. - Champs. League" },
+            { season: "2004/05", team: "F.C. Barcelona B", category: "2ª Div. B" },
+            { season: "2003/04", team: "F.C. Barcelona B", category: "2ª Div. B" },
+            { season: "2002/03", team: "F.C. Barcelona B", category: "2ª Div. B" },
+            { season: "2002/03", team: "F.C. Barcelona", category: "1ª Div." },
+            { season: "2001/02", team: "F.C. Barcelona B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2005", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2004", team: "España Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2003", team: "España Sub-20", category: "Mundial Sub-20 - Amistosos" },
+            { season: "2002", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19" },
+            { season: "2001", team: "España Sub-19", category: "Clasif. Europeo Sub-19" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 37, goles_marcados: 0, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "oscargil": {
+        name: "Óscar Gil Osés",
+        footballName: "Óscar Gil",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/X726vbcG/Óscar_Gil_PNG.webp",
+        personalData: {
+            fullName: "Óscar Gil Osés",
+            nickname: "Óscar Gil",
+            birthPlace: "Peralta, Navarra",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "14/06/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Murcia C.F.", category: "1ª Federación" },
+            { season: "2025/26", team: "C.D. Castellón", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "C.D. Castellón", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "C.D. Castellón", category: "1ª Federación - Copa del Rey - 1ª Federación Final de Campeones" },
+            { season: "2022/23", team: "C.D. Castellón", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "S.D. Amorebieta", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Real Racing Club de Santander", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "C.D. Atlético Baleares", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2019/20", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Racing Club de Santander", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Athletic Club", category: "Copa del Rey" },
+            { season: "2017/18", team: "Bilbao Athletic", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Bilbao Athletic", category: "2ª Div." },
+            { season: "2014/15", team: "Bilbao Athletic", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Bilbao Athletic", category: "2ª Div. B" },
+            { season: "2012/13", team: "Athletic Club Sub-19", category: "UEFA Youth League" }
+        ],
+        nationalTeam: [
+            { season: "2014", team: "España Sub-19", category: "Amistosos" },
+            { season: "2013", team: "España Sub-19", category: "Torneo COTIF Sub-20 - Amistosos" },
+            { season: "2013", team: "España Sub-18", category: "Amistosos" },
+            { season: "2012", team: "España Sub-17", category: "Amistosos" },
+            { season: "2011", team: "España Sub-17", category: "Clasif. Europeo Sub-17" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 14, goles_marcados: 0, tarjetas_amarillas: 5, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "ikerberruezo": {
+        name: "Iker Berruezo Lizarbe",
+        footballName: "Iker Berruezo",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/D02PWRdm/Iker_Berruezo_PNG.webp",
+        personalData: {
+            fullName: "Iker Berruezo Lizarbe",
+            nickname: "Iker Berruezo",
+            birthPlace: "Pamplona, Navarra",
+            country: "España",
+            nationality: "Española",
+            height: "1,92 m",
+            birthDate: "29/11/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.D. Izarra", category: "2ª Federación" },
+            { season: "2021/22", team: "Bergantiños F.C.", category: "2ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Yugo Socuéllamos", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "C.A. Osasuna B", category: "2ª Div. B" },
+            { season: "2018/19", team: "C.A. Osasuna B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "F.C. Š.T.K. 1914 Šamorín", category: "2ª Eslovaquia" },
+            { season: "2017/18", team: "F.K. Utenis Utena", category: "Liga Lituania" },
+            { season: "2016/17", team: "F.K. Utenis Utena", category: "Liga Lituania" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "C.A. Osasuna B", category: "3ª Div." },
+            { season: "2014/15", team: "C.A. Osasuna B", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
