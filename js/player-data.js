@@ -10369,6 +10369,47 @@ const playersData = {
         }
     },
 
+        "carloscano": {
+        name: "Carlos Cano Martín",
+        footballName: "Carlos Cano",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/G2S5vkzk/Carlos_Cano_PNG.webp",
+        personalData: {
+            fullName: "Carlos Cano Martín",
+            nickname: "Carlos Cano",
+            birthPlace: "Mataró, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "21/02/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "U.E. Vilassar de Mar", category: "3ª Federación" },
+            { season: "2021/22", team: "Cerdanyola del Vallès F.C.", category: "2ª Federación" },
+            { season: "2021/22", team: "C.E. L'Hospitalet", category: "3ª Federación" },
+            { season: "2020/21", team: "U.E. Vilassar de Mar", category: "Prom. a 2ª Federación" },
+            { season: "2019/20", team: "U.E. Vilassar de Mar", category: "3ª Div." },
+            { season: "2018/19", team: "A.D. Alcorcón B", category: "3ª Div." },
+            { season: "2018/19", team: "Deportivo Alavés B", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2016/17", team: "U.E. Llagostera B", category: "1ª Catalana" },
+            { season: "2016/17", team: "U.E. Llagostera", category: "2ª Div. B - Copa del Rey" }
+        ],
+        stats: {
+            "2017/18": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
