@@ -4172,6 +4172,59 @@ const playersData = {
         }
     },
 
+        "fernandez": {
+        name: "José Manuel Fernández Reyes",
+        footballName: "Fernández",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Vks2yHxf/Fernández_PNG.webp",
+        personalData: {
+            fullName: "José Manuel Fernández Reyes",
+            nickname: "Fernández",
+            birthPlace: "Córdoba, Córdoba",
+            country: "España",
+            nationality: "Española",
+            height: "1,68 m",
+            birthDate: "18/11/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "C.D. Betis Florida", category: "2ª FFCV" },
+            { season: "2022/23", team: "C.D. Betis Florida", category: "2ª FFCV" },
+            { season: "2021/22", team: "Hércules de Alicante C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "A.E.K. Larnaca", category: "Liga Chipre" },
+            { season: "2020/21", team: "A.E.K. Larnaca", category: "Liga Chipre - Copa Chipre" },
+            { season: "2019/20", team: "A.E.K. Larnaca", category: "Liga Chipre - Copa Chipre" },
+            { season: "2019/20", team: "Córdoba C.F.", category: "2ª Div. B" },
+            { season: "2018/19", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Córdoba C.F.", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Zaragoza", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Zaragoza", category: "2ª Div." },
+            { season: "2012/13", team: "Real Zaragoza", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Córdoba C.F. B", category: "3ª Div." }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 28, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
