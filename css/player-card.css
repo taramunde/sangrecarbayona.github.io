@@ -242,3 +242,14 @@ main .player-section .player-full-name {
         padding-bottom: 5px;
     }
 }
+
+@media (max-width: 768px) {
+    .mobile-shield-wrapper {
+        display: flex !important; /* Forzar visibilidad */
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    .mobile-shield-card {
+        background-color: #003366 !important; /* Si ves un escudo azul sin foto, el problema es la imagen */
+    }
+}
