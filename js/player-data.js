@@ -11621,4 +11621,28 @@ const playersData = {
     
 };
 
+// --- FUNCIÓN PARA RELLENAR DISEÑO MÓVIL AUTOMÁTICAMENTE ---
+document.addEventListener("DOMContentLoaded", function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const playerId = urlParams.get('player');
 
+    if (playerId && playersData[playerId]) {
+        const data = playersData[playerId];
+
+        // Rellenar Cinta Superior
+        const ribbonTop = document.querySelector('.ribbon-top');
+        if (ribbonTop) ribbonTop.textContent = data.footballName || data.name;
+
+        // Rellenar Cinta Inferior
+        const ribbonBottom = document.querySelector('.ribbon-bottom');
+        if (ribbonBottom) ribbonBottom.textContent = data.personalData.fullName;
+
+        // Rellenar Imagen del Escudo
+        const mobileImage = document.querySelector('.mobile-player-image');
+        if (mobileImage) mobileImage.src = data.image;
+
+        // Rellenar Posición
+        const mobilePosition = document.querySelector('.mobile-position-text');
+        if (mobilePosition) mobilePosition.textContent = data.position;
+    }
+});
