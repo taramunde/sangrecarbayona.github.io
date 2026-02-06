@@ -1,21 +1,33 @@
 const fs = require('fs');
 const path = require('path');
+
+// 1. CARGAMOS LOS DATOS
 const jugadores = require('./datos_para_generar.js');
 
+// 2. CONFIGURACIÓN
+const baseURL = "https://taramunde.github.io/sangrecarbayona.github.io"; 
 const carpetaSalida = './'; 
 const rutaPlantilla = './fichajugador.html';
+
+// 3. LEER PLANTILLA
+if (!fs.existsSync(rutaPlantilla)) {
+    console.error("❌ Error: No se encuentra el archivo fichajugador.html");
+    process.exit(1);
+}
 let plantillaBase = fs.readFileSync(rutaPlantilla, 'utf8');
 
 console.log("🚀 Iniciando generación de fichas...");
 
+// 4. GENERAR FICHAS
 for (let id in jugadores) {
     let jugador = jugadores[id];
     let nombre = jugador.name; 
     let foto = jugador.src; 
     let posicion = jugador.alt || "Jugador";
     let nombreCorto = nombre.split(' ')[0];
+    let nombreArchivo = id + ".html";
 
-    // Construcción del bloque Híbrido (PC + MÓVIL)
+    // CONSTRUCCIÓN DEL BLOQUE HTML
     let bloqueHtml = `
     <div class="player-card">
         <div class="player-card-image-container">
@@ -54,18 +66,25 @@ for (let id in jugadores) {
         </defs>
     </svg>`;
 
-    // REEMPLAZO CORREGIDO (Nota la barra invertida en <\/section>)
-    let htmlFinal = plantillaBase.replace(
-        /<section class="player-section">[\s\S]*?<\/section>/, 
-        `<section class="player-section">${bloqueHtml}</section>`
-    );
+    // --- REEMPLAZO POR PARTES ---
+    const marcadorInicio = '<section class="player-section">';
+    const marcadorFin = '</section>';
+    
+    let htmlFinal = plantillaBase;
+    let partes = htmlFinal.split(marcadorInicio);
+    
+    if (partes.length > 1) {
+        let resto = partes[1].split(marcadorFin);
+        if (resto.length > 1) {
+            htmlFinal = partes[0] + marcadorInicio + bloqueHtml + marcadorFin + resto[1];
+        }
+    }
 
-    // Actualizar título de la página
-    let seoTitle = nombre + " - Real Oviedo | Sangre Carbayona";
-    htmlFinal = htmlFinal.replace(/<title>.*?<\/title>/, `<title>${seoTitle}</title>`);
+    // Actualizar SEO y Redirección
+    htmlFinal = htmlFinal.replace(/<title>.*?<\/title>/, `<title>${nombre} - Real Oviedo</title>`);
+    htmlFinal = htmlFinal.replace('</body>', 
+        `<script>if(!window.location.search.includes('player=')){window.history.replaceState(null,'',window.location.href.split('?')[0]+'?player=${id}');}</script></body>`);
 
-    fs.writeFileSync(path.join(carpetaSalida, id + ".html"), htmlFinal);
-    console.log("✅ Ficha generada: " + id + ".html");
+    fs.writeFileSync(path.join(carpetaSalida, nombreArchivo), htmlFinal);
+    console.log("✅ Generado: " + nombreArchivo);
 }
-
-console.log("✨ Proceso terminado.");
