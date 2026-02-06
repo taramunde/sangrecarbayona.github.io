@@ -11621,28 +11621,29 @@ const playersData = {
     
 };
 
-// --- FUNCIÓN PARA RELLENAR DISEÑO MÓVIL AUTOMÁTICAMENTE ---
 document.addEventListener("DOMContentLoaded", function() {
     const urlParams = new URLSearchParams(window.location.search);
     const playerId = urlParams.get('player');
 
-    if (playerId && playersData[playerId]) {
+    if (playerId && typeof playersData !== 'undefined' && playersData[playerId]) {
         const data = playersData[playerId];
 
-        // Rellenar Cinta Superior
-        const ribbonTop = document.querySelector('.ribbon-top');
-        if (ribbonTop) ribbonTop.textContent = data.footballName || data.name;
+        // --- RELLENAR PC ---
+        if (document.querySelector('.player-name')) 
+            document.querySelector('.player-name').textContent = data.footballName || data.name.split(' ')[0];
+        if (document.querySelector('.player-full-name')) 
+            document.querySelector('.player-full-name').textContent = data.personalData.fullName;
+        if (document.querySelector('.player-image')) 
+            document.querySelector('.player-image').src = data.image;
 
-        // Rellenar Cinta Inferior
-        const ribbonBottom = document.querySelector('.ribbon-bottom');
-        if (ribbonBottom) ribbonBottom.textContent = data.personalData.fullName;
-
-        // Rellenar Imagen del Escudo
-        const mobileImage = document.querySelector('.mobile-player-image');
-        if (mobileImage) mobileImage.src = data.image;
-
-        // Rellenar Posición
-        const mobilePosition = document.querySelector('.mobile-position-text');
-        if (mobilePosition) mobilePosition.textContent = data.position;
+        // --- RELLENAR MÓVIL (Escudo y Cintas) ---
+        if (document.querySelector('.ribbon-top')) 
+            document.querySelector('.ribbon-top').textContent = data.footballName || data.name.split(' ')[0];
+        if (document.querySelector('.ribbon-bottom')) 
+            document.querySelector('.ribbon-bottom').textContent = data.personalData.fullName;
+        if (document.querySelector('.mobile-player-image')) 
+            document.querySelector('.mobile-player-image').src = data.image;
+        if (document.querySelector('.mobile-position-text')) 
+            document.querySelector('.mobile-position-text').textContent = data.position;
     }
 });

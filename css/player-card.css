@@ -2,17 +2,16 @@
    1. ESTILOS BASE (DISEÑO PC - RECTANGULAR)
    ========================================================================== */
 
-/* Estilos base para la ficha del jugador (desktop) */
 main .player-section .player-card {
     background: linear-gradient(to right, #001f3f, #007bff);
-    border-radius: 15px 15px 0 0; /* Redondeado solo arriba */
+    border-radius: 15px 15px 0 0;
     padding: 10px 20px;
     max-width: 800px;
-    margin: 20px auto 0 auto; /* Forzar margin-bottom a 0 */
+    margin: 20px auto 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducir sombra inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: white;
     overflow: hidden;
     background-color: transparent !important;
@@ -20,70 +19,64 @@ main .player-section .player-card {
     position: relative;
 }
 
-/* Contenedor de la imagen del jugador */
 main .player-section .player-card .player-card-image-container {
-    position: relative; /* Para posicionar el número absolutamente */
-    margin-right: 15px; /* Espacio a la derecha de la imagen */
-    flex-shrink: 0; /* Evita que se encoja */
-    background: transparent !important; /* Forzar transparencia */
-    border: none !important; /* Sin borde */
+    position: relative;
+    margin-right: 15px;
+    flex-shrink: 0;
+    background: transparent !important;
+    border: none !important;
 }
 
-/* Imagen del jugador */
 main .player-section .player-card .player-image {
-    width: 180px; /* Tamaño base */
-    height: 280px; /* ALTURA FIJA para alinear */
-    object-fit: contain; /* Ajuste perfecto sin recortes */
-    object-position: bottom; /* Alinear abajo */
+    width: 180px;
+    height: 280px;
+    object-fit: contain;
+    object-position: bottom;
     display: block;
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2)); /* Brillo suave */
-    transition: transform 0.3s ease; /* Efecto hover suave */
-    background: transparent !important; /* Fondo transparente */
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+    transition: transform 0.3s ease;
+    background: transparent !important;
 }
 
-/* Efecto hover en la imagen */
 main .player-section .player-card .player-image:hover {
-    transform: scale(1.05); /* Pequeño zoom al pasar el ratón */
+    transform: scale(1.05);
 }
 
-/* Información del jugador (Nombre y Posición) */
 main .player-section .player-card .player-info {
-    flex-grow: 1; /* Ocupa el espacio restante */
-    text-align: left; /* Alinear texto a la izquierda */
-    z-index: 1; /* Asegurar que esté sobre el fondo */
-    padding-left: 20px; /* Espacio extra a la izquierda del texto */
+    flex-grow: 1;
+    text-align: left;
+    z-index: 1;
+    padding-left: 20px;
 }
 
-/* Posición (Portero, Defensa...) */
 main .player-section .player-card .player-position {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ffd700; /* Dorado para destacar */
+    color: #ffd700;
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* Nombre del jugador */
 main .player-section .player-card .player-name {
-    font-size: 3rem; /* Nombre GRANDE */
+    font-size: 3rem;
     margin: 0;
-    font-weight: 800; /* Muy negrita */
+    font-weight: 800;
     line-height: 1;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(#fff, #e0e0e0); /* Degradado en texto */
+    background: -webkit-linear-gradient(#fff, #e0e0e0);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.3));
 }
 
-/* Contenedor del Crespón Negro */
 .black-ribbon-container {
     position: absolute;
     top: 10px;
-    right: 150px; /* Ajustado para no solapar el logo */
+    right: 150px;
     width: 40px;
     z-index: 10;
     opacity: 0.9;
@@ -95,34 +88,32 @@ main .player-section .player-card .player-name {
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
 }
 
-/* Logo del club en la ficha */
 main .player-section .player-card .player-card-logo-container {
     position: absolute;
-    right: -20px; /* Desplazado a la derecha */
+    right: -20px;
     top: 50%;
     transform: translateY(-50%);
-    opacity: 0.15; /* Marca de agua sutil */
+    opacity: 0.15;
     z-index: 0;
     pointer-events: none;
 }
 
 main .player-section .player-card .player-card-logo {
-    height: 350px; /* Logo grande de fondo */
+    height: 350px;
     width: auto;
 }
 
-/* --- BARRA DEL NOMBRE COMPLETO (Debajo de la ficha) --- */
 main .player-section .player-full-name-container {
     background-color: #1a1a1a;
     padding: 10px 0;
     text-align: center;
-    border-radius: 0 0 15px 15px; /* Redondeado solo abajo */
-    margin: 0 auto 20px auto; /* Margin-top 0 para pegarse a la tarjeta */
-    max-width: 800px; /* Mismo ancho que la tarjeta */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra conjunta */
+    border-radius: 0 0 15px 15px;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    z-index: 2; /* Por encima de la sombra de la tarjeta */
-    border-top: 1px solid rgba(255,255,255,0.1); /* Separador sutil */
+    z-index: 2;
+    border-top: 1px solid rgba(255,255,255,0.1);
 }
 
 main .player-section .player-full-name {
@@ -132,122 +123,89 @@ main .player-section .player-full-name {
     font-weight: 300;
 }
 
-
 /* ==========================================================================
-   2. PREPARACIÓN MÓVIL (Elementos ocultos en PC)
+   2. CONFIGURACIÓN MÓVIL (OCULTO POR DEFECTO EN PC)
    ========================================================================== */
 
-/* Por defecto, el contenedor del escudo móvil está oculto */
-.mobile-shield-wrapper {
-    display: none;
+.mobile-shield-wrapper, 
+.clip-svg { 
+    display: none; 
 }
-
-/* SVG necesario para el recorte (clip-path), siempre oculto visualmente */
-.clip-svg {
-    position: absolute;
-    width: 0;
-    height: 0;
-}
-
 
 /* ==========================================================================
    3. MEDIA QUERY: TRANSFORMACIÓN PARA MÓVILES (Max 768px)
    ========================================================================== */
 
 @media (max-width: 768px) {
-
-    /* --- A) OCULTAR DISEÑO DE PC --- */
-    main .player-section .player-card {
-        display: none !important;
-    }
     
+    /* A) Ocultamos los elementos de la versión PC */
+    main .player-section .player-card,
     main .player-section .player-full-name-container {
         display: none !important;
     }
 
-    /* --- B) MOSTRAR DISEÑO DE MÓVIL (ESCUDO) --- */
+    /* B) Mostramos y configuramos la versión Escudo */
     .mobile-shield-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-family: "Roboto Condensed", sans-serif; /* Asegúrate de tener esta fuente o la default */
+        margin: 20px 0;
+        font-family: "Roboto Condensed", sans-serif;
     }
 
-    /* Contenedor de las Cintas (Ribbons) */
     .ribbon-container {
         display: flex;
         justify-content: center;
-        width: 100%;
-        margin: 10px 0;
         filter: drop-shadow(2px 4px 6px black);
         z-index: 10;
+        width: 100%;
     }
 
-    /* Estilo Base de la Cinta */
     .ribbon {
         font-size: 20px;
         font-weight: bold;
         color: #fff;
-        --r: .8em;  /* Radio del corte */
-        --a: 60deg; /* Ángulo */
-        
-        padding-inline: 1em calc(var(--r) + .2em);
-        line-height: 1.8;
-        clip-path: polygon(
-            0 0, 100% 0, 
-            calc(100% - var(--r)) 50%, 
-            100% 100%, 0 100%, 
-            var(--r) 50%
-        );
-        background: #0000; /* Fondo transparente para usar el gradiente del borde */
-        border-image: linear-gradient(90deg, #003366 0%, #0056b3 50%, #003366 100%) fill 1;
-        width: fit-content;
-        min-width: 200px;
+        padding: 5px 30px;
+        min-width: 220px;
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 1px;
+        /* Forma de cinta */
+        clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+        background: linear-gradient(90deg, #003366, #0056b3, #003366);
+        line-height: 1.8;
     }
 
-    /* Cinta Superior (Nombre de Fútbol) */
-    .ribbon-top {
-        margin-bottom: -25px; /* Superposición sobre el escudo */
-        z-index: 20;
+    .ribbon-top { 
+        margin-bottom: -15px; 
         position: relative;
-    }
-
-    /* Cinta Inferior (Nombre Completo) */
-    .ribbon-bottom {
-        margin-top: -30px; /* Superposición sobre el escudo */
         z-index: 20;
-        position: relative;
-        font-size: 14px; /* Un poco más pequeño */
-        border-image: linear-gradient(90deg, #1a1a1a 0%, #333 50%, #1a1a1a 100%) fill 1;
-        padding-top: 5px; /* Ajuste visual */
     }
 
-    /* El Contenedor del Escudo (La forma recortada) */
+    .ribbon-bottom { 
+        margin-top: -25px; 
+        font-size: 14px; 
+        background: linear-gradient(90deg, #1a1a1a, #333, #1a1a1a);
+        position: relative;
+        z-index: 20;
+    }
+
     .mobile-shield-card {
         width: 265px;
         height: 310px;
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end; /* Alinear imagen abajo */
-        
-        /* MAGIA: Recorte con el SVG */
+        background: linear-gradient(135deg, #e0e0e0, #fff, #b0b0b0);
+        /* Recorte del Escudo mediante el ID del SVG */
         clip-path: url(#svgPath); 
         -webkit-clip-path: url(#svgPath);
-
-        background: linear-gradient(135deg, #e0e0e0 0%, #ffffff 50%, #b0b0b0 100%);
-        box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
         z-index: 5;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
         overflow: hidden;
     }
 
-    /* Fondo decorativo dentro del escudo */
     .mobile-shield-bg {
         position: absolute;
         top: 0;
@@ -257,37 +215,30 @@ main .player-section .player-full-name {
         background-image: url('https://i.postimg.cc/0yNgbYTg/Real_Oviedo_Fondo.webp');
         background-size: cover;
         background-position: center;
-        opacity: 0.3;
+        opacity: 0.2;
         z-index: 1;
     }
 
-    /* Imagen del Jugador (Móvil) */
     .mobile-player-image {
-        position: relative;
-        height: 90%; /* Ajustar tamaño dentro del escudo */
+        height: 90%;
         width: auto;
         z-index: 2;
         filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5));
         object-fit: contain;
     }
 
-    /* Texto de la Posición dentro del escudo */
     .mobile-position-text {
         position: absolute;
-        bottom: 25px; /* Encima de la punta inferior */
+        bottom: 25px;
         color: white;
-        font-family: "Impact", sans-serif; /* O una fuente gruesa similar */
-        font-size: 24px;
+        font-weight: bold;
+        font-size: 22px;
         text-transform: uppercase;
-        letter-spacing: 2px;
-        z-index: 10;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+        text-shadow: 2px 2px 4px #000;
+        z-index: 3;
         width: 100%;
         text-align: center;
-        
-        /* Fondo degradado para que se lea mejor */
-        background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
-        padding-bottom: 10px;
-        padding-top: 20px;
+        background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+        padding-bottom: 5px;
     }
 }
