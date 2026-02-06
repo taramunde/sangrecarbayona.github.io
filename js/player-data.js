@@ -2595,10 +2595,10 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2023/24", team: "F.C. Lausanne Sport", category: "Liga Suiza - Copa Suiza" },
-            { season: "2022/23", team: "F.C. Lausanne Sport", category: "2ª Suiza" },
-            { season: "2022/23", team: "F.C. Lausanne Sport II", category: "5ª Suiza" },
-            { season: "2021/22", team: "F.C. Lausanne Sport", category: "Liga Suiza - Copa Suiza" },
+            { season: "2023/24", team: "F.C. Lausanne-Sport", category: "Liga Suiza - Copa Suiza" },
+            { season: "2022/23", team: "F.C. Lausanne-Sport", category: "2ª Suiza" },
+            { season: "2022/23", team: "F.C. Lausanne-Sport II", category: "5ª Suiza" },
+            { season: "2021/22", team: "F.C. Lausanne-Sport", category: "Liga Suiza - Copa Suiza" },
             { season: "2021/22", team: "Real Oviedo", category: "2ª Div." },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div." },
@@ -5684,7 +5684,7 @@ const playersData = {
             { season: "2017/18", team: "Real Madrid C.F.", category: "Copa del Rey" },
             { season: "2017/18", team: "Real Madrid Castilla", category: "2ª Div. B" },
             { season: "2016/17", team: "Real Madrid Castilla", category: "2ª Div. B" },
-            { season: "2016/17", team: "Real Madrid Sub-19", category: "UEFA Youth League" },
+            { season: "2016/17", team: "Real Madrid C.F. Sub-19", category: "UEFA Youth League" },
             { season: "2015/16", team: "Real Madrid C.F. Sub-19", category: "División de Honor - UEFA Youth League" },
             { season: "2014/15", team: "Real Madrid C.F. C", category: "3ª Div." }
 
@@ -6668,7 +6668,7 @@ const playersData = {
         },
         career: [
             { season: "2025/26", team: "F.C. Basilea", category: "Liga Suiza - Europa League - Copa Suiza - Fase Previa Champs. League" },
-            { season: "2024/25", team: "F.C. Lausanne Sport", category: "Liga Suiza - Copa Suiza" },
+            { season: "2024/25", team: "F.C. Lausanne-Sport", category: "Liga Suiza - Copa Suiza" },
             { season: "2023/24", team: "Sporting Clube de Portugal", category: "Liga Portugal Betclic - Europa League - Taça de Portugal" },
             { season: "2023/24", team: "G.D. Estoril Praia", category: "Liga Portugal Betclic - Taça de Portugal - Copa de la Liga Portugal" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
@@ -8789,6 +8789,171 @@ const playersData = {
             },
             "2013/14": {
                 liga: { partidos: 21, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "susaeta": {
+        name: "Néstor Susaeta Jaurrieta",
+        footballName: "Susaeta",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/wvjVWSZJ/Susaeta_PNG.webp",
+        personalData: {
+            fullName: "Néstor Susaeta Jaurrieta",
+            nickname: "Susaeta",
+            birthPlace: "Éibar, Guipúzcoa",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "11/12/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.F. Rayo Majadahonda", category: "1ª Federación - Copa del Rey - 1ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "C.F. Rayo Majadahonda", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Albacete Balompié", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "C.D. Guadalajara", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "F.C. Lausanne-Sport", category: "Liga Suiza" },
+            { season: "2011/12", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "A.D. Alcorcón", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "Bilbao Athletic", category: "2ª Div. B" },
+            { season: "2006/07", team: "U.D. Salamanca", category: "2ª Div." },
+            { season: "2005/06", team: "S.D. Eibar", category: "2ª Div." },
+            { season: "2005/06", team: "Real Sociedad de Fútbol", category: "1ª Div." },
+            { season: "2005/06", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2004/05", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2003/04", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 39, goles_marcados: 1, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 39, goles_marcados: 9, tarjetas_amarillas: 8, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 2, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 37, goles_marcados: 8, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 34, goles_marcados: 8, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "hectornespral": {
+        name: "Héctor Fernández Fernández-Nespral",
+        footballName: "Héctor Nespral",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/bYM8p8z6/Héctor_Nespral_PNG.webp",
+        personalData: {
+            fullName: "Héctor Fernández Fernández-Nespral",
+            nickname: "Héctor Nespral",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "08/02/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Unionistas de Salamanca C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Unionistas de Salamanca C.F.", category: "1ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Unionistas de Salamanca C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Unionistas de Salamanca C.F.", category: "2ª Div. B - 2ª Div. B 2ª Fase de Ascenso - Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2019/20", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2017/18", team: "U.P. de Langreo", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2015/16": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "lucastorro": {
+        name: "Lucas Torró Marset",
+        footballName: "Lucas Torró",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Dw4PHrxj/Lucas_Torró_PNG.webp",
+        personalData: {
+            fullName: "Lucas Torró Marset",
+            nickname: "Lucas Torró",
+            birthPlace: "Cocentaina, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "19/07/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey - Supercopa de España - Fase Previa Conference League" },
+            { season: "2022/23", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "C.A. Osasuna", category: "1ª Div." },
+            { season: "2020/21", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Eintracht Frankfurt", category: "Bundesliga - DFB Pokal - Fase Previa Europa League" },
+            { season: "2018/19", team: "Eintracht Frankfurt", category: "Bundesliga - Europa League - DFB Pokal - Supercopa Franz Beckenbauer" },
+            { season: "2017/18", team: "C.A. Osasuna", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Madrid Castilla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Madrid C.F.", category: "Champs. League" },
+            { season: "2014/15", team: "Real Madrid Castilla", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Madrid Castilla", category: "2ª Div." },
+            { season: "2012/13", team: "Real Madrid C.F. Sub-19", category: "División de Honor" },
+            { season: "2011/12", team: "C.D. Alcoyano", category: "2ª Div. - Copa del Rey" }
+        ],
+        nationalTeam: [
+            { season: "2013", team: "España Sub-19", category: "Europeo Sub-19" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 39, goles_marcados: 1, tarjetas_amarillas: 9, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
