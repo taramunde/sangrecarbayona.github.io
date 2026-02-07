@@ -20,17 +20,7 @@
   },
   
   "goalscorers": [
-    {
-      "name": "Nombre Jugador",
-      "number": "10",
-      "photo": "URL_FOTO",
-      "nation": "URL_BANDERA",
-      "goals": 1,
-      "minute": "45'",
-      "partidos": "18",
-      "temp": "2025/26",
-      "link": "URL_FICHA"
-    }
+    
     
   ],
 
