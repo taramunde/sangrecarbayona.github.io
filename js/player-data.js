@@ -9123,6 +9123,55 @@ const playersData = {
             }
         }
     },
+
+        "carlitos": {
+        name: "Carlos María de Pena Bonino",
+        footballName: "Carlitos",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/cCtmQft8/Carlos_De_Pena_PNG.webp",
+        personalData: {
+            fullName: "Carlos María de Pena Bonino",
+            nickname: "Carlitos",
+            birthPlace: "Montevideo, Montevideo",
+            country: "Uruguay",
+            nationality: "Uruguaya, Italiana",
+            height: "1,77 m",
+            birthDate: "11/03/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Sport Club do Recife", category: "Pernambuco 1" },
+            { season: "2024/25", team: "Coritiba F.C.", category: "Serie B Brasil" },
+            { season: "2023/24", team: "Esporte Clube Bahia", category: "Serie A Betano - Copa Brasil" },
+            { season: "2023/24", team: "S.C. Internacional", category: "Gaucho 1" },
+            { season: "2022/23", team: "S.C. Internacional", category: "Serie A Betano - Copa Libertadores - Gaucho 1 - Copa Brasil" },
+            { season: "2021/22", team: "S.C. Internacional", category: "Serie A Betano - Conmebol Sudamericano" },
+            { season: "2021/22", team: "F. C. Dinamo de Kiev", category: "Liga Ucrania - Champs. League - Supercopa Ucrania" },
+            { season: "2020/21", team: "F. C. Dinamo de Kiev", category: "Liga Ucrania - Europa League - Champs. League - Copa Ucrania - Fase Previa Champs. League - Supercopa Ucrania" },
+            { season: "2019/20", team: "F. C. Dinamo de Kiev", category: "Liga Ucrania - Europa League - Copa Ucrania - Fase Previa Champs. League - Supercopa Ucrania" },
+            { season: "2018/19", team: "F. C. Dinamo de Kiev", category: "Liga Ucrania" },
+            { season: "2017/18", team: "Club Nacional de Footbal", category: "Apert. Uruguay - Claus. Uruguay - Copa Libertadores - Conmebol Sudamericana - Supercopa Uruguay - Fase Previa Copa Libertadores - Torneo Intermedio Uruguay" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Middlesbrough F.C. Sub-21", category: "EFL Trophy" },
+            { season: "2016/17", team: "Middlesbrough F.C. Sub-23", category: "Premiel League 2ª Div. Two" },
+            { season: "2015/16", team: "Middlesbrough F.C.", category: "Championship - FA Cup - EFL Cup" },
+            { season: "2015/16", team: "Club Nacional de Footbal", category: "Apert. Uruguay" },
+            { season: "2014/15", team: "Club Nacional de Footbal", category: "Apert. Uruguay - Claus. Uruguay - Conmebol Sudamericana - Uruguay Final de Campeones - Fase Previa Copa de Libertadores" },
+            { season: "2013/14", team: "Club Nacional de Footbal", category: "Apert. Uruguay - Claus. Uruguay - Copa Libertadores - Fase Previa Copa Libertadores" },
+            { season: "2012/13", team: "Club Nacional de Footbal", category: "Claus. Uruguay - Copa Libertadores" },
+            { season: "2010/11", team: "Club Nacional de Footbal Sub-20", category: "Copa Libertadores Sub-20" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 7, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
