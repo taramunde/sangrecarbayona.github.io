@@ -9172,6 +9172,90 @@ const playersData = {
             }
         }
     },
+
+        "borja2016": {
+        name: "Borja Domínguez Domínguez",
+        footballName: "Borja",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/qqFFrky2/Borja_PNG.webp",
+        personalData: {
+            fullName: "Borja Domínguez Domínguez",
+            nickname: "Borja",
+            birthPlace: "Vigo, Pontevedra",
+            country: "España",
+            nationality: "Española",
+            height: "1,87 m",
+            birthDate: "30/05/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Coruxo F.C.", category: "2ª Federación" },
+            { season: "2023/24", team: "Pontevedra C.F.", category: "2ª Federación - Copa Federación Fase Autonómica - 2ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "Pontevedra C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "Real Racing Club de Santander", category: "1ª Federación - Copa Federación - 1ª Federación Final de Campeones" },
+            { season: "2020/21", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2019/20", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Pontevedra C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2018/19", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Racing Club de Ferrol", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2013/14", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2012/13", team: "R.C. Celta de Vigo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2011/12", team: "C.D. Ourense", category: "3ª Div." },
+            { season: "201/11", team: "R.C. Celta de Vigo B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 10, goles_marcados: 2, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "lula": {
+        name: "Luis Fernández-Trapa Fernández-Velasco",
+        footballName: "Lula",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/rmj1xQpm/Lula_PNG.webp",
+        personalData: {
+            fullName: "Luis Fernández-Trapa Fernández-Velasco",
+            nickname: "Lula",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "null",
+            birthDate: "25/05/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Avilés Industrial C.F. B", category: "2ª Asturfútbol" },
+            { season: "2024/25", team: "Club Hispano de Castrillón", category: "2ª Asturfútbol" },
+            { season: "2023/24", team: "La Fresneda C.F.", category: "1ª Asturfútbol" },
+            { season: "2017/18", team: "U.D. Llanera", category: "3ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2013/14", team: "S.D. Llano 2000", category: "División de Honor" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
