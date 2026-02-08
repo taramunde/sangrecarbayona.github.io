@@ -202,3 +202,125 @@ main .player-section .player-full-name {
         height: auto !important;
     }
 }
+
+/* ==========================================================================
+NUEVA ESTILO PARA TABLET Y MÓVIL: Simil Leo.html
+========================================================================== */
+/* Aplicar solo en pantallas medianas (tablets) y pequeñas (móviles) */
+@media screen and (max-width: 1024px) {
+
+  /* Resetear estilos base de la tarjeta principal para el nuevo diseño */
+  main .player-section .player-card {
+    background: transparent; /* Quitar gradiente y color de fondo */
+    border: none;            /* Quitar borde */
+    border-radius: 0;        /* Quitar bordes redondeados */
+    padding: 0;              /* Quitar padding */
+    max-width: 100%;         /* Permitir máximo ancho */
+    margin: 0;               /* Resetear márgenes */
+    display: flex;           /* Mantener flexibilidad */
+    align-items: stretch;    /* Estirar items verticalmente */
+    justify-content: center; /* Centrar contenido horizontalmente */
+    box-shadow: none;        /* Quitar sombra */
+    color: inherit;          /* Color de texto inherente */
+    overflow: visible;       /* Permitir desbordamiento */
+    position: relative;      /* Mantener posicionamiento relativo */
+
+    /* Nuevo estilo: Usar la imagen del escudo como fondo */
+    /* Reemplaza 'url(https://i.postimg.cc/0yNgbYTg/Real_Oviedo_Fondo.webp)' con la URL correcta de la imagen de fondo del escudo si es diferente */
+    background-image: url('https://i.postimg.cc/0yNgbYTg/Real_Oviedo_Fondo.webp'); /* Usa la imagen de fondo del escudo */
+    background-size: cover;  /* Cubrir todo el contenedor */
+    background-position: center center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    min-height: 300px;       /* Altura mínima para que se vea el fondo */
+
+    /* Ajustar el contenedor de la imagen del jugador */
+    flex-direction: column;  /* Colocar imagen y texto uno encima del otro */
+    text-align: center;      /* Centrar texto */
+  }
+
+  main .player-section .player-card .player-card-image-container {
+    margin-right: 0;         /* Quitar margen derecho */
+    margin-bottom: 10px;     /* Añadir margen inferior */
+    order: 1;                /* Orden: Imagen arriba */
+  }
+
+  main .player-section .player-card .player-image {
+    width: 120px;            /* Ancho fijo más pequeño */
+    height: 180px;           /* Altura fija más pequeña */
+    object-fit: contain;     /* Contener la imagen */
+    object-position: center; /* Centrar la imagen */
+    margin: 0 auto;          /* Centrar la imagen horizontalmente */
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3)); /* Sombra más pronunciada para contraste */
+  }
+
+  main .player-section .player-card .player-info {
+    padding: 10px;           /* Añadir algo de padding */
+    order: 2;                /* Orden: Info en medio */
+    z-index: 2;              /* Asegurar que esté sobre el fondo */
+    background-color: rgba(0, 31, 63, 0.7); /* Fondo semitransparente para legibilidad */
+    border-radius: 8px;      /* Bordes ligeramente redondeados */
+    margin: 0 10px;          /* Margen lateral */
+  }
+
+  main .player-section .player-card .player-position {
+    font-size: 1rem;         /* Tamaño de fuente más pequeño */
+    color: #ffd700;          /* Mantener color dorado */
+    /* text-shadow opcional para mejor contraste */
+  }
+
+  main .player-section .player-card .player-name {
+    font-size: 1.8rem;       /* Tamaño de fuente más pequeño */
+    /* Gradiente y sombra posiblemente innecesarios con fondo semitransparente */
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: white; /* Texto blanco */
+    filter: none;             /* Quitar filtro de sombra */
+  }
+
+  /* Ocultar el contenedor del escudo original (marca de agua en PC) */
+  main .player-section .player-card .player-card-logo-container {
+    display: none;
+  }
+
+  /* Ocultar el lazo negro también, probablemente no deseado en este diseño */
+  main .player-section .player-card .black-ribbon-container {
+    display: none;
+  }
+
+  /* Ajustar el contenedor del nombre completo */
+  main .player-section .player-full-name-container {
+    background-color: rgba(26, 26, 26, 0.9); /* Fondo semitransparente más oscuro */
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 0;        /* Quitar bordes redondeados */
+    margin: 0;               /* Resetear márgenes */
+    max-width: 100%;         /* Ancho máximo */
+    box-shadow: none;        /* Quitar sombra */
+    position: relative;      /* Posición relativa */
+    z-index: 2;              /* Sobre el fondo */
+    order: 3;                /* Orden: Nombre completo abajo */
+    width: 100%;             /* Ancho completo */
+    box-sizing: border-box;  /* Incluir padding en el cálculo del ancho */
+  }
+
+  main .player-section .player-full-name {
+    color: #ccc;             /* Color del texto */
+    font-size: 0.9rem;       /* Tamaño de fuente más pequeño */
+    letter-spacing: 0.5px;   /* Espaciado entre letras */
+    font-weight: 300;        /* Peso de la fuente */
+  }
+}
+
+/* Si quieres que el diseño "simil Leo" empiece exactamente en 768px (móviles) y el de PC termine ahí,
+   puedes usar (min-width: 1025px) para el PC y (max-width: 1024px) para el nuevo estilo.
+   La media query anterior ya cubre tablets y móviles (hasta 1024px).
+   Si quieres un comportamiento distinto en 768px exactamente, podrías subdividir:
+*/
+
+/*
+@media screen and (max-width: 768px) {
+  // Estilos específicos solo para móviles aquí si fueran necesarios
+  // Generalmente, los estilos anteriores (hasta 1024px) sirven para ambos.
+}
+*/
