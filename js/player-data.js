@@ -9256,6 +9256,79 @@ const playersData = {
             }
         }
     },
+
+        "michu": {
+        name: "Miguel Pérez Cuesta",
+        footballName: "Michu",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/HL2chj1v/Michu_PNG.webp",
+        personalData: {
+            fullName: "Miguel Pérez Cuesta",
+            nickname: "Michu",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "21/03/1986",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "U.P. de Langreo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Swansea City A.F.C.", category: "Premier League" },
+            { season: "2014/15", team: "S.S.C. Napoli", category: "Serie A - Europa League - Fase Previa Europa League" },
+            { season: "2013/14", team: "Swansea City A.F.C.", category: "Premier League - Europa League - EFL Cup - Fase Previa Europa League" },
+            { season: "2012/13", team: "Swansea City A.F.C.", category: "Premier League - FA Cup - EFL Cup" },
+            { season: "2011/12", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "R.C. Celta de Vigo", category: "2ª Div." },
+            { season: "2007/08", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B - Copa Federación" },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2004/05", team: "Real Oviedo", category: "3ª Div. - Copa Federación" },
+            { season: "2003/04", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2003/04", team: "Real Oviedo", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2013", team: "España", category: "Clasif. Mundial Europa" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 27, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2006/07": {
+                liga: { partidos: 31, goles_marcados: 3, tarjetas_amarillas: 10, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2005/06": {
+                liga: { partidos: 31, goles_marcados: 3, tarjetas_amarillas: 13, tarjetas_rojas: 1 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2004/05": {
+                liga: { partidos: 22, goles_marcados: 5, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2003/04": {
+                liga: { partidos: 12, goles_marcados: 3, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
