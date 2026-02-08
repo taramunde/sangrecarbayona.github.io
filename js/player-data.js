@@ -9329,6 +9329,60 @@ const playersData = {
             }
         }
     },
+
+        "jonathanpereira": {
+        name: "Jonathan Pereira Rodríguez",
+        footballName: "Jonathan Pereira",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/L6fZKmdS/Jonathan_Pereira_PNG.webp",
+        personalData: {
+            fullName: "Jonathan Pereira Rodríguez",
+            nickname: "Jonathan Pereira",
+            birthPlace: "Vigo, Pontevedra",
+            country: "España",
+            nationality: "Española",
+            height: "1,67 m",
+            birthDate: "12/05/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - Copa de Catalunya" },
+            { season: "2018/19", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Valladolid C.F.", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Villarreal C.F.", category: "2ª Div." },
+            { season: "2012/13", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Real Betis Balompié", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Real Betis Balompié", category: "2ª Div." },
+            { season: "2009/10", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2008/09", team: "Real Racing Club de Santander", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2007/08", team: "Racing Club de Ferrol", category: "2ª Div." },
+            { season: "2006/07", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey - Copa Intertoto" },
+            { season: "2005/06", team: "Villarreal C.F. B", category: "3ª Div." },
+            { season: "2004/05", team: "Villarreal C.F.", category: "1ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "España Sub-21", category: "Europeo Sub-21 - Amistosos" },
+            { season: "2008", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2007", team: "España Sub-20", category: "Amistosos" },
+            { season: "2004", team: "España Sub-17", category: "Europeo Sub-17 - Clasif. Europeo Sub-17 - Amistosos" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 14, goles_marcados: 2, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
