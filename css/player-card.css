@@ -162,30 +162,32 @@ main .player-section .player-full-name {
         width: 100px;
     }
     main .player-section .player-card .player-image {
-        position: relative;
-        width: 95% !important;
-        height: 80% !important;
-        object-fit: contain !important;
-        z-index: 2;
-        filter: drop-shadow(0 8px 12px rgba(0,0,0,0.4));
-        margin-bottom: 30px;
+        position: absolute;
+    bottom: 80px; /* Ajusta esta altura según necesites */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100% !important; /* Ocupa todo el ancho */
+    height: 70% !important; /* Mayor altura */
+    object-fit: contain !important;
+    z-index: 2;
+    filter: drop-shadow(0 8px 12px rgba(0,0,0,0.4));
     }
     main .player-section .player-card .player-info {
         position: absolute;
-        bottom: 45px;
-        width: 100%;
-        text-align: center;
-        margin: 0 !important;
-        z-index: 3;
+    bottom: 55px; /* Sube un poco más */
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+    z-index: 3;
     }
     main .player-section .player-card .player-position {
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: 18px !important;
-        color: white !important;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 2px;
+    font-size: 20px !important; /* Un poco más grande */
+    color: white !important;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.9); /* Sombra más intensa */
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px; /* Más espaciado */
     }
     main .player-section .player-card .player-name {
         font-size: 14px;
@@ -225,36 +227,58 @@ main .player-section .player-full-name {
         object-fit: contain;
     }
 
-    /* ========== CINTAS DECORATIVAS (RIBBONS) ========== */
-    .ribbon-mobile-container {
-        justify-content: center;
-        z-index: 20;
-        position: relative;
-        margin-bottom: -25px; /* Monta sobre el escudo */
-    }
+    /* ========== RIBBON SUPERIOR (arriba del escudo) ========== */
+.ribbon-mobile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 20;
+    position: relative;
+    margin-bottom: -20px; /* Ajusta para que monte sobre el escudo */
+}
 
-    .player-full-name-container {
-        justify-content: center;
-        margin-top: -30px !important; /* Monta sobre el pico inferior */
-        position: relative;
-        z-index: 20;
-    }
+.ribbon-mobile-container .ribbon {
+    background: #0e0eec; /* Azul intenso */
+    color: white;
+    padding: 12px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid rgba(255,255,255,0.3);
+    /* Sin clip-path para que sea un rectángulo limpio */
+    border-radius: 0;
+}
 
-    .ribbon, .player-full-name {
-        background: #003366;
-        color: white;
-        padding: 10px 30px;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-family: 'Roboto Condensed', sans-serif;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-        font-size: 16px;
-        /* Efecto de cinta cortada */
-        clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%);
-        text-align: center;
-        min-width: 200px;
-        white-space: nowrap;
-    }
+/* ========== RIBBON INFERIOR (debajo del escudo) ========== */
+.player-full-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -25px !important; /* Monta sobre el pico inferior */
+    position: relative;
+    z-index: 20;
+}
+
+.player-full-name-container .player-full-name {
+    background: #0e0eec; /* Azul intenso */
+    color: white;
+    padding: 12px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid rgba(255,255,255,0.3);
+    min-width: 280px;
+    /* Sin clip-path para que sea un rectángulo limpio */
+    border-radius: 0;
+}
 }
 
 /* ==========================================================================
