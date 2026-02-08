@@ -9383,6 +9383,53 @@ const playersData = {
             }
         }
     },
+
+        "davidalvarez": {
+        name: "Antonio David Álvarez Rey",
+        footballName: "David Álvarez",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/CxF9TLZn/David_Álvarez_PNG.webp",
+        personalData: {
+            fullName: "Antonio David Álvarez Rey",
+            nickname: "David Álvarez",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "18/12/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Penafiel", category: "2ª Portugal - Taça de Portugal" },
+            { season: "2024/25", team: "Real Murcia C.F.", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
+            { season: "2024/25", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "R.C. Deportivo de La Coruña", category: "1ª Federación - Copa del Rey - 1ª Federación Final de Campeones" },
+            { season: "2022/23", team: "K.A.S. Eupen", category: "Liga Bélgica" },
+            { season: "2022/23", team: "Wisła Płock", category: "Liga Polonia - Copa Polonia" },
+            { season: "2021/22", team: "U.D. Ibiza", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Ibiza", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Zamora C.F.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.C.D. Cerceda", category: "2ª Div. B" },
+            { season: "2017/18", team: "Club Rápido de Bouzas", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2016/17", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Zamora C.F.", category: "3ª Div." },
+            { season: "2015/16", team: "C. Atl. Bembibre", category: "3ª Div." },
+            { season: "2014/15", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2013/14", team: "U.P. de Langreo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
@@ -11722,6 +11769,39 @@ const playersData = {
                 copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 7, victorias: 2, empates: 3, derrotas: 2 }
+            }
+        }
+    },
+
+        "fernandohierro": {
+        name: "Fernando Ruiz Hierro",
+        footballName: "Fernando Hierro",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/0jz9xNRr/Hierro-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Fernando Ruiz Hierro",
+            nickname: "Fernando Hierro",
+            birthPlace: "Vélez-Málaga, Málaga",
+            country: "España",
+            nationality: "Española",
+            height: "1,87 m",
+            birthDate: "23/03/1968",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" }
+        ],
+        nationalTeam: [
+            { season: "2018", team: "España", category: "Mundial - Amistosos" }
+        ],
+        stats: {
+            "2016/17": {
+                liga: { partidos_entrenados: 42, victorias: 17, empates: 10, derrotas: 15 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
             }
         }
     },
