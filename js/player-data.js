@@ -9462,6 +9462,12 @@ const playersData = {
             
          ],
 
+         nationalTeam: [
+            { season: "2018", team: "Marruecos Sub-20", category: "Juegos del Mediterráneo" },
+            { season: "2018", team: "Marruecos Sub-18", category: "Amistosos" }
+            
+        ],
+
          stats: {
             "2025/26": {
                 liga: { partidos: 20, goles_marcados: 2, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
