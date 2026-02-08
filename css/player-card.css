@@ -1,86 +1,204 @@
-/* --- PC: ESTILO PROFESIONAL --- */
-.ribbon-mobile-container { display: none; } /* Oculto en PC */
+/* ==========================================================================
+   ESTILOS BASE (ESCRITORIO / PC)
+   ========================================================================== */
 
 main .player-section .player-card {
     background: linear-gradient(to right, #001f3f, #007bff);
     border-radius: 15px 15px 0 0;
+    padding: 10px 20px;
     max-width: 800px;
     margin: 20px auto 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: white;
+    overflow: hidden;
+    background-color: transparent !important;
+    border: none !important;
     position: relative;
-    padding: 10px 20px;
+}
+
+main .player-section .player-card .player-card-image-container {
+    position: relative;
+    margin-right: 15px;
+    flex-shrink: 0;
+    background: transparent !important;
+    border: none !important;
 }
 
 main .player-section .player-card .player-image {
-    width: 180px; height: 280px; object-fit: contain; z-index: 2;
+    width: 180px;
+    height: 280px;
+    object-fit: contain;
+    object-position: bottom;
+    display: block;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+    transition: transform 0.3s ease;
+    background: transparent !important;
 }
 
-/* --- MÓVIL: ESTILO LEO / CROMO --- */
-@media screen and (max-width: 1024px) {
-    
-    .ribbon-mobile-container { 
-        display: flex; justify-content: center; width: 100%; margin-bottom: -20px; z-index: 10;
-    }
+main .player-section .player-card .player-image:hover {
+    transform: scale(1.05);
+}
 
-    /* Ocultamos el nombre que sobra en móvil */
-    .pc-only-name { display: none !important; }
+main .player-section .player-card .player-info {
+    flex-grow: 1;
+    text-align: left;
+    z-index: 1;
+    padding-left: 20px;
+}
 
+main .player-section .player-card .player-position {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffd700;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+main .player-section .player-card .player-name {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#fff, #e0e0e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.3));
+}
+
+.black-ribbon-container {
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    width: 40px;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.black-ribbon-img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
+}
+
+/* Escudo en PC (Grande y marca de agua) */
+main .player-section .player-card .player-card-logo-container {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+}
+
+main .player-section .player-card .player-card-logo {
+    height: 350px;
+    width: auto;
+}
+
+main .player-section .player-full-name-container {
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+main .player-section .player-full-name {
+    color: #ccc;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+/* ==========================================================================
+   MEDIA QUERY: MÓVILES GENERAL (Ajustes de estructura)
+   ========================================================================== */
+
+@media (max-width: 768px) {
     main .player-section .player-card {
-        width: 300px !important;
-        height: 420px !important;
-        clip-path: url(#svgPath) !important;
-        background: linear-gradient(135deg, #001f3f, #0056b3) !important;
-        flex-direction: column !important;
-        justify-content: flex-end !important;
-        padding: 0 !important;
-        margin: 20px auto !important;
-    }
-
-    /* La Posición flotando sobre la imagen */
-    main .player-section .player-card .player-info {
-        position: absolute;
-        top: 65px;
+        padding: 5px 10px !important;
+        margin: 10px auto 0 auto !important;
+        border-radius: 10px 10px 0 0;
         width: 100%;
-        text-align: center;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    main .player-section .player-card .player-card-image-container {
+        margin-right: 10px !important;
+        width: 100px;
+    }
+    main .player-section .player-card .player-image {
+        width: 100px !important;
+        height: 140px !important;
+    }
+    main .player-section .player-card .player-info {
+        text-align: left;
+        flex: 1;
+        margin: 0 !important;
         padding: 0 !important;
     }
-
     main .player-section .player-card .player-position {
-        font-size: 18px !important;
-        color: #ffd700 !important; /* Dorado */
-        text-shadow: 2px 2px 4px #000;
-        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-right: 0 !important;
+        padding: 0 !important;
     }
-
-    /* Escudo de fondo centrado */
-    main .player-section .player-card .player-card-logo-container {
-        width: 200px !important;
-        left: 50% !important;
-        top: 50% !important;
-        transform: translate(-50%, -50%) !important;
-        opacity: 0.15 !important;
-        right: auto !important;
+    main .player-section .player-card .player-name {
+        font-size: 14px;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: left !important;
     }
-
-    /* Cintas (Ribbons) */
-    .ribbon, .player-full-name-container {
-        background-color: #004a99;
-        padding: 8px 25px;
-        color: white;
-        font-weight: bold;
-        text-transform: uppercase;
-        position: relative;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    }
-
-    /* El nombre completo en la cinta de abajo */
     main .player-section .player-full-name-container {
-        margin: 10px auto !important;
-        width: auto !important;
-        display: inline-block;
-        background: #004a99 !important;
-        border: none !important;
+        padding: 5px 0;
+        margin: 0 auto 5px auto !important;
+        width: 100%;
+        max-width: calc(100% - 0);
+        box-sizing: border-box;
+        border-radius: 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    main .player-section .player-full-name {
+        font-size: 14px;
+        color: white !important;
+    }
+}
+
+/* ==========================================================================
+   AJUSTE ESCUDO: TABLETS Y MÓVILES (Max 1024px)
+   Hace el escudo más pequeño solo en estos dispositivos
+   ========================================================================== */
+@media screen and (max-width: 1024px) {
+    main .player-section .player-card .player-card-logo-container {
+        /* Tamaño reducido (antes era 80px o gigante) */
+        width: 60px !important; 
+        
+        /* Posición ajustada */
+        right: 15px !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        
+        /* Asegurar visibilidad correcta */
+        opacity: 1 !important; 
+        pointer-events: auto !important;
+    }
+    
+    main .player-section .player-card .player-card-logo {
+        width: 100% !important;
+        height: auto !important;
     }
 }
