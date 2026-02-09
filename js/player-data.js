@@ -4586,6 +4586,128 @@ const playersData = {
         }
     },
 
+        "josete": {
+        name: "José Antonio Malagón Rubio",
+        footballName: "Josete",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/k5m6XKyg/Josete_PNG.webp",
+        personalData: {
+            fullName: "José Antonio Malagón Rubio",
+            nickname: "Josete",
+            birthPlace: "Elche, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "28/05/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Xerez C.D.", category: "2ª Federación" },
+            { season: "2024/25", team: "Xerez C.D.", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "Athletic Club Torrellano", category: "3ª Federación" },
+            { season: "2022/23", team: "C.D. Badajoz", category: "1ª Federación" },
+            { season: "2022/23", team: "C.F. Talavera de la Reina", category: "1ª Federación" },
+            { season: "2021/22", team: "UCAM Murcia C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "UCAM Murcia C.F.", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2019/20", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2018/19", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Cádiz C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Cádiz C.F.", category: "2ª Div. B" },
+            { season: "2012/13", team: "Zamora C.F.", category: "2ª Div. B" },
+            { season: "2011/12", team: "Zamora C.F.", category: "2ª Div. B" },
+            { season: "2010/11", team: "Deportivo Alavés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Elche C.F.", category: "2ª Div." }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 8, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "nacholopez": {
+        name: "Ignacio López Iglesias",
+        footballName: "Nacho López",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/vBTB2zzD/Nacho_López_PNG.webp",
+        personalData: {
+            fullName: "Ignacio López Iglesias",
+            nickname: "Nacho López",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,71 m",
+            birthDate: "24/10/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.P. de Langreo", category: "2ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "U.P. de Langreo", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2021/22", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2020/21", team: "Salamanca C.F. U.D.S.", category: "2ª Div. B - Copa Federación - 2ª Div. B 2ª Fase de Permanencia 2ª RFEF" },
+            { season: "2019/20", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Pontevedra C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2017/18", team: "Pontevedra C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2017/18", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2016/17", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Avilés C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2010/11", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2008/09", team: "Real Oviedo", category: "3ª Div." },
+            { season: "2007/08", team: "Real Oviedo B", category: "2ª RFFPA" },
+            { season: "2007/08", team: "U.P. de Langreo", category: "3ª Div." },
+            { season: "2006/07", team: "Real Oviedo B", category: "2ª RFFPA" },
+            { season: "2006/07", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div." },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 32, goles_marcados: 0, tarjetas_amarillas: 8, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2008/09": {
+                liga: { partidos: 14, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2005/06": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
