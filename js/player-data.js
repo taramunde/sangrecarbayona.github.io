@@ -994,14 +994,14 @@ const playersData = {
 
     "gorkamagunazelaia": {
         name: "Gorka Magunazelaia Garrido",
-        footballName: "Gorka Magunazelaia",
+        footballName: "Gorka Maguna",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/qqmLn0Lg/Gorka_Magunazelaia_PNG.webp",
         personalData: {
             fullName: "Gorka Magunazelaia Garrido",
-            nickname: "Gorka Magunazelaia",
+            nickname: "Gorka Maguna",
             birthPlace: "Bilbao, Vizcaya",
             country: "España",
             nationality: "Española",
