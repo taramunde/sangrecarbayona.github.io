@@ -706,8 +706,8 @@ const playersData = {
             { season: "2019/20", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Real Madrid C.F.", category: "Supercopa de Europa" },
-            { season: "2017/18", team: "F.C. Zoryá Lugansk", category: "Liga Ucraniana - Europa League - Copa Ucraniana" },
-            { season: "2016/17", team: "F.C. Dnipro Dnipropetrovsk", category: "Liga Ucraniana - Copa Ucraniana" }
+            { season: "2017/18", team: "F.C. Zoryá Lugansk", category: "Liga Ucrania - Europa League - Copa Ucrania" },
+            { season: "2016/17", team: "F.C. Dnipro Dnipropetrovsk", category: "Liga Ucrania - Copa Ucrania" }
         ],
         nationalTeam: [
             { season: "2025", team: "Ucrania", category: "Liga de las Naciones de la UEFA - Amistosos" },
@@ -4535,6 +4535,50 @@ const playersData = {
             },
             "2014/15": {
                 liga: { partidos: 30, goles_marcados: 0, tarjetas_amarillas: 12, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "borjagomez": {
+        name: "Borja Gómez Pérez",
+        footballName: "Borja Gómez",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/XJgvvPY2/Borja-Gomez-PNG.webp",
+        personalData: {
+            fullName: "Borja Gómez Pérez",
+            nickname: "Borja Gómez",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "14/05/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2018/19", team: "East Bengal F.C.", category: "Liga India" },
+            { season: "2017/18", team: "U.D. San Sebastián de Los Reyes", category: "2ª Div. B" },
+            { season: "2017/18", team: "U.D. Logroñés", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "Real Murcia C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Granada C.F.", category: "1ª Div." },
+            { season: "2011/12", team: "F.C. Karpaty Lviv", category: "Liga Ucrania - Copa Ucrania - Fase Previa Europa League" },
+            { season: "2010/11", team: "F.C. Karpaty Lviv", category: "Liga Ucrania" },
+            { season: "2010/11", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "A.D. Alcorcón", category: "2ª Div. B - Copa del Reay - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "A.D. Alcorcón", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "A.D. Alcorcón", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
                 copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
@@ -10954,12 +10998,12 @@ const playersData = {
             { season: "2021/22", team: "S.D. Eibar", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div." },
             { season: "2019/20", team: "Antalyaspor Kulübü", category: "Liga Turquía - Copa Turquía" },
-            { season: "2019/20", team: "F.K. Shakhtar Donetsk", category: "Liga Ucraniana" },
+            { season: "2019/20", team: "F.K. Shakhtar Donetsk", category: "Liga Ucrania" },
             { season: "2018/19", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
-            { season: "2017/18", team: "F.K. Shakhtar Donetsk", category: "Liga Ucraniana - Champs. League - Copa Ucraniana - Supercopa Ucrania" },
-            { season: "2016/17", team: "F.K. Shakhtar Donetsk", category: "Liga Ucraniana - Europa League - Copa Ucraniana" },
-            { season: "2016/17", team: "F.K. Karpaty Lviv", category: "Liga Ucraniana - Copa Ucraniana" },
-            { season: "2015/16", team: "F.K. Karpaty Lviv", category: "Liga Ucraniana" },
+            { season: "2017/18", team: "F.K. Shakhtar Donetsk", category: "Liga Ucrania - Champs. League - Copa Ucrania - Supercopa Ucrania" },
+            { season: "2016/17", team: "F.K. Shakhtar Donetsk", category: "Liga Ucrania - Europa League - Copa Ucrania" },
+            { season: "2016/17", team: "F.K. Karpaty Lviv", category: "Liga Ucrania - Copa Ucrania" },
+            { season: "2015/16", team: "F.K. Karpaty Lviv", category: "Liga Ucrania" },
             { season: "2015/16", team: "Assyriska F.F.", category: "Copa Suecia" },
             { season: "2014/15", team: "Assyriska F.F.", category: "2ª Suecia" },
             { season: "2014/15", team: "Wydad Casablanca A.C.", category: "Botola Pro" },
