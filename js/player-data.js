@@ -938,6 +938,111 @@ const playersData = {
         }
     },
 
+        "rubenmino": {
+        name: "Rubén Miño Peralta",
+        footballName: "Ruben Miño",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/k5pRxGr0/Rubén_Miño_PNG.webp",
+        personalData: {
+            fullName: "Rubén Miño Peralta",
+            nickname: "Ruben Miño",
+            birthPlace: "Cornellá de Llobregat, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,91 m",
+            birthDate: "18/01/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.E. Cornellà", category: "3ª Federación - Copa Federación Fase Autonómica - Copa de Catalunya" },
+            { season: "2024/25", team: "U.E. Cornellà", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "U.E. Cornellà", category: "1ª Federación - Copa Federación Fase Autonómica - Copa de Catalunya" },
+            { season: "2022/23", team: "Algeciras C.F.", category: "1ª Federación" },
+            { season: "2021/22", team: "C.F. Talavera de la Reina", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Logroñés", category: "2ª Div." },
+            { season: "2019/20", team: "U.D. Logroñés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2018/19", team: "F.C. Politehnica Iași", category: "Liga Rumanía" },
+            { season: "2017/18", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2016/17", team: "A.E.K. Larnaca", category: "Liga Chipre - Fase Previa Europa League - Copa Chipre" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "R.C.D. Mallorca", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "R.C.D. Mallorca", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "F.C. Barcelona B", category: "2ª Div." },
+            { season: "2010/11", team: "F.C. Barcelona B", category: "2ª Div." },
+            { season: "2010/11", team: "F.C. Barcelona", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España" },
+            { season: "2009/10", team: "F.C. Barcelona Atlètic", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "F.C. Barcelona", category: "Mundial de Clubes" },
+            { season: "2008/09", team: "F.C. Barcelona Atlètic", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2011", team: "España Sub-21", category: "Europeo Sub-21 - Amistosos" },
+            { season: "2010", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2009", team: "España Sub-21", category: "Amistosos" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 13, goles_encajados: 13, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "gorkamagunazelaia": {
+        name: "Gorka Magunazelaia Garrido",
+        footballName: "Gorka Magunazelaia",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/qqmLn0Lg/Gorka_Magunazelaia_PNG.webp",
+        personalData: {
+            fullName: "Gorka Magunazelaia Garrido",
+            nickname: "Gorka Magunazelaia",
+            birthPlace: "Bilbao, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "02/03/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "C.D. Mosconia", category: "1ª RFFPA" },
+            { season: "2023/24", team: "S.D. Gernika Club", category: "2ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Viveiro C.F.", category: "3ª Federación" },
+            { season: "2021/22", team: "Caudal Deportivo", category: "3ª Federación - Copa Federación Fase Autonómica - 3ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "C.P. Cacereño", category: "3ª Div. - 3ª Div. 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "S.D. Logroñés", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Lorca F.C.", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.C.D. Cerceda", category: "2ª Div. B" },
+            { season: "2016/17", team: "Sestao River Club", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Bilbao Athletic", category: "2ª Div. B" },
+            { season: "2013/14", team: "Athletic Club", category: "1ª Div." },
+            { season: "2012/13", team: "Bilbao Athletic", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Sestao River Club", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 1, goles_encajados: 2, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
