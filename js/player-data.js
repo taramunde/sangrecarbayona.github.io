@@ -4490,6 +4490,58 @@ const playersData = {
         }
     },
 
+        "danibautista": {
+        name: "Daniel Bautista Pina",
+        footballName: "Dani Bautista",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/G3WcCrKc/Dani_Bautista_PNG.webp",
+        personalData: {
+            fullName: "Daniel Bautista Pina",
+            nickname: "Dani Bautista",
+            birthPlace: "Sevilla, Sevilla",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "25/02/1981",
+            deathDate: null
+        },
+        career: [
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Hércules C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Hércules C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "R.C. Recreativo de Huelva", category: "1ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "R.C. Recreativo de Huelva", category: "1ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "C.A.P. Ciudad de Murcia", category: "2ª Div." },
+            { season: "2004/05", team: "R.C. Celta de Vigo", category: "Copa del Rey" },
+            { season: "2003/04", team: "S.D. Eibar", category: "2ª Div. - Copa del Rey" },
+            { season: "2002/03", team: "Sevilla F.C.", category: "1ª Div. - Copa del Rey" },
+            { season: "2002/03", team: "Sevilla F.C. B", category: "2ª Div. B" },
+            { season: "2001/02", team: "Sevilla F.C. B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 13, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 1 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 30, goles_marcados: 0, tarjetas_amarillas: 12, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
