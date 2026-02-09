@@ -298,7 +298,7 @@ const enfrentamientos = [
   { equipo1: "F.C. Barcelona", equipo2: "R.C.D. Mallorca", goles1: 3, goles2: 0 },
   { equipo1: "Celta de Vigo", equipo2: "C.A. Osasuna", goles1: 1, goles2: 2 },
   { equipo1: "Real Sociedad", equipo2: "Elche C.F.", goles1: 3, goles2: 1 },
-  { equipo1: "Villarreal C.F.", equipo2: "R.C.D. Espanyol", goles1: null, goles2: null },
+  { equipo1: "Villarreal C.F.", equipo2: "R.C.D. Espanyol", goles1: 4, goles2: 1 },
   { equipo1: "Sevilla F.C.", equipo2: "Girona F.C.", goles1: 1, goles2: 1 },
   { equipo1: "Valencia C.F.", equipo2: "Real Madrid", goles1: 0, goles2: 2 },
   { equipo1: "Rayo Vallecano", equipo2: "Real Oviedo", goles1: null, goles2: null },
