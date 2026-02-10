@@ -3017,13 +3017,13 @@ const playersData = {
             { season: "2016/17", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2014/15", team: "Gimnàstic de Tarragona", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
-            { season: "2013/14", team: "At. Levante U.D.", category: "2ª Div. B" },
-            { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Levante U.D. B", category: "2ª Div. B" },
+            { season: "2012/13", team: "Levante U.D. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2011/12", team: "Valencia Mestalla", category: "2ª Div. B" },
-            { season: "2010/11", team: "At. Levante U.D.", category: "3ª Div." },
+            { season: "2010/11", team: "Levante U.D. B", category: "3ª Div." },
             { season: "2010/11", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
             { season: "2008/09", team: "Levante U.D.", category: "2ª Div." },
-            { season: "2007/08", team: "At. Levante U.D.", category: "2ª Div. B" }
+            { season: "2007/08", team: "Levante U.D. B", category: "2ª Div. B" }
         ],
         stats: {
             "2021/22": {
@@ -4741,6 +4741,50 @@ const playersData = {
             { season: "2012/13", team: "Varese F.C. Sub-19", category: "Campionato Primavera 1" },
             { season: "2011/12", team: "Varese F.C. Sub-19", category: "Campionato Primavera 1" },
             { season: "2010/11", team: "Varese F.C. Sub-19", category: "Campionato Primavera 1" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "kiketorrent": {
+        name: "Enrique Torrent Rallo",
+        footballName: "Kike Torrent",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/NMPjTHRT/Kike_Torrent_PNG.webp",
+        personalData: {
+            fullName: "Enrique Torrent Rallo",
+            nickname: "Kike Torrent",
+            birthPlace: "Valencia, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,87 m",
+            birthDate: "14/02/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "At. Saguntino", category: "3ª Federación" },
+            { season: "2024/25", team: "At. Saguntino", category: "3ª Federación" },
+            { season: "2023/24", team: "At. Saguntino", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "At. Saguntino", category: "2ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "At. Saguntino", category: "3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "At. Saguntino", category: "3ª Div. - 3ª Div. 2ª Fase de Ascenso a 2ª RFEF - Prpm. de Ascenso a 2ª Div. RFEF" },
+            { season: "2019/20", team: "At. Saguntino", category: "3ª Div." },
+            { season: "2018/19", team: "At. Saguntino", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.D. Eldense", category: "3ª Div." },
+            { season: "2016/17", team: "U.D. Alzira", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "At. Levante U.D.", category: "3ª Div." },
+            { season: "2013/14", team: "Levante U.D. B", category: "2ª Div. B" },
+            { season: "2012/13", team: "Levante U.D. B", category: "2ª Div. B" }
         ],
         stats: {
             "2015/16": {
@@ -6553,8 +6597,8 @@ const playersData = {
             { season: "2015/16", team: "Levante U.D.", category: "1ª Div." },
             { season: "2014/15", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Levante U.D.", category: "1ª Div. - Copa del Rey" },
-            { season: "2013/14", team: "At. Levante U.D.", category: "2ª Div. B" },
-            { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B" }
+            { season: "2013/14", team: "Levante U.D. B", category: "2ª Div. B" },
+            { season: "2012/13", team: "Levante U.D. B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2017", team: "España Sub-21", category: "Amistosos" },
@@ -11450,7 +11494,7 @@ const playersData = {
             { season: "2014/15", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Girona F.C.", category: "2ª Div." },
             { season: "2013/14", team: "Lorca F.C.", category: "2ª Div. B - Copa del Rey" },
-            { season: "2012/13", team: "At. Levante U.D.", category: "2ª Div. B" },
+            { season: "2012/13", team: "Levante U.D. B", category: "2ª Div. B" },
             { season: "2011/12", team: "Getafe C.F. B", category: "2ª Div. B" },
             { season: "2010/11", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
             { season: "2008/09", team: "Albacete Balompié", category: "2ª Div." }
