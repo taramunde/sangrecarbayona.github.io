@@ -4802,7 +4802,7 @@ const playersData = {
         position: "Defensa",
         role: "jugador",
         number: null,
-        image: "https://i.postimg.cc/rwL1XR23/Iván_2015.webpp",
+        image: "https://i.postimg.cc/rwL1XR23/Iván_2015.webp",
         personalData: {
             fullName: "Iván Da Conceiçao Gómez",
             nickname: "Iván",

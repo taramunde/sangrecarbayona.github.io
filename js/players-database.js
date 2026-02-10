@@ -1406,11 +1406,11 @@ const playersDatabase = {
         "url": "fichajugador.html?player=kiketorrent"
     },
     "ivan": {
-        "src": "https://i.postimg.cc/rwL1XR23/Iván_2015.webpp",
+        "src": "https://i.postimg.cc/rwL1XR23/Iván_2015.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Iván",
-        "url": "fichajugador.html?player=iván"
+        "url": "fichajugador.html?player=ivan"
     },
     "sergiosanchez": {
         "src": "https://i.postimg.cc/9fL78zGX/Sergio_Sánchez_PNG.webp",
