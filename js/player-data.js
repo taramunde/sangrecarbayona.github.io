@@ -4796,6 +4796,49 @@ const playersData = {
         }
     },
 
+        "ivan": {
+        name: "Iván Da Conceiçao Gómez",
+        footballName: "Iván",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/rwL1XR23/Iván_2015.webpp",
+        personalData: {
+            fullName: "Iván Da Conceiçao Gómez",
+            nickname: "Iván",
+            birthPlace: "El Berrón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "30/11/1999",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Titánico de Laviana", category: "3ª Federación" },
+            { season: "2023/24", team: "Caudal Deportivo", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "U.D. Gran Tarajal", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "U.D. Gran Tarajal", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2020/21", team: "C.D. Praviano", category: "3ª Div. - 3ª Div. 2ª Fase de Permanencia en 3ª RFEF" },
+            { season: "2019/20", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2018/19", team: "Condal Club", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2017/18", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2016/17", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B Sub-19", category: "Liga Nacional" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
