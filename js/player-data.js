@@ -7277,7 +7277,7 @@ const playersData = {
             { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div." },
-            { season: "2021/22", team: "Elche Ilicitano C.F.", category: "3ª Federación" },
+            { season: "2021/22", team: "Elche Ilicitano", category: "3ª Federación" },
             { season: "2021/22", team: "U.D. Almería B", category: "3ª Federación" },
             { season: "2020/21", team: "Levante U.D. Sub-19", category: "División de Honor - Copa de Campeones División de Honor" }
         ],
@@ -9982,6 +9982,54 @@ const playersData = {
             "2015/16": {
                 liga: { partidos: 24, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
                 copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "omgba": {
+        name: "Emmanuel Franck Omgba Opono Edoa",
+        footballName: "Omgba",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/05Jm8kYj/Omgba_PNG.webp",
+        personalData: {
+            fullName: "Emmanuel Franck Omgba Opono Edoa",
+            nickname: "Omgba",
+            birthPlace: "Yaundé, Región del Centro",
+            country: "España",
+            nationality: "Camerunesa",
+            height: "1,72 m",
+            birthDate: "01/06/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "Orihuela C.F.", category: "3ª Federación" },
+            { season: "2020/21", team: "C.D. Illescas", category: "3ª Div. - 3ª Div. 2ª Fase de Permanencia en 3ª RFEF" },
+            { season: "2019/20", team: "A.D. Mérida", category: "2ª Div. B" },
+            { season: "2018/19", team: "C.D. Alcoyano", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "2017/18", team: "C.D. Alcoyano", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "Hércules de Alicante C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Elche Ilicitano", category: "2ª Div. B" },
+            { season: "2012/13", team: "Elche Ilicitano", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2011/12", team: "Girona F.C.", category: "2ª Div." },
+            { season: "2011/12", team: "Huracán Valencia C.F.", category: "2ª Div. B" },
+            { season: "2010/11", team: "Torrellano Illice C.F.", category: "3ª Div." }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 7, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 36, goles_marcados: 7, tarjetas_amarillas: 11, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
