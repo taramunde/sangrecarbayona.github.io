@@ -4519,7 +4519,7 @@ const playersData = {
             { season: "2007/08", team: "R.C. Recreativo de Huelva", category: "1ª Div. - Copa del Rey" },
             { season: "2006/07", team: "R.C. Recreativo de Huelva", category: "1ª Div. - Copa del Rey" },
             { season: "2005/06", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
-            { season: "2004/05", team: "C.A.P. Ciudad de Murcia", category: "2ª Div." },
+            { season: "2004/05", team: "C.F. Ciudad de Murcia", category: "2ª Div." },
             { season: "2004/05", team: "R.C. Celta de Vigo", category: "Copa del Rey" },
             { season: "2003/04", team: "S.D. Eibar", category: "2ª Div. - Copa del Rey" },
             { season: "2002/03", team: "Sevilla F.C.", category: "1ª Div. - Copa del Rey" },
@@ -9879,6 +9879,109 @@ const playersData = {
             "2016/17": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "hectorfont": {
+        name: "Héctor Font Romero",
+        footballName: "Héctor Font",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/QdgrQTcP/Héctor_Font_PNG.webp",
+        personalData: {
+            fullName: "Héctor Font Romero",
+            nickname: "Héctor Font",
+            birthPlace: "Villarreal, Castellón",
+            country: "España",
+            nationality: "Española",
+            height: "1,71 m",
+            birthDate: "15/06/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "F.C. Cartagena", category: "2ª Div." },
+            { season: "2011/12", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Xerez C.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "C.A. Osasuna", category: "1ª Div." },
+            { season: "2006/07", team: "C.A. Osasuna", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2005/06", team: "Villarreal C.F.", category: "1ª Div. - Champs. League - Copa del Rey" },
+            { season: "2004/05", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey - Copa Intertoto" },
+            { season: "2003/04", team: "C.F. Ciudad de Murcia", category: "2ª Div. - Copa del Rey" },
+            { season: "2003/04", team: "Villarreal C.F.", category: "Copa Intertoto" },
+            { season: "2002/03", team: "Villarreal C.F.", category: "1ª Div. - Copa Intertoto" },
+            { season: "2000/01", team: "Villarreal C.F.", category: "1ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2006", team: "España Sub-21", category: "Amistosos" },
+            { season: "2005", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2004", team: "España Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" },
+            { season: "2000", team: "España Sub-16", category: "Clasif. Europeo Sub-16" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 13, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 1 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 35, goles_marcados: 0, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "aguirre": {
+        name: "Diego Aguirre Parra",
+        footballName: "Aguirre",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/gjbwThBh/Aguirre-PNG.webp",
+        personalData: {
+            fullName: "Diego Aguirre Parra",
+            nickname: "Aguirre",
+            birthPlace: "Toledo, Toledo",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "17/10/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Manchego Ciudad Real", category: "3ª Federación" },
+            { season: "2023/24", team: "Zamora C.F.", category: "2ª Federación" },
+            { season: "2023/24", team: "C.D. Manchego Ciudad Real", category: "2ª Federación - Copa Federación Fase Autonómica - Copa del Rey" },
+            { season: "2022/23", team: "C.F. Fuenlabrada", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "R.C. Deportivo de La Coruña", category: "1ª Federación - 1ª Federación Prom. de Ascenso - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Numancia", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "Apollon Limassol F.C.", category: "Liga Chipre - Fase Previa Europa League - Copa Chipre" },
+            { season: "2019/20", team: "Apollon Limassol F.C.", category: "Liga Chipre - Fase Previa Europa League - Copa Chipre" },
+            { season: "2018/19", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Rayo Vallecano de Madrid", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Toledo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "C.D. Toledo", category: "3ª Div." },
+            { season: "2011/12", team: "C.D. Toledo", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 24, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
