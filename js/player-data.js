@@ -10145,6 +10145,59 @@ const playersData = {
             }
         }
     },
+
+        "hervias": {
+        name: "Pablo Hervías Ruiz",
+        footballName: "Hervías",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/6Q9xYp0Q/Hervías_PNG.webp",
+        personalData: {
+            fullName: "Pablo Hervías Ruiz",
+            nickname: "Hervías",
+            birthPlace: "Logroño, La Rioja",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "08/03/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Pontevedra C.F.", category: "1ª Federación" },
+            { season: "2024/25", team: "S.D. Amorebieta", category: "1ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "C.F. Rayo Majadahonda", category: "1ª Federación" },
+            { season: "2022/23", team: "Club Bolívar", category: "Copa Libertadores - Liga Bolivia - Copa de la Div. Profesional" },
+            { season: "2022/23", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Valladolid C.F.", category: "2ª Div." },
+            { season: "2020/21", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Valladolid C.F.", category: "1ª Div." },
+            { season: "2018/19", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.A. Osasuna", category: "2ª Div." },
+            { season: "2014/15", team: "Real Sociedad de Fútbol", category: "1ª Div. - Copa del Rey - Fase Previa Europa League" },
+            { season: "2014/15", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Sociedad de Fútbol", category: "1ª Div." },
+            { season: "2013/14", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Sociedad de Fútbol", category: "1ª Div." },
+            { season: "2012/13", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" },
+            { season: "2011/12", team: "Real Sociedad de Fútbol B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2010", team: "España Sub-17", category: "Europeo Sub-17" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 32, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
