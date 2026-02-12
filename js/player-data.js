@@ -10035,6 +10035,60 @@ const playersData = {
             }
         }
     },
+
+        "michel": {
+        name: "Miguel Alfonso Herrero Javaloyas",
+        footballName: "Míchel",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/fbZSCmp0/Míchel_PNG.webp",
+        personalData: {
+            fullName: "Miguel Alfonso Herrero Javaloyas",
+            nickname: "Míchel",
+            birthPlace: "Burjasot, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "29/07/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "U.D. Alzira", category: "2ª Federación" },
+            { season: "2023/24", team: "Torrent C.F.", category: "2ª Federación" },
+            { season: "2023/24", team: "Hércules de Alicante C.F.", category: "2ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Hércules de Alicante C.F.", category: "2ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2014/15", team: "Guangzhou City F.C.", category: "Superliga China - AFC Champs. League Elite - Copa China FA" },
+            { season: "2014/15", team: "Getafe C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Valencia C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2012/13", team: "Levante U.D.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2011/12", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "R.C. Deportivo de La Coruña", category: "1ª Div." },
+            { season: "2009/10", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2009/10", team: "Valencia C.F.", category: "1ª Div. - Europa League - Copa del Rey - Fase Previa Europa League" },
+            { season: "2008/09", team: "Valencia C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Valencia Mestalla", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2010", team: "España Sub-21", category: "Clasif. Europeo Sub-21" },
+            { season: "2009", team: "España Sub-21", category: "Clasif. Europeo Sub-21 - Amistosos" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 18, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
