@@ -10089,6 +10089,62 @@ const playersData = {
             }
         }
     },
+
+        "generelo": {
+        name: "David Generelo Miranda",
+        footballName: "Generelo",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/02T8dvF6/Generelo_PNG.webp",
+        personalData: {
+            fullName: "David Generelo Miranda",
+            nickname: "Generelo",
+            birthPlace: "Badajoz, Badajoz",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "11/08/1982",
+            deathDate: null
+        },
+        career: [
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "R.C.D. Mallorca", category: "2ª Div." },
+            { season: "2013/14", team: "Elche C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2011/12", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2010/11", team: "Elche C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Real Zaragoza", category: "1ª Div." },
+            { season: "2006/07", team: "Gimnàstic de Tarragona", category: "1ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "Real Zaragoza", category: "1ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "Real Zaragoza", category: "1ª Div. - Europa League - Copa del Rey - Supercopa de España" },
+            { season: "2003/04", team: "Real Zaragoza", category: "1ª Div. - Copa del Rey" },
+            { season: "2003/04", team: "Real Zaragoza B", category: "2ª Div. B" },
+            { season: "2002/03", team: "Real Zaragoza B", category: "2ª Div. B" },
+            { season: "2002/03", team: "Real Zaragoza", category: "2ª Div." },
+            { season: "2001/02", team: "Real Zaragoza B", category: "2ª Div. B" },
+            { season: "2000/01", team: "Real Zaragoza B", category: "2ª Div. B" },
+            { season: "2000/01", team: "Real Zaragoza", category: "1ª Div." },
+            { season: "1999/00", team: "Real Zaragoza B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "1999/00", team: "C.D. Badajoz", category: "Copa del Rey" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 28, goles_marcados: 3, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
