@@ -10257,6 +10257,84 @@ const playersData = {
             }
         }
     },
+
+        "dominguez": {
+        name: "Iñaki Domínguez de La Piedra",
+        footballName: "Domínguez",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/NjrJxDFg/Domínguez_PNG.webp",
+        personalData: {
+            fullName: "Iñaki Domínguez de La Piedra",
+            nickname: "Domínguez",
+            birthPlace: "Ciudad de Méjico, Ciudad de Méjico",
+            country: "Méjico",
+            nationality: "Mejicana, Española",
+            height: "1,78 m",
+            birthDate: "29/03/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2018/19", team: "C.F. Cruz Azul", category: "Liga MX Claus. - Copa Méjico Claus. - Copa Méjico Apert. - " },
+            { season: "2017/18", team: "C.F. Cruz Azul", category: "Liga MX Claus. - Copa Méjico Claus. - Copa Méjico Apert. - " },
+            { season: "2016/17", team: "Nova Southeastern Sharks", category: "2ª Div. NCAA" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "C.F. Cruz Azul Sub-20", category: "Ascenso MX Claus." },
+            { season: "2013/14", team: "C.F. Cruz Azul II", category: "Copa Méjico Claus." },
+            { season: "2012/13", team: "C.F. Cruz Azul", category: "Copa Méjico Apert. - Copa Méjico Claus." }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "ibarra": {
+        name: "David Ibarra Espinosa",
+        footballName: "Ibarra",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/1XVkfn9v/Ibarra_PNG.webp",
+        personalData: {
+            fullName: "David Ibarra Espinosa",
+            nickname: "Ibarra",
+            birthPlace: "Elche, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,68 m",
+            birthDate: "20/02/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "S.F.C. Minerva", category: "3ª Div." },
+            { season: "2020/21", team: "Novelda C.F.", category: "3ª Div." },
+            { season: "2019/20", team: "Novelda C.F.", category: "3ª Div." },
+            { season: "2019/20", team: "Athletic Club Torrellano", category: "1ª FFCV" },
+            { season: "2018/19", team: "U.D. Rayo Ibense", category: "3ª Div." },
+            { season: "2017/18", team: "Hércules de Alicante C.F.", category: "2ª Div. B" },
+            { season: "2016/17", team: "Deportivo Rayo Cantabria​​", category: "3ª Div." },
+            { season: "2016/17", team: "Crevillente Deportivo", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Elche C.F. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
