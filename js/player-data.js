@@ -10198,6 +10198,65 @@ const playersData = {
             }
         }
     },
+
+        "christianrivera": {
+        name: "Christian Rivera Hernández",
+        footballName: "Christian Rivera",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/vT50JW8w/Christian_Rivera_PNG.webp",
+        personalData: {
+            fullName: "Christian Rivera Hernández",
+            nickname: "Christian Rivera",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,91 m",
+            birthDate: "09/07/1997",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Avilés Industrial C.F.", category: "1ª Federación" },
+            { season: "2024/25", team: "F.C. Torpedo Kutaisi", category: "Liga Georgia" },
+            { season: "2023/24", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2022/23", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "Girona F.C.", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
+            { season: "2019/20", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "S.D. Huesca", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "F.C. Barcelona B", category: "2ª Div." },
+            { season: "2017/18", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "S.D. Eibar", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2013/14", team: "Real Sporting de Gijón Sub-19", category: "División de Honor" }
+        ],
+        nationalTeam: [
+            { season: "2016", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2015", team: "España Sub-19", category: "Amistosos" },
+            { season: "2015", team: "España Sub-18", category: "Amistosos" },
+            { season: "2014", team: "España Sub-19", category: "Amistosos" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 12, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
