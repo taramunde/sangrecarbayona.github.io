@@ -304,7 +304,7 @@ const enfrentamientos = [
   { equipo1: "Rayo Vallecano", equipo2: "Real Oviedo", goles1: null, goles2: null },
   
   // Jornada 24
-  { equipo1: "Elche C.F.", equipo2: "C.A. Osasuna", goles1: null, goles2: null },
+  { equipo1: "Elche C.F.", equipo2: "C.A. Osasuna", goles1: 0, goles2: 0 },
   { equipo1: "Getafe C.F.", equipo2: "Villarreal C.F.", goles1: null, goles2: null },
   { equipo1: "Levante U.D.", equipo2: "Valencia C.F.", goles1: null, goles2: null },
   { equipo1: "Real Madrid", equipo2: "Real Sociedad", goles1: null, goles2: null },

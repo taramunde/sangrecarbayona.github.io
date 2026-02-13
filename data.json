@@ -1,13 +1,13 @@
 {
-  "jornada": "23 LaLiga EA Sports 2025/26",
+  "jornada": "24 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "RAY",
-    "homeImg": "https://i.postimg.cc/153WzLct/Rayo_Vallecano_de_Madrid_B_(2007).jpg",
-    "visitor": "OVI",
-    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "home": "OVI",
+    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "visitor": "ATH",
+    "visitorImg": "https://i.postimg.cc/wvk3Y2Hv/Athletic_Club_(2025).png",
     "score": " - ",
-    "date": "Sáb. 07 Feb, 14:00",
-    "time": "Vallecas"
+    "date": "Dom. 15 Feb, 14:00",
+    "time": "Carlos Tartiere"
   },
   "nextMatch": {
     "home": "OVI",
