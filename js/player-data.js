@@ -5263,7 +5263,8 @@ const playersData = {
         birthDate: "26/02/1996",
         deathDate: null // Poner null si el jugador está vivo
     },
-        career: [  
+        career: [ 
+            { season: "2025/26", team: "C.D. Lugo", category: "1ª Federación" },
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
             { season: "2024/25", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." },
@@ -12464,6 +12465,108 @@ const playersData = {
             "2017/18": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "diegocervero": {
+        name: "Diego Cervero Otero",
+        footballName: "Diego Cervero",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/PfY7C8Y8/Diego_Cervero_PNG.webp",
+        personalData: {
+            fullName: "Diego Cervero Otero",
+            nickname: "Diego Cervero",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,86 m",
+            birthDate: "13/08/1983",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.D. Numancia", category: "2ª Federación" },
+            { season: "2021/22", team: "At. Sanluqueño C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "At. Sanluqueño C.F.", category: "2ª Div. B - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "Barakaldo C.F.", category: "2ª Div. B" },
+            { season: "2019/20", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Burgos C.F.", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "U.D. Logroñés", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "U.D. Logroñés", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "U.D. Logroñés", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2007/08", team: "Real Oviedo", category: "3ª Div. - Copa Federación Fase Autonómica - 3ª Div. Prom. de Ascenso" },
+            { season: "2006/07", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2006/07", team: "Marbella F.C.", category: "2ª Div. B" },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2004/05", team: "Real Oviedo", category: "3ª Div. - Copa Federación Fase Autonómica - 3ª Div. Prom. de Ascenso - Copa del Rey" },
+            { season: "2003/04", team: "Real Oviedo", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2002/03", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2001/02", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2001/02", team: "Real Oviedo B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 11, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 23, goles_marcados: 7, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 33, goles_marcados: 12, tarjetas_amarillas: 4, tarjetas_rojas: 2 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 4, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 36, goles_marcados: 22, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2008/09": {
+                liga: { partidos: 37, goles_marcados: 36, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2007/08": {
+                liga: { partidos: 39, goles_marcados: 27, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 5, goles_marcados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2005/06": {
+                liga: { partidos: 22, goles_marcados: 3, tarjetas_amarillas: 2, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2004/05": {
+                liga: { partidos: 30, goles_marcados: 17, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 8, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2003/04": {
+                liga: { partidos: 31, goles_marcados: 11, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
