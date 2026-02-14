@@ -12573,6 +12573,55 @@ const playersData = {
         }
     },
 
+        "kone": {
+        name: "Mamadou Koné",
+        footballName: "Koné",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/WpZ4tS56/Koné_PNG.webp",
+        personalData: {
+            fullName: "Mamadou Koné",
+            nickname: "Koné",
+            birthPlace: "Bingerville, Abiyán",
+            country: "Costa de Marfil",
+            nationality: "Costamarfileña",
+            height: "1,76 m",
+            birthDate: "25/12/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "K.M.S.K. Deinze", category: "2ª Bélgica" },
+            { season: "2022/23", team: "K.M.S.K. Deinze", category: "2ª Bélgica - Copa Bélgica" },
+            { season: "2021/22", team: "K.A.S. Eupen", category: "Liga Bélgica - Copa Bélgica" },
+            { season: "2020/21", team: "K.A.S. Eupen", category: "Liga Bélgica - Copa Bélgica" },
+            { season: "2019/20", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "K.A.S. Eupen", category: "Liga Bélgica - Prom. Liga Belgica" },
+            { season: "2017/18", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Leganés", category: "1ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Real Racing Club de Santander", category: "2ª Div." },
+            { season: "2013/14", team: "Real Racing Club de Santander", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Real Racing Club de Santander B", category: "2ª Div. B" },
+            { season: "2011/12", team: "Real Racing Club de Santander B", category: "Copa Federación" },
+            { season: "2011/12", team: "Real Racing Club de Santander", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Real Racing Club de Santander B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" }
+        ],
+        nationalTeam: [
+            { season: "2012", team: "Costa de Marfil Sub-20", category: "Amistosos" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 34, goles_marcados: 5, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
