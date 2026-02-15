@@ -1,7 +1,7 @@
 const videosDB = [
     {
-        id: "Jj1qI-5o7Y0", // ID del vídeo de Youtube
-        title: "Resumen: Real Oviedo vs Real Sporting | Derbi Asturiano"
+        id: "6t-g2jTvmoo", // ID del vídeo de Youtube
+        title: "Villarreal C.F. Vs Real Oviedo"
     },
     {
         id: "X8K4vQ9fG_s",
