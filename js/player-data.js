@@ -13175,6 +13175,36 @@ const playersData = {
         }
     },
 
+            "generelo2015": {
+        name: "David Generelo Miranda",
+        footballName: "Generelo",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/cK0fqHc4/Generelo-entrenador-PNG.webp",
+        personalData: {
+            fullName: "David Generelo Miranda",
+            nickname: "Generelo",
+            birthPlace: "Badajoz, Badajoz",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "11/08/1982",
+            deathDate: null
+        },
+        career: [
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos_entrenados: 13, victorias: 4, empates: 1, derrotas: 8 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
         "ziganda": {
         name: "José Ángel Ziganda Lakunza",
         footballName: "Ziganda",
