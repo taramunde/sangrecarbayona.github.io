@@ -5,22 +5,32 @@
     "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "visitor": "ATH",
     "visitorImg": "https://i.postimg.cc/wvk3Y2Hv/Athletic_Club_(2025).png",
-    "score": " - ",
+    "score": "1 - 2",
     "date": "Dom. 15 Feb, 14:00",
     "time": "Carlos Tartiere"
   },
   "nextMatch": {
-    "home": "OVI",
-    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "visitor": "ATH",
-    "visitorImg": "https://i.postimg.cc/wvk3Y2Hv/Athletic_Club_(2025).png",
+    "home": "RSO",
+    "homeImg": "https://i.postimg.cc/Nff26jxv/real-sociedad-b.png",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "score": " - ",
-    "date": "Dom. 15 Feb, 14:00",
-    "time": "Carlos Tartiere"
+    "date": "Sáb. 21 Feb, 14:00",
+    "time": "Reale Arena"
   },
   
   "goalscorers": [
-    
+    {
+      "name": "Ilyas",
+      "number": "7",
+      "photo": "https://i.postimg.cc/xCTdXSFX/Ilyas_PNG_(3).webp",
+      "nation": "https://i.postimg.cc/jjfxjjwP/España.jpg",
+      "goals": 3,
+      "minute": "30'",
+      "partidos": "22",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/ilyas-chaira/profil/spieler/593412"
+    }
     
   ],
 
