@@ -12622,6 +12622,112 @@ const playersData = {
         }
     },
 
+        "davidgonzalez2015": {
+        name: "David González Gómez",
+        footballName: "David González",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/wj0Z68Jf/David_González_PNG.webp",
+        personalData: {
+            fullName: "David González Gómez",
+            nickname: "David González",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "02/08/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "R.C. Recreativo de Huelva", category: "2ª Federación" },
+            { season: "2024/25", team: "Zamora C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "Persis Solo", category: "Superliga Indonesia" },
+            { season: "2022/23", team: "Algeciras C.F.", category: "1ª Federación" },
+            { season: "2021/22", team: "Algeciras C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Logroñés", category: "2ª Div." },
+            { season: "2019/20", team: "U.D. Logroñés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B - Copa Federación" },
+            { season: "2018/19", team: "Real Oviedo B", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2015/16", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2012/13", team: "C.D. Covadonga", category: "3ª Div." }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "allyson": {
+        name: "Allyson Fernando Santos Da Silva",
+        footballName: "Allyson",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/tThsx59c/Allyson-PNG.webp",
+        personalData: {
+            fullName: "Allyson Fernando Santos Da Silva",
+            nickname: "Allyson",
+            birthPlace: "Ariquemes, Rondônia",
+            country: "Brasil",
+            nationality: "Brasileña, Española",
+            height: "1,84 m",
+            birthDate: "14/07/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Boiro", category: "3ª Federación" },
+            { season: "2025/26", team: "F.C. Francavilla 1931", category: "Serie D" },
+            { season: "2023/24", team: "Caudal Deportivo", category: "3ª Federación" },
+            { season: "2022/23", team: "S.D. Compostela", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Club Polideportivo El Ejido 2012", category: "2ª Federación" },
+            { season: "2021/22", team: "C.D. Numancia", category: "2ª Federación" },
+            { season: "2020/21", team: "U.P. de Langreo", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B" },
+            { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.F. Villanovense", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2016/17", team: "At. Levante U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "2016/17", team: "Levante U.D.", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "C.D. Covadonga", category: "3ª Div." }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
