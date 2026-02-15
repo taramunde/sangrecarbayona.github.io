@@ -10,12 +10,6 @@ const notes = {
     
             
             
-            '2026-02-15': {
-                text: 'Jornada 24<br> Real Oviedo - Athletic Club<br>14:00',
-                color: 'blue',
-                shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
-                shieldUrlRight: 'https://i.postimg.cc/wvk3Y2Hv/Athletic-Club-2025.png'
-            },
             '2026-02-21': {
                 text: 'Jornada 25<br> Real Sociedad - Real Oviedo<br>14:00',
                 color: 'blue',
@@ -28,8 +22,14 @@ const notes = {
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
                 shieldUrlRight: 'https://i.postimg.cc/MT6NxX9P/Club-Atl-tico-de-Madrid-2000.jpg'
             },
-            '2026-03-08': {
-                text: 'Jornada 27<br> R.C.D. Espanyol - Real Oviedo<br>--:--',
+            '2026-03-04': {
+                text: 'Jornada 23<br> Rayo Vallecano - Real Oviedo<br>19:00',
+                color: 'blue',
+                shieldUrlLeft: 'https://i.postimg.cc/153WzLct/Rayo_Vallecano_de_Madrid_B_(2007).jpg',
+                shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
+            },
+            '2026-03-09': {
+                text: 'Jornada 27<br> R.C.D. Espanyol - Real Oviedo<br>21:00',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/ydBThzdg/RCD-Espanyol-2023.png',
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
@@ -38,7 +38,7 @@ const notes = {
                 text: 'Jornada 28<br> Real Oviedo - Valencia C.F.<br>--:--',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
-                shieldUrlRight: 'https://i.postimg.cc/MT6NxX9P/Club-Atl-tico-de-Madrid-2000.jpg'
+                shieldUrlRight: 'https://i.postimg.cc/tTP3SHQX/Valencia_Mestalla_(2012).jpg'
             },
             '2026-03-22': {
                 text: 'Jornada 29<br> Levante U.D. - Real Oviedo<br>--:--',
