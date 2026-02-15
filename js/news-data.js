@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/L5sHxxKs/J-22-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Real Oviedo vuelve a ganar de la mano de Santi Cazorla.",
+        image: "https://i.postimg.cc/3R2CbLgB/J24-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "Un Athletic ramplón remonta y deja muy tocado al Real Oviedo.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/01/31/dfsdg/00031769867768366789521.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/15/croni/00031771162809581619696.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/fR81KMWt/J-22-LNE.jpg", // FOTO NOTICIA 2
-        title: "Cazorla manda, el Oviedo gana, el Tartiere sonríe: victoria de oro ante el Girona (1-0).",
+        image: "https://i.postimg.cc/wvDcbWhF/J24-LNE.jpg", // FOTO NOTICIA 2
+        title: "El Oviedo deja pasar su gran oportunidad por delante: dolorosa derrota ante el Athletic (1-2).",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/01/31/cazorla-manda-oviedo-gana-tartiere-126299465.html"
+        link: "https://www.lne.es/real-oviedo/2026/02/15/oviedo-deja-pasar-gran-oportunidad-126860104.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/g2jgG8p5/J-22-EC.webp", // FOTO NOTICIA 3
-        title: "Real Oviedo 1-0 Girona | El Real Oviedo vuelve a creer con una trabajada victoria.",
+        image: "https://i.postimg.cc/508qkPw7/J24-EC.webp", // FOTO NOTICIA 3
+        title: "La ilusión del Real Oviedo contra el Athletic se esfuma tras el descanso.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-vuelve-creer-trabajada-victoria-girona-tartiere-20260131164255-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-athletic-bilbao-partido-goles-resultado-jugadas-cronica-20260215163634-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/ZqFBgsgS/J-22-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: Cazorla y Thiago sostienen la fe del Oviedo.",
+        image: "https://i.postimg.cc/MT1brsys/J24-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: Dos zarpazos del Athletic hunden al Oviedo.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-cazorla-y-thiago-sostienen-la-fe-del-oviedo"
+        link: "https://killerasturias.com/cronicas/la-cronica-dos-zarpazos-del-athletic-hunden-al-oviedo"
     }
 ];
 
