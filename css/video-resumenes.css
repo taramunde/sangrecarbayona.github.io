@@ -1,4 +1,6 @@
-/* Contenedor principal */
+/* ==========================================
+   CONTENEDOR PRINCIPAL Y TÍTULO DE SECCIÓN
+   ========================================== */
 .video-section {
     max-width: 1200px;
     margin: 30px auto;
@@ -21,151 +23,143 @@
     margin: 0 auto 40px auto;
 }
 
-/* La Cuadrícula (Grid) */
+/* ==========================================
+   CUADRÍCULA DE VÍDEOS (GRID)
+   ========================================== */
 .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 25px;
 }
 
-/* Tarjeta de Vídeo */
+/* ==========================================
+   TARJETA DE VÍDEO (INDIVIDUAL)
+   ========================================== */
 .video-card {
-    position: relative;
+    display: flex;
+    flex-direction: column; /* Apila Foto -> Texto -> Botones */
+    background: #003366;    /* Fondo Azul Oviedo */
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    height: 100%;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background: #000;
-    aspect-ratio: 16/9;
 }
 
 .video-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-/* Imagen en miniatura */
-.video-card img {
+/* Contenedor de la miniatura */
+.video-thumb-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: #000;
+}
+
+.video-thumb-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.8;
+    display: block;
+    opacity: 0.9;
     transition: opacity 0.3s;
 }
 
-.video-card:hover img {
-    opacity: 0.4; /* Se oscurece al pasar el ratón */
+.video-card:hover .video-thumb-container img {
+    opacity: 0.6;
 }
 
-/* Icono de Play */
+/* Icono de Play central */
 .play-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: rgba(0,0,0,0.6);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid #fff;
-    transition: transform 0.3s;
     pointer-events: none;
+    z-index: 2;
 }
 
 .play-icon::before {
     content: '';
-    display: block;
-    width: 0; 
-    height: 0; 
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 18px solid #fff;
-    margin-left: 5px;
+    border-left: 15px solid #fff;
+    margin-left: 4px;
 }
 
-.video-card:hover .play-icon {
-    transform: translate(-50%, -50%) scale(1.2);
-    background: #ffd700;
-    border-color: #ffd700;
-}
-.video-card:hover .play-icon::before {
-    border-left-color: #003366;
-}
-
-/* Título del vídeo (aparece abajo) */
-/* Contenedor del título del video */
+/* ==========================================
+   INFORMACIÓN DEL PARTIDO (TÍTULO)
+   ========================================== */
 .video-info {
     padding: 15px 10px;
-    background: #003366; /* Azul Oviedo */
-    text-align: center;   /* Centramos el texto del partido */
-    min-height: 60px;    /* Asegura que siempre tenga espacio */
+    background: #003366 !important; /* Azul Oviedo */
+    text-align: center;
+    flex-grow: 1; /* Para que todos los títulos ocupen el mismo espacio */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* El texto J1 Villarreal vs Real Oviedo... */
 .video-info h3 {
-    margin: 0;
-    font-size: 1.1rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #ffffff !important; /* Forzamos blanco para que no desaparezca */
-    font-weight: 700;
+    margin: 0 !important;
+    font-size: 1.05rem !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: #ffffff !important; /* Texto Blanco */
+    font-weight: bold !important;
     text-transform: uppercase;
+    line-height: 1.3;
 }
 
-/* Los botones de compartir que van debajo del título */
+/* ==========================================
+   BOTONES DE COMPARTIR EN LA TARJETA
+   ========================================== */
 .card-share-container {
-    background: #00264d; /* Un azul un poco más oscuro para diferenciar */
-    padding: 8px 0;
+    background: #00264d; /* Azul más oscuro para los botones */
+    padding: 10px 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 15px;
+    border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* Ajuste de la tarjeta completa */
-.video-card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #003366;
-}
-
-/* Botón Cargar Más */
-.load-more-container {
-    margin-top: 40px;
-    text-align: center;
-}
-
-#load-more-btn {
-    background-color: #003366;
-    color: white;
-    border: none;
-    padding: 12px 30px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 25px;
+.card-share-btn {
+    width: 32px;
+    height: 32px;
     cursor: pointer;
-    transition: background 0.3s;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#load-more-btn:hover {
-    background-color: #004a99;
+.card-share-btn img {
+    width: 22px !important;
+    height: 22px !important;
+    filter: brightness(1);
 }
 
-/* MODAL */
+.card-share-btn:hover {
+    transform: scale(1.2);
+}
+
+/* ==========================================
+   MODAL (REPRODUCTOR Y COMPARTIR)
+   ========================================== */
 .modal {
     display: none; 
     position: fixed; 
-    z-index: 2000; 
+    z-index: 9999; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -177,31 +171,29 @@
 .modal-content {
     position: relative;
     margin: 5% auto;
-    padding: 0;
     width: 90%;
     max-width: 900px;
-    background: transparent;
+    background: #001a33;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .close-modal {
     position: absolute;
-    top: -40px;
-    right: 0;
+    top: 10px;
+    right: 15px;
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     cursor: pointer;
-    transition: color 0.3s;
+    z-index: 10;
 }
-
-.close-modal:hover { color: #ffd700; }
 
 .video-wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* Ratio 16:9 */
+    padding-bottom: 56.25%; /* 16:9 */
     height: 0;
-    background: #000;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .video-wrapper iframe {
@@ -212,83 +204,51 @@
 #modal-title {
     color: white;
     text-align: center;
-    margin-top: 15px;
+    padding: 20px 10px 10px 10px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin: 0;
 }
 
-/* --- BOTONES DE COMPARTIR EN LAS TARJETAS (GRID) --- */
-.card-share-container {
-    padding: 10px;
-    background: #f9f9f9;
-    display: flex;
-    justify-content: space-around;
-    border-top: 1px solid #eee;
-}
-
-.card-share-btn {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: transform 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-share-btn img {
-    width: 20px !important; /* Iconos más pequeños para la tarjeta */
-    height: 20px !important;
-    opacity: 1 !important;
-}
-
-.card-share-btn:hover {
-    transform: scale(1.2);
-}
-
-/* --- BOTONES DE COMPARTIR EN EL MODAL --- */
 .modal-share-section {
-    margin-top: 20px;
-    padding: 15px;
-    border-top: 1px solid #444;
+    margin-top: 10px;
     text-align: center;
 }
 
 .modal-share-section h4 {
     color: #ffd700;
     margin-bottom: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.9rem;
     text-transform: uppercase;
-    font-size: 1rem;
 }
 
-/* Reutilizamos tu estilo de lista de iconos pero para el modal */
-.modal-share-section .social-icon-list {
-    justify-content: center;
-    gap: 15px;
+/* ==========================================
+   BOTÓN CARGAR MÁS Y RESPONSIVE
+   ========================================== */
+.load-more-container {
+    margin: 40px 0;
 }
 
-/* Ajuste para que la tarjeta no sea solo el video, sino que contenga la info abajo */
-.video-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+#load-more-btn {
+    background: #003366;
+    color: white;
+    border: 2px solid #ffd700;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
-.video-thumb-container {
-    position: relative;
-    aspect-ratio: 16/9;
-    background: #000;
+#load-more-btn:hover {
+    background: #ffd700;
+    color: #003366;
 }
 
-.video-info {
-    flex-grow: 1;
-    padding: 10px;
-    background: white;
-}
-
-/* Ajustes Responsive */
 @media (max-width: 768px) {
-    .video-grid { grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); }
-    .modal-content { margin: 30% auto; width: 95%; }
+    .video-grid { grid-template-columns: 1fr; }
+    .modal-content { margin: 20% auto; width: 95%; }
+    .section-title { font-size: 1.8rem; }
 }
