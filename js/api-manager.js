@@ -3,8 +3,8 @@
 const API_CONFIG = {
     key: "79616dc2c53f61d4bb90aa5f82315aeb", // <--- PEGA TU API KEY AQUÍ
     teamId: 532,     // ID del Real Oviedo en API-Football
-    leagueId: 141,   // ID de LaLiga Hypermotion (Segunda División)
-    season: 2024,    // Año de inicio de la temporada actual
+    leagueId: 140,   // ID de LaLiga EA Sports (Primera División)
+    season: 2025,    // Año de inicio de la temporada actual
     cacheTime: 3600000 // 1 hora en milisegundos (para ahorrar peticiones)
 };
 
@@ -146,9 +146,9 @@ async function loadStandings() {
 }
 
 function getPromotionClass(rank) {
-    if (rank <= 2) return 'champions'; // Ascenso Directo
-    if (rank <= 6) return 'conference'; // Playoff
-    if (rank >= 19) return 'descenso'; // Descenso
+    if (rank <= 4) return 'champions';    // Champions League (Verde)
+    if (rank <= 6) return 'conference';   // Europa / Conference (Dorado)
+    if (rank >= 18) return 'descenso';    // Descenso a Segunda (Rojo)
     return '';
 }
 
