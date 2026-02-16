@@ -97,24 +97,27 @@
 }
 
 /* Título del vídeo (aparece abajo) */
+/* --- BUSCA ESTA PARTE Y DÉJALA ASÍ --- */
 .video-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 15px;
-    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
-    color: white;
+    flex-grow: 1;
+    padding: 15px 10px;
+    background: #003366; /* Fondo azul oscuro del Real Oviedo */
     text-align: left;
-    transform: translateY(0);
-    transition: transform 0.3s;
 }
 
-.video-card h3 {
+.video-info h3 {
     margin: 0;
     font-size: 1.1rem;
     font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 1px 1px 2px black;
+    color: #ffffff; /* Letras blancas para que se lean bien */
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+/* Opcional: si quieres que el título sea un poco dorado al pasar el ratón */
+.video-card:hover .video-info h3 {
+    color: #ffd700; 
 }
 
 /* Botón Cargar Más */
