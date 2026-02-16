@@ -5069,6 +5069,91 @@ const playersData = {
         }
     },
 
+        "castiello": {
+        name: "Pablo Castiello Montes",
+        footballName: "Castiello",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/mZ5sS4JY/Castiello_PNG.webp",
+        personalData: {
+            fullName: "Pablo Castiello Montes",
+            nickname: "Castiello",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "04/04/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Titánico de Laviana", category: "3ª Federación" },
+            { season: "2024/25", team: "K.F. Vídir", category: "3ª Islandia" },
+            { season: "2024/25", team: "Real Titánico de Laviana", category: "3ª Federación" },
+            { season: "2023/24", team: "Caudal Deportivo", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Caudal Deportivo", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "C.D. Covadonga", category: "2ª Div. B - Copa Federación Fase Autonómica - 2ª Div. B 2ª Fase de Permanencia" },
+            { season: "2019/20", team: "C.D. Covadonga", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "F.U. Narbonne", category: "Regional 2 Occitanie" },
+            { season: "2017/18", team: "U.P. de Langreo", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "U.P. de Langreo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "C.D. Mosconia", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "oscarruiz": {
+        name: "Óscar Ruiz Fernández",
+        footballName: "Óscar",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Mpv2MFds/Óscar_PNG.webp",
+        personalData: {
+            fullName: "Óscar Ruiz Fernández",
+            nickname: "Óscar",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "28/05/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "Club Siero", category: "3ª Div." },
+            { season: "2018/19", team: "Club Siero", category: "3ª Div." },
+            { season: "2017/18", team: "Condal Club", category: "3ª Div." },
+            { season: "2016/17", team: "Condal Club", category: "3ª Div." },
+            { season: "2015/16", team: "Real Avilés C.F.", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "U.C. Ceares", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "U.C. Ceares", category: "3ª Div." }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
