@@ -1959,7 +1959,7 @@ const playersData = {
             { season: "2019/20", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Extremadura U.D.", category: "2ª Div. - Copa del Rey" },
             { season: "2017/18", team: "Lorca F.C.", category: "2ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Lorca F.C.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "La Hoya Lorca C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2015/16", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2014/15", team: "At. Levante U.D.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2013/14", team: "Huracán Valencia C.F.", category: "2ª Div. B" },
@@ -4832,6 +4832,98 @@ const playersData = {
         stats: {
             "2015/16": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "sergiosanchez": {
+        name: "Sergio Jiménez Sánchez",
+        footballName: "Sergio Sánchez",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/9fL78zGX/Sergio_Sánchez_PNG.webp",
+        personalData: {
+            fullName: "Sergio Jiménez Sánchez",
+            nickname: "Sergio Sánchez",
+            birthPlace: "Albacete, Albacete",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "22/08/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Europa F.C.", category: "Fase Previa Conference League" },
+            { season: "2021/22", team: "Europa F.C.", category: "Premier División Gibraltar - Rock Cup Gibraltar - Fase Previa Conference League" },
+            { season: "2020/21", team: "Europa F.C.", category: "Premier División Gibraltar" },
+            { season: "2019/20", team: "Europa F.C.", category: "Premier División Gibraltar - Fase Previa Conference League" },
+            { season: "2018/19", team: "Club Polideportivo El Ejido 2012", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "U.D. Melilla", category: "2ª Div. B" },
+            { season: "2015/16", team: "S.D. Compostela", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "La Hoya Lorca C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "U.D. Melilla", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "C.D. San Roque de Lepe", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "C.F. Villanovense", category: "2ª Div. B" },
+            { season: "2009/10", team: "U.B. Conquense", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "Sangonera Atlético C.F.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "redondo": {
+        name: "Manuel Redondo García",
+        footballName: "Redondo",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/fTVBxQQ0/Redondo_PNG.webp",
+        personalData: {
+            fullName: "Manuel Redondo García",
+            nickname: "Redondo",
+            birthPlace: "Sevilla, Sevilla",
+            country: "España",
+            nationality: "Española",
+            height: "1,81 m",
+            birthDate: "11/01/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2018/19", team: "Coria C.F.", category: "3ª Div." },
+            { season: "2017/18", team: "Doxa Katokopias", category: "Liga Chipre - Copa Chipre" },
+            { season: "2016/17", team: "Doxa Katokopias", category: "Liga Chipre - Copa Chipre" },
+            { season: "2015/16", team: "Doxa Katokopias", category: "Liga Chipre" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Buriram United F.C.", category: "Liga Tailandia" },
+            { season: "2014/15", team: "Surin City F.C.", category: "2ª Tailandia" },
+            { season: "2013/14", team: "Buriram United F.C.", category: "Thai Cup" },
+            { season: "2012/13", team: "Buriram United F.C.", category: "Thai Cup - FA Cup Tailandia" },
+            { season: "2012/13", team: "Xerez C.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Sevilla At.", category: "2ª Div. B" },
+            { season: "2009/10", team: "Sevilla F.C.", category: "1ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Sevilla At.", category: "2ª Div." },
+            { season: "2007/08", team: "Sevilla At.", category: "2ª Div." },
+            { season: "2006/07", team: "Sevilla At.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2005/06", team: "Sevilla F.C. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2004/05", team: "Sevilla F.C. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 15, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
@@ -11450,7 +11542,7 @@ const playersData = {
             { season: "2018/19", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso" },
             { season: "2017/18", team: "Valencia Mestalla", category: "2ª Div. B" },
             { season: "2017/18", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa del Rey" },
-            { season: "2016/17", team: "Lorca F.C.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "La Hoya Lorca C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2016/17", team: "Granada C.F. B", category: "2ª Div. B" },
             { season: "2015/16", team: "Granada C.F. B", category: "2ª Div. B - Copa Federación" },
             { season: "2014/15", team: "Granada C.F. B", category: "2ª Div. B" },
@@ -11988,7 +12080,7 @@ const playersData = {
             { season: "2014/15", team: "U.D. Las Palmas", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
             { season: "2014/15", team: "Granada C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Girona F.C.", category: "2ª Div." },
-            { season: "2013/14", team: "Lorca F.C.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "La Hoya Lorca C.F.", category: "2ª Div. B - Copa del Rey" },
             { season: "2012/13", team: "Levante U.D. B", category: "2ª Div. B" },
             { season: "2011/12", team: "Getafe C.F. B", category: "2ª Div. B" },
             { season: "2010/11", team: "Albacete Balompié", category: "2ª Div. - Copa del Rey" },
