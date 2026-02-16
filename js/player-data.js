@@ -4931,6 +4931,53 @@ const playersData = {
         }
     },
 
+        "charlie": {
+        name: "Charlie Dean I'Anson",
+        footballName: "Charlie",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/7hCjRCdg/Charlie_PNG.webp",
+        personalData: {
+            fullName: "Charlie Dean I'Anson",
+            nickname: "Charlie",
+            birthPlace: "Luton, Inglaterra",
+            country: "Reino Unido",
+            nationality: "Británica, Española",
+            height: "1,82 m",
+            birthDate: "01/07/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Juventud Torremolinos C.F.", category: "3ª Federación" },
+            { season: "2023/24", team: "Vélez C.F.", category: "2ª Federación" },
+            { season: "2022/23", team: "U.D. San Sebastián de Los Reyes", category: "1ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "UCAM Murcia C.F.", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "UCAM Murcia C.F.", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "C.F. Rayo Majadahonda", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Real Murcia C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "Real Murcia C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Granada C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Elche Ilicitano", category: "2ª Div. B" },
+            { season: "2013/14", team: "Elche C.F.", category: "1ª Div." },
+            { season: "2012/13", team: "Elche Ilicitano", category: "3ª Div. Prom. de Ascenso" },
+            { season: "2011/12", team: "Grimsby Town F.C.", category: "National League - FA Cup" },
+            { season: "2010/11", team: "Grimsby Town F.C.", category: "National League" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 12, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
