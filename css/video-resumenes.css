@@ -197,6 +197,76 @@
     font-size: 1.5rem;
 }
 
+/* --- BOTONES DE COMPARTIR EN LAS TARJETAS (GRID) --- */
+.card-share-container {
+    padding: 10px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #eee;
+}
+
+.card-share-btn {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-share-btn img {
+    width: 20px !important; /* Iconos más pequeños para la tarjeta */
+    height: 20px !important;
+    opacity: 1 !important;
+}
+
+.card-share-btn:hover {
+    transform: scale(1.2);
+}
+
+/* --- BOTONES DE COMPARTIR EN EL MODAL --- */
+.modal-share-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #444;
+    text-align: center;
+}
+
+.modal-share-section h4 {
+    color: #ffd700;
+    margin-bottom: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* Reutilizamos tu estilo de lista de iconos pero para el modal */
+.modal-share-section .social-icon-list {
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Ajuste para que la tarjeta no sea solo el video, sino que contenga la info abajo */
+.video-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.video-thumb-container {
+    position: relative;
+    aspect-ratio: 16/9;
+    background: #000;
+}
+
+.video-info {
+    flex-grow: 1;
+    padding: 10px;
+    background: white;
+}
+
 /* Ajustes Responsive */
 @media (max-width: 768px) {
     .video-grid { grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); }
