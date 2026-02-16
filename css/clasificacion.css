@@ -238,3 +238,59 @@ tr.row-oviedo td { font-weight: bold; color: #0033cc; }
     .chart-header { flex-direction: column; text-align: center; }
     .chart-container { height: 250px; }
 }
+
+    /* --- AJUSTES PARA LA CLASIFICACIÓN AUTOMÁTICA (API) --- */
+
+/* Círculos de posición (Rank) */
+.rank-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    background-color: #7f8c8d; /* Gris por defecto */
+    font-size: 11px;
+}
+
+/* Colores de estados (Basados en estándares de liga) */
+.rank-badge.champions { 
+    background-color: #2ecc71 !important; /* Verde - Ascenso Directo */
+}
+
+.rank-badge.conference { 
+    background-color: #f1c40f !important; /* Amarillo/Dorado - Playoff */
+    color: #000 !important;
+}
+
+.rank-badge.descenso { 
+    background-color: #e74c3c !important; /* Rojo - Descenso */
+}
+
+/* Ajuste para las celdas de equipo que genera la API */
+.team-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+}
+
+.team-mini-logo {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.team-name-table {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Resaltado para el Real Oviedo cuando aparezca en la lista */
+tr.oviedo-highlight {
+    background-color: rgba(0, 51, 204, 0.1) !important; /* Un azul muy clarito */
+}
