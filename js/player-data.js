@@ -1010,7 +1010,7 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2023/24", team: "C.D. Mosconia", category: "1ª RFFPA" },
+            { season: "2023/24", team: "C.D. Mosconia", category: "1ª Asturfútbol" },
             { season: "2023/24", team: "S.D. Gernika Club", category: "2ª Federación - Copa del Rey" },
             { season: "2022/23", team: "Viveiro C.F.", category: "3ª Federación" },
             { season: "2021/22", team: "Caudal Deportivo", category: "3ª Federación - Copa Federación Fase Autonómica - 3ª Federación Prom. de Ascenso" },
@@ -2220,7 +2220,7 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación" },
             { season: "2020/21", team: "U.P. de Langreo", category: "2ª Div. B - Copa Federación - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
-            { season: "2020/21", team: "U.P. de Langreo B", category: "1ª RFFPA" },
+            { season: "2020/21", team: "U.P. de Langreo B", category: "Regional Preferente" },
             { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B" },
             { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B" }
             
@@ -4674,9 +4674,9 @@ const playersData = {
             { season: "2010/11", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2009/10", team: "Caudal Deportivo", category: "3ª Div." },
             { season: "2008/09", team: "Real Oviedo", category: "3ª Div." },
-            { season: "2007/08", team: "Real Oviedo B", category: "2ª RFFPA" },
+            { season: "2007/08", team: "Real Oviedo B", category: "1ª Regional" },
             { season: "2007/08", team: "U.P. de Langreo", category: "3ª Div." },
-            { season: "2006/07", team: "Real Oviedo B", category: "2ª RFFPA" },
+            { season: "2006/07", team: "Real Oviedo B", category: "1ª Regional" },
             { season: "2006/07", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div." },
             { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B" }
         ],
@@ -4971,6 +4971,97 @@ const playersData = {
         stats: {
             "2014/15": {
                 liga: { partidos: 12, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "sinchi": {
+        name: "Adrián Jimena Vior",
+        footballName: "Sinchi",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/1XqV3Hb4/Sinchi_PNG.webp",
+        personalData: {
+            fullName: "Adrián Jimena Vior",
+            nickname: "Sinchi",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "18/05/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "C.D. Vallobín", category: "1ª RFFPA" },
+            { season: "2021/22", team: "Astur C.F.", category: "Regional Preferente Asturias" },
+            { season: "2020/21", team: "Astur C.F.", category: "Regional Preferente Asturias" },
+            { season: "2019/20", team: "Astur C.F.", category: "Regional Preferente Asturias" },
+            { season: "2018/19", team: "Astur C.F.", category: "Regional Preferente Asturias" },
+            { season: "2017/18", team: "Astur C.F.", category: "Regional Preferente Asturias" },
+            { season: "2016/17", team: "Astur C.F.", category: "Regional Preferente Asturias" },
+            { season: "2015/16", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2010/11", team: "Real Oviedo Sub-19", category: "Liga Nacional" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "angel": {
+        name: "Ángel Saiz Rodríguez",
+        footballName: "Ángel",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/kGcRk4Sg/Angel-Saiz-PNG.webp",
+        personalData: {
+            fullName: "Ángel Saiz Rodríguez",
+            nickname: "Ángel",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,89 m",
+            birthDate: "10/06/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2018/19", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2016/17", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2014/15", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2011/12", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
@@ -7681,8 +7772,8 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2024/25", team: "Club Siero", category: "1ª RFFPA" },
-            { season: "2023/24", team: "Club Siero", category: "1ª RFFPA" },
+            { season: "2024/25", team: "Club Siero", category: "1ª Asturfútbol" },
+            { season: "2023/24", team: "Club Siero", category: "1ª Asturfútbol" },
             { season: "2023/24", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
             { season: "2022/23", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación Fase Autonómica" },
             { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación" },
