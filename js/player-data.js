@@ -5154,6 +5154,49 @@ const playersData = {
         }
     },
 
+        "colo": {
+        name: "Daniel García Peláez",
+        footballName: "Colo",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/YCBTXC3W/Colo_PNG.webp",
+        personalData: {
+            fullName: "Daniel García Peláez",
+            nickname: "Colo",
+            birthPlace: "Sotrondio, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,88 m",
+            birthDate: "22/03/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "C.D. Ibiza Isla Pitiusas", category: "3ª Div. - Copa del Rey - 3ª Div. 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "San Fernando C.D.", category: "2ª Div. B" },
+            { season: "2017/18", team: "Club Rápido de Bouzas", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2012/13", team: "C.F. Estudiantes de Somió", category: "Liga Nacional" },
+            { season: "2011/12", team: "Real Sporting de Gijón B Sub-19", category: "Liga Nacional" },
+            { season: "2010/11", team: "Real Sporting de Gijón B Sub-19", category: "Liga Nacional" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
