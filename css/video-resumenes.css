@@ -97,27 +97,44 @@
 }
 
 /* Título del vídeo (aparece abajo) */
-/* --- BUSCA ESTA PARTE Y DÉJALA ASÍ --- */
+/* Contenedor del título del video */
 .video-info {
-    flex-grow: 1;
     padding: 15px 10px;
-    background: #003366; /* Fondo azul oscuro del Real Oviedo */
-    text-align: left;
+    background: #003366; /* Azul Oviedo */
+    text-align: center;   /* Centramos el texto del partido */
+    min-height: 60px;    /* Asegura que siempre tenga espacio */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* El texto J1 Villarreal vs Real Oviedo... */
 .video-info h3 {
     margin: 0;
     font-size: 1.1rem;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #ffffff; /* Letras blancas para que se lean bien */
-    font-weight: bold;
+    color: #ffffff !important; /* Forzamos blanco para que no desaparezca */
+    font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.2;
 }
 
-/* Opcional: si quieres que el título sea un poco dorado al pasar el ratón */
-.video-card:hover .video-info h3 {
-    color: #ffd700; 
+/* Los botones de compartir que van debajo del título */
+.card-share-container {
+    background: #00264d; /* Un azul un poco más oscuro para diferenciar */
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Ajuste de la tarjeta completa */
+.video-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #003366;
 }
 
 /* Botón Cargar Más */
