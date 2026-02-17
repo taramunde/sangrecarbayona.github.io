@@ -10,14 +10,14 @@ const playersDatabase = {
         "url": "fichajugador.html?player=aaron"
     },
     "moldovan": {
-        "src": "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp",
+        "src": "https://i.postimg.cc/z3YVrK66/Moldovan.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Moldovan",
         "url": "fichajugador.html?player=moldovan"
     },
     "narvaez": {
-        "src": "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp",
+        "src": "https://i.postimg.cc/52hfyL39/Narváez.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Narváez",

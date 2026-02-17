@@ -57,7 +57,7 @@ const playersData = {
         position: "Portero",
         role: "portero",
         number: null,
-        image: "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp", 
+        image: "https://i.postimg.cc/z3YVrK66/Moldovan.webp", 
     personalData: {
         fullName: "Horațiu Alexandru Moldovan",
         nickname: "Moldovan",
@@ -109,7 +109,7 @@ const playersData = {
         position: "Portero",
         role: "portero",
         number: null,
-        image: "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp", 
+        image: "https://i.postimg.cc/52hfyL39/Narváez.webp", 
     personalData: {
         fullName: "Miguel de Jesús Narváez López",
         nickname: "Narváez",
