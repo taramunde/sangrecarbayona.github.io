@@ -13298,6 +13298,119 @@ const playersData = {
         }
     },
 
+        "sergiogarcia": {
+        name: "Sergio García de La Iglesia",
+        footballName: "Sergio García",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/pr1NqwZ1/Sergio_García_PNG.webp",
+        personalData: {
+            fullName: "Sergio García de La Iglesia",
+            nickname: "Sergio García",
+            birthPlace: "Zamora, Zamora",
+            country: "España",
+            nationality: "Española",
+            height: "1,72 m",
+            birthDate: "08/08/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Noname", category: "1ª Regional Castilla y León" },
+            { season: "2024/25", team: "C.D. Noname", category: "1ª Regional Castilla y León" },
+            { season: "2023/24", team: "C.D. Noname", category: "1ª Regional Castilla y León" },
+            { season: "2022/23", team: "C.D. Guijuelo", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Real Avilés Industrial C.F.", category: "2ª Federación - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2020/21", team: "Zamora C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "Zamora C.F.", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Zamora C.F.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.D. Toledo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "F.C. Cartagena", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "F.C. Cartagena", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Zamora C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "U.D. Salamanca", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "U.D. Salamanca", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Real Valladolid C.F.", category: "1ª Div." },
+            { season: "2008/09", team: "Real Valladolid C.F. B", category: "2ª Div. B" },
+            { season: "2007/08", team: "Real Valladolid C.F. B", category: "2ª Div. B" },
+            { season: "2006/07", team: "Real Valladolid C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" }
+        ],
+        nationalTeam: [
+            { season: "2008", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2007", team: "España Sub-19", category: "Clasif. Europeo Sub-19 - Copa del Atlántico Juvenil - Amistosos" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 35, goles_marcados: 6, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 30, goles_marcados: 6, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "dioni": {
+        name: "Dionisio Emanuel Villalba Rojano",
+        footballName: "Dioni",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/gkpT8kHt/Dioni_PNG.webp",
+        personalData: {
+            fullName: "Dionisio Emanuel Villalba Rojano",
+            nickname: "Dioni",
+            birthPlace: "Málaga, Málaga",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "21/12/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Eldense", category: "1ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Málaga C.F.", category: "1ª Federación - Copa del Rey - 1ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "C.D. Atlético Baleares", category: "1ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Atlético Baleares", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B - Copa del Rey - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2018/19", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
+            { season: "2018/19", team: "Lech Poznań K.K.S. II", category: "4ª Polonia" },
+            { season: "2018/19", team: "Lech Poznań K.K.S.", category: "Liga Polonia - Copa Polonia" },
+            { season: "2017/18", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "Real Racing Club de Santander", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "C.D. Leganés", category: "2ª Div." },
+            { season: "2013/14", team: "Cádiz C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "C.D. Leganés", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C. Deportivo de La Coruña B", category: "2ª Div. B" },
+            { season: "2009/10", team: "Caravaca C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "Murcia Deportivo C.F.", category: "3ª Div." },
+            { season: "2007/08", team: "Real Murcia C.F. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 15, goles_marcados: 4, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
