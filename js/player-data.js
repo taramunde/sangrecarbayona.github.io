@@ -6,7 +6,7 @@ const playersData = {
         position: "Portero",
         role: "portero",
         number: null,
-        image: "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
+        image: "https://i.postimg.cc/FsCtdNDG/Aaron.webp",
     personalData: {
         fullName: "Aarón Escandell Banacloche",
         nickname: "Aarón",
