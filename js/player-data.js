@@ -3130,7 +3130,7 @@ const playersData = {
             { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
             { season: "2013/14", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
-            { season: "2012/13", team: "Real Zaragoza Deportivo Aragón", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Zaragoza B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2011/12", team: "Real Jaén C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2010/11", team: "Real Jaén C.F.", category: "2ª Div. B" },
             { season: "2009/10", team: "Real Jaén C.F.", category: "2ª Div. B" }
@@ -7823,8 +7823,8 @@ const playersData = {
             { season: "2016/17", team: "Real Zaragoza", category: "2ª Div. - Copa del Rey" },
             { season: "2015/16", team: "Real Zaragoza Deportivo Aragón", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2014/15", team: "Real Zaragoza", category: "2ª Div." },
-            { season: "2014/15", team: "Real Zaragoza Deportivo Aragón", category: "2ª Div. B" },
-            { season: "2013/14", team: "Real Zaragoza Deportivo Aragón", category: "3ª Div. - Copa Federación" }
+            { season: "2014/15", team: "Real Zaragoza B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Zaragoza B", category: "3ª Div. - Copa Federación" }
         ],
         stats: {
             "2021/2022": {
@@ -10689,6 +10689,115 @@ const playersData = {
             "2015/16": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "josepsene": {
+        name: "Josep Señé Escudero",
+        footballName: "Josep Señé",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/cHwjWqTz/Josep_Señé_PNG.webp",
+        personalData: {
+            fullName: "Josep Señé Escudero",
+            nickname: "Josep Señé",
+            birthPlace: "San Cugat del Vallés, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "10/12/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.E. Sant Andreu", category: "2ª Federación" },
+            { season: "2025/26", team: "U.D. Ibiza", category: "1ª Federación" },
+            { season: "2024/25", team: "Racing Club de Ferrol", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "Racing Club de Ferrol", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Lugo", category: "2ª Div." },
+            { season: "2021/22", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Castellón", category: "2ª Div." },
+            { season: "2019/20", team: "R.C.D. Mallorca", category: "1ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "Cultural y Deportiva Leonesa", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
+            { season: "2015/16", team: "R.C. Celta de Vigo", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Madrid C.F. C", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "Terrassa Olímpica 2010 F.C.", category: "3ª Div." },
+            { season: "2009/10", team: "Terrassa F.C.", category: "2ª Div. B" },
+            { season: "2009/10", team: "Terrassa F.C. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 13, goles_marcados: 2, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 32, goles_marcados: 4, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 19, goles_marcados: 2, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "eneko2014": {
+        name: "Eneko Fernández de Garayalde Jiménez",
+        footballName: "Eneko",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Dw4SnBkG/Eneko_PNG.webp",
+        personalData: {
+            fullName: "Eneko Fernández de Garayalde Jiménez",
+            nickname: "Eneko",
+            birthPlace: "Zaragoza, Zaragoza",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "26/05/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2015/16", team: "C.D. Tudelano", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "C.E. Sabadell F.C.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "C.E. Sabadell F.C.", category: "2ª Div. B" },
+            { season: "2009/10", team: "Deportivo Alavés", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "S.D. Ejea", category: "3ª Div." },
+            { season: "2007/08", team: "F.C. Barcelona B", category: "3ª Div." },
+            { season: "2006/07", team: "Real Zaragoza", category: "1ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "Real Zaragoza B", category: "2ª Div. B" },
+            { season: "2004/05", team: "Real Zaragoza B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 20, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 19, goles_marcados: 2, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
