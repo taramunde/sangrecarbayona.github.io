@@ -1156,7 +1156,7 @@ const playersData = {
         position: "Defensa",
         role: "jugador",
         number: null,
-        image: "https://i.postimg.cc/15bMB7y7/Rahim-PNG.webp", 
+        image: "https://i.postimg.cc/RCdpXtNX/Rahim.webp", 
     personalData: {
         fullName: "Abdel Rahim Alhassane Bonkano",
         nickname: "Rahim",

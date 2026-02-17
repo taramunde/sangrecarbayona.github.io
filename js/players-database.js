@@ -937,7 +937,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=bailly"
     },
     "rahim": {
-        "src": "https://i.postimg.cc/15bMB7y7/Rahim_PNG.webp",
+        "src": "https://i.postimg.cc/RCdpXtNX/Rahim.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Rahim",
