@@ -10803,6 +10803,109 @@ const playersData = {
             }
         }
     },
+
+        "capelete": {
+        name: "Mario Capelete Escribano",
+        footballName: "Capelete",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/yddn8MVj/Capelete_PNG.webp",
+        personalData: {
+            fullName: "Mario Capelete Escribano",
+            nickname: "Capelete",
+            birthPlace: "San Sebastián, Guipúzcoa",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "01/04/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "S.D. Gernika Club", category: "2ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Ourense C.F.", category: "2ª Federación - 2ª Federación Prom. de Permanencia" },
+            { season: "2022/23", team: "Real Unión Club", category: "1ª Federación - Copa Federación Fase Autonómica - Copa Federación - Copa del Rey" },
+            { season: "2021/22", team: "Real Unión Club", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Real Unión Club", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "Real Unión Club", category: "2ª Div. B" },
+            { season: "2018/19", team: "Real Unión Club", category: "2ª Div. B" },
+            { season: "2017/18", team: "Real Unión Club", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "Real Unión Club", category: "2ª Div. B - Copa Federación" },
+            { season: "2015/16", team: "Club Marino de Luanco", category: "3ª Div." },
+            { season: "2015/16", team: "Real Oviedo", category: "2ª Div." },
+            { season: "2015/16", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2015/16": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2014/15": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2013/14": {
+                liga: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "rojas": {
+        name: "Sergio Santolaya Rojas",
+        footballName: "Rojas",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/0yL11CPb/Rojas_PNG.webp",
+        personalData: {
+            fullName: "Sergio Santolaya Rojas",
+            nickname: "Rojas",
+            birthPlace: "Logroño, La Rioja",
+            country: "España",
+            nationality: "Española",
+            height: "1,72 m",
+            birthDate: "13/04/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "S.D. Oyonesa", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "C.D. Arnedo", category: "3ª Federación" },
+            { season: "2022/23", team: "C.D. Varea", category: "3ª Federación - 3ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "C.D. Varea", category: "3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "S.D. Oyonesa", category: "3ª Div. - 3ª Div. 2ª Fase 2ª Div. RFEF" },
+            { season: "2019/20", team: "S.D. Logroñés", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "S.D. Logroñés", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "S.D. Logroñés", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Club Haro Deportivo", category: "3ª Div." },
+            { season: "2015/16", team: "Club Haro Deportivo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "S.D. Logroñés", category: "2ª Div. B" },
+            { season: "2012/13", team: "U.D. Logroñés", category: "2ª Div. B" },
+            { season: "2012/13", team: "U.D. Logroñés Sub-19", category: "División de Honor" },
+            { season: "2011/12", team: "Valvanera C.D. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2014/15": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
