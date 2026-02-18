@@ -1043,6 +1043,56 @@ const playersData = {
         }
     },
 
+        "orlandoquintana": {
+        name: "Orlando Quintana García",
+        footballName: "Orlando Quintana",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/qBtXZfjc/Orlando_Quintana_PNG.webp",
+        personalData: {
+            fullName: "Orlando Quintana García",
+            nickname: "Orlando Quintana",
+            birthPlace: "Las Palmas de Gran Canaria, Las Palmas",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "25/03/1978",
+            deathDate: null
+        },
+        career: [
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "Pontevedra C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "C.F. Lorca Deportiva", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "Mérida U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "C.F. Lorca Deportiva", category: "2ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "C.F. Lorca Deportiva", category: "2ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
+            { season: "2003/04", team: "U.D. Las Palmas", category: "2ª Div." },
+            { season: "2002/03", team: "U.D. Las Palmas", category: "2ª Div." },
+            { season: "2001/02", team: "U.D. Las Palmas", category: "1ª Div." },
+            { season: "2001/02", team: "Universidad de Las Palmas de Gran Canaria C.F.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 22, goles_encajados: 22, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 14, goles_encajados: 11, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
