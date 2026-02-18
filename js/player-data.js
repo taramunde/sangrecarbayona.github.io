@@ -5535,6 +5535,54 @@ const playersData = {
         }
     },
 
+        "javihernandez2013": {
+        name: "Francisco Javier Hernández García",
+        footballName: "Javi Hernández",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/1X5DRwsq/Javi_Hernández_(La_Mancha)_PNG.webp",
+        personalData: {
+            fullName: "Francisco Javier Hernández García",
+            nickname: "Javi Hernández",
+            birthPlace: "Almansa, Albacete",
+            country: "España",
+            nationality: "Española",
+            height: "1,89 m",
+            birthDate: "20/01/1983",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "U.D. Almansa", category: "1ª Autonómica Preferente Castilla La Mancha" },
+            { season: "2020/21", team: "C.D. Jávea", category: "Regional Preferente Comunidad Valenciana" },
+            { season: "2020/21", team: "U.D. Almansa", category: "3ª Div." },
+            { season: "2019/20", team: "C.D. Jávea", category: "Regional Preferente Comunidad Valenciana" },
+            { season: "2019/20", team: "Silla C.F.", category: "3ª Div." },
+            { season: "2019/20", team: "U.D. Almansa", category: "3ª Div." },
+            { season: "2017/18", team: "U.D. Almansa", category: "3ª Div." },
+            { season: "2016/17", team: "Yeclano Deportivo", category: "3ª Div." },
+            { season: "2015/16", team: "Marbella F.C.", category: "2ª Div. B" },
+            { season: "2014/15", team: "UCAM Murcia C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Deportivo Alavés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "U.B. Conquense", category: "2ª Div. B - Copa del Rey" },
+            { season: "2007/08", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2005/06", team: "C.F. Benidorm", category: "2ª Div. B" },
+            { season: "2004/05", team: "Tomelloso C.F.", category: "2ª Div. B" },
+            { season: "2003/04", team: "Tomelloso C.F.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 17, goles_marcados: 3, tarjetas_amarillas: 5, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
