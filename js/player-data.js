@@ -5583,6 +5583,51 @@ const playersData = {
         }
     },
 
+        "sergiodiaz": {
+        name: "Sergio Díaz Castilla",
+        footballName: "Sergio Díaz",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/W1PgtBNV/Sergio_Díaz_PNG.webp",
+        personalData: {
+            fullName: "Sergio Díaz Castilla",
+            nickname: "Sergio Díaz",
+            birthPlace: "Málaga, Málaga",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "02/07/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Juventud de Torremolinos C.F.", category: "1ª Federación" },
+            { season: "2024/25", team: "Juventud de Torremolinos C.F.", category: "2ª Federación - Copa del Rey" },
+            { season: "2023/24", team: "Juventud de Torremolinos C.F.", category: "3ª Federación" },
+            { season: "2022/23", team: "At. Mancha Real", category: "2ª Federación" },
+            { season: "2021/22", team: "Antequera C.F.", category: "2ª Federación" },
+            { season: "2020/21", team: "Antequera C.F.", category: "3ª Div. - Copa RFAF - 3ª Div. 2ª Fase de Ascenso - Prom. de Ascenso a 2ª Div. RFEF" },
+            { season: "2019/20", team: "Antequera C.F.", category: "3ª Div." },
+            { season: "2018/19", team: "Antequera C.F.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Antequera C.F.", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Vélez C.F.", category: "3ª Div." },
+            { season: "2015/16", team: "U.D. Melilla", category: "2ª Div. B" },
+            { season: "2014/15", team: "Córdoba C.F. B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "R.C.D. Mallorca B", category: "2ª Div. B" },
+            { season: "2012/13", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 19, goles_marcados: 1, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
