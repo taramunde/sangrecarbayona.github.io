@@ -5628,6 +5628,44 @@ const playersData = {
         }
     },
 
+        "chapi": {
+        name: "Roberto Villa González",
+        footballName: "Chapi",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/tT4Khvzv/Chapi_PNG.webp",
+        personalData: {
+            fullName: "Roberto Villa González",
+            nickname: "Chapi",
+            birthPlace: "Mieres, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "13/05/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "Urraca C.F.", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2014/15", team: "S.D. Lenense Proinastur", category: "3ª Div." },
+            { season: "2014/15", team: "C.D. Tuilla", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
