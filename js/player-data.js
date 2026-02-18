@@ -1067,10 +1067,10 @@ const playersData = {
             { season: "2011/12", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2010/11", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey" },
             { season: "2009/10", team: "Pontevedra C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
-            { season: "2008/09", team: "C.F. Lorca Deportiva", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "Lorca Deportiva C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2007/08", team: "Mérida U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
-            { season: "2006/07", team: "C.F. Lorca Deportiva", category: "2ª Div. - Copa del Rey" },
-            { season: "2005/06", team: "C.F. Lorca Deportiva", category: "2ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Lorca Deportiva C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "Lorca Deportiva C.F.", category: "2ª Div. - Copa del Rey" },
             { season: "2004/05", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
             { season: "2003/04", team: "U.D. Las Palmas", category: "2ª Div." },
             { season: "2002/03", team: "U.D. Las Palmas", category: "2ª Div." },
@@ -5446,6 +5446,95 @@ const playersData = {
         }
     },
 
+        "alba": {
+        name: "David Alba García-Baquero",
+        footballName: "Alba",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/0jq7TFHc/Alba-PNG.webp",
+        personalData: {
+            fullName: "David Alba García-Baquero",
+            nickname: "Alba",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,78 m",
+            birthDate: "06/04/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2014/15", team: "C.F. Fuenlabrada", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Albacete Balompié", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Albacete Balompié", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "U.B. Conquense", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2008/09", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2007/08", team: "Rayo Vallecano de Madrid", category: "2ª Div. B - Copa del Rey" },
+            { season: "2006/07", team: "Rayo Vallecano de Madrid", category: "2ª Div. B - Copa del Rey" },
+            { season: "2005/06", team: "Rayo Vallecano de Madrid", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 22, goles_marcados: 1, tarjetas_amarillas: 9, tarjetas_rojas: 1 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "sergiorodriguez": {
+        name: "Sergio Rodríguez Cidoncha",
+        footballName: "Sergio Rodríguez",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/GpLDxvTS/Sergio_Rodríguez_PNG.webp",
+        personalData: {
+            fullName: "Sergio Rodríguez Cidoncha",
+            nickname: "Sergio Rodríguez",
+            birthPlace: "Mérida, Badajoz",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "05/10/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "F.C. Santa Coloma", category: "Liga Andorra - Copa Andorra" },
+            { season: "2024/25", team: "Real Jaén C.F.", category: "3ª Federación - Copa del Rey - 3ª Federación Prom. de Ascenso" },
+            { season: "2023/24", team: "F.C. Santa Coloma", category: "Liga Andorra - Copa Andorra - Fase Previa Conference League" },
+            { season: "2022/23", team: "F.C. Santa Coloma", category: "Liga Andorra - Copa Andorra" },
+            { season: "2021/22", team: "F.K. Surkhon Termez", category: "Liga Uzbekistán" },
+            { season: "2020/21", team: "C.F. Lorca Deportiva", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia" },
+            { season: "2019/20", team: "C.F. Lorca Deportiva", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Coruxo F.C.", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.F. Lorca Deportiva", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "C.F. Lorca Deportiva", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Extremadura U.D.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Marbella F.C.", category: "2ª Div. B" },
+            { season: "2014/15", team: "Sestao River Club", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "U.D. Melilla", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2008/09", team: "Granada C.F.", category: "2ª Div. B" },
+            { season: "2007/08", team: "Levante U.D. B", category: "2ª Div. B" },
+            { season: "2007/08", team: "Levante U.D Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
@@ -6014,7 +6103,7 @@ const playersData = {
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Kasımpaşa S.K.", category: "Liga Turquía" },
             { season: "2024/25", team: "A.C.F. Fiorentina", category: "Serie A - Fase Previa Conference League" },
-            { season: "2023/24", team: "H.N.K. Hajduk Split", category: "Liga Croata HNL - Copa Croata" },
+            { season: "2023/24", team: "H.N.K. Hajduk Split", category: "Liga Croacia HNL - Copa Croacia" },
             { season: "2023/24", team: "A.C.F. Fiorentina", category: "Serie A - Supercopa de Italia - Coppa Italia - Fase Previa Conference League - Conference League" },
             { season: "2022/23", team: "A.C.F. Fiorentina", category: "Serie A - Coppa Italia - Conference League" },
             { season: "2022/23", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
@@ -6028,7 +6117,7 @@ const playersData = {
             { season: "2016/17", team: "V.f.B. Stuttgart", category: "2 Bundesliga" },
             { season: "2016/17", team: "V.f.L. Wolfsburg II", category: "Regionalliga" },
             { season: "2016/17", team: "V.f.L. Wolfsburg", category: "Bundesliga - DFB Pokal" },
-            { season: "2015/16", team: "G.N.K. Dinamo Zagreb", category: "Liga Croata NHL - Copa Croata" },
+            { season: "2015/16", team: "G.N.K. Dinamo Zagreb", category: "Liga Croacia NHL - Copa Croacia" },
             { season: "2015/16", team: "G.N.K. Dinamo Zagreb Sub-19", category: "UEFA Youth League" },
             { season: "2015/16", team: "G.N.K. Dinamo Zagreb II", category: "1ª Croacia 1 NL" }
             
@@ -8237,7 +8326,7 @@ const playersData = {
         },
         career: [
             { season: "2025/26", team: "F.C. Andorra", category: "2ª Div." },
-            { season: "2025/26", team: "H.N.K. Hajduk Split", category: "Liga Croata HNL - Copa Croata" },
+            { season: "2025/26", team: "H.N.K. Hajduk Split", category: "Liga Croacia HNL - Copa Croacia" },
             { season: "2024/25", team: "U.D. Almería", category: "2ª Div. - 2ª Div. Prom. de Ascenso - Copa del Rey" },
             { season: "2023/24", team: "U.D. Almería", category: "1ª Div. - Copa del Rey" },
             { season: "2022/23", team: "Real Betis Balompié", category: "1ª Div. - Europa League - Copa del Rey - Supercopa de España" },
@@ -12737,7 +12826,7 @@ const playersData = {
             { season: "2017/18", team: "Cafetaleros de Tapachula", category: "Ascenso MX Apert. - Ascenso MX Claus. - Ascenso MX Prom. de Ascenso" },
             { season: "2016/17", team: "Cafetaleros de Tapachula", category: "Ascenso MX Claus." },
             { season: "2016/17", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - CONCACAF Champs. Cup" },
-            { season: "2015/16", team: "R.N.K. Split", category: "Liga Croata HNL" },
+            { season: "2015/16", team: "R.N.K. Split", category: "Liga Croacia HNL" },
             { season: "2015/16", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - CONCACAF Champs. Cup" },
             { season: "2014/15", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - LPF Panamá Claus." },
             { season: "2013/14", team: "C.D. Árabe Unido", category: "LPF Panamá Apert. - LPF Panamá Claus. - CONCACAF Champs. Cup" },
