@@ -168,19 +168,19 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
     },
         career: [  
-            { season: "2025/26", team: "Rodez A.F.", category: "Ligue 2 - Copa de Francia" },
+            { season: "2025/26", team: "Rodez A.F.", category: "Ligue 2 - Copa Francia" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2023/24", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2022/23", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "Chamois Niort F.C.", category: "Ligue 2" },
-            { season: "2020/21", team: "Chamois Niort F.C.", category: "Ligue 2 - Copa de Francia - Ligue 2 Prom. de Ascenso" },
+            { season: "2020/21", team: "Chamois Niort F.C.", category: "Ligue 2 - Copa Francia - Ligue 2 Prom. de Ascenso" },
             { season: "2019/20", team: "Chamois Niort F.C. B", category: "National 3" },
-            { season: "2019/20", team: "Chamois Niort F.C.", category: "Ligue 2 - Copa de la Liga - Copa de Francia" },
+            { season: "2019/20", team: "Chamois Niort F.C.", category: "Ligue 2 - Copa de la Liga - Copa Francia" },
             { season: "2018/19", team: "F.C. Nantes B", category: "National 2" },
             { season: "2017/18", team: "F.C. Nantes B", category: "National 3" },
-            { season: "2016/17", team: "F.C. Nantes", category: "Ligue 1 - Copa de la Liga - Copa de Francia" },
+            { season: "2016/17", team: "F.C. Nantes", category: "Ligue 1 - Copa de la Liga - Copa Francia" },
             { season: "2016/17", team: "F.C. Nantes B", category: "National 2" },
-            { season: "2015/16", team: "F.C. Nantes", category: "Ligue 1 - Copa de Francia" },
+            { season: "2015/16", team: "F.C. Nantes", category: "Ligue 1 - Copa Francia" },
             { season: "2015/16", team: "F.C. Nantes B", category: "National 2" },
             { season: "2014/15", team: "F.C. Nantes B", category: "National 2" }
 
@@ -956,9 +956,9 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "U.E. Cornellà", category: "3ª Federación - Copa Federación Fase Autonómica - Copa de Catalunya" },
+            { season: "2025/26", team: "U.E. Cornellà", category: "3ª Federación - Copa Federación Fase Autonómica - Copa Cataluña" },
             { season: "2024/25", team: "U.E. Cornellà", category: "2ª Federación - Copa Federación Fase Autonómica" },
-            { season: "2023/24", team: "U.E. Cornellà", category: "1ª Federación - Copa Federación Fase Autonómica - Copa de Catalunya" },
+            { season: "2023/24", team: "U.E. Cornellà", category: "1ª Federación - Copa Federación Fase Autonómica - Copa Cataluña" },
             { season: "2022/23", team: "Algeciras C.F.", category: "1ª Federación" },
             { season: "2021/22", team: "C.F. Talavera de la Reina", category: "1ª Federación - Copa del Rey" },
             { season: "2020/21", team: "U.D. Logroñés", category: "2ª Div." },
@@ -1093,6 +1093,100 @@ const playersData = {
         }
     },
 
+        "polfreixanet": {
+        name: "Pol Freixanet Viejo",
+        footballName: "Pol Freixanet",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/43LVBwcF/Pol_Freixanet_PNG.webp",
+        personalData: {
+            fullName: "Pol Freixanet Viejo",
+            nickname: "Pol Freixanet",
+            birthPlace: "Manresa, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,93 m",
+            birthDate: "22/08/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "U.E. Santa Coloma", category: "Liga Andorra - Copa Andorra" },
+            { season: "2024/25", team: "C.F. Intercity", category: "1ª Federación" },
+            { season: "2023/24", team: "C.F. Intercity", category: "1ª Federación" },
+            { season: "2022/23", team: "C.F. Fuenlabrada", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "C.F. Fuenlabrada", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.F. Fuenlabrada", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.F. Reus Deportiu", category: "2ª Div. - Copa del Rey - Copa Cataluña" },
+            { season: "2017/18", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "C.F. Fuenlabrada", category: "2ª Div. B - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Elche C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Elche Ilicitano", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "At. Malagueño", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "Málaga C.F.", category: "1ª Div. - Champs. League" },
+            { season: "2011/12", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "At. Malagueño", category: "3ª Div." },
+            { season: "2010/11", team: "At. Malagueño", category: "3ª Div." }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 15, goles_encajados: 20, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "marcos": {
+        name: "Marcos de Castro Cogle",
+        footballName: "Marcos",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Y9CLFFyf/Marcos_PNG.webp",
+        personalData: {
+            fullName: "Marcos de Castro Cogle",
+            nickname: "Marcos",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "30/12/1994",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "C.D. Vallobín", category: "3ª Div." },
+            { season: "2019/20", team: "C.D. Vallobín", category: "3ª Div." },
+            { season: "2018/19", team: "C.D. Universidad de Oviedo", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. Universidad de Oviedo", category: "Regional Preferente Asturias" },
+            { season: "2016/17", team: "Club Marino de Luanco", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. Universidad de Oviedo", category: "Regional Preferente Asturias" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2011/12", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
@@ -1116,7 +1210,7 @@ const playersData = {
             { season: "2024/25", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
             { season: "2023/24", team: "Villarreal C.F.", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2023/24", team: "Beşiktaş J.K.", category: "Liga Turquía - Conference League" },
-            { season: "2022/23", team: "Olympique de Marsella", category: "Ligue 1 - Champs. League - Copa de Francia" },
+            { season: "2022/23", team: "Olympique de Marsella", category: "Ligue 1 - Champs. League - Copa Francia" },
             { season: "2021/22", team: "Manchester United", category: "Premier League - Champs. League - EFL Cup" },
             { season: "2020/21", team: "Manchester United", category: "Premier League - Champs. League - Europa League - FA Cup - EFL Cup" },
             { season: "2019/20", team: "Manchester United", category: "Premier League - Europa League - FA Cup - EFL Cup" },
@@ -1182,7 +1276,7 @@ const playersData = {
             { season: "2019/20", team: "U.D. Las Palmas", category: "2ª Div." },
             { season: "2018/19", team: "U.D. Las Palmas", category: "2ª Div." },
             { season: "2017/18", team: "C.D. Lugo", category: "2ª Div." },
-            { season: "2017/18", team: "R.C. Lens", category: "Ligue 2 - Copa de la Liga - Copa de Francia" },
+            { season: "2017/18", team: "R.C. Lens", category: "Ligue 2 - Copa de la Liga - Copa Francia" },
             { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "S.D. Compostela", category: "2ª Div. B" },
@@ -1961,7 +2055,7 @@ const playersData = {
             { season: "2019/20", team: "U.D. Las Palmas", category: "2ª Div." },
             { season: "2018/19", team: "U.D. Las Palmas", category: "2ª Div." },
             { season: "2017/18", team: "C.D. Lugo", category: "2ª Div." },
-            { season: "2017/18", team: "R.C. Lens", category: "Ligue 2 - Copa de la Liga - Copa de Francia" },
+            { season: "2017/18", team: "R.C. Lens", category: "Ligue 2 - Copa de la Liga - Copa Francia" },
             { season: "2016/17", team: "R.C. Celta de Vigo", category: "1ª Div. - Europa League - Copa del Rey" },
             { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "S.D. Compostela", category: "2ª Div. B" },
@@ -3625,7 +3719,7 @@ const playersData = {
         },
         career: [
             { season: "2023/24", team: "C.F. Badalona", category: "3ª Federación" },
-            { season: "2022/23", team: "Som Maresme F.C.", category: "2ª Federación - Copa de Catalunya" },
+            { season: "2022/23", team: "Som Maresme F.C.", category: "2ª Federación - Copa Cataluña" },
             { season: "2021/22", team: "Som Maresme F.C.", category: "1ª Federación - Copa Federación" },
             { season: "2020/21", team: "Som Maresme F.C.", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
             { season: "2019/20", team: "Júbilo Iwata", category: "2ª Japonesa J2" },
@@ -5501,7 +5595,7 @@ const playersData = {
             { season: "2019/20", team: "L.B. Châteauroux", category: "Ligue 2 - Copa de la Liga" },
             { season: "2019/20", team: "L.B. Châteauroux II", category: "National 3" },
             { season: "2018/19", team: "L.B. Châteauroux Sub-19", category: "Copa Gambardella" },
-            { season: "2018/19", team: "L.B. Châteauroux", category: "Ligue 2 - Copa de Francia" },
+            { season: "2018/19", team: "L.B. Châteauroux", category: "Ligue 2 - Copa Francia" },
             { season: "2018/19", team: "L.B. Châteauroux II", category: "National 3" }
             
          ],
@@ -5773,9 +5867,9 @@ const playersData = {
             { season: "2024/25", team: "Debreceni V.S.C.", category: "Liga Hungría - Copa Hungría" },
             { season: "2023/24", team: "Debreceni V.S.C.", category: "Liga Hungría - Copa Hungría - Fase Previa Conference League" },
             { season: "2022/23", team: "Budapest Honvéd F.C.", category: "Liga Hungría - Copa Hungría" },
-            { season: "2021/22", team: "E.S.T.A.C. Troyes", category: "Ligue 1 - Copa de Francia" },
+            { season: "2021/22", team: "E.S.T.A.C. Troyes", category: "Ligue 1 - Copa Francia" },
             { season: "2021/22", team: "E.S.T.A.C. Troyes B", category: "National 3" },
-            { season: "2020/21", team: "E.S.T.A.C. Troyes", category: "Ligue 2 - Copa de Francia" },
+            { season: "2020/21", team: "E.S.T.A.C. Troyes", category: "Ligue 2 - Copa Francia" },
             { season: "2020/21", team: "E.S.T.A.C. Troyes B", category: "National 3" },
             { season: "2019/20", team: "E.S.T.A.C. Troyes B", category: "National 3" },
             { season: "2018/19", team: "E.S.T.A.C. Troyes B", category: "National 3" },
@@ -5956,7 +6050,7 @@ const playersData = {
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Estrella Roja de Belgrado", category: "Champs. League - Liga Serbia - Copa Serbia - Fase Previa Champs. League" },
-            { season: "2023/24", team: "E.S.T.A.C. Troyes", category: "Ligue 2 - Copa de Francia" },
+            { season: "2023/24", team: "E.S.T.A.C. Troyes", category: "Ligue 2 - Copa Francia" },
             { season: "2022/23", team: "F.K. T.S.C. Bačka Topola", category: "Liga Serbia - Copa Serbia" },
             { season: "2021/22", team: "E.S.T.A.C. Troyes", category: "Ligue 1" },
             { season: "2021/22", team: "E.S.T.A.C. Troyes B", category: "National 3" },
@@ -8048,7 +8142,7 @@ const playersData = {
             { season: "2019/20", team: "Betis Deportivo Balompié", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2018/19", team: "Betis Deportivo Balompié", category: "3ª Div. - Copa Federación" },
             { season: "2018/19", team: "Real Betis Balompié", category: "Copa del Rey" },
-            { season: "2017/18", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa de Catalunya" },
+            { season: "2017/18", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa Cataluña" },
             { season: "2016/17", team: "U.E. Cornellà", category: "2ª Div. B - Copa del Rey" },
             { season: "2015/16", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
             { season: "2014/15", team: "U.E. Cornellà", category: "2ª Div. B" }
@@ -8494,8 +8588,8 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "C.E. Sabadell F.C.", category: "1ª Federación - Copa de Catalunya - Copa del Rey" },
-            { season: "2024/25", team: "C.E. Sabadell F.C.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación - Copa de Catalunya" },
+            { season: "2025/26", team: "C.E. Sabadell F.C.", category: "1ª Federación - Copa Cataluña - Copa del Rey" },
+            { season: "2024/25", team: "C.E. Sabadell F.C.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación - Copa Cataluña" },
             { season: "2023/24", team: "Lleida C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
             { season: "2022/23", team: "S.C.R. Penya Deportiva", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa del Rey" },
             { season: "2021/22", team: "S.C.R. Penya Deportiva", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
@@ -8504,7 +8598,7 @@ const playersData = {
             { season: "2020/21", team: "Real Oviedo B", category: "2ª Div. B" },
             { season: "2019/20", team: "C.E. L’Hospitalet", category: "3ª Div. - 3ª Div. Prom. de Ascenso - Copa del Rey" },
             { season: "2018/19", team: "C.E. L’Hospitalet", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
-            { season: "2017/18", team: "F.C. Vilafranca", category: "3ª Div. - Copa Federación - Copa de Catalunya" }
+            { season: "2017/18", team: "F.C. Vilafranca", category: "3ª Div. - Copa Federación - Copa Cataluña" }
         ],
         stats: {
             "2020/21": {
@@ -8650,7 +8744,7 @@ const playersData = {
         career: [
             { season: "2025/26", team: "U.E. Tossa", category: "Primera Catalana" },
             { season: "2024/25", team: "U.E. Tossa", category: "Primera Catalana" },
-            { season: "2022/23", team: "U.E. Olot", category: "2ª Federación - Copa de Catalunya - Copa del Rey" },
+            { season: "2022/23", team: "U.E. Olot", category: "2ª Federación - Copa Cataluña - Copa del Rey" },
             { season: "2021/22", team: "Extremadura U.D.", category: "1ª Federación - Copa del Rey" },
             { season: "2021/22", team: "Som Maresme F.C.", category: "1ª Federación" },
             { season: "2020/21", team: "Extremadura U.D.", category: "2ª Div. B - Copa del Rey" },
@@ -8658,7 +8752,7 @@ const playersData = {
             { season: "2019/20", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Gimnàstic de Tarragona", category: "2ª Div." },
             { season: "2017/18", team: "C.A. Osasuna", category: "2ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Girona F.C.", category: "2ª Div. - Copa de Catalunya - Copa del Rey" },
+            { season: "2016/17", team: "Girona F.C.", category: "2ª Div. - Copa Cataluña - Copa del Rey" },
             { season: "2015/16", team: "Girona F.C.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2014/15", team: "Girona F.C.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
             { season: "2013/14", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" }
@@ -8852,9 +8946,9 @@ const playersData = {
         },
         career: [
             { season: "2025/26", team: "Reus F.C. Reddis", category: "2ª Federación - Copa del Rey" },
-            { season: "2024/25", team: "Reus F.C. Reddis", category: "3ª Federación - Copa Federación Fase Autonómica - Copa de Catalunya" },
-            { season: "2023/24", team: "Reus F.C. Reddis", category: "3ª Federación - Copa de Catalunya" },
-            { season: "2022/23", team: "U.E. Cornellà", category: "1ª Federación - Copa de Catalunya" },
+            { season: "2024/25", team: "Reus F.C. Reddis", category: "3ª Federación - Copa Federación Fase Autonómica - Copa Cataluña" },
+            { season: "2023/24", team: "Reus F.C. Reddis", category: "3ª Federación - Copa Cataluña" },
+            { season: "2022/23", team: "U.E. Cornellà", category: "1ª Federación - Copa Cataluña" },
             { season: "2021/22", team: "C.E. Sabadell F.C.", category: "1ª Federación" },
             { season: "2020/21", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
             { season: "2020/21", team: "Elche C.F.", category: "1ª Div." },
@@ -9121,7 +9215,7 @@ const playersData = {
             { season: "2016/17", team: "Manchester City F.C. Sub-23", category: "Premier League 2ª Div. Two" },
             { season: "2016/17", team: "F.C. Twente Enschede", category: "Eredivisie - KNVB Beker" },
             { season: "2015/16", team: "Manchester City F.C. Sub-21", category: "Premier League Sub-21" },
-            { season: "2015/16", team: "Lille Olympique S.C.", category: "Ligue 1 - Copa de La Liga - Copa de Francia" },
+            { season: "2015/16", team: "Lille Olympique S.C.", category: "Ligue 1 - Copa de La Liga - Copa Francia" },
             { season: "2015/16", team: "Lille Olympique B S.C.", category: "National 3" },
             { season: "2014/15", team: "Manchester City F.C. Sub-21", category: "Premier League Sub-21" }
         ],
@@ -9899,7 +9993,7 @@ const playersData = {
         },
         career: [
             { season: "2024/25", team: "Águilas F.C.", category: "2ª Federación - Copa del Rey" },
-            { season: "2023/24", team: "C.E. Sabadell F.C.", category: "1ª Federación - Copa Federación Fase Autonómica - Copa de Catalunya" },
+            { season: "2023/24", team: "C.E. Sabadell F.C.", category: "1ª Federación - Copa Federación Fase Autonómica - Copa Cataluña" },
             { season: "2022/23", team: "C.F. Rayo Majadahonda", category: "1ª Federación - Copa del Rey" },
             { season: "2021/22", team: "C.F. Rayo Majadahonda", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
             { season: "2021/22", team: "Albacete Balompié", category: "1ª Federación - Copa del Rey" },
@@ -9907,7 +10001,7 @@ const playersData = {
             { season: "2019/20", team: "Real Racing Club de Santander", category: "2ª Div." },
             { season: "2019/20", team: "Arka Gdynia", category: "Liga Polonia - Copa Polonia" },
             { season: "2018/19", team: "Extremadura U.D.", category: "2ª Div." },
-            { season: "2018/19", team: "F.C. Sochaux-Montbéliard", category: "Ligue 2 - Copa de La Liga - Copa de Francia" },
+            { season: "2018/19", team: "F.C. Sochaux-Montbéliard", category: "Ligue 2 - Copa de La Liga - Copa Francia" },
             { season: "2017/18", team: "Lorca F.C.", category: "2ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Real Oviedo", category: "2ª Div." },
             { season: "2015/16", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
@@ -10211,11 +10305,11 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2019/20", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - Copa de Catalunya" },
+            { season: "2019/20", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey - Copa Cataluña" },
             { season: "2018/19", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
             { season: "2017/18", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
-            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - Copa Cataluña" },
+            { season: "2015/16", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey - Copa Cataluña" },
             { season: "2014/15", team: "Real Valladolid C.F.", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
             { season: "2014/15", team: "Rayo Vallecano de Madrid", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey" },
@@ -12276,12 +12370,12 @@ const playersData = {
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "Villarreal C.F. B", category: "2ª Div. B" },
             { season: "2019/20", team: "Extremadura U.D.", category: "2ª Div. - Copa del Rey" },
-            { season: "2018/19", team: "F.C. Barcelona B", category: "2ª Div. B - Copa de Catalunya" },
-            { season: "2017/18", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa de Catalunya" },
+            { season: "2018/19", team: "F.C. Barcelona B", category: "2ª Div. B - Copa Cataluña" },
+            { season: "2017/18", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso - Copa Cataluña" },
             { season: "2017/18", team: "F.C. Barcelona B", category: "2ª Div." },
             { season: "2017/18", team: "F.C. Barcelona Sub-19", category: "UEFA Youth League" },
-            { season: "2016/17", team: "F.C. Barcelona B", category: "2ª Div. B - Copa de Catalunya" },
-            { season: "2015/16", team: "F.C. Barcelona B", category: "2ª Div. B - Copa de Catalunya" },
+            { season: "2016/17", team: "F.C. Barcelona B", category: "2ª Div. B - Copa Cataluña" },
+            { season: "2015/16", team: "F.C. Barcelona B", category: "2ª Div. B - Copa Cataluña" },
             { season: "2015/16", team: "F.C. Barcelona Sub-19", category: "UEFA Youth League" }
         ],
         nationalTeam: [
@@ -12649,7 +12743,7 @@ const playersData = {
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2017/18", team: "F.C. CFR 1907 Cluj", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2016/17", team: "Stade de Reims", category: "Ligue 2 - Copa de Francia" },
+            { season: "2016/17", team: "Stade de Reims", category: "Ligue 2 - Copa Francia" },
             { season: "2016/17", team: "Stade de Reims B", category: "National 2" },
             { season: "2015/16", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia - Copa Rusa" },
             { season: "2014/15", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia - Copa Rusa" },
