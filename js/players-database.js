@@ -3956,7 +3956,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=hectorsimon"
     },
     "belar": {
-        "src": "https://i.postimg.cc/QtmL2Gfq/Belar-PNG.webp",
+        "src": "https://i.postimg.cc/T1nddZNZ/Belar.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Belar",
