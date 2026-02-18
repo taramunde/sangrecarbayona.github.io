@@ -5341,6 +5341,111 @@ const playersData = {
         }
     },
 
+        "pardo": {
+        name: "José Antonio Pardo Lucas",
+        footballName: "Pardo",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/BQnRkz9q/Pardo_PNG.webp",
+        personalData: {
+            fullName: "José Antonio Pardo Lucas",
+            nickname: "Pardo",
+            birthPlace: "Puzol, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,88 m",
+            birthDate: "21/04/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Extremadura", category: "2ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "C.D. Extremadura", category: "3ª Federación - Copa del Rey - Copa Federación" },
+            { season: "2023/24", team: "East Bengal F.C.", category: "India Super League - Supercopa India" },
+            { season: "2022/23", team: "East Bengal F.C.", category: "Durand Cup" },
+            { season: "2022/23", team: "C.D. Eldense", category: "1ª Federación - Copa del Rey - 1ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "U.D. Ibiza", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "Extremadura U.D.", category: "2ª Div." },
+            { season: "2018/19", team: "Extremadura U.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Extremadura U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "A.D. Mérida", category: "2ª Div. B" },
+            { season: "2015/16", team: "La Hoya Lorca C.F.", category: "2ª Div. B" },
+            { season: "2014/15", team: "La Hoya Lorca C.F.", category: "2ª Div. B" },
+            { season: "2014/15", team: "Hércules de Alicante C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "R.C. Recreativo de Huelva", category: "2ª Div." },
+            { season: "2011/12", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2010/11", team: "Valencia Mestalla", category: "3ª Div." },
+            { season: "2009/10", team: "Villajoyosa C.F.", category: "2ª Div. B - Copa del Rey" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 33, goles_marcados: 2, tarjetas_amarillas: 14, tarjetas_rojas: 2 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "alvarocuello": {
+        name: "Álvaro García Cuello",
+        footballName: "Álvaro Cuello",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/wByJ7gCw/Alvaro-Cuello-PNG.webp",
+        personalData: {
+            fullName: "Álvaro García Cuello",
+            nickname: "Álvaro Cuello",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "07/01/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "Caudal Deportivo", category: "3ª Div. - Copa Federación - Copa Federación Fase Autonómica - 3ª Div. 2ª Fase 2ª Div. RFEF" },
+            { season: "2019/20", team: "Caudal Deportivo", category: "3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "U.P. de Langreo", category: "3ª Div. - Copa Federación" },
+            { season: "2016/17", team: "U.P. de Langreo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2015/16", team: "Real Jaén C.F.", category: "2ª Div. B" },
+            { season: "2014/15", team: "Racing Club de Ferrol", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2010/11", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2009/10", team: "C.D. Íscar", category: "3ª Div." },
+            { season: "2008/09", team: "C.D. Los Gatos de Íscar", category: "3ª Div." },
+            { season: "2007/08", team: "Real Valladolid C.F. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 17, goles_marcados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 25, goles_marcados: 2, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 28, goles_marcados: 1, tarjetas_amarillas: 6, tarjetas_rojas: 1 },
+                copa: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
