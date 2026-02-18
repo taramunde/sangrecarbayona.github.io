@@ -11375,6 +11375,55 @@ const playersData = {
             }
         }
     },
+
+        "salvarivas": {
+        name: "Salvador González Rivas",
+        footballName: "Salva Rivas",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/mg1KjFCR/Salva_Rivas_PNG.webp",
+        personalData: {
+            fullName: "Salvador González Rivas",
+            nickname: "Salva Rivas",
+            birthPlace: "Sevilla, Sevilla",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "01/08/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Coria C.F.", category: "3ª Federación" },
+            { season: "2021/22", team: "Coria C.F.", category: "División de Honor Senior" },
+            { season: "2020/21", team: "C.D. Inter Sevilla", category: "3ª Div. - 3ª Div. 2ª Fase de Permanencia" },
+            { season: "2019/20", team: "At. Mancha Real", category: "3ª Div." },
+            { season: "2018/19", team: "At. Mancha Real", category: "3ª Div." },
+            { season: "2017/18", team: "U.D. Somozas", category: "3ª Div." },
+            { season: "2016/17", team: "S.D. Tenisca", category: "3ª Div." },
+            { season: "2016/17", team: "C.D. Madrilejos", category: "3ª Div. - Copa Federación" },
+            { season: "2015/16", team: "Real Balompédica Linense", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Zamora C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Sevilla At.", category: "2ª Div. B" },
+            { season: "2011/12", team: "Sevilla At.", category: "2ª Div. B" },
+            { season: "2011/12", team: "Sevilla F.C.", category: "1ª Div. - Fase Previa Europa League" },
+            { season: "2010/11", team: "Sevilla F.C.", category: "1ª Div." },
+            { season: "2010/11", team: "Sevilla At.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Sevilla At.", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2008", team: "España Sub-19", category: "Amistosos" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 19, goles_marcados: 2, tarjetas_amarillas: 6, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
