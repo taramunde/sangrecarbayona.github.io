@@ -14562,7 +14562,7 @@ const playersData = {
         ],
         stats: {
             "2013/14": {
-                liga: { partidos_entrenados: 12, victorias: 0, empates: 0, derrotas: 0 },
+                liga: { partidos_entrenados: 12, victorias: 5, empates: 3, derrotas: 4 },
                 copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
