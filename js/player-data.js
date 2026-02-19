@@ -11539,6 +11539,139 @@ const playersData = {
             }
         }
     },
+
+        "belar": {
+        name: "Belarmino Neila García",
+        footballName: "Belar",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/T1nddZNZ/Belar.webp",
+        personalData: {
+            fullName: "Belarmino Neila García",
+            nickname: "Belar",
+            birthPlace: "Sotrondio, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "02/11/1993",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Club Asturias de Blimea", category: "1ª Asturfútbol" },
+            { season: "2022/23", team: "Club Asturias de Blimea", category: "2ª Asturfútbol" },
+            { season: "2021/22", team: "Club Asturias de Blimea", category: "Regional Preferente de Asturias" },
+            { season: "2020/21", team: "Club Asturias de Blimea", category: "Regional Preferente de Asturias" },
+            { season: "2019/20", team: "Club Asturias de Blimea", category: "Regional Preferente de Asturias" },
+            { season: "2018/19", team: "Club Asturias de Blimea", category: "Regional Preferente de Asturias" },
+            { season: "2017/18", team: "Club Asturias de Blimea", category: "Regional Preferente de Asturias" },
+            { season: "2016/17", team: "Club Asturias de Blimea", category: "Regional Preferente de Asturias" },
+            { season: "2015/16", team: "Astur C.F.", category: "3ª Div." },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "coutado": {
+        name: "Pablo Coutado González",
+        footballName: "Coutado",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/NF8xJBbg/Coutado_PNG.webp",
+        personalData: {
+            fullName: "Pablo Coutado González",
+            nickname: "Coutado",
+            birthPlace: "Mieres, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,75 m",
+            birthDate: "22/02/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "S.D. Lenense", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "S.D. Lenense", category: "3ª Federación" },
+            { season: "2022/23", team: "U.C. Ceares", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "Caudal Deportivo", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "Caudal Deportivo", category: "3ª Div. - Copa Federación - Copa Federación Fase Autonómica - 3ª Div. 2ª Fase 2ª Div. RFEF - Prom. de Ascenso" },
+            { season: "2019/20", team: "Caudal Deportivo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "C.D. Covadonga", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Real Avilés C.F.", category: "3ª Div. - Copa del Rey - Copa Federación" },
+            { season: "2016/17", team: "Club Marino de Luanco", category: "3ª Div." },
+            { season: "2015/16", team: "R.S. Gimnástica de Torrelavega", category: "3ª Div. - Copa Federación" },
+            { season: "2015/16", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "Nalón C.F.", category: "3ª Div." },
+            { season: "2011/12", team: "Real Oviedo B", category: "3ª Div." }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "jordi": {
+        name: "Jordi Martínez Viejo",
+        footballName: "Jordi",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/3rg55Gcw/Jordi_PNG.webp",
+        personalData: {
+            fullName: "Jordi Martínez Viejo",
+            nickname: "Jordi",
+            birthPlace: "Anaco, Anzoátegui",
+            country: "Venezuela",
+            nationality: "Venezolana, Española",
+            height: "",
+            birthDate: "28/04/1995",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.D. Tineo", category: "Regional Preferente de Asturias" },
+            { season: "2020/21", team: "C.D. Tineo", category: "Regional Preferente de Asturias" },
+            { season: "2019/20", team: "C.D. Tineo", category: "Regional Preferente de Asturias" },
+            { season: "2018/19", team: "Nalón C.F.", category: "Regional Preferente de Asturias" },
+            { season: "2017/18", team: "C.D. Tineo", category: "Regional Preferente de Asturias" },
+            { season: "2017/18", team: "E.I. San Martín del Rey Aurelio", category: "3ª Div." },
+            { season: "2016/17", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2014/15", team: "S.D. Lenense Proinastur", category: "3ª Div." },
+            { season: "2014/15", team: "Albacete Balompié B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
