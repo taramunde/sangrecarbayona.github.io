@@ -11424,6 +11424,62 @@ const playersData = {
             }
         }
     },
+
+        "ivanrubio": {
+        name: "Iván Rubio Caudín",
+        footballName: "Iván Rubio",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/j5Bsgr2k/Iván_Rubio_PNG.webp",
+        personalData: {
+            fullName: "Iván Rubio Caudín",
+            nickname: "Iván Rubio",
+            birthPlace: "Cuenca, Cuenca",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "01/03/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "U.B. Conquense", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "U.B. Conquense", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "U.B. Conquense", category: "3ª Federación" },
+            { season: "2020/21", team: "U.B. Conquense", category: "3ª Div. 2ª Fase de Permanencia - Copa Federación Fase Autonómica" },
+            { season: "2019/20", team: "U.B. Conquense", category: "3ª Div. - Copa Federación" },
+            { season: "2018/19", team: "U.B. Conquense", category: "2ª Div. B - Copa Federación" },
+            { season: "2017/18", team: "U.B. Conquense", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "U.B. Conquense", category: "3ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Guadalajara", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2014/15", team: "La Roda C.F.", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Valencia Mestalla", category: "2ª Div. B" },
+            { season: "2010/11", team: "Valencia Mestalla", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "Valencia C.F.", category: "Copa del Rey" },
+            { season: "2009/10", team: "Valencia Mestalla", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2010", team: "España Sub-19", category: "Amistosos" },
+            { season: "2009", team: "España Sub-18", category: "Amistosos" },
+            { season: "2007", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 22, goles_marcados: 1, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 1, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 18, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
