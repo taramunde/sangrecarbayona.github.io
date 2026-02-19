@@ -14177,6 +14177,96 @@ const playersData = {
         }
     },
 
+        "alain": {
+        name: "Alain Arroyo Martínez de La Cuadra",
+        footballName: "Alain",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/9Q8ZmJft/Alain-PNG.webp",
+        personalData: {
+            fullName: "Alain Arroyo Martínez de La Cuadra",
+            nickname: "Alain",
+            birthPlace: "Bilbao, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,71 m",
+            birthDate: "05/07/1982",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "J.D. Somorrostro", category: "3ª Div." },
+            { season: "2018/19", team: "S.D. Zamudio", category: "3ª Div." },
+            { season: "2017/18", team: "Barakaldo C.F.", category: "2ª Div. B" },
+            { season: "2016/17", team: "Barakaldo C.F.", category: "2ª Div. B" },
+            { season: "2015/16", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "C.D. Mirandés", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "C.D. Guadalajara", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "S.D. Lemona", category: "2ª Div. B - Copa del Rey" },
+            { season: "2007/08", team: "S.D. Lemona", category: "2ª Div. B" },
+            { season: "2006/07", team: "Sestao River Club", category: "2ª Div. B - Copa del Rey" },
+            { season: "2005/06", team: "Club Portugalete", category: "2ª Div. B" },
+            { season: "2005/06", team: "Deportivo Alavés B", category: "2ª Div. B" },
+            { season: "2005/06", team: "Club Portugalete", category: "2ª Div. B" },
+            { season: "2004/05", team: "Club Portugalete", category: "2ª Div. B" },
+            { season: "2003/04", team: "Club Portugalete", category: "3ª Div." }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 27, goles_marcados: 6, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "annunziata": {
+        name: "Xavier Fernández Annunziata",
+        footballName: "Annunziata",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/pL4rc7T7/Annunziata-PNG.webp",
+        personalData: {
+            fullName: "Xavier Fernández Annunziata",
+            nickname: "Annunziata",
+            birthPlace: "Santa Cruz de Tenerife, Santa Cruz de Tenerife",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "31/08/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "Real Avilés C.F.", category: "3ª Div." },
+            { season: "2018/19", team: "Caudal Deportivo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.F. Villanovense", category: "2ª Div. B - Copa Federación" },
+            { season: "2016/17", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2014/15", team: "U.P. de Langreo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "S.D. Huesca", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "C.A. Osasuna", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "C.A. Osasuna B", category: "2ª Div. B" },
+            { season: "2009/10", team: "C.A. Osasuna B", category: "2ª Div. B" },
+            { season: "2008/09", team: "C.A. Osasuna B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 32, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
