@@ -11480,6 +11480,65 @@ const playersData = {
             }
         }
     },
+
+        "hectorsimon": {
+        name: "Héctor Simón Escudero",
+        footballName: "Héctor Simón",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/NfHt0VFQ/Héctor_Simón_PNG.webp",
+        personalData: {
+            fullName: "Héctor Simón Escudero",
+            nickname: "Héctor Simón",
+            birthPlace: "Llansá, Gerona",
+            country: "España",
+            nationality: "Española",
+            height: "1,68 m",
+            birthDate: "13/03/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "U.E. Olot", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "U.E. Olot", category: "2ª Div. B" },
+            { season: "2017/18", team: "U.E. Olot", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "U.E. Olot", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "U.E. Olot", category: "2ª Div. B" },
+            { season: "2014/15", team: "U.E. Olot", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "C.D. Castellón", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "C.F. Benidorm", category: "2ª Div. B" },
+            { season: "2009/10", team: "Girona F.C.", category: "Copa del Rey" },
+            { season: "2008/09", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
+            { season: "2008/09", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
+            { season: "2005/06", team: "Racing Club de Ferrol", category: "2ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
+            { season: "2003/04", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
+            { season: "2003/04", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2002/03", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2003", team: "España Sub-20", category: "Amistosos" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos: 29, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 3, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2012/13": {
+                liga: { partidos: 19, goles_marcados: 2, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
