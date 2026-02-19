@@ -1576,7 +1576,7 @@ const playersData = {
     }, 
         career: [  
             { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
-            { season: "2024/25", team: "Olympiakós de El Pireo", category: "Super League Griega - Europa League - Copa Griega" },
+            { season: "2024/25", team: "Olympiakós de El Pireo", category: "Super League Griega - Europa League - Copa Grecia" },
             { season: "2024/25", team: "F.C. Oporto", category: "Liga Portugal Betclic - Supercopa de Portugal" },
             { season: "2023/24", team: "Olympiakós de El Pireo", category: "Super League Griega - Conference League" },
             { season: "2023/24", team: "F.C. Oporto II", category: "Segunda Liga" },
@@ -8277,8 +8277,8 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "A.E. Kifisia F.C.", category: "Super League Griega - Copa Griega" },
-            { season: "2024/25", team: "A.E. Kifisia F.C.", category: "2ª Grecia - Copa Griega" },
+            { season: "2025/26", team: "A.E. Kifisia F.C.", category: "Super League Griega - Copa Grecia" },
+            { season: "2024/25", team: "A.E. Kifisia F.C.", category: "2ª Grecia - Copa Grecia" },
             { season: "2023/24", team: "F.C. Andorra", category: "2ª Div." },
             { season: "2023/24", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
             { season: "2022/23", team: "Real Racing Club de Santander", category: "2ª Div. - Copa del Rey" },
@@ -8574,7 +8574,7 @@ const playersData = {
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2019/20", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
-            { season: "2018/19", team: "Olympiakós de El Pireo", category: "Super League Griega - Europa League - Copa Griega" },
+            { season: "2018/19", team: "Olympiakós de El Pireo", category: "Super League Griega - Europa League - Copa Grecia" },
             { season: "2017/18", team: "F.C. Barcelona B", category: "2ª Div." },
             { season: "2017/18", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
             { season: "2016/17", team: "Real Betis Balompié", category: "1ª Div. - Copa del Rey" },
@@ -9219,7 +9219,7 @@ const playersData = {
             { season: "2010/11", team: "R.C. Recreativo de Huelva", category: "2ª Div." },
             { season: "2009/10", team: "R.C. Celta de Vigo", category: "2ª Div. - Copa del Rey" },
             { season: "2008/09", team: "Rangers F.C.", category: "Liga Escocia - Copa Escocia" },
-            { season: "2007/08", team: "Iraklis de Tesalónica F.C.", category: "Super League Griega - Copa Griega" },
+            { season: "2007/08", team: "Iraklis de Tesalónica F.C.", category: "Super League Griega - Copa Grecia" },
             { season: "2007/08", team: "Xerez C.D.", category: "2ª Div. - Copa del Rey" },
             { season: "2006/07", team: "Valencia C.F.", category: "1ª Div. - Champs. League - Copa del Rey" },
             { season: "2006/07", team: "Valencia Mestalla", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" }
@@ -10039,7 +10039,7 @@ const playersData = {
             { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
             { season: "2012/13", team: "C.D. Guadalajara", category: "2ª Div. - Copa del Rey" },
-            { season: "2011/12", team: "A.O. Kerkyraikos", category: "Super League Griega - Copa Griega" },
+            { season: "2011/12", team: "A.O. Kerkyraikos", category: "Super League Griega - Copa Grecia" },
             { season: "2011/12", team: "Apollon Limassol F.C.", category: "Liga Chipre" },
             { season: "2010/11", team: "Apollon Limassol F.C.", category: "Liga Chipre" },
             { season: "2009/10", team: "Cádiz C.F.", category: "2ª Div." },
@@ -13494,8 +13494,8 @@ const playersData = {
             { season: "2015/16", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2014/15", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
             { season: "2013/14", team: "R.C. Deportivo de La Coruña", category: "2ª Div." },
-            { season: "2012/13", team: "Panathinaikos F.C.", category: "Super League Griega - Europa League - Copa Griega - Fase Previa Champs. League" },
-            { season: "2011/12", team: "Panathinaikos F.C.", category: "Super League Griega - Copa Griega - Fase Previa Champs. League - Fase Previa Europa League" },
+            { season: "2012/13", team: "Panathinaikos F.C.", category: "Super League Griega - Europa League - Copa Grecia - Fase Previa Champs. League" },
+            { season: "2011/12", team: "Panathinaikos F.C.", category: "Super League Griega - Copa Grecia - Fase Previa Champs. League - Fase Previa Europa League" },
             { season: "2010/11", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
             { season: "2009/10", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
             { season: "2008/09", team: "Albacete Balompié", category: "2ª Div." },
@@ -14477,6 +14477,95 @@ const playersData = {
                 copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 7, victorias: 2, empates: 3, derrotas: 2 }
+            }
+        }
+    },
+
+            "granero": {
+        name: "José Carlos Granero Granero",
+        footballName: "Granero",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/v61mZgp5/Granero-entrenador-PNG.webp",
+        personalData: {
+            fullName: "José Carlos Granero Granero",
+            nickname: "Granero",
+            birthPlace: "Chella, Valencia",
+            country: "España",
+            nationality: "Española",
+            height: "1,75 m",
+            birthDate: "27/05/1963",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "Shenzhen Peng City F.C.", category: "Superliga China - Copa China FA" },
+            { season: "2019/20", team: "Chengdu Rongcheng F.C.", category: "Liga China - Copa China FA" },
+            { season: "2018/19", team: "Chengdu Rongcheng F.C.", category: "2ª China" },
+            { season: "2016/17", team: "At. Levante U.D.", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "2015/16", team: "U.D. Melilla", category: "2ª Div. B" },
+            { season: "2014/15", team: "P.A.E. Veria 1960 N.F.C.", category: "Super League Griega - Copa Grecia" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Deportivo Alavés", category: "2ª Div. B" },
+            { season: "2010/11", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "C.F. Independiente Alicante", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "C.F. Independiente Alicante", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "C.F. Independiente Alicante", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2004/05", team: "Hércules C.F.", category: "2ª Div. B" },
+            { season: "2003/04", team: "Hércules C.F.", category: "2ª Div. B" },
+            { season: "2002/03", team: "Gimnàstic de Tarragona", category: "2ª Div. B - Copa del Rey" },
+            { season: "2001/02", team: "Levante U.D.", category: "2ª Div. - Copa del Rey" },
+            { season: "2000/01", team: "Levante U.D.", category: "2ª Div. - Copa del Rey" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos_entrenados: 24, victorias: 11, empates: 6, derrotas: 7 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 1, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 6, victorias: 4, empates: 0, derrotas: 2 }
+            },
+            "2012/13": {
+                liga: { partidos_entrenados: 14, victorias: 6, empates: 3, derrotas: 5 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
+    "robles": {
+        name: "Roberto Robles Feijoo",
+        footballName: "Robles",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/9mQ8p2kb/Robles-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Roberto Robles Feijoo",
+            nickname: "Robles",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "08/06/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación" },
+            { season: "2015/16", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2014/15", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2013/14", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2013/14": {
+                liga: { partidos_entrenados: 12, victorias: 0, empates: 0, derrotas: 0 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
             }
         }
     },
