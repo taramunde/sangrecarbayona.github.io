@@ -1237,6 +1237,47 @@ const playersData = {
         }
     },
 
+        "marioruyales": {
+        name: "Mario Fernández Ruyales",
+        footballName: "Mario Ruyales",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/1XL8bjRJ/Mario_Ruyales_PNG.webp",
+        personalData: {
+            fullName: "Mario Fernández Ruyales",
+            nickname: "Mario Ruyales",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,87 m",
+            birthDate: "25/09/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2012/13", team: "UCAM Murcia C.F.", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2011/12", team: "Palencia C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "C.F. Independiente Alicante", category: "2ª Div. B" },
+            { season: "2009/10", team: "Sevilla At.", category: "2ª Div. B" },
+            { season: "2008/09", team: "Sevilla At.", category: "2ª Div." },
+            { season: "2007/08", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2006/07", team: "R.S. Gimnástica de Torrelavega", category: "2ª Div. B" },
+            { season: "2005/06", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2004/05", team: "C. D. Leganés", category: "2ª Div. B" },
+            { season: "2003/04", team: "C. D. Leganés B", category: "3ª Div." },
+            { season: "2002/03", team: "C. D. Leganés Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
