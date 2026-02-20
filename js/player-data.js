@@ -1187,6 +1187,56 @@ const playersData = {
         }
     },
 
+        "danibarrio": {
+        name: "Daniel Barrio Álvarez",
+        footballName: "Dani Barrio",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/1zNjQgKB/Dani-Barrio-PNG.webp",
+        personalData: {
+            fullName: "Daniel Barrio Álvarez",
+            nickname: "Dani Barrio",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "10/02/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Burgos C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Numancia", category: "2ª Div." },
+            { season: "2018/19", team: "U.D. Melilla", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "U.D. Melilla", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "U.D. Melilla", category: "2ª Div. B" },
+            { season: "2015/16", team: "U.D. Melilla", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Leganés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Club Marino de Luanco", category: "3ª Div." },
+            { season: "2009/10", team: "Ribadesella C.F.", category: "3ª Div." },
+            { season: "2008/09", team: "Real Sporting de Gijón B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 29, goles_encajados: 27, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 8, goles_encajados: 8, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
+                copa: { partidos: 3, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     "bailly": {
         name: "Eric Bertrand Bailly",
