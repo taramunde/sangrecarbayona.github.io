@@ -34,8 +34,8 @@ const notes = {
                 shieldUrlLeft: 'https://i.postimg.cc/ydBThzdg/RCD-Espanyol-2023.png',
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
             },
-            '2026-03-15': {
-                text: 'Jornada 28<br> Real Oviedo - Valencia C.F.<br>--:--',
+            '2026-03-14': {
+                text: 'Jornada 28<br> Real Oviedo - Valencia C.F.<br>18:30',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
                 shieldUrlRight: 'https://i.postimg.cc/tTP3SHQX/Valencia_Mestalla_(2012).jpg'
