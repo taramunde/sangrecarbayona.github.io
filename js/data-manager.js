@@ -77,7 +77,6 @@ function cargarDatosPartido() {
                     <div class="stat"><span>PARTIDOS JUGADOS:</span><span>${p.partidos || '--'}</span></div>
                     <div class="stat"><span>GOLES:</span><span>${p.goals}</span></div>
                     <div class="stat"><span>GOL MINUTO:</span><span>${p.minute}</span></div>
-                    <div class="stat"><span>MINUTOS TOTALES:</span><span>${p.minutosTotales || '--'}</span></div>
                 </div>
                 <a href="${p.link}" target="_blank" class="link-button">Ver Ficha</a>
             </div>
