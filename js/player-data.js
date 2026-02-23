@@ -5905,6 +5905,52 @@ const playersData = {
         }
     },
 
+        "mantovani": {
+        name: "Martín Maximiliano Mantovani",
+        footballName: "Mantovani",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/mkChsrFH/Mantovani_PNG.webp",
+        personalData: {
+            fullName: "Martín Maximiliano Mantovani",
+            nickname: "Mantovani",
+            birthPlace: "San Miguel, Buenos Aires",
+            country: "Argentina",
+            nationality: "Argentina, Italiana",
+            height: "1,83 m",
+            birthDate: "07/07/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.D. Móstoles U.R.J.C.", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "F.C. Andorra", category: "2ª Div. B - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "S.D. Huesca", category: "1ª Div." },
+            { season: "2018/19", team: "U.D. Las Palmas", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Leganés", category: "1ª Div. - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Leganés", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Leganés", category: "2ª Div." },
+            { season: "2013/14", team: "C.D. Leganés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "C.D. Atlético Baleares", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
+            { season: "2009/10", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2009/10", team: "Club At. de Madrid Sub-19", category: "3ª Div." },
+            { season: "2008/09", team: "Club At. de Madrid Sub-19", category: "3ª Div." },
+            { season: "2007/08", team: "Club At. de Madrid Sub-19", category: "3ª Div." }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 39, goles_marcados: 0, tarjetas_amarillas: 16, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
