@@ -3821,10 +3821,10 @@ const playersData = {
             { season: "2014/15", team: "C.A. Boca Juniors", category: "Copa Argentina" },
             { season: "2013/14", team: "C.A. Boca Juniors", category: "Claus. Argentina - Conmebol Sudamericana - Copa Argentina - Torneo de Transición" },
             { season: "2013/14", team: "Al-Rayyan S.C.", category: "Liga Catar" },
-            { season: "2012/13", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
-            { season: "2011/12", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
-            { season: "2010/11", team: "R.C.D. Espanyol", category: "1ª Div. - Copa del Rey" },
-            { season: "2009/10", team: "R.C.D. Espanyol", category: "1ª Div." },
+            { season: "2012/13", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "R.C.D. Español de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "R.C.D. Español de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "R.C.D. Español de Barcelona", category: "1ª Div." },
             { season: "2008/09", team: "C.A. Boca Juniors", category: "Apert. Argentina - Claus. Argentina - Copa Libertadores" },
             { season: "2007/08", team: "C.A. Boca Juniors", category: "Claus. Argentina - Conmebol Sudamericana" }
         ],
@@ -5751,6 +5751,98 @@ const playersData = {
             "2013/14": {
                 liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "javicantero": {
+        name: "Javier Cantero de La Puente",
+        footballName: "Javi Cantero",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/MGV79z9v/Javi_Cantero_PNG.webp",
+        personalData: {
+            fullName: "Javier Cantero de La Puente",
+            nickname: "Javi Cantero",
+            birthPlace: "Granada, Granada",
+            country: "España",
+            nationality: "Española",
+            height: "1,70 m",
+            birthDate: "22/01/1988",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "U.D. Maracena", category: "3ª Div." },
+            { season: "2018/19", team: "C.D. Ebro", category: "2ª Div. B" },
+            { season: "2018/19", team: "Burgos C.F.", category: "2ª Div. B" },
+            { season: "2017/18", team: "Burgos C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2016/17", team: "R.C. Recreativo de Huelva", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "Enosis Neon Paralimni", category: "Liga Chipre - Copa Chipre" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2010/11", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2009/10", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2007/08", team: "R.C.D. Español de Barcelona B", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2007", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19 - Copa del Atlántico Juvenil - Amistosos" },
+            { season: "2006", team: "España Sub-19", category: "Amistosos" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 26, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "baquero": {
+        name: "Pedro Jesús López Baquero",
+        footballName: "Baquero",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/1XJ4vdxg/Baquero-PNG.webp",
+        personalData: {
+            fullName: "Pedro Jesús López Baquero",
+            nickname: "Baquero",
+            birthPlace: "Huelva, Huelva",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "02/10/1980",
+            deathDate: null
+        },
+        career: [
+            { season: "2018/19", team: "Nervea C.F.", category: "2ª Andaluza" },
+            { season: "2017/18", team: "C.P. Villarrobledo", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "C.D. San Roque de Lepe", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. San Roque de Lepe", category: "2ª Div. B" },
+            { season: "2014/15", team: "Lleida C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Doxa Katokopias", category: "Liga Chipre - Copa Chipre" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Pontevedra C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "Lorca Deportiva C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "Rayo Vallecano de Madrid", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "Rayo Vallecano de Madrid", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2005/06", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "R.C. Recreativo de Huelva", category: "2ª Div. - Copa del Rey" },
+            { season: "2003/04", team: "R.C. Recreativo de Huelva", category: "2ª Div." },
+            { season: "2002/03", team: "Gimnàstic de Tarragona", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 33, goles_marcados: 1, tarjetas_amarillas: 7, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
@@ -11605,12 +11697,12 @@ const playersData = {
             { season: "2009/10", team: "Girona F.C.", category: "Copa del Rey" },
             { season: "2008/09", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
             { season: "2008/09", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" },
-            { season: "2007/08", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
+            { season: "2007/08", team: "R.C.D. Español de Barcelona B", category: "2ª Div. B" },
             { season: "2005/06", team: "Racing Club de Ferrol", category: "2ª Div. - Copa del Rey" },
-            { season: "2004/05", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
-            { season: "2003/04", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" },
-            { season: "2003/04", team: "R.C.D. Espanyol de Barcelona", category: "1ª Div. - Copa del Rey" },
-            { season: "2002/03", team: "R.C.D. Espanyol de Barcelona B", category: "2ª Div. B" }
+            { season: "2004/05", team: "R.C.D. Español de Barcelona B", category: "2ª Div. B" },
+            { season: "2003/04", team: "R.C.D. Español de Barcelona B", category: "2ª Div. B" },
+            { season: "2003/04", team: "R.C.D. Español de Barcelona", category: "1ª Div. - Copa del Rey" },
+            { season: "2002/03", team: "R.C.D. Español de Barcelona B", category: "2ª Div. B" }
         ],
         nationalTeam: [
             { season: "2003", team: "España Sub-20", category: "Amistosos" }
