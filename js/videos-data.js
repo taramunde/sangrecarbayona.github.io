@@ -98,6 +98,10 @@ const videosDB = [
     {
         id: "35g46UDxkTk",
         title: "J24 Real Oviedo Vs Athletic Club"
+    },
+    {
+        id: "xf6EAyykHOe",
+        title: "J25 Real Sociedad Vs Real Oviedo"
     }
 
 
