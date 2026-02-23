@@ -5849,6 +5849,62 @@ const playersData = {
         }
     },
 
+        "owona": {
+        name: "Lucien Fridolin Owona-Ndong",
+        footballName: "Owona",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/FKLMGJt3/Owona_PNG.webp",
+        personalData: {
+            fullName: "Lucien Fridolin Owona-Ndong",
+            nickname: "Owona",
+            birthPlace: "Duala, Región del Litoral",
+            country: "Camerún",
+            nationality: "Camerunesa",
+            height: "1,88 m",
+            birthDate: "09/08/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "U.D. Gran Tarajal", category: "3ª Federación" },
+            { season: "2021/22", team: "C.D. Laredo", category: "2ª Federación" },
+            { season: "2021/22", team: "U.D. Yugo Socuéllamos", category: "2ª Federación" },
+            { season: "2020/21", team: "U.E. Cornellà", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "Extremadura U.D.", category: "2ª Div. B" },
+            { season: "2019/20", team: "U.D. Almería", category: "2ª Div." },
+            { season: "2018/19", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "U.D. Almería", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "A.D. Alcorcón", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.F. Villanovense", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.F. Villanovense", category: "2ª Div. B" },
+            { season: "2015/16", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2014/15", team: "C.F. Villanovense", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Arroyo C.P.", category: "2ª Div. B" },
+            { season: "2013/14", team: "S.D. Noja", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "París Saint-Germain F.C. B", category: "4ª Francia" }
+        ],
+        nationalTeam: [
+            { season: "2017", team: "Camerun", category: "Copa Confederaciones - Clasif. Copa África - Amistosos" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 30, goles_marcados: 0, tarjetas_amarillas: 16, tarjetas_rojas: 2 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 1 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // CENTROCAMPISTAS
 
     "fonseca": {
