@@ -12045,6 +12045,71 @@ const playersData = {
             }
         }
     },
+
+        "aitorsanz": {
+        name: "Aitor Sanz Martín",
+        footballName: "Aitor Sanz",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/ncZjKvmb/Aitor-Sanz-PNG.webp",
+        personalData: {
+            fullName: "Aitor Sanz Martín",
+            nickname: "Aitor Sanz",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,81 m",
+            birthDate: "13/09/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Tenerife", category: "1ª Federación" },
+            { season: "2024/25", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2023/24", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2022/23", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Tenerife", category: "2ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "Real Unión Club", category: "2ª Div." },
+            { season: "2008/09", team: "Real Unión Club", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "Zamora C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "Zamora C.F.", category: "2ª Div. B" },
+            { season: "2005/06", team: "U.D. San Sebastián de Los Reyes", category: "2ª Div. B" },
+            { season: "2004/05", team: "U.D. San Sebastián de Los Reyes", category: "2ª Div. B" },
+            { season: "2003/04", team: "U.D. San Sebastián de Los Reyes", category: "2ª Div. B - Copa del Rey" },
+            { season: "2002/03", team: "U.D. San Sebastián de Los Reyes", category: "Copa del Rey" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 37, goles_marcados: 2, tarjetas_amarillas: 19, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 34, goles_marcados: 2, tarjetas_amarillas: 18, tarjetas_rojas: 2 },
+                copa: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2010/11": {
+                liga: { partidos: 27, goles_marcados: 0, tarjetas_amarillas: 15, tarjetas_rojas: 2 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
