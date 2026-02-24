@@ -5892,7 +5892,7 @@ const playersData = {
         stats: {
             "2012/13": {
                 liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
-                copa: { partidos: 1, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
@@ -5945,6 +5945,94 @@ const playersData = {
             "2012/13": {
                 liga: { partidos: 39, goles_marcados: 0, tarjetas_amarillas: 16, tarjetas_rojas: 1 },
                 copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "efren": {
+        name: "Efrén Urrutia Curto",
+        footballName: "Efrén",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/dVqcs0yK/Efrén_PNG.webp",
+        personalData: {
+            fullName: "Efrén Urrutia Curto",
+            nickname: "Efrén",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "21/06/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "Club Hispano de Castrillón", category: "2ª Asturfútbol" },
+            { season: "2021/22", team: "Avilés Stadium C.F.", category: "Regional Preferente de Asturias" },
+            { season: "2020/21", team: "U.C. Ceares", category: "3ª Div. - 3ª Div. 2ª Fase de Ascenso" },
+            { season: "2016/17", team: "S.D. Navarro C.F.", category: "Regional Preferente de Asturias" },
+            { season: "2015/16", team: "C.D. Praviano", category: "3ª Div." },
+            { season: "2014/15", team: "Real Avilés C.F. B", category: "3ª Div." },
+            { season: "2013/14", team: "Atlético de Lugones S.D.", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "Luarca C.F.", category: "3ª Div." },
+            { season: "2010/11", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2010/11", team: "Real Oviedo Sub-19", category: "Liga Nacional" },
+            { season: "2009/10", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "trabanco": {
+        name: "Adrián Trabanco Ordiales",
+        footballName: "Trabanco",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/Z5ZVB7ZG/Trabanco_PNG.webp",
+        personalData: {
+            fullName: "Adrián Trabanco Ordiales",
+            nickname: "Trabanco",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "15/01/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación" },
+            { season: "2024/25", team: "C.D. Covadonga", category: "3ª Federación - 3ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "C.D. Covadonga", category: "2ª Federación - Copa del Rey" },
+            { season: "2022/23", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "Club Marino de Luanco", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF - Copa Federación Fase Autonómica" },
+            { season: "2019/20", team: "Club Marino de Luanco", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Club Marino de Luanco", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Club Marino de Luanco", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Club Marino de Luanco", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. Tuilla", category: "3ª Div." },
+            { season: "2014/15", team: "C.D. Tuilla", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "C.D. Cudillero", category: "3ª Div." },
+            { season: "2010/11", team: "Luarca C.F.", category: "3ª Div." }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
