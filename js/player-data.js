@@ -12236,6 +12236,56 @@ const playersData = {
             }
         }
     },
+
+        "casares": {
+        name: "Francisco Javier Casares García",
+        footballName: "Casares",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/7Y0v42t6/Casares_PNG.webp",
+        personalData: {
+            fullName: "Francisco Javier Casares García",
+            nickname: "Casares",
+            birthPlace: "Jerez de la Frontera, Cádiz",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "13/06/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "F.C. Bruno's Magpies", category: "Fase Previa Conference League" },
+            { season: "2021/22", team: "F.C. Bruno's Magpies", category: "Premier División Gibraltar" },
+            { season: "2020/21", team: "F.C. Bruno's Magpies", category: "Premier División Gibraltar" },
+            { season: "2020/21", team: "C.D. Rota", category: "3ª Div." },
+            { season: "2019/20", team: "Xerez Deportivo F.C.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Xerez Deportivo F.C.", category: "3ª Div." },
+            { season: "2017/18", team: "San Fernando C.D.", category: "2ª Div. B" },
+            { season: "2016/17", team: "Lleida C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa Federación" },
+            { season: "2014/15", team: "Hércules de Alicante C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "S.D. Amorebieta", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Deportivo Alavés", category: "2ª Div. B" },
+            { season: "2010/11", team: "Deportivo Alavés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Granada C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "CD San Fernando", category: "2ª Div. B - Copa del Rey" },
+            { season: "2007/08", team: "CD San Fernando", category: "3ª Div." },
+            { season: "2006/07", team: "Arcos C.F.", category: "3ª Div." },
+            { season: "2005/06", team: "C.D. Alcalá", category: "2ª Div. B" },
+            { season: "2004/05", team: "At. Sanluqueño C.F.", category: "3ª Div." },
+            { season: "2003/04", team: "At. Sanluqueño C.F.", category: "3ª Div." }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 36, goles_marcados: 3, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
