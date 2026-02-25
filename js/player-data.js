@@ -12110,6 +12110,132 @@ const playersData = {
             }
         }
     },
+
+        "ikeralegre": {
+        name: "Iker Alegre Sancho",
+        footballName: "Iker Alegre",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/jdPj1Cz6/Iker_Alegre_PNG.webp",
+        personalData: {
+            fullName: "Iker Alegre Sancho",
+            nickname: "Iker Alegre",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,76 m",
+            birthDate: "29/10/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "U.D. Gijón Industrial", category: "3ª Federación" },
+            { season: "2022/23", team: "U.D. Gijón Industrial", category: "1ª RFFPA" },
+            { season: "2021/22", team: "U.D. Gijón Industrial", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "U.D. Gijón Industrial", category: "3ª Div. - Copa Federación Fase Autonómica - 3ª Div. 2ª Fase 2ª Div. RFEFF" },
+            { season: "2019/20", team: "U.D. Gijón Industrial", category: "3ª Div." },
+            { season: "2018/19", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2017/18", team: "Caudal Deportivo", category: "2ª Div. B" },
+            { season: "2016/17", team: "Pontevedra C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "U.D. Logroñés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "U.D. Logroñés", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "C.D. Ourense", category: "2ª Div. B - Copa Federación" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Unión Club", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Unión Club", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Zamora C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "Zamora C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "Zamora C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "Zamora C.F.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 31, goles_marcados: 2, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "pascual": {
+        name: "Pascual Puente Aller",
+        footballName: "Pascual",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/s2qX8W0c/Pascual_PNG.webp",
+        personalData: {
+            fullName: "Pascual Puente Aller",
+            nickname: "Pascual",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "15/09/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Titánico de Laviana", category: "3ª Federación" },
+            { season: "2023/24", team: "C.D. San Jorge", category: "2ª RFFPA" },
+            { season: "2023/24", team: "C.D. Llanes", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Real Titánico de Laviana", category: "3ª Federación" },
+            { season: "2021/22", team: "Real Titánico de Laviana", category: "3ª Federación" },
+            { season: "2020/21", team: "L'Entregu C.F.", category: "3ª Div. - Copa Federación Fase Autonómica - 3ª Div. 2ª Fase de Ascenso - Prom. de Ascenso" },
+            { season: "2019/20", team: "L'Entregu C.F.", category: "3ª Div." },
+            { season: "2019/20", team: "C.D. Colunga", category: "3ª Div." },
+            { season: "2018/19", team: "C.D. Colunga", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. Llanes", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "C.D. Llanes", category: "3ª Div." },
+            { season: "2015/16", team: "Urraca C.F.", category: "3ª Div." },
+            { season: "2014/15", team: "Real Avilés C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "2013/14", team: "Real Avilés C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2009/10", team: "Ribadesella C.F.", category: "3ª Div." },
+            { season: "2008/09", team: "Club Marino de Luanco", category: "2ª Div. B" },
+            { season: "2007/08", team: "Club Marino de Luanco", category: "2ª Div. B" },
+            { season: "2006/07", team: "Club Marino de Luanco", category: "2ª Div. B" },
+            { season: "2005/06", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div." },
+            { season: "2005/06", team: "Real Oviedo", category: "Copa del Rey" },
+            { season: "2004/05", team: "Real Aranjuez C.F.", category: "3ª Div." },
+            { season: "2003/04", team: "Real Oviedo", category: "3ª Div." }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 15, goles_marcados: 0, tarjetas_amarillas: 5, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 20, goles_marcados: 0, tarjetas_amarillas: 4, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2010/11": {
+                liga: { partidos: 9, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2005/06": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2003/04": {
+                liga: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
