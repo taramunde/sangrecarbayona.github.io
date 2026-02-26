@@ -12286,6 +12286,114 @@ const playersData = {
             }
         }
     },
+
+        "xavimore": {
+        name: "Xavier Moré Roca",
+        footballName: "Xavi Moré",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/c4yDW5nq/Xavi_Moré_PNG.webp",
+        personalData: {
+            fullName: "Xavier Moré Roca",
+            nickname: "Xavi Moré",
+            birthPlace: "La Ametlla, Barcelona",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "07/06/1982",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "C.D. Palencia Balompié", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.D. Palencia Balompié", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2014/15", team: "C.D. Arroyo Pisuerga", category: "1ª Regional Aficionados Castilla y León" },
+            { season: "2014/15", team: "C.D. Palencia Balompié", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "Burgos C.F.", category: "2ª Div. B" },
+            { season: "2013/14", team: "S.D. Noja", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2007/08", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "C.D. Castellón", category: "2ª Div." },
+            { season: "2005/06", team: "C.D. Castellón", category: "2ª Div. - Copa del Rey" },
+            { season: "2004/05", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2003/04", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2002/03", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 29, goles_marcados: 3, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 18, goles_marcados: 3, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2010/11": {
+                liga: { partidos: 29, goles_marcados: 5, tarjetas_amarillas: 6, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2009/10": {
+                liga: { partidos: 32, goles_marcados: 6, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "cerrajeria": {
+        name: "Galder Cerrajería López",
+        footballName: "Cerrajería",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/9F3SLfXj/Cerrajería_PNG.webp",
+        personalData: {
+            fullName: "Galder Cerrajería López",
+            nickname: "Cerrajería",
+            birthPlace: "Baracaldo, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "05/04/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Racing Rioja C.F.", category: "2ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "Cultural y Deportiva Leonesa", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "Burgos C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "Burgos C.F.", category: "2ª Div. B" },
+            { season: "2019/20", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Mirandés", category: "2ª Div. B - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Barakaldo C.F.", category: "2ª Div. B" },
+            { season: "2016/17", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2015/16", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Burgos C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Bilbao Athletic", category: "2ª Div. B" },
+            { season: "2009/10", team: "Bilbao Athletic", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 31, goles_marcados: 4, tarjetas_amarillas: 11, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
