@@ -12394,6 +12394,84 @@ const playersData = {
             }
         }
     },
+
+        "diegorua": {
+        name: "Diego Rúa Vicente",
+        footballName: "Diego Rúa",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/qMbKkNNP/Diego_Rúa_PNG.webp",
+        personalData: {
+            fullName: "Diego Rúa Vicente",
+            nickname: "Diego Rúa",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "07/06/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "C.D. Cudillero", category: "3ª Div." },
+            { season: "2010/11", team: "Real Avilés Industrial C.F.", category: "3ª Div." }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "adrianllano": {
+        name: "Adrián Llano Méndez",
+        footballName: "Adrián Llano",
+        position: "Centrocampista",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/N0V2RS6p/Adrian-Llano-PNG.webp",
+        personalData: {
+            fullName: "Adrián Llano Méndez",
+            nickname: "Adrián Llano",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,88 m",
+            birthDate: "18/03/1991",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - Copa Federación Fase Autonómica - 3ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "U.P. de Langreo", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "Unionistas de Salamanca C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "Caudal Deportivo", category: "2ª Div. B" },
+            { season: "2016/17", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2014/15", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2013/14", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2011/12", team: "U.P. de Langreo", category: "3ª Div." },
+            { season: "2010/11", team: "Club At. de Madrid C", category: "3ª Div." }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
         
 
     // DELANTEROS
