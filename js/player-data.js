@@ -5825,7 +5825,7 @@ const playersData = {
             { season: "2017/18", team: "C.P. Villarrobledo", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
             { season: "2016/17", team: "C.D. San Roque de Lepe", category: "3ª Div." },
             { season: "2015/16", team: "C.D. San Roque de Lepe", category: "2ª Div. B" },
-            { season: "2014/15", team: "Lleida C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "Lleida Esportiu Terraferma C.F.", category: "2ª Div. B - Copa del Rey" },
             { season: "2013/14", team: "Doxa Katokopias", category: "Liga Chipre - Copa Chipre" },
             { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
             { season: "2011/12", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
@@ -9288,7 +9288,7 @@ const playersData = {
         career: [
             { season: "2025/26", team: "C.E. Sabadell F.C.", category: "1ª Federación - Copa Cataluña - Copa del Rey" },
             { season: "2024/25", team: "C.E. Sabadell F.C.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación - Copa Cataluña" },
-            { season: "2023/24", team: "Lleida C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
+            { season: "2023/24", team: "Lleida Esportiu Terraferma C.F.", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
             { season: "2022/23", team: "S.C.R. Penya Deportiva", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa del Rey" },
             { season: "2021/22", team: "S.C.R. Penya Deportiva", category: "2ª Federación - 2ª Federación Prom. de Ascenso - Copa Federación Fase Autonómica - Copa Federación" },
             { season: "2020/21", team: "Real Murcia C.F.", category: "2ª Div. B" },
@@ -12262,7 +12262,7 @@ const playersData = {
             { season: "2019/20", team: "Xerez Deportivo F.C.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
             { season: "2018/19", team: "Xerez Deportivo F.C.", category: "3ª Div." },
             { season: "2017/18", team: "San Fernando C.D.", category: "2ª Div. B" },
-            { season: "2016/17", team: "Lleida C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "Lleida Esportiu Terraferma C.F.", category: "2ª Div. B - Copa del Rey" },
             { season: "2015/16", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa Federación" },
             { season: "2014/15", team: "Hércules de Alicante C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2013/14", team: "S.D. Amorebieta", category: "2ª Div. B" },
@@ -15240,6 +15240,110 @@ const playersData = {
         stats: {
             "2012/13": {
                 liga: { partidos: 17, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "oscarmartinez": {
+        name: "Óscar Martínez Cid",
+        footballName: "Óscar Martínez",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/y6DLR3RT/Óscar_Martínez_PNG.webp",
+        personalData: {
+            fullName: "Óscar Martínez Cid",
+            nickname: "Óscar Martínez",
+            birthPlace: "Orense, Orense",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "09/03/1979",
+            deathDate: null
+        },
+        career: [
+            { season: "2013/14", team: "C.D. Ourense", category: "2ª Div. B - Copa Federación" },
+            { season: "2012/13", team: "C.D. Ourense", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del rey" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del rey" },
+            { season: "2010/11", team: "Deportivo Alavés", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Deportivo Alavés", category: "2ª Div. B - Copa del rey" },
+            { season: "2008/09", team: "Granada C.F.", category: "2ª Div. B - Copa del rey" },
+            { season: "2007/08", team: "C.D. Linares", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "C.D. Ourense", category: "2ª Div. B" },
+            { season: "2005/06", team: "C.D. Ourense", category: "2ª Div. B" },
+            { season: "2004/05", team: "C.D. Ourense", category: "2ª Div. B - Copa del rey" },
+            { season: "2003/04", team: "U.D. At. Gramanet", category: "2ª Div. B - Copa del rey" },
+            { season: "2002/03", team: "U.E. Lleida", category: "2ª Div. B - Copa del rey" },
+            { season: "2001/02", team: "U.E. Lleida", category: "2ª Div. B - Copa del rey" },
+            { season: "2000/01", team: "Real Madrid C.F. B", category: "2ª Div. B" },
+            { season: "1999/00", team: "C.D. Ourense", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 12, goles_marcados: 1, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 28, goles_marcados: 6, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "fransol": {
+        name: "Francisco Sol Ortiz",
+        footballName: "Fran Sol",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/1tcpQPV4/Fran_Sol_PNG.webp",
+        personalData: {
+            fullName: "Francisco Sol Ortiz",
+            nickname: "Fran Sol",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "13/03/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Hércules de Alicante C.F.", category: "1ª Federación" },
+            { season: "2024/25", team: "A.E.K. Larnaca", category: "Liga Chipre - Copa Chipre - Fase Previa Conference League" },
+            { season: "2023/24", team: "A.E.K. Larnaca", category: "Liga Chipre - Copa Chipre - Fase Previa Conference League" },
+            { season: "2022/23", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "S.D. Eibar", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2020/21", team: "C.D. Tenerife", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "F. C. Dinamo de Kiev", category: "Liga Ucrania - Supercopa Ucrania - Fase Previa Champs. League" },
+            { season: "2019/20", team: "F. C. Dinamo de Kiev", category: "Liga Ucrania - Europa League - Copa Ucrania - Fase Previa Champs. League" },
+            { season: "2018/19", team: "F. C. Dinamo de Kiev", category: "Liga Ucrania - Europa League" },
+            { season: "2018/19", team: "Willem II Tilburg", category: "Eredivisie - KNVB Beker" },
+            { season: "2017/18", team: "Willem II Tilburg", category: "Eredivisie - KNVB Beker" },
+            { season: "2016/17", team: "Willem II Tilburg", category: "Eredivisie - KNVB Beker" },
+            { season: "2015/16", team: "Villarreal C.F. B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2014/15", team: "Villarreal C.F.", category: "1ª Div." },
+            { season: "2014/15", team: "Villarreal C.F. B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Real Madrid C.F. C", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "C.D. Lugo", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Real Madrid C.F. C", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "Real Madrid C.F. C", category: "3ª Div." },
+            { season: "2009/10", team: "Real Madrid C.F. C", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2007", team: "España Sub-15", category: "Amistosos" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 11, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
