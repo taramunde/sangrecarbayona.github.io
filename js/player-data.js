@@ -73,13 +73,13 @@ const playersData = {
             { season: "2024/25", team: "U.S. Sassuolo", category: "Serie B - Coppa Italia" },
             { season: "2024/25", team: "Club At. de Madrid", category: "1ª Div." },
             { season: "2023/24", team: "Club At. de Madrid", category: "1ª Div. - Champs. League - Copa del Rey" },
-            { season: "2023/24", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2022/23", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2021/22", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2023/24", team: "F.C. Rapid de Bucarest", category: "Liga Rumanía - Copa Rumanía" },
+            { season: "2022/23", team: "F.C. Rapid de Bucarest", category: "Liga Rumanía - Copa Rumanía" },
+            { season: "2021/22", team: "F.C. Rapid de Bucarest", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2020/21", team: "F.C. Rapid de Bucarest", category: "2ª Rumanía" },
-            { season: "2020/21", team: "F.C. UTA Arad", category: "Liga Rumana" },
+            { season: "2020/21", team: "F.C. UTA Arad", category: "Liga Rumanía" },
             { season: "2019/20", team: "F.C. Ripensia Timisoara ", category: "2ª Rumanía" },
-            { season: "2019/20", team: "A.C.S. Sepsi", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2019/20", team: "A.C.S. Sepsi", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2018/19", team: "F.C. Ripensia Timisoara", category: "2ª Rumanía" },
             { season: "2018/19", team: "A.C.S. Energeticianul", category: "2ª Rumanía - Copa Rumanía" },
             { season: "2017/18", team: "F.C. Hermannstadt", category: "2ª Rumanía - Copa Rumanía" }
@@ -2455,7 +2455,7 @@ const playersData = {
             { season: "2021/22", team: "Real Oviedo Vetusta", category: "3ª Federación" },
             { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación" },
             { season: "2020/21", team: "U.P. de Langreo", category: "2ª Div. B - Copa Federación - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
-            { season: "2020/21", team: "U.P. de Langreo B", category: "Regional Preferente" },
+            { season: "2020/21", team: "U.P. de Langreo B", category: "Regional Preferente Asturias" },
             { season: "2019/20", team: "U.P. de Langreo", category: "2ª Div. B" },
             { season: "2018/19", team: "U.P. de Langreo", category: "2ª Div. B" }
             
@@ -9226,12 +9226,12 @@ const playersData = {
             { season: "2025/26", team: "S.D. Ponferradina", category: "1ª Federación - Copa del Rey" },
             { season: "2024/25", team: "S.D. Ponferradina", category: "1ª Federación - 1ª Federación Prom. de Ascenso - Copa del Rey" },
             { season: "2023/24", team: "S.D. Ponferradina", category: "1ª Federación - 1ª Federación Prom. de Ascenso" },
-            { season: "2023/24", team: "F.C. Rapid de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2023/24", team: "F.C. Rapid de Bucarest", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2022/23", team: "F.C. Cartagena", category: "2ª Div. - Copa del Rey" },
             { season: "2021/22", team: "A.D. Alcorcón", category: "2ª Div." },
             { season: "2021/22", team: "Khor Fakkan S.S.C.", category: "Liga Emiratos" },
             { season: "2020/21", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2020/21", team: "F.C. Dinamo de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2020/21", team: "F.C. Dinamo de Bucarest", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2019/20", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "R.C. Deportivo de La Coruña", category: "2ª Div. - 2ª Div. Prom. de Ascenso" },
             { season: "2017/18", team: "R.C. Deportivo de La Coruña", category: "1ª Div. - Copa del Rey" },
@@ -9532,7 +9532,7 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2025/26", team: "F.C. Argeș Pitești", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2025/26", team: "F.C. Argeș Pitești", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2024/25", team: "F.C. Steaua de Bucarest", category: "2ª Rumanía" },
             { season: "2023/24", team: "F.C. Steaua de Bucarest", category: "2ª Rumanía - Copa Rumanía" },
             { season: "2022/23", team: "F.C. Spartak Varna", category: "Liga Bulgaria - Copa Bulgaria" },
@@ -12866,16 +12866,16 @@ const playersData = {
         deathDate: null // Poner null si el jugador está vivo
    },
         career: [ 
-            { season: "2025/26", team: "F.C. Rapid de Bucarest", category: "Liga Rumana" }, 
+            { season: "2025/26", team: "F.C. Rapid de Bucarest", category: "Liga Rumanía" }, 
             { season: "2025/26", team: "Cultural y Deportiva Leonesa", category: "2ª Div. - Copa del Rey" },
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
-            { season: "2023/24", team: "A.F.C. Hermannstadt", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2022/23", team: "A.F.C. Hermannstadt", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2021/22", team: "A.F.C. Hermannstadt", category: "Segunda Rumanía" },
-            { season: "2021/22", team: "F.C. Voluntari", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2020/21", team: "Viitorul Pandurii Târgu Jiu", category: "Segunda Rumanía - Copa Rumanía" },
-            { season: "2019/20", team: "Viitorul Pandurii Târgu Jiu", category: "Segunda Rumanía" },
-            { season: "2018/19", team: "C.S. Luceafărul Oradea", category: "Segunda Rumanía - Copa Rumanía" }
+            { season: "2023/24", team: "A.F.C. Hermannstadt", category: "Liga Rumanía - Copa Rumanía" },
+            { season: "2022/23", team: "A.F.C. Hermannstadt", category: "Liga Rumanía - Copa Rumanía" },
+            { season: "2021/22", team: "A.F.C. Hermannstadt", category: "2ª Rumanía" },
+            { season: "2021/22", team: "F.C. Voluntari", category: "Liga Rumanía - Copa Rumanía" },
+            { season: "2020/21", team: "Viitorul Pandurii Târgu Jiu", category: "2ª Rumanía - Copa Rumanía" },
+            { season: "2019/20", team: "Viitorul Pandurii Târgu Jiu", category: "2ª Rumanía" },
+            { season: "2018/19", team: "C.S. Luceafărul Oradea", category: "2ª Rumanía - Copa Rumanía" }
             
 
          ],
@@ -14164,7 +14164,7 @@ const playersData = {
             { season: "2020/21", team: "Giresunspor S.K.", category: "Liga Turquía" },
             { season: "2019/20", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
             { season: "2018/19", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
-            { season: "2017/18", team: "F.C. CFR 1907 Cluj", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2017/18", team: "F.C. CFR 1907 Cluj", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2016/17", team: "Stade de Reims", category: "Ligue 2 - Copa Francia" },
             { season: "2016/17", team: "Stade de Reims B", category: "National 2" },
             { season: "2015/16", team: "F.C. Kuban Krasnodar", category: "Premier League Rusia - Copa Rusa" },
@@ -14428,10 +14428,10 @@ const playersData = {
             { season: "2022/23", team: "A.S. Lucchese Libertas 1905 F.C.", category: "Serie C" },
             { season: "2021/22", team: "U.S. Alessandria Calcio 1912", category: "Serie B" },
             { season: "2021/22", team: "Ascoli Calcio 1898 F.C.", category: "Serie B - Coppa Italia" },
-            { season: "2020/21", team: "F.C. Dinamo de Bucarest", category: "Liga Rumana - Copa Rumanía" },
-            { season: "2019/20", team: "F.C. Dinamo de Bucarest", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2020/21", team: "F.C. Dinamo de Bucarest", category: "Liga Rumanía - Copa Rumanía" },
+            { season: "2019/20", team: "F.C. Dinamo de Bucarest", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2019/20", team: "C.S.K.A. Sofía", category: "Liga Bulgaria - Fase Previa Europa League" },
-            { season: "2018/19", team: "F.C. Botoșani", category: "Liga Rumana - Copa Rumanía" },
+            { season: "2018/19", team: "F.C. Botoșani", category: "Liga Rumanía - Copa Rumanía" },
             { season: "2017/18", team: "Real Oviedo", category: "2ª Div." },
             { season: "2016/17", team: "Spezia Calcio", category: "Serie B - Serie B Prom. de Ascenso" },
             { season: "2016/17", team: "Birmingham City F.C.", category: "Championship - FA Cup - EFL Cup" },
@@ -15061,6 +15061,186 @@ const playersData = {
             "2013/14": {
                 liga: { partidos: 32, goles_marcados: 1, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "manubusto": {
+        name: "Manuel Adolfo Busto Loza",
+        footballName: "Manu Busto",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/J0xvt9vz/Manu_Busto_PNG.webp",
+        personalData: {
+            fullName: "Manuel Adolfo Busto Loza",
+            nickname: "Manu Busto",
+            birthPlace: "Santander, Cantabria",
+            country: "España",
+            nationality: "Española",
+            height: "1,70 m",
+            birthDate: "07/10/1980",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.D. Bezana", category: "Regional Preferente Cantabria" },
+            { season: "2020/21", team: "F.C. Miengo", category: "Regional Preferente Cantabria - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Naval", category: "3ª Div." },
+            { season: "2017/18", team: "C.D. Bezana", category: "3ª Div." },
+            { season: "2016/17", team: "C.D. Tropezón", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "C.D. Tropezón", category: "3ª Div." },
+            { season: "2014/15", team: "Veguellina C.F.", category: "1ª Regional Aficionados Castilla y León" },
+            { season: "2014/15", team: "Club Portugalete", category: "3ª Div." },
+            { season: "2013/14", team: "A.P.O. Levadiakos F.C.", category: "Super League Griega - Copa Grecia" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "Lorca Deportiva C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "Lorca Deportiva C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2006/07", team: "Real Jaén C.F.", category: "2ª Div. B" },
+            { season: "2005/06", team: "Real Jaén C.F.", category: "2ª Div. B" },
+            { season: "2005/06", team: "Pontevedra C.F.", category: "2ª Div. B" },
+            { season: "2004/05", team: "C.D. Castellón", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2003/04", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2002/03", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "1999/00", team: "Real Valladolid C.F. B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 31, goles_marcados: 8, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 37, goles_marcados: 12, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2010/11": {
+                liga: { partidos: 36, goles_marcados: 11, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2009/10": {
+                liga: { partidos: 37, goles_marcados: 19, tarjetas_amarillas: 7, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "aquino": {
+        name: "Daniel Aquino Pintos",
+        footballName: "Aquino",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/gjz26bSw/Aquino-PNG.webp",
+        personalData: {
+            fullName: "Daniel Aquino Pintos",
+            nickname: "Aquino",
+            birthPlace: "Murcia, Murcia",
+            country: "España",
+            nationality: "Española, Argentina",
+            height: "1,78 m",
+            birthDate: "27/07/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "UCAM Murcia C.F.", category: "2ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "A.D. Ceuta F.C.", category: "1ª Federación - Copa del Rey - 1ª Federación Final de Campeones" },
+            { season: "2023/24", team: "San Fernando C.D.", category: "1ª Federación" },
+            { season: "2022/23", team: "San Fernando C.D.", category: "1ª Federación" },
+            { season: "2022/23", team: "Racing Cartagena Mar Menor F.C.", category: "2ª Federación - Copa Federación" },
+            { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación" },
+            { season: "2020/21", team: "C.D. Badajoz", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso - 2ª Div. B 2ª Fase de Ascenso" },
+            { season: "2019/20", team: "C.D. Badajoz", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2019/20", team: "Piast Gliwice", category: "Liga Polonia - Copa Polonia - Fase Previa Champions League - Supercopa Polonia" },
+            { season: "2018/19", team: "A.E.K. Larnaca", category: "Liga Chipre - Copa Chipre" },
+            { season: "2018/19", team: "Real Murcia C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "Real Racing Club de Santander", category: "2ª Div. B" },
+            { season: "2016/17", team: "Real Racing Club de Santander", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "C.D. Numancia", category: "2ª Div. - Copa del Rey" },
+            { season: "2014/15", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2013/14", team: "Club At. de Madrid B", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "2012/13", team: "Club At. de Madrid", category: "1ª Div." },
+            { season: "2012/13", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2012/13", team: "Club At. de Madrid C", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2011/12", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2010/11", team: "Real Murcia C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2009/10", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Real Murcia C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Real Murcia C.F.", category: "1ª Div." },
+            { season: "2006/07", team: "Real Murcia C.F.", category: "2ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2009", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19" },
+            { season: "2008", team: "España Sub-19", category: "Europeo Sub-19 - Clasif. Europeo Sub-19 - Amistosos" },
+            { season: "2007", team: "España Sub-19", category: "Clasif. Europeo Sub-19" },
+            { season: "2007", team: "España Sub-17", category: "Mundial Sub-17 - Europeo Sub-17 - Amistosos" },
+            { season: "2006", team: "España Sub-15", category: "Amistosos" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 12, goles_marcados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+        "pepediaz": {
+        name: "José Díaz Sánchez",
+        footballName: "Pepe Díaz",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/5tkw9psW/Pepe_Díaz_PNG.webp",
+        personalData: {
+            fullName: "José Díaz Sánchez",
+            nickname: "Pepe Díaz",
+            birthPlace: "Almodóvar del Río, Córdoba",
+            country: "España",
+            nationality: "Española",
+            height: "1,73 m",
+            birthDate: "20/04/1980",
+            deathDate: null
+        },
+        career: [
+            { season: "2015/16", team: "Lucena C.F.", category: "3ª Div." },
+            { season: "2014/15", team: "Lucena C.F.", category: "2ª Div. B" },
+            { season: "2013/14", team: "Lucena C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2011/12", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2010/11", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2009/10", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2008/09", team: "Córdoba C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Écija Balompié", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "Écija Balompié", category: "2ª Div. B - Copa del Rey" },
+            { season: "2005/06", team: "C.D. Baza", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Permanencia" },
+            { season: "2004/05", team: "C.D. Baza", category: "3ª Div." },
+            { season: "2004/05", team: "C.D. Guadalajara", category: "3ª Div." },
+            { season: "2003/04", team: "Écija Balompié", category: "2ª Div. B" },
+            { season: "2002/03", team: "Cartagonova F.C.", category: "2ª Div. B" },
+            { season: "2000/01", team: "Novelda C.F.", category: "2ª Div. B" },
+            { season: "1999/00", team: "Novelda C.F.", category: "2ª Div. B" },
+            { season: "1998/99", team: "Córdoba C.F.", category: "2ª Div. B" },
+            { season: "1997/98", team: "Córdoba C.F.", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 17, goles_marcados: 1, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             }
