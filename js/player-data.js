@@ -15351,6 +15351,67 @@ const playersData = {
         }
     },
 
+        "jandrin": {
+        name: "Alejandro Blanco González",
+        footballName: "Jandrín",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/vZr8XmJ1/Jandrín_PNG.webp",
+        personalData: {
+            fullName: "Alejandro Blanco González",
+            nickname: "Jandrín",
+            birthPlace: "Lugones, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,70 m",
+            birthDate: "19/08/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Mosconia", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2024/25", team: "Colegio Inmaculada Sub-19", category: "Liga Nacional" },
+            { season: "2024/25", team: "C.D. Mosconia", category: "3ª Federación" },
+            { season: "2023/24", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "U.P. de Langreo", category: "2ª Federación - Copa Federación" },
+            { season: "2020/21", team: "Caudal Deportivo", category: "3ª Div. - Copa Federación - Copa Federación Fase Autonómica - 3ª Div. 2ª Fase 2ª Div. RFEF - Prom. de Ascenso" },
+            { season: "2019/20", team: "Caudal Deportivo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Caudal Deportivo", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "Caudal Deportivo", category: "2ª Div. B" },
+            { season: "2017/18", team: "S.C.R. Penya Deportiva", category: "2ª Div. B" },
+            { season: "2016/17", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2015/16", team: "Pontevedra C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2014/15", team: "Real Avilés C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Permanencia" },
+            { season: "2013/14", team: "Club Marino de Luanco", category: "2ª Div. B - Copa Federación" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2010/11", team: "Real Oviedo B", category: "3ª Div." }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 12, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 17, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2010/11": {
+                liga: { partidos: 6, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
