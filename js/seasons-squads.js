@@ -1,7 +1,7 @@
 const seasonsSquads = {
     "2025-26": {
         "goalkeepers": ["aaron", "moldovan", "narvaez"],
-        "defenders": ["bailly", "rahim", "davidcostas", "danicalvo", "luengo", "davidcarmo", "nachovidal", "lucas", "javilopez", "lamine", "omarfalah", "marcoesteban", "adrilopes, espinosa"],
+        "defenders": ["bailly", "rahim", "davidcostas", "danicalvo", "luengo", "davidcarmo", "nachovidal", "lucas", "javilopez", "lamine", "omarfalah", "marcoesteban", "adrilopes", "espinosa"],
         "midfielders": ["albertoreina", "sibo", "santicazorla", "hassan", "colombatto", "ejaria", "borjasanchez", "brandondomingues", "brekalo", "dendoncker", "ilic", "fonseca", "alexcardero", "cheli", "diegotejon", "dieguito", "agudin"],
         "forwards": ["ilyas", "fedevinas", "alexfores", "rondon", "thiagoborbas", "thiagofernandez"],
         "coaches": ["paunovic2025", "luiscarrion", "almada"],
