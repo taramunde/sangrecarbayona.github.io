@@ -3,21 +3,21 @@
 const playersDatabase = {
     // PORTEROS
     "aaron": {
-        "src": "https://i.postimg.cc/hvxDQPg1/Aar-n-PNG-3.webp",
+        "src": "https://i.postimg.cc/FsCtdNDG/Aaron.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Aarón",
         "url": "fichajugador.html?player=aaron"
     },
     "moldovan": {
-        "src": "https://i.postimg.cc/sgPM0mk4/Moldovan-PNG-2.webp",
+        "src": "https://i.postimg.cc/z3YVrK66/Moldovan.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Moldovan",
         "url": "fichajugador.html?player=moldovan"
     },
     "narvaez": {
-        "src": "https://i.postimg.cc/XJqXqbps/Narv-ez-PNG.webp",
+        "src": "https://i.postimg.cc/52hfyL39/Narváez.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Narváez",
@@ -937,7 +937,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=bailly"
     },
     "rahim": {
-        "src": "https://i.postimg.cc/15bMB7y7/Rahim_PNG.webp",
+        "src": "https://i.postimg.cc/RCdpXtNX/Rahim.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Rahim",
@@ -1026,6 +1026,13 @@ const playersDatabase = {
         "number": "-",
         "name": "Adri Lopes",
         "url": "fichajugador.html?player=adrilopes"
+    },
+    "espinosa": {
+        "src": "https://i.postimg.cc/MGhpQNkp/Espinosa-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Espinosa",
+        "url": "fichajugador.html?player=espinosa"
     },
     "pomares": {
         "src": "https://i.postimg.cc/yN4Q1Q53/Pomares_PNG.webp",
@@ -1406,11 +1413,11 @@ const playersDatabase = {
         "url": "fichajugador.html?player=kiketorrent"
     },
     "ivan": {
-        "src": "https://i.postimg.cc/rwL1XR23/Iván_2015.webpp",
+        "src": "https://i.postimg.cc/rwL1XR23/Iván_2015.webp",
         "alt": "Defensa",
         "number": "-",
         "name": "Iván",
-        "url": "fichajugador.html?player=iván"
+        "url": "fichajugador.html?player=ivan"
     },
     "sergiosanchez": {
         "src": "https://i.postimg.cc/9fL78zGX/Sergio_Sánchez_PNG.webp",
@@ -1418,13 +1425,6 @@ const playersDatabase = {
         "number": "-",
         "name": "Sergio Sánchez",
         "url": "fichajugador.html?player=sergiosanchez"
-    },
-    "jonathanvila": {
-        "src": "https://i.postimg.cc/cJ2yZBWv/Jonathan_Vila_PNG.webp",
-        "alt": "Defensa",
-        "number": "-",
-        "name": "Jonathan Vila",
-        "url": "fichajugador.html?player=jonathanvila"
     },
     "redondo": {
         "src": "https://i.postimg.cc/fTVBxQQ0/Redondo_PNG.webp",
@@ -3693,7 +3693,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/Gm9bC2DS/Pucko_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
-        "name": "Pucko",
+        "name": "Pučko",
         "url": "fichajugador.html?player=pucko"
     },
     "jorgeortiz": {
@@ -3963,7 +3963,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=hectorsimon"
     },
     "belar": {
-        "src": "https://i.postimg.cc/QtmL2Gfq/Belar-PNG.webp",
+        "src": "https://i.postimg.cc/T1nddZNZ/Belar.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Belar",
