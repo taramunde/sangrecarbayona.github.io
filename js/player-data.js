@@ -2119,6 +2119,45 @@ const playersData = {
             }
         }
     },
+    "espinosa": {
+        name: "Diego Espinosa García de Muro",
+        footballName: "Espinosa",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/MGhpQNkp/Espinosa-PNG.webp", 
+    personalData: {
+        fullName: "Diego Espinosa García de Muro",
+        nickname: "Espinosa",
+        birthPlace: "Santander, Cantabria",
+        country: "España",
+        nationality: "Española",
+        height: "1,95 m",
+        birthDate: "02/07/2004",
+        deathDate: null // Poner null si el jugador está vivo
+    }, 
+        career: [  
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2024/25", team: "Unión Montañesa Escobedo", category: "2ª Federación - Copa del Rey - 2ª Federación Prom. de Permanencia" },
+            { season: "2023/24", team: "S.D. Huesca B", category: "3ª Federación" },
+            { season: "2023/24", team: "S.D. Huesca", category: "Copa del Rey" },
+            { season: "2022/23", team: "S.D. Huesca Sub-19", category: "División de Honor" },
+            { season: "2021/22", team: "C.D. Bezana Sub-19", category: "División de Honor" },
+            { season: "2021/22", team: "C.D. Bezana", category: "Regional Preferente de Cantabria" },
+            { season: "2020/21", team: "C.D. Arenas de Frajanas", category: "Regional Preferente de Cantabria" }
+        ],
+
+       
+        stats: {
+            "2025/26": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
 
     "alvarolemos": {
         name: "Álvaro Lemos Collazo",
