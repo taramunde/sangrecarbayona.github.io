@@ -6421,7 +6421,7 @@ const playersData = {
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
             },
             "2023/24": {
-                liga: { partidos: 41, goles_marcados: 3, tarjetas_amarillas: 11, tarjetas_rojas: 1 },
+                liga: { partidos: 41, goles_marcados: 4, tarjetas_amarillas: 11, tarjetas_rojas: 1 },
                 copa: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
