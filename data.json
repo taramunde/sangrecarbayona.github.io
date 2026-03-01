@@ -1,47 +1,26 @@
 {
-  "jornada": "25 LaLiga EA Sports 2025/26",
+  "jornada": "26 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "RSO",
-    "homeImg": "https://i.postimg.cc/Nff26jxv/real-sociedad-b.png",
-    "visitor": "OVI",
-    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "score": "3 - 3",
-    "date": "Sáb. 21 Feb, 14:00",
-    "time": "Reale Arena"
-  },
-  "nextMatch": {
     "home": "OVI",
     "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "visitor": "ATM",
     "visitorImg": "https://i.postimg.cc/02W3v8SZ/Atlético_de_Madrid_B_(2020).jpg",
-    "score": " - ",
+    "score": "0 - 1",
     "date": "Sáb. 28 Feb, 21:00",
-    "time": "Reale Arena"
+    "time": "Carlos Tartiere"
+  },
+  "nextMatch": {
+    "home": "ESP",
+    "homeImg": "https://i.postimg.cc/153WzLct/Rayo_Vallecano_de_Madrid_B_(2007).jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "score": " - ",
+    "date": "Mié. 04 Mar, 19:00",
+    "time": "Vallecas"
   },
   
   "goalscorers": [
-    {
-      "name": "Fede Viñas",
-      "number": "9",
-      "photo": "https://i.postimg.cc/mZywx37V/Fede_Viñas_PNG_(3).webp",
-      "nation": "https://i.postimg.cc/G2tjyzdg/Uruguay.png",
-      "goals": 5,
-      "minute": "50', 52'",
-      "partidos": "21",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/federico-vinas/profil/spieler/578419"
-    },
-    {
-      "name": "Bailly",
-      "number": "2",
-      "photo": "https://i.postimg.cc/qRHtqnX7/Bailly_PNG_(2).webp",
-      "nation": "https://i.postimg.cc/Gp56QJ1Z/Costa_de_Marfil.png",
-      "goals": 1,
-      "minute": "92'",
-      "partidos": "8",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/eric-bailly/profil/spieler/286384"
-    }
+    
     
   ],
 
