@@ -2,7 +2,7 @@
  * translator.js — Sangre Carbayona
  * Traductor ES <-> EN con bandera del Reino Unido.
  * Añade este script en cualquier página HTML justo antes de </body>
- * 
+ *
  * Uso: <script src="js/translator.js"></script>
  */
 
@@ -10,83 +10,55 @@
   'use strict';
 
   // ─── PALABRAS PROTEGIDAS (no se traducen) ───────────────────────────────────
-  // Se reemplazan por placeholders antes de traducir y se restauran después.
   const PROTECTED_TERMS = [
-    'Sangre Carbayona',
-    'Real Oviedo',
-    'Sporting de Gijón',
-    'Sporting',
-    'Carbayona',
-    'Tartiere',
-    'Buenavista',
-    'Buenavista Stadium',
-    'Estadio Carlos Tartiere',
-    'Carlos Tartiere',
-    'Lángara',
-    'Isidro Lángara',
-    'Cazorla',
-    'Santi Cazorla',
-    'Asturias',
-    'La Liga',
-    'Segunda División',
-    'Primera División',
-    'Segunda B',
-    'Copa del Rey',
-    'Oviedista',
-    'Oviedistas',
-    'Carbayón',
-    'Oviedo',
-    'Frichu Yustas',
-    'Mangas',
-    'Basiliscus',
-    'Transfermarkt',
-    'Futbolteca',
-    'BdFutbol',
-    'RSSSF',
+    'Sangre Carbayona','Real Oviedo','Sporting de Gijón','Sporting',
+    'Carbayona','Tartiere','Buenavista','Estadio Carlos Tartiere',
+    'Carlos Tartiere','Lángara','Isidro Lángara','Cazorla','Santi Cazorla',
+    'Asturias','La Liga','Segunda División','Primera División','Segunda B',
+    'Copa del Rey','Oviedista','Oviedistas','Carbayón','Oviedo',
+    'Frichu Yustas','Mangas','Basiliscus','Transfermarkt','Futbolteca',
+    'BdFutbol','RSSSF',
   ];
 
-  // ─── NODOS A IGNORAR (no se tocan nunca) ────────────────────────────────────
-  const SKIP_SELECTORS = [
-    'script', 'style', 'noscript', 'code', 'pre',
-    '.notranslate', '[translate="no"]',
-    '#lang-switcher',           // el propio botón
-    '.social-icon',
-    'a[href]',                  // links de nav: solo traducimos el texto, no el href
+  // ─── CONTENEDORES EXCLUIDOS COMPLETAMENTE ───────────────────────────────────
+  const SKIP_IDS = [
+    'lang-switcher',
+    'calendario-container',
+    'days',
+    'monthName',
+    'note-popup',
   ];
+
+  const SKIP_CLASSES = [
+    'notranslate',
+    'day-of-week',
+    'day',
+  ];
+
+  // Labels del timer en ambos idiomas
+  const TIMER_ES = ['Días','Horas','Minutos','Segundos'];
+  const TIMER_EN = ['Days','Hours','Minutes','Seconds'];
 
   // ─── ESTADO ─────────────────────────────────────────────────────────────────
   let isEnglish = localStorage.getItem('sc_lang') === 'en';
-  let originalTexts = new Map();   // nodo -> texto original
+  let originalTexts = new Map();
   let isBusy = false;
-
-  // ─── CREACIÓN DEL BOTÓN ─────────────────────────────────────────────────────
-  function createButton() {
-    const btn = document.createElement('div');
-    btn.id = 'lang-switcher';
-    btn.title = isEnglish ? 'Switch to Spanish' : 'Switch to English';
-    btn.innerHTML = `
-      <span class="flag-icon">${isEnglish ? '🇪🇸' : '🇬🇧'}</span>
-      <span class="lang-label">${isEnglish ? 'ES' : 'EN'}</span>
-    `;
-    btn.addEventListener('click', toggleLanguage);
-    document.body.appendChild(btn);
-    return btn;
-  }
+  let timerObserver = null;
 
   // ─── ESTILOS ────────────────────────────────────────────────────────────────
   function injectStyles() {
-    const style = document.createElement('style');
-    style.textContent = `
+    const s = document.createElement('style');
+    s.textContent = `
       #lang-switcher {
         position: fixed;
-        bottom: 80px;
+        bottom: 130px;
         right: 18px;
         z-index: 99999;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2px;
-        background: rgba(0,0,0,0.75);
+        background: rgba(0,0,0,0.78);
         border: 2px solid rgba(255,255,255,0.25);
         border-radius: 12px;
         padding: 6px 10px;
@@ -101,156 +73,166 @@
         border-color: rgba(255,255,255,0.5);
         box-shadow: 0 6px 20px rgba(0,0,0,0.6);
       }
-      #lang-switcher:active {
-        transform: scale(0.96);
-      }
-      #lang-switcher .flag-icon {
-        font-size: 24px;
-        line-height: 1;
-      }
+      #lang-switcher:active { transform: scale(0.96); }
+      #lang-switcher .flag-icon { font-size: 24px; line-height: 1; }
       #lang-switcher .lang-label {
-        font-size: 10px;
-        font-weight: 700;
-        color: #fff;
-        letter-spacing: 1px;
-        font-family: Arial, sans-serif;
+        font-size: 10px; font-weight: 700; color: #fff;
+        letter-spacing: 1px; font-family: Arial, sans-serif;
       }
-      #lang-switcher.busy {
-        opacity: 0.6;
-        pointer-events: none;
-      }
+      #lang-switcher.busy { opacity: 0.6; pointer-events: none; }
       #lang-switcher .spinner {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
+        display: inline-block; width: 16px; height: 16px;
         border: 2px solid rgba(255,255,255,0.3);
-        border-top-color: #fff;
-        border-radius: 50%;
+        border-top-color: #fff; border-radius: 50%;
         animation: sc-spin 0.7s linear infinite;
       }
-      @keyframes sc-spin {
-        to { transform: rotate(360deg); }
-      }
+      @keyframes sc-spin { to { transform: rotate(360deg); } }
     `;
-    document.head.appendChild(style);
+    document.head.appendChild(s);
+  }
+
+  function btnHTML() {
+    return `<span class="flag-icon">${isEnglish ? '🇪🇸' : '🇬🇧'}</span>
+            <span class="lang-label">${isEnglish ? 'ES' : 'EN'}</span>`;
+  }
+
+  function createButton() {
+    const btn = document.createElement('div');
+    btn.id = 'lang-switcher';
+    btn.title = isEnglish ? 'Cambiar a Español' : 'Switch to English';
+    btn.innerHTML = btnHTML();
+    btn.addEventListener('click', toggleLanguage);
+    document.body.appendChild(btn);
+    return btn;
+  }
+
+  // ─── COMPROBAR CONTENEDORES EXCLUIDOS ───────────────────────────────────────
+  function isSkipped(node) {
+    let el = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
+    while (el && el !== document.body) {
+      if (SKIP_IDS.includes(el.id)) return true;
+      if (el.getAttribute && el.getAttribute('translate') === 'no') return true;
+      if (el.classList) {
+        for (const c of SKIP_CLASSES) {
+          if (el.classList.contains(c)) return true;
+        }
+      }
+      // Excluir el contenedor del efecto de partículas (arena-effect)
+      if (el.id === 'arena-effect-container') return true;
+      el = el.parentElement;
+    }
+    return false;
   }
 
   // ─── PROTECCIÓN DE TÉRMINOS ──────────────────────────────────────────────────
-  // Reemplazamos cada término protegido por @@PROTECTED_N@@ antes de enviar a la API
   function protectTerms(text) {
     const map = [];
     let result = text;
     PROTECTED_TERMS.forEach((term, i) => {
-      const placeholder = `@@SC${i}@@`;
-      // Reemplazo case-insensitive
-      const regex = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-      if (regex.test(result)) {
-        map.push({ placeholder, term });
-        result = result.replace(new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), placeholder);
+      const ph = `@@SC${i}@@`;
+      const re = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+      if (re.test(result)) {
+        map.push({ ph, term });
+        result = result.replace(
+          new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), ph
+        );
       }
     });
-    return { protected: result, map };
+    return { safe: result, map };
   }
 
   function restoreTerms(text, map) {
-    let result = text;
-    map.forEach(({ placeholder, term }) => {
-      result = result.split(placeholder).join(term);
-    });
-    return result;
+    let r = text;
+    map.forEach(({ ph, term }) => { r = r.split(ph).join(term); });
+    return r;
   }
 
-  // ─── API DE TRADUCCIÓN (MyMemory — gratuita, sin clave) ─────────────────────
-  async function translateText(text, from, to) {
+  // ─── API MYMEMORY ────────────────────────────────────────────────────────────
+  async function translateText(text) {
     if (!text || !text.trim()) return text;
-
-    const { protected: safeText, map } = protectTerms(text);
-
+    const { safe, map } = protectTerms(text);
     try {
-      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(safeText)}&langpair=${from}|${to}`;
-      const res = await fetch(url);
-      if (!res.ok) throw new Error('API error');
+      const res = await fetch(
+        `https://api.mymemory.translated.net/get?q=${encodeURIComponent(safe)}&langpair=es|en`
+      );
+      if (!res.ok) throw new Error();
       const data = await res.json();
-      const translated = data.responseData?.translatedText || safeText;
-      return restoreTerms(translated, map);
-    } catch (e) {
-      // Si falla la API, devolvemos el texto original
+      return restoreTerms(data.responseData?.translatedText || safe, map);
+    } catch {
       return text;
     }
   }
 
-  // ─── OBTENER NODOS DE TEXTO TRADUCIBLES ─────────────────────────────────────
-  function getTextNodes(root) {
+  // ─── OBTENER NODOS TRADUCIBLES ───────────────────────────────────────────────
+  function getTextNodes() {
     const nodes = [];
-    const walker = document.createTreeWalker(
-      root,
-      NodeFilter.SHOW_TEXT,
-      {
-        acceptNode(node) {
-          // Texto vacío o solo espacios
-          if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-
-          // Padres a ignorar
-          let parent = node.parentElement;
-          while (parent && parent !== root) {
-            const tag = parent.tagName.toLowerCase();
-            if (['script', 'style', 'noscript', 'code', 'pre'].includes(tag)) {
-              return NodeFilter.FILTER_REJECT;
-            }
-            if (
-              parent.id === 'lang-switcher' ||
-              parent.classList.contains('notranslate') ||
-              parent.getAttribute('translate') === 'no'
-            ) {
-              return NodeFilter.FILTER_REJECT;
-            }
-            parent = parent.parentElement;
-          }
-          return NodeFilter.FILTER_ACCEPT;
-        }
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        const tag = node.parentElement?.tagName?.toLowerCase();
+        if (['script','style','noscript','code','pre'].includes(tag)) return NodeFilter.FILTER_REJECT;
+        if (isSkipped(node)) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
       }
-    );
-
-    let node;
-    while ((node = walker.nextNode())) {
-      nodes.push(node);
-    }
+    });
+    let n;
+    while ((n = walker.nextNode())) nodes.push(n);
     return nodes;
   }
 
-  // ─── TRADUCIR TODA LA PÁGINA ─────────────────────────────────────────────────
-  async function translatePage(btn) {
-    const nodes = getTextNodes(document.body);
-    const BATCH = 8; // nodos por lote para no saturar la API
-
-    // Guardar originales si es la primera vez
-    nodes.forEach(n => {
-      if (!originalTexts.has(n)) {
-        originalTexts.set(n, n.nodeValue);
-      }
-    });
-
-    // Traducir en lotes
+  // ─── TRADUCIR / RESTAURAR ────────────────────────────────────────────────────
+  async function translatePage() {
+    const nodes = getTextNodes();
+    nodes.forEach(n => { if (!originalTexts.has(n)) originalTexts.set(n, n.nodeValue); });
+    const BATCH = 8;
     for (let i = 0; i < nodes.length; i += BATCH) {
-      const batch = nodes.slice(i, i + BATCH);
       await Promise.all(
-        batch.map(async (node) => {
-          const original = originalTexts.get(node);
-          const translated = await translateText(original, 'es', 'en');
-          node.nodeValue = translated;
+        nodes.slice(i, i + BATCH).map(async node => {
+          node.nodeValue = await translateText(originalTexts.get(node));
         })
       );
     }
   }
 
-  // ─── RESTAURAR ESPAÑOL ───────────────────────────────────────────────────────
   function restorePage() {
-    originalTexts.forEach((original, node) => {
-      // El nodo puede haberse eliminado del DOM; lo comprobamos
-      if (node.isConnected) {
-        node.nodeValue = original;
-      }
+    originalTexts.forEach((orig, node) => {
+      if (node.isConnected) node.nodeValue = orig;
     });
+  }
+
+  // ─── TIMER: OBSERVER PARA LABELS DINÁMICOS ───────────────────────────────────
+  function fixTimerLabels() {
+    if (!isEnglish) return;
+    const timerEl = document.getElementById('timer');
+    if (!timerEl) return;
+    const walker = document.createTreeWalker(timerEl, NodeFilter.SHOW_TEXT, null);
+    let n;
+    while ((n = walker.nextNode())) {
+      const v = n.nodeValue.trim();
+      const idx = TIMER_ES.indexOf(v);
+      if (idx !== -1) n.nodeValue = TIMER_EN[idx];
+    }
+  }
+
+  function startTimerObserver() {
+    const timerEl = document.getElementById('timer');
+    if (!timerEl || timerObserver) return;
+    timerObserver = new MutationObserver(fixTimerLabels);
+    timerObserver.observe(timerEl, { childList: true, subtree: true, characterData: true });
+    fixTimerLabels();
+  }
+
+  function stopTimerObserver() {
+    if (timerObserver) { timerObserver.disconnect(); timerObserver = null; }
+    const timerEl = document.getElementById('timer');
+    if (!timerEl) return;
+    const walker = document.createTreeWalker(timerEl, NodeFilter.SHOW_TEXT, null);
+    let n;
+    while ((n = walker.nextNode())) {
+      const v = n.nodeValue.trim();
+      const idx = TIMER_EN.indexOf(v);
+      if (idx !== -1) n.nodeValue = TIMER_ES[idx];
+    }
   }
 
   // ─── TOGGLE ──────────────────────────────────────────────────────────────────
@@ -262,53 +244,44 @@
     btn.innerHTML = `<span class="spinner"></span><span class="lang-label">...</span>`;
 
     if (!isEnglish) {
-      // → Traducir a inglés
-      await translatePage(btn);
+      await translatePage();
+      startTimerObserver();
       isEnglish = true;
       localStorage.setItem('sc_lang', 'en');
     } else {
-      // → Volver a español
+      stopTimerObserver();
       restorePage();
       isEnglish = false;
       localStorage.setItem('sc_lang', 'es');
     }
 
     btn.classList.remove('busy');
-    btn.innerHTML = `
-      <span class="flag-icon">${isEnglish ? '🇪🇸' : '🇬🇧'}</span>
-      <span class="lang-label">${isEnglish ? 'ES' : 'EN'}</span>
-    `;
-    btn.title = isEnglish ? 'Switch to Spanish' : 'Switch to English';
+    btn.innerHTML = btnHTML();
+    btn.title = isEnglish ? 'Cambiar a Español' : 'Switch to English';
     isBusy = false;
   }
 
   // ─── INIT ────────────────────────────────────────────────────────────────────
   function init() {
     injectStyles();
-    const btn = createButton();
+    createButton();
 
-    // Si el usuario ya había seleccionado inglés antes, traducir automáticamente
     if (isEnglish) {
-      // Pequeño delay para que el DOM esté listo
       setTimeout(async () => {
+        const btn = document.getElementById('lang-switcher');
         btn.classList.add('busy');
         btn.innerHTML = `<span class="spinner"></span><span class="lang-label">...</span>`;
-        await translatePage(btn);
+        await translatePage();
+        startTimerObserver();
         btn.classList.remove('busy');
-        btn.innerHTML = `
-          <span class="flag-icon">🇪🇸</span>
-          <span class="lang-label">ES</span>
-        `;
-        btn.title = 'Switch to Spanish';
-      }, 600);
+        btn.innerHTML = btnHTML();
+        btn.title = 'Cambiar a Español';
+      }, 800);
     }
   }
 
-  // Esperar a que el DOM esté listo
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  document.readyState === 'loading'
+    ? document.addEventListener('DOMContentLoaded', init)
+    : init();
 
 })();
