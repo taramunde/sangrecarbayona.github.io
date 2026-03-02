@@ -15451,6 +15451,66 @@ const playersData = {
         }
     },
 
+        "jairocarcaba": {
+        name: "Jairo Cárcaba González",
+        footballName: "Jairo Cárcaba",
+        position: "Delantero",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/XYS7w5zS/Jairo_Cárcaba_PNG.webp",
+        personalData: {
+            fullName: "Jairo Cárcaba González",
+            nickname: "Jairo Cárcaba",
+            birthPlace: "Gijón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "27/05/1992",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Caudal Deportivo", category: "3ª Federación - Copa del Rey" },
+            { season: "2024/25", team: "U.B. Conquense", category: "2ª Federación - Copa Federación Fase Autonómica - Copa del Rey" },
+            { season: "2023/24", team: "U.B. Conquense", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2022/23", team: "Club Marino de Luanco", category: "2ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2021/22", team: "C.F. Badalona", category: "2ª Federación" },
+            { season: "2020/21", team: "C.F. Badalona", category: "2ª Div. B - 2ª Div. B 2ª Fase 1ª Div. RFEF" },
+            { season: "2020/21", team: "Coruxo F.C.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2019/20", team: "Barakaldo C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Castellón", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2018/19", team: "C.D. Castellón", category: "2ª Div. B" },
+            { season: "2018/19", team: "U.B. Conquense", category: "2ª Div. B - Copa del Rey" },
+            { season: "2017/18", team: "C.F. Rayo Majadahonda", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "Club Marino de Luanco", category: "3ª Div." },
+            { season: "2016/17", team: "Club Marino de Luanco", category: "3ª Div." },
+            { season: "2015/16", team: "Condal Club", category: "3ª Div. - Copa Federación" },
+            { season: "2014/15", team: "Condal Club", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2013/14", team: "L'Entregu C.F.", category: "3ª Div." },
+            { season: "2013/14", team: "Caudal Deportivo", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2011/12", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2010/11", team: "T.S.K. Roces Sub-19", category: "División de Honor" },
+            { season: "2009/10", team: "T.S.K. Roces Sub-19", category: "División de Honor" },
+            { season: "2008/09", team: "C.D. T.S.K. Roces Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos: 2, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2011/12": {
+                liga: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     "paunovic2025": {
         name: "Veljko Paunović",
@@ -15748,6 +15808,48 @@ const playersData = {
             "2013/14": {
                 liga: { partidos_entrenados: 12, victorias: 5, empates: 3, derrotas: 4 },
                 copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
+            "sarriugarte2012": {
+        name: "Félix Ángel Sarriugarte Montoya",
+        footballName: "Sarriugarte",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/jvypSLwT/Sarriugarte-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Félix Ángel Sarriugarte Montoya",
+            nickname: "Sarriugarte",
+            birthPlace: "Durango, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "06/11/1964",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "C.D. Calahorra", category: "3ª Federación" },
+            { season: "2023/24", team: "C.D. Calahorra B", category: "3ª Federación" },
+            { season: "2015/16", team: "Sestao River Club", category: "2ª Div. B" },
+            { season: "2012/13", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "Sestao River Club", category: "2ª Div. B" },
+            { season: "2007/08", team: "C.D. Varea", category: "3ª Div." },
+            { season: "2006/07", team: "Athletic Club", category: "1ª Div. - Copa del Rey" },
+            { season: "2005/06", team: "Athletic Club B", category: "2ª Div. B" },
+            { season: "2003/04", team: "C.D. Basconia", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2024", team: "Catar Sub-20", category: "Clasif. Copa Asia Sub-20 - Copa Asia Sub-20 - Amistosos" },
+            { season: "2023", team: "Catar Sub-20", category: "Amistosos" }
+        ],
+        stats: {
+            "2012/13": {
+                liga: { partidos_entrenados: 28, victorias: 13, empates: 9, derrotas: 6 },
+                copa: { partidos_entrenados: 2, victorias: 1, empates: 1, derrotas: 0 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
             }
