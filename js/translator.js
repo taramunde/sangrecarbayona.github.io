@@ -1,15 +1,13 @@
 /**
  * translator.js — Sangre Carbayona
  * Traductor ES <-> EN con bandera del Reino Unido.
- * Añade este script en cualquier página HTML justo antes de </body>
- *
- * Uso: <script src="js/translator.js"></script>
+ * Uso: <script src="js/translator.js"></script> justo antes de </body>
  */
 
 (function () {
   'use strict';
 
-  // ─── PALABRAS PROTEGIDAS (no se traducen) ───────────────────────────────────
+  // ─── PALABRAS PROTEGIDAS ─────────────────────────────────────────────────────
   const PROTECTED_TERMS = [
     'Sangre Carbayona','Real Oviedo','Sporting de Gijón','Sporting',
     'Carbayona','Tartiere','Buenavista','Estadio Carlos Tartiere',
@@ -20,26 +18,18 @@
     'BdFutbol','RSSSF',
   ];
 
-  // ─── CONTENEDORES EXCLUIDOS COMPLETAMENTE ───────────────────────────────────
-  const SKIP_IDS = [
-    'lang-switcher',
-    'calendario-container',
-    'days',
-    'monthName',
-    'note-popup',
-  ];
+  // ─── IDs DE CONTENEDORES EXCLUIDOS (SOLO ESTOS, nada más) ───────────────────
+  // Solo excluimos por ID exacto para no bloquear zonas no deseadas.
+  const SKIP_IDS = new Set([
+    'lang-switcher',        // el botón del traductor en sí
+    'calendario-container', // todo el calendario interactivo
+    'arena-effect-container', // efecto de partículas con texto animado
+  ]);
 
-  const SKIP_CLASSES = [
-    'notranslate',
-    'day-of-week',
-    'day',
-  ];
-
-  // Labels del timer en ambos idiomas
+  // Labels del timer (se manejan con MutationObserver aparte)
   const TIMER_ES = ['Días','Horas','Minutos','Segundos'];
   const TIMER_EN = ['Days','Hours','Minutes','Seconds'];
 
-  // ─── ESTADO ─────────────────────────────────────────────────────────────────
   let isEnglish = localStorage.getItem('sc_lang') === 'en';
   let originalTexts = new Map();
   let isBusy = false;
@@ -103,22 +93,16 @@
     btn.innerHTML = btnHTML();
     btn.addEventListener('click', toggleLanguage);
     document.body.appendChild(btn);
-    return btn;
   }
 
-  // ─── COMPROBAR CONTENEDORES EXCLUIDOS ───────────────────────────────────────
-  function isSkipped(node) {
-    let el = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
+  // ─── COMPROBAR SI UN NODO ESTÁ EN ZONA EXCLUIDA ──────────────────────────────
+  // Solo comprobamos por ID exacto — nada de clases genéricas.
+  function isInsideSkippedZone(textNode) {
+    let el = textNode.parentElement;
     while (el && el !== document.body) {
-      if (SKIP_IDS.includes(el.id)) return true;
-      if (el.getAttribute && el.getAttribute('translate') === 'no') return true;
-      if (el.classList) {
-        for (const c of SKIP_CLASSES) {
-          if (el.classList.contains(c)) return true;
-        }
-      }
-      // Excluir el contenedor del efecto de partículas (arena-effect)
-      if (el.id === 'arena-effect-container') return true;
+      if (SKIP_IDS.has(el.id)) return true;
+      // Respetar translate="no" explícito
+      if (el.getAttribute('translate') === 'no') return true;
       el = el.parentElement;
     }
     return false;
@@ -163,15 +147,20 @@
     }
   }
 
-  // ─── OBTENER NODOS TRADUCIBLES ───────────────────────────────────────────────
+  // ─── RECOGER NODOS DE TEXTO TRADUCIBLES ─────────────────────────────────────
   function getTextNodes() {
     const nodes = [];
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
+        // Saltar nodos vacíos
         if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        // Saltar etiquetas no traducibles
         const tag = node.parentElement?.tagName?.toLowerCase();
-        if (['script','style','noscript','code','pre'].includes(tag)) return NodeFilter.FILTER_REJECT;
-        if (isSkipped(node)) return NodeFilter.FILTER_REJECT;
+        if (['script','style','noscript','code','pre'].includes(tag)) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        // Saltar zonas excluidas por ID
+        if (isInsideSkippedZone(node)) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       }
     });
@@ -183,6 +172,7 @@
   // ─── TRADUCIR / RESTAURAR ────────────────────────────────────────────────────
   async function translatePage() {
     const nodes = getTextNodes();
+    // Guardar originales (solo la primera vez)
     nodes.forEach(n => { if (!originalTexts.has(n)) originalTexts.set(n, n.nodeValue); });
     const BATCH = 8;
     for (let i = 0; i < nodes.length; i += BATCH) {
@@ -200,11 +190,10 @@
     });
   }
 
-  // ─── TIMER: OBSERVER PARA LABELS DINÁMICOS ───────────────────────────────────
+  // ─── TIMER OBSERVER ──────────────────────────────────────────────────────────
   function fixTimerLabels() {
-    if (!isEnglish) return;
     const timerEl = document.getElementById('timer');
-    if (!timerEl) return;
+    if (!timerEl || !isEnglish) return;
     const walker = document.createTreeWalker(timerEl, NodeFilter.SHOW_TEXT, null);
     let n;
     while ((n = walker.nextNode())) {
