@@ -172,6 +172,11 @@ body:not([data-season="2025-26"]) .players-gallery img {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave para dar relieve */
 }
 
+/* Espacio entre círculos en temporadas antiguas */
+body:not([data-season="2025-26"]) .players-gallery {
+    gap: 30px;
+}
+
 /* Ajustamos la caja de información para que deje de parecer una "ficha cortada" */
 body:not([data-season="2025-26"]) .player-info {
     border: none;           /* Quitamos los bordes cuadrados */
