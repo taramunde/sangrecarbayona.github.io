@@ -37,6 +37,7 @@
     <meta name="twitter:title" content="Sangre Carbayona - El Real Oviedo como nunca lo viste" />
     <meta name="twitter:description" content="Juega, descubre y revive la historia del Real Oviedo. Desde Lángara hasta Cazorla, desde el Buenavista al Tartiere. ¡Únete a la familia azul!" />
     <meta name="twitter:image" content="https://i.postimg.cc/tgL8SLYy/Sangre-Carbayona-C-D-Oviedo-Stadium-Ovetense.webp" />
+    <meta name="google-translate-customization" content="tu-codigo-si-te-registras"> <!-- Opcional -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -177,6 +178,11 @@
     <!-- Fin menú lateral -->
     <header class="header-container">
         <img src="https://i.ibb.co/sdw3L5KN/Sangre-Carbayona-C-D-Oviedo-Stadium-Ovetense.webp" alt="Header Sangre Carbayona" class="header-img"loading="lazy"/>
+        <!-- Agrega el selector de idiomas aquí (al final del header) -->
+        <div class="language-switcher">
+            <img src="https://i.postimg.cc/jjfxjjwP/España.jpg" alt="Español" title="Español" onclick="setLanguage('es')" class="flag-icon">
+            <img src="https://i.postimg.cc/yY91XHNc/Reino_Unido.webp" alt="English" title="English" onclick="setLanguage('en')" class="flag-icon">
+        </div>
         </header>
          <div class="button-container">
         <a href="index.html" class="header-button">Inicio</a>
@@ -465,5 +471,32 @@
     <script src="js/calendar.js?nocache=20251231v22"></script>
     <script src="js/social-share.js?nocache=20251231v1"></script>
     <script src="js/api-manager.js?nocache=20251231v4"></script>
+
+    <!-- Agrega esto justo antes de </body> (antes de tus scripts existentes) -->
+    <div id="google_translate_element" style="display: none;"></div>
+    
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',  // Idioma original: español
+                includedLanguages: 'en,es',  // Solo inglés y español
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false  // No traduce automáticamente
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <!-- Función personalizada para cambiar idioma con banderas -->
+    <script type="text/javascript">
+        function setLanguage(lang) {
+            var select = document.querySelector('select.goog-te-combo');
+            if (select) {
+                select.value = lang;
+                select.dispatchEvent(new Event('change'));
+            }
+        }
+    </script>
+
 </body>
 </html>
