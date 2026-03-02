@@ -156,8 +156,8 @@ body[data-season="2025-26"] .player-card {
 
 body:not([data-season="2025-26"]) .players-gallery img {
     /* Hacemos la imagen perfectamente redonda */
-    width: 160px;        /* Ancho fijo cuadrado */
-    height: 160px;       /* Alto igual al ancho */
+    width: 200px;        /* Ancho fijo cuadrado */
+    height: 200px;       /* Alto igual al ancho */
     border-radius: 50%;  /* Esto crea el círculo */
     
     /* Enfoque en la cara */
@@ -305,8 +305,8 @@ body:not([data-season="2025-26"]) img.alejar {
     }
 
     body:not([data-season="2025-26"]) .players-gallery img {
-        width: 140px;
-        height: 140px;
+        width: 175px;
+        height: 175px;
     }
 }
 
@@ -355,8 +355,8 @@ body:not([data-season="2025-26"]) img.alejar {
     }
 
     body:not([data-season="2025-26"]) .players-gallery img {
-        width: 130px;
-        height: 130px;
+        width: 160px;
+        height: 160px;
     }
 
     body:not([data-season="2025-26"]) .player-card {
