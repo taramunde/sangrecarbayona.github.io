@@ -294,12 +294,17 @@
         let result = text;
 
         for (const key of keys) {
+            // Escapar caracteres especiales de regex
+            const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+            // Lookahead/lookbehind: solo traduce si la coincidencia NO está
+            // pegada a otra letra (evita "Vie" dentro de "View", etc.)
             const regex = new RegExp(
-                key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), // escapar regex
+                '(?<![\\wáéíóúàèìòùäëïöüñ])' + escaped + '(?![\\wáéíóúàèìòùäëïöüñ])',
                 'gi'
             );
+
             result = result.replace(regex, (match) => {
-                // Respetar términos protegidos que puedan estar dentro
                 if (isProtected(match)) return match;
                 return TRANSLATIONS[key];
             });
