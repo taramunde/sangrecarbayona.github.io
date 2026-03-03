@@ -7,7 +7,7 @@ const jugadores = require('./datos_para_generar.js');
 
 // 2. CONFIGURACIÓN
 const baseURL = "https://taramunde.github.io/sangrecarbayona.github.io"; 
-const carpetaSalida = './'; 
+const carpetaSalida = './fichas'; 
 const rutaPlantilla = './fichajugador.html';
 
 // 3. LEER PLANTILLA
