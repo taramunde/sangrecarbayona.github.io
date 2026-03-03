@@ -193,3 +193,4 @@ document.addEventListener('click', function(event) {
 });
 
 renderCalendar();
+window.forceRetranslate();
