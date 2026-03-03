@@ -110,12 +110,20 @@
         'gol minuto': 'Goal minute',
         'ver ficha': 'View profile',
         'partidos': 'Matches',
-        'minutos': 'Minutes',
         'asistencias': 'Assists',
         'tarjetas amarillas': 'Yellow cards',
         'tarjetas rojas': 'Red cards',
 
-        /* ---- Calendario ---- */
+        /* ---- Calendario — días completos (ANTES que abreviaturas) ---- */
+        'lunes': 'Monday',
+        'martes': 'Tuesday',
+        'miércoles': 'Wednesday',
+        'jueves': 'Thursday',
+        'viernes': 'Friday',
+        'sábado': 'Saturday',
+        'domingo': 'Sunday',
+
+        /* ---- Calendario — abreviaturas (DESPUÉS de los completos) ---- */
         'lun': 'Mon',
         'mar': 'Tue',
         'mié': 'Wed',
@@ -123,6 +131,8 @@
         'vie': 'Fri',
         'sáb': 'Sat',
         'dom': 'Sun',
+
+        /* ---- Meses completos (ANTES de cualquier clave corta) ---- */
         'enero': 'January',
         'febrero': 'February',
         'marzo': 'March',
@@ -135,6 +145,16 @@
         'octubre': 'October',
         'noviembre': 'November',
         'diciembre': 'December',
+
+        /* ---- Cuenta atrás / temporizador ---- */
+        'días': 'days',
+        'día': 'day',
+        'horas': 'hours',
+        'hora': 'hour',
+        'minutos': 'minutes',
+        'minuto': 'minute',
+        'segundos': 'seconds',
+        'segundo': 'second',
 
         /* ---- Tiempo meteorológico ---- */
         'pronóstico del tiempo': 'Weather Forecast',
