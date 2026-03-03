@@ -1,31 +1,33 @@
-// js/translate.js - VERSIÓN ULTRA-DINÁMICA 2026
+// js/translate.js - VERSIÓN FINAL ANTI-FLICKERING + SIN NADA DE GOOGLE
 let currentLang = 'es';
+let debounceTimer = null;
 
 function switchLanguage(lang) {
     currentLang = lang;
 
-    // Actualizar banderas visuales
+    // Actualizar banderas
     document.querySelectorAll('.lang-flag').forEach(f => {
         f.classList.toggle('active', f.id === `lang-${lang}`);
     });
 
-    // Trigger Google
     const combo = document.querySelector('.goog-te-combo');
     if (combo) {
         combo.value = lang;
         combo.dispatchEvent(new Event('change'));
     } else {
         document.cookie = `googtrans=/es/${lang}; path=/; max-age=31536000`;
-        setTimeout(() => location.reload(), 400);
+        setTimeout(() => location.reload(), 250);
     }
 
     localStorage.setItem('preferredLanguage', lang);
 }
 
-// Retraducción FUERTE para contenido dinámico
-window.forceRetranslate = function(delay = 100) {
+// Retraducción segura con debounce (evita bucles)
+window.forceRetranslate = function(delay = 350) {
     if (currentLang === 'es') return;
-    setTimeout(() => {
+
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
         const combo = document.querySelector('.goog-te-combo');
         if (combo) {
             combo.value = currentLang;
@@ -34,31 +36,31 @@ window.forceRetranslate = function(delay = 100) {
     }, delay);
 };
 
-// Observador MUTATION OBSERVER AGRESIVO (captura TODO lo que se añada)
+// Observer INTELIGENTE (solo mira las zonas dinámicas, no todo el body)
 function initObserver() {
     const observer = new MutationObserver(() => {
-        if (currentLang !== 'es') {
-            window.forceRetranslate(80);
-        }
+        window.forceRetranslate();
     });
 
-    observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-        attributes: false
+    // Solo observamos las partes que realmente cambian
+    const dynamicZones = [
+        document.querySelector('main'),
+        document.getElementById('goalscorers-container'),
+        document.getElementById('calendario-container'),
+        document.querySelector('.score-board'),
+        document.querySelector('.cards-wrapper')
+    ].filter(Boolean);
+
+    dynamicZones.forEach(zone => {
+        observer.observe(zone, { childList: true, subtree: true });
     });
 }
 
-// Init
+// Inicialización
 window.addEventListener('load', () => {
     const savedLang = localStorage.getItem('preferredLanguage');
     if (savedLang === 'en') {
         setTimeout(() => switchLanguage('en'), 1300);
     }
     initObserver();
-
-    // Extra seguridad: reintento cada 2 segundos si hay contenido nuevo
-    setInterval(() => {
-        if (currentLang !== 'es') window.forceRetranslate(50);
-    }, 2000);
 });
