@@ -1,153 +1,117 @@
 /**
- * translator.js — Sangre Carbayona (VERSIÓN HÍBRIDA ULTRA-ROBUSTA)
+ * translator.js — Sangre Carbayona (MÉTODO GOOGLE RELIABLE)
  */
-(function () {
+(function() {
     'use strict';
 
-    // 1. DICCIONARIO ESTÁTICO (Para que los menús y botones nunca fallen)
-    const UI_DICTIONARY = {
-        'Inicio': 'Home',
-        'Plantilla': 'Squad',
-        'Resultados': 'Results',
-        'Calendario': 'Calendar',
-        'Noticias': 'News',
-        'Comunidad': 'Community',
-        'Actualidad': 'Latest News',
-        'Fichas detalladas': 'Detailed Profiles',
-        'Contenido para la afición': 'Fans Content',
-        'Próximo Partido': 'Next Match',
-        'Último Resultado': 'Last Result',
-        'Clasificación': 'Standings',
-        'Goleadores': 'Top Scorers',
-        'Ver más': 'See more',
-        'Subir arriba': 'Scroll up',
-        'Bajar abajo': 'Scroll down',
-        'Días': 'Days',
-        'Horas': 'Hours',
-        'Minutos': 'Minutes',
-        'Segundos': 'Seconds'
-    };
-
-    const MYMEMORY_EMAIL = 'taramunde1974@gmail.com'; // <--- CAMBIA ESTO
-    const PROTECTED_TERMS = ['Real Oviedo', 'Tartiere', 'Cazorla', 'Sangre Carbayona', 'Carbayón', 'Asturias'];
-    const SKIP_IDS = new Set(['lang-switcher', 'calendario-container', 'arena-effect-container']);
-
+    const PROTECTED_TERMS = ['Real Oviedo', 'Sangre Carbayona', 'Carlos Tartiere', 'Cazorla', 'Carbayón'];
     let isEnglish = localStorage.getItem('sc_lang') === 'en';
-    let originalTexts = new Map();
-    let dictCache = JSON.parse(localStorage.getItem('sc_dict_cache') || '{}');
-    let isBusy = false;
 
-    // --- ESTILOS ---
-    function injectStyles() {
-        if (document.getElementById('translator-styles')) return;
-        const s = document.createElement('style');
-        s.id = 'translator-styles';
-        s.textContent = `
-            #lang-switcher {
-                position: fixed; bottom: 130px; right: 18px; z-index: 10000;
-                display: flex; flex-direction: column; align-items: center; gap: 2px;
-                background: rgba(0,0,0,0.85); border: 2px solid #005599;
-                border-radius: 12px; padding: 8px 12px; cursor: pointer;
-                backdrop-filter: blur(8px); color: white; transition: all 0.3s;
-            }
-            #lang-switcher:hover { transform: scale(1.1); border-color: #fff; }
-            .sc-spinner { width: 18px; height: 18px; border: 3px solid #fff3; border-top: 3px solid #fff; border-radius: 50%; animation: spin 0.8s linear infinite; }
-            @keyframes spin { to { transform: rotate(360deg); } }
-        `;
-        document.head.appendChild(s);
-    }
-
-    // --- LÓGICA DE TRADUCCIÓN ---
-    async function translateText(text) {
-        const cleanText = text.trim();
-        if (!cleanText || cleanText.length < 2) return text;
-
-        // A. Prioridad 1: Diccionario Estático
-        if (UI_DICTIONARY[cleanText]) return UI_DICTIONARY[cleanText];
-
-        // B. Prioridad 2: Caché Local
-        if (dictCache[cleanText]) return dictCache[cleanText];
-
-        // C. Prioridad 3: API (Solo para lo que no conocemos)
-        try {
-            console.log(`📡 Consultando API para: "${cleanText.substring(0,20)}..."`);
-            let url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(cleanText)}&langpair=es|en`;
-            if (MYMEMORY_EMAIL !== 'tu_correo@ejemplo.com') url += `&de=${MYMEMORY_EMAIL}`;
-
-            const res = await fetch(url);
-            const data = await res.json();
-
-            if (data.responseStatus === 200) {
-                const translated = data.responseData.translatedText;
-                dictCache[cleanText] = translated;
-                localStorage.setItem('sc_dict_cache', JSON.stringify(dictCache));
-                return translated;
-            } else {
-                console.error("❌ Límite de API alcanzado:", data.responseDetails);
-                return text;
-            }
-        } catch (e) {
-            return text;
+    // 1. Inyectar el script oficial de Google en el head
+    function loadGoogleTranslate() {
+        if (!document.getElementById('google_translate_script')) {
+            const script = document.createElement('script');
+            script.id = 'google_translate_script';
+            script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            document.head.appendChild(script);
         }
     }
 
-    async function processPage(toEnglish) {
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
-            acceptNode(node) {
-                if (SKIP_IDS.has(node.parentElement?.id) || node.parentElement?.closest('#lang-switcher')) return NodeFilter.FILTER_REJECT;
-                return NodeFilter.FILTER_ACCEPT;
-            }
-        });
+    // 2. Configuración de Google (se ejecuta cuando carga el script)
+    window.googleTranslateElementInit = function() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'es',
+            includedLanguages: 'en,es',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+        
+        // Si el usuario ya lo tenía en inglés, activarlo al cargar
+        if (isEnglish) {
+            setTimeout(applyGoogleTranslation, 1000);
+        }
+    };
 
-        const nodes = [];
-        let n;
-        while (n = walker.nextNode()) nodes.push(n);
-
-        if (toEnglish) {
-            for (const node of nodes) {
-                if (!originalTexts.has(node)) originalTexts.set(node, node.nodeValue);
-                node.nodeValue = await translateText(originalTexts.get(node));
-            }
-        } else {
-            nodes.forEach(node => {
-                if (originalTexts.has(node)) node.nodeValue = originalTexts.get(node);
+    // 3. Proteger términos clave para que NO se traduzcan
+    function protectTerms() {
+        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+        let node;
+        while (node = walker.nextNode()) {
+            let text = node.nodeValue;
+            PROTECTED_TERMS.forEach(term => {
+                if (text.includes(term) && node.parentElement && !node.parentElement.classList.contains('notranslate')) {
+                    const span = document.createElement('span');
+                    span.classList.add('notranslate'); // Clase que Google respeta
+                    span.innerText = term;
+                    // Aquí habría que hacer un reemplazo más complejo, 
+                    // pero para simplificar, marcamos el contenedor:
+                    node.parentElement.classList.add('notranslate');
+                }
             });
         }
     }
 
-    function updateButton() {
-        const btn = document.getElementById('lang-switcher');
-        if (!btn) return;
-        btn.innerHTML = isBusy 
-            ? '<div class="sc-spinner"></div>' 
-            : `<span style="font-size:20px">${isEnglish ? '🇪🇸' : '🇬🇧'}</span><span style="font-size:10px; font-weight:bold">${isEnglish ? 'ES' : 'EN'}</span>`;
+    // 4. Activar/Desactivar traducción
+    function applyGoogleTranslation() {
+        const select = document.querySelector('.goog-te-combo');
+        if (select) {
+            select.value = isEnglish ? 'en' : 'es';
+            select.dispatchEvent(new Event('change'));
+        }
     }
 
-    async function toggleLanguage() {
-        if (isBusy) return;
-        isBusy = true;
-        updateButton();
-
+    function toggleLanguage() {
         isEnglish = !isEnglish;
-        await processPage(isEnglish);
         localStorage.setItem('sc_lang', isEnglish ? 'en' : 'es');
+        
+        // Si no está cargado el combo de Google, lo intentamos de nuevo
+        const select = document.querySelector('.goog-te-combo');
+        if (!select) {
+            location.reload(); // Recarga para asegurar inicialización
+            return;
+        }
 
-        isBusy = false;
+        applyGoogleTranslation();
         updateButton();
+    }
+
+    // 5. Crear UI
+    function updateButton() {
+        const btn = document.getElementById('lang-switcher');
+        if (btn) {
+            btn.innerHTML = `<span style="font-size:20px">${isEnglish ? '🇪🇸' : '🇬🇧'}</span>
+                             <span style="font-size:10px; font-weight:bold">${isEnglish ? 'ES' : 'EN'}</span>`;
+        }
     }
 
     function init() {
-        injectStyles();
+        // Crear el contenedor oculto que necesita Google
+        const hiddenDiv = document.createElement('div');
+        hiddenDiv.id = 'google_translate_element';
+        hiddenDiv.style.display = 'none';
+        document.body.appendChild(hiddenDiv);
+
+        // Crear botón
         const btn = document.createElement('div');
         btn.id = 'lang-switcher';
+        btn.style.cssText = "position:fixed; bottom:130px; right:18px; z-index:10000; background:rgba(0,0,0,0.8); border:2px solid #005599; border-radius:12px; padding:8px 12px; cursor:pointer; color:white; display:flex; flex-direction:column; align-items:center;";
         btn.onclick = toggleLanguage;
         document.body.appendChild(btn);
-        updateButton();
 
-        if (isEnglish) processPage(true);
+        protectTerms();
+        loadGoogleTranslate();
+        updateButton();
+        
+        // Ocultar la barra superior fea de Google
+        const style = document.createElement('style');
+        style.innerHTML = `
+            .goog-te-banner-frame { display: none !important; }
+            body { top: 0 !important; }
+            .goog-te-balloon-frame { display: none !important; }
+            #goog-gt-tt { display: none !important; }
+        `;
+        document.head.appendChild(style);
     }
 
-    if (document.readyState === 'complete') init();
-    else window.addEventListener('load', init);
-
+    window.addEventListener('load', init);
 })();
