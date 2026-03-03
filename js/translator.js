@@ -1,11 +1,14 @@
 /**
- * translator.js — Sangre Carbayona
+ * translator.js — Sangre Carbayona (VERSIÓN MEJORADA Y OPTIMIZADA)
  * Traductor ES <-> EN con bandera del Reino Unido.
- * Uso: <script src="js/translator.js"></script> justo antes de </body>
  */
 
 (function () {
   'use strict';
+
+  // ─── CONFIGURACIÓN DE LA API ─────────────────────────────────────────────────
+  // Pon aquí un correo real. MyMemory te subirá el límite de 500 a 5000 palabras/día.
+  const MYMEMORY_EMAIL = 'taramunde@gmail.com'; 
 
   // ─── PALABRAS PROTEGIDAS ─────────────────────────────────────────────────────
   const PROTECTED_TERMS = [
@@ -18,62 +21,45 @@
     'BdFutbol','RSSSF',
   ];
 
-  // ─── IDs DE CONTENEDORES EXCLUIDOS (SOLO ESTOS, nada más) ───────────────────
-  // Solo excluimos por ID exacto para no bloquear zonas no deseadas.
+  // ─── IDs DE CONTENEDORES EXCLUIDOS ───────────────────────────────────────────
   const SKIP_IDS = new Set([
-    'lang-switcher',        // el botón del traductor en sí
-    'calendario-container', // todo el calendario interactivo
-    'arena-effect-container', // efecto de partículas con texto animado
+    'lang-switcher',        
+    'calendario-container', 
+    'arena-effect-container', 
   ]);
 
-  // Labels del timer (se manejan con MutationObserver aparte)
   const TIMER_ES = ['Días','Horas','Minutos','Segundos'];
   const TIMER_EN = ['Days','Hours','Minutes','Seconds'];
 
   let isEnglish = localStorage.getItem('sc_lang') === 'en';
   let originalTexts = new Map();
+  // Caché local para no fundir la API con textos ya traducidos
+  let dictCache = JSON.parse(localStorage.getItem('sc_dict_cache') || '{}'); 
   let isBusy = false;
   let timerObserver = null;
 
   // ─── ESTILOS ────────────────────────────────────────────────────────────────
   function injectStyles() {
+    if (document.getElementById('translator-styles')) return;
     const s = document.createElement('style');
+    s.id = 'translator-styles';
     s.textContent = `
       #lang-switcher {
-        position: fixed;
-        bottom: 130px;
-        right: 18px;
-        z-index: 99999;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2px;
-        background: rgba(0,0,0,0.78);
-        border: 2px solid rgba(255,255,255,0.25);
-        border-radius: 12px;
-        padding: 6px 10px;
-        cursor: pointer;
-        user-select: none;
-        backdrop-filter: blur(6px);
-        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        position: fixed; bottom: 130px; right: 18px; z-index: 99999;
+        display: flex; flex-direction: column; align-items: center; gap: 2px;
+        background: rgba(0,0,0,0.78); border: 2px solid rgba(255,255,255,0.25);
+        border-radius: 12px; padding: 6px 10px; cursor: pointer; user-select: none;
+        backdrop-filter: blur(6px); transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
         box-shadow: 0 4px 14px rgba(0,0,0,0.5);
       }
-      #lang-switcher:hover {
-        transform: scale(1.08);
-        border-color: rgba(255,255,255,0.5);
-        box-shadow: 0 6px 20px rgba(0,0,0,0.6);
-      }
+      #lang-switcher:hover { transform: scale(1.08); border-color: rgba(255,255,255,0.5); box-shadow: 0 6px 20px rgba(0,0,0,0.6); }
       #lang-switcher:active { transform: scale(0.96); }
       #lang-switcher .flag-icon { font-size: 24px; line-height: 1; }
-      #lang-switcher .lang-label {
-        font-size: 10px; font-weight: 700; color: #fff;
-        letter-spacing: 1px; font-family: Arial, sans-serif;
-      }
+      #lang-switcher .lang-label { font-size: 10px; font-weight: 700; color: #fff; letter-spacing: 1px; font-family: Arial, sans-serif; }
       #lang-switcher.busy { opacity: 0.6; pointer-events: none; }
       #lang-switcher .spinner {
         display: inline-block; width: 16px; height: 16px;
-        border: 2px solid rgba(255,255,255,0.3);
-        border-top-color: #fff; border-radius: 50%;
+        border: 2px solid rgba(255,255,255,0.3); border-top-color: #fff; border-radius: 50%;
         animation: sc-spin 0.7s linear infinite;
       }
       @keyframes sc-spin { to { transform: rotate(360deg); } }
@@ -87,6 +73,7 @@
   }
 
   function createButton() {
+    if (document.getElementById('lang-switcher')) return;
     const btn = document.createElement('div');
     btn.id = 'lang-switcher';
     btn.title = isEnglish ? 'Cambiar a Español' : 'Switch to English';
@@ -95,13 +82,13 @@
     document.body.appendChild(btn);
   }
 
-  // ─── COMPROBAR SI UN NODO ESTÁ EN ZONA EXCLUIDA ──────────────────────────────
-  // Solo comprobamos por ID exacto — nada de clases genéricas.
+  // ─── UTILIDADES ──────────────────────────────────────────────────────────────
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+
   function isInsideSkippedZone(textNode) {
     let el = textNode.parentElement;
     while (el && el !== document.body) {
       if (SKIP_IDS.has(el.id)) return true;
-      // Respetar translate="no" explícito
       if (el.getAttribute('translate') === 'no') return true;
       el = el.parentElement;
     }
@@ -117,9 +104,7 @@
       const re = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
       if (re.test(result)) {
         map.push({ ph, term });
-        result = result.replace(
-          new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), ph
-        );
+        result = result.replace(re, ph);
       }
     });
     return { safe: result, map };
@@ -131,18 +116,41 @@
     return r;
   }
 
-  // ─── API MYMEMORY ────────────────────────────────────────────────────────────
+  // ─── API MYMEMORY CON CACHÉ Y LÍMITES ────────────────────────────────────────
   async function translateText(text) {
     if (!text || !text.trim()) return text;
+    
+    // 1. Comprobar si ya la tenemos en la caché local
+    const cacheKey = text.trim();
+    if (dictCache[cacheKey]) {
+        return text.replace(cacheKey, dictCache[cacheKey]);
+    }
+
     const { safe, map } = protectTerms(text);
     try {
-      const res = await fetch(
-        `https://api.mymemory.translated.net/get?q=${encodeURIComponent(safe)}&langpair=es|en`
-      );
-      if (!res.ok) throw new Error();
+      let url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(safe)}&langpair=es|en`;
+      if (MYMEMORY_EMAIL) url += `&de=${encodeURIComponent(MYMEMORY_EMAIL)}`;
+
+      const res = await fetch(url);
+      if (!res.ok) throw new Error('API Error');
       const data = await res.json();
-      return restoreTerms(data.responseData?.translatedText || safe, map);
-    } catch {
+      
+      // Controlar límite de cuota agotada de la API
+      if (data.responseStatus !== 200) {
+        console.warn("MyMemory API limit reached or error:", data.responseDetails);
+        return text; 
+      }
+
+      let translated = restoreTerms(data.responseData?.translatedText || safe, map);
+      
+      // Guardar en caché para no volver a pedirlo
+      dictCache[cacheKey] = translated.trim();
+      localStorage.setItem('sc_dict_cache', JSON.stringify(dictCache));
+      
+      return text.replace(cacheKey, translated.trim());
+
+    } catch (e) {
+      console.error("Translation failed for:", text, e);
       return text;
     }
   }
@@ -152,14 +160,11 @@
     const nodes = [];
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
-        // Saltar nodos vacíos
-        if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-        // Saltar etiquetas no traducibles
+        if (!node.nodeValue.trim() || node.nodeValue.trim().length < 2) return NodeFilter.FILTER_REJECT;
         const tag = node.parentElement?.tagName?.toLowerCase();
         if (['script','style','noscript','code','pre'].includes(tag)) {
           return NodeFilter.FILTER_REJECT;
         }
-        // Saltar zonas excluidas por ID
         if (isInsideSkippedZone(node)) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       }
@@ -172,15 +177,17 @@
   // ─── TRADUCIR / RESTAURAR ────────────────────────────────────────────────────
   async function translatePage() {
     const nodes = getTextNodes();
-    // Guardar originales (solo la primera vez)
     nodes.forEach(n => { if (!originalTexts.has(n)) originalTexts.set(n, n.nodeValue); });
-    const BATCH = 8;
+    
+    const BATCH = 3; // Reducido para evitar bloqueos por rate limit
     for (let i = 0; i < nodes.length; i += BATCH) {
       await Promise.all(
         nodes.slice(i, i + BATCH).map(async node => {
           node.nodeValue = await translateText(originalTexts.get(node));
         })
       );
+      // Breve pausa entre lotes para no saturar la API
+      await sleep(250);
     }
   }
 
@@ -258,14 +265,18 @@
     if (isEnglish) {
       setTimeout(async () => {
         const btn = document.getElementById('lang-switcher');
-        btn.classList.add('busy');
-        btn.innerHTML = `<span class="spinner"></span><span class="lang-label">...</span>`;
+        if(btn) {
+            btn.classList.add('busy');
+            btn.innerHTML = `<span class="spinner"></span><span class="lang-label">...</span>`;
+        }
         await translatePage();
         startTimerObserver();
-        btn.classList.remove('busy');
-        btn.innerHTML = btnHTML();
-        btn.title = 'Cambiar a Español';
-      }, 800);
+        if(btn) {
+            btn.classList.remove('busy');
+            btn.innerHTML = btnHTML();
+            btn.title = 'Cambiar a Español';
+        }
+      }, 500);
     }
   }
 
