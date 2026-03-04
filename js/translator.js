@@ -47,7 +47,6 @@
         'Copa del Rey', 'LaLiga',
         // Publicaciones
         'La Nueva España', 'Delallama Editorial',
-        'Los Derbis Asturianos Desde 1926',
         'Los Derbis Asturianos Desde 1926 - José Á. Muñiz Mangas - Delallama Editorial',
         'De Fozaneldi al Parque del Oeste - 80 años de fútbol en Oviedo - La Nueva España',
         'Las Camisetas del Real Oviedo - Historia y Anécdotas - José Á. Muñiz Mangas - Delallama Editorial',
