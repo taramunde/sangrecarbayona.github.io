@@ -5,7 +5,7 @@
 
 #language-switcher {
     position: fixed;
-    bottom: 80px; /* encima de los botones de scroll */
+    bottom: 110px; /* encima de los botones de scroll */
     right: 16px;
     z-index: 9999;
     display: flex;
@@ -100,7 +100,7 @@
 /* Responsive: en móvil lo bajamos un poco menos */
 @media (max-width: 600px) {
     #language-switcher {
-        bottom: 75px;
+        bottom: 105px;
         right: 12px;
     }
     .lang-btn {
