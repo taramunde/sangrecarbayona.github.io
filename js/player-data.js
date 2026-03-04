@@ -5182,8 +5182,8 @@ const playersData = {
             { season: "2014/15", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
             { season: "2014/15", team: "Buriram United F.C.", category: "Liga Tailandia" },
             { season: "2014/15", team: "Surin City F.C.", category: "2ª Tailandia" },
-            { season: "2013/14", team: "Buriram United F.C.", category: "Thai Cup" },
-            { season: "2012/13", team: "Buriram United F.C.", category: "Thai Cup - FA Cup Tailandia" },
+            { season: "2013/14", team: "Buriram United F.C.", category: "Copa de La Liga Tailandia" },
+            { season: "2012/13", team: "Buriram United F.C.", category: "Copa de La Liga Tailandia - Copa FA Tailandia" },
             { season: "2012/13", team: "Xerez C.D.", category: "2ª Div. - Copa del Rey" },
             { season: "2011/12", team: "C.E. Sabadell F.C.", category: "2ª Div. - Copa del Rey" },
             { season: "2010/11", team: "S.D. Ponferradina", category: "2ª Div. - Copa del Rey" },
@@ -16171,6 +16171,58 @@ const playersData = {
             },
             "2019/20": {
                 liga: { partidos_entrenados: 14, victorias: 7, empates: 3, derrotas: 4 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
+        "pacheta2011": {
+        name: "José Rojo Martín",
+        footballName: "Pacheta",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/XkDKKmwy/Pacheta-entrenador-PNG.webp",
+        personalData: {
+            fullName: "José Rojo Martín",
+            nickname: "Pacheta",
+            birthPlace: "Salas de los Infantes, Burgos",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "23/03/1968",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Granada C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2024/25", team: "Granada C.F.", category: "2ª Div." },
+            { season: "2023/24", team: "Villarreal C.F.", category: "1ª Div. - Copa del Rey - Europa League" },
+            { season: "2022/23", team: "Real Valladolid C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "2021/22", team: "Real Valladolid C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2020/21", team: "S.D. Huesca", category: "1ª Div." },
+            { season: "2019/20", team: "Elche C.F.", category: "2ª Div. - Copa del Rey - 2ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "Elche C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2017/18", team: "Elche C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "Ratchaburi Mitr Phol F.C.", category: "Liga Tailandia - Copa de La Liga Tailandia - Copa FA Tailandia" },
+            { season: "2015/16", team: "Ratchaburi Mitr Phol F.C.", category: "Liga Tailandia - Copa de La Liga Tailandia - Copa FA Tailandia" },
+            { season: "2014/15", team: "Hércules de Alicante C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "Korona Kielce", category: "Liga Polonia - Copa Polonia" },
+            { season: "2012/13", team: "F.C. Cartagena", category: "2ª Div. B - Copa Federación" },
+            { season: "2011/12", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2008/09", team: "C.D. Numancia", category: "1ª Div." }
+        ],
+        stats: {
+            "2011/12": {
+                liga: { partidos_entrenados: 38, victorias: 18, empates: 6, derrotas: 14 },
+                copa: { partidos_entrenados: 4, victorias: 1, empates: 1, derrotas: 2 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2010/11": {
+                liga: { partidos_entrenados: 13, victorias: 10, empates: 2, derrotas: 1 },
                 copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
