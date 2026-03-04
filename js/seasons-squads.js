@@ -116,7 +116,7 @@ const seasonsSquads = {
         "defenders": ["candela", "juanma", "owona", "cesarnegredo", "jorgerodriguez", "juanpa", "alvarocuello", "catu", "joaquinpena"],
         "midfielders": ["pascual", "pelayo", "abasolo", "aitorsanz", "xavimore", "falcon", "teo", "nano", "chamorro", "davidgonzalez", "pabloespina"],
         "forwards": ["borjarubiato", "manubusto", "martins", "oscarmartinez", "jandrin", "jairocarcaba"],
-        "coaches": ["pacheta"],
+        "coaches": ["pacheta2011"],
         // ... solo IDs
     },
     "2010-11": {
@@ -124,7 +124,7 @@ const seasonsSquads = {
         "defenders": ["victordiaz", "ernesto", "artabe2010", "gonzalo2010", "cesarnegredo", "jorgerodriguez", "lopezramos", "juanma", "richi", "joaquinpena"],
         "midfielders": ["pelayo", "jandro", "aitorsanz", "pascual", "xavimore", "falcon", "marccastells", "nano", "jony", "prosi", "davidgonzalez", "pabloespina", "yosu"],
         "forwards": ["borjarubiato", "manubusto", "perona", "miguel2010", "jandrin", "carloscuello", "pablocarnero", "moi"],
-        "coaches": ["pichilucas", "josemanuel2010", "pacheta"],
+        "coaches": ["pichilucas", "josemanuel2010", "pacheta2011"],
         // ... solo IDs
     },
     "2009-10": {
