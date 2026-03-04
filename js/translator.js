@@ -48,6 +48,10 @@
         // Publicaciones
         'La Nueva España', 'Delallama Editorial',
         'Los Derbis Asturianos Desde 1926',
+        'Los Derbis Asturianos Desde 1926 - José Á. Muñiz Mangas - Delallama Editorial',
+        'De Fozaneldi al Parque del Oeste - 80 años de fútbol en Oviedo - La Nueva España',
+        'Las Camisetas del Real Oviedo - Historia y Anécdotas - José Á. Muñiz Mangas - Delallama Editorial',
+        'Cromos Para una Historia del Real Oviedo - José Á. Muñiz Mangas - Delallama Editorial',
         // Nombres propios varios
         'Oviedista', 'Oviedistas', 'Carbayona', 'Carbayones',
         'Oviesportinguistas',
@@ -247,13 +251,18 @@
     }
 
     /**
-     * ¿El texto contiene algún término protegido?
-     * Si el texto ES exactamente un término protegido, no lo traducimos.
+     * ¿El texto es o contiene algún término protegido?
+     * - Coincidencia exacta: el nodo completo es un término protegido
+     * - Coincidencia parcial: el nodo contiene un término protegido como subcadena
+     *   (ej: "Los Derbis Asturianos Desde 1926 - José Á. Muñiz" contiene
+     *    "Los Derbis Asturianos Desde 1926", así que el nodo entero se salta)
      */
     function isProtected(text) {
         const t = text.trim();
+        const tLower = t.toLowerCase();
         return PROTECTED_TERMS.some(term =>
-            t.toLowerCase() === term.toLowerCase()
+            tLower === term.toLowerCase() ||          // coincidencia exacta
+            tLower.includes(term.toLowerCase())       // el nodo contiene el término
         );
     }
 
