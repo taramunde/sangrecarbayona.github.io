@@ -47,6 +47,7 @@
         'Copa del Rey', 'LaLiga',
         // Publicaciones
         'La Nueva España', 'Delallama Editorial',
+        'Los Derbis Asturianos Desde 1926',
         // Nombres propios varios
         'Oviedista', 'Oviedistas', 'Carbayona', 'Carbayones',
         'Oviesportinguistas',
