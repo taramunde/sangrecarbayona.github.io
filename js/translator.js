@@ -174,6 +174,26 @@
         'volver a oviedo': 'Back to Oviedo',
         'fuente': 'Source',
 
+        /* ---- Estados del tiempo (widget) ---- */
+        'despejado': 'Clear sky',
+        'parcialmente nublado': 'Partly cloudy',
+        'niebla': 'Fog',
+        'llovizna ligera': 'Light drizzle',
+        'llovizna helada': 'Freezing drizzle',
+        'lluvia': 'Rain',
+        'lluvia helada': 'Freezing rain',
+        'nieve': 'Snow',
+        'granos de nieve': 'Snow grains',
+        'chubascos': 'Rain showers',
+        'chubascos de nieve': 'Snow showers',
+        'tormenta con granizo': 'Thunderstorm with hail',  // ← ANTES que 'tormenta' (más larga)
+        'tormenta': 'Thunderstorm',
+        'no disponible': 'Not available',
+
+        /* ---- Etiquetas del widget ---- */
+        'humedad': 'Humidity',
+        'viento': 'Wind',
+
         /* ---- Tabla de agradecimientos ---- */
         'bibliografía': 'Bibliography',
         'enlaces externos': 'External links',
