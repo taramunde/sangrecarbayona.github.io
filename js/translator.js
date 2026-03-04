@@ -193,6 +193,7 @@
         /* ---- Etiquetas del widget ---- */
         'humedad': 'Humidity',
         'viento': 'Wind',
+        'volver a Oviedo': 'Back to Oviedo',
 
         /* ---- Tabla de agradecimientos ---- */
         'bibliografía': 'Bibliography',
