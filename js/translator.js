@@ -117,7 +117,8 @@
         'asistencias': 'Assists',
         'tarjetas amarillas': 'Yellow cards',
         'tarjetas rojas': 'Red cards',
-
+        'sin goles': 'No goals',
+        
         /* ---- Calendario — días completos (ANTES que abreviaturas) ---- */
         'lunes': 'Monday',
         'martes': 'Tuesday',
