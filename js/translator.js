@@ -22,10 +22,10 @@
     /* ----------------------------------------------------------
        1. TÉRMINOS PROTEGIDOS — jamás se tocan
     ---------------------------------------------------------- */
-    const PROTECTED_TERMS = [
-        // Nombre del sitio
+    // Términos cortos: solo se protegen si el nodo es EXACTAMENTE este texto
+    // (no bloquean nodos que simplemente los contengan junto a otra cosa)
+    const PROTECTED_EXACT = [
         'Sangre Carbayona',
-        // Clubs de fútbol
         'Real Oviedo', 'Sporting de Gijón', 'Sporting', 'Real Madrid',
         'FC Barcelona', 'Barcelona', 'Atlético de Madrid', 'Athletic Club',
         'Real Betis', 'Sevilla FC', 'Valencia CF', 'Villarreal CF',
@@ -34,26 +34,26 @@
         'Albacete', 'Cartagena', 'Burgos CF', 'Racing de Santander',
         'Mirándés', 'Eldense', 'Huesca', 'Leganés', 'Valladolid',
         'Almería', 'Zaragoza', 'Tenerife', 'Las Palmas', 'Eibar',
-        'Andorra', 'Castellón', 'Córdoba', 'Ferrol', 'Oviedo',
-        // Estadios y lugares
+        'Andorra', 'Castellón', 'Córdoba', 'Ferrol',
         'Tartiere', 'Buenavista', 'El Tartiere', 'Carlos Tartiere',
         'Parque del Oeste', 'Fozaneldi', 'Asturias',
-        // Jugadores y personas
         'Cazorla', 'Santi Cazorla', 'Lángara', 'Isidro Lángara',
         'Mangas', 'Basiliscus', 'Frichu Yustas', 'Eduardo Muñoz',
         'Marcos Cosío', 'Valentín Fernandez',
-        // Competiciones
         'La Liga', 'Segunda División', 'Segunda B', 'Primera RFEF',
         'Copa del Rey', 'LaLiga',
-        // Publicaciones
         'La Nueva España', 'Delallama Editorial',
-        'Los Derbis Asturianos Desde 1926 - José Á. Muñiz Mangas - Delallama Editorial',
-        'De Fozaneldi al Parque del Oeste - 80 años de fútbol en Oviedo - La Nueva España',
-        'Las Camisetas del Real Oviedo - Historia y Anécdotas - José Á. Muñiz Mangas - Delallama Editorial',
-        'Cromos Para una Historia del Real Oviedo - José Á. Muñiz Mangas - Delallama Editorial',
-        // Nombres propios varios
         'Oviedista', 'Oviedistas', 'Carbayona', 'Carbayones',
         'Oviesportinguistas',
+    ];
+
+    // Frases largas: se protegen si el nodo las CONTIENE como subcadena
+    // (necesario para títulos de libros que aparecen junto al autor, editorial, etc.)
+    const PROTECTED_CONTAINS = [
+        'Los Derbis Asturianos Desde 1926',
+        'De Fozaneldi al Parque del Oeste',
+        'Las Camisetas del Real Oviedo - Historia y Anécdotas',
+        'Cromos Para una Historia del Real Oviedo',
     ];
 
     /* ----------------------------------------------------------
@@ -280,10 +280,11 @@
     function isProtected(text) {
         const t = text.trim();
         const tLower = t.toLowerCase();
-        return PROTECTED_TERMS.some(term =>
-            tLower === term.toLowerCase() ||          // coincidencia exacta
-            tLower.includes(term.toLowerCase())       // el nodo contiene el término
-        );
+        // Exacto: el nodo completo es uno de estos términos
+        const exactMatch = PROTECTED_EXACT.some(term => tLower === term.toLowerCase());
+        // Contiene: el nodo incluye una de estas frases largas (títulos de libros, etc.)
+        const containsMatch = PROTECTED_CONTAINS.some(term => tLower.includes(term.toLowerCase()));
+        return exactMatch || containsMatch;
     }
 
     /**
