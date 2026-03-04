@@ -79,8 +79,8 @@
         'alineaciones': 'Line-ups',
 
         /* ---- Hero / cabecera ---- */
-        'desde 1926, con orgullo, valor y garra.': 'Since 1926, with pride, courage and grit.',
-        'orgullo, valor y garra': 'Pride, courage and grit',
+        'desde 1926, con orgullo, valor y garra.': 'Since 1926, with Pride, Courage and Grit.',
+        'orgullo, valor y garra': 'Pride, Courage and Grit',
 
         /* ---- Secciones principales ---- */
         'alineación confirmada': 'Confirmed Line-up',
@@ -90,6 +90,8 @@
         'último partido': 'Last match',
         'jornada': 'Matchday',
         'goleadores': 'Top Scorers',
+        'entrenador': 'Coach',
+        'entrenadores': 'Coaches',
         'portero': 'Goalkeeper',
         'porteros': 'Goalkeepers',
         'defensa': 'Defender',
@@ -182,8 +184,6 @@
         'trayectoria de jugadores': 'Player career records',
         'un paseo virtual por las equipaciones de equipos de fútbol de todos los tiempos': 'A virtual tour of football kits from all eras',
         'jugadores de la segunda b': 'Segunda B Players',
-        'cromos para una historia': 'Stickers for a history',
-        'historia y anécdotas': 'History and anecdotes',
         'diario de un oviedista': 'Diary of an Oviedist',
 
         /* ---- Compartir en redes ---- */
