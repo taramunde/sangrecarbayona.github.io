@@ -16309,6 +16309,64 @@ const playersData = {
         }
     },
 
+        "raulgonzalez": {
+        name: "Julio Raúl González Pérez",
+        footballName: "Raúl González",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/bRFZvJg1/Ra-l-Gonz-lez-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Julio Raúl González Pérez",
+            nickname: "Raúl González",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "23/10/1952",
+            deathDate: null
+        },
+        career: [
+            { season: "2014/15", team: "U.P. de Langreo", category: "2ª Div. B" },
+            { season: "2013/14", team: "C.D. Tuilla", category: "3ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "C.D. Tuilla", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "Real Oviedo", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2007/08", team: "Burgos C.F.", category: "2ª Div. B" },
+            { season: "2006/07", team: "A.D. Alcorcón", category: "2ª Div. B" },
+            { season: "2005/06", team: "Zamora C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2004/05", team: "A.D. Alcorcón", category: "2ª Div. B" },
+            { season: "2003/04", team: "A.D. Alcorcón", category: "2ª Div. B - Copa del Rey" },
+            { season: "2002/03", team: "A.D. Alcorcón", category: "2ª Div. B" },
+            { season: "2001/02", team: "Pontevedra C.F.", category: "2ª Div. B" },
+            { season: "2000/01", team: "Caudal Deportivo", category: "2ª Div. B" },
+            { season: "1999/00", team: "Caudal Deportivo", category: "2ª Div. B" },
+            { season: "1997/98", team: "Real Avilés Industrial C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "1993/94", team: "Real Avilés Industrial C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "1990/91", team: "Villarreal C.F.", category: "3ª Div. - Copa del Rey" },
+            { season: "1990/91", team: "S.D. Ponferradina", category: "2ª Div. B" },
+            { season: "1988/89", team: "Real Avilés Industrial C.F.", category: "2ª Div. B" },
+            { season: "1987/88", team: "Real Avilés Industrial C.F.", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "1990", team: "Guinea Ecuatorial", category: "Copa UDEAC - Amistosos" }
+        ],
+        stats: {
+            "2009/10": {
+                liga: { partidos_entrenados: 6, victorias: 1, empates: 4, derrotas: 1 },
+                copa: { partidos_entrenados: 2, victorias: 1, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2008/09": {
+                liga: { partidos_entrenados: 40, victorias: 35, empates: 4, derrotas: 1 },
+                copa: { partidos_entrenados: 2, victorias: 1, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
