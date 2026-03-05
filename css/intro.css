@@ -19,9 +19,9 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #005A9C;
+    background-color: #0e0eec;
     border-radius: 50%;
-    box-shadow: 0 0 50px 30px #005A9C, 0 0 100px 60px #00aaff;
+    box-shadow: 0 0 50px 30px #0e0eec, 0 0 100px 60px #00aaff;
     opacity: 0;
     animation: explode 1.2s ease-out forwards;
 }
