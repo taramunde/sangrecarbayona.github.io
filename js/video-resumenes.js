@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- FUNCIÓN MAESTRA DE COMPARTIR ---
     function shareVideo(platform, videoId, title) {
         const url = `https://www.youtube.com/watch?v=${videoId}`;
-        const text = `Mira este resumen del Real Oviedo: ${title}`;
+        const text = `Resumen del Real Oviedo por Sangre Carbayona: ${title}`;
         const encodedUrl = encodeURIComponent(url);
         const encodedText = encodeURIComponent(text);
 
