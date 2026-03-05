@@ -16178,6 +16178,51 @@ const playersData = {
         }
     },
 
+            "pichilucas": {
+        name: "Argimiro Pérez García",
+        footballName: "Pichi Lucas",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/rfmvDrpp/Pichi-Lucas-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Argimiro Pérez García",
+            nickname: "Pichi Lucas",
+            birthPlace: "Camponaraya, León",
+            country: "España",
+            nationality: "Española",
+            height: "1,80 m",
+            birthDate: "14/03/1959",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "F.C. Jumilla", category: "2ª Div. B" },
+            { season: "2012/13", team: "R.C. Celta de Vigo B", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2011/12", team: "R.C. Celta de Vigo B", category: "2ª Div. B" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2007/08", team: "F.C. Cartagena", category: "2ª Div. B" },
+            { season: "2006/07", team: "S.D. Ponferradina", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2003/04", team: "S.D. Compostela", category: "2ª Div. B - Copa del Rey" },
+            { season: "1999/00", team: "S.D. Compostela", category: "2ª Div." },
+            { season: "1998/99", team: "S.D. Compostela", category: "2ª Div." }
+        ],
+        stats: {
+            "2010/11": {
+                liga: { partidos_entrenados: 12, victorias: 3, empates: 4, derrotas: 5 },
+                copa: { partidos_entrenados: 2, victorias: 1, empates: 1, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2009/10": {
+                liga: { partidos_entrenados: 32, victorias: 17, empates: 7, derrotas: 8 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    }, 
+
         "pacheta2011": {
         name: "José Rojo Martín",
         footballName: "Pacheta",
