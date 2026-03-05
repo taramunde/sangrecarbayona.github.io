@@ -301,7 +301,7 @@ const enfrentamientos = [
   { equipo1: "Villarreal C.F.", equipo2: "R.C.D. Espanyol", goles1: 4, goles2: 1 },
   { equipo1: "Sevilla F.C.", equipo2: "Girona F.C.", goles1: 1, goles2: 1 },
   { equipo1: "Valencia C.F.", equipo2: "Real Madrid", goles1: 0, goles2: 2 },
-  { equipo1: "Rayo Vallecano", equipo2: "Real Oviedo", goles1: null, goles2: null },
+  { equipo1: "Rayo Vallecano", equipo2: "Real Oviedo", goles1: 3, goles2: 0 },
   
   // Jornada 24
   { equipo1: "Elche C.F.", equipo2: "C.A. Osasuna", goles1: 0, goles2: 0 },
@@ -336,7 +336,7 @@ const enfrentamientos = [
   { equipo1: "Rayo Vallecano", equipo2: "Athletic Club", goles1: 1, goles2: 1 },
   { equipo1: "Real Oviedo", equipo2: "Atlético de Madrid", goles1: 0, goles2: 1 },
   { equipo1: "Girona F.C.", equipo2: "Celta de Vigo", goles1: 1, goles2: 2 },
-  { equipo1: "Real Madrid", equipo2: "Getafe C.F.", goles1: null, goles2: null },
+  { equipo1: "Real Madrid", equipo2: "Getafe C.F.", goles1: 0, goles2: 1 },
   { equipo1: "Valencia C.F.", equipo2: "C.A. Osasuna", goles1: 1, goles2: 0 },
   
   // Jornada 27

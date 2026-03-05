@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/cCxpPL7G/J-26-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "Castigo demasiado cruel para un notable Real Oviedo: 0-1 de Julián Álvarez en el descuento.",
+        image: "https://i.postimg.cc/Gh0P7nDt/J-23-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "El Real Oviedo entrega las armas en Vallecas.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/02/28/dfg/00031772312324904653353.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/04/real-oviedo-entrega-armas-vallecas/00031772650525007879561.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/QCcqgQKM/J-26-LNE.jpg", // FOTO NOTICIA 2
-        title: "Julián congela la esperanza: cruel derrota de un buen Oviedo en el minuto 94 (0-1).",
-        author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/02/28/julian-congela-esperanza-cruel-derrota-127399369.html"
+        image: "https://i.postimg.cc/G3j3Nk81/J-23-LNE.jpg", // FOTO NOTICIA 2
+        title: "Ni en los despachos, ni sobre el césped: el Oviedo sale goleado de Vallecas y sin los tres puntos (3-0).",
+        author: "JOAQUÍN ALONSO",
+        link: "https://www.lne.es/real-oviedo/2026/03/04/despachos-cesped-oviedo-sale-goleado-127568889.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/mrmsyMWs/J-26-EC.webp", // FOTO NOTICIA 3
-        title: "Un Real Oviedo notable cae con crueldad e injusticia.",
+        image: "https://i.postimg.cc/2SLDzv6S/J-23-EC.webp", // FOTO NOTICIA 3
+        title: "El Real Oviedo se desangra en Vallecas.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-atletico-madrid-notable-cae-crueldad-injusticia-20260301234213-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-desangra-vallecas-20260305213842-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/Z57mrphf/J-26-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: Julián Álvarez da la puntilla al Oviedo.",
+        image: "https://i.postimg.cc/SNX584hS/J-23-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: El Rayo Vallecano desnuda al Oviedo.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-julian-alvarez-da-la-puntilla-al-oviedo"
+        link: "https://killerasturias.com/index.php/cronicas/la-cronica-el-rayo-vallecano-desnuda-al-oviedo#google_vignette"
     }
 ];
 
