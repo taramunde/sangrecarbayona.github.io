@@ -94,7 +94,7 @@
         'último partido': 'Last match',
         'jornada': 'Matchday',
         'goleadores': 'Top Scorers',
-        'entrenadores': 'Coachs',
+        'entrenadores': 'Coaches',
         'entrenador': 'Coach',
         'portero': 'Goalkeeper',
         'porteros': 'Goalkeepers',
