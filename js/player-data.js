@@ -16367,6 +16367,53 @@ const playersData = {
         }
     },
 
+        "ferminalvarez": {
+        name: "Fermín Álvarez Rodríguez",
+        footballName: "Fermín Álvarez",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/x87p9cTx/Ferm-n-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Fermín Álvarez Rodríguez",
+            nickname: "Fermín Álvarez",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "13/03/1973",
+            deathDate: null
+        },
+        career: [
+            { season: "2021/22", team: "C.D. Covadonga", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "C.D. Covadonga", category: "2ª Div. B - 2ª Div. B 2ª Fase de Permanencia - Copa Federación Fase Autonómica" },
+            { season: "2019/20", team: "C.D. Covadonga", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2018/19", team: "C.D. Covadonga", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2016/17", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2015/16", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2014/15", team: "C.D. Covadonga", category: "3ª Div." },
+            { season: "2012/13", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2010/11", team: "Real Oviedo Sub-19", category: "Liga Nacional" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2007/08", team: "Real Oviedo", category: "3ª Div. Prom. de Ascenso" }
+        ],
+        stats: {
+            "2009/10": {
+                liga: { partidos_entrenados: 2, victorias: 1, empates: 0, derrotas: 1 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2007/08": {
+                liga: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 0 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
