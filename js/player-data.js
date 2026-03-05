@@ -16275,6 +16275,40 @@ const playersData = {
         }
     },
 
+        "josemanuel2010": {
+        name: "José Manuel Martínez García",
+        footballName: "José Manuel",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/hr0rsSG/Jos-Manuel-entrenador-PNG.webp",
+        personalData: {
+            fullName: "José Manuel Martínez García",
+            nickname: "José Manuel",
+            birthPlace: "Magaz de Cepeda, León",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "03/05/1970",
+            deathDate: null
+        },
+        career: [
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2007/08", team: "Caudal Deportivo", category: "3ª Div. - Copa del Rey" },
+            { season: "2006/07", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2005/06", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2001/02", team: "Astur C.F.", category: "3ª Div. - Copa Federación" }
+        ],
+        stats: {
+            "2010/11": {
+                liga: { partidos_entrenados: 13, victorias: 2, empates: 7, derrotas: 4 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
