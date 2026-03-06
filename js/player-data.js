@@ -16631,6 +16631,43 @@ const playersData = {
         }
     },
 
+        "quiquemarigil2002": {
+        name: "Enrique Marigil Echevarría",
+        footballName: "Quique Marigil",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/KjsY7cqp/Marigil-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Enrique Marigil Echevarría",
+            nickname: "Quique Marigil",
+            birthPlace: "San Sebastián, Guipúzcoa",
+            country: "España",
+            nationality: "Española",
+            height: "1,76 m",
+            birthDate: "27/06/1961",
+            deathDate: null
+        },
+        career: [
+            { season: "2002/03", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "2001/02", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" }
+        ],
+        stats: {
+            "2002/03": {
+                liga: { partidos_entrenados: 8, victorias: 1, empates: 2, derrotas: 5 },
+                copa: { partidos_entrenados: 1, victorias: 1, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2001/02": {
+                liga: { partidos_entrenados: 42, victorias: 13, empates: 19, derrotas: 10 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
