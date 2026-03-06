@@ -16432,7 +16432,8 @@ const playersData = {
             deathDate: null
         },
         career: [
-            { season: "2007/08", team: "Real Oviedo", category: "3ª Div. - 3ª Div. Prom. de Ascenso - Copa Federación Fase Autonómica" }
+            { season: "2007/08", team: "Real Oviedo", category: "3ª Div. - 3ª Div. Prom. de Ascenso - Copa Federación Fase Autonómica" },
+            { season: "2005/06", team: "Málaga C.F. B", category: "2ª Div." }
         ],
         stats: {
             "2007/08": {
