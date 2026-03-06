@@ -16668,6 +16668,47 @@ const playersData = {
         }
     },
 
+        "vicente2002": {
+        name: "Vicente González-Villamil Pérez",
+        footballName: "Vicente",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/TBCjZWbv/Vicente-2-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Vicente González-Villamil Pérez",
+            nickname: "Vicente",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,78",
+            birthDate: "25/03/1947",
+            deathDate: null
+        },
+        career: [
+            { season: "2004/05", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
+            { season: "2002/03", team: "Real Oviedo", category: "2ª Div. - Copa del Rey" },
+            { season: "1998/99", team: "Burgos C.F.", category: "2ª Div. B" },
+            { season: "1997/98", team: "R.S. Gimnástica de Torrelavega", category: "2ª Div. B" },
+            { season: "1996/97", team: "Club Marino de Luanco", category: "2ª Div. B - Copa del Rey" },
+            { season: "1994/95", team: "R.S. Gimnástica de Torrelavega", category: "2ª Div. B - Copa del Rey" },
+            { season: "1993/94", team: "R.S. Gimnástica de Torrelavega", category: "2ª Div. B - Copa del Rey" },
+            { season: "1992/93", team: "R.S. Gimnástica de Torrelavega", category: "2ª Div. B - Copa del Rey" },
+            { season: "1991/92", team: "Real Avilés Industrial C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "1990/91", team: "Real Avilés Industrial C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "1989/90", team: "Real Avilés Industrial C.F.", category: "2ª Div. B" },
+            { season: "1988/89", team: "Real Oviedo Aficionados", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2002/03": {
+                liga: { partidos_entrenados: 17, victorias: 4, empates: 6, derrotas: 7 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
