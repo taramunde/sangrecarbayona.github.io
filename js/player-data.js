@@ -16414,6 +16414,36 @@ const playersData = {
         }
     },
 
+        "carrasco": {
+        name: "Francisco José Carrasco Hidalgo",
+        footballName: "Carrasco",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/ZR4qbGZD/Carrasco-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Francisco José Carrasco Hidalgo",
+            nickname: "Carrasco",
+            birthPlace: "Alcoy, Alicante",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "06/03/1959",
+            deathDate: null
+        },
+        career: [
+            { season: "2007/08", team: "Real Oviedo", category: "3ª Div. - 3ª Div. Prom. de Ascenso - Copa Federación Fase Autonómica" }
+        ],
+        stats: {
+            "2007/08": {
+                liga: { partidos_entrenados: 39, victorias: 28, empates: 4, derrotas: 7 },
+                copa: { partidos_entrenados: 6, victorias: 3, empates: 1, derrotas: 2 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
