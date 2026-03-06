@@ -8724,7 +8724,7 @@ const playersDatabase = {
         "src": "https://i.ibb.co/HpfvHCCC/Ramiro-Sol-s-2-entrenador-PNG.webp",
         "alt": "Entrenador",
         "number": "-",
-        "name": "Ramiro Solis",
+        "name": "Ramiro Solís",
         "url": "fichajugador.html?player=ramirosolis"
     },
     "diazgalan": {

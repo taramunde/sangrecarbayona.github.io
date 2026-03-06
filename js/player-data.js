@@ -16445,6 +16445,129 @@ const playersData = {
         }
     },
 
+        "tonovelazquez": {
+        name: "José Antonio Velázquez García",
+        footballName: "Toño Velázquez",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/20tn6Dfb/Vel-zquez-entrenador-PNG.webp",
+        personalData: {
+            fullName: "José Antonio Velázquez García",
+            nickname: "Toño Velázquez",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,69 m",
+            birthDate: "01/06/1963",
+            deathDate: null
+        },
+        career: [
+            { season: "2011/12", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2010/11", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2009/10", team: "Real Oviedo B", category: "Regional Preferente Asturias" },
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2005/06", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2006/07": {
+                liga: { partidos_entrenados: 24, victorias: 6, empates: 7, derrotas: 11 },
+                copa: { partidos_entrenados: 7, victorias: 2, empates: 2, derrotas: 3 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2005/06": {
+                liga: { partidos_entrenados: 13, victorias: 6, empates: 4, derrotas: 3 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
+        "ramirosolis": {
+        name: "Ramiro Solís Vázquez",
+        footballName: "Ramiro Solís",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/HpfvHCCC/Ramiro-Sol-s-2-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Ramiro Solís Vázquez",
+            nickname: "Ramiro Solís",
+            birthPlace: "Las Segadas, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,82 m",
+            birthDate: "27/09/1948",
+            deathDate: null
+        },
+        career: [
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2003/04", team: "Real Avilés Industrial C.F.", category: "2ª Div. B - Copa Federación" },
+            { season: "2002/03", team: "Deportivo Alavés B", category: "2ª Div. B" },
+            { season: "1995/96", team: "Real Sporting de Gijón", category: "1ª Div. - Copa del Rey" },
+            { season: "1994/95", team: "Real Sporting de Gijón B", category: "2ª Div. B" },
+            { season: "1993/94", team: "Real Sporting de Gijón B", category: "2ª Div. B" },
+            { season: "1992/93", team: "Real Sporting de Gijón B", category: "2ª Div. B" },
+            { season: "1991/92", team: "Real Sporting de Gijón B", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "1990/91", team: "Sporting Atlético", category: "2ª Div. B" },
+            { season: "1989/90", team: "Sporting Atlético", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2006/07": {
+                liga: { partidos_entrenados: 6, victorias: 1, empates: 2, derrotas: 3 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
+        "diazgalan": {
+        name: "Ismael Jesús Díaz Galán",
+        footballName: "Díaz Galán",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/twHVgpfm/D-az-Gal-n-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Ismael Jesús Díaz Galán",
+            nickname: "Díaz Galán",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "02/10/1965",
+            deathDate: null
+        },
+        career: [
+            { season: "2017/18", team: "J.S. Hercules", category: "4ª Finlandia" },
+            { season: "2014/15", team: "Real Avilés C.F.", category: "2ª Div. B" },
+            { season: "2010/11", team: "Ribadesella C.F.", category: "3ª Div." },
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2004/05", team: "Palencia C.F.", category: "2ª Div. B" },
+            { season: "2003/04", team: "C.P. Cacereño", category: "2ª Div. B - Copa del Rey" },
+            { season: "2002/03", team: "C.P. Cacereño", category: "2ª Div. B" },
+            { season: "2001/02", team: "S.D. Huesca", category: "2ª Div. B" },
+            { season: "2000/01", team: "Granada C.F.", category: "2ª Div. B" },
+            { season: "1999/00", team: "S.C. Farense", category: "Liga Portugal Betclic - Taça de Portugal" },
+            { season: "1998/99", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "1997/98", team: "Málaga C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "1996/97", team: "Real Sporting de Gijón B", category: "2ª Div. B" },
+            { season: "1995/96", team: "Ribadesella C.F.", category: "3ª Div." }
+        ],
+        stats: {
+            "2006/07": {
+                liga: { partidos_entrenados: 8, victorias: 0, empates: 2, derrotas: 6 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
