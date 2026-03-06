@@ -16568,6 +16568,69 @@ const playersData = {
         }
     },
 
+        "rivas2005": {
+        name: "Antonio Rivas Martínez",
+        footballName: "Rivas",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/hRS9CMPH/Rivas-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Antonio Rivas Martínez",
+            nickname: "Rivas",
+            birthPlace: "Alcázar de San Juan, Ciudad Real",
+            country: "España",
+            nationality: "Española",
+            height: "1,83 m",
+            birthDate: "13/09/1965",
+            deathDate: null
+        },
+        career: [
+            { season: "2020/21", team: "Club At. de Madrid B", category: "2ª Div. B 2ª Fase de Permanencia" },
+            { season: "2020/21", team: "Club At. de Madrid Sub-19", category: "División de Honor" },
+            { season: "2019/20", team: "Club At. de Madrid Sub-19", category: "División de Honor" },
+            { season: "2018/19", team: "Club At. de Madrid Sub-19", category: "División de Honor" },
+            { season: "2013/14", team: "A.D. Alcorcón B", category: "3ª Div." },
+            { season: "2012/13", team: "A.D. Alcorcón B", category: "3ª Div." },
+            { season: "2011/12", team: "C.F. Fuenlabrada", category: "3ª Div." },
+            { season: "2010/11", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2009/10", team: "Club At. de Madrid B", category: "2ª Div. B" },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2004/05", team: "Real Oviedo", category: "3ª Div. - Copa del Rey - Copa Federación" },
+            { season: "2003/04", team: "Real Oviedo", category: "3ª Div. - 3ª Div. Prom. de Ascenso - Copa del Rey" },
+            { season: "2002/03", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        nationalTeam: [
+            { season: "", team: "", category: "" }
+        ],
+        stats: {
+            "2005/06": {
+                liga: { partidos_entrenados: 25, victorias: 8, empates: 9, derrotas: 8 },
+                copa: { partidos_entrenados: 3, victorias: 2, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2004/05": {
+                liga: { partidos_entrenados: 42, victorias: 28, empates: 8, derrotas: 6 },
+                copa: { partidos_entrenados: 10, victorias: 4, empates: 3, derrotas: 3 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2003/04": {
+                liga: { partidos_entrenados: 42, victorias: 29, empates: 10, derrotas: 3 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "2002/03": {
+                liga: { partidos_entrenados: 11, victorias: 4, empates: 1, derrotas: 6 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
