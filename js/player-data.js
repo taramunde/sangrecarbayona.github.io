@@ -16406,7 +16406,7 @@ const playersData = {
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
             },
             "2007/08": {
-                liga: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 0 },
+                liga: { partidos_entrenados: 1, victorias: 1, empates: 0, derrotas: 0 },
                 copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
