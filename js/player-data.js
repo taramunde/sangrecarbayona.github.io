@@ -16709,6 +16709,43 @@ const playersData = {
         }
     },
 
+        "miguelsanchez": {
+        name: "José Miguel Sánchez Rodríguez",
+        footballName: "Miguel Sánchez",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.ibb.co/hR7WdCjs/Jos-Miguel-S-nchez-entrenador-PNG.webp",
+        personalData: {
+            fullName: "José Miguel Sánchez Rodríguez",
+            nickname: "Miguel Sánchez",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "06/01/1947",
+            deathDate: null
+        },
+        career: [
+            { season: "2002/03", team: "Real Oviedo", category: "2ª Div." },
+            { season: "1998/99", team: "Real Racing Club de Santander", category: "1ª Div." },
+            { season: "1993/94", team: "Real Burgos C.F.", category: "" },
+            { season: "1992/93", team: "Real Burgos C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "1990/91", team: "S.D. Vetusta", category: "2ª Div. B" },
+            { season: "1986/87", team: "U.P. de Langreo", category: "3ª Div. - Copa del Rey" },
+            { season: "1985/86", team: "U.P. de Langreo", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "1984/85", team: "Club Siero", category: "3ª Div." }
+        ],
+        stats: {
+            "2002/03": {
+                liga: { partidos_entrenados: 6, victorias: 0, empates: 4, derrotas: 2 },
+                copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
