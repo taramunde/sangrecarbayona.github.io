@@ -16746,6 +16746,77 @@ const playersData = {
         }
     },
 
+        "antic": {
+        name: "Radomir Antić",
+        footballName: "Antić",
+        position: "Entrenador",
+        role: "entrenador",
+        number: null,
+        image: "https://i.postimg.cc/284MqBpK/Antic-entrenador-PNG.webp",
+        personalData: {
+            fullName: "Radomir Antić",
+            nickname: "Antić",
+            birthPlace: "Žitište, Serbia",
+            country: "Yugoslavia",
+            nationality: "Yugoslava, Serbia, Española",
+            height: "1,78 m",
+            birthDate: "22/11/1948",
+            deathDate: null
+        },
+        career: [
+            { season: "2014/15", team: "Jiangsu F.C.", category: "Copa China FA" },
+            { season: "2014/15", team: "Hebei F.C.", category: "Liga Uno China - Copa China FA" },
+            { season: "2012/13", team: "Shandong Taishan", category: "Superliga China - Copa China FA" },
+            { season: "2003/04", team: "R.C. Celta de Vigo", category: "1ª Div. - Champs. League" },
+            { season: "2002/03", team: "F.C. Barcelona", category: "1ª Div. - Champs. League" },
+            { season: "2000/01", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1999/00", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey - Europa League" },
+            { season: "1998/99", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey - Europa League" },
+            { season: "1997/98", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey - Europa League" },
+            { season: "1996/97", team: "Club At. de Madrid", category: "1ª Div. - Champs. League - Copa del Rey - Supercopa de España" },
+            { season: "1995/96", team: "Club At. de Madrid", category: "1ª Div. - Copa del Rey" },
+            { season: "1994/95", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1993/94", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1992/93", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1991/92", team: "Real Madrid C.F.", category: "1ª Div. - Copa del Rey - Europa League" },
+            { season: "1990/91", team: "Real Madrid C.F.", category: "1ª Div." },
+            { season: "1989/90", team: "Real Zaragoza C.D.", category: "1ª Div. - Copa del Rey - Europa League" },
+            { season: "1988/89", team: "Real Zaragoza C.D.", category: "1ª Div. - Copa del Rey" }
+        ],
+        nationalTeam: [
+            { season: "2010", team: "Serbia", category: "Amistosos" },
+            { season: "2009", team: "Serbia", category: "Mundial - Clasif. Eurocopa - Amistosos" },
+            { season: "2008", team: "Serbia", category: "Clasif. Mundial Europa - Amistosos" },
+            { season: "2007", team: "Serbia", category: "Amistosos" }
+        ],
+        stats: {
+            "2000/01": {
+                liga: { partidos_entrenados: 38, victorias: 11, empates: 8, derrotas: 19 },
+                copa: { partidos_entrenados: 1, victorias: 0, empates: 0, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "1994/95": {
+                liga: { partidos_entrenados: 38, victorias: 13, empates: 13, derrotas: 12 },
+                copa: { partidos_entrenados: 2, victorias: 0, empates: 0, derrotas: 2 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "1993/94": {
+                liga: { partidos_entrenados: 38, victorias: 12, empates: 13, derrotas: 13 },
+                copa: { partidos_entrenados: 10, victorias: 7, empates: 1, derrotas: 2 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            },
+            "1992/93": {
+                liga: { partidos_entrenados: 17, victorias: 6, empates: 3, derrotas: 8 },
+                copa: { partidos_entrenados: 3, victorias: 1, empates: 1, derrotas: 1 },
+                uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
+                amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 }
+            }
+        }
+    },
+
     "almada": {
         name: "Jorge Guillermo Almada Alves",
         footballName: "Almada",
