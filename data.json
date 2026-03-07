@@ -1,13 +1,13 @@
 {
-  "jornada": "23 LaLiga EA Sports 2025/26",
+  "jornada": "27 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "RAY",
-    "homeImg": "https://i.postimg.cc/153WzLct/Rayo_Vallecano_de_Madrid_B_(2007).jpg",
+    "home": "ESP",
+    "homeImg": "https://i.postimg.cc/ydBThzdg/RCD_Espanyol_(2023).png",
     "visitor": "OVI",
     "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "score": "3 - 0",
-    "date": "Mié. 04 Mar, 19:00",
-    "time": "Vallecas"
+    "score": " - ",
+    "date": "Lun. 09 Mar, 21:00",
+    "time": "R.C.D.E. Stadium"
   },
   "nextMatch": {
     "home": "ESP",
