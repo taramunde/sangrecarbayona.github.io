@@ -340,15 +340,15 @@ const enfrentamientos = [
   { equipo1: "Valencia C.F.", equipo2: "C.A. Osasuna", goles1: 1, goles2: 0 },
   
   // Jornada 27
-  { equipo1: "Athletic Club", equipo2: "F.C. Barcelona", goles1: null, goles2: null },
-  { equipo1: "Atlético de Madrid", equipo2: "Real Sociedad", goles1: null, goles2: null },
+  { equipo1: "Athletic Club", equipo2: "F.C. Barcelona", goles1: 0, goles2: 1 },
+  { equipo1: "Atlético de Madrid", equipo2: "Real Sociedad", goles1: 3, goles2: 2 },
   { equipo1: "Celta de Vigo", equipo2: "Real Madrid", goles1: 1, goles2: 2 },
   { equipo1: "R.C.D. Espanyol", equipo2: "Real Oviedo", goles1: null, goles2: null },
   { equipo1: "Valencia C.F.", equipo2: "Deportivo Alavés", goles1: null, goles2: null },
   { equipo1: "Getafe C.F.", equipo2: "Real Betis", goles1: null, goles2: null },
   { equipo1: "Villarreal C.F.", equipo2: "Elche C.F.", goles1: null, goles2: null },
-  { equipo1: "Levante U.D.", equipo2: "Girona F.C.", goles1: null, goles2: null },
-  { equipo1: "C.A. Osasuna", equipo2: "R.C.D. Mallorca", goles1: null, goles2: null },
+  { equipo1: "Levante U.D.", equipo2: "Girona F.C.", goles1: 1, goles2: 1 },
+  { equipo1: "C.A. Osasuna", equipo2: "R.C.D. Mallorca", goles1: 2, goles2: 2 },
   { equipo1: "Sevilla F.C.", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
   
   // Jornada 28
