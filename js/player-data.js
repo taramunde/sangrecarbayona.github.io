@@ -1359,6 +1359,117 @@ const playersData = {
         },
     },
 
+        "ivanserrano": {
+        name: "Iván Cabrero Serrano",
+        footballName: "Iván Serrano",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/26GFRmgT/Iván_Serrano_PNG.webp",
+        personalData: {
+            fullName: "Iván Cabrero Serrano",
+            nickname: "Iván Serrano",
+            birthPlace: "Santander, Cantabria",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "22/09/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "C.F. Vimenor", category: "3ª Div." },
+            { season: "2015/16", team: "C.F. Vimenor", category: "3ª Div." },
+            { season: "2014/15", team: "R.S. Gimnástica de Torrelavega", category: "3ª Div." },
+            { season: "2013/14", team: "R.S. Gimnástica de Torrelavega", category: "3ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "S.D. Noja", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "Real Unión Club", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "S.D. Noja", category: "Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "Real Oviedo", category: "3ª Div." },
+            { season: "2007/08", team: "Real Oviedo", category: "3ª Div. - Copa Federación Fase Autonómica" },
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B - Copa Federación - Copa Federación Fase Autonómica" },
+            { season: "2005/06", team: "C. At. Perinés", category: "Regional Preferente de Cantabria" }
+        ],
+        stats: {
+            "2009/10": {
+                liga: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2008/09": {
+                liga: { partidos: 8, goles_encajados: 6, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2007/08": {
+                liga: { partidos: 4, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 1 },
+                copa: { partidos: 2, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2006/07": {
+                liga: { partidos: 13, goles_encajados: 15, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 6, goles_encajados: 9, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "limones": {
+        name: "Jesús Reguillos Moya",
+        footballName: "Limones",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/pr7jRdCQ/Limones-PNG.webp",
+        personalData: {
+            fullName: "Jesús Reguillos Moya",
+            nickname: "Limones",
+            birthPlace: "Daimiel, Ciudad Real",
+            country: "España",
+            nationality: "Española",
+            height: "1,89 m",
+            birthDate: "17/10/1986",
+            deathDate: null
+        },
+        career: [
+            { season: "2023/24", team: "C.D. Ciudad de Lucena", category: "3ª Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "C.D. Calahorra", category: "1ª Federación" },
+            { season: "2021/22", team: "C.D. Badajoz", category: "1ª Federación - Copa del Rey" },
+            { season: "2020/21", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2019/20", team: "C.D. Mirandés", category: "2ª Div. - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - Copa Federación - 2ª Div. B Prom. de Ascenso" },
+            { season: "2017/18", team: "C.D. Mirandés", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2016/17", team: "F.C. Cartagena", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "F.C. Cartagena", category: "2ª Div. B" },
+            { season: "2014/15", team: "F.C. Cartagena", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Permanencia" },
+            { season: "2013/14", team: "F.C. Cartagena", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2012/13", team: "Lucena C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "C.D. Puertollano", category: "2ª Div. B" },
+            { season: "2010/11", team: "A.D. Ceuta", category: "2ª Div. B" },
+            { season: "2010/11", team: "F.C. Jumilla", category: "2ª Div. B" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2009/10", team: "G.D. Estoril Praia", category: "2ª Portugal" },
+            { season: "2008/09", team: "C.D. Dénia", category: "2ª Div. B" },
+            { season: "2007/08", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2006/07", team: "Elche Ilicitano", category: "3ª Div." },
+            { season: "2006/07", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2005/06", team: "Elche C.F.", category: "2ª Div." },
+            { season: "2005/06", team: "Elche Ilicitano", category: "3ª Div." }
+        ],
+        stats: {
+            "2009/10": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
