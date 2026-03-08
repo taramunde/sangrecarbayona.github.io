@@ -15399,6 +15399,74 @@ const playersData = {
         },
     },
 
+        "aulestia": {
+        name: "Oinatz Aulestia Alkorta",
+        footballName: "Aulestia",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/mD1RK2cW/Aulestia-PNG.webp",
+        personalData: {
+            fullName: "Oinatz Aulestia Alkorta",
+            nickname: "Aulestia",
+            birthPlace: "Ondárroa, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "23/03/1981",
+            deathDate: null
+        },
+        career: [
+            { season: "2019/20", team: "Arenas Club de Getxo", category: "2ª Div. B" },
+            { season: "2018/19", team: "Club Polideportivo El Ejido 2012", category: "2ª Div. B" },
+            { season: "2017/18", team: "C.D. Atlético Baleares", category: "2ª Div. B - Copa del Rey" },
+            { season: "2016/17", team: "C.D. Atlético Baleares", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2015/16", team: "C.E. L'Hospitalet", category: "2ª Div. B" },
+            { season: "2014/15", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2013/14", team: "Hércules de Alicante C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "2012/13", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey" },
+            { season: "2011/12", team: "Cádiz C.F.", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2009/10", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2008/09", team: "Real Oviedo", category: "3ª Div. - Copa del Rey - 3ª Div. Prom. de Ascenso" },
+            { season: "2006/07", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
+            { season: "2005/06", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B" },
+            { season: "2004/05", team: "Athletic Club B", category: "2ª Div. B" },
+            { season: "2004/05", team: "Athletic Club", category: "1ª Div." },
+            { season: "2003/04", team: "Athletic Club B", category: "2ª Div. B" },
+            { season: "2003/04", team: "Athletic Club", category: "1ª Div." },
+            { season: "2002/06", team: "U.D. Pájara Playas de Jandía", category: "2ª Div. B" },
+            { season: "2001/02", team: "S.D. Eibar B", category: "2ª Div. B" },
+            { season: "2000/01", team: "S.D. Eibar B", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2010/11": {
+                liga: { partidos: 37, goles_encajados: 30, tarjetas_amarillas: 5, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2009/10": {
+                liga: { partidos: 39, goles_encajados: 40, tarjetas_amarillas: 3, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2008/09": {
+                liga: { partidos: 30, goles_encajados: 9, tarjetas_amarillas: 4, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2007/08": {
+                liga: { partidos: 36, goles_encajados: 29, tarjetas_amarillas: 8, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     paunovic2025: {
         name: "Veljko Paunović",
