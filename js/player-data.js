@@ -15467,6 +15467,92 @@ const playersData = {
         }
     },
 
+        "javimartinez": {
+        name: "Javier Martínez González",
+        footballName: "Javi Martínez",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/QN6kf8Qd/Javi_Martínez_PNG.webp",
+        personalData: {
+            fullName: "Javier Martínez González",
+            nickname: "Javi Martínez",
+            birthPlace: "Tarancón, Cuenca",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "27/06/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2013/14", team: "C.D. Quintanar del Rey", category: "3ª Div." },
+            { season: "2012/13", team: "C.D. Quintanar del Rey", category: "3ª Div." },
+            { season: "2011/12", team: "C.D. Quintanar del Rey", category: "3ª Div." },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2009/10", team: "U.B. Conquense", category: "2ª Div. B - Copa del Rey" },
+            { season: "2008/09", team: "A.D. Ceuta", category: "2ª Div. B" },
+            { season: "2007/08", team: "Albacete Balompié", category: "2ª Div." },
+            { season: "2006/07", team: "Albacete Balompié B", category: "3ª Div." }
+        ],
+        nationalTeam: [
+            { season: "2007", team: "España Sub-20", category: "Mundial Sub-20" },
+            { season: "2002", team: "España Sub-16", category: "Amistosos" }
+        ],
+        stats: {
+            "2010/11": {
+                liga: { partidos: 1, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    "alberto": {
+        name: "Alberto Benito Iglesias",
+        footballName: "Alberto",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/W3xp4JR4/Alberto-PNG.webp",
+        personalData: {
+            fullName: "Alberto Benito Iglesias",
+            nickname: "Alberto",
+            birthPlace: "El Entrego, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,85 m",
+            birthDate: "21/04/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "L'Entregu C.F.", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2023/24", team: "L'Entregu C.F.", category: "3ª Federación - Copa Federación - 3ª Federación Prom. de Ascenso" },
+            { season: "2022/23", team: "L'Entregu C.F.", category: "3ª Federación - Copa Federación Fase Autonómica - 3ª Federación Prom. de Ascenso" },
+            { season: "2021/22", team: "L'Entregu C.F.", category: "3ª Federación - Copa Federación Fase Autonómica" },
+            { season: "2020/21", team: "L'Entregu C.F.", category: "3ª Div. - 3ª Div. 2ª Fase de Ascenso - Prom. de Ascenso a 2ª Div. RFEF" },
+            { season: "2019/20", team: "L'Entregu C.F.", category: "3ª Div." },
+            { season: "2018/19", team: "L'Entregu C.F.", category: "3ª Div." },
+            { season: "2017/18", team: "E.I. San Martín del Rey Aurelio", category: "3ª Div." },
+            { season: "2016/17", team: "E.I. San Martín del Rey Aurelio", category: "Regional Preferente de Asturias" },
+            { season: "2015/16", team: "E.I. San Martín del Rey Aurelio", category: "Regional Preferente de Asturias" },
+            { season: "2014/15", team: "C.D. Tineo", category: "Regional Preferente de Asturias" },
+            { season: "2013/14", team: "Candás C.F.", category: "3ª Div." },
+            { season: "2011/12", team: "Navia C.F.", category: "3ª Div." },
+            { season: "2010/11", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "Real Oviedo B", category: "3ª Div." },
+            { season: "2009/10", team: "C.D. Universidad de Oviedo", category: "3ª Div." }
+        ],
+        stats: {
+            "2010/11": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // ENTRENADORES
     paunovic2025: {
         name: "Veljko Paunović",
