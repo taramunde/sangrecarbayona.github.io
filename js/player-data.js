@@ -1470,6 +1470,46 @@ const playersData = {
         }
     },
 
+        "eneko": {
+        name: "Eneko Loinaz Valle",
+        footballName: "Eneko",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/T1T7gtvN/Eneko-PNG.webp",
+        personalData: {
+            fullName: "Eneko Loinaz Valle",
+            nickname: "Eneko",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,93 m",
+            birthDate: "23/02/1985",
+            deathDate: null
+        },
+        career: [
+            { season: "2016/17", team: "Puerto de Vega C.F.", category: "2ª Regional Asturias" },
+            { season: "2010/11", team: "C.D. Trasona", category: "1ª Regional Asturias" },
+            { season: "2009/10", team: "S.C.R. Penya Deportiva", category: "3ª Div." },
+            { season: "2008/09", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2008/09", team: "R.C. Portuense", category: "2ª Div. B" },
+            { season: "2007/08", team: "R.C. Portuense", category: "2ª Div. B - Copa del Rey" },
+            { season: "2006/07", team: "Real Avilés Industrial C.F.", category: "3ª Div." },
+            { season: "2005/06", team: "Orihuela C.F.", category: "3ª Div." },
+            { season: "2005/06", team: "Real Avilés Industrial C.F.", category: "3ª Div." },
+            { season: "2004/05", team: "Real Avilés Industrial C.F.", category: "3ª Div." },
+            { season: "2003/04", team: "Real Avilés Industrial C.F. Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2008/09": {
+                liga: { partidos: 2, goles_encajados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
