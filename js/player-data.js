@@ -1510,6 +1510,39 @@ const playersData = {
         }
     },
 
+        "damian": {
+        name: "Damián Suárez Fernández",
+        footballName: "Damián",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/RVX8QxF7/Dami-n-PNG.webp",
+        personalData: {
+            fullName: "Damián Suárez Fernández",
+            nickname: "Damián",
+            birthPlace: "Posada de Llanera, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "06/05/1989",
+            deathDate: null
+        },
+        career: [
+            { season: "2011/12", team: "U.D. Llanera", category: "1ª Regional Asturias" },
+            { season: "2008/09", team: "Real Oviedo", category: "3ª Div." },
+            { season: "2008/09", team: "Real Oviedo B", category: "1ª Regional Asturias" },
+            { season: "2007/08", team: "Real Oviedo Sub-19", category: "División de Honor" }
+        ],
+        stats: {
+            "2008/09": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
