@@ -106,6 +106,10 @@ const videosDB = [
     {
         id: "6ILV_qAvWvE",
         title: "J26 Real Oviedo Vs At. Madrid"
+    },
+    {
+        id: "SNmbf_7XKc8",
+        title: "J27 R.C.D. Espanyol Vs Real Oviedo"
     }
 
 
