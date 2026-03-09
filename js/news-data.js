@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/Gh0P7nDt/J-23-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Real Oviedo entrega las armas en Vallecas.",
+        image: "https://i.postimg.cc/KYLmfYjz/J_27_LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "El Real Oviedo sobrevive y saca un punto insuficiente ante el Espanyol.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/04/real-oviedo-entrega-armas-vallecas/00031772650525007879561.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/09/cro/00031773089519662389220.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/G3j3Nk81/J-23-LNE.jpg", // FOTO NOTICIA 2
-        title: "Ni en los despachos, ni sobre el césped: el Oviedo sale goleado de Vallecas y sin los tres puntos (3-0).",
-        author: "JOAQUÍN ALONSO",
-        link: "https://www.lne.es/real-oviedo/2026/03/04/despachos-cesped-oviedo-sale-goleado-127568889.html"
+        image: "https://i.postimg.cc/3wp31wNN/J_27_LNE.jpg", // FOTO NOTICIA 2
+        title: "Reacción en corto del Oviedo: 1-1 en su visita al Espanyol.",
+        author: "NACHO AZPARREN",
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-sale-pobre-mal-partido-20260310232650-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/2SLDzv6S/J-23-EC.webp", // FOTO NOTICIA 3
-        title: "El Real Oviedo se desangra en Vallecas.",
+        image: "https://i.postimg.cc/t43rzQbD/J_27_EC.webp", // FOTO NOTICIA 3
+        title: "El Real Oviedo no sale de pobre en un mal partido.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-desangra-vallecas-20260305213842-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-sale-pobre-mal-partido-20260310232650-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/SNX584hS/J-23-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Rayo Vallecano desnuda al Oviedo.",
+        image: "https://i.postimg.cc/k4pw57NN/J_27_KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: Aarón da una vida al Oviedo en Cornellá.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/index.php/cronicas/la-cronica-el-rayo-vallecano-desnuda-al-oviedo#google_vignette"
+        link: "https://killerasturias.com/index.php/cronicas/la-cronica-aaron-da-una-vida-al-oviedo-en-cornella"
     }
 ];
 
