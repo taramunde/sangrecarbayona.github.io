@@ -1543,6 +1543,62 @@ const playersData = {
         }
     },
 
+        "javidiaz": {
+        name: "Javier Díaz López",
+        footballName: "Javi Díaz",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/C56G57hq/Javi_Díaz_PNG.webp",
+        personalData: {
+            fullName: "Javier Díaz López",
+            nickname: "Javi Díaz",
+            birthPlace: "Mieres, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,84 m",
+            birthDate: "20/12/1990",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "South Melbourne F.C.", category: "2ª Australia - Liga Profesional OFC" },
+            { season: "2024/25", team: "South Melbourne F.C.", category: "2ª Australia - Copa Australia - Campeonato de Australia" },
+            { season: "2023/24", team: "South Melbourne F.C.", category: "2ª Australia - Copa Australia" },
+            { season: "2022/23", team: "South Melbourne F.C.", category: "2ª Australia" },
+            { season: "2021/22", team: "South Melbourne F.C.", category: "2ª Australia" },
+            { season: "2020/21", team: "South Melbourne F.C.", category: "Copa Australia" },
+            { season: "2020/21", team: "Bentleigh Greens S.C.", category: "2ª Australia" },
+            { season: "2018/19", team: "E.I. San Martín del Rey Aurelio", category: "3ª Div." },
+            { season: "2017/18", team: "U.P. de Langreo", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2016/17", team: "Unionistas de Salamanca C.F.", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2015/16", team: "Unionistas de Salamanca C.F.", category: "1ª Regional Castilla y León" },
+            { season: "2014/15", team: "U.P. de Langreo", category: "2ª Div. B" },
+            { season: "2013/14", team: "Caudal Deportivo", category: "2ª Div. B - 2ª Div. B Prom. de Permanencia" },
+            { season: "2012/13", team: "Caudal Deportivo", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2011/12", team: "Caudal Deportivo", category: "3ª Div." },
+            { season: "2010/11", team: "Caudal Deportivo", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2010/11", team: "S.C. Portonovo", category: "3ª Div." },
+            { season: "2009/10", team: "Pontevedra C.F. B", category: "3ª Div." },
+            { season: "2008/09", team: "Real Zaragoza Sub-19", category: "División de Honor" },
+            { season: "2007/08", team: "Real Oviedo", category: "3ª Div." },
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B" }
+        ],
+        stats: {
+            "2007/08": {
+                liga: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2006/07": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
