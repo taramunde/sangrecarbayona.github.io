@@ -1599,6 +1599,50 @@ const playersData = {
         }
     },
 
+        "gastonpezzuti": {
+        name: "Gastón Fernando Pezzuti",
+        footballName: "Gastón Pezzuti",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/brYgsd1K/Gastón_Pezzuti_PNG.webp",
+        personalData: {
+            fullName: "Gastón Fernando Pezzuti",
+            nickname: "Gastón Pezzuti",
+            birthPlace: "Buenos Aires, Buenos Aires",
+            country: "Argentina",
+            nationality: "Argentina, Italiana",
+            height: "1,85 m",
+            birthDate: "09/02/1976",
+            deathDate: null
+        },
+        career: [
+            { season: "2012/13", team: "C.A. Rosario Central", category: "1ª Nacional - Copa Argentina" },
+            { season: "2011/12", team: "C.Atl. Nacional", category: "Apert. Colombia - Claus. Colombia - Copa Libertadores - Copa Colombia - Claus. Colombia Prom. - Superliga Colombia" },
+            { season: "2010/11", team: "C.Atl. Nacional", category: "Apert. Colombia - Claus. Colombia - Apert. Colombia Prom." },
+            { season: "2009/10", team: "C.Atl. Nacional", category: "Apert. Colombia - Claus. Colombia - Claus. Colombia Prom." },
+            { season: "2008/09", team: "C.Atl. Nacional", category: "Claus. Colombia - Claus. Colombia Prom." },
+            { season: "2008/09", team: "Club Atlético Gimnasia y Esgrima", category: "Apert. Argentina - Claus. Argentina" },
+            { season: "2007/08", team: "A.M.S.D. Atlético de Rafaela", category: "1ª Nacional" },
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2005/06", team: "Instituto Atlético Central Córdoba", category: "Apert. Argentina - Claus. Argentina" },
+            { season: "2003/04", team: "Racing Club", category: "Claus. Argentina" },
+            { season: "2001/02", team: "Racing Club", category: "Apert. Argentina" },
+            { season: "2000/01", team: "Racing Club", category: "Apert. Argentina - Claus. Argentina" }
+        ],
+        nationalTeam: [
+            { season: "1995", team: "Argentina Sub-20", category: "Mundial Sub-20" }
+        ],
+        stats: {
+            "2006/07": {
+                liga: { partidos: 27, goles_encajados: 32, tarjetas_amarillas: 4, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
