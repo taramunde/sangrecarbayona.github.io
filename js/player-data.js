@@ -1643,6 +1643,55 @@ const playersData = {
         }
     },
 
+        "javiporron": {
+        name: "Francisco Javier Fernández Porrón",
+        footballName: "Javi Porrón",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/X7pKhRLc/Javi_Porrón_PNG.webp",
+        personalData: {
+            fullName: "Francisco Javier Fernández Porrón",
+            nickname: "Javi Porrón",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,79 m",
+            birthDate: "13/06/1987",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - Copa del Rey" },
+            { season: "2021/22", team: "C.D. Lealtad de Villaviciosa", category: "3ª Federación - Copa Federación Fase Autonómica - 3ª Federación Prom. de Ascenso" },
+            { season: "2020/21", team: "Caudal Deportivo", category: "3ª Div. - Copa Federación - Copa Federación - Fase Autonómica - 3ª Div. 2ª Fase 2ª Div. RFEF - Prom. de Ascenso" },
+            { season: "2019/20", team: "Club Marino de Luanco", category: "2ª Div. B - Copa del Rey" },
+            { season: "2018/19", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div. - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2017/18", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2016/17", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2015/16", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B" },
+            { season: "2014/15", team: "C.D. Lealtad de Villaviciosa", category: "2ª Div. B - Copa del Rey" },
+            { season: "2013/14", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div. - 3ª Div. Prom. de Ascenso" },
+            { season: "2012/13", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div." },
+            { season: "2011/12", team: "C.D. Lealtad de Villaviciosa", category: "3ª Div." },
+            { season: "2010/11", team: "C.D. Cudillero", category: "3ª Div." },
+            { season: "2009/10", team: "Pinatar C.F.", category: "3ª Div." },
+            { season: "2008/09", team: "C.D. Universidad de Oviedo", category: "3ª Div." },
+            { season: "2007/08", team: "C.D. Universidad de Oviedo", category: "3ª Div." },
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2006/07", team: "Real Oviedo B", category: "2ª Regional Asturias" },
+            { season: "2005/06", team: "Pumarín C.F.", category: "3ª Div." },
+            { season: "2005/06", team: "U.C. Ceares", category: "3ª Div." }
+        ],
+        stats: {
+            "2006/07": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
