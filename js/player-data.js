@@ -1723,6 +1723,75 @@ const playersData = {
         }
     },
 
+        "rafaponzo": {
+        name: "Rafael Antonio Ponzo García",
+        footballName: "Rafa Ponzo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/rF14vqW4/Rafa_Ponzo_PNG.webp",
+        personalData: {
+            fullName: "Rafael Antonio Ponzo García",
+            nickname: "Rafa Ponzo",
+            birthPlace: "Madrid, Madrid",
+            country: "España",
+            nationality: "Española, Venezolana",
+            height: "1,82 m",
+            birthDate: "18/10/1978",
+            deathDate: null
+        },
+        career: [
+            { season: "2018/19", team: "Deportivo Anzoátegui S.C.", category: "Apert. Venezuela" },
+            { season: "2017/18", team: "Angostura F.C.", category: "Apert. Venezuela" },
+            { season: "2016/17", team: "C.D. Universidad de El Salvador UES", category: "Claus. El Salvador" },
+            { season: "2015/16", team: "Aragua F.C.", category: "Apert. Venezuela - Claus. Venezuela - Copa Venezuela Formato Antiguo - Copa Venezuela" },
+            { season: "2014/15", team: "Aragua F.C.", category: "Liga Venezuela" },
+            { season: "2014/15", team: "Club Marino de Luanco", category: "2ª Div. B - Copa del Rey - Copa Federación" },
+            { season: "2013/14", team: "Club Marino de Luanco", category: "2ª Div. B" },
+            { season: "2012/13", team: "Club Marino de Luanco", category: "2ª Div. B" },
+            { season: "2011/12", team: "Club Marino de Luanco", category: "2ª Div. B - Copa del Rey" },
+            { season: "2010/11", team: "A.C.C.D. Mineros de Guayana", category: "Claus. Venezuela" },
+            { season: "2010/11", team: "Ermis Aradippou", category: "Liga Chipre" },
+            { season: "2009/10", team: "Nea Salamina Famagusta F.C.", category: "Liga Chipre" },
+            { season: "2009/10", team: "A.D. Ceuta", category: "2ª Div. B" },
+            { season: "2008/09", team: "Girona F.C.", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Girona F.C.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "Girona F.C.", category: "3ª Div." },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B - Copa del Rey" },
+            { season: "2004/05", team: "Real Oviedo", category: "3ª Div. - Copa del Rey - Copa Federación - 3ª Div. Prom. de Ascenso" },
+            { season: "2003/04", team: "Real Oviedo", category: "3ª Div. - Copa del Rey - 3ª Div. prom. de Ascenso" },
+            { season: "2002/03", team: "C.D. Tenerife", category: "1ª Div." },
+            { season: "2002/03", team: "C.D. Tenerife B", category: "3ª Div." },
+            { season: "2001/02", team: "C.D. Tenerife B", category: "3ª Div." },
+            { season: "2000/01", team: "Club Siero", category: "2ª Div. B" }
+        ],
+        nationalTeam: [
+            { season: "2006", team: "Venezuela", category: "Amistosos" },
+            { season: "2004", team: "Venezuela", category: "Amistosos" },
+            { season: "2002", team: "Venezuela", category: "Amistosos" }
+        ],
+        stats: {
+            "2005/06": {
+                liga: { partidos: 29, goles_encajados: 29, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                copa: { partidos: 3, goles_encajados: 1, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2004/05": {
+                liga: { partidos: 35, goles_encajados: 27, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                copa: { partidos: 8, goles_encajados: 9, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "2003/04": {
+                liga: { partidos: 40, goles_encajados: 18, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
+                copa: { partidos: 1, goles_encajados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
