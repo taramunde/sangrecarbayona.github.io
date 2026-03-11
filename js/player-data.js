@@ -1692,6 +1692,37 @@ const playersData = {
         }
     },
 
+        "ivancosio": {
+        name: "Iván Cosío Martínez",
+        footballName: "Iván Cosío",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/FRNgB1C7/Iván_Cosío_PNG.webp",
+        personalData: {
+            fullName: "Iván Cosío Martínez",
+            nickname: "Iván Cosío",
+            birthPlace: "Oviedo, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "",
+            birthDate: "26/04/1984",
+            deathDate: null
+        },
+        career: [
+            { season: "2006/07", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2006/07", team: "Real Oviedo B", category: "2ª Regional Asturias" }
+        ],
+        stats: {
+            "2006/07": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
