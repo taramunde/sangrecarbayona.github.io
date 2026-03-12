@@ -1792,6 +1792,53 @@ const playersData = {
         }
     },
 
+        "chavipascual": {
+        name: "Carlos Xabier Pascual Luca de Tena",
+        footballName: "Chavi Pascual",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Gtjf5Zj1/Chavi-Pascual-PNG.webp",
+        personalData: {
+            fullName: "Carlos Xabier Pascual Luca de Tena",
+            nickname: "Chavi Pascual",
+            birthPlace: "Bilbao, Vizcaya",
+            country: "España",
+            nationality: "Española",
+            height: "1,90 m",
+            birthDate: "09/07/1981",
+            deathDate: null
+        },
+        career: [
+            { season: "2015/16", team: "Club Deportivo Español", category: "1ª B Argentina" },
+            { season: "2014/15", team: "Club Atl. Excursionistas", category: "1ª C Argentina - 1ª C Transición Argentina" },
+            { season: "2013/14", team: "Club Atl. Excursionistas", category: "1ª C Argentina" },
+            { season: "2012/13", team: "Sacachispas F.C.", category: "Copa Argentina" },
+            { season: "2011/12", team: "General Rojo U.D.", category: "Torneo Regional Amateur Federal" },
+            { season: "2009/10", team: "Gimnàstic de Tarragona", category: "2ª Div." },
+            { season: "2008/09", team: "Gimnàstic de Tarragona", category: "2ª Div. - Copa del Rey" },
+            { season: "2007/08", team: "Barakaldo C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "2006/07", team: "Real Racing Club de Santander B", category: "2ª Div. B" },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2004/05", team: "S.D. Eibar", category: "2ª Div." },
+            { season: "2004/05", team: "Real Racing Club de Santander", category: "1ª Div." },
+            { season: "2004/05", team: "Amurrio Club", category: "2ª B - Copa del Rey" },
+            { season: "2003/04", team: "C.A. Osasuna", category: "1ª Div." },
+            { season: "2003/04", team: "C.A. Osasuna B", category: "2ª Div. B" },
+            { season: "2002/03", team: "Arenas Club de Getxo", category: "3ª Div." },
+            { season: "2001/02", team: "C.D. Basconia", category: "3ª Div." },
+            { season: "2000/01", team: "C.D. Basconia", category: "3ª Div." }
+        ],
+        stats: {
+            "2005/06": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
