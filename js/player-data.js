@@ -1839,6 +1839,86 @@ const playersData = {
         }
     },
 
+        "rafa": {
+        name: "Rafael González Robles",
+        footballName: "Rafa",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/7Y87s5CD/Rafa_PNG.webp",
+        personalData: {
+            fullName: "Rafael González Robles",
+            nickname: "Rafa",
+            birthPlace: "Avilés, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,93 m",
+            birthDate: "25/10/1970",
+            deathDate: null
+        },
+        career: [
+            { season: "2006/07", team: "Coventry City F.C.", category: "Championship" },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2004/05", team: "Real Sporting de Gijón", category: "2ª Div. - Copa del Rey" },
+            { season: "2003/04", team: "Cultural y Deportiva Leonesa", category: "2ª Div. B - Copa del Rey - 2ª Div. B Prom. de Ascenso" },
+            { season: "2002/03", team: "Málaga C.F.", category: "1ª Div." },
+            { season: "2001/02", team: "Málaga C.F.", category: "1ª Div." },
+            { season: "2000/01", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "1999/00", team: "Málaga C.F.", category: "1ª Div. - Copa del Rey" },
+            { season: "1998/99", team: "Málaga C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "1997/98", team: "Málaga C.F.", category: "2ª Div. B - 2ª Div. B Prom. de Ascenso" },
+            { season: "1996/97", team: "Málaga C.F.", category: "2ª Div. B" },
+            { season: "1996/97", team: "Real Oviedo", category: "1ª Div." },
+            { season: "1995/96", team: "Real Oviedo", category: "1ª Div." },
+            { season: "1994/95", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1993/94", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1992/93", team: "Real Oviedo", category: "1ª Div. - Copa del Rey" },
+            { season: "1991/92", team: "Real Avilés Industrial C.F.", category: "2ª Div. - Copa del Rey" },
+            { season: "1990/91", team: "Real Avilés Industrial C.F.", category: "2ª Div." }
+        ],
+        nationalTeam: [
+            { season: "1991", team: "España Sub-23 Olímpica", category: "Amistosos" }
+        ],
+        stats: {
+            "2005/06": {
+                liga: { partidos: 8, goles_encajados: 5, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1996/97": {
+                liga: { partidos: 1, goles_encajados: 4, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1995/96": {
+                liga: { partidos: 1, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1994/95": {
+                liga: { partidos: 1, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1993/94": {
+                liga: { partidos: 3, goles_encajados: 3, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 2, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            },
+            "1992/93": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 4, goles_encajados: 7, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
