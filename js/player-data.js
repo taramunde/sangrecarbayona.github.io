@@ -1919,6 +1919,57 @@ const playersData = {
         }
     },
 
+        "roberto": {
+        name: "Roberto Pérez Blanco",
+        footballName: "Roberto",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/HLx7c5N0/Roberto_PNG.webp",
+        personalData: {
+            fullName: "Roberto Pérez Blanco",
+            nickname: "Roberto",
+            birthPlace: "El Berrón, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,77 m",
+            birthDate: "25/03/1986",
+            deathDate: null
+        },
+        career: [
+            { season: "2022/23", team: "Valdesoto C.F.", category: "3ª Federación" },
+            { season: "2021/22", team: "Valdesoto C.F.", category: "Regional Preferente Asturias" },
+            { season: "2020/21", team: "Real Titánico de Laviana", category: "3ª Div." },
+            { season: "2019/20", team: "Real Titánico de Laviana", category: "Regional Preferente Asturias" },
+            { season: "2018/19", team: "Real Titánico de Laviana", category: "Regional Preferente Asturias" },
+            { season: "2017/18", team: "Valdesoto C.F.", category: "3ª Div." },
+            { season: "2016/17", team: "Valdesoto C.F.", category: "Regional Preferente Asturias" },
+            { season: "2015/16", team: "U.D. Gijón Industrial", category: "3ª Div." },
+            { season: "2014/15", team: "U.D. Gijón Industrial", category: "3ª Div." },
+            { season: "2013/14", team: "U.D. Gijón Industrial", category: "3ª Div." },
+            { season: "2012/13", team: "Candás C.F.", category: "3ª Div." },
+            { season: "2012/13", team: "Club Siero", category: "Regional Preferente Asturias" },
+            { season: "2011/12", team: "Candás C.F.", category: "3ª Div." },
+            { season: "2011/12", team: "Club Siero", category: "Regional Preferente Asturias" },
+            { season: "2010/11", team: "Club Siero", category: "Regional Preferente Asturias" },
+            { season: "2009/10", team: "U.D. Pájara Playas de Jandía", category: "3ª Div." },
+            { season: "2008/09", team: "U.D. Vecindario", category: "2ª Div. B" },
+            { season: "2007/08", team: "C.D. Llanes", category: "3ª Div." },
+            { season: "2006/07", team: "Club Hispano de Castrillón", category: "3ª Div." },
+            { season: "2006/07", team: "C.D. Binissalem", category: "3ª Div." },
+            { season: "2005/06", team: "Real Oviedo", category: "2ª Div. B" },
+            { season: "2005/06", team: "Pumarín C.F.", category: "Regional Preferente Asturias" }
+        ],
+        stats: {
+            "2005/06": {
+                liga: { partidos: 1, goles_encajados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
