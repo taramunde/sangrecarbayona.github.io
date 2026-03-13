@@ -147,6 +147,7 @@
   <url><loc>https://taramunde.github.io/sangrecarbayona.github.io/omarfalah.html</loc><lastmod>" + new Date().toISOString().split('T')[0] + "</lastmod><priority>0.8</priority></url>
   <url><loc>https://taramunde.github.io/sangrecarbayona.github.io/marcoesteban.html</loc><lastmod>" + new Date().toISOString().split('T')[0] + "</lastmod><priority>0.8</priority></url>
   <url><loc>https://taramunde.github.io/sangrecarbayona.github.io/adrilopes.html</loc><lastmod>" + new Date().toISOString().split('T')[0] + "</lastmod><priority>0.8</priority></url>
+  <url><loc>https://taramunde.github.io/sangrecarbayona.github.io/adrifernandez.html</loc><lastmod>" + new Date().toISOString().split('T')[0] + "</lastmod><priority>0.8</priority></url>
   <url><loc>https://taramunde.github.io/sangrecarbayona.github.io/espinosa.html</loc><lastmod>" + new Date().toISOString().split('T')[0] + "</lastmod><priority>0.8</priority></url>
   <url><loc>https://taramunde.github.io/sangrecarbayona.github.io/pomares.html</loc><lastmod>" + new Date().toISOString().split('T')[0] + "</lastmod><priority>0.8</priority></url>
   <url><loc>https://taramunde.github.io/sangrecarbayona.github.io/jaimevazquez.html</loc><lastmod>" + new Date().toISOString().split('T')[0] + "</lastmod><priority>0.8</priority></url>

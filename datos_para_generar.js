@@ -1027,6 +1027,13 @@ const playersDatabase = {
         "name": "Adri Lopes",
         "url": "fichajugador.html?player=adrilopes"
     },
+    "adrifernandez": {
+        "src": "https://i.postimg.cc/hGzJs8SW/Adri-Fernandez-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Adri Fernández",
+        "url": "fichajugador.html?player=adrifernandez"
+    },
     "espinosa": {
         "src": "https://i.postimg.cc/MGhpQNkp/Espinosa-PNG.webp",
         "alt": "Defensa",
@@ -8724,7 +8731,7 @@ const playersDatabase = {
         "src": "https://i.ibb.co/HpfvHCCC/Ramiro-Sol-s-2-entrenador-PNG.webp",
         "alt": "Entrenador",
         "number": "-",
-        "name": "Ramiro Solis",
+        "name": "Ramiro Solís",
         "url": "fichajugador.html?player=ramirosolis"
     },
     "diazgalan": {
