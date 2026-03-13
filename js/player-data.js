@@ -4512,21 +4512,21 @@ const playersData = {
     },
 
     florenza: {
-        name: "Florenza",
+        name: "Francisco Florenza Gubern",
         footballName: "Florenza",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/FHwTDrQL/Florenza_PNG.webp",
         personalData: {
-            fullName: "Florenza",
+            fullName: "Francisco Florenza Gubern",
             nickname: "Florenza",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Barcelona, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "30/05/1912",
+            deathDate: "16/09/2004"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4574,21 +4574,21 @@ const playersData = {
     },
 
     oscar1935: {
-        name: "Óscar",
+        name: "Óscar Álvarez González",
         footballName: "Óscar",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/v8p7JPNJ/Óscar_PNG.webp",
         personalData: {
-            fullName: "Óscar",
+            fullName: "Óscar Álvarez González",
             nickname: "Óscar",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "01/05/1902",
+            deathDate: "11/06/1972"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4605,21 +4605,21 @@ const playersData = {
     },
 
     hector: {
-        name: "Héctor",
+        name: "Héctor García García",
         footballName: "Héctor",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/4xH5KDhN/Héctor_PNG.webp",
         personalData: {
-            fullName: "Héctor",
+            fullName: "Héctor García García",
             nickname: "Héctor",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Luanco, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "06/02/1914",
+            deathDate: "22/05/1991"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4636,21 +4636,21 @@ const playersData = {
     },
 
     zarraonandia: {
-        name: "Zarraonandía",
+        name: "Tomás Antonio Zarraonandía Montoya",
         footballName: "Zarraonandía",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/D0Fvs3ZV/Zarraonandía_PNG.webp",
         personalData: {
-            fullName: "Zarraonandía",
+            fullName: "Tomás Antonio Zarraonandía Montoya",
             nickname: "Zarraonandía",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Munguía, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "28/12/1910",
+            deathDate: "13/02/2000"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4667,21 +4667,21 @@ const playersData = {
     },
 
     santander: {
-        name: "Santander",
+        name: "Federico Rodríguez Santander",
         footballName: "Santander",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Kz3kQbxR/Santander_PNG.webp",
         personalData: {
-            fullName: "Santander",
+            fullName: "Federico Rodríguez Santander",
             nickname: "Santander",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Guadalajara, Guadalajara",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "00/09/1911",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4698,21 +4698,21 @@ const playersData = {
     },
 
     nilo: {
-        name: "Nilo",
+        name: "Nilo Cuesta Fernández",
         footballName: "Nilo",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         personalData: {
-            fullName: "Nilo",
+            fullName: "Nilo Cuesta Fernández",
             nickname: "Nilo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4729,21 +4729,21 @@ const playersData = {
     },
 
     mino1931: {
-        name: "Mino",
+        name: "Belarmino Fernández Hernández",
         footballName: "Mino",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         personalData: {
-            fullName: "Mino",
+            fullName: "Belarmino Fernández Hernández",
             nickname: "Mino",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4769,12 +4769,12 @@ const playersData = {
         personalData: {
             fullName: "Torino",
             nickname: "Torino",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Bilbao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "00/00/1911",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4791,21 +4791,21 @@ const playersData = {
     },
 
     benjamin1930: {
-        name: "Benjamín",
+        name: "Benjamín Torre Fernández",
         footballName: "Benjamín",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/tRPp5JQh/Benjamín_PNG.webp",
         personalData: {
-            fullName: "Benjamín",
+            fullName: "Benjamín Torre Fernández",
             nickname: "Benjamín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sama de Langreo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "14/05/1902",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4822,21 +4822,21 @@ const playersData = {
     },
 
     constantino: {
-        name: "Constantino",
+        name: "Constantino Menéndez García",
         footballName: "Constantino",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         personalData: {
-            fullName: "Constantino",
+            fullName: "Constantino Menéndez García",
             nickname: "Constantino",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Candás, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "13/02/1912",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4853,21 +4853,21 @@ const playersData = {
     },
 
     zapaterin: {
-        name: "Zapaterín",
+        name: "José Pérez Rodríguez",
         footballName: "Zapaterín",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/KY6vGMh8/Zapaterín_PNG.webp",
         personalData: {
-            fullName: "Zapaterín",
+            fullName: "José Pérez Rodríguez",
             nickname: "Zapaterín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Lugones, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "03/05/1902",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
