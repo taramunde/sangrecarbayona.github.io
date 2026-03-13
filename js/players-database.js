@@ -1027,6 +1027,13 @@ const playersDatabase = {
         "name": "Adri Lopes",
         "url": "fichajugador.html?player=adrilopes"
     },
+    "adrifernandez": {
+        "src": "https://i.postimg.cc/hGzJs8SW/Adri-Fernandez-PNG.webp",
+        "alt": "Defensa",
+        "number": "-",
+        "name": "Adri Fernández",
+        "url": "fichajugador.html?player=adrifernandez"
+    },
     "espinosa": {
         "src": "https://i.postimg.cc/MGhpQNkp/Espinosa-PNG.webp",
         "alt": "Defensa",
