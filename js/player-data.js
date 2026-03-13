@@ -4884,28 +4884,30 @@ const playersData = {
     },
 
     zubeldia1928: {
-        name: "Zubeldia",
+        name: "José Francisco Zubeldia Bengoechea",
         footballName: "Zubeldia",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/C1bMzxwH/Zubeldia_PNG.webp",
         personalData: {
-            fullName: "Zubeldia",
+            fullName: "José Francisco Zubeldia Bengoechea",
             nickname: "Zubeldia",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Usúrbil, Guipúzcua",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "29/11/1893",
+            deathDate: "Desconocida"
         },
         career: [
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+            { season: "1928/29", team: "Real Oviedo", category: "Campeonato Regional Asturias" },
+            { season: "1927/28", team: "Real Gimnástico F.C.", category: "Campeonato Regional Valencia" },
+            { season: "1926/27", team: "Iberia S.C.", category: "Campeonato Regional Aragón"}
         ],
         // nationalTeam: [],
         stats: {
-            "2024/25": {
+            "1928/29": {
                 liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
