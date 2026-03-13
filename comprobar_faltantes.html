@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sincronizador Sangre Carbayona</title>
+    <meta charset="UTF-8">
+    <title>Sincronizador Avanzado Sangre Carbayona</title>
     <style>
-        body { font-family: sans-serif; background: #1a1a1a; color: white; padding: 20px; }
-        .box { background: #2d2d2d; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid #005eb8; }
-        textarea { width: 100%; height: 150px; background: #000; color: #0f0; border: 1px solid #444; font-family: monospace; }
-        h3 { color: #005eb8; margin-top: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #1a1a1a; color: white; padding: 20px; }
+        .box { background: #2d2d2d; padding: 15px; border-radius: 8px; margin-bottom: 25px; border-left: 5px solid #005eb8; }
+        textarea { width: 100%; height: 250px; background: #000; color: #0f0; border: 1px solid #444; font-family: monospace; font-size: 12px; }
+        h3 { color: #005eb8; margin: 0 0 10px 0; display: flex; justify-content: space-between; }
+        .badge { background: #005eb8; color: white; padding: 2px 10px; border-radius: 4px; font-size: 12px; }
     </style>
 </head>
 <body>
-    <h1>🕵️ Analizador de Jugadores Faltantes</h1>
-    <div id="resultados">Cargando datos...</div>
+    <h1>🕵️ Analizador de Jugadores Faltantes (Versión Estructurada)</h1>
+    <div id="resultados">Cargando datos y comparando archivos...</div>
 
     <script src="js/players-database.js"></script>
     <script src="js/player-data.js"></script>
 
     <script>
         window.onload = function() {
-            // Clasificamos por las categorías que usas en player-data.js
             const faltantes = {
                 "Porteros": "",
                 "Defensas": "",
@@ -27,49 +28,70 @@
                 "Entrenadores": ""
             };
 
-            let totalFaltan = 0;
+            let total = 0;
 
             for (let id in playersDatabase) {
-                // Si el ID de la database NO existe en playersData, es que falta
                 if (!playersData[id]) {
-                    totalFaltan++;
+                    total++;
                     const p = playersDatabase[id];
-                    let cat = "Delanteros"; // Por defecto
-                    
-                    // Lógica para detectar categoría según el "alt" o la posición
+                    let cat = "Delanteros";
                     const desc = p.alt.toLowerCase();
+                    
                     if (desc.includes("portero")) cat = "Porteros";
                     else if (desc.includes("defensa")) cat = "Defensas";
                     else if (desc.includes("centrocampista")) cat = "Centrocampistas";
                     else if (desc.includes("entrenador")) cat = "Entrenadores";
 
-                    // Generamos el bloque con tu estructura de player-data.js
-                    faltantes[cat] += `    ${id}: {
+                    const esEntrenador = cat === "Entrenadores";
+                    const esPortero = cat === "Porteros";
+
+                    // Construcción de la ficha según tu ejemplo exacto
+                    let bloque = `    ${id}: {
         name: "${p.name}",
         footballName: "${p.name}",
         position: "${p.alt}",
-        role: "${cat === 'Entrenadores' ? 'entrenador' : 'jugador'}",
+        role: "${esEntrenador ? 'entrenador' : (esPortero ? 'portero' : 'jugador')}",
+        number: null,
         image: "${p.src}",
-        personalData: { birthPlace: "Pendiente", country: "España", height: "0,00 m", birthDate: "00/00/0000" },
-        career: [{ season: "2024/25", team: "Real Oviedo", category: "2ª Div." }],
-        stats: []
-    },\n`;
+        personalData: {
+            fullName: "${p.name}",
+            nickname: "${p.name}",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        ${esEntrenador || id === 'rafaponzo' || id === 'cotugno' || id === 'camarasa' || id === 'alexmillan' ? 'nationalTeam: [],' : '// nationalTeam: [],'}
+        stats: {
+            "2024/25": {
+                liga: { ${esEntrenador ? 'partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0' : 'partidos: 0, ' + (esPortero ? 'goles_encajados: 0' : 'goles_marcados: 0') + ', tarjetas_amarillas: 0, tarjetas_rojas: 0'} },
+                copa: { ${esEntrenador ? 'partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0' : 'partidos: 0, ' + (esPortero ? 'goles_encajados: 0' : 'goles_marcados: 0') + ', tarjetas_amarillas: 0, tarjetas_rojas: 0'} },
+                uefa: { ${esEntrenador ? 'partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0' : 'partidos: 0, ' + (esPortero ? 'goles_encajados: 0' : 'goles_marcados: 0') + ', tarjetas_amarillas: 0, tarjetas_rojas: 0'} },
+                amistosos: { ${esEntrenador ? 'partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0' : 'partidos: 0, ' + (esPortero ? 'goles_encajados: 0' : 'goles_marcados: 0') + ', tarjetas_amarillas: 0, tarjetas_rojas: 0'} }
+            }
+        }
+    },\n\n`;
+                    faltantes[cat] += bloque;
                 }
             }
 
             const resDiv = document.getElementById('resultados');
             resDiv.innerHTML = "";
 
-            if (totalFaltan === 0) {
-                resDiv.innerHTML = "<h2>✅ ¡Todo al día! No faltan jugadores.</h2>";
+            if (total === 0) {
+                resDiv.innerHTML = "<h2>✅ ¡Felicidades! Todos los jugadores de la base de datos ya tienen su ficha en player-data.js</h2>";
             } else {
                 for (let seccion in faltantes) {
                     if (faltantes[seccion]) {
                         resDiv.innerHTML += `
                             <div class="box">
-                                h3>${seccion} que te faltan por meter:</h3>
-                                <p>Copia y pega esto dentro de la sección correspondiente en <b>player-data.js</b>:</p>
-                                <textarea>${faltantes[seccion]}</textarea>
+                                <h3>${seccion} <span class="badge">Pendientes</span></h3>
+                                <textarea readonly onclick="this.select()">${faltantes[seccion]}</textarea>
                             </div>`;
                     }
                 }

@@ -4928,7 +4928,9 @@ const playersData = {
             { season: "2014/15", team: "Danubio F.C.", category: "Apert. Uruguay - Claus. Uruguay - Copa Libertadores" },
             { season: "2013/14", team: "Danubio F.C.", category: "Claus. Uruguay - Conmebol Sudamericana - Uruguay Final de Campeones" },
         ],
+        
         nationalTeam: [{ season: "2015", team: "Uruguay Sub-20", category: "Mundial Sub-20 - Sudamericano Sub-20 - Amistosos" }],
+
         stats: {
             "2017/18": {
                 liga: { partidos: 29, goles_marcados: 1, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
