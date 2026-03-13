@@ -1970,6 +1970,2829 @@ const playersData = {
         }
     },
 
+        yoyo: {
+        name: "Yoyo",
+        footballName: "Yoyo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/DwzzBhcn/Yoyo_PNG.webp",
+        personalData: {
+            fullName: "Yoyo",
+            nickname: "Yoyo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    robertogomez: {
+        name: "Roberto Gómez",
+        footballName: "Roberto Gómez",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/MptQpt9K/Roberto_Gómez_PNG.webp",
+        personalData: {
+            fullName: "Roberto Gómez",
+            nickname: "Roberto Gómez",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    dorronsoro: {
+        name: "Dorronsoro",
+        footballName: "Dorronsoro",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/wjMrw4yS/Dorronsoro-PNG.webp",
+        personalData: {
+            fullName: "Dorronsoro",
+            nickname: "Dorronsoro",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    jonathan: {
+        name: "Jonathan",
+        footballName: "Jonathan",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/13FGRDL8/Jonathan_PNG.webp",
+        personalData: {
+            fullName: "Jonathan",
+            nickname: "Jonathan",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    calleja: {
+        name: "Calleja",
+        footballName: "Calleja",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Y9FKbnVp/Calleja-PNG.webp",
+        personalData: {
+            fullName: "Calleja",
+            nickname: "Calleja",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    segura: {
+        name: "Segura",
+        footballName: "Segura",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/KcL3Mm0W/Segura_PNG.webp",
+        personalData: {
+            fullName: "Segura",
+            nickname: "Segura",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    unzue: {
+        name: "Unzué",
+        footballName: "Unzué",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/0jqQfJVB/Unzué_PNG.webp",
+        personalData: {
+            fullName: "Unzué",
+            nickname: "Unzué",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    bernardo: {
+        name: "Bernardo",
+        footballName: "Bernardo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/WzRjVLrF/Bernardo-PNG.webp",
+        personalData: {
+            fullName: "Bernardo",
+            nickname: "Bernardo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    stephanelucas: {
+        name: "Stephane Lucas",
+        footballName: "Stephane Lucas",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/8zk79MT8/Stéphane_Lucas_PNG.webp",
+        personalData: {
+            fullName: "Stephane Lucas",
+            nickname: "Stephane Lucas",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    mora: {
+        name: "Mora",
+        footballName: "Mora",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/DzB87ZyW/Mora_PNG.webp",
+        personalData: {
+            fullName: "Mora",
+            nickname: "Mora",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    buljubasich: {
+        name: "Buljubasich",
+        footballName: "Buljubasich",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/tgYHVCNn/Buljubasich-PNG.webp",
+        personalData: {
+            fullName: "Buljubasich",
+            nickname: "Buljubasich",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    cano: {
+        name: "Cano",
+        footballName: "Cano",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/HsdD9ttg/Cano-PNG.webp",
+        personalData: {
+            fullName: "Cano",
+            nickname: "Cano",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    guillermo: {
+        name: "Guillermo",
+        footballName: "Guillermo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/xT451f84/Guillermo_PNG.webp",
+        personalData: {
+            fullName: "Guillermo",
+            nickname: "Guillermo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    viti: {
+        name: "Viti",
+        footballName: "Viti",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/L625gLYq/Viti_PNG.webp",
+        personalData: {
+            fullName: "Viti",
+            nickname: "Viti",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    chimpi: {
+        name: "Chimpi",
+        footballName: "Chimpi",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/SNy3MxyQ/Chimpi-PNG.webp",
+        personalData: {
+            fullName: "Chimpi",
+            nickname: "Chimpi",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    miguelangel: {
+        name: "Miguel Ángel",
+        footballName: "Miguel Ángel",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/K8hKNwHY/Miguel_Ángel_PNG.webp",
+        personalData: {
+            fullName: "Miguel Ángel",
+            nickname: "Miguel Ángel",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    zubeldia: {
+        name: "Zubeldia",
+        footballName: "Zubeldia",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/9034nkQ1/Sabino_Zubeldia_PNG.webp",
+        personalData: {
+            fullName: "Zubeldia",
+            nickname: "Zubeldia",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    calleja1991: {
+        name: "Calleja",
+        footballName: "Calleja",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/yNtCh4LQ/Calleja-1991-PNG.webp",
+        personalData: {
+            fullName: "Calleja",
+            nickname: "Calleja",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    jesus: {
+        name: "Jesús",
+        footballName: "Jesús",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/DyHQKxYV/Jesús_PNG.webp",
+        personalData: {
+            fullName: "Jesús",
+            nickname: "Jesús",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    heres: {
+        name: "Heres",
+        footballName: "Heres",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/8C8bLZhd/Heres_PNG.webp",
+        personalData: {
+            fullName: "Heres",
+            nickname: "Heres",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    etxeberria: {
+        name: "Etxeberría",
+        footballName: "Etxeberría",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/j50kdsgb/Echevarria-PNG.webp",
+        personalData: {
+            fullName: "Etxeberría",
+            nickname: "Etxeberría",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    tallos: {
+        name: "Tallos",
+        footballName: "Tallos",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/25VV8Yq2/Tallos_PNG.webp",
+        personalData: {
+            fullName: "Tallos",
+            nickname: "Tallos",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    pernas: {
+        name: "Pernas",
+        footballName: "Pernas",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/s2D5YbMh/Pernas_PNG.webp",
+        personalData: {
+            fullName: "Pernas",
+            nickname: "Pernas",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    orlando: {
+        name: "Orlando",
+        footballName: "Orlando",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/vBKT6Nnb/Orlando_(2)_PNG.webp",
+        personalData: {
+            fullName: "Orlando",
+            nickname: "Orlando",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    balan: {
+        name: "Balán",
+        footballName: "Balán",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/VN6zBFm6/Balan-PNG.webp",
+        personalData: {
+            fullName: "Balán",
+            nickname: "Balán",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    camuel: {
+        name: "Camuel",
+        footballName: "Camuel",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/J0cwWyMv/Camuel-PNG.webp",
+        personalData: {
+            fullName: "Camuel",
+            nickname: "Camuel",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    iglesias1981: {
+        name: "Iglesias",
+        footballName: "Iglesias",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/TY8CrS4d/Iglesias_PNG_1981.webp",
+        personalData: {
+            fullName: "Iglesias",
+            nickname: "Iglesias",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    manuelvicente: {
+        name: "Manuel Vicente",
+        footballName: "Manuel Vicente",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/xCpJ3dwr/Manuel_Vicente_PNG.webp",
+        personalData: {
+            fullName: "Manuel Vicente",
+            nickname: "Manuel Vicente",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    seoanepor: {
+        name: "Seoane",
+        footballName: "Seoane",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Y014Kx47/Seoane_PNG.webp",
+        personalData: {
+            fullName: "Seoane",
+            nickname: "Seoane",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    taladrid: {
+        name: "Taladrid",
+        footballName: "Taladrid",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/kgj2mG52/Taladrid_PNG.webp",
+        personalData: {
+            fullName: "Taladrid",
+            nickname: "Taladrid",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    dujkovic: {
+        name: "Dujković",
+        footballName: "Dujković",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/kMyhqPW0/Dujkovic-PNG.webp",
+        personalData: {
+            fullName: "Dujković",
+            nickname: "Dujković",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    cesar1976: {
+        name: "César",
+        footballName: "César",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/25Pgbd5g/Cesar-Leon-PNG.webp",
+        personalData: {
+            fullName: "César",
+            nickname: "César",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    amaro: {
+        name: "Amaro",
+        footballName: "Amaro",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Amaro",
+            nickname: "Amaro",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    lombardia: {
+        name: "Lombardía",
+        footballName: "Lombardía",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/zXshQVV8/Lombardía_PNG.webp",
+        personalData: {
+            fullName: "Lombardía",
+            nickname: "Lombardía",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    zabala1973: {
+        name: "Zabala",
+        footballName: "Zabala",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/YCyCPPXg/Zabala-PNG.webp",
+        personalData: {
+            fullName: "Zabala",
+            nickname: "Zabala",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    javi1972: {
+        name: "Javi",
+        footballName: "Javi",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/NF08QSct/Javi_(1971)_PNG.webp",
+        personalData: {
+            fullName: "Javi",
+            nickname: "Javi",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    joseluis1971: {
+        name: "José Luis",
+        footballName: "José Luis",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/yNX0cs6B/José_Luis_PNG.webp",
+        personalData: {
+            fullName: "José Luis",
+            nickname: "José Luis",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    manolin1971: {
+        name: "Manolín",
+        footballName: "Manolín",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/KYNg4fQ8/Manolín_PNG.webp",
+        personalData: {
+            fullName: "Manolín",
+            nickname: "Manolín",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    garciaremon: {
+        name: "García Remón",
+        footballName: "García Remón",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/0Q0Zk7KY/García_Remón_PNG.webp",
+        personalData: {
+            fullName: "García Remón",
+            nickname: "García Remón",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    canteli: {
+        name: "Canteli",
+        footballName: "Canteli",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/K886dvVp/Canteli-PNG.webp",
+        personalData: {
+            fullName: "Canteli",
+            nickname: "Canteli",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    mesa: {
+        name: "Mesa",
+        footballName: "Mesa",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/QxT9chSP/Mesa_PNG.webp",
+        personalData: {
+            fullName: "Mesa",
+            nickname: "Mesa",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    mora1969: {
+        name: "Mora",
+        footballName: "Mora",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/QCWtgJg5/Mora_Mariné_PNG.webp",
+        personalData: {
+            fullName: "Mora",
+            nickname: "Mora",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    boudon: {
+        name: "Boudón",
+        footballName: "Boudón",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/pXHx1vR3/Boudon-PNG.webp",
+        personalData: {
+            fullName: "Boudón",
+            nickname: "Boudón",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    pacheco1967: {
+        name: "Pacheco",
+        footballName: "Pacheco",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/VLn9mqyd/Pacheco_(2)_PNG.webp",
+        personalData: {
+            fullName: "Pacheco",
+            nickname: "Pacheco",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    alarcia: {
+        name: "Alarcia",
+        footballName: "Alarcia",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/tTsCyNMf/Alarcia-PNG.webp",
+        personalData: {
+            fullName: "Alarcia",
+            nickname: "Alarcia",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    madriles: {
+        name: "Madriles",
+        footballName: "Madriles",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/VN1CYpqh/Madriles_PNG.webp",
+        personalData: {
+            fullName: "Madriles",
+            nickname: "Madriles",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    bugallo: {
+        name: "Bugallo",
+        footballName: "Bugallo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/kgMCqyVc/Bugallo_PNG.webp",
+        personalData: {
+            fullName: "Bugallo",
+            nickname: "Bugallo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    almenara: {
+        name: "Almenara",
+        footballName: "Almenara",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/VLQLQMBG/Almenara_PNG.webp",
+        personalData: {
+            fullName: "Almenara",
+            nickname: "Almenara",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    joseantonio: {
+        name: "José Antonio",
+        footballName: "José Antonio",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/KYyn1R2J/José_Antonio_PNG.webp",
+        personalData: {
+            fullName: "José Antonio",
+            nickname: "José Antonio",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    cabezudo: {
+        name: "Cabezudo",
+        footballName: "Cabezudo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/kgjm4tKd/Cabezudo_PNG.webp",
+        personalData: {
+            fullName: "Cabezudo",
+            nickname: "Cabezudo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    caldentey: {
+        name: "Caldentey",
+        footballName: "Caldentey",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/8cV83dQL/Caldentey_PNG.webp",
+        personalData: {
+            fullName: "Caldentey",
+            nickname: "Caldentey",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    fermin1961: {
+        name: "Fermín",
+        footballName: "Fermín",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/3xkLXyzh/Fermín_PNG.webp",
+        personalData: {
+            fullName: "Fermín",
+            nickname: "Fermín",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    carlosgomes: {
+        name: "Carlos Gomes",
+        footballName: "Carlos Gomes",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/9Qg6VHHm/Carlos_Gomes_PNG.webp",
+        personalData: {
+            fullName: "Carlos Gomes",
+            nickname: "Carlos Gomes",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    valentin1960: {
+        name: "Valentín",
+        footballName: "Valentín",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/vBnTfvtn/Valentín_PNG.webp",
+        personalData: {
+            fullName: "Valentín",
+            nickname: "Valentín",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    emilio1959: {
+        name: "Emilio",
+        footballName: "Emilio",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/85RX7q9r/Emilio_PNG.webp",
+        personalData: {
+            fullName: "Emilio",
+            nickname: "Emilio",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    vendrell: {
+        name: "Vendrell",
+        footballName: "Vendrell",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/wMcBbTPT/Vendrell_PNG.webp",
+        personalData: {
+            fullName: "Vendrell",
+            nickname: "Vendrell",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    barea: {
+        name: "Barea",
+        footballName: "Barea",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/CxJFq2yX/Barea_PNG.webp",
+        personalData: {
+            fullName: "Barea",
+            nickname: "Barea",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    carracedo: {
+        name: "Carracedo",
+        footballName: "Carracedo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/HszGZ7S7/Carracedo_PNG.webp",
+        personalData: {
+            fullName: "Carracedo",
+            nickname: "Carracedo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    argila1956: {
+        name: "Argila",
+        footballName: "Argila",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Vkzf58hX/Argila_PNG.webp",
+        personalData: {
+            fullName: "Argila",
+            nickname: "Argila",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    gantes: {
+        name: "Gantes",
+        footballName: "Gantes",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Kz2Jh0jc/Gantes_PNG.webp",
+        personalData: {
+            fullName: "Gantes",
+            nickname: "Gantes",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    franklyn: {
+        name: "Franklyn",
+        footballName: "Franklyn",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/fbXBPGwg/Franklin_PNG.webp",
+        personalData: {
+            fullName: "Franklyn",
+            nickname: "Franklyn",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    meca: {
+        name: "Meca",
+        footballName: "Meca",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/QNPKBHg1/Meca_PNG.webp",
+        personalData: {
+            fullName: "Meca",
+            nickname: "Meca",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    pita1955: {
+        name: "Pita",
+        footballName: "Pita",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/XJrFhFcN/Pita_PNG.webp",
+        personalData: {
+            fullName: "Pita",
+            nickname: "Pita",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    manolin1955: {
+        name: "Manolín",
+        footballName: "Manolín",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Manolín",
+            nickname: "Manolín",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    gero: {
+        name: "Gero",
+        footballName: "Gero",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Gero",
+            nickname: "Gero",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    caso: {
+        name: "Caso",
+        footballName: "Caso",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/bvGKwVqQ/Caso_PNG.webp",
+        personalData: {
+            fullName: "Caso",
+            nickname: "Caso",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    ovidio: {
+        name: "Ovidio",
+        footballName: "Ovidio",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Ovidio",
+            nickname: "Ovidio",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    ramonduran: {
+        name: "Ramón Durán",
+        footballName: "Ramón Durán",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Cxw809HQ/Ramón_Durán_PNG.webp",
+        personalData: {
+            fullName: "Ramón Durán",
+            nickname: "Ramón Durán",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    juanjo1952: {
+        name: "Juanjo",
+        footballName: "Juanjo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Juanjo",
+            nickname: "Juanjo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    candi1951: {
+        name: "Candi",
+        footballName: "Candi",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/nVvfmWB2/Candi_PNG.webp",
+        personalData: {
+            fullName: "Candi",
+            nickname: "Candi",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    artiles: {
+        name: "Artiles",
+        footballName: "Artiles",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/RV7CMFgM/Artiles_PNG.webp",
+        personalData: {
+            fullName: "Artiles",
+            nickname: "Artiles",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    llorente: {
+        name: "Llorente",
+        footballName: "Llorente",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/PrpZKmfS/Llorente_PNG.webp",
+        personalData: {
+            fullName: "Llorente",
+            nickname: "Llorente",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    greus: {
+        name: "Greus",
+        footballName: "Greus",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Y288TfHk/Greus_PNG.webp",
+        personalData: {
+            fullName: "Greus",
+            nickname: "Greus",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    pendas: {
+        name: "Pendás",
+        footballName: "Pendás",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Pendás",
+            nickname: "Pendás",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    sioni: {
+        name: "Sión I",
+        footballName: "Sión I",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/TYJytCMq/Sión_I_PNG.webp",
+        personalData: {
+            fullName: "Sión I",
+            nickname: "Sión I",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    paya: {
+        name: "Payá",
+        footballName: "Payá",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/QdqpWjdD/Payá_PNG.webp",
+        personalData: {
+            fullName: "Payá",
+            nickname: "Payá",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    leoncio: {
+        name: "Leoncio",
+        footballName: "Leoncio",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Gt9DWDFh/Leoncio_PNG.webp",
+        personalData: {
+            fullName: "Leoncio",
+            nickname: "Leoncio",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    florenza: {
+        name: "Florenza",
+        footballName: "Florenza",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/FHwTDrQL/Florenza_PNG.webp",
+        personalData: {
+            fullName: "Florenza",
+            nickname: "Florenza",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    cheno: {
+        name: "Cheno",
+        footballName: "Cheno",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/MZ0gHQJr/Cheno_PNG.webp",
+        personalData: {
+            fullName: "Cheno",
+            nickname: "Cheno",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    oscar1935: {
+        name: "Óscar",
+        footballName: "Óscar",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/v8p7JPNJ/Óscar_PNG.webp",
+        personalData: {
+            fullName: "Óscar",
+            nickname: "Óscar",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    hector: {
+        name: "Héctor",
+        footballName: "Héctor",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/4xH5KDhN/Héctor_PNG.webp",
+        personalData: {
+            fullName: "Héctor",
+            nickname: "Héctor",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    zarraonandia: {
+        name: "Zarraonandía",
+        footballName: "Zarraonandía",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/D0Fvs3ZV/Zarraonandía_PNG.webp",
+        personalData: {
+            fullName: "Zarraonandía",
+            nickname: "Zarraonandía",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    santander: {
+        name: "Santander",
+        footballName: "Santander",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/Kz3kQbxR/Santander_PNG.webp",
+        personalData: {
+            fullName: "Santander",
+            nickname: "Santander",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    nilo: {
+        name: "Nilo",
+        footballName: "Nilo",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Nilo",
+            nickname: "Nilo",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    mino1931: {
+        name: "Mino",
+        footballName: "Mino",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Mino",
+            nickname: "Mino",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    torino: {
+        name: "Torino",
+        footballName: "Torino",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Torino",
+            nickname: "Torino",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    benjamin1930: {
+        name: "Benjamín",
+        footballName: "Benjamín",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/tRPp5JQh/Benjamín_PNG.webp",
+        personalData: {
+            fullName: "Benjamín",
+            nickname: "Benjamín",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    constantino: {
+        name: "Constantino",
+        footballName: "Constantino",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        personalData: {
+            fullName: "Constantino",
+            nickname: "Constantino",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    zapaterin: {
+        name: "Zapaterín",
+        footballName: "Zapaterín",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/KY6vGMh8/Zapaterín_PNG.webp",
+        personalData: {
+            fullName: "Zapaterín",
+            nickname: "Zapaterín",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    zubeldia1928: {
+        name: "Zubeldia",
+        footballName: "Zubeldia",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/C1bMzxwH/Zubeldia_PNG.webp",
+        personalData: {
+            fullName: "Zubeldia",
+            nickname: "Zubeldia",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+    cesar1927: {
+        name: "César",
+        footballName: "César",
+        position: "Portero",
+        role: "portero",
+        number: null,
+        image: "https://i.postimg.cc/QMBxvyJ3/César_(portero_deportivista)_PNG.webp",
+        personalData: {
+            fullName: "César",
+            nickname: "César",
+            birthPlace: "Pendiente, Provincia",
+            country: "España",
+            nationality: "Española",
+            height: "0,00 m",
+            birthDate: "00/00/0000",
+            deathDate: null
+        },
+        career: [
+            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2024/25": {
+                liga: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_encajados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+
+
     // DEFENSAS
     bailly: {
         name: "Eric Bertrand Bailly",
@@ -4928,7 +7751,7 @@ const playersData = {
             { season: "2014/15", team: "Danubio F.C.", category: "Apert. Uruguay - Claus. Uruguay - Copa Libertadores" },
             { season: "2013/14", team: "Danubio F.C.", category: "Claus. Uruguay - Conmebol Sudamericana - Uruguay Final de Campeones" },
         ],
-        
+
         nationalTeam: [{ season: "2015", team: "Uruguay Sub-20", category: "Mundial Sub-20 - Sudamericano Sub-20 - Amistosos" }],
 
         stats: {
