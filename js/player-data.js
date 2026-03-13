@@ -3923,21 +3923,21 @@ const playersData = {
     },
 
     argila1956: {
-        name: "Argila",
+        name: "Fernando de Argila Pazzaglia",
         footballName: "Argila",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Vkzf58hX/Argila_PNG.webp",
         personalData: {
-            fullName: "Argila",
+            fullName: "Fernando de Argila Pazzaglia",
             nickname: "Argila",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Barcelona, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,80 m",
+            birthDate: "26/12/1920",
+            deathDate: "08/01/2015",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4140,20 +4140,20 @@ const playersData = {
     },
 
     caso: {
-        name: "Caso",
+        name: "Luis Jorge Caso Mayor",
         footballName: "Caso",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/bvGKwVqQ/Caso_PNG.webp",
         personalData: {
-            fullName: "Caso",
+            fullName: "Luis Jorge Caso Mayor",
             nickname: "Caso",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Nava, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "17/04/1929",
             deathDate: null
         },
         career: [
@@ -4242,12 +4242,12 @@ const playersData = {
         personalData: {
             fullName: "Juanjo",
             nickname: "Juanjo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4295,21 +4295,21 @@ const playersData = {
     },
 
     artiles: {
-        name: "Artiles",
+        name: "José Artiles Delgado",
         footballName: "Artiles",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/RV7CMFgM/Artiles_PNG.webp",
         personalData: {
-            fullName: "Artiles",
+            fullName: "José Artiles Delgado",
             nickname: "Artiles",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Las Palmas de Gran Canaria, Las Palmas",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "03/02/1921",
+            deathDate: "24/02/1997",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4326,21 +4326,21 @@ const playersData = {
     },
 
     llorente: {
-        name: "Llorente",
+        name: "Fernando Llorente Sanz",
         footballName: "Llorente",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/PrpZKmfS/Llorente_PNG.webp",
         personalData: {
-            fullName: "Llorente",
+            fullName: "Fernando Llorente Sanz",
             nickname: "Llorente",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sestao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "10/07/1921",
+            deathDate: "21/08/1993",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4357,21 +4357,21 @@ const playersData = {
     },
 
     greus: {
-        name: "Greus",
+        name: "Alfredo Greus Lozano",
         footballName: "Greus",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Y288TfHk/Greus_PNG.webp",
         personalData: {
-            fullName: "Greus",
+            fullName: "Alfredo Greus Lozano",
             nickname: "Greus",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Alginet, Valencia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "29/11/1921",
+            deathDate: "29/09/2019",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4397,12 +4397,12 @@ const playersData = {
         personalData: {
             fullName: "Pendás",
             nickname: "Pendás",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4419,21 +4419,21 @@ const playersData = {
     },
 
     sioni: {
-        name: "Sión I",
+        name: "Florentino Sión Mortera",
         footballName: "Sión I",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/TYJytCMq/Sión_I_PNG.webp",
         personalData: {
-            fullName: "Sión I",
+            fullName: "Florentino Sión Mortera",
             nickname: "Sión I",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sama de Langreo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "27/10/1905",
+            deathDate: "30/10/1968",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4450,21 +4450,21 @@ const playersData = {
     },
 
     paya: {
-        name: "Payá",
+        name: "Emilio Payá Blanes",
         footballName: "Payá",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/QdqpWjdD/Payá_PNG.webp",
         personalData: {
-            fullName: "Payá",
+            fullName: "Emilio Payá Blanes",
             nickname: "Payá",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Alcoy, Alicante",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "27/01/1919",
+            deathDate: "25/11/1989",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4481,21 +4481,21 @@ const playersData = {
     },
 
     leoncio: {
-        name: "Leoncio",
+        name: "Leoncio Pérez Gómez",
         footballName: "Leoncio",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Gt9DWDFh/Leoncio_PNG.webp",
         personalData: {
-            fullName: "Leoncio",
+            fullName: "Leoncio Pérez Gómez",
             nickname: "Leoncio",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Icod de los Vinos, Santa Cruz de Tenerife",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "15/09/1922",
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4526,7 +4526,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "30/05/1912",
-            deathDate: "16/09/2004"
+            deathDate: "16/09/2004",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4543,21 +4543,21 @@ const playersData = {
     },
 
     cheno: {
-        name: "Cheno",
+        name: "Arsenio Miranda Fernández",
         footballName: "Cheno",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/MZ0gHQJr/Cheno_PNG.webp",
         personalData: {
-            fullName: "Cheno",
+            fullName: "Arsenio Miranda Fernández",
             nickname: "Cheno",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Mieres, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "28/02/1916",
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4588,7 +4588,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "01/05/1902",
-            deathDate: "11/06/1972"
+            deathDate: "11/06/1972",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4619,7 +4619,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "06/02/1914",
-            deathDate: "22/05/1991"
+            deathDate: "22/05/1991",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4650,7 +4650,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "28/12/1910",
-            deathDate: "13/02/2000"
+            deathDate: "13/02/2000",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4681,7 +4681,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "00/09/1911",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4712,7 +4712,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "Desconocida",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4743,7 +4743,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "Desconocida",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4774,7 +4774,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "00/00/1911",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4805,7 +4805,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "14/05/1902",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4836,7 +4836,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "13/02/1912",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4867,7 +4867,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "03/05/1902",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4898,7 +4898,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "29/11/1893",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "1928/29", team: "Real Oviedo", category: "Campeonato Regional Asturias" },
@@ -4931,7 +4931,7 @@ const playersData = {
             nationality: "Española",
             height: "Desconocida",
             birthDate: "Desconocida",
-            deathDate: "Desconocida"
+            deathDate: "Desconocida",
         },
         career: [
             { season: "1926/27", team: "Oviedo F.C.", category: "Campeonato Regional Asturias" }
