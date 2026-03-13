@@ -5774,6 +5774,47 @@ const playersData = {
             },
         },
     },
+        adrifernandez: {
+        name: "Adrián Fernández García",
+        footballName: "Adri Fernández",
+        position: "Defensa",
+        role: "jugador",
+        number: null,
+        image: "https://i.postimg.cc/hGzJs8SW/Adri-Fernandez-PNG.webp",
+        personalData: {
+            fullName: "Adrián Fernández García",
+            nickname: "Adri Fernández",
+            birthPlace: "Cornellana, Asturias",
+            country: "España",
+            nationality: "Española",
+            height: "1,74 m",
+            birthDate: "19/10/2005",
+            deathDate: null
+        },
+        career: [
+            { season: "2025/26", team: "Real Oviedo", category: "1ª Div." },
+            { season: "2025/26", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2024/25", team: "Real Oviedo Vetusta", category: "3ª Federación" },
+            { season: "2023/24", team: "Real Oviedo Vetusta", category: "2ª Federación" }, 
+            { season: "2023/24", team: "Real Oviedo Sub-19", category: "División de Honor - Copa del Rey Juvenil" },
+            { season: "2022/23", team: "Real Oviedo Vetusta", category: "2ª Federación" },
+            { season: "2022/23", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2021/22", team: "Real Oviedo Sub-19", category: "División de Honor" },
+            { season: "2021/22", team: "Real Oviedo Sub-19 B", category: "Liga Nacional" },
+            { season: "2020/21", team: "Real Oviedo Sub-19 B", category: "Liga Nacional" }
+        ],
+        // nationalTeam: [],
+        stats: {
+            "2025/26": {
+                liga: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
+                amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 }
+            }
+        }
+    },
+
+
     espinosa: {
         name: "Diego Espinosa García de Muro",
         footballName: "Espinosa",
