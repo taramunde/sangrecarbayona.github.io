@@ -4926,15 +4926,15 @@ const playersData = {
         personalData: {
             fullName: "César",
             nickname: "César",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
-            { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
+            { season: "1926/27", team: "Oviedo F.C.", category: "Campeonato Regional Asturias" }
         ],
         // nationalTeam: [],
         stats: {
