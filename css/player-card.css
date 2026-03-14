@@ -127,9 +127,8 @@ main .player-section .player-full-name {
 /* Ajustes para pantallas grandes (PC) */
 @media (min-width: 768px) {
     .black-ribbon-container {
-        /* Lo movemos más a la derecha (estaba en 10px) para centrarlo un poco más */
-        left: 30px; 
-        /* Lo bajamos un poco para que no quede pegado al borde */
+        left: 50%; 
+        transform: translateX(-50%); /* Esto lo centra matemáticamente perfecto */
         top: 15px;
     }
 
