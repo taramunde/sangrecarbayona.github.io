@@ -3737,21 +3737,21 @@ const playersData = {
     },
 
     carlosgomes: {
-        name: "Carlos Gomes",
+        name: "Carlos António Do Carmo Costa Gomes",
         footballName: "Carlos Gomes",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/9Qg6VHHm/Carlos_Gomes_PNG.webp",
         personalData: {
-            fullName: "Carlos Gomes",
+            fullName: "Carlos António Do Carmo Costa Gomes",
             nickname: "Carlos Gomes",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Barreiro, Lisboa",
+            country: "Portugal",
+            nationality: "Portuguesa",
+            height: "1,88 m",
+            birthDate: "18/11/1932",
+            deathDate: "18/10/2005"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3768,20 +3768,20 @@ const playersData = {
     },
 
     valentin1960: {
-        name: "Valentín",
+        name: "Valentín García Fernández",
         footballName: "Valentín",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/vBnTfvtn/Valentín_PNG.webp",
         personalData: {
-            fullName: "Valentín",
+            fullName: "Valentín García Fernández",
             nickname: "Valentín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santiago de Arenas, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "11/11/1940",
             deathDate: null
         },
         career: [
@@ -3799,21 +3799,21 @@ const playersData = {
     },
 
     emilio1959: {
-        name: "Emilio",
+        name: "Emilio Díaz Ruiz",
         footballName: "Emilio",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/85RX7q9r/Emilio_PNG.webp",
         personalData: {
-            fullName: "Emilio",
+            fullName: "Emilio Díaz Ruiz",
             nickname: "Emilio",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Cayés, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "17/05/1939",
+            deathDate: "22/09/2021"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3861,20 +3861,20 @@ const playersData = {
     },
 
     barea: {
-        name: "Barea",
+        name: "Manuel Barea Gómez",
         footballName: "Barea",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/CxJFq2yX/Barea_PNG.webp",
         personalData: {
-            fullName: "Barea",
+            fullName: "Manuel Barea Gómez",
             nickname: "Barea",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Teruel, Teruel",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "12/10/1932",
             deathDate: null
         },
         career: [
