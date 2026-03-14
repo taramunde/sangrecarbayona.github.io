@@ -31969,7 +31969,7 @@ const playersData = {
 
         stats: {
             "2025/26": {
-                liga: { partidos: 25, goles_marcados: 3, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
+                liga: { partidos: 26, goles_marcados: 3, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
