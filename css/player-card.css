@@ -124,6 +124,23 @@ main .player-section .player-full-name {
     font-weight: 300;
 }
 
+/* Ajustes para pantallas grandes (PC) */
+@media (min-width: 768px) {
+    .black-ribbon-container {
+        /* Lo movemos más a la derecha (estaba en 10px) para centrarlo un poco más */
+        left: 30px; 
+        /* Lo bajamos un poco para que no quede pegado al borde */
+        top: 15px;
+    }
+
+    .black-ribbon-img {
+        /* Aumentamos el tamaño (estaba en 50px) */
+        width: 90px;
+        height: auto;
+    }
+} 
+
+
 /* ==========================================================================
    MEDIA QUERY: MÓVILES GENERAL (Ajustes de estructura)
    ========================================================================== */
