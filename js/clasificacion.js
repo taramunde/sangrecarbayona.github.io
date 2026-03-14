@@ -352,12 +352,12 @@ const enfrentamientos = [
   { equipo1: "Sevilla F.C.", equipo2: "Rayo Vallecano", goles1: 1, goles2: 1 },
   
   // Jornada 28
-  { equipo1: "Deportivo Alavés", equipo2: "Villarreal C.F.", goles1: null, goles2: null },
-  { equipo1: "Atlético de Madrid", equipo2: "Getafe C.F.", goles1: null, goles2: null },
+  { equipo1: "Deportivo Alavés", equipo2: "Villarreal C.F.", goles1: 1, goles2: 1 },
+  { equipo1: "Atlético de Madrid", equipo2: "Getafe C.F.", goles1: 1, goles2: 0 },
   { equipo1: "F.C. Barcelona", equipo2: "Sevilla F.C.", goles1: null, goles2: null },
   { equipo1: "Real Betis", equipo2: "Celta de Vigo", goles1: null, goles2: null },
   { equipo1: "Real Oviedo", equipo2: "Valencia C.F.", goles1: null, goles2: null },
-  { equipo1: "Girona F.C.", equipo2: "Athletic Club", goles1: null, goles2: null },
+  { equipo1: "Girona F.C.", equipo2: "Athletic Club", goles1: 3, goles2: 0 },
   { equipo1: "Real Madrid", equipo2: "Elche C.F.", goles1: null, goles2: null },
   { equipo1: "R.C.D. Mallorca", equipo2: "R.C.D. Espanyol", goles1: null, goles2: null },
   { equipo1: "Rayo Vallecano", equipo2: "Levante U.D.", goles1: null, goles2: null },
