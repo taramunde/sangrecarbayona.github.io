@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/KYLmfYjz/J_27_LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Real Oviedo sobrevive y saca un punto insuficiente ante el Espanyol.",
+        image: "https://i.postimg.cc/L8NjLpjZ/J-28-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "El Real Oviedo se da una pequeña alegría ante el Valencia.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/09/cro/00031773089519662389220.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/14/cronica/00031773512998829293109.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/3wp31wNN/J_27_LNE.jpg", // FOTO NOTICIA 2
-        title: "Reacción en corto del Oviedo: 1-1 en su visita al Espanyol.",
+        image: "https://i.postimg.cc/KzFF2dsC/J-28-LNE.jpg", // FOTO NOTICIA 2
+        title: "El Oviedo invita a creer: victoria merecida con fútbol y sufrimiento ante el Valencia (1-0).",
         author: "NACHO AZPARREN",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-sale-pobre-mal-partido-20260310232650-nt.html"
+        link: "https://www.lne.es/real-oviedo/2026/03/14/oviedo-invita-creer-victoria-merecida-127966166.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/t43rzQbD/J_27_EC.webp", // FOTO NOTICIA 3
-        title: "El Real Oviedo no sale de pobre en un mal partido.",
+        image: "https://i.postimg.cc/ZqSXB6Fq/J-28-EC.webp", // FOTO NOTICIA 3
+        title: "Derroche de garra del Real Oviedo para aferrarse a una ilusión.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-sale-pobre-mal-partido-20260310232650-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/derroche-garra-real-oviedo-aferrarse-ilusion-20260314210133-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/k4pw57NN/J_27_KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: Aarón da una vida al Oviedo en Cornellá.",
+        image: "https://i.postimg.cc/nVXZtY3W/J-28-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: El Oviedo vence al Valencia... y también al VAR.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/index.php/cronicas/la-cronica-aaron-da-una-vida-al-oviedo-en-cornella"
+        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-vence-al-valencia-y-tambien-al-var"
     }
 ];
 
