@@ -47532,7 +47532,7 @@ const playersData = {
 
         stats: {
             "2025/26": {
-                liga: { partidos_entrenados: 12, victorias: 1, empates: 5, derrotas: 5 },
+                liga: { partidos_entrenados: 12, victorias: 2, empates: 5, derrotas: 5 },
                 copa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 uefa: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
                 amistosos: { partidos_entrenados: 0, victorias: 0, empates: 0, derrotas: 0 },
