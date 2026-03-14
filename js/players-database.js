@@ -682,7 +682,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=vendrell"
     },
     "barea": {
-        "src": "https://i.postimg.cc/CxJFq2yX/Barea_PNG.webp",
+        "src": "https://i.ibb.co/W4gwyZtd/Barea-PNG.webp",
         "alt": "Portero",
         "number": "-",
         "name": "Barea",

@@ -3675,21 +3675,21 @@ const playersData = {
     },
 
     caldentey: {
-        name: "Caldentey",
+        name: "Pedro Caldentey Bauzá",
         footballName: "Caldentey",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/8cV83dQL/Caldentey_PNG.webp",
         personalData: {
-            fullName: "Caldentey",
+            fullName: "Pedro Caldentey Bauzá",
             nickname: "Caldentey",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "San Lorenzo del Cardezar, Islas Baleares",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "03/09/1928",
+            deathDate: "02/01/1975"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3830,21 +3830,21 @@ const playersData = {
     },
 
     vendrell: {
-        name: "Vendrell",
+        name: "Ricardo Vendrell Piera",
         footballName: "Vendrell",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/wMcBbTPT/Vendrell_PNG.webp",
         personalData: {
-            fullName: "Vendrell",
+            fullName: "Ricardo Vendrell Piera",
             nickname: "Vendrell",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sueca, Valencia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "23/03/1933",
+            deathDate: "21/05/2000"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3892,21 +3892,21 @@ const playersData = {
     },
 
     carracedo: {
-        name: "Carracedo",
+        name: "José Carracedo Sanguas",
         footballName: "Carracedo",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/HszGZ7S7/Carracedo_PNG.webp",
         personalData: {
-            fullName: "Carracedo",
+            fullName: "José Carracedo Sanguas",
             nickname: "Carracedo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santiago de Compostela, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "31/08/1934",
+            deathDate: "22/09/2023"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3954,21 +3954,21 @@ const playersData = {
     },
 
     gantes: {
-        name: "Gantes",
+        name: "José Alonso Gantes",
         footballName: "Gantes",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Kz2Jh0jc/Gantes_PNG.webp",
         personalData: {
-            fullName: "Gantes",
+            fullName: "José Alonso Gantes",
             nickname: "Gantes",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "La Coruña, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "30/03/1931",
+            deathDate: "21/02/2014"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3985,20 +3985,20 @@ const playersData = {
     },
 
     franklyn: {
-        name: "Franklyn",
+        name: "Gilbert Franklin Payne",
         footballName: "Franklyn",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/fbXBPGwg/Franklin_PNG.webp",
         personalData: {
-            fullName: "Franklyn",
+            fullName: "Gilbert Franklin Payne",
             nickname: "Franklyn",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Caracas, Distrito Federal",
+            country: "Venezuela",
+            nationality: "Venezolana",
+            height: "1,78 m",
+            birthDate: "02/09/1934",
             deathDate: null
         },
         career: [
@@ -4016,20 +4016,20 @@ const playersData = {
     },
 
     meca: {
-        name: "Meca",
+        name: "Manuel Martínez González",
         footballName: "Meca",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/QNPKBHg1/Meca_PNG.webp",
         personalData: {
-            fullName: "Meca",
+            fullName: "Manuel Martínez González",
             nickname: "Meca",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Vigo, Pontevedra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "29/11/1929",
             deathDate: null
         },
         career: [
@@ -4047,21 +4047,21 @@ const playersData = {
     },
 
     pita1955: {
-        name: "Pita",
+        name: "José González Suárez",
         footballName: "Pita",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/XJrFhFcN/Pita_PNG.webp",
         personalData: {
-            fullName: "Pita",
+            fullName: "José González Suárez",
             nickname: "Pita",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Orense, Orense",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "07/01/1927",
+            deathDate: "21/10/1971"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4087,11 +4087,11 @@ const playersData = {
         personalData: {
             fullName: "Manolín",
             nickname: "Manolín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "Desconocida",
             deathDate: null
         },
         career: [
@@ -4118,11 +4118,11 @@ const playersData = {
         personalData: {
             fullName: "Gero",
             nickname: "Gero",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "Desconocida",
             deathDate: null
         },
         career: [
@@ -4180,12 +4180,12 @@ const playersData = {
         personalData: {
             fullName: "Ovidio",
             nickname: "Ovidio",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4202,21 +4202,21 @@ const playersData = {
     },
 
     ramonduran: {
-        name: "Ramón Durán",
+        name: "Ramón Durán Cano",
         footballName: "Ramón Durán",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Cxw809HQ/Ramón_Durán_PNG.webp",
         personalData: {
-            fullName: "Ramón Durán",
+            fullName: "Ramón Durán Cano",
             nickname: "Ramón Durán",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "08/02/1924",
+            deathDate: "22/09/2000",
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -4264,21 +4264,21 @@ const playersData = {
     },
 
     candi1951: {
-        name: "Candi",
+        name: "Cándido Gómez Álvarez",
         footballName: "Candi",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/nVvfmWB2/Candi_PNG.webp",
         personalData: {
-            fullName: "Candi",
+            fullName: "Cándido Gómez Álvarez",
             nickname: "Candi",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Porriño, Pontevedra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "14/05/1928",
+            deathDate: "02/09/2024"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
