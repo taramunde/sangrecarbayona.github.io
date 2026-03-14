@@ -3148,21 +3148,21 @@ const playersData = {
     },
 
     lombardia: {
-        name: "Lombardía",
+        name: "Alfredo Álvarez Lombardía",
         footballName: "Lombardía",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/zXshQVV8/Lombardía_PNG.webp",
         personalData: {
-            fullName: "Lombardía",
+            fullName: "Alfredo Álvarez Lombardía",
             nickname: "Lombardía",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Tudela Veguín, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,72 m",
+            birthDate: "17/05/1941",
+            deathDate: "11/11/2020"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3272,20 +3272,20 @@ const playersData = {
     },
 
     manolin1971: {
-        name: "Manolín",
+        name: "Manuel Rodríguez Iglesias",
         footballName: "Manolín",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/KYNg4fQ8/Manolín_PNG.webp",
         personalData: {
-            fullName: "Manolín",
+            fullName: "Manuel Rodríguez Iglesias",
             nickname: "Manolín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,87 m",
+            birthDate: "01/01/1951",
             deathDate: null
         },
         career: [
@@ -3334,20 +3334,20 @@ const playersData = {
     },
 
     canteli: {
-        name: "Canteli",
+        name: "Manuel Canteli Camblor",
         footballName: "Canteli",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/K886dvVp/Canteli-PNG.webp",
         personalData: {
-            fullName: "Canteli",
+            fullName: "Manuel Canteli Camblor",
             nickname: "Canteli",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "02/02/1947",
             deathDate: null
         },
         career: [
@@ -3365,21 +3365,21 @@ const playersData = {
     },
 
     mesa: {
-        name: "Mesa",
+        name: "Juan Mesa Gil",
         footballName: "Mesa",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/QxT9chSP/Mesa_PNG.webp",
         personalData: {
-            fullName: "Mesa",
+            fullName: "Juan Mesa Gil",
             nickname: "Mesa",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Algeciras, Cádiz",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "06/07/1934",
+            deathDate: "11/09/2025"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3396,20 +3396,20 @@ const playersData = {
     },
 
     mora1969: {
-        name: "Mora",
+        name: "Pedro Valentín Mora Mariné",
         footballName: "Mora",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/QCWtgJg5/Mora_Mariné_PNG.webp",
         personalData: {
-            fullName: "Mora",
+            fullName: "Pedro Valentín Mora Mariné",
             nickname: "Mora",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Vilaplana, Tarragona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,80 m",
+            birthDate: "18/12/1947",
             deathDate: null
         },
         career: [
@@ -3427,20 +3427,20 @@ const playersData = {
     },
 
     boudon: {
-        name: "Boudón",
+        name: "José Antonio Pérez Boudón",
         footballName: "Boudón",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/pXHx1vR3/Boudon-PNG.webp",
         personalData: {
-            fullName: "Boudón",
+            fullName: "José Antonio Pérez Boudón",
             nickname: "Boudón",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,81 m",
+            birthDate: "18/05/1943",
             deathDate: null
         },
         career: [
@@ -3458,21 +3458,21 @@ const playersData = {
     },
 
     pacheco1967: {
-        name: "Pacheco",
+        name: "José Porras Pacheco",
         footballName: "Pacheco",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/VLn9mqyd/Pacheco_(2)_PNG.webp",
         personalData: {
-            fullName: "Pacheco",
+            fullName: "José Porras Pacheco",
             nickname: "Pacheco",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Mérida, Badajoz",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,80 m",
+            birthDate: "15/05/1939",
+            deathDate: "15/06/2015"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3489,21 +3489,21 @@ const playersData = {
     },
 
     alarcia: {
-        name: "Alarcia",
+        name: "Rafael Álvarez Alarcia",
         footballName: "Alarcia",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/tTsCyNMf/Alarcia-PNG.webp",
         personalData: {
-            fullName: "Alarcia",
+            fullName: "Rafael Álvarez Alarcia",
             nickname: "Alarcia",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santander, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,77 m",
+            birthDate: "18/07/1938",
+            deathDate: "05/02/2024"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3520,21 +3520,21 @@ const playersData = {
     },
 
     madriles: {
-        name: "Madriles",
+        name: "Rogelio Rodríguez Milo",
         footballName: "Madriles",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/VN1CYpqh/Madriles_PNG.webp",
         personalData: {
-            fullName: "Madriles",
+            fullName: "Rogelio Rodríguez Milo",
             nickname: "Madriles",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Monforte de Lemos, Lugo",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "22/11/1934",
+            deathDate: "07/09/2015"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3551,20 +3551,20 @@ const playersData = {
     },
 
     bugallo: {
-        name: "Bugallo",
+        name: "Aurelio Menéndez Bugallo",
         footballName: "Bugallo",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/kgMCqyVc/Bugallo_PNG.webp",
         personalData: {
-            fullName: "Bugallo",
+            fullName: "Aurelio Menéndez Bugallo",
             nickname: "Bugallo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Trevías, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,81 m",
+            birthDate: "13/02/1944",
             deathDate: null
         },
         career: [
@@ -3582,20 +3582,20 @@ const playersData = {
     },
 
     almenara: {
-        name: "Almenara",
+        name: "Juan Almenara Morales",
         footballName: "Almenara",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/VLQLQMBG/Almenara_PNG.webp",
         personalData: {
-            fullName: "Almenara",
+            fullName: "Juan Almenara Morales",
             nickname: "Almenara",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santa Cruz de Tenerife, Santa Cruz de Tenerife",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "09/01/1941",
             deathDate: null
         },
         career: [
@@ -3613,20 +3613,20 @@ const playersData = {
     },
 
     joseantonio: {
-        name: "José Antonio",
+        name: "José Antonio García González",
         footballName: "José Antonio",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/KYyn1R2J/José_Antonio_PNG.webp",
         personalData: {
-            fullName: "José Antonio",
+            fullName: "José Antonio García González",
             nickname: "José Antonio",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Trubia, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "06/02/1946",
             deathDate: null
         },
         career: [
@@ -3644,21 +3644,21 @@ const playersData = {
     },
 
     cabezudo: {
-        name: "Cabezudo",
+        name: " Ángel María Cabezudo Echevarría",
         footballName: "Cabezudo",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/kgjm4tKd/Cabezudo_PNG.webp",
         personalData: {
-            fullName: "Cabezudo",
+            fullName: " Ángel María Cabezudo Echevarría",
             nickname: "Cabezudo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sestao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "05/10/1942",
+            deathDate: "08/09/2016"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3706,21 +3706,21 @@ const playersData = {
     },
 
     fermin1961: {
-        name: "Fermín",
+        name: "Fermín Martínez Cobo",
         footballName: "Fermín",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/3xkLXyzh/Fermín_PNG.webp",
         personalData: {
-            fullName: "Fermín",
+            fullName: "Fermín Martínez Cobo",
             nickname: "Fermín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sarón, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,79 m",
+            birthDate: "07/06/1936",
+            deathDate: "20/04/2020"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
