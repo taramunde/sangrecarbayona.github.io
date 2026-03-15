@@ -45998,21 +45998,21 @@ const playersData = {
     },
 
     juliomarigil: {
-        name: "Julio Marigil",
+        name: "Julio Marigil Merino",
         footballName: "Julio Marigil",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/VLRfFyYb/Julio-Marigil-PNG.webp",
         personalData: {
-            fullName: "Julio Marigil",
+            fullName: "Julio Marigil Merino",
             nickname: "Julio Marigil",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Bilbao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "24/08/1936",
+            deathDate: "24/08/2013"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46029,20 +46029,20 @@ const playersData = {
     },
 
     vicentemiera: {
-        name: "Vicente Miera",
+        name: "Vicente Miera Campos",
         footballName: "Vicente Miera",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/0N8s50bn/Vicente_Miera_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Vicente Miera",
+            fullName: "Vicente Miera Campos",
             nickname: "Vicente Miera",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Peñacastillo, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "10/05/1940",
             deathDate: null
         },
         career: [
@@ -46184,20 +46184,20 @@ const playersData = {
     },
 
     josemaria1982: {
-        name: "José María",
+        name: "José María García Lavilla",
         footballName: "José María",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Ss6CLqyk/Jose-Maria-entrenador-PNG.webp",
         personalData: {
-            fullName: "José María",
+            fullName: "José María García Lavilla",
             nickname: "José María",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pola de Siero, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,74 m",
+            birthDate: "23/05/1942",
             deathDate: null
         },
         career: [
@@ -46246,21 +46246,21 @@ const playersData = {
     },
 
     nandoyosu: {
-        name: "Nando Yosu",
+        name: "Fernando Trío Zabala",
         footballName: "Nando Yosu",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/FsRkz0J9/Nando_Yosu_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Nando Yosu",
+            fullName: "Fernando Trío Zabala",
             nickname: "Nando Yosu",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Munguía, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,73 m",
+            birthDate: "08/07/1939",
+            deathDate: "20/02/2016"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46277,20 +46277,20 @@ const playersData = {
     },
 
     lalo1978: {
-        name: "Lalo",
+        name: "Eduardo Gómez García-Barbón",
         footballName: "Lalo",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/J44ZX9SC/Lalo-entrenador-PNG.webp",
         personalData: {
-            fullName: "Lalo",
+            fullName: "Eduardo Gómez García-Barbón",
             nickname: "Lalo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,71 m",
+            birthDate: "14/03/1935",
             deathDate: null
         },
         career: [
@@ -46401,21 +46401,21 @@ const playersData = {
     },
 
     horaciodeleiva: {
-        name: "Horacio de Leiva",
+        name: "Horacio de Leiva Río",
         footballName: "Horacio de Leiva",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/7YxMVCGc/Horacio-Leiva-entrenador-PNG.webp",
         personalData: {
-            fullName: "Horacio de Leiva",
+            fullName: "Horacio de Leiva Río",
             nickname: "Horacio de Leiva",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "15/03/1934",
+            deathDate: "13/09/1999"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46432,21 +46432,21 @@ const playersData = {
     },
 
     garciadeandoin: {
-        name: "García de Andoín",
+        name: "José María García de Andoín Pérez",
         footballName: "García de Andoín",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/FK2VgD3g/Garcia-de-Andoin-entrenador-PNG.webp",
         personalData: {
-            fullName: "García de Andoín",
+            fullName: "José María García de Andoín Pérez",
             nickname: "García de Andoín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Bilbao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "22/05/1933",
+            deathDate: "04/02/2017"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46494,21 +46494,21 @@ const playersData = {
     },
 
     ruizsosa: {
-        name: "Ruiz Sosa",
+        name: "Manuel Ruiz Sosa",
         footballName: "Ruiz Sosa",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/mZ62dJts/Ruiz_Sosa_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Ruiz Sosa",
+            fullName: "Manuel Ruiz Sosa",
             nickname: "Ruiz Sosa",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Coria del Río, Sevilla",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,67 m",
+            birthDate: "10/04/1937",
+            deathDate: "12/12/2009"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
