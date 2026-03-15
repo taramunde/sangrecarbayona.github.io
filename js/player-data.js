@@ -14926,7 +14926,7 @@ const playersData = {
         personalData: {
             fullName: "Eguíluz",
             nickname: "Eguíluz",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pendiente, Pendiente",
             country: "España",
             nationality: "Española",
             height: "0,00 m",
@@ -46308,21 +46308,21 @@ const playersData = {
     },
 
     luisdiestro: {
-        name: "Luis Diestro",
+        name: "José Luis Diestro Sainz",
         footballName: "Luis Diestro",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Hxy3ffdh/Diestro-entrenador-PNG.webp",
         personalData: {
-            fullName: "Luis Diestro",
+            fullName: "José Luis Diestro Sainz",
             nickname: "Luis Diestro",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santander, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,77 m",
+            birthDate: "19/03/1919",
+            deathDate: "17/06/1997"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46339,21 +46339,21 @@ const playersData = {
     },
 
     barinaga: {
-        name: "Barinaga",
+        name: "Sabino Barinaga Alberdi",
         footballName: "Barinaga",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/v8nSj6mZ/Barinaga-entrenador-PNG.webp",
         personalData: {
-            fullName: "Barinaga",
+            fullName: "Sabino Barinaga Alberdi",
             nickname: "Barinaga",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Durango, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,80 m",
+            birthDate: "15/08/1922",
+            deathDate: "19/03/1988"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46463,21 +46463,21 @@ const playersData = {
     },
 
     tonicuervo: {
-        name: "Toni Cuervo",
+        name: "José Antonio Cuervo Fernández",
         footballName: "Toni Cuervo",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Px5TyQHJ/Toni_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Toni Cuervo",
+            fullName: "José Antonio Cuervo Fernández",
             nickname: "Toni Cuervo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,72 m",
+            birthDate: "10/03/1933",
+            deathDate: "14/10/2017"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46525,21 +46525,21 @@ const playersData = {
     },
 
     eguiluz: {
-        name: "Eguíluz",
+        name: "Pedro Eguíluz Lamarca",
         footballName: "Eguíluz",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/L5FvRNs6/Eguiluz-entrenador-PNG.webp",
         personalData: {
-            fullName: "Eguíluz",
+            fullName: "Pedro Eguíluz Lamarca",
             nickname: "Eguíluz",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "14/06/1921",
+            deathDate: "24/07/1977"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46556,21 +46556,21 @@ const playersData = {
     },
 
     enriquecasas: {
-        name: "Enrique Casas",
+        name: "Enrique Casas Cabo",
         footballName: "Enrique Casas",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/nrK2LBsK/Enrique-Casas-entrenador-PNG.webp",
         personalData: {
-            fullName: "Enrique Casas",
+            fullName: "Enrique Casas Cabo",
             nickname: "Enrique Casas",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "10/05/1916",
+            deathDate: "20/11/2002"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46587,21 +46587,21 @@ const playersData = {
     },
 
     ramoncobo: {
-        name: "Ramón Cobo",
+        name: "Ramón Cobo Antoranz",
         footballName: "Ramón Cobo",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/QMkd0MW4/Ramón_Cobo_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Ramón Cobo",
+            fullName: "Ramón Cobo Antoranz",
             nickname: "Ramón Cobo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,78 m",
+            birthDate: "05/07/1928",
+            deathDate: "13/08/2009"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46618,21 +46618,21 @@ const playersData = {
     },
 
     juanitoochoa: {
-        name: "Juanito Ochoa",
+        name: "Juan Ochoantezana Milicua",
         footballName: "Juanito Ochoa",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/PfM1Pt3M/Juanito-Ochoa-entrenador-PNG.webp",
         personalData: {
-            fullName: "Juanito Ochoa",
+            fullName: "Juan Ochoantezana Milicua",
             nickname: "Juanito Ochoa",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Plencia, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,82 m",
+            birthDate: "25/10/1912",
+            deathDate: "10/02/1998"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46649,21 +46649,21 @@ const playersData = {
     },
 
     anton1967: {
-        name: "Antón",
+        name: "Antonio Sánchez Valdés",
         footballName: "Antón",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/bwpM1NpN/Anton-entrenador-PNG.webp",
         personalData: {
-            fullName: "Antón",
+            fullName: "Antonio Sánchez Valdés",
             nickname: "Antón",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "02/07/1914",
+            deathDate: "30/10/2005"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46680,21 +46680,21 @@ const playersData = {
     },
 
     aretio: {
-        name: "Aretio",
+        name: "Juan Rodríguez Aretio",
         footballName: "Aretio",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/6321B8Lz/Aretio-entrenador-PNG.webp",
         personalData: {
-            fullName: "Aretio",
+            fullName: "Juan Rodríguez Aretio",
             nickname: "Aretio",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "El Ferrol, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,76 m",
+            birthDate: "10/07/1922",
+            deathDate: "23/09/1973"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46711,21 +46711,21 @@ const playersData = {
     },
 
     antunez: {
-        name: "Antúnez",
+        name: "Francisco Antúnez Espada",
         footballName: "Antúnez",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Mp5L52p0/Antúnez_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Antúnez",
+            fullName: "Francisco Antúnez Espada",
             nickname: "Antúnez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sevilla, Sevilla",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,76 m",
+            birthDate: "01/11/1922",
+            deathDate: "16/08/1994"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46742,21 +46742,21 @@ const playersData = {
     },
 
     martin: {
-        name: "Martín",
+        name: "Enrique Martín Navarro",
         footballName: "Martín",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/brYDQtC9/Martín_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Martín",
+            fullName: "Enrique Martín Navarro",
             nickname: "Martín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Valladolid, Valladolid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,85 m",
+            birthDate: "03/06/1924",
+            deathDate: "12/04/2016"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46773,21 +46773,21 @@ const playersData = {
     },
 
     orizaola: {
-        name: "Orizaola",
+        name: "Enrique Orizaola Velázquez",
         footballName: "Orizaola",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/L6bY1hzj/Orizaola_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Orizaola",
+            fullName: "Enrique Orizaola Velázquez",
             nickname: "Orizaola",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santander, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "26/03/1922",
+            deathDate: "10/06/2013"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46835,21 +46835,21 @@ const playersData = {
     },
 
     manologarcia1961: {
-        name: "Manolo García",
+        name: "Manuel García",
         footballName: "Manolo García",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         personalData: {
-            fullName: "Manolo García",
+            fullName: "Manuel García",
             nickname: "Manolo García",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46866,21 +46866,21 @@ const playersData = {
     },
 
     alvaroperez: {
-        name: "Álvaro Pérez",
+        name: "Álvaro Pérez Vázquez",
         footballName: "Álvaro Pérez",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/CLy9Ls28/Álvaro_Pérez_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Álvaro Pérez",
+            fullName: "Álvaro Pérez Vázquez",
             nickname: "Álvaro Pérez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Mondoñedo, Lugo",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "30/03/1916",
+            deathDate: "23/10/1997"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
