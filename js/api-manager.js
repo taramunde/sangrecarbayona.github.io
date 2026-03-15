@@ -4,7 +4,7 @@ const API_CONFIG = {
     key: "79616dc2c53f61d4bb90aa5f82315aeb",
     teamId: 532,       // Real Oviedo
     leagueId: 140,     // LaLiga EA Sports (Primera)
-    season: 2025,      // Temporada 25/26
+    season: 2024,      // Temporada 24/25 (plan gratuito llega hasta 2024)
     cacheTime: 3600000 // 1 hora de caché
 };
 
@@ -254,5 +254,5 @@ async function loadStandings() {
 document.addEventListener('DOMContentLoaded', () => {
     loadMatches();
     loadCurrentRound();
-    loadStandings();
+    // loadStandings() desactivado — la tabla la gestiona clasificacion.js con datos locales
 });
