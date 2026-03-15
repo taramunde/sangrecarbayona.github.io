@@ -2125,20 +2125,20 @@ const playersData = {
     },
 
         yoyo: {
-        name: "Yoyo",
+        name: "Jonathan Román Pérez",
         footballName: "Yoyo",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/DwzzBhcn/Yoyo_PNG.webp",
         personalData: {
-            fullName: "Yoyo",
+            fullName: "Jonathan Román Pérez",
             nickname: "Yoyo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "09/12/1984",
             deathDate: null
         },
         career: [
@@ -2156,20 +2156,20 @@ const playersData = {
     },
 
     robertogomez: {
-        name: "Roberto Gómez",
+        name: "Roberto Gómez López",
         footballName: "Roberto Gómez",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/MptQpt9K/Roberto_Gómez_PNG.webp",
         personalData: {
-            fullName: "Roberto Gómez",
+            fullName: "Roberto Gómez López",
             nickname: "Roberto Gómez",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Róterdam, Holanda Meridional",
+            country: "Países Bajos",
+            nationality: "Neerlandesa, Española",
+            height: "1,82 m",
+            birthDate: "07/08/1980",
             deathDate: null
         },
         career: [
@@ -2187,20 +2187,20 @@ const playersData = {
     },
 
     dorronsoro: {
-        name: "Dorronsoro",
+        name: "Pedro José Dorronsoro González",
         footballName: "Dorronsoro",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/wjMrw4yS/Dorronsoro-PNG.webp",
         personalData: {
-            fullName: "Dorronsoro",
+            fullName: "Pedro José Dorronsoro González",
             nickname: "Dorronsoro",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Torrelavega, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,80 m",
+            birthDate: "12/05/1977",
             deathDate: null
         },
         career: [
@@ -2218,20 +2218,20 @@ const playersData = {
     },
 
     jonathan: {
-        name: "Jonathan",
+        name: "Jonathan López Pérez",
         footballName: "Jonathan",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/13FGRDL8/Jonathan_PNG.webp",
         personalData: {
-            fullName: "Jonathan",
+            fullName: "Jonathan López Pérez",
             nickname: "Jonathan",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Langreo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,85 m",
+            birthDate: "16/04/1981",
             deathDate: null
         },
         career: [
@@ -2249,20 +2249,20 @@ const playersData = {
     },
 
     calleja: {
-        name: "Calleja",
+        name: "Noé Calleja García",
         footballName: "Calleja",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Y9FKbnVp/Calleja-PNG.webp",
         personalData: {
-            fullName: "Calleja",
+            fullName: "Noé Calleja García",
             nickname: "Calleja",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,87 m",
+            birthDate: "05/11/1979",
             deathDate: null
         },
         career: [
@@ -2280,20 +2280,20 @@ const playersData = {
     },
 
     segura: {
-        name: "Segura",
+        name: "Sergio Segura Álvaro",
         footballName: "Segura",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/KcL3Mm0W/Segura_PNG.webp",
         personalData: {
-            fullName: "Segura",
+            fullName: "Sergio Segura Álvaro",
             nickname: "Segura",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "01/02/1978",
             deathDate: null
         },
         career: [
@@ -2311,20 +2311,20 @@ const playersData = {
     },
 
     unzue: {
-        name: "Unzué",
+        name: "Juan Carlos Unzué Labiano",
         footballName: "Unzué",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/0jqQfJVB/Unzué_PNG.webp",
         personalData: {
-            fullName: "Unzué",
+            fullName: "Juan Carlos Unzué Labiano",
             nickname: "Unzué",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pamplona, Navarra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "22/04/1967",
             deathDate: null
         },
         career: [
@@ -2342,20 +2342,20 @@ const playersData = {
     },
 
     bernardo: {
-        name: "Bernardo",
+        name: "Bernardo Domínguez Fernández",
         footballName: "Bernardo",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/WzRjVLrF/Bernardo-PNG.webp",
         personalData: {
-            fullName: "Bernardo",
+            fullName: "Bernardo Domínguez Fernández",
             nickname: "Bernardo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Zafra, Badajoz",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,88 m",
+            birthDate: "06/07/1979",
             deathDate: null
         },
         career: [
@@ -2382,11 +2382,11 @@ const playersData = {
         personalData: {
             fullName: "Stephane Lucas",
             nickname: "Stephane Lucas",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Aubervilliers, Isla de Francia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "18/04/1978",
             deathDate: null
         },
         career: [
@@ -2404,20 +2404,20 @@ const playersData = {
     },
 
     mora: {
-        name: "Mora",
+        name: "Juan Luis Mora Palacios",
         footballName: "Mora",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/DzB87ZyW/Mora_PNG.webp",
         personalData: {
-            fullName: "Mora",
+            fullName: "Juan Luis Mora Palacios",
             nickname: "Mora",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Aranjuez, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,85 m",
+            birthDate: "12/07/1973",
             deathDate: null
         },
         career: [
@@ -2435,20 +2435,20 @@ const playersData = {
     },
 
     buljubasich: {
-        name: "Buljubasich",
+        name: "José María Buljubasich Hulgich",
         footballName: "Buljubasich",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/tgYHVCNn/Buljubasich-PNG.webp",
         personalData: {
-            fullName: "Buljubasich",
+            fullName: "José María Buljubasich Hulgich",
             nickname: "Buljubasich",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Firmat, Santa Fe",
+            country: "Argentina",
+            nationality: "Argentina, Italiana",
+            height: "1,92 m",
+            birthDate: "12/05/1971",
             deathDate: null
         },
         career: [
@@ -2466,20 +2466,20 @@ const playersData = {
     },
 
     cano: {
-        name: "Cano",
+        name: "Carlos David Cano Marín",
         footballName: "Cano",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/HsdD9ttg/Cano-PNG.webp",
         personalData: {
-            fullName: "Cano",
+            fullName: "Carlos David Cano Marín",
             nickname: "Cano",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Berja, Almería",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,85 m",
+            birthDate: "17/12/1969",
             deathDate: null
         },
         career: [
@@ -2497,20 +2497,20 @@ const playersData = {
     },
 
     guillermo: {
-        name: "Guillermo",
+        name: "Guillermo Suárez Rodríguez",
         footballName: "Guillermo",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/xT451f84/Guillermo_PNG.webp",
         personalData: {
-            fullName: "Guillermo",
+            fullName: "Guillermo Suárez Rodríguez",
             nickname: "Guillermo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,92 m",
+            birthDate: "13/06/1978",
             deathDate: null
         },
         career: [
@@ -2559,20 +2559,20 @@ const playersData = {
     },
 
     chimpi: {
-        name: "Chimpi",
+        name: "José Manuel Valles Montilla",
         footballName: "Chimpi",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/SNy3MxyQ/Chimpi-PNG.webp",
         personalData: {
-            fullName: "Chimpi",
+            fullName: "José Manuel Valles Montilla",
             nickname: "Chimpi",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "El Entrego, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "22/10/1971",
             deathDate: null
         },
         career: [
@@ -2590,20 +2590,20 @@ const playersData = {
     },
 
     miguelangel: {
-        name: "Miguel Ángel",
+        name: "Miguel Ángel González Álvarez",
         footballName: "Miguel Ángel",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/K8hKNwHY/Miguel_Ángel_PNG.webp",
         personalData: {
-            fullName: "Miguel Ángel",
+            fullName: "Miguel Ángel González Álvarez",
             nickname: "Miguel Ángel",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "01/05/1972",
             deathDate: null
         },
         career: [
@@ -2652,20 +2652,20 @@ const playersData = {
     },
 
     calleja1991: {
-        name: "Calleja",
+        name: "Miguel Ángel Calleja Verger",
         footballName: "Calleja",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/yNtCh4LQ/Calleja-1991-PNG.webp",
         personalData: {
-            fullName: "Calleja",
+            fullName: "Miguel Ángel Calleja Verger",
             nickname: "Calleja",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Palma, Islas Baleares",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "23/05/1970",
             deathDate: null
         },
         career: [
@@ -2683,20 +2683,20 @@ const playersData = {
     },
 
     jesus: {
-        name: "Jesús",
+        name: "Jesús Ángel López Díaz",
         footballName: "Jesús",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/DyHQKxYV/Jesús_PNG.webp",
         personalData: {
-            fullName: "Jesús",
+            fullName: "Jesús Ángel López Díaz",
             nickname: "Jesús",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "17/09/1967",
             deathDate: null
         },
         career: [
