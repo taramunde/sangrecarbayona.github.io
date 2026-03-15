@@ -45724,7 +45724,7 @@ const playersData = {
             nationality: "Yugoslava, Serbia, Española",
             height: "1,78 m",
             birthDate: "22/11/1948",
-            deathDate: null,
+            deathDate: "06/04/2020",
         },
         career: [
             { season: "2014/15", team: "Jiangsu F.C.", category: "Copa China FA" },
@@ -45781,21 +45781,21 @@ const playersData = {
     },
 
         luisaragones: {
-        name: "Luis Aragonés",
+        name: "Luis Aragonés Suárez",
         footballName: "Luis Aragonés",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/13bqL4Xy/Luis-Aragones-entrenador-PNG.webp",
         personalData: {
-            fullName: "Luis Aragonés",
+            fullName: "Luis Aragonés Suárez",
             nickname: "Luis Aragonés",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Hortaleza, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,80 m",
+            birthDate: "28/07/1938",
+            deathDate: "01/02/2014"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -45812,20 +45812,20 @@ const playersData = {
     },
 
     fernandovazquez: {
-        name: "Fernando Vázquez",
+        name: "Fernando Vázquez Pena",
         footballName: "Fernando Vázquez",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/yYPn4hCs/Fernando-Vazquez-entrenador-PNG.webp",
         personalData: {
-            fullName: "Fernando Vázquez",
+            fullName: "Fernando Vázquez Pena",
             nickname: "Fernando Vázquez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Castrofeito, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "24/10/1954",
             deathDate: null
         },
         career: [
@@ -45843,20 +45843,20 @@ const playersData = {
     },
 
     tabarez: {
-        name: "Tabárez",
+        name: "Óscar Washington Tabárez",
         footballName: "Tabárez",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/QMsX9rnp/Tabárez_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Tabárez",
+            fullName: "Óscar Washington Tabárez",
             nickname: "Tabárez",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Montevideo, Montevideo",
+            country: "Uruguay",
+            nationality: "Uruguaya",
+            height: "1,74 m",
+            birthDate: "03/03/1947",
             deathDate: null
         },
         career: [
@@ -45874,20 +45874,20 @@ const playersData = {
     },
 
     lillo: {
-        name: "Lillo",
+        name: "Juan Manuel Lillo Díez",
         footballName: "Lillo",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/tCSPNBHZ/Lillo-PNG.webp",
         personalData: {
-            fullName: "Lillo",
+            fullName: "Juan Manuel Lillo Díez",
             nickname: "Lillo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Tolosa, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "03/11/1965",
             deathDate: null
         },
         career: [
@@ -45905,20 +45905,20 @@ const playersData = {
     },
 
     novo: {
-        name: "Novo",
+        name: "José Antonio Novo Guardado",
         footballName: "Novo",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/zGHLS5j6/Novo_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Novo",
+            fullName: "José Antonio Novo Guardado",
             nickname: "Novo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Luarca, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "12/03/1950",
             deathDate: null
         },
         career: [
@@ -45936,21 +45936,21 @@ const playersData = {
     },
 
     ivanbrizc: {
-        name: "Iván Brzić",
+        name: "Ivica Brzić",
         footballName: "Iván Brzić",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/13XGkLKr/Ivan-Brzic-entrenador-PNG.webp",
         personalData: {
-            fullName: "Iván Brzić",
+            fullName: "Ivica Brzić",
             nickname: "Iván Brzić",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Novi Sad, Serbia",
+            country: "Yugoslavia",
+            nationality: "Yugoslava, Serbia",
+            height: "Desconocida",
+            birthDate: "28/05/1941",
+            deathDate: "01/06/2014"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -45967,20 +45967,20 @@ const playersData = {
     },
 
     irureta: {
-        name: "Irureta",
+        name: "Javier Iruretagoyena Amiano",
         footballName: "Irureta",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/5Nn5kx8t/Irureta-entrenador-PNG.webp",
         personalData: {
-            fullName: "Irureta",
+            fullName: "Javier Iruretagoyena Amiano",
             nickname: "Irureta",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Irún, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,76 m",
+            birthDate: "01/04/1948",
             deathDate: null
         },
         career: [
@@ -46060,21 +46060,21 @@ const playersData = {
     },
 
     antonioruiz: {
-        name: "Antonio Ruiz",
+        name: "Antonio Ruiz Cervilla",
         footballName: "Antonio Ruiz",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/zffcPtys/Antonio-Ruiz-entrenador-PNG.webp",
         personalData: {
-            fullName: "Antonio Ruiz",
+            fullName: "Antonio Ruiz Cervilla",
             nickname: "Antonio Ruiz",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Guadalupe de Maciascoque, Murcia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,75 m",
+            birthDate: "31/01/1937",
+            deathDate: "12/10/2018"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46091,20 +46091,20 @@ const playersData = {
     },
 
     carrete1986: {
-        name: "Carrete",
+        name: "José Carrete de Julián",
         footballName: "Carrete",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/mrhmSPqR/Carrete-entrenador-PNG.webp",
         personalData: {
-            fullName: "Carrete",
+            fullName: "José Carrete de Julián",
             nickname: "Carrete",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Turón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,67 m",
+            birthDate: "05/04/1951",
             deathDate: null
         },
         career: [
@@ -46122,20 +46122,20 @@ const playersData = {
     },
 
     romero: {
-        name: "Romero",
+        name: "José Luis Romero Robledo",
         footballName: "Romero",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Y0VrhGJ9/Romero_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Romero",
+            fullName: "José Luis Romero Robledo",
             nickname: "Romero",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,76 m",
+            birthDate: "05/01/1945",
             deathDate: null
         },
         career: [
@@ -46153,20 +46153,20 @@ const playersData = {
     },
 
     luiscosta: {
-        name: "Luis Costa",
+        name: "Luis Costa Juan",
         footballName: "Luis Costa",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/zBrRGMTM/Luis-Costa-entrenador-PNG.webp",
         personalData: {
-            fullName: "Luis Costa",
+            fullName: "Luis Costa Juan",
             nickname: "Luis Costa",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Alicante, Alicante",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,66 m",
+            birthDate: "19/02/1943",
             deathDate: null
         },
         career: [
@@ -46215,21 +46215,21 @@ const playersData = {
     },
 
     josevictor: {
-        name: "José Víctor",
+        name: "José Víctor Rodríguez de Miguel",
         footballName: "José Víctor",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/L5vP7TYW/Jose-Victor-entrenador-PNG.webp",
         personalData: {
-            fullName: "José Víctor",
+            fullName: "José Víctor Rodríguez de Miguel",
             nickname: "José Víctor",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Murcia, Murcia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "10/02/1945",
+            deathDate: "03/03/2016"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
