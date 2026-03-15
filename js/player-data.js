@@ -2528,20 +2528,20 @@ const playersData = {
     },
 
     viti: {
-        name: "Viti",
+        name: "Víctor Manuel García Rodríguez",
         footballName: "Viti",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/L625gLYq/Viti_PNG.webp",
         personalData: {
-            fullName: "Viti",
+            fullName: "Víctor Manuel García Rodríguez",
             nickname: "Viti",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pruvia de Arriba, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "09/07/1959",
             deathDate: null
         },
         career: [
@@ -2900,21 +2900,21 @@ const playersData = {
     },
 
     camuel: {
-        name: "Camuel",
+        name: "Ángel Manuel Álvarez Pérez",
         footballName: "Camuel",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/J0cwWyMv/Camuel-PNG.webp",
         personalData: {
-            fullName: "Camuel",
+            fullName: "Ángel Manuel Álvarez Pérez",
             nickname: "Camuel",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Candás, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,81 m",
+            birthDate: "15/12/1956",
+            deathDate: "26/04/2017"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -2962,21 +2962,21 @@ const playersData = {
     },
 
     manuelvicente: {
-        name: "Manuel Vicente",
+        name: "Manuel Vicente Argüelles González",
         footballName: "Manuel Vicente",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/xCpJ3dwr/Manuel_Vicente_PNG.webp",
         personalData: {
-            fullName: "Manuel Vicente",
+            fullName: "Manuel Vicente Argüelles González",
             nickname: "Manuel Vicente",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "El Entrego, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,79 m",
+            birthDate: "01/01/1957",
+            deathDate: "09/01/2021"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -2993,21 +2993,21 @@ const playersData = {
     },
 
     seoanepor: {
-        name: "Seoane",
+        name: "Eduardo Seoane Díaz",
         footballName: "Seoane",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/Y014Kx47/Seoane_PNG.webp",
         personalData: {
-            fullName: "Seoane",
+            fullName: "Eduardo Seoane Díaz",
             nickname: "Seoane",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "La Coruña, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,86 m",
+            birthDate: "25/01/1948",
+            deathDate: "22/06/2022"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -3024,20 +3024,20 @@ const playersData = {
     },
 
     taladrid: {
-        name: "Taladrid",
+        name: "Faustino Taladrid Rodríguez",
         footballName: "Taladrid",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/kgj2mG52/Taladrid_PNG.webp",
         personalData: {
-            fullName: "Taladrid",
+            fullName: "Faustino Taladrid Rodríguez",
             nickname: "Taladrid",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Moreda, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,85 m",
+            birthDate: "10/09/1953",
             deathDate: null
         },
         career: [
@@ -3055,20 +3055,20 @@ const playersData = {
     },
 
     dujkovic: {
-        name: "Dujković",
+        name: "Ratomir Dujković",
         footballName: "Dujković",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/kMyhqPW0/Dujkovic-PNG.webp",
         personalData: {
-            fullName: "Dujković",
+            fullName: "Ratomir Dujković",
             nickname: "Dujković",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Borovo Naselje, Croacia",
+            country: "Yugoslavia",
+            nationality: "Yugoslava, Croata, Serbia",
+            height: "Desconocida",
+            birthDate: "24/02/1946",
             deathDate: null
         },
         career: [
@@ -3086,20 +3086,20 @@ const playersData = {
     },
 
     cesar1976: {
-        name: "César",
+        name: "César Blanco Rodríguez",
         footballName: "César",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/25Pgbd5g/Cesar-Leon-PNG.webp",
         personalData: {
-            fullName: "César",
+            fullName: "César Blanco Rodríguez",
             nickname: "César",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "León, León",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,80 m",
+            birthDate: "07/05/1950",
             deathDate: null
         },
         career: [
@@ -3126,11 +3126,11 @@ const playersData = {
         personalData: {
             fullName: "Amaro",
             nickname: "Amaro",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "Desconocida",
             deathDate: null
         },
         career: [
@@ -3179,20 +3179,20 @@ const playersData = {
     },
 
     zabala1973: {
-        name: "Zabala",
+        name: "José Ramón García Zabala",
         footballName: "Zabala",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/YCyCPPXg/Zabala-PNG.webp",
         personalData: {
-            fullName: "Zabala",
+            fullName: "José Ramón García Zabala",
             nickname: "Zabala",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Langreo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "06/09/1950",
             deathDate: null
         },
         career: [
@@ -3210,20 +3210,20 @@ const playersData = {
     },
 
     javi1972: {
-        name: "Javi",
+        name: "Francisco Javier Alonso Goyenechea",
         footballName: "Javi",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/NF08QSct/Javi_(1971)_PNG.webp",
         personalData: {
-            fullName: "Javi",
+            fullName: "Francisco Javier Alonso Goyenechea",
             nickname: "Javi",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santander, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,81 m",
+            birthDate: "27/12/1945",
             deathDate: null
         },
         career: [
@@ -3241,20 +3241,20 @@ const playersData = {
     },
 
     joseluis1971: {
-        name: "José Luis",
+        name: "José Luis Boedo Varela",
         footballName: "José Luis",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/yNX0cs6B/José_Luis_PNG.webp",
         personalData: {
-            fullName: "José Luis",
+            fullName: "José Luis Boedo Varela",
             nickname: "José Luis",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "La Coruña, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,74 m",
+            birthDate: "08/11/1943",
             deathDate: null
         },
         career: [
@@ -3303,20 +3303,20 @@ const playersData = {
     },
 
     garciaremon: {
-        name: "García Remón",
+        name: "Mariano García Remón",
         footballName: "García Remón",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/0Q0Zk7KY/García_Remón_PNG.webp",
         personalData: {
-            fullName: "García Remón",
+            fullName: "Mariano García Remón",
             nickname: "García Remón",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,81 m",
+            birthDate: "30/09/1950",
             deathDate: null
         },
         career: [
