@@ -296,7 +296,7 @@ const seasonsSquads = {
         // ... solo IDs
     },
     "1988-89": {
-        "goalkeepers": ["viti", "zubeldia", "heres", "etxeberria"],
+        "goalkeepers": ["viti", "zubeldia", "heres", "echevarria"],
         "defenders": ["cristobal", "vili", "javier1988", "murua", "luismanuel", "gorriaran", "sanudo", "bolanos", "cesar1998", "tista"],
         "midfielders": ["berto", "bango", "delatorre", "paco", "elcacho", "tomas1988", "tocornal", "placido"],
         "forwards": ["lopezlopez", "hicks", "julia", "hevia", "jose", "vargas", "ramon"],

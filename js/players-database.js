@@ -429,12 +429,12 @@ const playersDatabase = {
         "name": "Heres",
         "url": "fichajugador.html?player=heres"
     },
-    "etxeberria": {
+    "echevarria": {
         "src": "https://i.postimg.cc/j50kdsgb/Echevarria-PNG.webp",
         "alt": "Portero",
         "number": "-",
-        "name": "Etxeberría",
-        "url": "fichajugador.html?player=etxeberria"
+        "name": "Echevarría",
+        "url": "fichajugador.html?player=echevarria"
     },
     "tallos": {
         "src": "https://i.postimg.cc/25VV8Yq2/Tallos_PNG.webp",

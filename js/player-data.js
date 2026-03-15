@@ -2621,20 +2621,20 @@ const playersData = {
     },
 
     zubeldia: {
-        name: "Zubeldia",
+        name: "Sabino Zubeldia Carril",
         footballName: "Zubeldia",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/9034nkQ1/Sabino_Zubeldia_PNG.webp",
         personalData: {
-            fullName: "Zubeldia",
+            fullName: "Sabino Zubeldia Carril",
             nickname: "Zubeldia",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "San Sebastián, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "14/04/1955",
             deathDate: null
         },
         career: [
@@ -2714,20 +2714,20 @@ const playersData = {
     },
 
     heres: {
-        name: "Heres",
+        name: "José Enrique Heres García",
         footballName: "Heres",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/8C8bLZhd/Heres_PNG.webp",
         personalData: {
-            fullName: "Heres",
+            fullName: "José Enrique Heres García",
             nickname: "Heres",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "San Martín de Podes, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,80 m",
+            birthDate: "18/07/1962",
             deathDate: null
         },
         career: [
@@ -2744,21 +2744,21 @@ const playersData = {
         }
     },
 
-    etxeberria: {
-        name: "Etxeberría",
-        footballName: "Etxeberría",
+    echevarria: {
+        name: "Javier Echevarría Iruarrizaga",
+        footballName: "Echevarría",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/j50kdsgb/Echevarria-PNG.webp",
         personalData: {
-            fullName: "Etxeberría",
-            nickname: "Etxeberría",
-            birthPlace: "Pendiente, Provincia",
+            fullName: "Javier Echevarría Iruarrizaga",
+            nickname: "Echevarría",
+            birthPlace: "Bilbao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,87 m",
+            birthDate: "25/07/1964",
             deathDate: null
         },
         career: [
@@ -2776,20 +2776,20 @@ const playersData = {
     },
 
     tallos: {
-        name: "Tallos",
+        name: "Pedro Tallos Fernández",
         footballName: "Tallos",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/25VV8Yq2/Tallos_PNG.webp",
         personalData: {
-            fullName: "Tallos",
+            fullName: "Pedro Tallos Fernández",
             nickname: "Tallos",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Colloto, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "26/10/1966",
             deathDate: null
         },
         career: [
@@ -2807,20 +2807,20 @@ const playersData = {
     },
 
     pernas: {
-        name: "Pernas",
+        name: "Marco Antonio Pernas Méndez",
         footballName: "Pernas",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/s2D5YbMh/Pernas_PNG.webp",
         personalData: {
-            fullName: "Pernas",
+            fullName: "Marco Antonio Pernas Méndez",
             nickname: "Pernas",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Carbayín, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "10/11/1966",
             deathDate: null
         },
         career: [
@@ -2838,20 +2838,20 @@ const playersData = {
     },
 
     orlando: {
-        name: "Orlando",
+        name: "Roberto Orlando Vázquez Artime",
         footballName: "Orlando",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/vBKT6Nnb/Orlando_(2)_PNG.webp",
         personalData: {
-            fullName: "Orlando",
+            fullName: "Roberto Orlando Vázquez Artime",
             nickname: "Orlando",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "02/02/1963",
             deathDate: null
         },
         career: [
@@ -2869,20 +2869,20 @@ const playersData = {
     },
 
     balan: {
-        name: "Balán",
+        name: "José Antonio Fernández Balán",
         footballName: "Balán",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/VN6zBFm6/Balan-PNG.webp",
         personalData: {
-            fullName: "Balán",
+            fullName: "José Antonio Fernández Balán",
             nickname: "Balán",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Proaza, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,77 m",
+            birthDate: "10/11/1959",
             deathDate: null
         },
         career: [
@@ -2931,20 +2931,20 @@ const playersData = {
     },
 
     iglesias1981: {
-        name: "Iglesias",
+        name: "Francisco José García Iglesias",
         footballName: "Iglesias",
         position: "Portero",
         role: "portero",
         number: null,
         image: "https://i.postimg.cc/TY8CrS4d/Iglesias_PNG_1981.webp",
         personalData: {
-            fullName: "Iglesias",
+            fullName: "Francisco José García Iglesias",
             nickname: "Iglesias",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sotrondio, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "26/01/1963",
             deathDate: null
         },
         career: [
