@@ -2446,7 +2446,7 @@ const playersData = {
             nickname: "Buljubasich",
             birthPlace: "Firmat, Santa Fe",
             country: "Argentina",
-            nationality: "Argentina, Italiana",
+            nationality: "Argentina, Española",
             height: "1,92 m",
             birthDate: "12/05/1971",
             deathDate: null
