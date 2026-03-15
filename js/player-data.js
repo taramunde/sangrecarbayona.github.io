@@ -47269,21 +47269,21 @@ const playersData = {
     },
 
     pena1935: {
-        name: "Peña",
+        name: "Anacleto José María Peña Salegui",
         footballName: "Peña",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/x8FCMFb9/Peña_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Peña",
+            fullName: "Anacleto José María Peña Salegui",
             nickname: "Peña",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Guecho, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,75 m",
+            birthDate: "19/04/1895",
+            deathDate: "13/01/1988"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47300,21 +47300,21 @@ const playersData = {
     },
 
     sampere: {
-        name: "Sampere",
+        name: "Emilio Sampere Oliveras",
         footballName: "Sampere",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/WbFpx8kJ/Sampere_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Sampere",
+            fullName: "Emilio Sampere Oliveras",
             nickname: "Sampere",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Barcelona, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "08/01/1885",
+            deathDate: "04/12/1966"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47331,21 +47331,21 @@ const playersData = {
     },
 
     tonijuan: {
-        name: "Tonijuan",
+        name: "Vicente Tonijuan García",
         footballName: "Tonijuan",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/8cFDQkjV/Tonijuan_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Tonijuan",
+            fullName: "Vicente Tonijuan García",
             nickname: "Tonijuan",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Barcelona, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "14/01/1902",
+            deathDate: "30/12/1983"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47362,21 +47362,21 @@ const playersData = {
     },
 
     patrickoconnell: {
-        name: "Patrick O'Connell",
+        name: "Patrick Joseph O'Connell",
         footballName: "Patrick O'Connell",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/k4qBmSmP/Patrick_O_Connell_PNG.webp",
         personalData: {
-            fullName: "Patrick O'Connell",
+            fullName: "Patrick Joseph O'Connell",
             nickname: "Patrick O'Connell",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Dublín, Leinster",
+            country: "Reino Unido",
+            nationality: "Británica, Irlandesa",
+            height: "1,73 m",
+            birthDate: "08/03/1887",
+            deathDate: "27/02/1959"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47393,21 +47393,21 @@ const playersData = {
     },
 
     fibver: {
-        name: "Fibver",
+        name: "Anton Fibver",
         footballName: "Fibver",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/4x25nJ30/Fibver_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Fibver",
+            fullName: "Anton Fibver",
             nickname: "Fibver",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Praga, Praga",
+            country: "Austria-Hungría",
+            nationality: "Austrohúngara, Checoslovaca",
+            height: "Desconocida",
+            birthDate: "22/11/1888",
+            deathDate: "26/02/1973"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47455,21 +47455,21 @@ const playersData = {
     },
 
     fredpentland: {
-        name: "Fred Pentland",
+        name: "Frederick Beaconsfield Pentland",
         footballName: "Fred Pentland",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Z55HT9J3/Fred_Pentland_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Fred Pentland",
+            fullName: "Frederick Beaconsfield Pentland",
             nickname: "Fred Pentland",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Poole, Inglaterra",
+            country: "Reino Unido",
+            nationality: "Británica",
+            height: "Desconocida",
+            birthDate: "29/07/1883",
+            deathDate: "16/03/1962"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
