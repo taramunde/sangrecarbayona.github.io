@@ -46897,21 +46897,21 @@ const playersData = {
     },
 
     herrerita1960: {
-        name: "Herrerita",
+        name: "Eduardo Herrera Bueno",
         footballName: "Herrerita",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/2jd7hd6h/Herrerita_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Herrerita",
+            fullName: "Eduardo Herrera Bueno",
             nickname: "Herrerita",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "05/07/1914",
+            deathDate: "15/08/1991"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46990,21 +46990,21 @@ const playersData = {
     },
 
     oscaralvarez1955: {
-        name: "Óscar Álvarez",
+        name: "Óscar Álvarez González",
         footballName: "Óscar Álvarez",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Tw0hYPdL/Óscar_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Óscar Álvarez",
+            fullName: "Óscar Álvarez González",
             nickname: "Óscar Álvarez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "01/05/1902",
+            deathDate: "11/06/1972"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47083,21 +47083,21 @@ const playersData = {
     },
 
     caicedo: {
-        name: "Caicedo",
+        name: "Patricio Caicedo Liciaga",
         footballName: "Caicedo",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/HkYZVZ9r/Caicedo_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Caicedo",
+            fullName: "Patricio Caicedo Liciaga",
             nickname: "Caicedo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Bilbao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "06/02/1899",
+            deathDate: "08/09/1981"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47145,21 +47145,21 @@ const playersData = {
     },
 
     urquizu: {
-        name: "Urquizu",
+        name: "Juan José Urquizu Sustaeta",
         footballName: "Urquizu",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/zv9NJmgH/Urquizu_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Urquizu",
+            fullName: "Juan José Urquizu Sustaeta",
             nickname: "Urquizu",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Ondárroa, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "24/06/1901",
+            deathDate: "22/11/1982"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47176,21 +47176,21 @@ const playersData = {
     },
 
     gamborena: {
-        name: "Gamborena",
+        name: "Francisco Gamborena Hernandorena",
         footballName: "Gamborena",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/Bv8CKdLn/Gamborena_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Gamborena",
+            fullName: "Francisco Gamborena Hernandorena",
             nickname: "Gamborena",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Irún, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "14/03/1901",
+            deathDate: "30/07/1982"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47207,21 +47207,21 @@ const playersData = {
     },
 
     meana: {
-        name: "Meana",
+        name: "Manuel Meana Vallina",
         footballName: "Meana",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/nVTQn3rR/Meana_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Meana",
+            fullName: "Manuel Meana Vallina",
             nickname: "Meana",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "21/10/1901",
+            deathDate: "01/08/1985"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47238,21 +47238,21 @@ const playersData = {
     },
 
     marti: {
-        name: "Martí",
+        name: "Cristóbal Martí Batalla",
         footballName: "Martí",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/PJ6LK50s/Martí_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Martí",
+            fullName: "Cristóbal Martí Batalla",
             nickname: "Martí",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Granollers, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "02/02/1903",
+            deathDate: "28/07/1986"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
