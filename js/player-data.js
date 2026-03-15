@@ -46370,21 +46370,21 @@ const playersData = {
     },
 
     toba: {
-        name: "Toba",
+        name: "Eduardo Toba Muíño",
         footballName: "Toba",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/7LVqSQpj/Toba_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Toba",
+            fullName: "Eduardo Toba Muíño",
             nickname: "Toba",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Mugía, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "14/05/1923",
+            deathDate: "03/08/2001"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46804,21 +46804,21 @@ const playersData = {
     },
 
     argila1961: {
-        name: "Argila",
+        name: "Fernando Argila Pazzaglia",
         footballName: "Argila",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/V6xZvzKw/Argila_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Argila",
+            fullName: "Fernando Argila Pazzaglia",
             nickname: "Argila",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Barcelona, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,80 m",
+            birthDate: "26/12/1920",
+            deathDate: "08/01/2015"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46928,21 +46928,21 @@ const playersData = {
     },
 
     pasarin: {
-        name: "Pasarín",
+        name: "Luis Casas Pasarín",
         footballName: "Pasarín",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/mrQtJwKS/Pasarín_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Pasarín",
+            fullName: "Luis Casas Pasarín",
             nickname: "Pasarín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pontevedra, Pontevedra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,74 m",
+            birthDate: "16/04/1902",
+            deathDate: "17/08/1986"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -46959,21 +46959,21 @@ const playersData = {
     },
 
     picabea: {
-        name: "Picabea",
+        name: "Abel Picabea Allero",
         footballName: "Picabea",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/v8PDJD2C/Picabea_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Picabea",
+            fullName: "Abel Picabea Allero",
             nickname: "Picabea",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Buenos Aires, Buenos Aires",
+            country: "Argentina",
+            nationality: "Argentina",
+            height: "Desconocida",
+            birthDate: "20/06/1906",
+            deathDate: "20/06/1993"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47021,21 +47021,21 @@ const playersData = {
     },
 
     balmanya: {
-        name: "Balmanya",
+        name: "Domingo Balmanya Perera",
         footballName: "Balmanya",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/D01jbRNX/Balmaña_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Balmanya",
+            fullName: "Domingo Balmanya Perera",
             nickname: "Balmanya",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gerona, Gerona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "29/12/1914",
+            deathDate: "14/02/2002"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47052,21 +47052,21 @@ const playersData = {
     },
 
     urquiri: {
-        name: "Urquiri",
+        name: "Luis Urquiri Urain",
         footballName: "Urquiri",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/bJV8BSYT/Urquiri_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Urquiri",
+            fullName: "Luis Urquiri Urain",
             nickname: "Urquiri",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Deva, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "01/09/1906",
+            deathDate: "01/05/1979"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -47114,21 +47114,21 @@ const playersData = {
     },
 
     enriquediaz: {
-        name: "Enrique Díaz",
+        name: "Enrique Díaz de Las Alas Pumariño",
         footballName: "Enrique Díaz",
         position: "Entrenador",
         role: "entrenador",
         number: null,
         image: "https://i.postimg.cc/3r2n95Ly/Enrique_Díaz_(entrenador)_PNG.webp",
         personalData: {
-            fullName: "Enrique Díaz",
+            fullName: "Enrique Díaz de Las Alas Pumariño",
             nickname: "Enrique Díaz",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "18/05/1917",
+            deathDate: "19/04/2000"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
