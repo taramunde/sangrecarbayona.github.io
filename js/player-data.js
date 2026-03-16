@@ -13708,20 +13708,20 @@ const playersData = {
     },
 
     vicente: {
-        name: "Vicente",
+        name: "Vicente González-Villamil Pérez",
         footballName: "Vicente",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/MpWmKnmx/Vicente_PNG.webp",
         personalData: {
-            fullName: "Vicente",
+            fullName: "Vicente González-Villamil Pérez",
             nickname: "Vicente",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "25/03/1947",
             deathDate: null
         },
         career: [
@@ -14359,20 +14359,20 @@ const playersData = {
     },
 
     rodriguez: {
-        name: "Rodríguez",
+        name: "Francisco Rodríguez Martín",
         footballName: "Rodríguez",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/CLnsRCbG/Rodríguez_PNG.webp",
         personalData: {
-            fullName: "Rodríguez",
+            fullName: "Francisco Rodríguez Martín",
             nickname: "Rodríguez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Ávila, Ávila",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "04/06/1942",
             deathDate: null
         },
         career: [
@@ -14483,20 +14483,20 @@ const playersData = {
     },
 
     poladuraii: {
-        name: "Poladura II",
+        name: "Miguel Ángel García-Poladura Areces",
         footballName: "Poladura II",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/QxCn0W1C/Poladura_II_PNG.webp",
         personalData: {
-            fullName: "Poladura II",
+            fullName: "Miguel Ángel García-Poladura Areces",
             nickname: "Poladura II",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "26/08/1945",
             deathDate: null
         },
         career: [
@@ -14514,20 +14514,20 @@ const playersData = {
     },
 
     ontoria: {
-        name: "Ontoria",
+        name: "Peio Ontoria San Saturnino",
         footballName: "Ontoria",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Zn71GKNN/Ontoria-PNG.webp",
         personalData: {
-            fullName: "Ontoria",
+            fullName: "Peio Ontoria San Saturnino",
             nickname: "Ontoria",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "San Sebastián, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,65 m",
+            birthDate: "13/08/1951",
             deathDate: null
         },
         career: [
@@ -14554,12 +14554,12 @@ const playersData = {
         personalData: {
             fullName: "César",
             nickname: "César",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -14576,20 +14576,20 @@ const playersData = {
     },
 
     fito: {
-        name: "Fito",
+        name: "Rodolfo Fernández Pazos",
         footballName: "Fito",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/JhvFk7G0/Fito_PNG.webp",
         personalData: {
-            fullName: "Fito",
+            fullName: "Rodolfo Fernández Pazos",
             nickname: "Fito",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "El Ferrol, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "12/09/1943",
             deathDate: null
         },
         career: [
