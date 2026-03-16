@@ -12902,20 +12902,20 @@ const playersData = {
     },
 
     herrero: {
-        name: "Herrero",
+        name: "Enrique Herrero Cuartango",
         footballName: "Herrero",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/YSW3T6C2/Herrero_PNG.webp",
         personalData: {
-            fullName: "Herrero",
+            fullName: "Enrique Herrero Cuartango",
             nickname: "Herrero",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Miranda de Ebro, Burgos",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "31/10/1959",
             deathDate: null
         },
         career: [
@@ -12933,20 +12933,20 @@ const playersData = {
     },
 
     juanito: {
-        name: "Juanito",
+        name: "Juan Antonio Felipe Gallego",
         footballName: "Juanito",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/6psTYngf/Juanito_PNG.webp",
         personalData: {
-            fullName: "Juanito",
+            fullName: "Juan Antonio Felipe Gallego",
             nickname: "Juanito",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,72 m",
+            birthDate: "24/08/1961",
             deathDate: null
         },
         career: [
@@ -12964,20 +12964,20 @@ const playersData = {
     },
 
     segundo: {
-        name: "Segundo",
+        name: "Segundo García Cordero",
         footballName: "Segundo",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/wTNDqqdF/Segundo_PNG.webp",
         personalData: {
-            fullName: "Segundo",
+            fullName: "Segundo García Cordero",
             nickname: "Segundo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Piedeloro, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "24/07/1962",
             deathDate: null
         },
         career: [
@@ -13026,20 +13026,20 @@ const playersData = {
     },
 
     bobes: {
-        name: "Bobes",
+        name: "José Aurelio Bobes Álvarez",
         footballName: "Bobes",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/NjWFCTnx/Bobes-PNG.webp",
         personalData: {
-            fullName: "Bobes",
+            fullName: "José Aurelio Bobes Álvarez",
             nickname: "Bobes",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "San Claudio, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "17/05/1965",
             deathDate: null
         },
         career: [
@@ -13057,20 +13057,20 @@ const playersData = {
     },
 
     carneiro: {
-        name: "Carneiro",
+        name: "Jorge Luis García Carneiro",
         footballName: "Carneiro",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/mrsRFSqK/Carneiro_PNG.webp",
         personalData: {
-            fullName: "Carneiro",
+            fullName: "Jorge Luis García Carneiro",
             nickname: "Carneiro",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "23/11/1965",
             deathDate: null
         },
         career: [
@@ -13088,20 +13088,20 @@ const playersData = {
     },
 
     prados: {
-        name: "Prados",
+        name: "José Luis Prados Ramírez",
         footballName: "Prados",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/yd7L9J7V/Prados_PNG.webp",
         personalData: {
-            fullName: "Prados",
+            fullName: "José Luis Prados Ramírez",
             nickname: "Prados",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Logroño, La Rioja",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,83 m",
+            birthDate: "01/03/1955",
             deathDate: null
         },
         career: [
@@ -13119,20 +13119,20 @@ const playersData = {
     },
 
     camano: {
-        name: "Camaño",
+        name: "Alejandro Gustavo Camaño Tolosa",
         footballName: "Camaño",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/50fxDmS8/Camano-PNG.webp",
         personalData: {
-            fullName: "Camaño",
+            fullName: "Alejandro Gustavo Camaño Tolosa",
             nickname: "Camaño",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Mar del Plata, Buenos Aires",
+            country: "Argentina",
+            nationality: "Argentina",
+            height: "1,78 m",
+            birthDate: "03/03/1959",
             deathDate: null
         },
         career: [
@@ -13181,20 +13181,20 @@ const playersData = {
     },
 
     oscarmeneses: {
-        name: "Óscar Meneses",
+        name: "Óscar Meneses Roa",
         footballName: "Óscar Meneses",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/jjDxTjpS/Meneses_PNG.webp",
         personalData: {
-            fullName: "Óscar Meneses",
+            fullName: "Óscar Meneses Roa",
             nickname: "Óscar Meneses",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Santiago de Chile, Región Metropolitana de Santiago de Chile",
+            country: "Chile",
+            nationality: "Chilena",
+            height: "Desconocida",
+            birthDate: "07/03/1960",
             deathDate: null
         },
         career: [
@@ -13212,20 +13212,20 @@ const playersData = {
     },
 
     valentinichile: {
-        name: "Valentini",
+        name: "Gino Alberto Valentini Cuadra",
         footballName: "Valentini",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/cCwB6Yz1/Valentini_PNG.webp",
         personalData: {
-            fullName: "Valentini",
+            fullName: "Gino Alberto Valentini Cuadra",
             nickname: "Valentini",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Santiago de Chile, Región Metropolitana de Santiago de Chile",
+            country: "Chile",
+            nationality: "Chilena",
+            height: "1,84 m",
+            birthDate: "10/10/1958",
             deathDate: null
         },
         career: [
@@ -13274,20 +13274,20 @@ const playersData = {
     },
 
     cruz: {
-        name: "Cruz",
+        name: "Rafael González Cruz",
         footballName: "Cruz",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/LXWbj95h/Cruz_PNG.webp",
         personalData: {
-            fullName: "Cruz",
+            fullName: "Rafael González Cruz",
             nickname: "Cruz",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "San Sebastián, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "19/07/1963",
             deathDate: null
         },
         career: [
@@ -13305,20 +13305,20 @@ const playersData = {
     },
 
     carlosmario: {
-        name: "Carlos Mario",
+        name: "Carlos Mario Álvarez García",
         footballName: "Carlos Mario",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/yYDVqxcp/Carlos_Mario_PNG.webp",
         personalData: {
-            fullName: "Carlos Mario",
+            fullName: "Carlos Mario Álvarez García",
             nickname: "Carlos Mario",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "18/03/1966",
             deathDate: null
         },
         career: [
@@ -13367,20 +13367,20 @@ const playersData = {
     },
 
     lonardi: {
-        name: "Lonardi",
+        name: "Daniel Luján Lonardi Tarquini",
         footballName: "Lonardi",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/FzLNLnr5/Lonardi_PNG.webp",
         personalData: {
-            fullName: "Lonardi",
+            fullName: "Daniel Luján Lonardi Tarquini",
             nickname: "Lonardi",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Buenos Aires, Buenos Aires",
+            country: "Argentina",
+            nationality: "Argentina",
+            height: "1,73 m",
+            birthDate: "18/08/1954",
             deathDate: null
         },
         career: [
@@ -13398,20 +13398,20 @@ const playersData = {
     },
 
     garciasiani: {
-        name: "García Siani",
+        name: "Luis Alberto García Siani",
         footballName: "García Siani",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/rpBhphPt/García_Siani_PNG.webp",
         personalData: {
-            fullName: "García Siani",
+            fullName: "Luis Alberto García Siani",
             nickname: "García Siani",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "San Estanislao de Kostka, San Pedro",
+            country: "Paraguay",
+            nationality: "Paraguaya",
+            height: "1,84 m",
+            birthDate: "25/07/1958",
             deathDate: null
         },
         career: [
@@ -13460,21 +13460,21 @@ const playersData = {
     },
 
     josemanuel: {
-        name: "José Manuel",
+        name: "José Manuel García Fernández",
         footballName: "José Manuel",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/DZfS1hHV/José_Manuel_PNG.webp",
         personalData: {
-            fullName: "José Manuel",
+            fullName: "José Manuel García Fernández",
             nickname: "José Manuel",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Navelgas, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "27/03/1958",
+            deathDate: "06/06/1999"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -13522,21 +13522,21 @@ const playersData = {
     },
 
     peruena: {
-        name: "Peruena",
+        name: "Carlos Eduardo Peruena Rodríguez",
         footballName: "Peruena",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/4yNFCY08/Peruena_PNG.webp",
         personalData: {
-            fullName: "Peruena",
+            fullName: "Carlos Eduardo Peruena Rodríguez",
             nickname: "Peruena",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Florida, Florida",
+            country: "Uruguay",
+            nationality: "Uruguaya",
+            height: "1,78 m",
+            birthDate: "13/03/1955",
+            deathDate: "02/06/2018"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -34880,20 +34880,20 @@ const playersData = {
     },
 
          luismanuel: {
-        name: "Luis Manuel",
+        name: "Luis Manuel Arias Vega",
         footballName: "Luis Manuel",
         position: "Delantero",
         role: "jugador",
         number: null,
-        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        image: "https://i.postimg.cc/2Swby39d/Luis_Manuel_PNG.webp",
         personalData: {
-            fullName: "Luis Manuel",
+            fullName: "Luis Manuel Arias Vega",
             nickname: "Luis Manuel",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,81 m",
+            birthDate: "29/03/1967",
             deathDate: null
         },
         career: [

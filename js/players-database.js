@@ -7892,13 +7892,6 @@ const playersDatabase = {
         "name": "Daniel",
         "url": "fichajugador.html?player=daniel"
     },
-    "luismanuel": {
-        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
-        "alt": "Delantero",
-        "number": "-",
-        "name": "Luis Manuel",
-        "url": "fichajugador.html?player=luismanuel"
-    },
     "piruqui": {
         "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
         "alt": "Delantero",
