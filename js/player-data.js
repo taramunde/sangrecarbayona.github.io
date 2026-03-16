@@ -13150,20 +13150,20 @@ const playersData = {
     },
 
     delriego: {
-        name: "Del Riego",
+        name: "José Miguel del Riego Villaverde",
         footballName: "Del Riego",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/DfXT5HTR/Del_Riego_(1981)_PNG.webp",
         personalData: {
-            fullName: "Del Riego",
+            fullName: "José Miguel del Riego Villaverde",
             nickname: "Del Riego",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,79 m",
+            birthDate: "21/06/1961",
             deathDate: null
         },
         career: [
@@ -13243,20 +13243,20 @@ const playersData = {
     },
 
     inaquimarigil: {
-        name: "Iñaqui Marigil",
+        name: "Ignacio Marigil Echevarría",
         footballName: "Iñaqui Marigil",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/KjJrtQJf/Iñaki_Marigil.webp",
         personalData: {
-            fullName: "Iñaqui Marigil",
+            fullName: "Ignacio Marigil Echevarría",
             nickname: "Iñaqui Marigil",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "San Sebastián, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "25/03/1964",
             deathDate: null
         },
         career: [
@@ -13429,20 +13429,20 @@ const playersData = {
     },
 
     agustin: {
-        name: "Agustín",
+        name: "Agustín García González",
         footballName: "Agustín",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/NGT4d7Pd/Agustin-PNG.webp",
         personalData: {
-            fullName: "Agustín",
+            fullName: "Agustín García González",
             nickname: "Agustín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Viescas, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "16/06/1959",
             deathDate: null
         },
         career: [
@@ -13584,20 +13584,20 @@ const playersData = {
     },
 
     majo: {
-        name: "Majó",
+        name: "MaLluís Majó Platelljó",
         footballName: "Majó",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/KcM1L0s8/Majó_PNG.webp",
         personalData: {
-            fullName: "Majó",
+            fullName: "Lluís Majó Platell",
             nickname: "Majó",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Barcelona, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,84 m",
+            birthDate: "26/10/1956",
             deathDate: null
         },
         career: [
@@ -13615,20 +13615,20 @@ const playersData = {
     },
 
     naves: {
-        name: "Naves",
+        name: "Alfredo Naves García",
         footballName: "Naves",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/fL4Nhf78/Naves_PNG.webp",
         personalData: {
-            fullName: "Naves",
+            fullName: "Alfredo Naves García",
             nickname: "Naves",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Latores, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,77 m",
+            birthDate: "09/09/1960",
             deathDate: null
         },
         career: [
@@ -13677,20 +13677,20 @@ const playersData = {
     },
 
     paulino: {
-        name: "Paulino",
+        name: "Paulino González Canseco",
         footballName: "Paulino",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/tCv8jzpF/Paulino_PNG.webp",
         personalData: {
-            fullName: "Paulino",
+            fullName: "Paulino González Canseco",
             nickname: "Paulino",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "26/07/1962",
             deathDate: null
         },
         career: [
@@ -13770,20 +13770,20 @@ const playersData = {
     },
 
     cueto: {
-        name: "Cueto",
+        name: "Aurelio Cueto Vigil",
         footballName: "Cueto",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/J0BdqfHx/Cueto_PNG.webp",
         personalData: {
-            fullName: "Cueto",
+            fullName: "Aurelio Cueto Vigil",
             nickname: "Cueto",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Valdesoto, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "19/05/1958",
             deathDate: null
         },
         career: [
