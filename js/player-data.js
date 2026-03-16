@@ -12809,20 +12809,20 @@ const playersData = {
     },
 
     vili: {
-        name: "Vili",
+        name: "Evilasio Sánchez Ibargüen",
         footballName: "Vili",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/mDFQ6CB3/Vili_PNG.webp",
         personalData: {
-            fullName: "Vili",
+            fullName: "Evilasio Sánchez Ibargüen",
             nickname: "Vili",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Llanes, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,77 m",
+            birthDate: "24/05/1956",
             deathDate: null
         },
         career: [
@@ -13336,20 +13336,20 @@ const playersData = {
     },
 
     antuna: {
-        name: "Antuña",
+        name: "Luis Manuel García Antuña",
         footballName: "Antuña",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/ryC4dhH2/Antuna-PNG.webp",
         personalData: {
-            fullName: "Antuña",
+            fullName: "Luis Manuel García Antuña",
             nickname: "Antuña",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "El Entrego, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "11/05/1952",
             deathDate: null
         },
         career: [
@@ -13491,20 +13491,20 @@ const playersData = {
     },
 
     ondina: {
-        name: "Ondina",
+        name: "José Manuel Gómez Ondina",
         footballName: "Ondina",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/v8tdp94v/Ondina_PNG.webp",
         personalData: {
-            fullName: "Ondina",
+            fullName: "José Manuel Gómez Ondina",
             nickname: "Ondina",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "16/08/1960",
             deathDate: null
         },
         career: [
@@ -13553,20 +13553,20 @@ const playersData = {
     },
 
     luisito: {
-        name: "Luisito",
+        name: "José Luis Álvarez Fonseca",
         footballName: "Luisito",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/g02wZd1C/Luisito_PNG.webp",
         personalData: {
-            fullName: "Luisito",
+            fullName: "José Luis Álvarez Fonseca",
             nickname: "Luisito",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pola de Siero, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,65 m",
+            birthDate: "01/11/1959",
             deathDate: null
         },
         career: [
@@ -13646,20 +13646,20 @@ const playersData = {
     },
 
     castro: {
-        name: "Castro",
+        name: "Tomás Castro Fernández",
         footballName: "Castro",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/hPQqywRH/Castro_PNG.webp",
         personalData: {
-            fullName: "Castro",
+            fullName: "Tomás Castro Fernández",
             nickname: "Castro",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Arenas de Cabrales, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "10/04/1959",
             deathDate: null
         },
         career: [
@@ -13739,20 +13739,20 @@ const playersData = {
     },
 
     samos: {
-        name: "Samos",
+        name: "José Luis Samos Fernández",
         footballName: "Samos",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/43PzDWTg/Samós_PNG.webp",
         personalData: {
-            fullName: "Samos",
+            fullName: "José Luis Samos Fernández",
             nickname: "Samos",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santander, Cantabria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,80 m",
+            birthDate: "30/03/1954",
             deathDate: null
         },
         career: [
@@ -13801,20 +13801,20 @@ const playersData = {
     },
 
     esteban1979: {
-        name: "Esteban",
+        name: "José Vicente Esteban Ricos",
         footballName: "Esteban",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/kGrLkMmz/Esteban_PNG.webp",
         personalData: {
-            fullName: "Esteban",
+            fullName: "José Vicente Esteban Ricos",
             nickname: "Esteban",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Valencia, Valencia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "08/09/1952",
             deathDate: null
         },
         career: [
@@ -13832,20 +13832,20 @@ const playersData = {
     },
 
     astrain: {
-        name: "Astrain",
+        name: "Daniel Astrain Egozkue",
         footballName: "Astrain",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/QMT9jS7P/Astrain-PNG.webp",
         personalData: {
-            fullName: "Astrain",
+            fullName: "Daniel Astrain Egozkue",
             nickname: "Astrain",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pamplona, Navarra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "29/03/1948",
             deathDate: null
         },
         career: [
@@ -13863,20 +13863,20 @@ const playersData = {
     },
 
     santacatalina: {
-        name: "Santacatalina",
+        name: "Rafael Arturo Santacatalina Díaz",
         footballName: "Santacatalina",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/k4hW4D4Y/Santacatalina_PNG.webp",
         personalData: {
-            fullName: "Santacatalina",
+            fullName: "Rafael Arturo Santacatalina Díaz",
             nickname: "Santacatalina",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,72 m",
+            birthDate: "30/10/1957",
             deathDate: null
         },
         career: [
@@ -13894,20 +13894,20 @@ const playersData = {
     },
 
     franciscogalan: {
-        name: "Francisco Galán",
+        name: "Francisco Galán Rubio",
         footballName: "Francisco Galán",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/sfpLMryf/Francisco_Galán_PNG.webp",
         personalData: {
-            fullName: "Francisco Galán",
+            fullName: "Francisco Galán Rubio",
             nickname: "Francisco Galán",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Granja de Granadilla, Cáceres",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,79 m",
+            birthDate: "09/08/1950",
             deathDate: null
         },
         career: [
@@ -13925,20 +13925,20 @@ const playersData = {
     },
 
     laguna: {
-        name: "Laguna",
+        name: "Luciano Laguna Valero",
         footballName: "Laguna",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Gt8hjmjf/Laguna_PNG.webp",
         personalData: {
-            fullName: "Laguna",
+            fullName: "Luciano Laguna Valero",
             nickname: "Laguna",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sinarcas, Valencia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,77 m",
+            birthDate: "18/08/1951",
             deathDate: null
         },
         career: [
@@ -13956,20 +13956,20 @@ const playersData = {
     },
 
     toniiii: {
-        name: "Toni III",
+        name: "José Antonio Martínez Fernández",
         footballName: "Toni III",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/5NGCXnyc/Toni_III.webp",
         personalData: {
-            fullName: "Toni III",
+            fullName: "José Antonio Martínez Fernández",
             nickname: "Toni III",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Vigo, Pontevedra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "25/04/1958",
             deathDate: null
         },
         career: [
@@ -14018,21 +14018,21 @@ const playersData = {
     },
 
     maxi1977: {
-        name: "Maxi",
+        name: "José Antonio Rodríguez Callejón",
         footballName: "Maxi",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/wjfqnNbr/Maxi_PNG.webp",
         personalData: {
-            fullName: "Maxi",
+            fullName: "José Antonio Rodríguez Callejón",
             nickname: "Maxi",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Berja, Almería",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,75 m",
+            birthDate: "21/02/1948",
+            deathDate: "14/01/2026"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -14080,20 +14080,20 @@ const playersData = {
     },
 
     lolin: {
-        name: "Lolín",
+        name: "Manuel Batalla García",
         footballName: "Lolín",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/vBjGDddt/Lolín_PNG.webp",
         personalData: {
-            fullName: "Lolín",
+            fullName: "Manuel Batalla García",
             nickname: "Lolín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Llanes, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,76 m",
+            birthDate: "30/03/1947",
             deathDate: null
         },
         career: [
@@ -14142,20 +14142,20 @@ const playersData = {
     },
 
     carrete1975: {
-        name: "Carrete",
+        name: "José Carrete de Julián",
         footballName: "Carrete",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Zn2zYPp7/Carrete_PNG.webp",
         personalData: {
-            fullName: "Carrete",
+            fullName: "José Carrete de Julián",
             nickname: "Carrete",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Turón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1.67 m",
+            birthDate: "05/04/1951",
             deathDate: null
         },
         career: [
@@ -14173,20 +14173,20 @@ const playersData = {
     },
 
     djoric: {
-        name: "Djorić",
+        name: "Milovan Djorić",
         footballName: "Djorić",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/pLqbptf5/Djoric_PNG.webp",
         personalData: {
-            fullName: "Djorić",
+            fullName: "Milovan Djorić",
             nickname: "Djorić",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Bioska, Serbia",
+            country: "Yugoslavia",
+            nationality: "Yugoslava, Serbia",
+            height: "Desconocida",
+            birthDate: "06/08/1945",
             deathDate: null
         },
         career: [
@@ -14213,12 +14213,12 @@ const playersData = {
         personalData: {
             fullName: "Paco",
             nickname: "Paco",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -14235,21 +14235,21 @@ const playersData = {
     },
 
     bravo1973: {
-        name: "Bravo",
+        name: "Óscar Evangelista Bravo Junco",
         footballName: "Bravo",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/02jN8cRf/Bravo-Argentina-PNG.webp",
         personalData: {
-            fullName: "Bravo",
+            fullName: "Óscar Evangelista Bravo Junco",
             nickname: "Bravo",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            birthPlace: "Santa Fe de la Vera Cruz, Santa Fe",
+            country: "Argentina",
+            nationality: "Argentina, Española",
+            height: "1,76 m",
+            birthDate: "04/10/1949",
+            deathDate: "02/01/2022"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -14266,21 +14266,21 @@ const playersData = {
     },
 
     manuelenrique: {
-        name: "Manuel Enrique",
+        name: "Manuel Enrique González Fernández",
         footballName: "Manuel Enrique",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/RV1qpNmr/Manuel_Enrique_PNG.webp",
         personalData: {
-            fullName: "Manuel Enrique",
+            fullName: "Manuel Enrique González Fernández",
             nickname: "Manuel Enrique",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Puenteareas, Pontevedra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "20/08/1947",
+            deathDate: "30/11/1975"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -14297,20 +14297,20 @@ const playersData = {
     },
 
     candi1973: {
-        name: "Candi",
+        name: "Cándido González Fernández",
         footballName: "Candi",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/26TzYB0M/Candi-PNG.webp",
         personalData: {
-            fullName: "Candi",
+            fullName: "Cándido González Fernández",
             nickname: "Candi",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sotrondio, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,76 m",
+            birthDate: "08/07/1952",
             deathDate: null
         },
         career: [
@@ -14328,20 +14328,20 @@ const playersData = {
     },
 
     gonzalez1972: {
-        name: "González",
+        name: "José Antonio González López",
         footballName: "González",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/YSGnMcbH/González_PNG.webp",
         personalData: {
-            fullName: "González",
+            fullName: "José Antonio González López",
             nickname: "González",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Vigo, Pontevedra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,72 m",
+            birthDate: "13/07/1943",
             deathDate: null
         },
         career: [
@@ -14421,21 +14421,21 @@ const playersData = {
     },
 
     delriego1970: {
-        name: "Del Riego",
+        name: "Rafael Juan del Riego Villaverde",
         footballName: "Del Riego",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/65xNPc6q/Del_Riego_PNG.webp",
         personalData: {
-            fullName: "Del Riego",
+            fullName: "Rafael Juan del Riego Villaverde",
             nickname: "Del Riego",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,72 m",
+            birthDate: "12/07/1949",
+            deathDate: "15/11/2013"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -14452,21 +14452,21 @@ const playersData = {
     },
 
     martinezolivares: {
-        name: "Martínez Olivares",
+        name: "Gonzalo Martínez Olivares",
         footballName: "Martínez Olivares",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/8PGzvN6Z/Martínez_Olivares_PNG.webp",
         personalData: {
-            fullName: "Martínez Olivares",
+            fullName: "Gonzalo Martínez Olivares",
             nickname: "Martínez Olivares",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Cartagena, Murcia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "21/09/1948",
+            deathDate: "30/06/2022"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
