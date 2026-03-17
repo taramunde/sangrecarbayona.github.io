@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taramunde.github.io/sangrecarbayona.github.io/sitemap.xml
