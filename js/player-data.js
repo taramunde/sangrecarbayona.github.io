@@ -9065,7 +9065,7 @@ const playersData = {
             birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "",
+            height: "Desconocida",
             birthDate: "28/05/1993",
             deathDate: null,
         },
@@ -9740,20 +9740,20 @@ const playersData = {
     },
 
         candela: {
-        name: "Candela",
+        name: "Iván Menéndez Candela",
         footballName: "Candela",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/DzrvCNL2/Candela-PNG.webp",
         personalData: {
-            fullName: "Candela",
+            fullName: "Iván Menéndez Candela",
             nickname: "Candela",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Avilés, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,80 m",
+            birthDate: "13/09/1978",
             deathDate: null
         },
         career: [
@@ -9771,20 +9771,20 @@ const playersData = {
     },
 
     juanma: {
-        name: "Juanma",
+        name: "Juan Manuel Marrero Monzón",
         footballName: "Juanma",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Dzn0KF2W/Juanma_PNG.webp",
         personalData: {
-            fullName: "Juanma",
+            fullName: "Juan Manuel Marrero Monzón",
             nickname: "Juanma",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Las Palmas de Gran Canaria, Las Palmas",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,85 m",
+            birthDate: "18/10/1982",
             deathDate: null
         },
         career: [
@@ -9802,20 +9802,20 @@ const playersData = {
     },
 
     cesarnegredo: {
-        name: "César Negredo",
+        name: "César Negredo Sánchez",
         footballName: "César Negredo",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/hGsFQRV7/César_Negredo_PNG.webp",
         personalData: {
-            fullName: "César Negredo",
+            fullName: "César Negredo Sánchez",
             nickname: "César Negredo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,84 m",
+            birthDate: "02/08/1980",
             deathDate: null
         },
         career: [
@@ -9833,20 +9833,20 @@ const playersData = {
     },
 
     jorgerodriguez: {
-        name: "Jorge Rodríguez",
+        name: "Jorge Eugenio Rodríguez Álvarez",
         footballName: "Jorge Rodríguez",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/fW29j3M8/Jorge_Rodríguez_PNG.webp",
         personalData: {
-            fullName: "Jorge Rodríguez",
+            fullName: "Jorge Eugenio Rodríguez Álvarez",
             nickname: "Jorge Rodríguez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Cee, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,84 m",
+            birthDate: "15/08/1980",
             deathDate: null
         },
         career: [
@@ -9864,20 +9864,20 @@ const playersData = {
     },
 
     juanpa: {
-        name: "Juanpa",
+        name: "Juan Pablo de Miguel Bravo",
         footballName: "Juanpa",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/6pdqSTNJ/Juanpa_PNG.webp",
         personalData: {
-            fullName: "Juanpa",
+            fullName: "Juan Pablo de Miguel Bravo",
             nickname: "Juanpa",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Segovia, Segovia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,80 m",
+            birthDate: "28/09/1978",
             deathDate: null
         },
         career: [
@@ -9895,20 +9895,20 @@ const playersData = {
     },
 
     catu: {
-        name: "Catú",
+        name: "Sergio González Quintans",
         footballName: "Catú",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/pLNMgZ2y/Catú_PNG.webp",
         personalData: {
-            fullName: "Catú",
+            fullName: "Sergio González Quintans",
             nickname: "Catú",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santiago de Compostela, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,79 m",
+            birthDate: "06/07/1990",
             deathDate: null
         },
         career: [
@@ -9926,20 +9926,20 @@ const playersData = {
     },
 
     joaquinpena: {
-        name: "Joaquín Peña",
+        name: "Joaquín Peña Alonso",
         footballName: "Joaquín Peña",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/x8CbVQ3G/Joaquín_Peña_PNG.webp",
         personalData: {
-            fullName: "Joaquín Peña",
+            fullName: "Joaquín Peña Alonso",
             nickname: "Joaquín Peña",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pola de Siero, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "06/05/1989",
             deathDate: null
         },
         career: [
@@ -9957,20 +9957,20 @@ const playersData = {
     },
 
     victordiaz: {
-        name: "Víctor Díaz",
+        name: "Víctor David Díaz Miguel",
         footballName: "Víctor Díaz",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Z5VF9JwN/Víctor_Díaz_PNG.webp",
         personalData: {
-            fullName: "Víctor Díaz",
+            fullName: "Víctor David Díaz Miguel",
             nickname: "Víctor Díaz",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sevilla, Sevilla",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,83 m",
+            birthDate: "12/06/1988",
             deathDate: null
         },
         career: [
@@ -9988,20 +9988,20 @@ const playersData = {
     },
 
     ernesto: {
-        name: "Ernesto",
+        name: "Ernesto Amantegui Phumipha",
         footballName: "Ernesto",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/NM2WJ9WR/Ernesto_PNG.webp",
         personalData: {
-            fullName: "Ernesto",
+            fullName: "Ernesto Amantegui Phumipha",
             nickname: "Ernesto",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            nationality: "Española, Tailandesa",
+            height: "1,80 m",
+            birthDate: "16/04/1990",
             deathDate: null
         },
         career: [
@@ -10019,20 +10019,20 @@ const playersData = {
     },
 
     artabe2010: {
-        name: "Artabe",
+        name: "Alfonso Artabe Meca",
         footballName: "Artabe",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/wTws21HW/Artabe-PNG.webp",
         personalData: {
-            fullName: "Artabe",
+            fullName: "Alfonso Artabe Meca",
             nickname: "Artabe",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Palma, Islas Baleares",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,88 m",
+            birthDate: "18/08/1988",
             deathDate: null
         },
         career: [
@@ -10050,20 +10050,20 @@ const playersData = {
     },
 
     gonzalo2010: {
-        name: "Gonzalo",
+        name: "Gonzalo de la Fuente de la Iglesia",
         footballName: "Gonzalo",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/yd0L3FMp/Gonzalo_PNG.webp",
         personalData: {
-            fullName: "Gonzalo",
+            fullName: "Gonzalo de la Fuente de la Iglesia",
             nickname: "Gonzalo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Burgos, Burgos",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "21/03/1984",
             deathDate: null
         },
         career: [
@@ -10081,20 +10081,20 @@ const playersData = {
     },
 
     lopezramos: {
-        name: "López Ramos",
+        name: "Daniel López Ramos",
         footballName: "López Ramos",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/CdpYHH5Z/López_Ramos_PNG.webp",
         personalData: {
-            fullName: "López Ramos",
+            fullName: "Daniel López Ramos",
             nickname: "López Ramos",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Jerez de la Frontera, Cádiz",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "24/11/1976",
             deathDate: null
         },
         career: [
@@ -10112,20 +10112,20 @@ const playersData = {
     },
 
     richi: {
-        name: "Richi",
+        name: "Ricardo Segura Martínez",
         footballName: "Richi",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/cHDBnXDm/Richi_PNG.webp",
         personalData: {
-            fullName: "Richi",
+            fullName: "Ricardo Segura Martínez",
             nickname: "Richi",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,85 m",
+            birthDate: "22/04/1986",
             deathDate: null
         },
         career: [
@@ -10143,20 +10143,20 @@ const playersData = {
     },
 
     rubengonzalez: {
-        name: "Rubén González",
+        name: "Rubén González González",
         footballName: "Rubén González",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/T3rj9R7h/Rubén_González_PNG.webp",
         personalData: {
-            fullName: "Rubén González",
+            fullName: "Rubén González González",
             nickname: "Rubén González",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,77 m",
+            birthDate: "01/08/1985",
             deathDate: null
         },
         career: [
@@ -10174,20 +10174,20 @@ const playersData = {
     },
 
     javibarral: {
-        name: "Javi Barral",
+        name: "Javier Barral García",
         footballName: "Javi Barral",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/htH88Xbk/Javi_Barral_PNG.webp",
         personalData: {
-            fullName: "Javi Barral",
+            fullName: "Javier Barral García",
             nickname: "Javi Barral",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,83 m",
+            birthDate: "30/09/1981",
             deathDate: null
         },
         career: [
@@ -10205,20 +10205,20 @@ const playersData = {
     },
 
     larrea: {
-        name: "Larrea",
+        name: "Ander Larrea Murga",
         footballName: "Larrea",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/D09fp3jw/Larrea_PNG.webp",
         personalData: {
-            fullName: "Larrea",
+            fullName: "Ander Larrea Murga",
             nickname: "Larrea",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Bilbao, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,70 m",
+            birthDate: "23/01/1989",
             deathDate: null
         },
         career: [
@@ -10236,20 +10236,20 @@ const playersData = {
     },
 
     danihedrera: {
-        name: "Dani Hedrera",
+        name: "Daniel Hedrera Lobatón",
         footballName: "Dani Hedrera",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/P5hTC409/Dani_Hedrera_PNG.webp",
         personalData: {
-            fullName: "Dani Hedrera",
+            fullName: "Daniel Hedrera Lobatón",
             nickname: "Dani Hedrera",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Jerez de la Frontera, Cádiz",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "15/08/1983",
             deathDate: null
         },
         career: [
@@ -10267,20 +10267,20 @@ const playersData = {
     },
 
     nico: {
-        name: "Nico",
+        name: "Nicolás Álvarez García",
         footballName: "Nico",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/bJQjYS3p/Nico_PNG.webp",
         personalData: {
-            fullName: "Nico",
+            fullName: "Nicolás Álvarez García",
             nickname: "Nico",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "03/04/1991",
             deathDate: null
         },
         career: [
@@ -10298,20 +10298,20 @@ const playersData = {
     },
 
     ikerlasarte: {
-        name: "Iker Lasarte",
+        name: "Iker Lasarte Herrero",
         footballName: "Iker Lasarte",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/1RHHx5sF/Iker_Lasarte_PNG.webp",
         personalData: {
-            fullName: "Iker Lasarte",
+            fullName: "Iker Lasarte Herrero",
             nickname: "Iker Lasarte",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Ondárroa, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "01/07/1979",
             deathDate: null
         },
         career: [
@@ -10329,20 +10329,20 @@ const playersData = {
     },
 
     davidfarina: {
-        name: "David Fariña",
+        name: "David Fariña Bretal",
         footballName: "David Fariña",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/dtYz60nT/Fariña_PNG.webp",
         personalData: {
-            fullName: "David Fariña",
+            fullName: "David Fariña Bretal",
             nickname: "David Fariña",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Avilés, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "25/10/1975",
             deathDate: null
         },
         career: [
@@ -10360,20 +10360,20 @@ const playersData = {
     },
 
     joseluis: {
-        name: "José Luis",
+        name: "José Luis Vázquez Álvarez",
         footballName: "José Luis",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/nLGssrdY/José_Luis_PNG.webp",
         personalData: {
-            fullName: "José Luis",
+            fullName: "José Luis Vázquez Álvarez",
             nickname: "José Luis",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Ribadesella, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "20/11/1981",
             deathDate: null
         },
         career: [
@@ -10391,20 +10391,20 @@ const playersData = {
     },
 
     pablonaredo: {
-        name: "Pablo Naredo",
+        name: "Pablo Peláez Naredo",
         footballName: "Pablo Naredo",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/0QGL1RyN/Pablo_Naredo_PNG.webp",
         personalData: {
-            fullName: "Pablo Naredo",
+            fullName: "Pablo Peláez Naredo",
             nickname: "Pablo Naredo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Colloto, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,71 m",
+            birthDate: "05/01/1991",
             deathDate: null
         },
         career: [
@@ -10422,20 +10422,20 @@ const playersData = {
     },
 
     alvarocosta: {
-        name: "Álvaro Costa",
+        name: "Álvaro Costa de Travy",
         footballName: "Álvaro Costa",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/15BDdW0r/Alvaro-Costa-PNG.webp",
         personalData: {
-            fullName: "Álvaro Costa",
+            fullName: "Álvaro Costa de Travy",
             nickname: "Álvaro Costa",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Sabadell, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "21/12/1989",
             deathDate: null
         },
         career: [
@@ -10484,20 +10484,20 @@ const playersData = {
     },
 
     carmona: {
-        name: "Carmona",
+        name: "Francisco Fernando Carmona Fernández",
         footballName: "Carmona",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/k4MmTg7c/Carmona_PNG.webp",
         personalData: {
-            fullName: "Carmona",
+            fullName: "Francisco Fernando Carmona Fernández",
             nickname: "Carmona",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Almendralejo, Badajoz",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "03/06/1985",
             deathDate: null
         },
         career: [
@@ -10515,20 +10515,20 @@ const playersData = {
     },
 
     diegomeijide: {
-        name: "Diego Meijide",
+        name: "Diego Martín Meijide Blanco",
         footballName: "Diego Meijide",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/yYhzCRWP/Diego_Meijide_PNG.webp",
         personalData: {
-            fullName: "Diego Meijide",
+            fullName: "Diego Martín Meijide Blanco",
             nickname: "Diego Meijide",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Montevideo, Montevideo",
+            country: "Uruguay",
+            nationality: "Uruguaya, Española",
+            height: "1,87 m",
+            birthDate: "09/05/1976",
             deathDate: null
         },
         career: [
@@ -10546,20 +10546,20 @@ const playersData = {
     },
 
     bravo: {
-        name: "Bravo",
+        name: "Francisco Javier López Bravo",
         footballName: "Bravo",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/sfwXdb8x/Bravo-PNG.webp",
         personalData: {
-            fullName: "Bravo",
+            fullName: "Francisco Javier López Bravo",
             nickname: "Bravo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Málaga, Málaga",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "06/04/1974",
             deathDate: null
         },
         career: [
