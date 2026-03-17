@@ -10949,20 +10949,20 @@ const playersData = {
     },
 
     paul: {
-        name: "Paul",
+        name: "Paul Folgueras Fende",
         footballName: "Paul",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/tR5LrjcS/Paul_PNG.webp",
         personalData: {
-            fullName: "Paul",
+            fullName: "Paul Folgueras Fende",
             nickname: "Paul",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "04/03/1983",
             deathDate: null
         },
         career: [
@@ -11259,20 +11259,20 @@ const playersData = {
     },
 
     manu: {
-        name: "Manu",
+        name: "Manuel Casal Garrido",
         footballName: "Manu",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/MKJvY1hb/Manu_PNG.webp",
         personalData: {
-            fullName: "Manu",
+            fullName: "Manuel Casal Garrido",
             nickname: "Manu",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Malpica de Bergantiños, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "27/02/1980",
             deathDate: null
         },
         career: [
@@ -11352,20 +11352,20 @@ const playersData = {
     },
 
     ibanperez: {
-        name: "Ibán Pérez",
+        name: "Ibán Pérez Pascual",
         footballName: "Ibán Pérez",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/cL6TByqn/Ibán_Pérez_PNG.webp",
         personalData: {
-            fullName: "Ibán Pérez",
+            fullName: "Ibán Pérez Pascual",
             nickname: "Ibán Pérez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pamplona, Navarra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,77 m",
+            birthDate: "19/10/1974",
             deathDate: null
         },
         career: [
@@ -11383,20 +11383,20 @@ const playersData = {
     },
 
     raul: {
-        name: "Raúl",
+        name: "Raúl García Lozano",
         footballName: "Raúl",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/44LW7Nqg/Raúl_PNG.webp",
         personalData: {
-            fullName: "Raúl",
+            fullName: "Raúl García Lozano",
             nickname: "Raúl",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,87 m",
+            birthDate: "11/09/1980",
             deathDate: null
         },
         career: [
@@ -11414,20 +11414,20 @@ const playersData = {
     },
 
     sarasua: {
-        name: "Sarasúa",
+        name: "Koldo Sarasúa Gamazo",
         footballName: "Sarasúa",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/QC91WsK8/Sarasúa_PNG.webp",
         personalData: {
-            fullName: "Sarasúa",
+            fullName: "Koldo Sarasúa Gamazo",
             nickname: "Sarasúa",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Durango, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,81 m",
+            birthDate: "18/03/1972",
             deathDate: null
         },
         career: [
@@ -11445,20 +11445,20 @@ const playersData = {
     },
 
     gurrutxaga: {
-        name: "Gurrutxaga",
+        name: "Javier Gurrutxaga Rivero",
         footballName: "Gurrutxaga",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/nc30mVWx/Gurrutxaga_PNG.webp",
         personalData: {
-            fullName: "Gurrutxaga",
+            fullName: "Javier Gurrutxaga Rivero",
             nickname: "Gurrutxaga",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Elgóibar, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,83 m",
+            birthDate: "13/06/1975",
             deathDate: null
         },
         career: [
@@ -11507,20 +11507,20 @@ const playersData = {
     },
 
     fran2002: {
-        name: "Fran",
+        name: "Francisco José Figueroa Alonso",
         footballName: "Fran",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/SR713WVY/Fran_FIGUEROA_PNG.webp",
         personalData: {
-            fullName: "Fran",
+            fullName: "Francisco José Figueroa Alonso",
             nickname: "Fran",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Valencia, Valencia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "22/06/1972",
             deathDate: null
         },
         career: [
@@ -11538,20 +11538,20 @@ const playersData = {
     },
 
     angel2002: {
-        name: "Ángel",
+        name: "Ángel Luis Pérez Pérez",
         footballName: "Ángel",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/rsctnWKH/Angel-PNG.webp",
         personalData: {
-            fullName: "Ángel",
+            fullName: "Ángel Luis Pérez Pérez",
             nickname: "Ángel",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Avilés, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "21/02/1981",
             deathDate: null
         },
         career: [
@@ -11569,20 +11569,20 @@ const playersData = {
     },
 
     yago: {
-        name: "Yago",
+        name: "Yago Yao Alonso-Fueyo Sako",
         footballName: "Yago",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/N0F8mZnz/Yago_PNG.webp",
         personalData: {
-            fullName: "Yago",
+            fullName: "Yago Yao Alonso-Fueyo Sako",
             nickname: "Yago",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Abiyán, Lagunes",
+            country: "Costa de Marfil",
+            nationality: "Costamarfileña, Ecuatoguineana, Española",
+            height: "1,82 m",
+            birthDate: "19/08/1979",
             deathDate: null
         },
         career: [
@@ -11600,20 +11600,20 @@ const playersData = {
     },
 
     javiparedes: {
-        name: "Javi Paredes",
+        name: "Javier Paredes Arango",
         footballName: "Javi Paredes",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/HWBQZZ94/Javi_Paredes_PNG.webp",
         personalData: {
-            fullName: "Javi Paredes",
+            fullName: "Javier Paredes Arango",
             nickname: "Javi Paredes",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,77 m",
+            birthDate: "05/07/1982",
             deathDate: null
         },
         career: [
@@ -11631,20 +11631,20 @@ const playersData = {
     },
 
     albertosaavedra: {
-        name: "Alberto Saavedra",
+        name: "Alberto Saavedra Muñoz",
         footballName: "Alberto Saavedra",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/76zgQwX5/Alberto-Saavedra-PNG.webp",
         personalData: {
-            fullName: "Alberto Saavedra",
+            fullName: "Alberto Saavedra Muñoz",
             nickname: "Alberto Saavedra",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,90 m",
+            birthDate: "29/10/1981",
             deathDate: null
         },
         career: [
@@ -11662,20 +11662,20 @@ const playersData = {
     },
 
     sergio: {
-        name: "Sergio",
+        name: "Sergio Alejandro Díaz",
         footballName: "Sergio",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/T3qmbt1D/Sergio_PNG.webp",
         personalData: {
-            fullName: "Sergio",
+            fullName: "Sergio Alejandro Díaz",
             nickname: "Sergio",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Turón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,94 m",
+            birthDate: "09/02/1985",
             deathDate: null
         },
         career: [
@@ -11910,20 +11910,20 @@ const playersData = {
     },
 
     martinovic: {
-        name: "Martinović",
+        name: "Milan Martinović",
         footballName: "Martinović",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/65h5LgVt/Martinovic_PNG.webp",
         personalData: {
-            fullName: "Martinović",
+            fullName: "Milan Martinović",
             nickname: "Martinović",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Belgrado, Serbia",
+            country: "Yugoslavia",
+            nationality: "Yugoslava, Serbia",
+            height: "1,81 m",
+            birthDate: "06/08/1979",
             deathDate: null
         },
         career: [
@@ -11941,20 +11941,20 @@ const playersData = {
     },
 
     ivo: {
-        name: "Ivo",
+        name: "Iván Rodríguez Rabell",
         footballName: "Ivo",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/KvpDzqKv/Ivo_PNG.webp",
         personalData: {
-            fullName: "Ivo",
+            fullName: "Iván Rodríguez Rabell",
             nickname: "Ivo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Barcelona, Barcelona",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,86 m",
+            birthDate: "15/04/1978",
             deathDate: null
         },
         career: [
@@ -12003,20 +12003,20 @@ const playersData = {
     },
 
     gaspar: {
-        name: "Gaspar",
+        name: "Gaspar Gálvez Burgos",
         footballName: "Gaspar",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/7ZLttJzb/Gaspar_PNG.webp",
         personalData: {
-            fullName: "Gaspar",
+            fullName: "Gaspar Gálvez Burgos",
             nickname: "Gaspar",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Córdoba, Córdoba",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,82 m",
+            birthDate: "07/07/1979",
             deathDate: null
         },
         career: [
@@ -12034,20 +12034,20 @@ const playersData = {
     },
 
     pablosuarez: {
-        name: "Pablo Suárez",
+        name: "Pablo Suárez Álvarez",
         footballName: "Pablo Suárez",
         position: "Defensa",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/90WsW8DY/Pablo_Suárez_PNG.webp",
         personalData: {
-            fullName: "Pablo Suárez",
+            fullName: "Pablo Suárez Álvarez",
             nickname: "Pablo Suárez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,84 m",
+            birthDate: "19/09/1979",
             deathDate: null
         },
         career: [

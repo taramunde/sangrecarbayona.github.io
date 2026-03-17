@@ -177,7 +177,7 @@ const seasonsSquads = {
     },
     "2003-04": {
         "goalkeepers": ["rafaponzo", "yoyo", "robertogomez"],
-        "defenders": ["paul", "manu", "paul", "merino", "alaez", "luismi2004", "manoloaparicio", "luis2004"],
+        "defenders": ["paul", "manu", "merino", "alaez", "luismi2004", "manoloaparicio", "luis2004"],
         "midfielders": ["kily", "granada", "jandro", "francuetara", "benjamin2004", "fransosa", "armandobarbon", "michu", "pascual", "nachomatador", "joncarrera", "jorgepolanco"],
         "forwards": ["diegocervero", "recaman", "omar2003", "aldeondo", "juanvaldes2005", "dario"],
         "coaches": ["rivas2005"],
