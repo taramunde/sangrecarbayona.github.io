@@ -30382,21 +30382,21 @@ const playersData = {
     },
 
     villita: {
-        name: "Villita",
+        name: "Luis Villanueva Márquez",
         footballName: "Villita",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/DZRx8xpX/Villita_PNG.webp",
         personalData: {
-            fullName: "Villita",
+            fullName: "Luis Villanueva Márquez",
             nickname: "Villita",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "05/05/1917",
+            deathDate: "10/04/1985"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -30506,21 +30506,21 @@ const playersData = {
     },
 
     campos: {
-        name: "Campos",
+        name: "Lucio Marqueta Navasa",
         footballName: "Campos",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/R0GX9Szq/Campos_PNG.webp",
         personalData: {
-            fullName: "Campos",
+            fullName: "Lucio Marqueta Navasa",
             nickname: "Campos",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Zaragoza, Zaragoza",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "22/12/1914",
+            deathDate: "02/05/1988"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -30692,21 +30692,21 @@ const playersData = {
     },
 
     victorero: {
-        name: "Victorero",
+        name: "Alfonso Victorero Pérez",
         footballName: "Victorero",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/q7bbdJ8Q/Victorero_(Oviedo)_PNG.webp",
         personalData: {
-            fullName: "Victorero",
+            fullName: "Alfonso Victorero Pérez",
             nickname: "Victorero",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Colunga, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "07/04/1915",
+            deathDate: "02/04/1995"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -30723,21 +30723,21 @@ const playersData = {
     },
 
     olay: {
-        name: "Olay",
+        name: "Marcelino Olay Alonso",
         footballName: "Olay",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/qvGy918G/Olay_PNG.webp",
         personalData: {
-            fullName: "Olay",
+            fullName: "Marcelino Olay Alonso",
             nickname: "Olay",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Tudela Veguín, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "09/05/1914",
+            deathDate: "04/07/1982"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -30816,21 +30816,21 @@ const playersData = {
     },
 
     ramonzuelo: {
-        name: "Ramonzuelo",
+        name: "Ramón García Martínez",
         footballName: "Ramonzuelo",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/yxvzq48H/Ramonzuelo_PNG.webp",
         personalData: {
-            fullName: "Ramonzuelo",
+            fullName: "Ramón García Martínez",
             nickname: "Ramonzuelo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Alicante, Alicante",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "06/11/1905",
+            deathDate: "00/10/1982"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -30878,21 +30878,21 @@ const playersData = {
     },
 
     david: {
-        name: "David",
+        name: "David Cuevas Acebo",
         footballName: "David",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/J73cW7c8/David_PNG.webp",
         personalData: {
-            fullName: "David",
+            fullName: "David Cuevas Acebo",
             nickname: "David",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Posada de Llanes, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "03/06/1922",
+            deathDate: "30/07/2009"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
