@@ -5863,7 +5863,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/V6mQZLW6/Baragaño_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
-        "name": "Baragano",
+        "name": "Baragaño",
         "url": "fichajugador.html?player=baragano"
     },
     "avilesu": {
@@ -5905,7 +5905,7 @@ const playersDatabase = {
         "src": "https://i.postimg.cc/Y9HMcxMt/Arturo_PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
-        "name": "Tonijuan",
+        "name": "Arturo",
         "url": "fichajugador.html?player=arturo1930"
     },
     "benito": {
