@@ -5091,7 +5091,7 @@ const playersData = {
         ],
         stats: {
             "2025/26": {
-                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
+                liga: { partidos: 20, goles_marcados: 0, tarjetas_amarillas: 2, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 4, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -17224,7 +17224,7 @@ const playersData = {
 
         stats: {
             "2025/26": {
-                liga: { partidos: 19, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 1 },
+                liga: { partidos: 20, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 1 },
                 copa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 3, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -17286,7 +17286,7 @@ const playersData = {
 
         stats: {
             "2025/26": {
-                liga: { partidos: 27, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
+                liga: { partidos: 28, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 5, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -17344,7 +17344,7 @@ const playersData = {
 
         stats: {
             "2025/26": {
-                liga: { partidos: 23, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
+                liga: { partidos: 24, goles_marcados: 0, tarjetas_amarillas: 6, tarjetas_rojas: 0 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
