@@ -366,14 +366,14 @@ const enfrentamientos = [
   // Jornada 29
   { equipo1: "Athletic Club", equipo2: "Real Betis", goles1: null, goles2: null },
   { equipo1: "F.C. Barcelona", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
-  { equipo1: "Elche C.F.", equipo2: "R.C.D. Mallorca", goles1: null, goles2: null },
+  { equipo1: "Elche C.F.", equipo2: "R.C.D. Mallorca", goles1: 2, goles2: 1 },
   { equipo1: "R.C.D. Espanyol", equipo2: "Getafe C.F.", goles1: null, goles2: null },
   { equipo1: "Levante U.D.", equipo2: "Real Oviedo", goles1: null, goles2: null },
   { equipo1: "Sevilla F.C.", equipo2: "Valencia C.F.", goles1: null, goles2: null },
   { equipo1: "Celta de Vigo", equipo2: "Deportivo Alavés", goles1: null, goles2: null },
   { equipo1: "Real Madrid", equipo2: "Atletico de Madrid", goles1: null, goles2: null },
   { equipo1: "C.A. Osasuna", equipo2: "Girona F.C.", goles1: null, goles2: null },
-  { equipo1: "Villarreal C.F.", equipo2: "Real Sociedad", goles1: null, goles2: null },
+  { equipo1: "Villarreal C.F.", equipo2: "Real Sociedad", goles1: 3, goles2: 1 },
   
   // Jornada 30
   { equipo1: "Deportivo Alavés", equipo2: "C.A. Osasuna", goles1: null, goles2: null },
