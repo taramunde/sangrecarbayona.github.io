@@ -17107,7 +17107,7 @@ const playersData = {
         ],
         stats: {
             "2025/26": {
-                liga: { partidos: 28, goles_marcados: 3, tarjetas_amarillas: 5, tarjetas_rojas: 1 },
+                liga: { partidos: 28, goles_marcados: 3, tarjetas_amarillas: 6, tarjetas_rojas: 1 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -31969,7 +31969,7 @@ const playersData = {
 
         stats: {
             "2025/26": {
-                liga: { partidos: 27, goles_marcados: 3, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
+                liga: { partidos: 27, goles_marcados: 4, tarjetas_amarillas: 1, tarjetas_rojas: 1 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 6, goles_marcados: 1, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
@@ -32024,7 +32024,7 @@ const playersData = {
 
         stats: {
             "2025/26": {
-                liga: { partidos: 25, goles_marcados: 5, tarjetas_amarillas: 4, tarjetas_rojas: 3 },
+                liga: { partidos: 25, goles_marcados: 6, tarjetas_amarillas: 4, tarjetas_rojas: 3 },
                 copa: { partidos: 1, goles_marcados: 0, tarjetas_amarillas: 1, tarjetas_rojas: 0 },
                 uefa: { partidos: 0, goles_marcados: 0, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
                 amistosos: { partidos: 6, goles_marcados: 2, tarjetas_amarillas: 0, tarjetas_rojas: 0 },
