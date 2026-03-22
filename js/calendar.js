@@ -11,12 +11,6 @@ const notes = {
             
             
             
-            '2026-03-21': {
-                text: 'Jornada 29<br> Levante U.D. - Real Oviedo<br>18:30',
-                color: 'blue',
-                shieldUrlLeft: 'https://i.postimg.cc/W1FCSyhH/Levante-U-D-PNG.png',
-                shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
-            },
             '2026-04-05': {
                 text: 'Jornada 30<br> Real Oviedo - Sevilla F.C.<br>18:30',
                 color: 'blue',
@@ -24,7 +18,7 @@ const notes = {
                 shieldUrlRight: 'https://i.postimg.cc/KzFSjx5V/Sevilla-F-C-2020.jpg'
             },
             '2026-04-12': {
-                text: 'Jornada 31<br> Celta de Vigo - Real Oviedo<br>--:--',
+                text: 'Jornada 31<br> Celta de Vigo - Real Oviedo<br>18:30',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/GtF1h6kz/R-C-Celta-de-Vigo-2016.jpg',
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
@@ -73,7 +67,7 @@ const notes = {
             }
 };
 
-const blinkingDays = ['2026-03-21', '2026-04-05', '2026-04-12', '2026-04-19', '2026-04-22', '2026-05-03', '2026-05-10', '2026-05-13', '2026-05-17', '2026-05-24'];
+const blinkingDays = ['2026-04-05', '2026-04-12', '2026-04-19', '2026-04-22', '2026-05-03', '2026-05-10', '2026-05-13', '2026-05-17', '2026-05-24'];
 
 function renderCalendar() {
     const monthName = document.getElementById('monthName');

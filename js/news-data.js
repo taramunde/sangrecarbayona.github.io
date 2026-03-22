@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/L8NjLpjZ/J-28-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Real Oviedo se da una pequeña alegría ante el Valencia.",
+        image: "https://i.postimg.cc/52NcHT12/J_29_LVA.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "El Real Oviedo ya agoniza en Primera Divisón: derrota por 4-2 ante el Levante.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/14/cronica/00031773512998829293109.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/21/real-oviedo-agoniza-primera-divison-derrota-4-2-ante-levante/00031774117963052233391"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/KzFF2dsC/J-28-LNE.jpg", // FOTO NOTICIA 2
-        title: "El Oviedo invita a creer: victoria merecida con fútbol y sufrimiento ante el Valencia (1-0).",
+        image: "https://i.postimg.cc/DwyVWHFy/J_29_LNE.webp", // FOTO NOTICIA 2
+        title: "El Oviedo firma media sentencia a Segunda: derrota en su final ante el Levante (4-2).",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/03/14/oviedo-invita-creer-victoria-merecida-127966166.html"
+        link: "https://www.lne.es/real-oviedo/2026/03/21/oviedo-firma-media-sentencia-segunda-128259928.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/ZqSXB6Fq/J-28-EC.webp", // FOTO NOTICIA 3
-        title: "Derroche de garra del Real Oviedo para aferrarse a una ilusión.",
+        image: "https://i.postimg.cc/g2k9wQd0/J_29_EC.jpg", // FOTO NOTICIA 3
+        title: "Los errores y la falta de fútbol condenan al Real Oviedo.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/derroche-garra-real-oviedo-aferrarse-ilusion-20260314210133-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/errores-falta-futbol-condenan-real-oviedo-levante-20260321223221-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/nVXZtY3W/J-28-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Oviedo vence al Valencia... y también al VAR.",
+        image: "https://i.postimg.cc/7ZYvCdD6/J_29_KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: El Levante condena a un desastroso Oviedo.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-vence-al-valencia-y-tambien-al-var"
+        link: "https://killerasturias.com/cronicas/la-cronica-el-levante-condena-un-desastroso-oviedo"
     }
 ];
 
