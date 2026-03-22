@@ -365,7 +365,7 @@ const enfrentamientos = [
   
   // Jornada 29
   { equipo1: "Athletic Club", equipo2: "Real Betis", goles1: null, goles2: null },
-  { equipo1: "F.C. Barcelona", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
+  { equipo1: "F.C. Barcelona", equipo2: "Rayo Vallecano", goles1: 1, goles2: 0 },
   { equipo1: "Elche C.F.", equipo2: "R.C.D. Mallorca", goles1: 2, goles2: 1 },
   { equipo1: "R.C.D. Espanyol", equipo2: "Getafe C.F.", goles1: 1, goles2: 2 },
   { equipo1: "Levante U.D.", equipo2: "Real Oviedo", goles1: 4, goles2: 2 },
