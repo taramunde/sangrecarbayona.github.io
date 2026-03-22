@@ -27716,20 +27716,20 @@ const playersData = {
     },
 
     javier1979: {
-        name: "Javier",
+        name: "Javier Álvarez Alonso",
         footballName: "Javier",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/sxGsWfPg/Javier-PNG.webp",
         personalData: {
-            fullName: "Javier",
+            fullName: "Javier Álvarez Alonso",
             nickname: "Javier",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,72 m",
+            birthDate: "03/11/1949",
             deathDate: null
         },
         career: [
@@ -27809,21 +27809,21 @@ const playersData = {
     },
 
     iriarte: {
-        name: "Iriarte",
+        name: "Clemente Iriarte Madariaga",
         footballName: "Iriarte",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/DzyymgR5/Iriarte_PNG.webp",
         personalData: {
-            fullName: "Iriarte",
+            fullName: "Clemente Iriarte Madariaga",
             nickname: "Iriarte",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pamplona, Navarra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,82 m",
+            birthDate: "25/07/1946",
+            deathDate: "29/12/2021"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -27933,21 +27933,21 @@ const playersData = {
     },
 
     chuso: {
-        name: "Chuso",
+        name: "Jesús Rodríguez López",
         footballName: "Chuso",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Yqwn1y8r/Chuso_PNG.webp",
         personalData: {
-            fullName: "Chuso",
+            fullName: "Jesús Rodríguez López",
             nickname: "Chuso",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,83 m",
+            birthDate: "29/04/1949",
+            deathDate: "14/11/2018"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28088,21 +28088,21 @@ const playersData = {
     },
 
     sistiaga: {
-        name: "Sistiaga",
+        name: "Felipe Sistiaga Taberna",
         footballName: "Sistiaga",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Nf3dgC2q/Sistiaga_PNG.webp",
         personalData: {
-            fullName: "Sistiaga",
+            fullName: "Felipe Sistiaga Taberna",
             nickname: "Sistiaga",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Pasajes, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,77 m",
+            birthDate: "13/12/1943",
+            deathDate: "18/05/2023"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28119,20 +28119,20 @@ const playersData = {
     },
 
     prieto: {
-        name: "Prieto",
+        name: "José Manuel López Prieto",
         footballName: "Prieto",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/QNk8gvsS/Prieto_PNG.webp",
         personalData: {
-            fullName: "Prieto",
+            fullName: "José Manuel López Prieto",
             nickname: "Prieto",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Ciaño, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,78 m",
+            birthDate: "01/01/1947",
             deathDate: null
         },
         career: [
@@ -28159,12 +28159,12 @@ const playersData = {
         personalData: {
             fullName: "Silvino",
             nickname: "Silvino",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28190,12 +28190,12 @@ const playersData = {
         personalData: {
             fullName: "Echeverría",
             nickname: "Echeverría",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28212,20 +28212,20 @@ const playersData = {
     },
 
     dagostino: {
-        name: "Dagostino",
+        name: "José Luis Morán D'Agostino",
         footballName: "Dagostino",
         position: "Centrocampista",
         role: "jugador",
         number: null,
-        image: "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        image: "https://i.postimg.cc/4yVQqmsQ/Dagostino-PNG.webp",
         personalData: {
-            fullName: "Dagostino",
+            fullName: "José Luis Morán D'Agostino",
             nickname: "Dagostino",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Gijón, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "28/11/1947",
             deathDate: null
         },
         career: [
@@ -28243,21 +28243,21 @@ const playersData = {
     },
 
     sicilia: {
-        name: "Sicilia",
+        name: "Adolfo Miguel Pérez Sicilia",
         footballName: "Sicilia",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/1XTJVJWF/Sicilia_PNG.webp",
         personalData: {
-            fullName: "Sicilia",
+            fullName: "Adolfo Miguel Pérez Sicilia",
             nickname: "Sicilia",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Villa de Mazo, Santa Cruz de Tenerife",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "08/03/1942",
+            deathDate: "13/02/2013"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28283,12 +28283,12 @@ const playersData = {
         personalData: {
             fullName: "Ordóñez",
             nickname: "Ordóñez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28305,21 +28305,21 @@ const playersData = {
     },
 
     icazuriaga: {
-        name: "Icazuriaga",
+        name: "Julián Icazuriaga Ugalde",
         footballName: "Icazuriaga",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/8kFchZc0/Icazuriaga_PNG.webp",
         personalData: {
-            fullName: "Icazuriaga",
+            fullName: "Julián Icazuriaga Ugalde",
             nickname: "Icazuriaga",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Guernica, Guipúzcoa",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,73 m",
+            birthDate: "24/08/1939",
+            deathDate: "26/05/2025"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28336,20 +28336,20 @@ const playersData = {
     },
 
     saavedra: {
-        name: "Saavedra",
+        name: "José Jorge Saavedra Rodríguez",
         footballName: "Saavedra",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Y2bcC7tc/Saavedra_PNG.webp",
         personalData: {
-            fullName: "Saavedra",
+            fullName: "José Jorge Saavedra Rodríguez",
             nickname: "Saavedra",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "23/04/1947",
             deathDate: null
         },
         career: [
@@ -28376,12 +28376,12 @@ const playersData = {
         personalData: {
             fullName: "Noriega",
             nickname: "Noriega",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28398,21 +28398,21 @@ const playersData = {
     },
 
     manolet: {
-        name: "Manolet",
+        name: "Vicente López Barberá",
         footballName: "Manolet",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/WbhGqmcN/Manolet_PNG.webp",
         personalData: {
-            fullName: "Manolet",
+            fullName: "Vicente López Barberá",
             nickname: "Manolet",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Alicante, Alicante",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "13/03/1936",
+            deathDate: "20/02/2017"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28460,20 +28460,20 @@ const playersData = {
     },
 
     osman: {
-        name: "Osman",
+        name: "Félix Osman Bendezu Negri",
         footballName: "Osman",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Sxmz7cwY/Osman_PNG.webp",
         personalData: {
-            fullName: "Osman",
+            fullName: "Félix Osman Bendezu Negri",
             nickname: "Osman",
-            birthPlace: "Pendiente, Provincia",
-            country: "España",
-            nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            birthPlace: "Lima, Lima",
+            country: "Perú",
+            nationality: "Peruana, Española",
+            height: "1,71 m",
+            birthDate: "17/06/1944",
             deathDate: null
         },
         career: [
@@ -28491,20 +28491,20 @@ const playersData = {
     },
 
     domenech: {
-        name: "Domenech",
-        footballName: "Domenech",
+        name: "Vicente Doménech Manuel",
+        footballName: "Doménech",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/25vLFT0Y/Domenech_PNG.webp",
         personalData: {
-            fullName: "Domenech",
-            nickname: "Domenech",
-            birthPlace: "Pendiente, Provincia",
+            fullName: "Vicente Doménech Manuel",
+            nickname: "Doménech",
+            birthPlace: "Valencia, Valencia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "03/11/1940",
             deathDate: null
         },
         career: [
@@ -28531,12 +28531,12 @@ const playersData = {
         personalData: {
             fullName: "Luis",
             nickname: "Luis",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28553,20 +28553,20 @@ const playersData = {
     },
 
     chema1965: {
-        name: "Chema",
+        name: "Juan Manuel Rodríguez Valdés",
         footballName: "Chema",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/nLwSBFSg/Chema_PNG.webp",
         personalData: {
-            fullName: "Chema",
+            fullName: "Juan Manuel Rodríguez Valdés",
             nickname: "Chema",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "01/01/1942",
             deathDate: null
         },
         career: [
@@ -28584,21 +28584,21 @@ const playersData = {
     },
 
     lapetra: {
-        name: "Lapetra",
+        name: "Ricardo Lapetra Coarasa",
         footballName: "Lapetra",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/d3n5QJC5/Lapetra_PNG.webp",
         personalData: {
-            fullName: "Lapetra",
+            fullName: "Ricardo Lapetra Coarasa",
             nickname: "Lapetra",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Huesca, Huesca",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,65 m",
+            birthDate: "15/08/1936",
+            deathDate: "04/04/2025"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28646,20 +28646,20 @@ const playersData = {
     },
 
     delviso: {
-        name: "Del Viso",
+        name: "Francisco Fernández-del Viso García",
         footballName: "Del Viso",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/wv8JSn13/Del_Viso_PNG.webp",
         personalData: {
-            fullName: "Del Viso",
+            fullName: "Francisco Fernández-del Viso García",
             nickname: "Del Viso",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Oviedo, Asturias",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "17/05/1941",
             deathDate: null
         },
         career: [
@@ -28677,20 +28677,20 @@ const playersData = {
     },
 
     sanchez1963: {
-        name: "Sánchez",
+        name: "Antonio Sánchez Álvarez",
         footballName: "Sánchez",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/k5rzpXvS/Sánchez_(1963)_PNG.webp",
         personalData: {
-            fullName: "Sánchez",
+            fullName: "Antonio Sánchez Álvarez",
             nickname: "Sánchez",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Cieza, Murcia",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,66 m",
+            birthDate: "19/07/1940",
             deathDate: null
         },
         career: [
@@ -28708,21 +28708,21 @@ const playersData = {
     },
 
     alcorta: {
-        name: "Alcorta",
+        name: "Ángel Alcorta Badiola",
         footballName: "Alcorta",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/44vn3mS8/Alcorta_PNG.webp",
         personalData: {
-            fullName: "Alcorta",
+            fullName: "Ángel Alcorta Badiola",
             nickname: "Alcorta",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Guernica, Vizcaya",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "04/03/1938",
+            deathDate: "06/07/2018"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28748,12 +28748,12 @@ const playersData = {
         personalData: {
             fullName: "Moreno",
             nickname: "Moreno",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28770,21 +28770,21 @@ const playersData = {
     },
 
     lorenzo: {
-        name: "Lorenzo",
+        name: "Jacinto Lorenzo Alcantarilla",
         footballName: "Lorenzo",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Vs4gCLSR/Lorenzo_PNG.webp",
         personalData: {
-            fullName: "Lorenzo",
+            fullName: "Jacinto Lorenzo Alcantarilla",
             nickname: "Lorenzo",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Madrid, Madrid",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,70 m",
+            birthDate: "14/02/1940",
+            deathDate: "20/10/2017"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28801,20 +28801,20 @@ const playersData = {
     },
 
     altabas: {
-        name: "Altabás",
+        name: "Fernando García Altabás",
         footballName: "Altabás",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/Pr2xm0hY/Altabás_PNG.webp",
         personalData: {
-            fullName: "Altabás",
+            fullName: "Fernando García Altabás",
             nickname: "Altabás",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Mazaleón, Teruel",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "1,75 m",
+            birthDate: "06/02/1940",
             deathDate: null
         },
         career: [
@@ -28832,21 +28832,21 @@ const playersData = {
     },
 
     matito: {
-        name: "Matito",
+        name: "Julio Antonio Mato Pazos",
         footballName: "Matito",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/fTG936vC/Matito_PNG.webp",
         personalData: {
-            fullName: "Matito",
+            fullName: "Julio Antonio Mato Pazos",
             nickname: "Matito",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "La Coruña, La Coruña",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "1,74 m",
+            birthDate: "02/05/1937",
+            deathDate: "25/08/2023"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28863,21 +28863,21 @@ const playersData = {
     },
 
     agustin1962: {
-        name: "Agustín",
+        name: "Agustín Sánchez Quesada",
         footballName: "Agustín",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/8kLfryjm/Agustín_PNG.webp",
         personalData: {
-            fullName: "Agustín",
+            fullName: "Agustín Sánchez Quesada",
             nickname: "Agustín",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Santa Cruz de Tenerife, Santa Cruz de Tenerife",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "30/08/1931",
+            deathDate: "28/11/2015"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28925,21 +28925,21 @@ const playersData = {
     },
 
     chares: {
-        name: "Chares",
+        name: "Antonio de La Merced Serrano",
         footballName: "Chares",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/g2m7PB6S/Chares_PNG.webp",
         personalData: {
-            fullName: "Chares",
+            fullName: "Antonio de La Merced Serrano",
             nickname: "Chares",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Soria, Soria",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "14/03/1938",
+            deathDate: "12/01/2021"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -28956,20 +28956,20 @@ const playersData = {
     },
 
     larrea1962: {
-        name: "Larrea",
+        name: "José Luis Larrea Fernández",
         footballName: "Larrea",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/FRLhdsVs/Larrea_PNG.webp",
         personalData: {
-            fullName: "Larrea",
+            fullName: "José Luis Larrea Fernández",
             nickname: "Larrea",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Vitoria, Álava",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "18/10/1941",
             deathDate: null
         },
         career: [
@@ -29018,20 +29018,20 @@ const playersData = {
     },
 
     maranonii: {
-        name: "Marañón II",
+        name: "Ángel Pérez Marañón",
         footballName: "Marañón II",
         position: "Centrocampista",
         role: "jugador",
         number: null,
         image: "https://i.postimg.cc/3wHmqP4N/Marañón_II_PNG.webp",
         personalData: {
-            fullName: "Marañón II",
+            fullName: "Ángel Pérez Marañón",
             nickname: "Marañón II",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Olite, Navarra",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "22/03/1941",
             deathDate: null
         },
         career: [
@@ -29089,12 +29089,12 @@ const playersData = {
         personalData: {
             fullName: "Coto",
             nickname: "Coto",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
-            deathDate: null
+            height: "Desconocida",
+            birthDate: "Desconocida",
+            deathDate: "Desconocida"
         },
         career: [
             { season: "2024/25", team: "Real Oviedo", category: "2ª Div." }
@@ -29120,11 +29120,11 @@ const playersData = {
         personalData: {
             fullName: "Chani",
             nickname: "Chani",
-            birthPlace: "Pendiente, Provincia",
+            birthPlace: "Desconocida, Desconocida",
             country: "España",
             nationality: "Española",
-            height: "0,00 m",
-            birthDate: "00/00/0000",
+            height: "Desconocida",
+            birthDate: "Desconocida",
             deathDate: null
         },
         career: [

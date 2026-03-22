@@ -5160,7 +5160,7 @@ const playersDatabase = {
         "url": "fichajugador.html?player=echeverria"
     },
     "dagostino": {
-        "src": "https://i.postimg.cc/28DbdgJS/Silueta.webp",
+        "src": "https://i.postimg.cc/4yVQqmsQ/Dagostino-PNG.webp",
         "alt": "Centrocampista",
         "number": "-",
         "name": "Dagostino",
