@@ -3857,13 +3857,6 @@ const playersDatabase = {
         "name": "Héctor Font",
         "url": "fichajugador.html?player=hectorfont"
     },
-    "borjavalle": {
-        "src": "https://i.postimg.cc/yYwGr8VH/Borja_Valle_PNG.webp",
-        "alt": "Centrocampista",
-        "number": "-",
-        "name": "Borja Valle",
-        "url": "fichajugador.html?player=borjavalle"
-    },
     "aguirre": {
         "src": "https://i.postimg.cc/gjbwThBh/Aguirre-PNG.webp",
         "alt": "Centrocampista",
