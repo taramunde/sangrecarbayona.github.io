@@ -17277,6 +17277,7 @@ const playersData = {
         ],
 
         nationalTeam: [
+            { season: "2026", team: "Egipto", category: "Amistosos" },
             { season: "2021", team: "Francia Sub-20", category: "Amistosos" },
             { season: "2020", team: "Francia Sub-18", category: "Amistosos" },
             { season: "2019", team: "Francia Sub-18", category: "Amistosos" },
