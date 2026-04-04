@@ -1,13 +1,13 @@
 {
   "jornada": "29 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "LEV",
-    "homeImg": "https://i.postimg.cc/L6rLBMQ9/Levante-UD.jpg",
-    "visitor": "OVI",
-    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "score": "4 - 2",
-    "date": "Sáb. 21 Mar, 18:30",
-    "time": "Ciutat de València"
+    "home": "OVI",
+    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "visitor": "SEV",
+    "visitorImg": "https://i.postimg.cc/KzFSjx5V/Sevilla_F.C._(2020).jpg",
+    "score": " - ",
+    "date": "Dom. 05 Abr, 18:30",
+    "time": "Carlos Tartiere"
   },
   "nextMatch": {
     "home": "OVI",
@@ -21,26 +21,7 @@
   
   "goalscorers": [
     {
-      "name": "Ilyas",
-      "number": "7",
-      "photo": "https://i.postimg.cc/xCTdXSFX/Ilyas_PNG_(3).webp",
-      "nation": "https://i.postimg.cc/jjfxjjwP/España.jpg",
-      "goals": 4,
-      "minute": "44'",
-      "partidos": "28",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/ilyas-chaira/profil/spieler/593412"
-    },
-    {
-      "name": "Fede Viñas",
-      "number": "9",
-      "photo": "https://i.postimg.cc/mZywx37V/Fede_Viñas_PNG_(3).webp",
-      "nation": "https://i.postimg.cc/G2tjyzdg/Uruguay.png",
-      "goals": 6,
-      "minute": "45'+3 (Pen.)",
-      "partidos": "26",
-      "temp": "2025/26",
-      "link": "https://www.transfermarkt.es/federico-vinas/profil/spieler/578419"
+      
     }
     
   ],
