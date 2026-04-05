@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/52NcHT12/J_29_LVA.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Real Oviedo ya agoniza en Primera Divisón: derrota por 4-2 ante el Levante.",
+        image: "https://i.postimg.cc/63ZRBFBV/J-30-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "El Real Oviedo le pega un mordisco al Sevilla.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/03/21/real-oviedo-agoniza-primera-divison-derrota-4-2-ante-levante/00031774117963052233391"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/04/05/real-oviedo-pega-mordisco-sevilla/00031775410699936494113.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/DwyVWHFy/J_29_LNE.webp", // FOTO NOTICIA 2
-        title: "El Oviedo firma media sentencia a Segunda: derrota en su final ante el Levante (4-2).",
+        image: "https://i.postimg.cc/NGT7t203/J-30-LNE.webp", // FOTO NOTICIA 2
+        title: "Victoria de superviviente: el Oviedo tira de coraje (1-0) ante el Sevilla.",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/03/21/oviedo-firma-media-sentencia-segunda-128259928.html"
+        link: "https://www.lne.es/real-oviedo/2026/04/05/victoria-superviviente-oviedio-tira-coraje-128770019.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/g2k9wQd0/J_29_EC.jpg", // FOTO NOTICIA 3
-        title: "Los errores y la falta de fútbol condenan al Real Oviedo.",
+        image: "https://i.postimg.cc/wj9k0xgb/J-30-EC.webp", // FOTO NOTICIA 3
+        title: "El Real Oviedo vuelve ganar y se aferra al hilo de vida.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/errores-falta-futbol-condenan-real-oviedo-levante-20260321223221-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-vuelve-ganar-aferra-hilo-vida-20260406225130-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/7ZYvCdD6/J_29_KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Levante condena a un desastroso Oviedo.",
+        image: "https://i.postimg.cc/wjzwZcQ8/J-30-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: Fede Viñas devuelve algo de fe al Oviedo.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-el-levante-condena-un-desastroso-oviedo"
+        link: "https://killerasturias.com/cronicas/la-cronica-fede-vinas-devuelve-algo-de-fe-al-oviedo"
     }
 ];
 
