@@ -5,23 +5,31 @@
     "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "visitor": "SEV",
     "visitorImg": "https://i.postimg.cc/KzFSjx5V/Sevilla_F.C._(2020).jpg",
-    "score": " - ",
+    "score": "1 - 0",
     "date": "Dom. 05 Abr, 18:30",
     "time": "Carlos Tartiere"
   },
   "nextMatch": {
-    "home": "OVI",
-    "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "visitor": "SEV",
-    "visitorImg": "https://i.postimg.cc/KzFSjx5V/Sevilla_F.C._(2020).jpg",
+    "home": "CEL",
+    "homeImg": "https://i.postimg.cc/GtF1h6kz/R.C._Celta_de_Vigo_(2016).jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "score": " - ",
-    "date": "Dom. 05 Abr, 18:30",
-    "time": "Carlos Tartiere"
+    "date": "Dom. 12 Abr, 18:30",
+    "time": "Abanca Balaídos"
   },
   
   "goalscorers": [
     {
-      
+      "name": "Fede Viñas",
+      "number": "9",
+      "photo": "https://i.postimg.cc/mZywx37V/Fede_Viñas_PNG_(3).webp",
+      "nation": "https://i.postimg.cc/G2tjyzdg/Uruguay.png",
+      "goals": 7,
+      "minute": "32'",
+      "partidos": "27",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/federico-vinas/profil/spieler/578419"
     }
     
   ],
