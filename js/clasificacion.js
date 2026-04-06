@@ -379,7 +379,7 @@ const enfrentamientos = [
   { equipo1: "Deportivo Alavés", equipo2: "C.A. Osasuna", goles1: 2, goles2: 2 },
   { equipo1: "Atlético de Madrid", equipo2: "F.C. Barcelona", goles1: 1, goles2: 2 },
   { equipo1: "Real Betis", equipo2: "R.C.D. Espanyol", goles1: 0, goles2: 0 },
-  { equipo1: "Girona F.C.", equipo2: "Villarreal C.F.", goles1: null, goles2: null },
+  { equipo1: "Girona F.C.", equipo2: "Villarreal C.F.", goles1: 1, goles2: 0 },
   { equipo1: "R.C.D. Mallorca", equipo2: "Real Madrid", goles1: 2, goles2: 1 },
   { equipo1: "Real Oviedo", equipo2: "Sevilla F.C.", goles1: 1, goles2: 0 },
   { equipo1: "Getafe C.F.", equipo2: "Athletic Club", goles1: 2, goles2: 0 },
