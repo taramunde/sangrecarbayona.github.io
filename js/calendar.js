@@ -12,23 +12,17 @@ const notes = {
             
             
             
-            '2026-04-12': {
-                text: 'Jornada 31<br> Celta de Vigo - Real Oviedo<br>18:30',
-                color: 'blue',
-                shieldUrlLeft: 'https://i.postimg.cc/GtF1h6kz/R-C-Celta-de-Vigo-2016.jpg',
-                shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
-            },
-            '2026-04-19': {
-                text: 'Jornada 32<br> Real Oviedo - Elche C.F.<br>--:--',
-                color: 'blue',
-                shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
-                shieldUrlRight: 'https://i.postimg.cc/Kj439Dfc/Elche-C-F-2023-PNG.png'
-            },
-            '2026-04-22': {
-                text: 'Jornada 33<br> Real Oviedo - Villarreal C.F.<br>--:--',
+            '2026-04-23': {
+                text: 'Jornada 33<br> Real Oviedo - Villarreal C.F.<br>21:30',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
                 shieldUrlRight: 'https://i.postimg.cc/wBRLMdBh/Villarreal-C-F-B-2020.jpg'
+            },
+            '2026-04-26': {
+                text: 'Jornada 32<br> Real Oviedo - Elche C.F.<br>16:15',
+                color: 'blue',
+                shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
+                shieldUrlRight: 'https://i.postimg.cc/Kj439Dfc/Elche-C-F-2023-PNG.png'
             },
             '2026-05-03': {
                 text: 'Jornada 34<br> Real Betis - Real Oviedo<br>--:--',
