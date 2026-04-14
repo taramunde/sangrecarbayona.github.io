@@ -396,7 +396,7 @@ const enfrentamientos = [
   { equipo1: "Real Sociedad", equipo2: "Deportivo Alavés", goles1: 3, goles2: 3 },
   { equipo1: "Sevilla F.C.", equipo2: "Atlético de Madrid", goles1: 2, goles2: 1 },
   { equipo1: "C.A. Osasuna", equipo2: "Real Betis", goles1: 1, goles2: 1 },
-  { equipo1: "Levante U.D.", equipo2: "Getafe C.F.", goles1: null, goles2: null },
+  { equipo1: "Levante U.D.", equipo2: "Getafe C.F.", goles1: 1, goles2: 0 },
   { equipo1: "Real Madrid", equipo2: "Girona F.C.", goles1: 1, goles2: 1 },
   
   // Jornada 32
