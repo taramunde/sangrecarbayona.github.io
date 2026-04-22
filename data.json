@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "jornada": "33 LaLiga EA Sports 2025/26",
   "currentMatch": {
     "home": "OVI",
@@ -8,6 +9,17 @@
     "score": " - ",
     "date": "Jue. 23 Mar, 21:30",
     "time": "Carlos Tartiere"
+=======
+  "jornada": "30 LaLiga EA Sports 2025/26",
+  "currentMatch": {
+    "home": "CEL",
+    "homeImg": "https://i.postimg.cc/GtF1h6kz/R.C._Celta_de_Vigo_(2016).jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "score": "0 - 3",
+    "date": "Dom. 12 Abr, 18:30",
+    "time": "Abanca Balaídos"
+>>>>>>> e1ee153f9d7cac1012812c583bd3bbd6d147aba7
   },
   "nextMatch": {
     "home": "OVI",
@@ -15,13 +27,42 @@
     "visitor": "VIL",
     "visitorImg": "https://i.postimg.cc/tJcPc0Xz/Villarreal-B.jpg",
     "score": " - ",
+<<<<<<< HEAD
     "date": "Jue. 23 Mar, 21:30",
+=======
+    "date": "Jue. 23 Abr, 21:30",
+>>>>>>> e1ee153f9d7cac1012812c583bd3bbd6d147aba7
     "time": "Carlos Tartiere"
   },
   
   "goalscorers": [
+<<<<<<< HEAD
     
     
+=======
+    {
+      "name": "Alberto Reina",
+      "number": "5",
+      "photo": "https://i.postimg.cc/mDCkCD2g/Alberto_Reina_PNG.webp",
+      "nation": "https://i.postimg.cc/jjfxjjwP/España.jpg",
+      "goals": 4,
+      "minute": "4'",
+      "partidos": "31",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/alberto-reina/profil/spieler/603696"
+    },
+    {
+      "name": "Fede Viñas",
+      "number": "9",
+      "photo": "https://i.postimg.cc/mZywx37V/Fede_Viñas_PNG_(3).webp",
+      "nation": "https://i.postimg.cc/G2tjyzdg/Uruguay.png",
+      "goals": 9,
+      "minute": "45' 57'",
+      "partidos": "28",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/federico-vinas/profil/spieler/578419"
+    }
+>>>>>>> e1ee153f9d7cac1012812c583bd3bbd6d147aba7
     
   ],
 

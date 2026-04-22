@@ -118,6 +118,14 @@ const videosDB = [
     {
         id: "syuJRG2bmgg",
         title: "J29 Levante U.D. Vs Real Oviedo"
+    },
+    {
+        id: "LxGj0yYUclM",
+        title: "J30 Real Oviedo Vs Sevilla F.C."
+    },
+    {
+        id: "SUVyA17gEY8",
+        title: "J31 Celta de Vigo Vs Real Oviedo"
     }
 
 
