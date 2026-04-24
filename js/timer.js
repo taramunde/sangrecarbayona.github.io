@@ -1,6 +1,6 @@
 // js/timer.js
 function updateTimer() {
-    const future = Date.parse("Apr 23, 2026 21:30:00"); // Fecha del próximo partido (Atlético de Madrid vs Real Oviedo)
+    const future = Date.parse("Apr 26, 2026 16:15:00"); // Fecha del próximo partido (Atlético de Madrid vs Real Oviedo)
     const now = new Date();
     const diff = future - now;
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));

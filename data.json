@@ -5,22 +5,32 @@
     "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "visitor": "VIL",
     "visitorImg": "https://i.postimg.cc/tJcPc0Xz/Villarreal-B.jpg",
-    "score": " - ",
+    "score": "1 - 1",
     "date": "Jue. 23 Mar, 21:30",
     "time": "Carlos Tartiere"
   },
   "nextMatch": {
     "home": "OVI",
     "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "visitor": "VIL",
-    "visitorImg": "https://i.postimg.cc/tJcPc0Xz/Villarreal-B.jpg",
+    "visitor": "ELC",
+    "visitorImg": "https://i.postimg.cc/76t62Ncm/Elche-KIMI.webp",
     "score": " - ",
-    "date": "Jue. 23 Mar, 21:30",
+    "date": "Dom. 26 Mar, 16:15",
     "time": "Carlos Tartiere"
   },
   
   "goalscorers": [
-    
+    {
+      "name": "Ilyas",
+      "number": "7",
+      "photo": "https://i.postimg.cc/xCTdXSFX/Ilyas-PNG-(3).webp",
+      "nation": "https://i.postimg.cc/jjfxjjwP/Espana.jpg",
+      "goals": 5,
+      "minute": "69'",
+      "partidos": "31",
+      "temp": "2025/26",
+      "link": "https://www.transfermarkt.es/ilyas-chaira/profil/spieler/593412"
+    }
     
     
   ],

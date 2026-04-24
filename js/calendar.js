@@ -12,12 +12,6 @@ const notes = {
             
             
             
-            '2026-04-23': {
-                text: 'Jornada 33<br> Real Oviedo - Villarreal C.F.<br>21:30',
-                color: 'blue',
-                shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
-                shieldUrlRight: 'https://i.postimg.cc/wBRLMdBh/Villarreal-C-F-B-2020.jpg'
-            },
             '2026-04-26': {
                 text: 'Jornada 32<br> Real Oviedo - Elche C.F.<br>16:15',
                 color: 'blue',
@@ -25,19 +19,19 @@ const notes = {
                 shieldUrlRight: 'https://i.postimg.cc/Kj439Dfc/Elche-C-F-2023-PNG.png'
             },
             '2026-05-03': {
-                text: 'Jornada 34<br> Real Betis - Real Oviedo<br>--:--',
+                text: 'Jornada 34<br> Real Betis - Real Oviedo<br>18:30',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/J49HDXVF/Real-Betis-Balompi-2016.jpg',
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
             },
             '2026-05-10': {
-                text: 'Jornada 35<br> Real Oviedo - Getafe C.F.<br>--:--',
+                text: 'Jornada 35<br> Real Oviedo - Getafe C.F.<br>18:30',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
                 shieldUrlRight: 'https://i.postimg.cc/kXgS8Cp0/Getafe-C-F-2018.jpg'
             },
-            '2026-05-13': {
-                text: 'Jornada 36<br> Real Madrid - Real Oviedo<br>--:--',
+            '2026-05-14': {
+                text: 'Jornada 36<br> Real Madrid - Real Oviedo<br>21:30',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/FHcQ5ZGr/Real-Madrid-2022.png',
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
@@ -56,7 +50,7 @@ const notes = {
             }
 };
 
-const blinkingDays = ['2026-04-12', '2026-04-19', '2026-04-22', '2026-05-03', '2026-05-10', '2026-05-13', '2026-05-17', '2026-05-24'];
+const blinkingDays = ['2026-04-26', '2026-05-03', '2026-05-10', '2026-05-14', '2026-05-17', '2026-05-24'];
 
 function renderCalendar() {
     const monthName = document.getElementById('monthName');
