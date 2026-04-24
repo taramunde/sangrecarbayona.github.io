@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/VkvcR5Kf/J31-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "Fede reina en Balaídos: el Real Oviedo gana 0-3 y se agarra a la permanencia.",
+        image: "https://i.postimg.cc/mkfcyBsX/J-33-LVA.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "Punto guerrero del Real Oviedo ante el Villarreal.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/04/12/fede-reina-balaidos-real-oviedo-gana-0-3-agarra-permanencia/00031776009583584927309.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/04/23/cronica/00031776976353117623891.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/y8t2yjJV/J31-LNE.jpg", // FOTO NOTICIA 2
-        title: "El Real Oviedo se lanza a por su milagro: goleada al Celta en el mejor partido del año (0-3).",
+        image: "https://i.postimg.cc/kG3Vvqmj/J-33-LNE.webp", // FOTO NOTICIA 2
+        title: "Un punto que pudieron ser tres: el Oviedo se levanta con brío y sigue vivo (1-1).",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/04/12/real-oviedo-lanza-milagro-goleada-129017877.html"
+        link: "https://www.lne.es/real-oviedo/2026/04/23/punto-pudieron-tres-oviedo-levanta-129460419.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/gJDMQH03/J31-EC.webp", // FOTO NOTICIA 3
-        title: "Fede Viñas mantiene viva la esperanza del Real Oviedo.",
+        image: "https://i.postimg.cc/cCyKB0S5/J-33-EC.jpg", // FOTO NOTICIA 3
+        title: "El Real Oviedo tira de épica para aferrarse a Primera.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/celta-vigo-real-oviedo-partido-resultado-goles-cronica-fede-vinas-20260412212542-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-tira-epica-aferrarse-primera-20260423235455-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/4x9Wsgdv/J31-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: Fede Viñas desata a un gran Oviedo en Balaídos.",
+        image: "https://i.postimg.cc/6qJ7ftXP/J-33-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: El Oviedo se levanta ante el Villarreal y mantiene viva la llama.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-fede-vinas-desata-un-gran-oviedo-en-balaidos"
+        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-se-levanta-ante-el-villarreal-y-mantiene-viva-la-llama"
     }
 ];
 
