@@ -12,12 +12,6 @@ const notes = {
             
             
             
-            '2026-04-26': {
-                text: 'Jornada 32<br> Real Oviedo - Elche C.F.<br>16:15',
-                color: 'blue',
-                shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
-                shieldUrlRight: 'https://i.postimg.cc/Kj439Dfc/Elche-C-F-2023-PNG.png'
-            },
             '2026-05-03': {
                 text: 'Jornada 34<br> Real Betis - Real Oviedo<br>18:30',
                 color: 'blue',
@@ -50,7 +44,7 @@ const notes = {
             }
 };
 
-const blinkingDays = ['2026-04-26', '2026-05-03', '2026-05-10', '2026-05-14', '2026-05-17', '2026-05-24'];
+const blinkingDays = ['2026-05-03', '2026-05-10', '2026-05-14', '2026-05-17', '2026-05-24'];
 
 function renderCalendar() {
     const monthName = document.getElementById('monthName');
