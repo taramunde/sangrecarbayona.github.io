@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/mkfcyBsX/J-33-LVA.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "Punto guerrero del Real Oviedo ante el Villarreal.",
+        image: "https://i.postimg.cc/4NCCz4nP/J-32-LVA.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "El Real Oviedo, tocado y casi hundido.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/04/23/cronica/00031776976353117623891.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/04/26/real-oviedo-tocado-hundido/00031777216824682588336.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/kG3Vvqmj/J-33-LNE.webp", // FOTO NOTICIA 2
-        title: "Un punto que pudieron ser tres: el Oviedo se levanta con brío y sigue vivo (1-1).",
+        image: "https://i.postimg.cc/8P88hksb/J-32-LNE.webp", // FOTO NOTICIA 2
+        title: "Al Oviedo se le escapa la vida: derrota con aroma a Segunda ante el Elche (1-2).",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/04/23/punto-pudieron-tres-oviedo-levanta-129460419.html"
+        link: "https://www.lne.es/real-oviedo/2026/04/26/oviedo-le-escapa-vida-derrota-129546517.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/cCyKB0S5/J-33-EC.jpg", // FOTO NOTICIA 3
-        title: "El Real Oviedo tira de épica para aferrarse a Primera.",
+        image: "https://i.postimg.cc/MKkkyZXD/J-32-EC.jpg", // FOTO NOTICIA 3
+        title: "Un Real Oviedo negado queda a un paso de Segunda.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-tira-epica-aferrarse-primera-20260423235455-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-elche-paso-segunda-20260426185151-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/6qJ7ftXP/J-33-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Oviedo se levanta ante el Villarreal y mantiene viva la llama.",
+        image: "https://i.postimg.cc/ZKkkrY0j/J-32-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: El Elche da la estocada definitiva al Oviedo.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-se-levanta-ante-el-villarreal-y-mantiene-viva-la-llama"
+        link: "https://killerasturias.com/cronicas/la-cronica-el-elche-da-la-estocada-definitiva-al-oviedo"
     }
 ];
 
