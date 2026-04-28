@@ -31949,7 +31949,7 @@ const playersData = {
             birthPlace: "Ripoll, Gerona",
             country: "España",
             nationality: "Española, Marroquí",
-            height: "1,86 m",
+            height: "1,79 m",
             birthDate: "02/02/2001",
             deathDate: null, // Poner null si el jugador está vivo
         },
