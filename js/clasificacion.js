@@ -402,7 +402,7 @@ const enfrentamientos = [
   // Jornada 32
   { equipo1: "Deportivo Alavés", equipo2: "R.C.D. Mallorca", goles1: 2, goles2: 1 },
   { equipo1: "Real Betis", equipo2: "Real Madrid", goles1: 1, goles2: 1 },
-  { equipo1: "R.C.D. Espanyol", equipo2: "Levante U.D.", goles1: null, goles2: null },
+  { equipo1: "R.C.D. Espanyol", equipo2: "Levante U.D.", goles1: 0, goles2: 0 },
   { equipo1: "C.A. Osasuna", equipo2: "Sevilla F.C.", goles1: 2, goles2: 1 },
   { equipo1: "Rayo Vallecano", equipo2: "Real Sociedad", goles1: 3, goles2: 3 },
   { equipo1: "Atlético de Madrid", equipo2: "Athletic Club", goles1: 3, goles2: 2 },
