@@ -425,10 +425,10 @@ const enfrentamientos = [
   
   // Jornada 34
   { equipo1: "Deportivo Alavés", equipo2: "Athletic Club", goles1: 2, goles2: 4 },
-  { equipo1: "Real Betis", equipo2: "Real Oviedo", goles1: null, goles2: null },
+  { equipo1: "Real Betis", equipo2: "Real Oviedo", goles1: 3, goles2: 0 },
   { equipo1: "Celta de Vigo", equipo2: "Elche C.F.", goles1: 3, goles2: 1 },
-  { equipo1: "R.C.D. Espanyol", equipo2: "Real Madrid", goles1: null, goles2: null },
-  { equipo1: "Getafe C.F.", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
+  { equipo1: "R.C.D. Espanyol", equipo2: "Real Madrid", goles1: 0, goles2: 2 },
+  { equipo1: "Getafe C.F.", equipo2: "Rayo Vallecano", goles1: 0, goles2: 2 },
   { equipo1: "Girona F.C.", equipo2: "R.C.D. Mallorca", goles1: 0, goles2: 1 },
   { equipo1: "Valencia C.F.", equipo2: "Atlético de Madrid", goles1: 0, goles2: 2 },
   { equipo1: "C.A. Osasuna", equipo2: "F.C. Barcelona", goles1: 1, goles2: 2 },
