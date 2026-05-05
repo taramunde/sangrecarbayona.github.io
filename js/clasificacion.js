@@ -433,7 +433,7 @@ const enfrentamientos = [
   { equipo1: "Valencia C.F.", equipo2: "Atlético de Madrid", goles1: 0, goles2: 2 },
   { equipo1: "C.A. Osasuna", equipo2: "F.C. Barcelona", goles1: 1, goles2: 2 },
   { equipo1: "Villarreal C.F.", equipo2: "Levante U.D.", goles1: 5, goles2: 1 },
-  { equipo1: "Sevilla F.C.", equipo2: "Real Sociedad", goles1: null, goles2: null },
+  { equipo1: "Sevilla F.C.", equipo2: "Real Sociedad", goles1: 1, goles2: 0 },
   
    // Jornada 35
   { equipo1: "Athletic Club", equipo2: "Valencia C.F.", goles1: null, goles2: null },
