@@ -134,6 +134,14 @@ const videosDB = [
     {
         id: "EkQ3NYZHHRE",
         title: "J33 Real Oviedo Vs Villarreal C.F."
+    },
+    {
+        id: "mSncDanvuyk",
+        title: "J34 Real Betis Vs Real Oviedo"
+    },
+    {
+        id: "WXfe9-PCud4",
+        title: "J35 Real Oviedo Vs Getafe C.F."
     }
 
 
