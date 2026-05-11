@@ -31,7 +31,7 @@ const notes = {
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
             },
             '2026-05-17': {
-                text: 'Jornada 37<br> Real Oviedo - Deportivo Alavés<br>--:--',
+                text: 'Jornada 37<br> Real Oviedo - Deportivo Alavés<br>19:00',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
                 shieldUrlRight: 'https://i.postimg.cc/Jzk39hHH/Alav-s.jpg'
