@@ -445,7 +445,7 @@ const enfrentamientos = [
   { equipo1: "Real Sociedad", equipo2: "Real Betis", goles1: 2, goles2: 2 },
   { equipo1: "Sevilla F.C.", equipo2: "R.C.D. Espanyol", goles1: 2, goles2: 1 },
   { equipo1: "Real Oviedo", equipo2: "Getafe C.F.", goles1: 0, goles2: 0 },
-  { equipo1: "Rayo Vallecano", equipo2: "Girona F.C.", goles1: null, goles2: null },
+  { equipo1: "Rayo Vallecano", equipo2: "Girona F.C.", goles1: 1, goles2: 1 },
   
   // Jornada 36
   { equipo1: "Deportivo Alavés", equipo2: "F.C. Barcelona", goles1: null, goles2: null },
