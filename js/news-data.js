@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/d3B2164W/J-34-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Betis se aprovecha de los fallos del Real Oviedo.",
+        image: "https://i.postimg.cc/CMsp1rGy/J-35-LVA.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "Un digno Oviedo evita ante el Getafe el descenso matemático.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/05/03/betis-ovi/00031777829093136246760.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/05/10/digno-oviedo-evita-ante-getafe-descenso-matematico/00031778434275452249405.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/T19Vw0C4/J-34-LNE.jpg", // FOTO NOTICIA 2
-        title: "El Oviedo elige no pelear: goleada ante un Betis que se aprovechó de los errores azules (3-0).",
+        image: "https://i.postimg.cc/xj3VCpKs/J-35-LNE.webp", // FOTO NOTICIA 2
+        title: "Un orgulloso Oviedo evita el descenso en el Tartiere: empate con dos menos ante el Getafe (0-0).",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/05/03/oviedo-elige-pelear-goleada-betis-129803829.html"
+        link: "https://www.lne.es/real-oviedo/2026/05/10/orgulloso-oviedo-evita-descenso-tartiere-130070510.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/zvjCB70M/J-34-EC.webp", // FOTO NOTICIA 3
-        title: "El Betis hurga en la herida de un flojo Real Oviedo.",
+        image: "https://i.postimg.cc/ZKYtyPcw/J-35-EC.jpg", // FOTO NOTICIA 3
+        title: "Punto de coraje para prolongar la agonía del Real Oviedo.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/betis-hurga-herida-flojo-real-oviedo-20260503214712-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/punto-coraje-prolongar-agonia-real-oviedo-20260510211128-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/QCbQtm0z/J-34-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Betis y el VAR castigan a un competitivo Oviedo.",
+        image: "https://i.postimg.cc/RVC5n1dV/J-35-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: El Oviedo resiste al VAR y al Getafe.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-el-betis-y-el-var-castigan-un-competitivo-oviedo"
+        link: "https://killerasturias.com/index.php/cronicas/la-cronica-el-oviedo-resiste-al-var-y-al-getafe"
     }
 ];
 
