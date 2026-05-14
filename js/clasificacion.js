@@ -455,7 +455,7 @@ const enfrentamientos = [
   { equipo1: "Girona F.C.", equipo2: "Real Sociedad", goles1: null, goles2: null },
   { equipo1: "R.C.D. Espanyol", equipo2: "Athletic Club", goles1: 2, goles2: 0 },
   { equipo1: "C.A. Osasuna", equipo2: "Atlético de Madrid", goles1: 1, goles2: 2 },
-  { equipo1: "Valencia C.F.", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
+  { equipo1: "Valencia C.F.", equipo2: "Rayo Vallecano", goles1: 1, goles2: 1 },
   { equipo1: "Villarreal C.F.", equipo2: "Sevilla F.C.", goles1: 2, goles2: 3 },
   { equipo1: "Real Madrid", equipo2: "Real Oviedo", goles1: null, goles2: null },
   
