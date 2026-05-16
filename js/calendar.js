@@ -36,8 +36,8 @@ const notes = {
                 shieldUrlLeft: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png',
                 shieldUrlRight: 'https://i.postimg.cc/Jzk39hHH/Alav-s.jpg'
             },
-            '2026-05-24': {
-                text: 'Jornada 38<br> R.C.D. Mallorca - Real Oviedo<br>--:--',
+            '2026-05-23': {
+                text: 'Jornada 38<br> R.C.D. Mallorca - Real Oviedo<br>21:00',
                 color: 'blue',
                 shieldUrlLeft: 'https://i.postimg.cc/PryB3WKL/R-C-D-Mallorca-1996.jpg',
                 shieldUrlRight: 'https://i.postimg.cc/2yPVD3F0/Real-Oviedo-2019-actualidad.png'
