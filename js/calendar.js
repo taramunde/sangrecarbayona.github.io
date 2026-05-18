@@ -44,7 +44,7 @@ const notes = {
             }
 };
 
-const blinkingDays = ['2026-05-03', '2026-05-10', '2026-05-14', '2026-05-17', '2026-05-24'];
+const blinkingDays = ['2026-05-03', '2026-05-10', '2026-05-14', '2026-05-17', '2026-05-23'];
 
 function renderCalendar() {
     const monthName = document.getElementById('monthName');
