@@ -143,6 +143,10 @@ const videosDB = [
         id: "nWJCdYE9Oys",
         title: "J36 Real Madrid Vs Real Oviedo"
     },
+    {
+        id: "Mi6t96G-P1Q",
+        title: "J37 Real Oviedo Vs Deportivo Alavés"
+    }
 
 
 
