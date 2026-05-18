@@ -1,22 +1,22 @@
 {
   "jornada": "35 LaLiga EA Sports 2025/26",
   "currentMatch": {
-    "home": "RMA",
-    "homeImg": "https://i.postimg.cc/FHcQ5ZGr/Real-Madrid-(2022).png",
-    "visitor": "OVI",
-    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
-    "score": "2 - 0",
-    "date": "Jue. 14 May, 21:30",
-    "time": "Santiago Bernabéu"
-  },
-  "nextMatch": {
     "home": "OVI",
     "homeImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
     "visitor": "ALA",
     "visitorImg": "https://i.postimg.cc/Jzk39hHH/Alav-s.jpg",
-    "score": " - ",
-    "date": "Dpm. 17 May, 19:00",
+    "score": "0 - 1",
+    "date": "Dom. 17 May, 19:00",
     "time": "Carlos Tartiere"
+  },
+  "nextMatch": {
+    "home": "MLL",
+    "homeImg": "https://i.postimg.cc/PryB3WKL/R-C-D-Mallorca-(1996).jpg",
+    "visitor": "OVI",
+    "visitorImg": "https://i.postimg.cc/rwPjdyz9/Real-Oviedo-2019-actualidad.png",
+    "score": " - ",
+    "date": "Sáb. 23 May, 21:00",
+    "time": "Son Moix"
   },
   
   "goalscorers": [
