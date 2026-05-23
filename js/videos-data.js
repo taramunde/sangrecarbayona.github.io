@@ -146,6 +146,10 @@ const videosDB = [
     {
         id: "Mi6t96G-P1Q",
         title: "J37 Real Oviedo Vs Deportivo Alavés"
+    },
+    {
+        id: "UW8OySuv_QY",
+        title: "J38 R.C.D. Mallorca Vs Real Oviedo"
     }
 
 
