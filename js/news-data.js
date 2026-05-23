@@ -4,34 +4,34 @@ const newsData = [
     {
         sourceLogo: "https://i.postimg.cc/15Qs5NRP/logo_-_La_Voz_de_Asturias.webp",
         sourceName: "La Voz de Asturias",
-        image: "https://i.postimg.cc/s2qdz9L7/J-37-LVA.jpg", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
-        title: "El Tartiere clama por la continuidad de Cazorla y el Alavés se salva.",
+        image: "https://i.postimg.cc/x8SrtxsN/J-38-LVA.webp", // ¡PON AQUÍ LA URL DE LA FOTO DE LA NOTICIA!
+        title: "El Real Oviedo, triste espectador en el descenso del Mallorca.",
         author: "PABLO FERNÁNDEZ",
-        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/05/17/tartiere-clama-continuidad-cazorla-alaves-salva/00031779040744849363977.htm"
+        link: "https://www.lavozdeasturias.es/noticia/azulcarbayon/2026/05/23/dfrt/00031779566574106242132.htm"
     },
     {
         sourceLogo: "https://i.postimg.cc/nV7nJ1J0/logo_-_La_Nueva_España.webp",
         sourceName: "La Nueva España",
-        image: "https://i.postimg.cc/tgwQbtc3/J-37-LNE.jpg", // FOTO NOTICIA 2
-        title: "Triste colofón a una temporada para el olvido: derrota del Oviedo ante el Alavés (0-1).",
+        image: "https://i.postimg.cc/6qNsYjHv/J-38-LNE.jpg", // FOTO NOTICIA 2
+        title: "Una despedida a la altura: el Oviedo no se presenta al intento baldío del Mallorca por salvarse (3-0).",
         author: "NACHO AZPARREN",
-        link: "https://www.lne.es/real-oviedo/2026/05/17/triste-colofon-temporada-olvido-derrota-130333595.html"
+        link: "https://www.lne.es/real-oviedo/2026/05/23/despedida-altura-oviedo-presenta-baldio-130580069.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/FRkN1yJF/logo_-_El_Comercio.webp",
         sourceName: "El Comercio",
-        image: "https://i.postimg.cc/tgwQbtcF/J-37-EC.jpg", // FOTO NOTICIA 3
-        title: "El Tartiere clama a Cazorla que se quede en el Real Oviedo.",
+        image: "https://i.postimg.cc/ZnhkV7fy/J-38-EC.webp", // FOTO NOTICIA 3
+        title: "El Real Oviedo, más de lo mismo para terminar la temporada.",
         author: "RAMÓN JULIO",
-        link: "https://www.elcomercio.es/real-oviedo/tartiere-clama-cazorla-quede-real-oviedo-20260517215639-nt.html"
+        link: "https://www.elcomercio.es/real-oviedo/real-oviedo-terminar-temporada-20260524232944-nt.html"
     },
     {
         sourceLogo: "https://i.postimg.cc/7hvDz5g3/logo_-_Killer_Asturias.webp",
         sourceName: "Killer Asturias",
-        image: "https://i.postimg.cc/rp3XTCHS/J-37-KA.jpg", // FOTO NOTICIA 4
-        title: "La Crónica: El Oviedo no encuentra ni consuelo en el Tartiere.",
+        image: "https://i.postimg.cc/qqdfjbmK/J-38-KA.jpg", // FOTO NOTICIA 4
+        title: "La Crónica: El Oviedo no comparece en el funeral de Son Moix.",
         author: "JUAN MORENO",
-        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-no-encuentra-ni-consuelo-en-el-tartiere"
+        link: "https://killerasturias.com/cronicas/la-cronica-el-oviedo-no-comparece-en-el-funeral-de-son-moix"
     }
 ];
 

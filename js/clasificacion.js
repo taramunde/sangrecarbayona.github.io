@@ -472,16 +472,16 @@ const enfrentamientos = [
   { equipo1: "Sevilla F.C.", equipo2: "Real Madrid", goles1: 0, goles2: 1 },
   
   // Jornada 38
-  { equipo1: "Deportivo Alavés", equipo2: "Rayo Vallecano", goles1: null, goles2: null },
-  { equipo1: "Real Betis", equipo2: "Levante U.D.", goles1: null, goles2: null },
-  { equipo1: "Celta de Vigo", equipo2: "Sevilla F.C.", goles1: null, goles2: null },
-  { equipo1: "R.C.D. Espanyol", equipo2: "Real Sociedad", goles1: null, goles2: null },
-  { equipo1: "Getafe C.F.", equipo2: "C.A. Osasuna", goles1: null, goles2: null },
-  { equipo1: "R.C.D. Mallorca", equipo2: "Real Oviedo", goles1: null, goles2: null },
-  { equipo1: "Real Madrid", equipo2: "Athletic Club", goles1: null, goles2: null },
+  { equipo1: "Deportivo Alavés", equipo2: "Rayo Vallecano", goles1: 1, goles2: 2 },
+  { equipo1: "Real Betis", equipo2: "Levante U.D.", goles1: 2, goles2: 1 },
+  { equipo1: "Celta de Vigo", equipo2: "Sevilla F.C.", goles1: 1, goles2: 0 },
+  { equipo1: "R.C.D. Espanyol", equipo2: "Real Sociedad", goles1: 1, goles2: 1 },
+  { equipo1: "Getafe C.F.", equipo2: "C.A. Osasuna", goles1: 1, goles2: 0 },
+  { equipo1: "R.C.D. Mallorca", equipo2: "Real Oviedo", goles1: 3, goles2: 0 },
+  { equipo1: "Real Madrid", equipo2: "Athletic Club", goles1: 4, goles2: 2 },
   { equipo1: "Villarreal C.F.", equipo2: "Atlético de Madrid", goles1: null, goles2: null },
-  { equipo1: "Valencia C.F.", equipo2: "F.C. Barcelona", goles1: null, goles2: null },
-  { equipo1: "Girona F.C.", equipo2: "Elche C.F.", goles1: null, goles2: null }
+  { equipo1: "Valencia C.F.", equipo2: "F.C. Barcelona", goles1: 3, goles2: 1 },
+  { equipo1: "Girona F.C.", equipo2: "Elche C.F.", goles1: 1, goles2: 1 }
 ];
 
 // --- LÓGICA DE LA TABLA ---
