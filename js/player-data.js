@@ -246,6 +246,7 @@ const playersData = {
         ],
 
         nationalTeam: [
+            { season: "2026", team: "España", category: "Amistosos" },
             { season: "2023", team: "España Sub-21", category: "Europeo Sub-21 - Amistosos" },
             { season: "2022", team: "España Sub-21", category: "Amistosos" },
         ],
